@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+</head>
+<style>
+    .main{
+        width: 990px;
+        height: 530px;
+        border: solid 8px #979797;
+    }
+    .close{
+        margin-left: 900px;
+        display: block;
+        font-size: 127px;
+        width: 66px;
+        height: 66px;
+        
+    }
+    .centimeBtn{
+        border:none;
+            width: 180px;
+          height: 50px;
+          font-family: HelveticaNeue;
+        margin-left:114px;
+          font-size: 12px;
+          font-weight: 500;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: 2.31px;
+          text-align: center;
+          background-color: #ffd500;
+    }
+    .cancelBtn{
+            border:none;
+            width: 180px;
+          height: 50px;
+          margin-left:262px;
+          font-family: HelveticaNeue;
+          font-size: 12px;
+          font-weight: 500;
+          color:#ffffff;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: 2.31px;
+          text-align: center;
+          background-color: #25282d;
+    }
+    .maintxt{
+        margin-top:26px;
+        margin-left:30px;
+         width: 936px;
+  height: 83px;
+  font-family: HelveticaNeue;
+  font-size: 60px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -0.83px;
+  text-align: center;
+  color: #000000;
+    }
+    .subtxt{
+        margin-left:212px;
+        margin-top:10px;
+        width: 600px;
+  height: 50px;
+  font-family: HelveticaNeue;
+  font-size: 22px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+    }
+</style>
+<body>
+    <section class="main">
+            <span class="close">&times;</span>
+            <svg style="margin-left:469px;width: 83px;
+                      height: 83px;
+                      background-color: #e6e6e6;" alt="Del">
+                <oval></oval>
+        </svg>
+            <div class="maintxt">
+            Delete Jane's Plan</div>
+        <div class="subtxt">
+            Are you sure you want to delete this plan ?</div>
+            <div style="margin-top:77px;">
+                <button class="cancelBtn">CANCEL</button>
+                <button class="centimeBtn" onclick="function(){window.location.href='http:///?authcode=ravisauthcode'}">DELETE</button>
+            </div>
+    </section>
+</body>
+
+</html> 

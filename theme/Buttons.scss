@@ -1,0 +1,10 @@
+@import "./theme";
+$btn-letter-spacing: 0.1rem;
+$btn-font-size: 0.75rem;
+@import "./bootstrap/buttons";
+.btn{
+  @extend .btn;
+  margin-top:$std-margin-y;
+  margin-left:$std-margin-x;
+  letter-spacing: $btn-letter-spacing;
+}

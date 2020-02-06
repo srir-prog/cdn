@@ -1,0 +1,25 @@
+{
+  "en": {
+    "translation": {
+      "Welcome": "Welcome to React and react-i18next",
+      "Primary": "Primary Variant",
+      "Secondary": "Secondary Variant",
+      "Disabled": "Disabled Variant",
+      "Active": "Active State"
+    },
+    "sub": {
+      "Primary":"Trans Primary Button"
+    }
+  },
+  "hin": {
+    "translation": {
+      "Welcome": "Centime ATM में आपका स्वागत है"
+    },
+    "sub": {
+      "Primary":"प्राथमिक बटन",
+      "Secondary": "द्वितीयक बटन",
+      "Disabled": "अक्षम बटन",
+      "Active": "सक्रिय बटन"
+    }
+  }
+}
