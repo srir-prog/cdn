@@ -1,3 +1,6 @@
 {
-  "Primary": "Trans Primary Button"
+  "Primary": "Sub Primary",
+  "Secondary": "Sub Secondary",
+  "Disabled": "Sub Disabled",
+  "Active": "Sub Active"
 }
