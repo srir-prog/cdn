@@ -4,5 +4,16 @@
   "Secondary": "Secondary Variant",
   "Tertiary": "Tertiary Variant",
   "Disabled": "Disabled Variant",
-  "Active": "Active Variant"
+  "Active": "Active Variant",
+  "navigation" : "Navigation Tabs",
+  "Skip": "Skip to main content",
+  "search" : "Search Button",
+  "settings": "All Settings",
+  "guide" : "Guide to all features",
+  "sync": "Sync",
+  "notifications": "Notifications",
+  "menu": "Menu",
+  "About Centime": "About Centime",
+  "How it Works": "How it Works",
+  "Contact Support": "Contact Support"
 }

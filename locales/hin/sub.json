@@ -3,5 +3,16 @@
   "Secondary": "द्वितीयक बटन",
   "Tertiary": "तृतीयक बटन",
   "Disabled": "अक्षम बटन",
-  "Active": "सक्रिय बटन"
+  "Active": "सक्रिय बटन",
+  "navigation": "पथ प्रदर्शन",
+  "Skip": "मुख्य विषयवस्तु में जाएं",
+  "search" : "खोज",
+  "settings": "समायोजन",
+  "guide" : "मार्गदर्शक",
+  "sync": "सिंक",
+  "notifications": "सूचनाएं",
+  "menu": "मेन्यू",
+  "About Centime": "Centime के बारे में",
+  "How it Works": "किस प्रकार काम करता है",
+  "Contact Support": "सहयोग टीम से संपर्क करें"
 }
