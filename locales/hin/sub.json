@@ -1,7 +1,7 @@
 {
   "Primary": "प्राथमिक बटन",
   "Secondary": "द्वितीयक बटन",
-  "Tertiary": "तृतीयक बटन",
+  "Outlined Secondary": "उल्लिखित द्वितीयक",
   "Disabled": "अक्षम बटन",
   "Active": "सक्रिय बटन",
   "navigation": "पथ प्रदर्शन",
@@ -12,8 +12,11 @@
   "sync": "सिंक",
   "notifications": "सूचनाएं",
   "menu": "मेन्यू",
-  "About Centime": "Centime के बारे में",
+  "Centime":"सेनटीम",
+  "About Centime": "सेनटीम के बारे में",
   "How it Works": "किस प्रकार काम करता है",
   "Contact Support": "सहयोग टीम से संपर्क करें",
-  "partner": "उसके साथ साझेदारी में"
+  "partner": "उसके साथ साझेदारी में",
+  "Set Light Theme":"लाइट थीम सेट करें",
+  "Set Dark Theme":"डार्क थीम सेट करें"
 }

@@ -2,7 +2,7 @@
   "Welcome": "Welcome to React and react-i18next",
   "Primary": "Primary Variant",
   "Secondary": "Secondary Variant",
-  "Tertiary": "Tertiary Variant",
+  "Outlined Secondary": "Outlined Variant",
   "Disabled": "Disabled Variant",
   "Active": "Active Variant",
   "navigation" : "Navigation Tabs",
@@ -16,5 +16,7 @@
   "About Centime": "About Centime",
   "How it Works": "How it Works",
   "Contact Support": "Contact Support",
-  "partner": "In partnership with"
+  "partner": "In partnership with",
+  "Set Light Theme":"Set Light Theme",
+  "Set Dark Theme":"Set Dark Theme",
 }
