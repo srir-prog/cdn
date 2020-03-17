@@ -4,5 +4,8 @@
   "Key 3": "<0>Welcome</0> {{name}}, Translating <1>{{count}}</1> message.",
   "Key 3_plural": "<0>Welcome</0> {{name}}, Translating <1>{{count}}</1> messages.",
   "Primary Btn" : "Primary Variant Btn",
-  "Secondary Btn" : "Secondary Variant Btn"
+  "Secondary Btn" : "Secondary Variant Btn",
+  "key4": "{{count}} item",
+  "key4_plural": "{{count}} items",
+  "key4_interval": "(1){one item};(2-7){a few items};(7-inf){a lot of items};",
 }
