@@ -1,0 +1,8 @@
+{
+  "key1": "test1",
+  "key2": "Test 2",
+  "Key 3": "<0>Welcome</0> {{name}}, Translating <1>{{count}}</1> message.",
+  "Key 3_plural": "<0>Welcome</0> {{name}}, Translating <1>{{count}}</1> messages.",
+  "Primary Btn" : "Primary Variant Btn",
+  "Secondary Btn" : "Secondary Variant Btn"
+}
