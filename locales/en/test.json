@@ -8,5 +8,5 @@
   "key4": "{{count}} item",
   "key4_plural": "{{count}} items",
   "key4_interval": "(1){one item};(2-7){a few items};(7-inf){a lot of items};",
-  "key5":"Hello <1>User</1>, Welcome to <3>Centime</3>"    
+  "key5":"<0>Hello <1>User</1>, Welcome to <3>Centime</3></0>"    
 }
