@@ -1,8 +1,8 @@
 {
   "key1": "testhin1",
   "key2": "Test Hin 2",
-  "Key 3": "<0>Welcome</0> {{name}}, Translating <1>{{count}}</1> message in Hindi.",
-  "Key 3_plural": "<0>Welcome</0> {{name}}, Translating <1>{{count}}</1> messages in Hindi.",
+  "Key 3": "<0>Welcome</0> {{name}}, Translating <4>{{count}}</4> message in Hindi.",
+  "Key 3_plural": "<0>Welcome</0> {{name}}, Translating <4>{{count}}</4> messages in Hindi.",
   "Primary Btn" : "प्राथमिक बटन",
   "Secondary Btn" : "द्वितीयक बटन"
 }
