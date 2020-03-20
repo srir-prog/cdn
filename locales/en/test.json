@@ -9,5 +9,5 @@
   "key4_plural": "{{count}} items",
   "key4_interval": "(1){one item};(2-7){a few items};(7-inf){a lot of items};",
   "key5":"<0>Hello <1>User</1>, Welcome to <3>Centime</3></0>",
-  "multipleTags" : "I have <1>Multiple</1> tags, can you <3>really</3> <4>translate ?</4>"       
+  "multipleTags" : "I have <1>Multiple</1> tags, can you <3>really</3> honestly <5>translate ?</5>"       
 }
