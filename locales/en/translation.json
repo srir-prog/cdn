@@ -1,5 +1,6 @@
 {
   "Welcome": "Welcome to React and react-i18next",
+  "Welcome User" : "Welcome {{name}}",    
   "Primary": "Primary Variant",
   "Secondary": "Secondary Variant",
   "Outlined Secondary": "Outlined Variant",
