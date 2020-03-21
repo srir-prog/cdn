@@ -12,9 +12,6 @@
     "Work E-Mail Address": "कार्य ईमेल",
     "Complete your profile" : "अपनी प्रोफाइल पूरी कीजिए",
     "NotUser":"{{fullName}} नहीं ?",
-    "agreeConditions" : "साइन अप करके, मैं सेनटीम के लिए सहमत हूं",
-    "privacy policy" : "गोपनीयता नीति",
-    "terms of service" : "सेवा की शर्तें",
-    "and":"और",
+    "agreeConditions" : "साइन अप करके, मैं सेनटीम गोपनीयता नीति और सेवा की शर्तों से सहमत हूं",
     "Sign Me Up": "मुझे साइन अप"
 }

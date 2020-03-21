@@ -13,8 +13,5 @@
     "Complete your profile" : "Complete your profile",
     "NotUser":"Not {{fullName}} ?",
     "agreeConditions" : "By signing up, I agree to Centime <1>privacy policy</1> and <3>terms of service</3>",
-    "privacy policy" : "privacy policy",
-    "terms of service" : "terms of service",
-    "and" : "and",
     "Sign Me Up":"Sign Me Up"
 }
