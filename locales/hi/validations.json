@@ -1,0 +1,9 @@
+{
+  "oneLowerCase": "एक निचला मामला चरित्र",
+  "max255Len" : "अधिकतम 255 वर्ण अनुमत",    
+  "inValidEmail": "अवैध ईमेल",
+  "oneUpperCase": "एक ऊपरी मामला चरित्र",
+  "oneNumber": "एक संख्या",
+  "oneSpecialChar": "एक विशेष चरित्र",
+  "min8Chars": "कम से कम 8 अक्षर"
+}

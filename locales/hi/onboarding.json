@@ -1,0 +1,20 @@
+{
+    "WelcomeUser" : "स्वागत{{name}}",
+    "Skip": "मुख्य विषयवस्तु में जाएं", 
+    "Login" : "लॉगिन",
+    "About Centime": "सेनटीम के बारे में",
+    "How it Works": "किस प्रकार काम करता है",
+    "Contact Support": "सहयोग टीम से संपर्क करें",
+    "partner": "उसके साथ साझेदारी में",
+    "Already a User ?" : "पहले से ही एक उपयोगकर्ता ?",
+    "First Name" : "पहला नाम",
+    "Last Name":"उपनाम",
+    "Work E-Mail Address": "कार्य ईमेल",
+    "Complete your profile" : "अपनी प्रोफाइल पूरी कीजिए",
+    "NotUser":"{{fullName}} नहीं ?",
+    "agreeConditions" : "साइन अप करके, मैं सेनटीम के लिए सहमत हूं",
+    "privacy policy" : "गोपनीयता नीति",
+    "terms of service" : "सेवा की शर्तें",
+    "and":"और",
+    "Sign Me Up": "मुझे साइन अप"
+}

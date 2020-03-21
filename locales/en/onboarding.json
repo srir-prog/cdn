@@ -1,0 +1,20 @@
+{
+    "WelcomeUser" : "Welcome{{fullName}}",
+    "Skip": "Skip to main content",
+    "About Centime": "About Centime",
+    "How it Works": "How it Works",
+    "Contact Support": "Contact Support",
+    "partner": "In partnership with",
+    "Already a User ?" : "Already a User ?",
+    "Login" : "Login",
+    "First Name" : "First Name",
+    "Last Name":"Last Name",
+    "Work E-Mail Address": "Work E-Mail Address",
+    "Complete your profile" : "Complete your profile",
+    "NotUser":"Not {{fullName}} ?",
+    "agreeConditions" : "By signing up, I agree to Centime",
+    "privacy policy" : "privacy policy",
+    "terms of service" : "terms of service",
+    "and" : "and",
+    "Sign Me Up":"Sign Me Up"
+}

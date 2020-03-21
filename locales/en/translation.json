@@ -1,23 +1,19 @@
 {
-  "Welcome": "Welcome to React and react-i18next",
-  "Welcome User" : "Welcome {{name}}",    
+  "Welcome": "Welcome to React and react-i18next", 
   "Primary": "Primary Variant",
   "Secondary": "Secondary Variant",
   "Outlined Secondary": "Outlined Variant",
   "Disabled": "Disabled Variant",
   "Active": "Active Variant",
   "navigation" : "Navigation Tabs",
-  "Skip": "Skip to main content",
   "search" : "Search Button",
   "settings": "All Settings",
   "guide" : "Guide to all features",
   "sync": "Sync",
   "notifications": "Notifications",
   "menu": "Menu",
-  "About Centime": "About Centime",
-  "How it Works": "How it Works",
-  "Contact Support": "Contact Support",
-  "partner": "In partnership with",
   "Set Light Theme":"Set Light Theme",
-  "Set Dark Theme":"Set Dark Theme"
+  "Set Dark Theme":"Set Dark Theme",
+  "Predict Cash Flow": "Predict Cash Flow",
+  "Optimize Liquidity" : "Optimize Liquidity"
 }
