@@ -5,5 +5,6 @@
   "oneUpperCase": "One Upper Case Character",
   "oneNumber": "One Number",
   "oneSpecialChar": "One Special Character",
-  "min8Chars": "8 Characters Minimum"
+  "min8Chars": "8 Characters Minimum",
+  "capsLockOn" : "CAPS Lock is On" 
 }

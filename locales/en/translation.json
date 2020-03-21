@@ -14,6 +14,5 @@
   "menu": "Menu",
   "Set Light Theme":"Set Light Theme",
   "Set Dark Theme":"Set Dark Theme",
-  "Predict Cash Flow": "Predict Cash Flow",
-  "Optimize Liquidity" : "Optimize Liquidity"
+  "Predict Cash Flow. Optimize Liquidity.": "Predict Cash Flow. Optimize Liquidity.",
 }
