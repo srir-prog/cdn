@@ -6,6 +6,7 @@
     "First Name" : "First Name",
     "Last Name":"Last Name",
     "Work E-Mail Address": "Work E-Mail Address",
+    "Password" : "Password",
     "Complete your profile" : "Complete your profile",
     "NotUser":"Not {{fullName}} ?",
     "agreeConditions" : "By signing up, I agree to Centime <1>privacy policy</1> and <3>terms of service</3>",
