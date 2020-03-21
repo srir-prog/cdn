@@ -1,10 +1,6 @@
 {
     "WelcomeUser" : "Welcome{{fullName}}",
     "Skip": "Skip to main content",
-    "About Centime": "About Centime",
-    "How it Works": "How it Works",
-    "Contact Support": "Contact Support",
-    "partner": "In partnership with",
     "Already a User ?" : "Already a User ?",
     "Login" : "Login",
     "First Name" : "First Name",
