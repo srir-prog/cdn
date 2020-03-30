@@ -1,6 +1,7 @@
 {
   "Invalid": "Invalid",
   "inValidEmail": "Invalid Email",
+  "isRequired" : "This is a required field",    
   "oneLowerCase": "One Lower Case Character",
   "max255Len" : "Maximum of 255 Characters allowed",    
   "inValidEmail": "InValid Email",
