@@ -5,6 +5,6 @@
   "testMsg" : "Testing a message",
   "testMsg2" : "Testing another message",
   "InviteExpired" : "Sorry, your Invitation got expired",
-  "ResendInvite" : "Request another invite",
-      
+  "ResendInvite" : "Request another invite", 
+  "Error" : "Error"
 }
