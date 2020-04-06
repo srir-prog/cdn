@@ -1,0 +1,10 @@
+{
+  "0": "Some Internal Error Occurred",
+  "0Msg": "Please try again after some time, we will fix this ASAP in the meantime..",
+  "testHeader": "Testing the Heading",
+  "testMsg" : "Testing a message",
+  "testMsg2" : "Testing another message",
+  "InviteExpired" : "Sorry, your Invitation got expired",
+  "ResendInvite" : "Request another invite",
+      
+}
