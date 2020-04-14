@@ -8,7 +8,12 @@
     "Work E-Mail Address": "Work E-Mail Address",
     "Password" : "Password",
     "Complete your profile" : "Complete your profile",
+    "Create your profile" : "Create your profile",
     "NotUser":"Not {{fullName}} ?",
     "agreeConditions" : "By signing up, I agree to Centime <1>privacy policy</1> and <3>terms of service</3>",
-    "Sign Me Up":"Sign Me Up"
+    "Sign Me Up":"Sign Me Up",
+    "EmailTrouble":"Trouble with email verification ?",
+    "ContactUs" : "Yes, Please contact me",
+    "ContactMe": "Would you like to have someome contact you for help ?",
+    "WillContactYou" : "Thanks. Someone will be in touch with you."
 }

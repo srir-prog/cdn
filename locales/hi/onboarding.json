@@ -8,7 +8,12 @@
     "Work E-Mail Address": "कार्य ईमेल",
     "Password" : "पासवर्ड",
     "Complete your profile" : "अपनी प्रोफाइल पूरी कीजिए",
+    "Create your profile" : "अपनी प्रोफाइल बनाए",
     "NotUser":"{{fullName}} नहीं ?",
     "agreeConditions" : "साइन अप करके, मैं सेनटीम गोपनीयता नीति और सेवा की शर्तों से सहमत हूं",
-    "Sign Me Up": "मुझे साइन अप"
+    "Sign Me Up": "मुझे साइन अप",
+    "EmailTrouble":"Trouble with email verification ?",
+    "ContactUs" : "Yes, Please contact me",
+    "ContactMe": "Would you like to have someome contact you for help ?",
+    "WillContactYou" : "Thanks. Someone will be in touch with you."
 }
