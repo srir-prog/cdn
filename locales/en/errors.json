@@ -3,9 +3,6 @@
   "0Msg": "Please try again after some time, we will fix this ASAP in the meantime..",
   "testHeader": "Testing the Heading",
   "testMsg" : "Testing a message",
-  "testMsg2" : "Testing another message",
-  "InviteExpired" : "Sorry, your Invitation got expired",
-  "ResendInvite" : "Request another invite",
-  "checkInviteMail": "A New Invite has been sent. Please check your email",    
+  "testMsg2" : "Testing another message", 
   "Error" : "Error"
 }
