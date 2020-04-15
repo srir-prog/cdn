@@ -3,6 +3,8 @@
   "0Msg": "Please try again after some time, we will fix this ASAP in the meantime..",
   "testHeader": "Testing the Heading",
   "testMsg" : "Testing a message",
-  "testMsg2" : "Testing another message", 
+  "testMsg2" : "Testing another message",
+  "PageNotFound" : "This Page is not Found",    
+  "GoHome": "Go to Home",    
   "Error" : "Error"
 }

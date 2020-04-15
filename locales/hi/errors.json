@@ -3,6 +3,8 @@
   "0Msg": "कुछ समय बाद प्रयास करें..",
   "testHeader": "शीर्षक का परीक्षण",
   "testMsg" : "संदेश का परीक्षण",
-  "testMsg2" : "एक और संदेश का परीक्षण",   
+  "testMsg2" : "एक और संदेश का परीक्षण",
+  "PageNotFound" : "This Page is not Found",
+  "GoHome": "Go to Home",
   "Error" : "त्रुटि"
 }
