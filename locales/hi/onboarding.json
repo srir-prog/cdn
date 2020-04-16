@@ -21,6 +21,6 @@
     "WillContactYou" : "धन्यवाद । कोई आपके संपर्क में रहेगा ।",
     "Login": "लॉग इन करें",
     "Enter Work Email" : "कार्य ईमेल दर्ज करें",
-    "ResendMail": "Resend Verification Email",
-    "MailSentMsg" : "<0>An account verification email was sent to </0><1>{{email}}</1> <2></2> <3>Please click on the link provided in your email to verify your account.</3>"
+    "ResendMail": "सत्यापन ईमेल पुनः भेजे",
+    "MailSentMsg" : "<0>एक खाता सत्यापन ईमेल <1>{{email}}</1> को भेजा गया था</0> <2/> <3>अपने खाते को सत्यापित करने के लिए कृपया अपने ईमेल में दिए गए लिंक पर क्लिक करें।</3>"
 }
