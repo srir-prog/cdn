@@ -18,5 +18,9 @@
     "EmailTrouble":"Trouble with email verification ?",
     "ContactUs" : "Yes, Please contact me",
     "ContactMe": "Would you like to have someone contact you for help ?",
-    "WillContactYou" : "Thanks. Someone will be in touch with you."
+    "WillContactYou" : "Thanks. Someone will be in touch with you.",
+    "Login": "Log In",
+    "Enter Work Email" : "Enter Work Email",
+    "ResendMail": "Resend Verification Email",
+    "MailSentMsg" : "<0>An account verification email was sent to </0><1>{{email}}</1> <2></2> <3>Please click on the link provided in your email to verify your account.</3>"
 }
