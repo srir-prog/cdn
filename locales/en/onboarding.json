@@ -22,7 +22,7 @@
     "Login": "Log In",
     "Enter Work Email" : "Enter Work Email",
     "ResendMail": "Resend Verification Email",
-    "MailSentMsg" : "<0>An account verification email was sent to <1>{{email}}</1></0>",
+    "MailSentMsg" : "An account verification email was sent to {{email}}",
     "CheckMail": "Please click on the link provided in your email to verify your account.",
     "DidNotGetEmail" : "Did not get a verification email ?",
     "MailResent": "Successfully Resent the Mail ! Please check your Inbox."
