@@ -22,7 +22,8 @@
     "Login": "Log In",
     "Enter Work Email" : "Enter Work Email",
     "ResendMail": "Resend Verification Email",
-    "MailSentMsg" : "<0>An account verification email was sent to </0><1>{{email}}</1> <2/> <3>Please click on the link provided in your email to verify your account.</3>",
+    "MailSentMsg" : "<0>An account verification email was sent to </0><1>{{email}}</1>",
+    "CheckMail": "Please click on the link provided in your email to verify your account.",
     "DidNotGetEmail" : "Did not get a verification email ?",
     "MailResent": "Successfully Resent the Mail ! Please check your Inbox."
 }
