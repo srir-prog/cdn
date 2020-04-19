@@ -2,7 +2,7 @@
     "WelcomeUser" : "Welcome{{fullName}}",
     "Skip": "Skip to main content",
     "Already a User ?" : "Already a User ?",
-    "Login" : "Login",
+    "Login" : "Log In",
     "First Name" : "First Name",
     "Last Name":"Last Name",
     "Work E-Mail Address": "Work E-Mail Address",
@@ -20,10 +20,11 @@
     "ContactMe": "Would you like to have someone contact you for help ?",
     "WillContactYou" : "Thanks. Someone will be in touch with you.",
     "Login": "Log In",
+    "Login Name": "Login Name",
     "Enter Work Email" : "Enter Work Email",
     "ResendMail": "Resend Verification Email",
-    "-MailSentMsg" : "An account verification email was sent to {{email}} <br/> Please click on the link provided in your email to verify your account.",
-    "CheckMail": "Please click on the link provided in your email to verify your account.",
+    "MailSentMsg" : "An account verification email was sent to {{email}}. {{- nextLine}} Please click on the link provided in your email to verify your account.",
     "DidNotGetEmail" : "Did not get a verification email ?",
-    "MailResent": "Successfully Resent the Mail ! Please check your Inbox."
+    "MailResent": "Successfully Resent the Mail ! Please check your Inbox.",
+    "AlreadySignUp" : "Looks like you are already signed up and can login"
 }
