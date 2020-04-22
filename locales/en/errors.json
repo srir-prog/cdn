@@ -1,6 +1,8 @@
 {
   "0": "Some Internal Error Occurred",
   "0Msg": "Please try again after some time, we will fix this ASAP in the meantime..",
+  "1": "Internet Lost",
+  "1Msg": "Check your internet connection and try again",
   "testHeader": "Testing the Heading",
   "testMsg" : "Testing a message",
   "testMsg2" : "Testing another message",

@@ -13,5 +13,6 @@
   "oneNumberFull": "कम से कम एक नंबर की जरूरत है",
   "oneSpecialCharFull": "कम से कम एक विशेष चरित्र की आवश्यकता है",
   "min8CharsFull": "न्यूनतम 8 वर्णों की आवश्यकता है",    
-  "capsLockOn" : "कैप्स लॉक ऑन है"    
+  "capsLockOn" : "कैप्स लॉक ऑन है",
+  "WrongCredentials" : "अमान्य लॉगिन आईडी या पासवर्ड" 
 }
