@@ -23,6 +23,8 @@
     "Login": "Log In",
     "Login Name": "Login Name",
     "Enter Work Email" : "Enter Work Email",
+    "Forgot Password ?": "Forgot Password ?",
+    "Remember Me" : "Remember Me",
     "ResendMail": "Resend Verification Email",
     "MailSentMsg" : "An account verification email was sent to {{email}}.",
     "ClickOnLink": "Please click on the link provided in your email to verify your account.",
@@ -31,5 +33,11 @@
     "AlreadySignUp" : "Looks like you are already signed up and can login",
     "Forgot Password" : "Forgot Password",
     "ReceiveResetLink": "Enter your email id, If there is such an account, you will receive a reset password link.",
-    "Send Link": "Send Link"
+    "Send Link": "Send Link",
+    "Resend Link": "Resend Link",
+    "CheckEmail" : "Please check your e-mail.",
+    "NewPswdPageTitle": "Enter a new password",
+    "ResetAndCreate": "Your old password has been reset. Create a new password.",
+    "NewPassword" : "CREATE A NEW PASSWORD",
+    "ResetPswd" : "Reset Password"
 }
