@@ -19,6 +19,7 @@
     "ContactUs" : "Yes, Please contact me",
     "ContactMe": "Would you like to have someone contact you for help ?",
     "WillContactYou" : "Thanks. Someone will be in touch with you.",
+    "LoginPageTitle" : "Enter Your Login Information",
     "Login": "Log In",
     "Login Name": "Login Name",
     "Enter Work Email" : "Enter Work Email",
@@ -27,5 +28,8 @@
     "ClickOnLink": "Please click on the link provided in your email to verify your account.",
     "DidNotGetEmail" : "Did not get a verification email ?",
     "NotYetVerified": "You are not yet verified your account, trouble with the link in the email ?",
-    "AlreadySignUp" : "Looks like you are already signed up and can login"
+    "AlreadySignUp" : "Looks like you are already signed up and can login",
+    "Forgot Password" : "Forgot Password",
+    "ReceiveResetLink": "Enter your email id, If there is such an account, you will receive a reset password link.",
+    "Send Link": "Send Link"
 }
