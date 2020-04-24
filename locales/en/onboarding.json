@@ -39,5 +39,8 @@
     "NewPswdPageTitle": "Enter a new password",
     "ResetAndCreate": "Your old password has been reset. Create a new password.",
     "NewPassword" : "CREATE A NEW PASSWORD",
-    "ResetPswd" : "Reset Password"
+    "ResetPswd" : "Reset Password",
+    "SuccessResetPswd" : "Password Reset Successfully. You will be redirected to dashboard in",
+    "seconds" : "{{count}} sec",
+    "seconds_plural": "{{count}} secs"
 }
