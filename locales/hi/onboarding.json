@@ -42,5 +42,7 @@
     "ResetPswd" : "पासवर्ड रीसेट",
     "SuccessResetPswd" : "पासवर्ड रीसेट सफलतापूर्वक। आपको डैशबोर्ड में पुनर्निर्देशित किया जाएगा",
     "seconds" : "{{count}} सेकंड",
-    "seconds_plural": "{{count}} सेकेंड"
+    "seconds_plural": "{{count}} सेकेंड",
+    "AccountLockedMsg" : "बहुत से विफल लॉगिन प्रयासों के कारण आपका खाता लॉक कर दिया गया है।",
+    "AccountLocked" : "यह खाता लॉक कर दिया गया है"
 }

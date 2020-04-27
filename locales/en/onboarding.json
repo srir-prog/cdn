@@ -42,5 +42,7 @@
     "ResetPswd" : "Reset Password",
     "SuccessResetPswd" : "Password Reset Successfully. You will be redirected to dashboard in",
     "seconds" : "{{count}} sec",
-    "seconds_plural": "{{count}} secs"
+    "seconds_plural": "{{count}} secs",
+    "AccountLockedMsg" : "Your account has been locked due to too many failed login attempts.",
+    "AccountLocked" : "This account has been locked"
 }
