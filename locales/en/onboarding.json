@@ -48,5 +48,6 @@
     "AccountLockedMsg" : "Your account has been locked due to too many failed login attempts.",
     "AccountLocked" : "This account has been locked",
     "AccountVerified" : "Account Verified",
-    "WrongCredentials" : "Invalid Login Name or Password"
+    "WrongCredentials" : "Invalid Login Name or Password",
+    "Verify your Account": "Verify your Account"
 }
