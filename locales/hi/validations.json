@@ -7,13 +7,12 @@
   "min3Len" : "न्यूनतम 3 वर्ण आवश्यक",
   "oneUpperCase": "एक ऊपरी मामला चरित्र",
   "oneNumber": "एक संख्या",
-  "oneSpecialChar": "एक विशेष चरित्र(+,= छोड़कर)",
+  "oneSpecialChar": "एक विशेष चरित्र(+ या = छोड़कर)",
   "min8Chars": "कम से कम 8 अक्षर",
   "oneLowerCaseFull": "कम से कम मामला कम से कम एक चरित्र की जरूरत है",   
   "oneUpperCaseFull": "कम से कम एक ऊपरी मामला चरित्र की जरूरत है",
   "oneNumberFull": "कम से कम एक नंबर की जरूरत है",
   "oneSpecialCharFull": "कम से कम एक विशेष चरित्र की आवश्यकता है",
   "min8CharsFull": "न्यूनतम 8 वर्णों की आवश्यकता है",    
-  "capsLockOn" : "कैप्स लॉक ऑन है",
-  "WrongCredentials" : "अमान्य लॉगिन आईडी या पासवर्ड" 
+  "capsLockOn" : "कैप्स लॉक ऑन है"
 }

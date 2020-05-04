@@ -44,5 +44,7 @@
     "seconds" : "{{count}} sec",
     "seconds_plural": "{{count}} secs",
     "AccountLockedMsg" : "Your account has been locked due to too many failed login attempts.",
-    "AccountLocked" : "This account has been locked"
+    "AccountLocked" : "This account has been locked",
+    "AccountVerified" : "Account Verified",
+    "WrongCredentials" : "Invalid Login Name or Password" 
 }

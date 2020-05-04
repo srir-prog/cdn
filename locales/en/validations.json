@@ -7,13 +7,12 @@
   "oneLowerCase": "One Lower Case Character",   
   "oneUpperCase": "One Upper Case Character",
   "oneNumber": "One Number",
-  "oneSpecialChar": "One Special Character(except +,=)",
+  "oneSpecialChar": "One Special Character(except + or =)",
   "min8Chars": "8 Characters Minimum",
   "oneLowerCaseFull": "Atleast One Lower Case Character is needed",   
   "oneUpperCaseFull": "Atleast One Upper Case Character is needed",
   "oneNumberFull": "Atleast One Number is needed",
   "oneSpecialCharFull": "Atleast One Special Character is needed",
   "min8CharsFull": "Minimum 8 Characters are needed",
-  "capsLockOn" : "CAPS Lock is On",
-  "WrongCredentials" : "Invalid Login Id or Password"    
+  "capsLockOn" : "CAPS Lock is On"   
 }

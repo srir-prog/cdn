@@ -44,5 +44,8 @@
     "seconds" : "{{count}} सेकंड",
     "seconds_plural": "{{count}} सेकेंड",
     "AccountLockedMsg" : "बहुत से विफल लॉगिन प्रयासों के कारण आपका खाता लॉक कर दिया गया है।",
-    "AccountLocked" : "यह खाता लॉक कर दिया गया है"
+    "AccountLocked" : "यह खाता लॉक कर दिया गया है",
+    "AccountVerified" : "खाता सत्यापित, आप लॉग इन कर सकते हैं",
+    "WrongCredentials" : "अमान्य लॉगिन आईडी या पासवर्ड" 
+    
 }
