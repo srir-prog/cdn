@@ -8,5 +8,7 @@
   "testMsg2" : "Testing another message",
   "PageNotFound" : "This Page is not Found",    
   "GoHome": "Go to Home",    
-  "Error" : "Error"
+  "Error" : "Error",
+  "UnableToSignUp": "Sorry we are unable to sign you up at the moment. Please contact FNBO.",
+  "CannotSignUp" : "Sorry, we are unable to sign you up at the moment."
 }

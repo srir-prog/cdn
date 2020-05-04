@@ -6,5 +6,7 @@
   "testMsg2" : "एक और संदेश का परीक्षण",
   "PageNotFound" : "This Page is not Found",
   "GoHome": "Go to Home",
-  "Error" : "त्रुटि"
+  "Error" : "त्रुटि",
+  "UnableToSignUp" : "क्षमा करें हम इस समय आपको साइन अप करने में असमर्थ हैं। कृपया FNBO से संपर्क करें।",
+  "CannotSignUp" : "क्षमा करें, हम इस समय आपको साइन अप करने में असमर्थ हैं।"
 }
