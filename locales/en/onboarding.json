@@ -11,6 +11,8 @@
     "Create your profile" : "Create your profile",
     "NotUser":"Not {{fullName}} ?",
     "agreeConditions" : "By signing up, I agree to Centime <1>privacy policy</1> and <3>terms of service</3>",
+    "privacy policy" : "privacy policy",
+    "terms of service" : "terms of service",
     "Sign Me Up":"Sign Me Up",
     "InviteExpired" : "Sorry, your Invitation got expired",
     "ResendInvite" : "Request another invite",
