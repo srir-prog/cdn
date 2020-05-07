@@ -1,0 +1,8 @@
+{
+    "SyncInProgress" : "Sync in Progress",
+    "EnterCredentials": "Enter Credentials",
+    "SyncFailed" : "Data Sync Failed",
+    "+connectEntity" : "+ Connect a business entity",
+    "ConnectEntity" : "Connect a business entity",
+    "SelectEntity" : "Select a business entity"
+}
