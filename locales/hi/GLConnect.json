@@ -1,5 +1,8 @@
 {
-    "SyncInProgress" : "Sync in Progress",
-    "EnterCredentials": "Enter Credentials",
-    "SyncFailed" : "Data Sync Failed"
+    "SyncInProgress" : "प्रगति में सिंक",
+    "EnterCredentials": "क्रेडेंशियल दर्ज करें",
+    "SyncFailed" : "डेटा सिंक विफल",
+    "+connectEntity" : "+ एक व्यवसाय इकाई कनेक्ट करें",
+    "ConnectEntity" : "एक व्यवसाय इकाई कनेक्ट करें",
+    "SelectEntity" : "एक व्यवसाय इकाई का चयन करें"
 }
