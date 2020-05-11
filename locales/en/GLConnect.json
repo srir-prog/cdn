@@ -12,7 +12,7 @@
     "Next" : "Next",
     "Previous" : "Previous",
     "WhatsTheNeed" : "Why do I need to do this?",
-    "SelectEntityTitle" : "Please select the general ledger application used by {entity}",
+    "SelectEntityTitle" : "Please select the general ledger application used by {{entity}}",
     "DontSeeApp" : "Don't see your application listed?",
     "AddHere" : "Add Here"
 }
