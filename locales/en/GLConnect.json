@@ -5,6 +5,7 @@
     "+connectEntity" : "+ Connect a business entity",
     "ConnectEntity" : "Connect a business entity",
     "SelectEntity" : "Select a business entity",
+    "AddEntity" : "Add a business entity",
     "ThisDemo" : "This is demo! Make it real!",
     "ConnectToGL" : "Connect your general ledger and bank.",
     "NotConnected": "Not Connected",
