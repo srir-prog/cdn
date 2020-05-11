@@ -6,5 +6,13 @@
     "ConnectEntity" : "Connect a business entity",
     "SelectEntity" : "Select a business entity",
     "ThisDemo" : "This is demo! Make it real!",
-    "ConnectToGL" : "Connect your general ledger and bank."
+    "ConnectToGL" : "Connect your general ledger and bank.",
+    "NotConnected": "Not Connected",
+    "Connected" : "Connected",
+    "Next" : "Next",
+    "Previous" : "Previous",
+    "WhatsTheNeed" : "Why do I need to do this?",
+    "SelectEntity" : "Please select the general ledger application used by {entity}",
+    "DontSeeApp" : "Don't see your application listed?",
+    "AddHere" : "Add Here"
 }
