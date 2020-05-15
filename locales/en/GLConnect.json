@@ -16,5 +16,6 @@
     "SelectEntityTitle" : "Please select the general ledger application used by {{entity}}",
     "DontSeeApp" : "Don't see your application listed?",
     "AddHere" : "Add Here",
-    "AddingSupport" : "We are always adding support for new applications.Please let us know what you use so that we can add it to our roadmap."
+    "AddingSupport" : "We are always adding support for new applications.Please let us know what you use so that we can add it to our roadmap.",
+    "SelectGL" : "Select GL Application"
 }
