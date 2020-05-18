@@ -17,5 +17,14 @@
     "DontSeeApp" : "Don't see your application listed?",
     "AddHere" : "Add Here",
     "AddingSupport" : "We are always adding support for new applications.Please let us know what you use so that we can add it to our roadmap.",
-    "SelectGL" : "Select GL Application"
+    "SelectGL" : "Select your GL Application",
+    "TypeGL" : "Type your GL Application",
+    "Thanks" : "Thanks!",
+    "WillAddSupport" : "We'll let you know when we add support for the application {{GL}}.",
+    "EnterMobile" : "Enter your mobile phone number so we can send you a verification code when you login",
+    "TwoStepVerificationTitle" : "Strengthen access to your account with 2-step verification",
+    "EnterCode" : "Please enter the verification code",
+    "CodeSent" : "A verification code has been sent to your phone number",
+    "ResendCode":"Resend code",
+    "Verify" : "Verify"
 }

@@ -26,5 +26,7 @@
   "checkbox" : "checkbox",
   "Select" : "Select",
   "Clear" : "Clear",
-  "Close" : "Close"
+  "Close" : "Close",
+  "BackHome" : "Back to Home",
+  "Change" : "Change"
 }
