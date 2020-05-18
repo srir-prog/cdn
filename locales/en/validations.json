@@ -14,5 +14,6 @@
   "oneNumberFull": "Atleast One Number is needed",
   "oneSpecialCharFull": "Atleast One Special Character is needed",
   "min8CharsFull": "Minimum 8 Characters are needed",
-  "capsLockOn" : "CAPS Lock is On"   
+  "capsLockOn" : "CAPS Lock is On", 
+  "validNo" : "Please Enter a Valid Phone Number with Country Code"    
 }
