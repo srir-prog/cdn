@@ -26,6 +26,7 @@
     "EnterCode" : "Please enter the verification code",
     "CodeSent" : "A verification code has been sent to your phone number {{PHONE_NUM}} <1>Change</1>",
     "Change" : "Change",
+    "TimeLeft" : "{{seconds}} Seconds Left | <1>ResendCode</1>",
     "ResendCode":"Resend code",
     "Verify" : "Verify"
 }
