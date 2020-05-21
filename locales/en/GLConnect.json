@@ -21,11 +21,15 @@
     "TypeGL" : "Type your GL Application",
     "Thanks" : "Thanks!",
     "WillAddSupport" : "We'll let you know when we add support for the application {{GL}}.",
+    "VerifyPhone" : "Verify Phone No",
     "EnterMobile" : "Enter your mobile phone number so we can send you a verification code when you login",
     "TwoStepVerificationTitle" : "Strengthen access to your account with 2-step verification",
+    "SendCode" : "Send verification code",
     "EnterCode" : "Please enter the verification code",
     "CodeSent" : "A verification code has been sent to your phone number {{PHONE_NUM}} <1>Change</1>",
     "Change" : "Change",
     "ResendCode":"Resend code",
-    "Verify" : "Verify"
+    "Verify" : "Verify",
+    "SelectCountry": "Select your Country",
+    "TypeNo" : "Type Your Number"
 }
