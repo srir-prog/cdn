@@ -35,5 +35,6 @@
     "ResendCode":"Resend code",
     "Verify" : "Verify",
     "SelectCountry": "Select your Country",
-    "TypeNo" : "Type Your Number"
+    "TypeNo" : "Type Your Number",
+    "EntityAlreadyExists" : "This Entity Name already exists"
 }
