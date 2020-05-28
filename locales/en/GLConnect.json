@@ -36,5 +36,6 @@
     "Verify" : "Verify",
     "SelectCountry": "Select your Country",
     "TypeNo" : "Type Your Number",
-    "EntityAlreadyExists" : "This Entity Name already exists"
+    "EntityAlreadyExists" : "This Entity Name already exists",
+    "SelectGL" : "Select General Ledger",
 }
