@@ -36,5 +36,6 @@
     "TypeNo" : "अपना नंबर टाइप करें",
     "EntityAlreadyExists" : "यह इकाई नाम पहले से मौजूद है",
     "SelectGL" : "जनरल लेजर का चयन करें",
-    "SubmitOTP" : "ओटीपी जमा करें"
+    "SubmitOTP" : "ओटीपी जमा करें",
+    "confirmTheseSteps": "Please proceeed {{steps}} before proceeding"
 }

@@ -29,5 +29,6 @@
   "Close" : "Close",
   "Home" : "Home",    
   "BackHome" : "Back to Home",
-  "Change" : "Change"
+  "Change" : "Change",
+  "confirm" : "Confirm"
 }

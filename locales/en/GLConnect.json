@@ -38,5 +38,6 @@
     "TypeNo" : "Type Your Number",
     "EntityAlreadyExists" : "This Entity Name already exists",
     "SelectGL" : "Select General Ledger",
-    "SubmitOTP" : "Submit OTP"
+    "SubmitOTP" : "Submit OTP",
+    "confirmTheseSteps": "Please proceeed {{steps}} before proceeding"
 }
