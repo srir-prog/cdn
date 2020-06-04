@@ -39,5 +39,7 @@
     "EntityAlreadyExists" : "This Entity Name already exists",
     "SelectGL" : "Select General Ledger",
     "SubmitOTP" : "Submit OTP",
-    "confirmTheseSteps": "Please confirm {{steps}} before proceeding"
+    "confirmTheseSteps": "Please confirm {{steps}} before proceeding",
+    "AllSet" : "You are all Set !",
+    "GoodToGo" : "Your configuration is in good place. You can proceed further to enter the credentials."
 }
