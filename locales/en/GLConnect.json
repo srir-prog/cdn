@@ -44,6 +44,6 @@
     "GoodToGo" : "Your configuration is in good place. You can proceed further to enter the credentials.",
     "ConnectGL" : "Connect GL",
     "ConnectGLTitle" : "Sign in to {{GLType}}",
-    "ConnectGLInfo" : "Please sign into QuickBooks Online from the popup window. If no window has appeared, then please disable any popup blockers and <1>Click</1> to launch the sign in window",
+    "ConnectGLInfo" : "Please sign into {{GLType}} from the popup window. If no window has appeared, then please disable any popup blockers and <1>Click</1> to launch the sign in window",
     "Click" : "click here"
 }
