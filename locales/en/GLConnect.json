@@ -45,5 +45,16 @@
     "ConnectGL" : "Connect GL",
     "ConnectGLTitle" : "Sign in to {{GLType}}",
     "ConnectGLInfo" : "Please sign into {{GLType}} from the popup window. If no window has appeared, then please disable any popup blockers and <1>click here</1> to launch the sign in window",
-    "click here" : "click here"
+    "click here" : "click here",
+    "Launching" : "LAUNCHING..",
+    "ConfirmConnection" : "Confirm GL Connection",
+    "ChekConnectionTitle" : "Hang on while we confirm that everything is in order",
+    "CheckConnectionSubTitle" : "This will involve checking a few things and may take between 3 and 5 minutes",
+    "AccountCheck" : "Access to accounts",
+    "CustomerCheck" : "Access to customer",
+    "ItemCheck" : "Access to items",
+    "BuyerCheck" : "Checking access to buyers..",
+    "SuccessTitle" : "Success",
+    "NextStepInfo" : "The next step is for us to synchronize Centime with data from QuickBooks Online. Depending on how much data is pulled over, this may take some time.",
+    "ExitNow" : "Feel free to exit the application now. We will let you know when the synchronization is complete."
 }
