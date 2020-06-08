@@ -54,7 +54,12 @@
     "CustomerCheck" : "Access to customer",
     "ItemCheck" : "Access to items",
     "BuyerCheck" : "Checking access to buyers",
-    "SuccessTitle" : "Success",
+    "SuccessTitle" : "Success!",
     "NextStepInfo" : "The next step is for us to synchronize Centime with data from {{GLType}}. Depending on how much data is pulled over, this may take some time.",
-    "ExitNow" : "Feel free to exit the application now. We will let you know when the synchronization is complete."
+    "ExitNow" : "Feel free to exit the application now. We will let you know when the synchronization is complete.",
+    "FailedTitle" : "We're Sorry!",
+    "FailedSubTitle" : "We were not able to sync data from {{GLType}}for these reasons",
+    "FailureInfo" : "Please <1> download</1> this report, correct the errors and try connecting again. A detailed error report has been mailed to you",
+    "StartOver" : "Start Over",
+    "ContactUs": "Contact Centime Support"
 }
