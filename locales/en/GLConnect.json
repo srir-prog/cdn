@@ -59,7 +59,8 @@
     "ExitNow" : "Feel free to exit the application now. We will let you know when the synchronization is complete.",
     "FailedTitle" : "We're Sorry!",
     "FailedSubTitle" : "We were not able to sync data from {{GLType}} for these reasons",
-    "FailureInfo" : "Please <1> download</1> this report, correct the errors and try connecting again. A detailed error report has been mailed to you",
+    "FailureInfo" : "Please <1>download</1> this report, correct the errors and try connecting again. A detailed error report has been mailed to you",
+    "download" : "download",
     "StartOver" : "Start Over",
     "ContactUs": "Contact Centime Support"
 }
