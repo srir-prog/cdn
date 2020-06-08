@@ -55,6 +55,6 @@
     "ItemCheck" : "Access to items",
     "BuyerCheck" : "Checking access to buyers",
     "SuccessTitle" : "Success",
-    "NextStepInfo" : "The next step is for us to synchronize Centime with data from QuickBooks Online. Depending on how much data is pulled over, this may take some time.",
+    "NextStepInfo" : "The next step is for us to synchronize Centime with data from {{GLType}}. Depending on how much data is pulled over, this may take some time.",
     "ExitNow" : "Feel free to exit the application now. We will let you know when the synchronization is complete."
 }
