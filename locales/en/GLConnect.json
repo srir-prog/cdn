@@ -62,5 +62,9 @@
     "FailureInfo" : "Please <1>download</1> this report, correct the errors and try connecting again. A detailed error report has been mailed to you",
     "download" : "download",
     "StartOver" : "Start Over",
-    "ContactUs": "Contact Centime Support"
+    "ContactUs": "Contact Centime Support",
+    "ConfirmAccess" : "Confirm Access Privileges",
+    "ConfirmConfiguration" : "Confirm Application Configuration",
+    "EnterCredentials" : "Enter Credentials",
+    "SyncData" : "Sync Data"
 }
