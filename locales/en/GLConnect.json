@@ -66,5 +66,5 @@
     "ConfirmAccess" : "Confirm Access Privileges",
     "ConfirmConfiguration" : "Confirm Application Configuration",
     "EnterCredentials" : "Enter Credentials",
-    "SyncData" : "Sync Data"
+    "CheckAccess" : "Checking Access to GL"
 }
