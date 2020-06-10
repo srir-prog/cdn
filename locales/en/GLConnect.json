@@ -79,7 +79,12 @@
     "CAPRadio2" : "I don’t have the privileges",
     "CAPRadio2Subtext" : "I will invite the person with the privileges",
     "CopiedToClipboard" : "Copied To Clipboard",
-    "CopyInvite" : "Copy Invite"
+    "CopyInvite" : "Copy Invite",
+    "GLConfigurationsReviewTitle" : "Please review this checklist and confirm QuickBooks Online\nis configured appropriately.",
+    "IPAddressWhitelist":"Whitelist Stitch's IP addresses",
+    "whatneedstobedone":"What needs to be done"
+
+
 
 
 
