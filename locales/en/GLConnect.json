@@ -66,5 +66,19 @@
     "ConfirmAccess" : "Confirm Access Privileges",
     "ConfirmConfiguration" : "Confirm Application Configuration",
     "EnterCredentials" : "Enter Credentials",
-    "CheckAccess" : "Checking Access Privileges"
+    "CheckAccess" : "Checking Access Privileges",
+    "ConfirmAccessTitle" : "Please note that connecting to {{GLType}} will need these privileges",
+    "ConfirmAccessPage" : "Confirm Access Privileges",
+    "CAPList1" :"Chart of Accounts consectetur adipisicing elit.",
+    "CAPList2" :"Chart of Accounts consectetur adipisicing elit.",
+    "CAPList3" :"Chart of Accounts consectetur adipisicing elit.",
+    "CAPList4" :"Chart of Accounts consectetur adipisicing elit.",
+    "CAPTitle2" : "Please choose or Add the user",
+    "CAPRadio1" : "I have these privileges",
+    "CAPRadio2" : "I don’t have the privileges",
+    "CAPRadio2Subtext" : "I will invite the person with the privileges",
+    "CopiedToClipboard" : "Copied To Clipboard",
+    "CopyInvite" : "Copy Invite"
+
+
 }
