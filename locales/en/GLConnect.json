@@ -83,5 +83,6 @@
     "CopyInvite" : "Copy Invite",
     "GLConfigurationsReviewTitle" : "Please review this checklist and confirm QuickBooks Online\nis configured appropriately.",
     "IPAddressWhitelist":"Whitelist Stitch's IP addresses",
-    "whatneedstobedone":"What needs to be done"
+    "whatneedstobedone":"What needs to be done",
+    "ExpiredOrIncorrectCode" : "Code is Incorrect or Expired"
 }
