@@ -10,7 +10,7 @@
     "BusinessEntity": "Business Entity",
     "ThisDemo" : "This is demo! Make it real!",
     "ConnectToGL" : "Connect your general ledger and bank.",
-    "NotConnected": "Not Connected",
+    "ConnectionPending": "GL Connection Pending",
     "Connected" : "Connected",
     "Next" : "Next",
     "Previous" : "Previous",
@@ -73,12 +73,11 @@
     "CAPList2" :"Chart of Accounts consectetur adipisicing elit.",
     "CAPList3" :"Chart of Accounts consectetur adipisicing elit.",
     "CAPList4" :"Chart of Accounts consectetur adipisicing elit.",
-    "CAPTitle2" : "Please choose or Add the user",
+    "CAPRadioTitle1" : "Please choose or Add the user",
+    "CAPRadioTitle2": "Can you connect with the QuickBooks Online admin?",
     "CAPRadio1" : "I have these privileges",
     "CAPRadio2" : "I don’t have the privileges",
     "CAPRadio2Subtext" : "I will invite the person with the privileges",
     "CopiedToClipboard" : "Copied To Clipboard",
     "CopyInvite" : "Copy Invite"
-
-
 }
