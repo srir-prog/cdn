@@ -11,6 +11,7 @@
     "ThisDemo" : "यह एक डेमो है! उसे वास्तविक बनाएं!",
     "ConnectToGL" : "अपने सामान्य खाता बही और बैंक को कनेक्ट करें।",
     "ConnectionPending": "जीएल कनेक्शन लंबित",
+    "ReEnterCredentials" : "फिर से क्रेडेंशियल दर्ज करें",
     "Connected" : "जुड़े हुए",
     "Next" : "आगे",
     "Previous" : "पिछला",
@@ -77,5 +78,8 @@
     "CAPRadio2" : "मेरे पास विशेषाधिकार नहीं हैं",
     "CAPRadio2Subtext" : "मैं व्यक्ति को विशेषाधिकारों के साथ आमंत्रित करूंगा",
     "CopiedToClipboard" : "क्लिपबोर्ड पर नकल",
-    "CopyInvite" : "आमंत्रण कॉपी करें"
+    "CopyInvite" : "आमंत्रण कॉपी करें",
+    "GLConfigurationsReviewTitle" : "कृपया इस चेकलिस्ट की समीक्षा करें और पुष्टि करें कि QuickBooks Online को उचित रूप से कॉन्फ़िगर किया गया है।",
+    "IPAddressWhitelist":"व्हिटेलिस्ट स्टिच के आईपी पते",
+    "whatneedstobedone":"क्या किये जाने की आवश्यकता है"
 }
