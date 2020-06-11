@@ -85,5 +85,6 @@
     "IPAddressWhitelist":"Whitelist Stitch's IP addresses",
     "whatneedstobedone":"What needs to be done",
     "ExpiredOrIncorrectCode" : "Code is Incorrect or Expired",
-    "ReviewConfiguration" : "Review Configurations"
+    "ReviewConfiguration" : "Review Configurations",
+    "ResentCode" : "New Code is resent. Please Check"
 }

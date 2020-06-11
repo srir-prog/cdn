@@ -83,5 +83,6 @@
     "IPAddressWhitelist":"व्हिटेलिस्ट स्टिच के आईपी पते",
     "whatneedstobedone":"क्या किये जाने की आवश्यकता है",
     "ExpiredOrIncorrectCode" : "कोड गलत या समाप्त हो गया है",
-    "ReviewConfiguration" : "कॉन्फ़िगरेशन की समीक्षा करें"
+    "ReviewConfiguration" : "कॉन्फ़िगरेशन की समीक्षा करें",
+    "ResentCode" : "नया कोड नाराज है। कृपया जांचें"
 }
