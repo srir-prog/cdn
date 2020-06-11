@@ -82,5 +82,6 @@
     "GLConfigurationsReviewTitle" : "कृपया इस चेकलिस्ट की समीक्षा करें और पुष्टि करें कि QuickBooks Online को उचित रूप से कॉन्फ़िगर किया गया है।",
     "IPAddressWhitelist":"व्हिटेलिस्ट स्टिच के आईपी पते",
     "whatneedstobedone":"क्या किये जाने की आवश्यकता है",
-    "ExpiredOrIncorrectCode" : "कोड गलत या समाप्त हो गया है"
+    "ExpiredOrIncorrectCode" : "कोड गलत या समाप्त हो गया है",
+    "ReviewConfiguration" : "कॉन्फ़िगरेशन की समीक्षा करें"
 }
