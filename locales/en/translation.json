@@ -30,5 +30,6 @@
   "Home" : "Home",    
   "BackHome" : "Back to Home",
   "Change" : "Change",
-  "confirm" : "Confirm"
+  "confirm" : "Confirm",
+  "ClosePopUp" : "Please Close this Pop Up, if not automatically closed"    
 }

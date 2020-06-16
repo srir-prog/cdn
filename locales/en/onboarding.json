@@ -45,7 +45,7 @@
     "SuccessResetPswd_plural": "Password Reset Successfully. You will be redirected to dashboard in {{count}} secs",
     "AccountLockedMsg" : "Your account has been locked due to too many failed login attempts.",
     "AccountLocked" : "This account has been locked",
-    "AccountVerified" : "Account Verified",
+    "AccountVerified" : "Your Account is Verified",
     "WrongCredentials" : "Invalid Login Name or Password",
     "Verify your Account": "Verify your Account"
 }
