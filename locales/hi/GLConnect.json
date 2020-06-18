@@ -83,5 +83,8 @@
     "whatneedstobedone":"क्या किये जाने की आवश्यकता है",
     "ExpiredOrIncorrectCode" : "कोड गलत या समाप्त हो गया है",
     "ReviewConfiguration" : "कॉन्फ़िगरेशन की समीक्षा करें",
-    "ResentCode" : "नया कोड नाराज है। कृपया जांचें"
+    "ResentCode" : "नया कोड नाराज है। कृपया जांचें",
+    "ErrorConnectingGLRetryNotification": "GL कनेक्ट करने में त्रुटि आप पुनः प्रयास कर सकते हैं",
+    "ConnectGLInfoWhileRetry" : "कृपया पॉपअप विंडो से {{GLType}} में साइन इन करें। यदि कोई विंडो दिखाई नहीं देती है, तो कृपया किसी भी पॉपअप ब्लॉकर्स को अक्षम करें और <1> विंडो में साइन लॉन्च करने के लिए यहां क्लिक करें </1>",
+    "ConnectGLTitleWhileRetry" : "{{GLType}} में साइन इन करने का प्रयास करें"
 }
