@@ -89,5 +89,6 @@
     "ResentCode" : "New Code is resent. Please Check",
     "ErrorConnectingGLRetryNotification": "Error Connecting GL You Can Retry",
     "ConnectGLInfoWhileRetry" : "Please Retry to sign into {{GLType}} from the popup window. If no window has appeared, then please disable any popup blockers and <1>click here</1> to launch the sign in window",
-    "ConnectGLTitleWhileRetry" : "Retry to Sign in to {{GLType}}"
+    "ConnectGLTitleWhileRetry" : "Retry to Sign in to {{GLType}}",
+    "ManageUsers" : "Manage Users"
 }
