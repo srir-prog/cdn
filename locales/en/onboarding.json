@@ -47,5 +47,8 @@
     "AccountLocked" : "This account has been locked",
     "AccountVerified" : "Your Account is Verified",
     "WrongCredentials" : "Invalid Login Name or Password",
-    "Verify your Account": "Verify your Account"
+    "Verify your Account": "Verify your Account",
+    "Submit": "Submit",
+    "ques1":"Which general ledger application do you use?",
+    "ques2":"What is your industry?"
 }
