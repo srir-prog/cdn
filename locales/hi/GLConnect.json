@@ -31,7 +31,7 @@
     "CodeSent" : "आपके फ़ोन नंबर पर एक सत्यापन कोड भेजा गया है",
     "ChangePhoneNo" : "{{PhoneNo}} <1>Change</1>",
     "Change" : "बदल",
-    "TimeLeft" : "{{seconds}} सेकण्ड बचे  | <1>ResendCode</1>",
+    "TimeLeft" : "{{seconds}} सेकण्ड बचे",
     "ResendCode":"पुन: कोड भेजे",
     "Verify" : "सत्यापित करें",
     "SelectCountry": "अपने देश का चयन करें",
@@ -88,5 +88,6 @@
     "ErrorConnectingGLRetryNotification": "GL कनेक्ट करने में त्रुटि आप पुनः प्रयास कर सकते हैं",
     "ConnectGLInfoWhileRetry" : "कृपया पॉपअप विंडो से {{GLType}} में साइन इन करें। यदि कोई विंडो दिखाई नहीं देती है, तो कृपया किसी भी पॉपअप ब्लॉकर्स को अक्षम करें और <1> विंडो में साइन लॉन्च करने के लिए यहां क्लिक करें </1>",
     "ConnectGLTitleWhileRetry" : "{{GLType}} में साइन इन करने का प्रयास करें",
-    "ManageUsers" : "उपयोगकर्ताओं को प्रबंधित करें"
+    "ManageUsers" : "उपयोगकर्ताओं को प्रबंधित करें",
+    "selectCustomGL": "जीएल एप्लिकेशन का चयन करें"
 }

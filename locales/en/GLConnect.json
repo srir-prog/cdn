@@ -33,7 +33,7 @@
     "CodeSent" : "A verification code has been sent to your phone number",
     "ChangePhoneNo" : "{{PhoneNo}} <1>Change</1>",
     "Change" : "Change",
-    "TimeLeft" : "{{seconds}} Seconds Left  | <1>ResendCode</1>",
+    "TimeLeft" : "{{seconds}} Seconds Left",
     "ResendCode":"Resend code",
     "Verify" : "Verify",
     "SelectCountry": "Select your Country",
@@ -90,5 +90,6 @@
     "ErrorConnectingGLRetryNotification": "Error Connecting GL You Can Retry",
     "ConnectGLInfoWhileRetry" : "Please Retry to sign into {{GLType}} from the popup window. If no window has appeared, then please disable any popup blockers and <1>click here</1> to launch the sign in window",
     "ConnectGLTitleWhileRetry" : "Retry to Sign in to {{GLType}}",
-    "ManageUsers" : "Manage Users"
+    "ManageUsers" : "Manage Users",
+    "selectCustomGL": "Select GL Application"
 }
