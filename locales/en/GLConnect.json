@@ -93,7 +93,8 @@
     "ManageUsers" : "Manage Users",
     "selectCustomGL": "Select GL Application",
     "CompanyAlreadyThere" : "This company was already added",
-    "CompanyExistsContactAdmin": "Please contact your administrator to be added to the team",
+    "CompanyExistsContactAdmin": "Please contact your administrator to be added to the team.",
     "ConnectionProblem" : "Connection Problem",
-    "RetryAgain" : "There is some problem with connecting your GL, please try again by clicking on this button."
+    "RetryAgain" : "There is some problem with connecting your GL, please try again by clicking on this button.",
+    "TryAgain" : "Try Again"
 }
