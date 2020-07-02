@@ -38,7 +38,7 @@
     "ActionRequired":"Action Required",
     "Error": "Error",
     "InProgress": "In Progress",
-    "Idle" : "Idle",
+    "InSync" : "In Sync",
     "SyncStatus" : "Sync Status",
     "SyncedRecords" : "Synced Records",
     "NextSync" : "Next Sync",

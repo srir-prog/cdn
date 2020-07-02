@@ -39,7 +39,7 @@
     "ActionRequired":"कार्यवाई की आवश्यकता",
     "Error": "त्रुटि",
     "InProgress": "चालू",
-    "Idle" : "निष्क्रिय",
+    "InSync" : "मेल में",
     "SyncStatus" : "सिंक की स्थिति",
     "SyncedRecords" : "रिकॉर्ड किए गए रिकॉर्ड",
     "NextSync" : "अगला सिंक",
