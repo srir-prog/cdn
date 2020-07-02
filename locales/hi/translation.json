@@ -37,7 +37,7 @@
     "Error" : "त्रुटि",
     "ActionTaken" : "कार्रवाई की गई",    
     "ActionRequired":"कार्यवाई की आवश्यकता",
-    "SyncError": "सिंक त्रुटि",
+    "Error": "त्रुटि",
     "InProgress": "चालू",
     "Idle" : "निष्क्रिय",
     "SyncStatus" : "सिंक की स्थिति",
