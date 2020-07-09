@@ -50,5 +50,6 @@
     "Verify your Account": "Verify your Account",
     "Submit": "Submit",
     "ques1":"Which general ledger application do you use?",
-    "ques2":"What is your industry?"
+    "ques2":"What is your industry?",
+    "ErrorInVerifying" : "Error in Verifying your account, Please try again later or contact customer care"
 }
