@@ -1,0 +1,13 @@
+{
+    "AddUser" : "उपयोगकर्ता जोड़ें",
+    "Actions" : "क्रिया",
+    "TableForManageUsers" : "उपयोगकर्ताओं के प्रबंधन के लिए तालिका",
+    "Users" : "उपयोगकर्ता",
+    "FirstName" : "पहला नाम",
+    "LastName" : "अंतिम नाम",
+    "Title" : "शीर्षक",
+    "Email" : "ईमेल पता",
+    "Entitlements" : "पात्रता",
+    "Status" : "स्थिति",
+    "Actions" : "क्रिया"
+}

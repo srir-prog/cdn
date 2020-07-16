@@ -4,7 +4,9 @@
     "Secondary": "द्वितीयक बटन",
     "Outlined Secondary": "उल्लिखित द्वितीयक",
     "Disabled": "अक्षम बटन",
-    "Active": "सक्रिय बटन",
+    "Active": "सक्रिय",
+    "InActive" : "निष्क्रिय",
+    "Invited" : "आमंत्रित",
     "navigation": "पथ प्रदर्शन",
     "Skip": "मुख्य विषयवस्तु में जाएं",
     "search" : "खोज",
@@ -44,6 +46,9 @@
     "SyncedRecords" : "रिकॉर्ड किए गए रिकॉर्ड",
     "NextSync" : "अगला सिंक",
     "LastSync" : "अंतिम सिंक",
-    "TimeLeft" : "{{hrs}} घंटे {{min}} मिनट छोड़ दिया"
+    "TimeLeft" : "{{hrs}} घंटे {{min}} मिनट छोड़ दिया",
+    "Modify" : "संशोधित",
+    "Define" : "परिभाषित करें",
+    "Save" : "सहेजें"
 }
 

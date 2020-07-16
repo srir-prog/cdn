@@ -4,7 +4,9 @@
     "Secondary": "Secondary Variant",
     "Outlined Secondary": "Outlined Variant",
     "Disabled": "Disabled Variant",
-    "Active": "Active Variant",
+    "Active": "Active",
+    "InActive" : "InActive",
+    "Invited" : "Invited",
     "navigation" : "Navigation Tabs",
     "Skip" : "Skip",    
     "search" : "Search Button",
@@ -43,5 +45,8 @@
     "SyncedRecords" : "Synced Records",
     "NextSync" : "Next Sync",
     "LastSync" : "Last Sync",
-    "TimeLeft" : "{{hrs}} hours {{min}} min left"
+    "TimeLeft" : "{{hrs}} hours {{min}} min left",
+    "Modify" : "Modify",
+    "Define" : "Define",
+    "Save" : "Save"
 }
