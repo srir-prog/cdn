@@ -9,5 +9,7 @@
     "Email" : "Email Address",
     "Entitlements" : "Entitlements",
     "Status" : "Status",
-    "Actions" : "Actions"
+    "Actions" : "Actions",
+    "InvitationSent" : "Invitation to join the team has been resent to {{fullName}}",
+    "AddUserError" : "Cannot addd this user, please try again"
 }
