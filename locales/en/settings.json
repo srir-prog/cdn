@@ -15,5 +15,8 @@
     "DeleteModalTitle" : "Are you sure you want to delete {{fullName}}'s profile?",
     "DeleteModal" : "Delete User Modal",
     "SyncNow" : "Sync Now",
-    "DeleteThisUserTitle": "Are you sure you want to delete this user's profile?"
+    "DeleteThisUserTitle": "Are you sure you want to delete this user's profile?",
+    "UserSaved": "{{fullName}} has been saved.",
+    "UserAdded": "{{fullName}} has been added to your team. You can now <2>define entitlements</2>.",
+    "define entitlements" : "define entitlements"
 }
