@@ -17,6 +17,6 @@
     "SyncNow" : "Sync Now",
     "DeleteThisUserTitle": "Are you sure you want to delete this user's profile?",
     "UserSaved": "{{fullName}} has been saved.",
-    "UserAdded": "{{fullName}} has been added to your team. You can now <2>define entitlements</2>.",
+    "UserAdded": "{{fullName}} has been added to your team. You can now <1>define entitlements</1>.",
     "define entitlements" : "define entitlements"
 }

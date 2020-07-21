@@ -17,6 +17,6 @@
     "SyncNow" : "अभी सिंक करें",
     "DeleteThisUserTitle" : "क्या आप वाकई इस उपयोगकर्ता की प्रोफ़ाइल हटाना चाहते हैं?",
     "UserSaved": "{{fullName}} सहेज लिया गया है।",
-    "UserAdded": "{{fullName}} को आपकी टीम में जोड़ दिया गया है। अब आप <2>define entitlements</2> कर सकते हैं।",
+    "UserAdded": "{{fullName}} को आपकी टीम में जोड़ दिया गया है। अब आप <1>define entitlements</1> कर सकते हैं।",
     "define entitlements" : "एंटाइटेलमेंट को परिभाषित"
 }
