@@ -11,7 +11,7 @@
     "Status" : "Status",
     "Actions" : "Actions",
     "InvitationSent" : "Invitation to join the team has been resent to {{fullName}}",
-    "AddUserError" : "Cannot addd this user, please try again",
+    "AddUserError" : "Cannot add this user, please try again",
     "DeleteModalTitle" : "Are you sure you want to delete {{fullName}}'s profile?",
     "DeleteModal" : "Delete User Modal",
     "SyncNow" : "Sync Now",
