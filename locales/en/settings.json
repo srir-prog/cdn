@@ -27,5 +27,18 @@
     "firstSyncDetails" : "First Sync Details",
     "syncError" : "We are not able to sync data properly from {{GLType}}",
     "viewMore": "View More",
-    "logCase" : "Log case with Centime"
+    "logCase" : "Log case with Centime",
+    "Profile": "Profile",
+    "Ledger": "General Ledger",
+    "BankAccounts" : "Bank Accounts",
+    "Suite" : "Centime Suite",
+    "Pay" : "Centime Pay",
+    "Documents" : "Key Documents",
+    "Forecast" :"Forecast",
+    "Billing" : "Billing",
+    "Example" : "Example",
+    "SyncStatus" : "Sync Status",
+    "Info" : "Company Info",
+    "ManageUsers" : "Manage Users",
+    "Usage" : "Usage"
 }

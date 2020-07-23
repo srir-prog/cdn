@@ -27,5 +27,18 @@
     "firstSyncDetails" : "पहला सिंक विवरण",
     "syncError" : "हम {{GLType}} से डेटा को ठीक से सिंक नहीं कर पा रहे हैं",
     "viewMore": "और देखो",
-    "logCase" : "Centime के साथ लॉग केस"
+    "logCase" : "Centime के साथ लॉग केस",
+    "Profile": "प्रोफ़ाइल",
+    "Ledger": "सामान्य बहीखाता",
+    "BankAccounts" : "बैंक खाते",
+    "Suite" : "Centime सूट",
+    "Pay" : "Centime वेतन",
+    "Documents" : "मुख्य दस्तावेज",
+    "Forecast" :"पूर्वानुमान",
+    "Billing" : "बिलिंग",
+    "Example" : "उदाहरण",
+    "SyncStatus" : "सिंक की स्थिति",
+    "Info" : "कंपनी की जानकारी",
+    "ManageUsers" : "प्रबंधित उपयोगकर्ताओं",
+    "Usage" : "प्रयोग"
 }
