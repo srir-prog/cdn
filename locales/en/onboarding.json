@@ -51,5 +51,7 @@
     "Submit": "Submit",
     "ques1":"Which general ledger application do you use?",
     "ques2":"What is your industry?",
-    "ErrorInVerifying" : "Error in Verifying your account, Please try again later or contact customer care"
+    "ErrorInVerifying" : "Error in Verifying your account, Please try again later or contact customer care",
+    "backToSignUp" : "Back To Sign Up",
+    "backToLogin" : "Back To Login"
 }
