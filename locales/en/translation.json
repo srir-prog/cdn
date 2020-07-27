@@ -49,5 +49,7 @@
     "TimeLeft" : "{{hrs}} hours {{min}} min left",
     "Modify" : "Modify",
     "Define" : "Define",
-    "Save" : "Save"
+    "Save" : "Save",
+    "Delete" : "Delete",
+    "Cancel" : "Cancel"
 }
