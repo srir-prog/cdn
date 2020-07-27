@@ -40,5 +40,6 @@
     "SyncStatus" : "Sync Status",
     "Info" : "Company Info",
     "ManageUsers" : "Manage Users",
-    "Usage" : "Usage"
+    "Usage" : "Usage",
+    "InviteSent" : "Invitation has seen successfully sent."
 }
