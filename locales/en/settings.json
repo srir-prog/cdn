@@ -41,5 +41,6 @@
     "Info" : "Company Info",
     "ManageUsers" : "Manage Users",
     "Usage" : "Usage",
-    "InviteSent" : "Invitation has seen successfully sent."
+    "InviteSent" : "Invitation has seen successfully sent.",
+    "CannotAddDirectUser" : "Cannot add this user, Please contact your bank manager."
 }
