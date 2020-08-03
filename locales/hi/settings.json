@@ -46,5 +46,7 @@
     "InviteIconTooltip" : "फिर से आमंत्रण ईमेल भेजें",
     "DeleteIconTooltip" : "इस उपयोगकर्ता को हटा दें",
     "GetUsersError" : "उपयोगकर्ता प्राप्त नहीं कर सकते",
-    "SyncInitiated" : "समन्वयन सफलतापूर्वक शुरू किया गया"
+    "SyncInitiated" : "समन्वयन सफलतापूर्वक शुरू किया गया",
+    "LogCase" : "Centime के साथ लॉग केस",
+    "LoggedCaseResponse" : "कोई आपके संपर्क में रहेगा।"
 }

@@ -46,5 +46,7 @@
     "InviteIconTooltip" : "Send Invite Email again",
     "DeleteIconTooltip" : "Delete this user",
     "GetUsersError" : "Cannot Fetch Users",
-    "SyncInitiated" : "Sync successfully initiated"
+    "SyncInitiated" : "Sync successfully initiated",
+    "LogCase" : "Log Case with Centime",
+    "LoggedCaseResponse" : "Someone will be in touch with you."
 }
