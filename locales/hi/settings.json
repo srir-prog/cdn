@@ -48,5 +48,10 @@
     "GetUsersError" : "उपयोगकर्ता प्राप्त नहीं कर सकते",
     "SyncInitiated" : "समन्वयन सफलतापूर्वक शुरू किया गया",
     "LogCase" : "Centime के साथ लॉग केस",
-    "LoggedCaseResponse" : "कोई आपके संपर्क में रहेगा।"
+    "LoggedCaseResponse" : "कोई आपके संपर्क में रहेगा।",
+    "Watch" : "देखो हमारे",
+    "VideoTutorial" : "{{Module}} वीडियो ट्यूटोरियल",
+    "Payables" : "देय",
+    "PayablesDescription" : "वेतन, अधिकृत और नामांकन",
+    "PayablesInfo" : "कुछ शब्दों में भुगतान योग्य अधिकारों का वर्णन करें। इस informations को एंटाइटेलमेंट मॉड्यूल के आधार पर बदला जाएगा।"
 }

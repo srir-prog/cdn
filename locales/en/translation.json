@@ -52,5 +52,9 @@
     "Save" : "Save",
     "Delete" : "Delete",
     "Cancel" : "Cancel",
-    "Thanks" : "Thanks"
+    "Thanks" : "Thanks",
+    "Configure": "Configure",
+    "Reset" : "Reset",
+    "Done" : "Done",
+    "Mins" : "Mins"
 }

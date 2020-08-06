@@ -48,5 +48,10 @@
     "GetUsersError" : "Cannot Fetch Users",
     "SyncInitiated" : "Sync successfully initiated",
     "LogCase" : "Log Case with Centime",
-    "LoggedCaseResponse" : "Someone will be in touch with you."
+    "LoggedCaseResponse" : "Someone will be in touch with you.",
+    "Watch" : "Watch Our",
+    "VideoTutorial" : "{{Module}} Video Tutorial",
+    "Payables" : "Payables",
+    "PayablesDescription" : "Pay, Authorize and Enroll",
+    "PayablesInfo" : "Describe payables entitlements in a few words. This informations will be changed based on the entitlement module."
 }
