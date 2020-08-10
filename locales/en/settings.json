@@ -53,5 +53,20 @@
     "VideoTutorial" : "{{Module}} Video Tutorial",
     "Payables" : "Payables",
     "PayablesDescription" : "Pay, Authorize and Enroll",
-    "PayablesInfo" : "Describe payables entitlements in a few words. This informations will be changed based on the entitlement module."
+    "PayablesInfo" : "Describe payables entitlements in a few words. This informations will be changed based on the entitlement module.",
+    "InviteIconTooltip" : "Resend the Invite link",
+    "DeleteIconTooltip" : "Delete the user",
+    "Administration" : "Administration",
+    "Payables" : "Payables",
+    "KPIs" : "Performance Indicators",
+    "Forecast" : "Cash Flow Forecast",
+    "BankAccounts" : "Bank Accounts",
+    "Receivables" : "Receivables",
+    "AdministrationDesc" : "Manage organizational settings and access control",
+    "PayablesDesc" : "View assets and liabilities",
+    "KPIsDesc" : "Analyze performance of cash-flows, payables and receivables",
+    "ForecastDesc" : "Create, edit and view cash flow forecast",
+    "BankAccountsDesc" : "View summary and transactions",
+    "ReceivablesDesc" : "Manage reminders and dunning letters",
+    "PayablesActionsInfo" : "Describe payables entitlements in a few words. This informations will be changed based on the entitlement module."
 }
