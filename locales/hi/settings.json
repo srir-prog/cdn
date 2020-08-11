@@ -68,5 +68,9 @@
     "ForecastDesc" : "नकदी प्रवाह पूर्वानुमान बनाएं, संपादित करें और देखें",
     "BankAccountsDesc" : "सारांश और लेनदेन देखें",
     "ReceivablesDesc" : "अनुस्मारक और धूर्त पत्र प्रबंधित करें",
-    "PayablesActionsInfo" : "कुछ शब्दों में भुगतान योग्य अधिकारों का वर्णन करें। इस जानकारियां को एंटाइटेलमेंट मॉड्यूल के आधार पर बदला जाएगा।"
+    "PayablesActionsInfo" : "कुछ शब्दों में भुगतान योग्य अधिकारों का वर्णन करें। इस जानकारियां को एंटाइटेलमेंट मॉड्यूल के आधार पर बदला जाएगा।",
+    "ModuleActionsModal" : "Module Actions Modal",
+    "Entitlements" : "Define Entitlements",
+    "JobFuncQuestion" : "<0>Q</0> What are {{fullName}}'s job functions?",
+    "Q": "Q."
 }

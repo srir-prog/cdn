@@ -68,5 +68,9 @@
     "ForecastDesc" : "Create, edit and view cash flow forecast",
     "BankAccountsDesc" : "View summary and transactions",
     "ReceivablesDesc" : "Manage reminders and dunning letters",
-    "PayablesActionsInfo" : "Describe payables entitlements in a few words. This informations will be changed based on the entitlement module."
+    "PayablesActionsInfo" : "Describe payables entitlements in a few words. This informations will be changed based on the entitlement module.",
+    "ModuleActionsModal" : "Module Actions Modal",
+    "Entitlements" : "Define Entitlements",
+    "EntitlementsWizard": "Entitlements Wizard",
+    "EntitlementsDesc" : "Identifying job functions is the easiest way to define entitlements"
 }
