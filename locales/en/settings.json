@@ -72,5 +72,7 @@
     "ModuleActionsModal" : "Module Actions Modal",
     "Entitlements" : "Define Entitlements",
     "EntitlementsWizard": "Entitlements Wizard",
-    "EntitlementsDesc" : "Identifying job functions is the easiest way to define entitlements"
+    "EntitlementsDesc" : "Identifying job functions is the easiest way to define entitlements",
+    "JobFuncQuestion" : "<0>Q</0> What are {{fullName}}'s job functions?",
+    "Q": "Q."
 }
