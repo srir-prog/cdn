@@ -73,6 +73,6 @@
     "Entitlements" : "Define Entitlements",
     "EntitlementsWizard": "Entitlements Wizard",
     "EntitlementsDesc" : "Identifying job functions is the easiest way to define entitlements",
-    "JobFuncQuestion" : "What are {{fullName}}'s job functions?",
+    "JobFuncQuestion" : "<0>Q</0> What are {{fullName}}'s job functions?",
     "Q": "Q."
 }
