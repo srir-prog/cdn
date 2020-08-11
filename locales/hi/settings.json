@@ -72,5 +72,17 @@
     "ModuleActionsModal" : "Module Actions Modal",
     "Entitlements" : "Define Entitlements",
     "JobFuncQuestion" : "<0>Q</0> What are {{fullName}}'s job functions?",
-    "Q": "Q."
+    "Q": "Q.",
+    "BackToUsersPage": "Back to Manage Users",
+    "Make payments to suppliers": "Make payments to suppliers",
+    "Analyze past payables and receivables performance": "Analyze past payables and receivables performance",
+    "Review the expenses made in future": "Review the expenses made in future",
+    "Review future incoming cash flows" : "Review future incoming cash flows",
+    "Finance unpaid customer invoices" : "Finance unpaid customer invoices",
+    "Authorize payments" : "Authorize payments",
+    "Chase customers to receive payments": "Chase customers to receive payments",
+    "Review and update cash-flow forecast" : "Review and update cash-flow forecast",
+    "DefineEntitlements": "Define Entitlements for {{fullName}}",
+    "SelectDiffUser" : "Make entitlements same as",
+    "SaveEntitlements" : "Save Entitlements"
 }
