@@ -82,7 +82,7 @@
     "Authorize payments" : "Authorize payments",
     "Chase customers to receive payments": "Chase customers to receive payments",
     "Review and update cash-flow forecast" : "Review and update cash-flow forecast",
-    "DefineEntitlements": "Define Entitlements for {{fullName}}",
+    "DefineEntitlements": "Define Entitlements for <0>{{fullName}}</0>",
     "SelectDiffUser" : "Make entitlements same as",
     "SaveEntitlements" : "Save Entitlements"
 }
