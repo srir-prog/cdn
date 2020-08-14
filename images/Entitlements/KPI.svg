@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <title>cash-flow-statement</title>
+    <defs>
+        <linearGradient x1="50%" y1="164.09026%" x2="50%" y2="-44.186231%" id="linearGradient-1">
+            <stop stop-color="#6073AE" offset="0%"></stop>
+            <stop stop-color="#ED3466" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="164.09026%" x2="50%" y2="-44.186231%" id="linearGradient-2">
+            <stop stop-color="#6073AE" offset="0%"></stop>
+            <stop stop-color="#ED3466" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="164.09026%" x2="50%" y2="-44.186231%" id="linearGradient-3">
+            <stop stop-color="#6073AE" offset="0%"></stop>
+            <stop stop-color="#ED3466" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="164.09026%" x2="50%" y2="-44.186231%" id="linearGradient-4">
+            <stop stop-color="#6073AE" offset="0%"></stop>
+            <stop stop-color="#ED3466" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="cash-flow-statement" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="44" height="44"></rect>
+        <g id="Group" transform="translate(-0.795362, 9.898551)">
+            <rect id="Rectangle-Copy-26" fill="url(#linearGradient-1)" transform="translate(8.086957, 2.188406) rotate(90.000000) translate(-8.086957, -2.188406) " x="6" y="-5" width="4.17391304" height="14.3768116" rx="2.08695652"></rect>
+            <rect id="Rectangle-Copy-27" fill="url(#linearGradient-2)" transform="translate(11.576812, 8.908406) rotate(90.000000) translate(-11.576812, -8.908406) " x="9.48985507" y="-1.99014493" width="4.17391304" height="21.7971014"></rect>
+            <rect id="Rectangle-Copy-28" fill="url(#linearGradient-3)" transform="translate(9.955942, 15.628406) rotate(90.000000) translate(-9.955942, -15.628406) " x="7.86898551" y="6.46898551" width="4.17391304" height="18.3188406" rx="2.08695652"></rect>
+            <rect id="Rectangle-Copy-29" fill="url(#linearGradient-4)" transform="translate(13.809855, 21.868406) rotate(90.000000) translate(-13.809855, -21.868406) " x="11.7228986" y="8.88289855" width="4.17391304" height="25.9710145" rx="2.08695652"></rect>
+        </g>
+    </g>
+</svg>
