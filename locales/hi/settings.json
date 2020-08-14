@@ -93,5 +93,7 @@
     "RedefineEntitlements" : "Redefine Entitlements",
     "Select a user" : "Select a user",
     "ErrorSavingEntitlements" : "An error occurred while saving entitlements. Please try again.",
-    "SavedEntitlements": "Entitlements for {{fullName}} are saved."
+    "SavedEntitlements": "Entitlements for {{fullName}} are saved.",
+    "UnsavedChanges" : "You have unsaved changes",
+    "PleaseSave" : "Please save your changes before proceeding"
 }

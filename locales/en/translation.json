@@ -50,6 +50,7 @@
     "Modify" : "Modify",
     "Define" : "Define",
     "Save" : "Save",
+    "Discard" : "Discard",
     "Delete" : "Delete",
     "Cancel" : "Cancel",
     "Thanks" : "Thanks",
@@ -57,5 +58,6 @@
     "Reset" : "Reset",
     "Done" : "Done",
     "Mins" : "Mins",
-    "Next" : "Next"
+    "Next" : "Next",
+    "SureYouWantToLeave" : "Are you sure you want leave ?"
 }
