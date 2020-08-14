@@ -55,30 +55,29 @@
     "JobFuncQuestion" : "<0>Q</0> What are {{fullName}}'s job functions?",
     "Q": "Q.",
     "BackToUsersPage": "Back to Manage Users",
-    
+    "-------":"------------",
     "Payables" : "Payables",
     "Administration" : "Administration",
     "Performance Indicators" : "Performance Indicators",
     "Cash Flow Forecast" : "Cash Flow Forecast",
     "Bank Accounts" : "Bank Accounts",
     "Receivables" : "Receivables",
-    
+    "------------":"------------",
     "PayablesDesc" : "View assets and liabilities",
     "AdministrationDesc" : "Manage organizational settings and access control",
     "Performance IndicatorsDesc" : "Analyze performance of cash-flows, payables and receivables",
     "Cash Flow ForecastDesc" : "Create, edit and view cash flow forecast",
     "Bank AccountsDesc" : "View summary and transactions",
     "ReceivablesDesc" : "Manage reminders and dunning letters",
-    
+    "---------------":"------------",
     "PayablesActionsInfo" : "Describe payables entitlements in a few words. This informations will be changed based on the entitlement module.",
     "AdministrationActionsInfo" : "Manage organizational settings and access control",
     "Performance IndicatorsActionsInfo" : "Analyze performance of cash-flows, payables and receivables",
     "Cash Flow ForecastActionsInfo" : "Create, edit and view cash flow forecast",
     "Bank AccountsActionsInfo" : "View summary and transactions",
     "ReceivablesActionsInfo" : "Manage reminders and dunning letters",
-    
     "PayablesActionsDescription" : "Pay, Authorize and Enroll",
-    
+    "----------------":"------------",
     "Make payments to suppliers": "Make payments to suppliers",
     "Analyze past payables and receivables performance": "Analyze past payables and receivables performance",
     "Review the expenses made in future": "Review the expenses made in future",
@@ -96,7 +95,7 @@
     "Follow-up with customers" : "Follow-up with customers",
     "Financing using invoices" : "Financing using invoices",
     "Authorize payments" : "Authorize payments",
-    
+    "--------------------":"------------",
     "DefineEntitlementsFor": "Define Entitlements for <0>{{fullName}}</0>",
     "SelectDiffUser" : "Make entitlements same as",
     "SaveEntitlements" : "Save Entitlements",
