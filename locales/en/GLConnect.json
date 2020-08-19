@@ -94,5 +94,6 @@
     "CompanyExistsContactAdmin": "Please contact your administrator to be added to the team.",
     "ConnectionProblem" : "Connection Problem",
     "RetryAgain" : "There is some problem with connecting your GL, please try again by clicking on this button.",
-    "TryAgain" : "Try Again"
+    "TryAgain" : "Try Again",
+    "ResendCodeTimerMsg": "You can resend the code in {{seconds}} sec"
 }
