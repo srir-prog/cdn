@@ -5,5 +5,10 @@
   "Key3_plural": "<0>Welcome</0> {{name}}, Translating <4>{{count}}</4> messages in Hindi.",
   "Primary Btn" : "प्राथमिक बटन",
   "Secondary Btn" : "द्वितीयक बटन",
+  "key4": "{{count}} item",
+  "key4_plural": "{{count}} items",
+  "key4_interval": "(1){one item};(2-7){a few items};(7-inf){a lot of items};",
+  "key5":"<0>Hello <1>User</1>, Welcome to <3>Centime</3></0>",
+  "key6" : "Hi {{fullName}}",
   "multipleTags" : "मेरे पास <1>बहुत कुछ</1> टैग्स है , तुम <3>अनुवाद</3> पूरा <5>करसकते ?</5>"
 }
