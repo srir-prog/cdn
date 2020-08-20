@@ -53,6 +53,5 @@
     "ques2":"What is your industry?",
     "ErrorInVerifying" : "Error in Verifying your account, Please try again later or contact customer care",
     "backToSignUp" : "Back To Sign Up",
-    "backToLogin" : "Back To Login",
-    "ResendCodeTimerMsg": "You can resend the code in {{seconds}} sec"
+    "backToLogin" : "Back To Login"
 }
