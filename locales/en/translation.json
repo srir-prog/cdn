@@ -42,7 +42,7 @@
     "Error": "Error",
     "InProgress": "In Progress",
     "InSync" : "In Sync",
-    "SyncStatus" : "Sync Status",
+    "SyncStatus" : "Sync status",
     "SyncedRecords" : "Synced Records",
     "NextSync" : "Next Sync",
     "LastSync" : "Last Sync",
