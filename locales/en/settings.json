@@ -27,6 +27,8 @@
     "ViewFirstSync" : "View First Sync Details",
     "firstSyncDetails" : "First Sync Details",
     "syncError" : "We are not able to sync data properly from {{GLType}}",
+    "syncSuccessDetails" : "{{GLType}} sync was successful. For details, refer to the sync results below.",
+    "syncErrorDetails" : "There were errors while syncing with {{GLType}}. For details, refer to the sync results below. Categories in red were not synced. Synced categories are indicated in green",
     "viewMore": "View More",
     "logCase" : "Log case with Centime",
     "Profile": "Profile",
