@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>cash-flow-foucast</title>
     <g id="cash-flow-foucast" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect fill="#FFFFFF" x="0" y="0" width="44" height="44"></rect>
         <rect id="Rectangle-Copy-3" fill="#1DA4A8" x="3.14415161e-13" y="20.7829139" width="29.6582278" height="4.59493671"></rect>
         <polygon id="Triangle-Copy-4" fill="#1DA4A8" transform="translate(30.911392, 23.080382) rotate(90.000000) translate(-30.911392, -23.080382) " points="30.9113924 21.2006354 35.5063291 24.9601291 26.3164557 24.9601291"></polygon>
         <g id="Group-3" transform="translate(0.000000, 7.471429)">
