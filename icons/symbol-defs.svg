@@ -28,24 +28,24 @@
 <path stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" d="M31.5 16c0 8.56-6.94 15.5-15.5 15.5s-15.5-6.94-15.5-15.5c0-8.56 6.94-15.5 15.5-15.5s15.5 6.94 15.5 15.5z"></path>
 <path d="M21.838 12.366c0-0.754-0.611-1.366-1.366-1.366-0.427 0-0.809 0.197-1.060 0.504l-4.924 6.047-2.119-2.294c-0.25-0.27-0.606-0.44-1.003-0.44-0.754 0-1.366 0.611-1.366 1.366 0 0.357 0.139 0.682 0.363 0.925v0.001l3.187 3.45c0.25 0.27 0.606 0.441 1.003 0.441 0.428 0 0.809-0.197 1.060-0.504l5.919-7.268c0.191-0.235 0.306-0.535 0.306-0.862z"></path>
 </symbol>
-<symbol id="icon-indeterminate" viewBox="0 0 32 32">
-<path fill="#1da4a8" style="fill: var(--color3, #1da4a8)" d="M4.364 0h23.273c2.41 0 4.364 1.954 4.364 4.364v23.273c0 2.41-1.954 4.364-4.364 4.364h-23.273c-2.41 0-4.364-1.954-4.364-4.364v-23.273c0-2.41 1.954-4.364 4.364-4.364z"></path>
-<path fill="#fff" style="fill: var(--color4, #fff)" d="M10.182 14.545h11.636c0.803 0 1.455 0.651 1.455 1.455s-0.651 1.455-1.455 1.455h-11.636c-0.803 0-1.455-0.651-1.455-1.455s0.651-1.455 1.455-1.455z"></path>
+<symbol id="icon-checkbox-checked" viewBox="0 0 32 32">
+<path d="M4.364 0h23.273c2.41 0 4.364 1.954 4.364 4.364v23.273c0 2.41-1.954 4.364-4.364 4.364h-23.273c-2.41 0-4.364-1.954-4.364-4.364v-23.273c0-2.41 1.954-4.364 4.364-4.364z"></path>
+<path fill="none" stroke="#fff" stroke-width="2.6182" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" style="stroke: var(--color3, #fff)" d="M8.977 14.935l5.143 5.143 10.285-10.285"></path>
+</symbol>
+<symbol id="icon-checkbox-indeterminate" viewBox="0 0 32 32">
+<path fill="#444" style="fill: var(--color4, #444)" d="M4.364 0h23.273c2.41 0 4.364 1.954 4.364 4.364v23.273c0 2.41-1.954 4.364-4.364 4.364h-23.273c-2.41 0-4.364-1.954-4.364-4.364v-23.273c0-2.41 1.954-4.364 4.364-4.364z"></path>
+<path fill="#fff" style="fill: var(--color3, #fff)" d="M10.182 14.545h11.636c0.803 0 1.455 0.651 1.455 1.455s-0.651 1.455-1.455 1.455h-11.636c-0.803 0-1.455-0.651-1.455-1.455s0.651-1.455 1.455-1.455z"></path>
 </symbol>
 <symbol id="icon-checkbox-outline" viewBox="0 0 32 32">
-<path fill="none" stroke="#6b6f73" stroke-width="2.1818" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" style="stroke: var(--color5, #6b6f73)" d="M5.455 1.091h21.091c2.41 0 4.364 1.954 4.364 4.364v21.091c0 2.41-1.954 4.364-4.364 4.364h-21.091c-2.41 0-4.364-1.954-4.364-4.364v-21.091c0-2.41 1.954-4.364 4.364-4.364z"></path>
-<path fill="none" stroke="#6b6f73" stroke-width="2.6182" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" style="stroke: var(--color5, #6b6f73)" d="M8.977 14.935l5.143 5.143 10.285-10.285"></path>
+<path stroke-width="2.1818" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" d="M5.455 1.091h21.091c2.41 0 4.364 1.954 4.364 4.364v21.091c0 2.41-1.954 4.364-4.364 4.364h-21.091c-2.41 0-4.364-1.954-4.364-4.364v-21.091c0-2.41 1.954-4.364 4.364-4.364z"></path>
+<path stroke-width="2.6182" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" d="M8.977 14.935l5.143 5.143 10.285-10.285"></path>
 </symbol>
 <symbol id="icon-checkbox" viewBox="0 0 32 32">
-<path fill="none" stroke="#a6aaae" stroke-width="2.1818" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" style="stroke: var(--color6, #a6aaae)" d="M5.455 1.091h21.091c2.41 0 4.364 1.954 4.364 4.364v21.091c0 2.41-1.954 4.364-4.364 4.364h-21.091c-2.41 0-4.364-1.954-4.364-4.364v-21.091c0-2.41 1.954-4.364 4.364-4.364z"></path>
-</symbol>
-<symbol id="icon-checkbox-checked" viewBox="0 0 32 32">
-<path fill="#1da4a8" style="fill: var(--color3, #1da4a8)" d="M4.364 0h23.273c2.41 0 4.364 1.954 4.364 4.364v23.273c0 2.41-1.954 4.364-4.364 4.364h-23.273c-2.41 0-4.364-1.954-4.364-4.364v-23.273c0-2.41 1.954-4.364 4.364-4.364z"></path>
-<path fill="none" stroke="#fff" stroke-width="2.6182" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" style="stroke: var(--color4, #fff)" d="M8.977 14.935l5.143 5.143 10.285-10.285"></path>
+<path stroke-width="2.1818" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" d="M5.455 1.091h21.091c2.41 0 4.364 1.954 4.364 4.364v21.091c0 2.41-1.954 4.364-4.364 4.364h-21.091c-2.41 0-4.364-1.954-4.364-4.364v-21.091c0-2.41 1.954-4.364 4.364-4.364z"></path>
 </symbol>
 <symbol id="icon-checkbox-disabled" viewBox="0 0 32 32">
-<path fill="#cacaca" style="fill: var(--color7, #cacaca)" d="M4.364 0h23.273c2.41 0 4.364 1.954 4.364 4.364v23.273c0 2.41-1.954 4.364-4.364 4.364h-23.273c-2.41 0-4.364-1.954-4.364-4.364v-23.273c0-2.41 1.954-4.364 4.364-4.364z"></path>
-<path fill="none" stroke="#979797" stroke-width="2.6182" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" style="stroke: var(--color8, #979797)" d="M8.977 14.935l5.143 5.143 10.285-10.285"></path>
+<path fill="#cacaca" style="fill: var(--color5, #cacaca)" d="M4.364 0h23.273c2.41 0 4.364 1.954 4.364 4.364v23.273c0 2.41-1.954 4.364-4.364 4.364h-23.273c-2.41 0-4.364-1.954-4.364-4.364v-23.273c0-2.41 1.954-4.364 4.364-4.364z"></path>
+<path fill="none" stroke="#979797" stroke-width="2.6182" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" style="stroke: var(--color6, #979797)" d="M8.977 14.935l5.143 5.143 10.285-10.285"></path>
 </symbol>
 <symbol id="icon-close-icon" viewBox="0 0 32 32">
 <path d="M26.861 5.311c0.595 0.595 0.595 1.56 0 2.155l-8.621 8.619 8.621 8.621c0.595 0.595 0.595 1.56 0 2.155s-1.56 0.595-2.155 0l-8.621-8.621-8.619 8.621c-0.595 0.595-1.56 0.595-2.155 0s-0.595-1.56 0-2.155l8.619-8.621-8.619-8.619c-0.595-0.595-0.595-1.56 0-2.155s1.56-0.595 2.155 0l8.619 8.619 8.621-8.619c0.595-0.595 1.56-0.595 2.155 0z"></path>
