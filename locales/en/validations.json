@@ -20,5 +20,5 @@
   "min8CharsFull": "Minimum 8 Characters are needed",
   "capsLockOn" : "CAPS Lock is ON", 
   "validNo" : "Please Enter a Valid Phone Number with Country Code" ,
-  "NoWithInRange" : "Please Enter a Valid Number within ranges" 
+  "NoWithInRange" : "Please Enter a Valid Number within range" 
 }
