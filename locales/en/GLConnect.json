@@ -98,6 +98,6 @@
     "RetryAgain" : "There is some problem with connecting your GL, please try again by clicking on this button.",
     "TryAgain" : "Try Again",
     "ResendCodeTimerMsg": "You can resend the code in {{count}} sec",
-    "Name The Entity": "Name the entity",
+    "NameTheEntity": "Name the entity",
     "SelectGLStep": "Select GL"
 }
