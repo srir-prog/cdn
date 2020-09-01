@@ -59,6 +59,7 @@
     "JobFuncPrompt": "* Task(s) not listed? Don't worry, you'll be able to define entitlements on the next page",
     "Q": "Q.",
     "BackToUsersPage": "Back to Manage Users",
+    "BackToDefine": "Back to Defining Entitlements",
     "-------":"------------",
     "Payables" : "Payables",
     "Administration" : "Administration",

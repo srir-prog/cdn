@@ -73,6 +73,7 @@
     "JobFuncQuestion" : "<0>Q</0> What are {{fullName}}'s job functions?",
     "Q": "Q.",
     "BackToUsersPage": "Back to Manage Users",
+    "BackToDefine": "Back to Defining Entitlements",
     "Make payments to suppliers": "Make payments to suppliers",
     "Analyze past payables and receivables performance": "Analyze past payables and receivables performance",
     "Review the expenses made in future": "Review the expenses made in future",
