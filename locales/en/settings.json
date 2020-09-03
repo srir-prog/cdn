@@ -106,7 +106,7 @@
     "Review cash balance in banks":"Review cash balance in banks",
     "--------------------":"------------",
     "DefineEntitlementsFor": "Define Entitlements for <0>{{fullName}}</0>",
-    "ModifyEntitlementsFor": "Define Entitlements for <0>{{fullName}}</0>",
+    "ModifyEntitlementsFor": "Modify Entitlements for <0>{{fullName}}</0>",
     "SelectDiffUser" : "Make entitlements same as",
     "SaveEntitlements" : "Save Entitlements",
     "RedefineEntitlements" : "Redefine Entitlements",
