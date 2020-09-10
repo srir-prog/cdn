@@ -71,11 +71,11 @@
     "ConfirmConfiguration" : "Confirm application configuration",
     "EnterCredentials" : "Enter credentials",
     "CheckAccess" : "Checking access",
-    "ConfirmAccessTitle" : "Connecting to {{GLType}} Online will require these privileges",
+    "ConfirmAccessTitle" : "To access {{GLType}}, you will need either of the below admin privileges",
     "ConfirmAccessPage" : "Confirm Access Privileges",
-    "CAPList1" :"Chart of Accounts consectetur adipisicing elit.",
-    "CAPList2" :"Chart of Accounts consectetur adipisicing elit.",
-    "CAPList3" :"Chart of Accounts consectetur adipisicing elit.",
+    "CAPList1" :"Master Admin access privileges",
+    "CAPList2" :"Company Admin access privileges",
+    "CAPList3" :"Accountant Admin access privileges",
     "CAPList4" :"Chart of Accounts consectetur adipisicing elit.",
     "CAPRadioTitle1" : "Confirm you have the required access privileges for {{GLType}}",
     "CAPRadio1" : "Yes, I have admin privileges",
@@ -99,5 +99,10 @@
     "TryAgain" : "Try Again",
     "ResendCodeTimerMsg": "You can resend the code in {{count}} sec",
     "NameTheEntity": "Name the entity",
-    "SelectGLStep": "Select GL"
+    "SelectGLStep": "Select GL",
+    "DontHaveAdminPrivileges": "Don't have GL admin privileges?",
+    "ConfirmAccessPanelPara1": "Don't worry! You can use the 'copy invite' feature to send a customized invitation to a team member with GL admin privileges through a direct message or an email.",
+    "ConfirmAccessPanelPara2": "If they are a Centime user,  they would simply need to access Centime through the invite link and set up your business account by connecting to the GL.",
+    "ConfirmAccessPanelPara3": "If they are not a Centime user, they would first need to sign up to Centime before they can set up the business account.",
+    "ConfirmAccessPanelPara4": "Once GL connection is established and your business account is set up, you can ask your team member to grant you entitlements that suit your job description. Until then, you don't need to take any action on the platform."
 }
