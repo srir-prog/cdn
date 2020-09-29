@@ -22,5 +22,6 @@
     "budgetVariance": "Budget Variance",
     "closingCashBalance": "Cash Balance",
     "cashInTotal": "Cash In",
-    "cashOutTotal": "Cash OUT"
+    "cashOutTotal": "Cash Out",
+    "openingCashBalance": "Starting Cash"
 }

@@ -22,5 +22,6 @@
     "budgetVariance": "बजट की भिन्नता",
     "closingCashBalance": "नकद संतुलन",
     "cashInTotal": "नकद लाभ",
-    "cashOutTotal": "नकद खोना"
+    "cashOutTotal": "नकद खोना",
+    "openingCashBalance": "शुरुआत में नकद"
 }
