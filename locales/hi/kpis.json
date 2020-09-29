@@ -19,5 +19,8 @@
     "arDaysToPay": "एआर भुगतान करने के लिए दिन",
     "apDaysToPay": "एपी भुगतान करने के लिए दिन",
     "apToday": "एपी आज",
-    "budgetVariance": "बजट की भिन्नता"
+    "budgetVariance": "बजट की भिन्नता",
+    "closingCashBalance": "नकद संतुलन",
+    "cashInTotal": "नकद लाभ",
+    "cashOutTotal": "नकद खोना"
 }

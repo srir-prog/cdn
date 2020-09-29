@@ -19,5 +19,8 @@
     "arDaysToPay": "AR Days to Pay",
     "apDaysToPay": "AP Days to Pay",
     "apToday": "AP Today",
-    "budgetVariance": "Budget Variance"
+    "budgetVariance": "Budget Variance",
+    "closingCashBalance": "Cash Balance",
+    "cashInTotal": "Cash In",
+    "cashOutTotal": "Cash OUT"
 }
