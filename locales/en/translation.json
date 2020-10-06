@@ -60,5 +60,6 @@
     "Mins" : "Mins",
     "Next" : "Next",
     "SureYouWantToLeave" : "Are you sure you want leave ?",
-    "GoodMorning": "Good Morning"
+    "GoodMorning" : "Good Morning",
+    "LiquidityOptions" : "Liquidity Options"
 }
