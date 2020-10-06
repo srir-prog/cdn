@@ -61,5 +61,6 @@
     "Next" : "Next",
     "SureYouWantToLeave" : "Are you sure you want leave ?",
     "GoodMorning" : "Good Morning",
-    "LiquidityOptions" : "Liquidity Options"
+    "LiquidityOptions" : "Liquidity Options",
+    "WorkInProgress" : "This is a Work in Progress"
 }
