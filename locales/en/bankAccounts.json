@@ -1,0 +1,6 @@
+{
+    "AccountNo" : "AccounNo",
+    "BankConnectionError":"There is a problem with your bank connection. To fix it, click on 'Reconnect' and follow the steps",
+    "RemoveLinkError" : "{bankDetails} could not be removed. Please contact Centime support",
+    "LinkingError":"Error while linking to gl account"
+}
