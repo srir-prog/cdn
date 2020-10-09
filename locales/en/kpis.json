@@ -14,7 +14,7 @@
     "kpiPageTitle": "Deep dive into your company's cash performance",
     "kpiPageSubTitle": "Select a performance category and an evaluation period for an in-depth analysis",
     "collectionsPerformance": "Collections Performance",
-    "netCashFlow": "Net Cash Flow",
+    "netCashFlow": "Cash Flow",
     "cashBufferDays": "Cash Buffer Days",
     "arDaysToPay": "AR Days to Pay",
     "apDaysToPay": "AP Days to Pay",
@@ -23,5 +23,5 @@
     "closingCashBalance": "Closing Balance",
     "cashInTotal": "Cash In",
     "cashOutTotal": "Cash Out",
-    "openingCashBalance": "Starting Cash"
+    "openingCashBalance": "Opening Balance"
 }
