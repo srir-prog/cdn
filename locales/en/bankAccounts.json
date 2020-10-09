@@ -18,5 +18,7 @@
     "unlink":"Unlink",
     "summaryText":"Connect to your banks and financial institutions for an in-depth, aggregated view of your balances and transactions.",
     "AccountLinked":"Account is linked",
-    "AccountNotLinked":"Account is not linked"
+    "AccountNotLinked":"Account is not linked",
+    "ReconnectErrorMsg": "There is a problem with your bank connection. To fix it, click on 'Reconnect' and follow the steps",
+    "LinkErrorMsg":"Could not be linked. Please contact Centime support"
 }
