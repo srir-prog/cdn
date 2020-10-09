@@ -1,7 +1,7 @@
 {
     "AccountNo" : "AccounNo",
     "BankConnectionError":"There is a problem with your bank connection. To fix it, click on 'Reconnect' and follow the steps",
-    "RemoveLinkError" : "{bankDetails} could not be removed. Please contact Centime support",
+    "RemoveLinkError" : "{{bankDetails}} could not be removed. Please contact Centime support",
     "LinkingError":"Error while linking to gl account",
     "buttonTextConnect":"Connect",
     "buttonTextAddFI":"ADD A FINANCIAL INSTITUTION",
@@ -9,7 +9,7 @@
     "buttonTextRemove":"REMOVE",
     "headlineTextFL":"Your Financial Institutions",
     "headlineTextGL":"Link your bank accounts with General Ledger accounts",
-    "glAnalysisText":"Our General Ledger analysis reveals you have {count} bank accounts.",
+    "glAnalysisText":"Our General Ledger analysis reveals you have {{count}} bank accounts.",
     "financialInstitutions":"Financial Institutions",
     "syncAccounts":"Sync accounts",
     "lastSynced":"Last synced",
