@@ -16,6 +16,7 @@
     "status":"Status",
     "learnToLink":"Learn how to link accounts",
     "unlink":"Unlink",
-    "summaryText":"Connect to your banks and financial institutions for an in-depth, aggregated view of your balances and transactions."
-
+    "summaryText":"Connect to your banks and financial institutions for an in-depth, aggregated view of your balances and transactions.",
+    "AccountLinked":"Account is linked",
+    "AccountNotLinked":"Account is not linked"
 }
