@@ -62,5 +62,7 @@
     "SureYouWantToLeave" : "Are you sure you to want leave ?",
     "GoodMorning" : "Good Morning",
     "LiquidityOptions" : "Liquidity Options",
-    "WorkInProgress" : "This is a Work in Progress"
+    "WorkInProgress" : "This is a Work in Progress",
+    "Remove": "Remove",
+    "Reconnect": "Reconnect"
 }

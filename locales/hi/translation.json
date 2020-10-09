@@ -62,6 +62,8 @@
     "SureYouWantToLeave" : "क्या पक्का आप इसे छोड़ना चाहते हैं ?",
     "GoodMorning" : "शुभ प्रभात",
     "LiquidityOptions" : "तरलता विकल्प",
-    "WorkInProgress" : "कार्य प्रगति पर है"
+    "WorkInProgress" : "कार्य प्रगति पर है",
+    "Remove": "Remove",
+    "Reconnect": "Reconnect"
 }
 
