@@ -106,7 +106,7 @@
     "ConfirmAccessPanelPara3": "If they are not a Centime user, they would first need to sign up to Centime before they can set up the business account.",
     "ConfirmAccessPanelPara4": "Once GL connection is established and your business account is set up, you can ask your team member to grant you entitlements that suit your job description. Until then, you don't need to take any action on the platform.",
     "WhatsTheNeedPara1": "Centime provides a comprehensive liquidity-management solution that will predict your cash flows, help you identify liquidity gaps, and offer credit and non-credit strategies to optimally bridge these gaps. To achieve this, Centime draws data from your general ledger to use as a source of record of all your business’s relevant financial transactions.Once general ledger access is granted, Centime will periodically synchronize with it to ensure the latest data is available for optimum functioning. ",
-    "WhatsTheNeedPara2": "We access the following information",
+    "WhatsTheNeedPara2": "We access the following information:",
     "WhatsTheNeedPara3": "General ledger accounts & associated transactions",
     "WhatsTheNeedPara4": "Customers & suppliers",
     "WhatsTheNeedPara5": "Sales transactions (invoices, payments, sales receipts, etc)",
