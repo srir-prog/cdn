@@ -21,5 +21,6 @@
     "AccountLinked":"Account is linked",
     "AccountNotLinked":"Account is not linked",
     "ReconnectErrorMsg": "There is a problem with your bank connection. To fix it, click on 'Reconnect' and follow the steps",
-    "LinkErrorMsg":"Could not be linked. Please contact Centime support"
+    "LinkErrorMsg":"Could not be linked. Please contact Centime support",
+    "SelectGLAccount":"Select a General Ledger account"
 }
