@@ -24,7 +24,5 @@
     "LinkErrorMsg":"Could not be linked. Please contact Centime support",
     "confirmationText":"Are you sure you want to remove this account?",
     "confirmationHint":"(You can always add it back later)",
-    "Delete":"Delete",
-    "Cancel":"Cancel",
     "SelectGLAccount":"Select a General Ledger account"
 }
