@@ -21,5 +21,9 @@
     "AccountLinked":"Account is linked",
     "AccountNotLinked":"Account is not linked",
     "ReconnectErrorMsg": "There is a problem with your bank connection. To fix it, click on 'Reconnect' and follow the steps",
-    "LinkErrorMsg":"Could not be linked. Please contact Centime support"
+    "LinkErrorMsg":"Could not be linked. Please contact Centime support",
+    "confirmationText":"Are you sure you want to remove this account?",
+    "confirmationHint":"(You can always add it back later)",
+    "Delete":"Delete",
+    "Cancel":"Cancel"
 }
