@@ -31,7 +31,6 @@
     "UnlinkGLAccount":"Are you sure you want to unlink this account?",
     "RemoveAccountConfirmationLine1":"Are you sure you want to remove this account?",
     "RemoveAccountConfirmationLine2":"(You can always add it back later.)",
-    "RemoveAccountSuccess":"{{bankName}} - {{accountName}} - {{accountNumber}} has been removed",
-    "RemoveAccountError":"{{bankName}} - {{accountName}} - {{accountNumber}} could not be removed. Please contact Centime Support",
-    "ReconnectBankedCantFixError":"There is a problem with your bank connection. Please contact Centime Support"
+    "RemoveAccountSuccess":"{{bankDetails}} has been removed",
+    "RemoveAccountError":"{{bankDetails}} could not be removed. Please contact Centime Support"
 }
