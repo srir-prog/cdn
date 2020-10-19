@@ -27,7 +27,6 @@
     "SelectGLAccount":"एक सामान्य लेजर खाता चुनें",
     "AddAccountsFromBankSuccess":"आप से जुड़े हुए हैं {{bankName}}.अब अपने बैंक खातों को जनरल लेजर खातों से लिंक करें।",
     "RetrievetransactionsError":"“आपके खाते के साथ समन्वय करते समय एक समस्या थी। कृपया सेन्ट सपोर्ट से संपर्क करें”",
-    "ErrorLinkingBank":"लिंक नहीं किया जा सका। कृपया संपर्क करें सेन्ट सपोर्ट",
     "UnlinkGLAccount":"{{glAccountName}} क्या आप वाकई इस खाते को अनलिंक करना चाहते हैं?",
     "RemoveAccountConfirmationLine1":"क्या आप वाकई इस खाते को हटाना चाहते हैं?",
     "RemoveAccountConfirmationLine2":"(आप इसे हमेशा बाद में वापस जोड़ सकते हैं।)",
