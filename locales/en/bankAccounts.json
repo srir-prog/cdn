@@ -31,5 +31,10 @@
     "RemoveAccountConfirmationLine1":"Are you sure you want to remove this account?",
     "RemoveAccountConfirmationLine2":"(You can always add it back later.)",
     "RemoveAccountSuccess":"{{bankDetails}} has been removed",
-    "RemoveAccountError":"{{bankDetails}} could not be removed. Please contact Centime Support"
+    "RemoveAccountError":"{{bankDetails}} could not be removed. Please contact Centime Support",
+    "ManageAccounts": "Manage Accounts",
+    "accountDetail.availableBalanceAmount": "Available balance",
+    "currentBalance": "Current balance",
+    "balanceDate": "Balance date",
+    "viewStatement": "View Statement"
 }
