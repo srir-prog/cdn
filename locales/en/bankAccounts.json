@@ -24,5 +24,12 @@
     "LinkErrorMsg":"Could not be linked. Please contact Centime support",
     "confirmationText":"Are you sure you want to remove this account?",
     "confirmationHint":"(You can always add it back later)",
-    "SelectGLAccount":"Select a General Ledger account"
+    "SelectGLAccount":"Select a General Ledger account",
+    "AddAccountsFromBankSuccess":"You are connected to {{bankName}}. Now link your bank accounts to General Ledger accounts.",
+    "RetrievetransactionsError":"“There was a problem while syncing with your account(s). Please contact Centime Support”",
+    "UnlinkGLAccount":"Are you sure you want to unlink this account?",
+    "RemoveAccountConfirmationLine1":"Are you sure you want to remove this account?",
+    "RemoveAccountConfirmationLine2":"(You can always add it back later.)",
+    "RemoveAccountSuccess":"{{bankDetails}} has been removed",
+    "RemoveAccountError":"{{bankDetails}} could not be removed. Please contact Centime Support"
 }
