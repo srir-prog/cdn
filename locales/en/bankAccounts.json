@@ -36,5 +36,12 @@
     "accountDetail.availableBalanceAmount": "Available balance",
     "currentBalance": "Current balance",
     "balanceDate": "Balance date",
-    "viewStatement": "View Statement"
+    "viewStatement": "View statement",
+    "accountSummary": "Account summary",
+    "bankDashboardTitle-1": "{{accountGroup}}",
+    "bankDashboardTitle-2": "{{institutionName}} : Accounts",
+    "bankDashboardTitle-3": "{{accountGroup}}: {{accountType}} {{accountNumber}}",
+    "Bank account legend": "BANK BALANCE",
+    "Credit card legend": "CREDIT BALANCE",
+    "Line of credit legend": "LINE OF CREDIT BALANCE"
 }
