@@ -31,5 +31,7 @@
     "RemoveAccountConfirmationLine1":"Are you sure you want to remove this account?",
     "RemoveAccountConfirmationLine2":"(You can always add it back later.)",
     "RemoveAccountSuccess":"{{bankDetails}} has been removed",
-    "RemoveAccountError":"{{bankDetails}} could not be removed. Please contact Centime Support"
+    "RemoveAccountError":"{{bankDetails}} could not be removed. Please contact Centime Support",
+    "FinicityPreConnectError":"There was a problem while connecting to the financial institution. Please contact Centime Support",
+    "FinicityPostConnectError":"There was a problem while adding accounts from the financial institution. Please contact Centime Support"
 }
