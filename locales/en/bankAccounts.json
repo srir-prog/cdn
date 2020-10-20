@@ -38,9 +38,8 @@
     "balanceDate": "Balance date",
     "viewStatement": "View statement",
     "accountSummary": "Account summary",
-    "bankDashboardTitle-1": "{{accountGroup}}",
-    "bankDashboardTitle-2": "{{institutionName}} : Accounts",
-    "bankDashboardTitle-3": "{{accountGroup}}: {{accountType}} {{accountNumber}}",
+    "Bank account": "Bank Accounts",
+    "Accounts":"Accounts",
     "Bank account legend": "BANK BALANCE",
     "Credit card legend": "CREDIT BALANCE",
     "Line of credit legend": "LINE OF CREDIT BALANCE"
