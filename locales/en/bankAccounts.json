@@ -32,6 +32,8 @@
     "RemoveAccountConfirmationLine2":"You can always add it back later",
     "RemoveAccountSuccess":"{{bankDetails}} has been removed",
     "RemoveAccountError":"{{bankDetails}} could not be removed. Please contact Centime Support",
+    "FinicityPreConnectError":"There was a problem while connecting to the financial institution. Please contact Centime Support",
+    "FinicityPostConnectError":"There was a problem while adding accounts from the financial institution. Please contact Centime Support",
     "ManageAccounts": "Manage Accounts",
     "accountDetail.availableBalanceAmount": "Available balance",
     "currentBalance": "Current balance",
@@ -45,5 +47,6 @@
     "LineOfCreditOverTime":"Line Of credit balance over time",
     "Bank account legend": "BANK BALANCE",
     "Credit card legend": "CREDIT BALANCE",
-    "Line of credit legend": "LINE OF CREDIT BALANCE"
+    "Line of credit legend": "LINE OF CREDIT BALANCE",
+    "SummaryTable" : "Summary Table"
 }

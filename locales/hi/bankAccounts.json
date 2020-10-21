@@ -32,6 +32,8 @@
     "RemoveAccountConfirmationLine2":"(आप इसे हमेशा बाद में वापस जोड़ सकते हैं।)",
     "RemoveAccountSuccess":"{{bankDetails}} निकाल दिया गया है",
     "RemoveAccountError":"{{bankDetails}} हटाया नहीं जा सका।.कृपया Centime Support से संपर्क करें",
+    "FinicityPreConnectError":"वित्तीय संस्थान से कनेक्ट करते समय एक समस्या थी।.कृपया Centime Support से संपर्क करें",
+    "FinicityPostConnectError":"वित्तीय संस्थान से खाते जोड़ते समय एक समस्या थी. कृपया Centime Support से संपर्क करें",
     "ManageAccounts": "खातों का प्रबंध करे",
     "accountDetail.availableBalanceAmount": "उपलब्ध शेष राशि",
     "currentBalance": "वर्तमान शेष",
