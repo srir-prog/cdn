@@ -24,5 +24,11 @@
     "closingCashBalance": "Closing Balance",
     "cashInTotal": "Cash In",
     "cashOutTotal": "Cash Out",
-    "openingCashBalance": "Opening Balance"
+    "openingCashBalance": "Opening Balance",
+    "collectedTimely": "Collected timely",
+    "collectedLately": "Collected lately",
+    "unCollected": "Uncollected",
+    "collectionsExpected": "Collections due",
+    "collectedOnTime": "Collected timely",
+    "collectedLate": "Collected lately"
 }
