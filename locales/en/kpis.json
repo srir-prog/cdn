@@ -26,9 +26,9 @@
     "cashOutTotal": "Cash Out",
     "openingCashBalance": "Opening Balance",
     "collectedTimely": "Collected timely",
-    "collectedLately": "Collected lately",
+    "collectedLately": "Collected late",
     "unCollected": "Uncollected",
     "collectionsExpected": "Collections due",
     "collectedOnTime": "Collected timely",
-    "collectedLate": "Collected lately"
+    "collectedLate": "Collected late"
 }
