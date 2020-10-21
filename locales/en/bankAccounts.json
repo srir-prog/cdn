@@ -45,5 +45,6 @@
     "LineOfCreditOverTime":"Line Of credit balance over time",
     "Bank account legend": "BANK BALANCE",
     "Credit card legend": "CREDIT BALANCE",
-    "Line of credit legend": "LINE OF CREDIT BALANCE"
+    "Line of credit legend": "LINE OF CREDIT BALANCE",
+    "SummaryTable" : "Summary Table"
 }
