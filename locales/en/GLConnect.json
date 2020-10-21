@@ -24,7 +24,7 @@
     "TypeGL" : "Enter your general ledger application",
     "Thanks" : "Thanks!",
     "ThankYouForConsidering": "Thank you for considering us!",
-    "WillAddSupport" : "Centime is constantly evolving to ensure businesses like yours can leverage our solution to optimize their cash flow and liquidity. We'll let you know as soon as we add support for your general ledger application, {{GL}}.",
+    "WillAddSupport" : "Centime is constantly evolving to ensure businesses like yours can leverage our solution to optimize their cash flow and liquidity. We'll let you know as soon as we add support for your general ledger application {{GL}}.",
     "VerifyPhone" : "Verify Phone No",
     "EnterMobile" : "To help us enable 2-step verification, please provide your phone number on which you wish to get a verification code.",
     "TwoStepVerificationTitle" : "Strengthen access to your account with 2-step verification",
