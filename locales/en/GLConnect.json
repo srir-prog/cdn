@@ -31,7 +31,7 @@
     "SendCode" : "Send verification code",
     "SubmitCode" : "Submit OTP",
     "EnterCode" : "Please enter the verification code",
-    "CodeSent" : "A verification code has been sent to your phone number",
+    "CodeSent" : "A verification code has been sent to your phone number ending in {{mobileNumberSubString}}",
     "ChangePhoneNo" : "{{PhoneNo}} <1>Change</1>",
     "Change" : "Change",
     "TimeLeft" : "{{seconds}} Seconds Left",
