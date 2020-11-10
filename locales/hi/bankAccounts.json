@@ -39,5 +39,6 @@
     "currentBalance": "वर्तमान शेष",
     "balanceDate": "शेष दिनांक",
     "viewStatement": "विवरण देखें",
-    "Accounts":"खातों"
+    "Accounts":"खातों",
+    "defaultSunburstMsg":"Each ring represents a component of your banking relationship"
 }
