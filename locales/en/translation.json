@@ -64,5 +64,6 @@
     "LiquidityOptions" : "Liquidity Options",
     "WorkInProgress" : "This is a Work in Progress",
     "Remove": "Remove",
-    "Reconnect": "Reconnect"
+    "Reconnect": "Reconnect",
+    "BackLogin":"Back to Login"
 }
