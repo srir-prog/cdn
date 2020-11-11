@@ -64,6 +64,7 @@
     "LiquidityOptions" : "तरलता विकल्प",
     "WorkInProgress" : "कार्य प्रगति पर है",
     "Remove": "Remove",
-    "Reconnect": "Reconnect"
+    "Reconnect": "Reconnect",
+    "BackLogin":"लॉगिन पर वापस जाएं"
 }
 
