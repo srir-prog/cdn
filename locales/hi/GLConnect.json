@@ -112,6 +112,8 @@
     "YourDataIsSafePara8": "यह आपकी सहमति के बिना किसी भी तीसरे पक्ष (हमारे सहयोगी बैंकों सहित) के साथ साझा नहीं किया जाएगा। क्या आपको हमें अपने तरलता प्रबंधन भागीदारों के रूप में नहीं चुनना चाहिए, हमारे मंच में आपके सभी वित्तीय डेटा को तुरंत हटा दिया जाएगा",
     "NetsuiteStepsLabelActionsTodo": "Actions to do :",
     "NetsuiteStepsLabelWhyNeeded": "Why is this needed :",
+    "NetsuiteStep1WhyNeededPara1": "Centime’s IP addresses that are used to connect to your Netsuite account need to be whitelisted in order to gain access.",
+    "NetsuiteStep1WhyNeededPara2": "This step is required only if IP address rules (Setup > Company > Enable Features > Company > Access) are enabled for your NetSuite account.",
     "NetsuiteStep1Actions1": "1. In your Netsuite account navigate to <bold>Setup > Company > Company Information.</bold>",
     "NetsuiteStep1Actions2": "2. In the <bold>Allowed IP addresses </bold>field, add a <bold>comma-delimited</bold> list of the Centime IP address “127.30.50.45”",
     "NetsuiteStep1ActionsWarning": "<bold>Warning:</bold> Make sure you don't overwrite or change any existing IP addresses in this field - which will cause issues for you and other Netsuite users in your account.",
