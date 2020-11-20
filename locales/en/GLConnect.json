@@ -122,7 +122,7 @@
     "NetSuiteSetupInfo2" : "Please enter the <b>Consumer Key and Secret</b> that you have noted down when you created the <b>Integration record</b> for Centime (in Step 3) in the input fields provided below.",
     "NetSuiteSidePanelNote": "In case you have forgotten to note them down, don’t worry, you can regenerate them.",
     "NetSuiteInfo1":"Consumer Key",
-    "NetSuiteInfo1":"Consumer Secret",
+    "NetSuiteInfo2":"Consumer Secret",
     "NetSuiteRegenerateKeys": "Regenerating Consumer Key & Secret",
     "NetSuiteRegenerateInfo" : "In case you forgot to note your Consumer Key & Secret down, don’t worry. You can take the following actions to regenerate them.",
     "NetSuiteRegenerateList1": "Using the global search, type page: <b>integrations</b> and click the Page: <b>Manage Integrations</b> result. Or navigate to Setup > Integration > Manage Integrations",
