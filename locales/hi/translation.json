@@ -65,6 +65,7 @@
     "WorkInProgress" : "कार्य प्रगति पर है",
     "Remove": "Remove",
     "Reconnect": "Reconnect",
-    "BackLogin":"लॉगिन पर वापस जाएं"
+    "BackLogin":"लॉगिन पर वापस जाएं",
+    "GoBack":"वापस जाओ"
 }
 

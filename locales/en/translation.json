@@ -65,5 +65,6 @@
     "WorkInProgress" : "This is a Work in Progress",
     "Remove": "Remove",
     "Reconnect": "Reconnect",
-    "BackLogin":"Back to Login"
+    "BackLogin":"Back to Login",
+    "GoBack":"Go Back"
 }
