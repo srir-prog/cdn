@@ -175,5 +175,10 @@
     "NetsuiteStep5Actions5": "5. Check the <bold>Manually assign or change password</bold> box and create a password for the Centime user by typing and confirming the password.",
     "NetsuiteStep5Actions6": "6. In the <bold>Roles</bold> section, search the dropdown menu to locate the Centime role you created in earlier steps. Click <bold>Add</bold> once you've located the role.",
     "NetsuiteStep5Actions7": "7. When finished, click <bold>Save</bold> to create the user.",
-    "NetsuiteStep5AdditionalInfo": "<bold>Additional Info :</bold> Refer ‘NetSuite Users & Roles’ in the Account Administration guide available through your Netsuite Help Center."
+    "NetsuiteStep5AdditionalInfo": "<bold>Additional Info :</bold> Refer ‘NetSuite Users & Roles’ in the Account Administration guide available through your Netsuite Help Center.",
+    "NetsuiteStep1Heading": "Whitelist Centime's IP Addresses",
+    "NetsuiteStep2Heading": "Enable Web Services & Token based authentication",
+    "NetsuiteStep3Heading": "Create an Integration Record for Centime",
+    "NetsuiteStep4Heading": "Create a Centime Netsuite Role & Configure Permissions",
+    "NetsuiteStep5Heading": "Create a Centime Netsuite User"
 }
