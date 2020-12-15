@@ -12,5 +12,5 @@
   "key6" : "Hi {{fullName}}",
   "multipleTags" : "I have <bold>Multiple</bold> tags, can you <italic>really</italic> honestly <bold>translate ?</bold>",
   "reactWithCount": "Hello <b>{{name}}</b>, you have {{count}} unread message.<ourLink>Go to message</ourLink>.",
-  "reactWithCount_plural": "Hello <b>{{name}}</b>, you have {{count}} unread messages.<ourLink>Go to messages</ourLink>.",
+  "reactWithCount_plural": "Hello <b>{{name}}</b>, you have {{count}} unread messages.<ourLink>Go to messages</ourLink>."
 }
