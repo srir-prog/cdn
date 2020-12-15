@@ -11,8 +11,6 @@
   "key5":"<0>Hello <1>User</1>, Welcome to <3>Centime</3></0>",  
   "key6" : "Hi {{fullName}}",
   "multipleTags" : "I have <bold>Multiple</bold> tags, can you <italic>really</italic> honestly <bold>translate ?</bold>",
-  "userMessagesUnread": "Hello <1>{{name}}</1>, you have {{count}} unread message. <5>Go to message</5>.",
-  "userMessagesUnread_plural": "Hello <1>{{name}}</1>, you have {{count}} unread messages.  <5>Go to messages</5>.",
-  "reactWithCount": "Hello <1>{{name}}</1>, you have {{count}} unread message.<5>Go to message</5>.",
-  "reactWithCount_plural": "Hello <1>{{name}}</1>, you have {{count}} unread messages.  <5>Go to messages</5>."
+  "reactWithCount": "Hello <b>{{name}}</b>, you have {{count}} unread message.<ourLink>Go to message</ourLink>.",
+  "reactWithCount_plural": "Hello <b>{{name}}</b>, you have {{count}} unread messages.<ourLink>Go to messages</ourLink>.",
 }

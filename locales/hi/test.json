@@ -11,8 +11,6 @@
   "key5":"<0>Hello <1>User</1>, Welcome to <3>Centime</3></0>",
   "key6" : "Hi {{fullName}}",
   "multipleTags" : "मेरे पास <bold>बहुत कुछ</bold> टैग्स है , तुम <italic>अनुवाद</italic> पूरा <bold>करसकते ?</bold>",
-  "userMessagesUnread": "Hello <1>{{name}}</1>, you have {{count}} unread message. <5>Go to message</5>.",
-  "userMessagesUnread_plural": "Hello <1>{{name}}</1>, you have {{count}} unread messages.  <5>Go to messages</5>.",
-  "reactWithCount": "Hello <1>{{name}}</1>, you have {{count}} unread message.<5>Go to message</5>.",
-  "reactWithCount_plural": "Hello <1>{{name}}</1>, you have {{count}} unread messages.  <5>Go to messages</5>."
+  "reactWithCount": "नमस्कार <b> {{name}} </b>, आपके पास {{count}} अपठित संदेश है। <ourLink> संदेश पर जाएं </ ourLink>।",
+  "reactWithCount_plural": "नमस्कार <b> {{name}} </ b>, आपके पास {{count}} अपठित संदेश हैं। <ourLink> संदेशों पर जाएं </ ourLink>।",
 }
