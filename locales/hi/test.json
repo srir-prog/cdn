@@ -11,5 +11,8 @@
   "key5":"<0>Hello <1>User</1>, Welcome to <3>Centime</3></0>",
   "key6" : "Hi {{fullName}}",
   "multipleTags" : "मेरे पास <bold>बहुत कुछ</bold> टैग्स है , तुम <italic>अनुवाद</italic> पूरा <bold>करसकते ?</bold>",
-  "reactTags" : "I have <bold>Multiple</bold> tags, can you <italic>really</italic> honestly <custom>translate ?</custom>"
+  "reactWithCount": "नमस्कार <b> {{name}} </b>, आपके पास {{count}} अपठित संदेश है। <ourLink></ ourLink>।",
+  "reactWithCount_plural": "नमस्कार <b> {{name}} </ b>, आपके पास {{count}} अपठित संदेश हैं। <ourLink></ ourLink>।",
+  "GoTo": "संदेश पर जाएं ",
+  "GoTo_plural": "संदेशों पर जाएं"
 }
