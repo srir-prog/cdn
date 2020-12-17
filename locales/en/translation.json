@@ -66,5 +66,7 @@
     "Remove": "Remove",
     "Reconnect": "Reconnect",
     "BackLogin":"Back to Login",
-    "GoBack":"Go Back"
+    "GoBack":"Go Back",
+    "ReminderCampaigns":"Reminder Campaigns",
+    "CustomerManagement":"Customer Management"
 }
