@@ -3,7 +3,7 @@
     "EmailSummary":"आगे बढ़ने से पहले ग्राहकों का अनुसरण करने के लिए ईमेल प्रदान करें",
     "ReminderCampaign":"अनुस्मारक अभियान",
     "CantFindCampaign":"क्या आपको एक अभियान नहीं मिल सकता है? आप सेटिंग पृष्ठ से एक बना सकते हैं",
-    "timelineDays":"{{sign}}{{count}} दिन <icons></icons>",
-    "timelineDays_plural":"{{sign}}{{count}} दिन <icons></icons>",
+    "timelineDays":"{{sign}}{{count}} दिन",
+    "timelineDays_plural":"{{sign}}{{count}} दिन",
     "DueDate" : "नियत तारीख"
 }

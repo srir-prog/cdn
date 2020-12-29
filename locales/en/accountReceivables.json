@@ -3,8 +3,8 @@
     "EmailSummary":"Provide emails for following customers before proceeding",
     "ReminderCampaign":"REMINDER CAMPAIGN",
     "CantFindCampaign":"Can't find a campaign you need? You can create one from the settings page",
-    "timelineDays":"{{sign}}{{count}} day <icons></icons>",
-    "timelineDays_plural":"{{sign}}{{count}} days <icons></icons>",
+    "timelineDays":"{{sign}}{{count}} day",
+    "timelineDays_plural":"{{sign}}{{count}} days",
     "DueDate" : "Due Date"
 }
     
