@@ -6,5 +6,18 @@
     "timelineDays":"{{sign}}{{count}} day",
     "timelineDays_plural":"{{sign}}{{count}} days",
     "DueDate" : "Due Date",
-    "CampaignCadence":"CAMPAIGN CADENCE"
+    "CampaignCadence":"CAMPAIGN CADENCE",
+    "Summary":"Summary",
+    "History":"History",
+    "Website":"Website",
+    "Phone":"Phone",
+    "Address":"Address",
+    "PrimaryContact":"Primary contact",
+    "Name":"Name",
+    "Email":"Email",
+    "CampaignSection":"Campaigns and other communications",
+    "EnableCampaign":"Enable campaign auto reminders",
+    "CampaignUsed":"Campaign used",
+    "StatementEmail":"Send monthly statement email",
+    "ConfirmationEmail":"Send payment confirmation email"
 }
