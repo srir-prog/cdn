@@ -6,5 +6,17 @@
     "timelineDays":"{{sign}}{{count}} दिन",
     "timelineDays_plural":"{{sign}}{{count}} दिन",
     "DueDate" : "नियत तारीख",
-    "CampaignCadence":"शिविर का अनुभव"
+    "CampaignCadence":"शिविर का अनुभव",
+    "Summary":"सारांश",
+    "History":"इतिहास",
+    "Website":"वेबसाइट",
+    "Phone":"फ़ोन",
+    "Address":"पता",
+    "PrimaryContact":"प्राथमिक सम्पर्क",
+    "Name":"नाम",
+    "Email":"ईमेल",
+    "CampaignSection":"अभियान और अन्य संचार",
+    "EnableCampaign":"अभियान ऑटो अनुस्मारक सक्षम करें",
+    "StatementEmail":"मासिक विवरण ईमेल भेजें",
+    "ConfirmationEmail":"भुगतान पुष्टिकरण ईमेल भेजें"
 }
