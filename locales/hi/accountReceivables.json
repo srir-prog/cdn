@@ -18,5 +18,21 @@
     "CampaignSection":"अभियान और अन्य संचार",
     "EnableCampaign":"अभियान ऑटो अनुस्मारक सक्षम करें",
     "StatementEmail":"मासिक विवरण ईमेल भेजें",
-    "ConfirmationEmail":"भुगतान पुष्टिकरण ईमेल भेजें"
+    "ConfirmationEmail":"भुगतान पुष्टिकरण ईमेल भेजें",
+    "EmailSettings":"ईमेल सेटिंग",
+    "SenderName":"भेजने वाले का नाम",
+    "SenderSignature":"प्रेषक के हस्ताक्षर",
+    "ReplyToAddress":"प्रत्युत्तर पता",
+    "ReminderCampaigns":"अनुस्मारक अभियान",
+    "EnableAutoReminders":"ऑटो अनुस्मारक सक्षम करें",
+    "MinimumARReminderAmount ":"न्यूनतम एआर अनुस्मारक राशि",
+    "ReminderTemplate":"अनुस्मारक टेम्पलेट",
+    "MonthlyStatementEmails":"मासिक विवरण ईमेल",
+    "SendStatements":"बयान भेजें",
+    "SendTransactionStatement":"अंतिम में लेनदेन वाले ग्राहकों को वक्तव्य भेजें",
+    "StatementSentDay":"बयान दिन पर भेजा गया",
+    "EmailTemplate":"स्टेटमेंट ईमेल टेम्प्लेट",
+    "PaymentConfirmationEmails":"भुगतान की पुष्टि ईमेल",
+    "SendPaymentConfirmation":"सभी ग्राहकों को भुगतान की पुष्टि भेजें",
+    "PaymentConfirmationEmailTemplate":"भुगतान की पुष्टि ईमेल टेम्पलेट"
 }
