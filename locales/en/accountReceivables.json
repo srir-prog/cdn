@@ -19,23 +19,5 @@
     "EnableCampaign":"Enable campaign auto reminders",
     "CampaignUsed":"Campaign used",
     "StatementEmail":"Send monthly statement email",
-    "ConfirmationEmail":"Send payment confirmation email",
-
-    "EmailSettings":"Email settings",
-    "SenderName":"Sender name",
-    "SenderSignature":"Sender signature",
-    "ReplyToAddress":"Reply to address",
-    "ReminderCampaigns":"Reminder campaigns",
-    "EnableAutoReminders":"Enable auto reminders",
-    "MinimumARReminderAmount ":"Minimum AR reminder amount",
-    "ReminderTemplate":"Reminder template",
-    "MonthlyStatementEmails":"Monthly statement emails",
-    "SendStatements":"Send statements",
-    "SendTransactionStatement":"Send statement to Customers with transactions in last",
-    "StatementSentDay":"Statement sent on day",
-    "EmailTemplate":"Statement email template",
-    "PaymentConfirmationEmails":"Payment confirmation emails",
-    "SendPaymentConfirmation":"Send payment confirmations to all customers",
-    "PaymentConfirmationEmailTemplate":"Payment confirmation email template"
-
+    "ConfirmationEmail":"Send payment confirmation email"
 }
