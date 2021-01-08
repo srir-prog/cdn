@@ -5,7 +5,7 @@
     "cashInTotal": "Cash In",
     "cashOutTotal": "Cash Out",
     "openingCashBalance": "Opening Balance",
-    "collectedTimely": "Collected Timely",
+    "collectedTimely": "On Time",
     "collectedLately": "Late",
     "performanceCategory": "Performance Category",
     "evaluationPeriod": "Evaluation Period",
@@ -20,7 +20,7 @@
     "turnOverRatio": "Turnover ratio",
     "unCollected": "Uncollected",
     "collectionsExpected": "Collections expected",
-    "collectedOnTime": "On Time",
+    "collectedOnTime": "Collected On Time",
     "collectedLate": "Collected late",
     "axisInfoContent": "All amounts in thousands of USD",
     "collectionsByTimeInfo": "Identify collections performance trends or seasonality by reviewing collections due in the time period selected, broken down by collections received timely or late or still remaining uncollected. Click on any bar to drill into the underlying invoices.",
@@ -38,5 +38,5 @@
     "delayInfo": "Delay is the weighted average of payment delays calculated using corresponding invoice amounts of all payments received post due date from a customer",
     "invoiceAmount": "Invoice Amount",
     "delay": "Delay",
-    "delayAmountHeatmap": "Delayed Amount"
+    "delayAmountHeatMap": "Delayed Amount"
 }
