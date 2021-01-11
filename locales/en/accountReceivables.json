@@ -20,7 +20,6 @@
     "CampaignUsed":"Campaign used",
     "StatementEmail":"Send monthly statement email",
     "ConfirmationEmail":"Send payment confirmation email",
-
     "EmailSettings":"Email settings",
     "SenderName":"Sender name",
     "SenderSignature":"Sender signature",
@@ -36,6 +35,9 @@
     "EmailTemplate":"Statement email template",
     "PaymentConfirmationEmails":"Payment confirmation emails",
     "SendPaymentConfirmation":"Send payment confirmations to all customers",
-    "PaymentConfirmationEmailTemplate":"Payment confirmation email template"
-
+    "PaymentConfirmationEmailTemplate":"Payment confirmation email template",
+    "Cannot view Reminder Campaigns": "Cannot view Reminder Campaigns",
+    "ReminderCampaignsCustomerCount": "Used by {{customers}} customers",
+    "ReminderCampaignsCustomerEmail": "Customer email - {{customerBeforeCount}} before, {{customerAfterCount}} after, {{customerOnCount}} on",
+    "ReminderCampaignsInternalEmail": "Internal email - {{internalBeforeCount}} before, {{internalAfterCount}} after"
 }
