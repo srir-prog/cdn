@@ -1,6 +1,6 @@
 {
     "collectionsPerformance": "Collections efficiency",
-    "netCashFlow": "Cash Flow",
+    "netCashFlow": "Cash flow",
     "closingCashBalance": "Closing Balance",
     "cashInTotal": "Cash In",
     "cashOutTotal": "Cash Out",
@@ -35,9 +35,18 @@
     "collectionsByTime": "Collections by time",
     "collectionsByCustomer": "Collections by customer",
     "collectionsByInvoiceAmount": "Collections by invoice amount",
+    "cashFlowOverTime": "Cash flow over time",
+    "cashFlowStatement": "Cash flow statement",
+    "cashFlowByCategories": "Cash flow by categories",
     "impactInfo": "Impact is a measure of the negative effect on cash flows due to delayed collection (uncollected and collected late) from customers\nImpact for Customer A = (Collected Late + Uncollected amount from Customer A)/(Total Collected Late + Uncollected amount)",
     "delayInfo": "Delay is the weighted average of payment delays calculated using corresponding invoice amounts of all payments received post due date from a customer",
     "invoiceAmount": "Invoice Amount",
     "delay": "Delay",
-    "delayAmountHeatMap": "Delayed Amount"
+    "delayAmountHeatMap": "Delayed Amount",
+    "openingBalance": "Opening balance",
+    "closingBalance": "Closing balance",
+    "cashFlowBurnRate": "Cash flow burn rate",
+    "cashBufferDays": "Cash buffer days",
+    "cashIn": "Cash inflow",
+    "cashOut": "Cash outflow"
 }
