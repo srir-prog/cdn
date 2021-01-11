@@ -37,7 +37,10 @@
     "SendPaymentConfirmation":"Send payment confirmations to all customers",
     "PaymentConfirmationEmailTemplate":"Payment confirmation email template",
     "Cannot view Reminder Campaigns": "Cannot view Reminder Campaigns",
-    "ReminderCampaignsCustomerCount": "Used by {{customers}} customers",
-    "ReminderCampaignsCustomerEmail": "Customer email - {{customerBeforeCount}} before, {{customerAfterCount}} after, {{customerOnCount}} on",
-    "ReminderCampaignsInternalEmail": "Internal email - {{internalBeforeCount}} before, {{internalAfterCount}} after"
+    "ReminderCampaignsCustomerCount": "Used by <bold>{{customers}}</bold> customers",
+    "ReminderCampaignsCustomerEmail": "Customer email - <bold>{{customerBeforeCount}}</bold> before, <bold>{{customerAfterCount}}</bold> after, <bold>{{customerOnCount}}</bold> on",
+    "ReminderCampaignsInternalEmail": "Internal email - <bold>{{internalBeforeCount}}</bold> before, <bold>{{internalAfterCount}}</bold> after",
+    "CampaignName": "Campaign name",
+    "CampaignDescription": "Description",
+    "CampaignLastEdited": "Last Edited"
 }

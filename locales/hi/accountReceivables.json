@@ -38,5 +38,8 @@
     "Cannot view Reminder Campaigns": "अनुस्मारक अभियान नहीं देख सकते हैं",
     "ReminderCampaignsCustomerCount": "{{customers}} ग्राहकों द्वारा उपयोग किया जाता है",
     "ReminderCampaignsCustomerEmail": "ग्राहक ईमेल - {{customerBeforeCount}} इससे पहले, {{customerAfterCount}} उपरांत, {{customerOnCount}} वर्तमान",
-    "ReminderCampaignsInternalEmail": "आंतरिक ईमेल - {{internalBeforeCount}} इससे पहले, {{internalAfterCount}} उपरांत"
+    "ReminderCampaignsInternalEmail": "आंतरिक ईमेल - {{internalBeforeCount}} इससे पहले, {{internalAfterCount}} उपरांत",
+    "CampaignName": "अभियान का नाम",
+    "CampaignDescription": "विवरण",
+    "CampaignLastEdited": "अंतिम संपादित"
 }
