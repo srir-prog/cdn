@@ -47,6 +47,6 @@
     "closingBalance": "Closing balance",
     "cashFlowBurnRate": "Cash flow burn rate",
     "cashBufferDays": "Cash buffer days",
-    "cashIn": "Cash inflow",
-    "cashOut": "Cash outflow"
+    "cashIn": "Cash in",
+    "cashOut": "Cash out"
 }
