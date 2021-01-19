@@ -34,7 +34,7 @@
     "EmailTemplate":"स्टेटमेंट ईमेल टेम्प्लेट",
     "PaymentConfirmationEmails":"भुगतान की पुष्टि ईमेल",
     "SendPaymentConfirmation":"सभी ग्राहकों को भुगतान की पुष्टि भेजें",
-    "PaymentConfirmationEmailTemplate":"Payment confirmation email template",
+    "PaymentConfirmationEmailTemplate":"भुगतान की पुष्टि ईमेल टेम्पलेट",
     "ChooseAFilter": "Choose a filter",
     "Filters": "Filters",
     "ChooseAction": "Choose action \n to apply ",
@@ -97,5 +97,17 @@
     "Notes": "Notes",
     "LatestNote": "Latest Note",
     "Currency": "Currency",
-    "ViewHistory": "View History"
+    "ViewHistory": "View History",
+    "Cannot view Reminder Campaigns": "अनुस्मारक अभियान नहीं देख सकते हैं",
+    "ReminderCampaignsCustomerCount": "{{customers}} ग्राहकों द्वारा उपयोग किया जाता है",
+    "ReminderCampaignsCustomerEmail": "ग्राहक ईमेल : <before></before> <after></after> <on></on>",
+    "ReminderCampaignsInternalEmail": "आंतरिक ईमेल : <beforeInternal></beforeInternal> <afterInternal></afterInternal>",
+    "CampaignAfter": "<bold>{{customerAfterCount}}</bold> नियत तारीख के बाद{{comma}}",
+    "CampaignBefore": "<bold>{{customerBeforeCount}}</bold> नियत तारीख से पहले{{comma}}",
+    "CampaignOn": "<bold>{{customerOnCount}}</bold> नियत तिथि पर",
+    "CampaignInternalAfter": "<bold>{{internalAfterCount}}</bold> ियत तारीख के बाद",
+    "CampaignInternalBefore": "<bold>{{internalBeforeCount}}</bold> नियत तारीख से पहले{{comma}}",
+    "CampaignName": "अभियान का नाम",
+    "CampaignDescription": "विवरण",
+    "CampaignLastEdited": "अंतिम संपादित"
 }

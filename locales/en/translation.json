@@ -69,5 +69,6 @@
     "GoBack":"Go Back",
     "ReminderCampaigns":"Reminder Campaigns",
     "CustomerManagement":"Customer Management",
-    "SaveContinue":"SAVE AND CONTINUE"
+    "SaveContinue":"SAVE AND CONTINUE",
+    "NoResults":"No Results Found"
 }
