@@ -11,7 +11,7 @@
   "oneLowerCase": "One lowercase character",
   "oneUpperCase": "One uppercase character",
   "oneNumber": "One number",
-  "oneSpecialChar": "One special character (except +,=) ",
+  "oneSpecialChar": "One special character (excl. +,=)",
   "min8Chars": "8 minimum characters",
   "oneLowerCaseFull": "Atleast One Lower Case Character is needed",   
   "oneUpperCaseFull": "Atleast One Upper Case Character is needed",
