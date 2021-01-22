@@ -1,7 +1,7 @@
 {
     "WelcomeUser" : "Welcome{{fullName}}",
     "Skip": "Skip to main content",
-    "Already a User ?" : "Already a user?",
+    "Already a User ?" : "Already a user? <LoginLink></LoginLink>",
     "Login" : "Log In",
     "First Name" : "First Name",
     "Last Name":"Last Name",
@@ -10,7 +10,7 @@
     "Complete your profile" : "Complete your profile",
     "Create your profile" : "Create your profile",
     "NotUser":"Not {{fullName}} ?",
-    "agreeConditions" : "By signing up, I agree to Centime's <1>privacy policy</1> and <3>terms of service</3>",
+    "agreeConditions" : "By signing up, I agree to <Link1></Link1> and <Link2></Link2>",
     "privacy policy" : "Centime's privacy policy",
     "terms of service" : "terms of service",
     "Sign Me Up":"Sign Up",
@@ -22,7 +22,6 @@
     "ContactMe": "Would you like to have someone contact you for help?",
     "WillContactYou" : "Thanks. Someone will be in touch with you",
     "LoginPageTitle" : "Enter your login information",
-    "Login": "Log In",
     "Login Name": "Login Name",
     "Enter Work Email" : "Enter Work Email",
     "Forgot Password ?": "Forgot password?",
@@ -56,5 +55,8 @@
     "backToSignUp" : "Back To Sign Up",
     "backToLogin" : "Back To Login",
     "WorkEmail": "Work E-Mail",
-    "logoutMessage":"You have been logged out"
+    "logoutMessage":"You have been logged out",
+    "link1Text":"Centime's privacy policy",
+    "link2Text":" terms of service",
+    "Welcome":"Welcome"
 }
