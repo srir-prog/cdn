@@ -44,7 +44,7 @@
     "Customers": "Customers",
     "Invoices": "Invoices",
     "Invoice": "Invoice",
-    "NoAction": "NoAction",
+    "NoAction": "No Action",
     "SetAutoReminder": "Set Auto Reminder",
     "SendStatement": "Send Statement",
     "SendReminder": "Send Reminder",
@@ -109,5 +109,6 @@
     "CampaignInternalBefore": "<bold>{{internalBeforeCount}}</bold> नियत तारीख से पहले{{comma}}",
     "CampaignName": "अभियान का नाम",
     "CampaignDescription": "विवरण",
-    "CampaignLastEdited": "अंतिम संपादित"
+    "CampaignLastEdited": "अंतिम संपादित",
+    "BackToARAging": "Back to AR Aging"
 }
