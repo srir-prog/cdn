@@ -37,7 +37,7 @@
     "PaymentConfirmationEmailTemplate":"भुगतान की पुष्टि ईमेल टेम्पलेट",
     "ChooseAFilter": "एक फ़िल्टर चुनें",
     "Filters": "फिल्टर",
-    "ChooseAction": "िकल्प चुने\n लागू करने के लिए",
+    "ChooseAction": "िकल्प चुने लागू करने के लिए",
     "ExpectedPaymentDateForInvoice": "यह एक चालान के लिए अपेक्षित भुगतान तिथि है",
     "ReminderPaused": "याद दिलाया जाता है",
     "selectedItemsLength": "{{selectedLength}} out of {{totalLength}} {{firstLevelTabSelection}} selected",
