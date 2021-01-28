@@ -2,7 +2,7 @@
     "WelcomeUser" : "स्वागत{{fullName}}",
     "Skip": "मुख्य विषयवस्तु में जाएं", 
     "Login" : "लॉगिन",
-    "Already a User ?" : "पहले से ही एक उपयोगकर्ता ?",
+    "Already a User ?" : "पहले से ही एक उपयोगकर्ता ?<LoginLink></LoginLink>",
     "First Name" : "पहला नाम",
     "Last Name":"उपनाम",
     "Work E-Mail Address": "कार्य ईमेल",
@@ -10,7 +10,7 @@
     "Complete your profile" : "अपनी प्रोफाइल पूरी कीजिए",
     "Create your profile" : "अपनी प्रोफाइल बनाए",
     "NotUser":"{{fullName}} नहीं ?",
-    "agreeConditions" : "साइन अप करके, मैं सेनटीम <1> गोपनीयता नीति</1> और <3> सेवा की शर्तों </3> से सहमत हूं",
+    "agreeConditions" : "साइन अप करके, मैं सेनटीम <Link1></Link1> और <Link2></Link2>",
     "privacy policy" : "गोपनीयता नीति",
     "terms of service" : "सेवा की शर्तों",
     "Sign Me Up": "मुझे साइन अप",
@@ -22,7 +22,6 @@
     "ContactMe": "क्या आप मदद के लिए किसी से संपर्क करना चाहेंगे?",
     "WillContactYou" : "धन्यवाद । कोई आपके संपर्क में रहेगा ।",
     "LoginPageTitle" : "अपनी लॉगिन जानकारी दर्ज करें",
-    "Login": "लॉग इन करें",
     "Login Name": "लॉगिन नाम",
     "Enter Work Email" : "कार्य ईमेल दर्ज करें",
     "Forgot Password ?": "पासवर्ड भूल गए ?",
@@ -54,5 +53,8 @@
     "ErrorInVerifying" : "अपने खाते को सत्यापित करने में त्रुटि, कृपया बाद में पुनः प्रयास करें या ग्राहक सेवा से संपर्क करें",
     "goBackToSignUp" : "वापस साइन अप करने के लिए",
     "backToLogin" : "लॉगिन पर वापस जाएं",
-    "logoutMessage":"आप लॉग आउट हो चुके हों"
+    "logoutMessage":"आप लॉग आउट हो चुके हों",
+    "link1Text":"Centime की गोपनीयता नीति",
+    "link2Text":"सेवा की शर्तें",
+    "Welcome":"स्वागत हे"
 }
