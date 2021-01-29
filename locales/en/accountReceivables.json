@@ -98,7 +98,7 @@
     "Notes": "Notes",
     "LatestNote": "Latest Note",
     "Currency": "Currency",
-    "ViewHistory": "View History"
+    "ViewHistory": "View History",
     "Cannot view Reminder Campaigns": "Cannot view Reminder Campaigns",
     "ReminderCampaignsCustomerCount": "Used by <bold>{{customers}}</bold> customers",
     "ReminderCampaignsCustomerEmail": "Customer email : <before></before> <after></after> <on></on>",
@@ -110,5 +110,10 @@
     "CampaignInternalBefore": "<bold>{{internalBeforeCount}}</bold> before due date{{comma}}",
     "CampaignName": "Campaign name",
     "CampaignDescription": "Description",
-    "CampaignLastEdited": "Last Edited"
+    "CampaignLastEdited": "Last Edited",
+    "AddNewCampaign": "Add new campaign",
+    "EditCampaign": "Edit campaign",
+    "CampaignEntryDay": "Day",
+    "CampaignEntryDay_plural": "Days",
+    "BackToReminderCampaigns":"back to reminder campaigns"
 }

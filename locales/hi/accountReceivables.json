@@ -109,5 +109,6 @@
     "CampaignInternalBefore": "<bold>{{internalBeforeCount}}</bold> नियत तारीख से पहले{{comma}}",
     "CampaignName": "अभियान का नाम",
     "CampaignDescription": "विवरण",
-    "CampaignLastEdited": "अंतिम संपादित"
+    "CampaignLastEdited": "अंतिम संपादित",
+    "AddNewCampaign": "नया अभियान जोड़ें"
 }
