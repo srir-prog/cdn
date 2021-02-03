@@ -40,7 +40,6 @@
     "ChooseAction": "िकल्प चुने लागू करने के लिए",
     "ExpectedPaymentDateForInvoice": "यह एक चालान के लिए अपेक्षित भुगतान तिथि है",
     "ReminderPaused": "याद दिलाया जाता है",
-    "selectedItemsLength": "{{selectedLength}} out of {{totalLength}} {{selectedItemLabel}} selected",
     "Customers": "ग्राहकों",
     "Invoices": "चालान",
     "Invoice": "बीजक",
