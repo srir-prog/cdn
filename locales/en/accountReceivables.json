@@ -119,6 +119,25 @@
     "EditCampaign": "Edit campaign",
     "CampaignEntryDay": "Day",
     "CampaignEntryDay_plural": "Days",
-    "BackToReminderCampaigns":"back to reminder campaigns"
-
+    "BackToReminderCampaigns":"back to reminder campaigns",
+    "countOfCustomerHaveTheCampaign": "{{customerCount}} Customers have this campaign",
+    "emailWelcome": "Hi",
+    "emailCustomerName": "[Customer_Name]",
+    "emailBalance": "Balance",
+    "emailInvoiceNumber": "Invoice Number",
+    "emailInvoiceAmount": "Invoice Amount",
+    "emailDueDate": "Due Date",
+    "emailRegards": "Regards",
+    "dropdownDays": "{{count}} Day",
+    "dropdownDays_plural": "{{count}} Days",
+    "customerEmail": "Reminder",
+    "internalNotification": "Internal notification",
+    "EnterValue": "Enter value",
+    "AddCampaign": "add campaign",
+    "CadenceActions": "Cadence actions",
+    "SelectType": "Select type",
+    "Select": "Select",
+    "before": "Before",
+    "after": "After",
+    "on": "On"
 }
