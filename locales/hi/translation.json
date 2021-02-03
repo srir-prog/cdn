@@ -71,7 +71,7 @@
     "CustomerManagement":"ग्राहक प्रबंधन",
     "SaveContinue":"सहेजें और जारी रखें",
     "NoResults":"कोई परिणाम नहीं मिला",
-    "PerPage": "PerPage",
+    "PerPage": "प्रति पृष्ठ",
     "TableRowsSelectedMessage": "{{selectedLength}} out of {{totalLength}} {{selectedItemLabel}} selected"
 }
 
