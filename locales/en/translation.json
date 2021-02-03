@@ -39,7 +39,6 @@
     "Error" : "Error",
     "ActionTaken" : "Action Taken",    
     "ActionRequired":"Action Required",
-    "Error": "Error",
     "InProgress": "In Progress",
     "InSync" : "In Sync",
     "SyncStatus" : "Sync status",
@@ -70,5 +69,7 @@
     "ReminderCampaigns":"Reminder Campaigns",
     "CustomerManagement":"Customer Management",
     "SaveContinue":"SAVE AND CONTINUE",
-    "NoResults":"No Results Found"
+    "NoResults":"No Results Found",
+    "PerPage": "Per page",
+    "TableRowsSelectedMessage": "{{selectedLength}} out of {{totalLength}} {{selectedItemLabel}} selected"
 }
