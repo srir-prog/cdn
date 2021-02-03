@@ -70,6 +70,8 @@
     "ReminderCampaigns":"अनुस्मारक अभियान",
     "CustomerManagement":"ग्राहक प्रबंधन",
     "SaveContinue":"सहेजें और जारी रखें",
-    "NoResults":"कोई परिणाम नहीं मिला"
+    "NoResults":"कोई परिणाम नहीं मिला",
+    "PerPage": "PerPage",
+    "TableRowsSelectedMessage": "{{selectedLength}} out of {{totalLength}} {{selectedItemLabel}} selected"
 }
 
