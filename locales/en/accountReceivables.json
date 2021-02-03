@@ -43,6 +43,8 @@
     "ReminderPaused": "Reminder is paused",
     "Customers": "Customers",
     "Invoices": "Invoices",
+    "customers": "customers",
+    "invoices": "invoices",
     "Invoice": "Invoice",
     "NoAction": "No Action",
     "SetAutoReminder": "Set Auto Reminder",

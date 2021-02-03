@@ -42,6 +42,8 @@
     "ReminderPaused": "याद दिलाया जाता है",
     "Customers": "ग्राहकों",
     "Invoices": "चालान",
+    "customers": "ग्राहकों",
+    "invoices": "चालान",
     "Invoice": "बीजक",
     "NoAction": "कोई कार्रवाई नहीं",
     "SetAutoReminder": "ऑटो अनुस्मारक सेट करें",
