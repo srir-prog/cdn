@@ -40,7 +40,6 @@
     "Error" : "त्रुटि",
     "ActionTaken" : "कार्रवाई की गई",    
     "ActionRequired":"कार्यवाई की आवश्यकता",
-    "Error": "त्रुटि",
     "InProgress": "चालू",
     "InSync" : "मेल में",
     "SyncStatus" : "सिंक की स्थिति",
@@ -72,6 +71,6 @@
     "SaveContinue":"सहेजें और जारी रखें",
     "NoResults":"कोई परिणाम नहीं मिला",
     "PerPage": "प्रति पृष्ठ",
-    "TableRowsSelectedMessage": "{{selectedLength}} out of {{totalLength}} {{selectedItemLabel}} selected"
+    "TableRowsSelectedMessage": "{{selectLength}} से {{totalLength}} {{selectedItemLabel}} चयनित"
 }
 
