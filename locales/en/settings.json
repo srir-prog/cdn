@@ -56,7 +56,7 @@
     "Watch" : "Watch Our",
     "VideoTutorial" : "{{Module}} Video Tutorial",
     "ModuleActionsModal" : "Module Actions Modal",
-    "EntitlementsWizard": "Entitlements wizard",
+    "EntitlementsWizard": "Entitlements Wizard",
     "EntitlementsDesc" : "Identifying job functions is the easiest way to define entitlements",
     "JobFuncQuestion" : "<0>Q.</0>What are {{fullName}}'s job functions?",
     "JobFuncPrompt": "* Task(s) not listed? Don't worry, you'll be able to define entitlements on the next page",
