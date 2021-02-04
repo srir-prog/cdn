@@ -139,5 +139,7 @@
     "Select": "Select",
     "before": "Before",
     "after": "After",
-    "on": "On"
+    "on": "On",
+    "AddNew": "Add new",
+    "CadenceRowValidation": "All fields must be selected to save the cadence action"
 }

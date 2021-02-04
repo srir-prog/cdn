@@ -31,14 +31,14 @@
     "Select" : "चुनें",
     "Clear" : "ख़ाली करे",
     "Close" : "बंद करे",
-    "Home" : "होम",    
+    "Home" : "होम",
     "BackHome" : "होम स्क्रीन पर वापस",
     "Change" : "बदलना",
     "confirm" : "पुष्टि करें",
     "ClosePopUp" : "कृपया इस पॉप अप को बंद करें, यदि स्वचालित रूप से बंद नहीं हुआ है",
     "ViewDetails": "विवरण देखें",
     "Error" : "त्रुटि",
-    "ActionTaken" : "कार्रवाई की गई",    
+    "ActionTaken" : "कार्रवाई की गई",
     "ActionRequired":"कार्यवाई की आवश्यकता",
     "InProgress": "चालू",
     "InSync" : "मेल में",
@@ -71,6 +71,8 @@
     "SaveContinue":"सहेजें और जारी रखें",
     "NoResults":"कोई परिणाम नहीं मिला",
     "PerPage": "प्रति पृष्ठ",
-    "TableRowsSelectedMessage": "{{selectLength}} से {{totalLength}} {{selectedItemLabel}} चयनित"
+    "TableRowsSelectedMessage": "{{selectLength}} से {{totalLength}} {{selectedItemLabel}} चयनित",
+    "From": "से",
+    "Subject": "विषय"
 }
 
