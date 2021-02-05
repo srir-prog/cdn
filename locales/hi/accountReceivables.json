@@ -137,5 +137,8 @@
     "after": "उपरांत",
     "on": "पर",
     "AddNew": "नया जोड़ो",
-    "CadenceRowValidation": "सभी फ़ील्ड ताल कार्रवाई को बचाने के लिए चयन किया जाना चाहिए"
+    "CadenceRowValidation": "सभी फ़ील्ड ताल कार्रवाई को बचाने के लिए चयन किया जाना चाहिए",
+    "DeleteCampaignTitle": "क्या आप वाकई <b>{{campaignName}}</b> अभियान को हटाना चाहते हैं?",
+    "UpdateCampaignNotificationSuccess": "अभियान  <b>{{campaignName}}</b> सफलतापूर्वक अपडेट किया गया",
+    "DeleteCampaignNotificationSuccess": "अभियान  <b>{{campaignName}}</b> सफलतापूर्वक हटाएं"
 }

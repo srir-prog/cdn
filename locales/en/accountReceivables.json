@@ -100,8 +100,8 @@
     "ViewHistory": "View History",
     "Cannot view Reminder Campaigns": "Cannot view Reminder Campaigns",
     "ReminderCampaignsCustomerCount": "Used by <bold>{{customers}}</bold> customers",
-    "ReminderCampaignsCustomerEmail": "Customer email : <before></before> <after></after> <on></on>",
-    "ReminderCampaignsInternalEmail": "Internal email : <beforeInternal></beforeInternal> <afterInternal></afterInternal>",
+    "ReminderCampaignsCustomerEmail": "Customer email: <before></before> <after></after> <on></on>",
+    "ReminderCampaignsInternalEmail": "Internal email: <beforeInternal></beforeInternal> <afterInternal></afterInternal>",
     "CampaignAfter": "<bold>{{customerAfterCount}}</bold> after due date{{comma}}",
     "CampaignBefore": "<bold>{{customerBeforeCount}}</bold> before due date{{comma}}",
     "CampaignOn": "<bold>{{customerOnCount}}</bold> on due date",
@@ -133,7 +133,7 @@
     "customerEmail": "Reminder",
     "internalNotification": "Internal notification",
     "EnterValue": "Enter value",
-    "AddCampaign": "add campaign",
+    "AddCampaign": "add another",
     "CadenceActions": "Cadence actions",
     "SelectType": "Select type",
     "Select": "Select",
@@ -141,5 +141,8 @@
     "after": "After",
     "on": "On",
     "AddNew": "Add new",
-    "CadenceRowValidation": "All fields must be selected to save the cadence action"
+    "CadenceRowValidation": "All fields must be selected to save the cadence action",
+    "DeleteCampaignTitle": "Are you sure you want to delete <b>{{campaignName}}</b> Campaign?",
+    "UpdateCampaignNotificationSuccess": "Campaign <b>{{campaignName}}</b> updated successfully",
+    "DeleteCampaignNotificationSuccess": "Campaign <b>{{campaignName}}</b> deleted successfully"
 }
