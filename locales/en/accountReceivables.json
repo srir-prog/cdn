@@ -160,5 +160,7 @@
     "BuyerDetailsSavedError": "Details of {{buyerName}} could not be saved. Please contact Centime Support",
     "DeleteCampaignTitle": "Are you sure you want to delete <b>{{campaignName}}</b> Campaign?",
     "UpdateCampaignNotificationSuccess": "Campaign <b>{{campaignName}}</b> updated successfully",
-    "DeleteCampaignNotificationSuccess": "Campaign <b>{{campaignName}}</b> deleted successfully"
+    "DeleteCampaignNotificationSuccess": "Campaign <b>{{campaignName}}</b> deleted successfully",
+    "InvoicesAgeDueIn": "Due in {{age}} days",
+    "InvoicesAgeOverdueBy": "Overdue by {{age}} days"
 }
