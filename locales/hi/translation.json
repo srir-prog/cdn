@@ -73,6 +73,7 @@
     "PerPage": "प्रति पृष्ठ",
     "TableRowsSelectedMessage": "{{selectLength}} से {{totalLength}} {{selectedItemLabel}} चयनित",
     "From": "से",
-    "Subject": "विषय"
+    "Subject": "विषय",
+    "CloseModal": "मोडल को बंद करें"
 }
 

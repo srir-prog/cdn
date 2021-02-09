@@ -73,5 +73,6 @@
     "PerPage": "Per page",
     "TableRowsSelectedMessage": "{{selectedLength}} out of {{totalLength}} {{selectedItemLabel}} selected",
     "From": "From",
-    "Subject": "Subject"
+    "Subject": "Subject",
+    "CloseModal": "Close the Modal"
 }
