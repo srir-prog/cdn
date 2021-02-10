@@ -74,5 +74,6 @@
     "TableRowsSelectedMessage": "{{selectedLength}} out of {{totalLength}} {{selectedItemLabel}} selected",
     "From": "From",
     "Subject": "Subject",
-    "CloseModal": "Close the Modal"
+    "CloseModal": "Close the Modal",
+    "moreItems": "+{{items}} more"
 }
