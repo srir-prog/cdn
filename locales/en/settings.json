@@ -120,7 +120,7 @@
     "SelectDiffUser" : "Make entitlements same as",
     "SaveEntitlements" : "Save Entitlements",
     "RedefineEntitlements" : "Redefine Entitlements",
-    "Select a user" : "Select a user",
+    "SelectUser" : "Select a user",
     "ErrorSavingEntitlements" : "An error occurred while saving entitlements. Please try again",
     "SavedEntitlements": "Entitlements for <bold>{{fullName}}</bold> are saved",
     "UnsavedChanges" : "You have unsaved changes",
