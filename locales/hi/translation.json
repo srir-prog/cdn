@@ -74,6 +74,7 @@
     "TableRowsSelectedMessage": "{{selectLength}} से {{totalLength}} {{selectedItemLabel}} चयनित",
     "From": "से",
     "Subject": "विषय",
-    "CloseModal": "मोडल को बंद करें"
+    "CloseModal": "मोडल को बंद करें",
+    "moreItems": "+{{items}} ज्यादा"
 }
 
