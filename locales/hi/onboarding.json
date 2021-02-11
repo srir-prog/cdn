@@ -2,7 +2,7 @@
     "WelcomeUser" : "स्वागत{{fullName}}",
     "Skip": "मुख्य विषयवस्तु में जाएं", 
     "Login" : "लॉगिन",
-    "Already a User ?" : "पहले से ही एक उपयोगकर्ता ?<LoginLink></LoginLink>",
+    "AlreadyUser" : "पहले से ही एक उपयोगकर्ता ?<LoginLink></LoginLink>",
     "First Name" : "पहला नाम",
     "Last Name":"उपनाम",
     "Work E-Mail Address": "कार्य ईमेल",

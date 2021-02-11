@@ -1,7 +1,7 @@
 {
     "WelcomeUser" : "Welcome{{fullName}}",
     "Skip": "Skip to main content",
-    "Already a User ?" : "Already a user? <LoginLink></LoginLink>",
+    "AlreadyUser" : "Already a user? <LoginLink></LoginLink>",
     "Login" : "Log In",
     "First Name" : "First Name",
     "Last Name":"Last Name",
