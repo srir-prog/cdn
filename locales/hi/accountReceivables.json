@@ -161,6 +161,6 @@
     "DeleteCampaignNotificationSuccess": "अभियान  <b>{{campaignName}}</b> सफलतापूर्वक हटाएं",
     "InvoicesAgeDueIn": "Due in {{age}} days",
     "InvoicesAgeOverdueBy": "Overdue by {{age}} days",
-    "EditEmailTemp":"Edit statement email template",
-    "EditPaymentTemp":"Edit Payment confirmation email template"
+    "EditEmailTemp":"स्टेटमेंट ईमेल टेम्प्लेट संपादित करें",
+    "EditPaymentTemp":"भुगतान पुष्टिकरण ईमेल टेम्प्लेट संपादित करें"
 }
