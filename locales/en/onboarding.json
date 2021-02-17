@@ -58,5 +58,6 @@
     "logoutMessage":"You have been logged out",
     "link1Text":"Centime's privacy policy",
     "link2Text":" terms of service",
-    "Welcome":"Welcome"
+    "Welcome":"Welcome",
+    "maximumAttemptText":"You have exceeded maximum retries for resetting password link"
 }

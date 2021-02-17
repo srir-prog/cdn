@@ -20,6 +20,7 @@
     "StatementEmail":"मासिक विवरण ईमेल भेजें",
     "CampaignUsed":"Campaign used",
     "ConfirmationEmail":"भुगतान पुष्टिकरण ईमेल भेजें",
+    "ARSettings":"खाता प्राप्य सेटिंग्स",
     "EmailSettings":"ईमेल सेटिंग",
     "SenderName":"भेजने वाले का नाम",
     "SenderSignature":"प्रेषक के हस्ताक्षर",
@@ -158,6 +159,8 @@
     "DeleteCampaignTitle": "क्या आप वाकई <b>{{campaignName}}</b> अभियान को हटाना चाहते हैं?",
     "UpdateCampaignNotificationSuccess": "अभियान  <b>{{campaignName}}</b> सफलतापूर्वक अपडेट किया गया",
     "DeleteCampaignNotificationSuccess": "अभियान  <b>{{campaignName}}</b> सफलतापूर्वक हटाएं",
-    "InvoicesAgeDueIn": "Due in {{age}} days",
-    "InvoicesAgeOverdueBy": "Overdue by {{age}} days"
+    "InvoicesAgeDueIn": "में होने के कारण {{age}} दिन",
+    "InvoicesAgeOverdueBy": "से आगे निकल गया {{age}} दिन",
+    "EditEmailTemp":"स्टेटमेंट ईमेल टेम्प्लेट संपादित करें",
+    "EditPaymentTemp":"भुगतान पुष्टिकरण ईमेल टेम्प्लेट संपादित करें"
 }
