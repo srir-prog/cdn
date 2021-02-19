@@ -165,5 +165,14 @@
     "InvoicesAgeDueIn": "Due in {{age}} days",
     "InvoicesAgeOverdueBy": "Overdue by {{age}} days",
     "EditEmailTemp":"Edit statement email template",
-    "EditPaymentTemp":"Edit Payment confirmation email template"
+    "EditPaymentTemp":"Edit Payment confirmation email template",
+    "HistoryActionNotesAdded": "Notes Added",
+    "HistoryActionCampaignPaused": "Campaign {{campaignName}} paused",
+    "HistoryActionCampaignResumed": "Campaign {{campaignName}} resumed",
+    "HistoryActionInvoiceStatusUpdated": "Invoice Status Updated",
+    "HistoryActionExpectedPaymentDateUpdated": "Expected Payment Date Updated",
+    "HistoryActionCustomerEmailUpdated": "Customer Email Updated",
+    "SendRemainderEmailTemplate": "Email Template",
+    "BuyerSendReminderNotificationSuccess": "Reminders have been sent for {{invoicesCount}} invoices",
+    "BuyerSendReminderNotificationFailure": "Invoice reminder(s) could not be sent. Please contact Centime Support"
 }
