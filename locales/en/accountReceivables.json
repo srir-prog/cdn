@@ -20,6 +20,7 @@
     "CampaignUsed":"Campaign used",
     "StatementEmail":"Send monthly statement email",
     "ConfirmationEmail":"Send payment confirmation email",
+    "ARSettings":"AR Settings",
     "EmailSettings":"Email settings",
     "SenderName":"Sender name",
     "SenderSignature":"Sender signature",
@@ -162,5 +163,7 @@
     "UpdateCampaignNotificationSuccess": "Campaign <b>{{campaignName}}</b> updated successfully",
     "DeleteCampaignNotificationSuccess": "Campaign <b>{{campaignName}}</b> deleted successfully",
     "InvoicesAgeDueIn": "Due in {{age}} days",
-    "InvoicesAgeOverdueBy": "Overdue by {{age}} days"
+    "InvoicesAgeOverdueBy": "Overdue by {{age}} days",
+    "EditEmailTemp":"Edit statement email template",
+    "EditPaymentTemp":"Edit Payment confirmation email template"
 }
