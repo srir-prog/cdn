@@ -171,5 +171,10 @@
     "HistoryActionCustomerEmailUpdated": "ग्राहक ईमेल अपडेट किया गया",
     "SendRemainderEmailTemplate": "ईमेल टेम्पलेट",
     "BuyerSendReminderNotificationSuccess": "अनुस्मारक {{invoicesCount}} चालान के लिए भेजे गए हैं",
-    "BuyerSendReminderNotificationFailure": "चालान रिमाइंडर नहीं भेजे जा सके। कृपया Centime Support से संपर्क करें"
+    "BuyerSendReminderNotificationFailure": "चालान रिमाइंडर नहीं भेजे जा सके। कृपया Centime Support से संपर्क करें",
+    "HistoryActionMonthlyStatementSent": "मासिक विवरण भेजा गया",
+    "HistoryActionCampaignPaused2": "अभियान रोका गया",
+    "HistoryActionCampaignResumed2": "अभियान फिर से शुरू किया गया",
+    "BuyerSendStatementNotificationSuccess": "{{dateOfStatement}} तक मासिक विवरण {{count}} ग्राहकों के लिए भेजा गया है",
+    "BuyerSendStatementNotificationFailure": "बयान नहीं भेजा जा सका। कृपया Centime Support से संपर्क करें"
 }
