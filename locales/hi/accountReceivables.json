@@ -77,6 +77,8 @@
     "HeaderLabelStatus": "स्थिति",
     "HeaderLabelPaymentExpected": "भुगतान अपेक्षित है",
     "HeaderLabelNotes": "टिप्पणियाँ",
+    "HeaderLabelEmail": "ईमेल",
+    "HeaderLabelCurrentReminderCampaign": "वर्तमान अनुस्मारक अभियान",
     "LastReminderSent": "अंतिम अनुस्मारक भेजा गया",
     "NextReminder": "अगला रिमाइंडर",
     "PauseCampaign": "अभियान को रोकें",
@@ -176,5 +178,11 @@
     "HistoryActionCampaignPaused2": "अभियान रोका गया",
     "HistoryActionCampaignResumed2": "अभियान फिर से शुरू किया गया",
     "BuyerSendStatementNotificationSuccess": "{{dateOfStatement}} तक मासिक विवरण {{count}} ग्राहकों के लिए भेजा गया है",
-    "BuyerSendStatementNotificationFailure": "बयान नहीं भेजा जा सका। कृपया Centime Support से संपर्क करें"
+    "BuyerSendStatementNotificationFailure": "बयान नहीं भेजा जा सका। कृपया Centime Support से संपर्क करें",
+    "PaymentStatusMessageDisputed": "चालान विवादित है। चेकबॉक्स अचयनित करें और अपनी AR योजना को बेहतर बनाने के लिए एक तिथि निर्धारित करें",
+    "PaymentStatusMessageExpectedDateInPast": "अपेक्षित भुगतान की तारीख अतीत में है। अपनी AR योजना को बेहतर बनाने के लिए तारीख अपडेट करें",
+    "PaymentStatusMessagePromiseToPay": "चालान का भुगतान करने का वादा किया गया है",
+    "PaymentStatusMessagePredictedDate": "Centime ने ग्राहक के भुगतान इतिहास के आधार पर भुगतान की तारीख की भविष्यवाणी की है",
+    "PaymentStatusMessagePredictedPast": "पूर्व-भुगतान की तारीख पूर्व में है। अपनी AR योजना को बेहतर बनाने के लिए तारीख अपडेट करें",
+    "PaymentStatusMessagePaymentDateSet": "अपेक्षित भुगतान की तारीख नियत तारीख के रूप में निर्धारित की गई है क्योंकि भविष्यवाणी प्रदान करने के लिए पर्याप्त डेटा नहीं है"
 }
