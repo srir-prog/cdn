@@ -178,6 +178,7 @@
     "HistoryActionCampaignPaused2": "Campaign Paused",
     "HistoryActionCampaignResumed2": "Campaign Resumed",
     "SendRemainderEmailTemplate": "Email Template",
+    "HistoryActionAutoReminderSet": "Auto Reminder Set",
     "BuyerSendReminderNotificationSuccess": "Reminders have been sent for {{invoicesCount}} invoices",
     "BuyerSendStatementNotificationSuccess": "Monthly statement until {{dateOfStatement}} has been sent for {{count}} customers",
     "BuyerSendReminderNotificationFailure": "Invoice reminder(s) could not be sent. Please contact Centime Support",
