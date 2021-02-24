@@ -40,5 +40,6 @@
     "balanceDate": "शेष दिनांक",
     "viewStatement": "विवरण देखें",
     "Accounts":"खातों",
-    "defaultSunburstMsg":"Each ring represents a component of your banking relationship"
+    "defaultSunburstMsg":"प्रत्येक अंगूठी आपके बैंकिंग संबंध के एक घटक का प्रतिनिधित्व करती है",
+    "defaultErrorMsg":"विवरण प्राप्त करते समय त्रुटि"
 }
