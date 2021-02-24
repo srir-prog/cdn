@@ -60,8 +60,6 @@
     "BucketLabel7": "120+ दिन अतिदेय",
     "SetFilter": "फ़िल्टर सेट करने के लिए क्लिक करें",
     "UnsetFilter": "अनसेट फ़िल्टर पर क्लिक करें",
-    "ARAging": "ए आर एजिंग",
-    "TotalOutstanding": "कुल बकाया",
     "TotalOverdue": "कुल ओवरड्यू",
     "TotalCustomers": "कुल ग्राहक",
     "TotalInvoices": "कुल चालान",
@@ -185,5 +183,16 @@
     "PaymentStatusMessagePredictedDate": "Centime ने ग्राहक के भुगतान इतिहास के आधार पर भुगतान की तारीख की भविष्यवाणी की है",
     "PaymentStatusMessagePredictedPast": "पूर्व-भुगतान की तारीख पूर्व में है। अपनी AR योजना को बेहतर बनाने के लिए तारीख अपडेट करें",
     "PaymentStatusMessagePaymentDateSet": "अपेक्षित भुगतान की तारीख नियत तारीख के रूप में निर्धारित की गई है क्योंकि भविष्यवाणी प्रदान करने के लिए पर्याप्त डेटा नहीं है",
-    "HistoryActionAutoReminderSet": "ऑटो अनुस्मारक सेट"
+    "HistoryActionAutoReminderSet": "ऑटो अनुस्मारक सेट",
+    "SetCampaign": "अभियान सेट करें",
+    "ARAging": "एआर",
+    "TotalOutstanding": "कुल एआर",
+    "HeaderLabelCustomers": "ग्राहकों",
+    "HeaderLabelDelay": "विलंब",
+    "HeaderLabelExpectedDate": "अपेक्षित तारीख",
+    "HeaderLabelShareOfAR": "एआर का हिस्सा",
+    "HeaderLabelPercentageOverdue": "% ओवरड्यू",
+    "HeaderLabelCampaign": "अभियान",
+    "HeaderLabelDueDate": "नियत तारीख",
+    "AddANote": "टिप्पणी जोड़ें"
 }
