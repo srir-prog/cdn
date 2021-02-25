@@ -49,5 +49,6 @@
     "Credit card legend": "CREDIT CARD BALANCE",
     "Line of credit legend": "LINE OF CREDIT BALANCE",
     "SummaryTable" : "Summary Table",
-    "defaultSunburstMsg":"Each ring represents a component of your banking relationship"
+    "defaultSunburstMsg":"Each ring represents a component of your banking relationship",
+    "defaultErrorMsg":"Error while fetching details"
 }
