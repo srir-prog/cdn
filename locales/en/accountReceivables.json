@@ -27,7 +27,7 @@
     "ReplyToAddress":"Reply to address",
     "ReminderCampaigns":"Reminder campaigns",
     "EnableAutoReminders":"Enable auto reminders",
-    "MinimumReminderAmount ":"Minimum AR reminder amount",
+    "MinimumReminderAmount":"Minimum AR reminder amount",
     "ReminderTemplate":"Reminder template",
     "MonthlyStatementEmails":"Monthly statement emails",
     "SendStatements":"Send statements",
