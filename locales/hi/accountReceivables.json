@@ -27,7 +27,7 @@
     "ReplyToAddress":"प्रत्युत्तर पता",
     "ReminderCampaigns":"अनुस्मारक अभियान",
     "EnableAutoReminders":"ऑटो अनुस्मारक सक्षम करें",
-    "MinimumARReminderAmount ":"न्यूनतम एआर अनुस्मारक राशि",
+    "MinimumReminderAmount ":"न्यूनतम एआर अनुस्मारक राशि",
     "ReminderTemplate":"अनुस्मारक टेम्पलेट",
     "MonthlyStatementEmails":"मासिक विवरण ईमेल",
     "SendStatements":"बयान भेजें",
@@ -185,5 +185,8 @@
     "PaymentStatusMessagePredictedDate": "Centime ने ग्राहक के भुगतान इतिहास के आधार पर भुगतान की तारीख की भविष्यवाणी की है",
     "PaymentStatusMessagePredictedPast": "पूर्व-भुगतान की तारीख पूर्व में है। अपनी AR योजना को बेहतर बनाने के लिए तारीख अपडेट करें",
     "PaymentStatusMessagePaymentDateSet": "अपेक्षित भुगतान की तारीख नियत तारीख के रूप में निर्धारित की गई है क्योंकि भविष्यवाणी प्रदान करने के लिए पर्याप्त डेटा नहीं है",
-    "HistoryActionAutoReminderSet": "ऑटो अनुस्मारक सेट"
+    "HistoryActionAutoReminderSet": "ऑटो अनुस्मारक सेट",
+    "DefaultFetchError":"सेटिंग्स लाने में त्रुटि",
+    "DefaultUpdateError":"सेटिंग्स को अपडेट करते समय त्रुटि",
+    "SettingsSaved":"सेटिंग्स सफलतापूर्वक सहेजी गईं"
 }
