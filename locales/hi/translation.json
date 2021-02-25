@@ -58,6 +58,7 @@
     "Done" : "समाप्त",
     "Mins" : "मिनट",
     "Next" : "आगे",
+    "Previous": "पहले का",
     "SureYouWantToLeave" : "क्या पक्का आप इसे छोड़ना चाहते हैं ?",
     "GoodMorning" : "शुभ प्रभात",
     "LiquidityOptions" : "तरलता विकल्प",
@@ -75,6 +76,7 @@
     "From": "से",
     "Subject": "विषय",
     "CloseModal": "मोडल को बंद करें",
-    "moreItems": "+{{items}} ज्यादा"
+    "moreItems": "+{{items}} ज्यादा",
+    "Copy":"प्रतिलिपि"
 }
 
