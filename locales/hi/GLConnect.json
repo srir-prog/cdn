@@ -67,6 +67,8 @@
     "EnterCredentials" : "क्रेडेंशियल दर्ज करें",
     "CheckAccess" : "एक्सेस प्रिविलेज की जाँच करना",
     "ConfirmAccessTitle" : "कृपया ध्यान दें कि {{GLType}} से कनेक्ट करने के लिए इन अधिकारों की आवश्यकता होगी",
+    "AutoFyConsentError": "We have not received your consent. <ourLink>ClickHere</ourLink> for us to resend the consent form",
+    "ClickHere": "Click here",
     "ConfirmAccessPage" : "पहुँच विशेषाधिकार की पुष्टि करें",
     "CAPList1" :"लेखा का चार्ट कंसेटेटुरस एलीपिसिंग एलीट।",
     "CAPList2" :"लेखा का चार्ट कंसेटेटुरस एलीपिसिंग एलीट।",
