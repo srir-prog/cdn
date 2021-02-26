@@ -58,6 +58,7 @@
     "Done" : "Done",
     "Mins" : "Mins",
     "Next" : "Next",
+    "Previous": "Previous",
     "SureYouWantToLeave" : "Are you sure you to want leave ?",
     "GoodMorning" : "Good Morning",
     "LiquidityOptions" : "Liquidity Options",
@@ -75,5 +76,6 @@
     "From": "From",
     "Subject": "Subject",
     "CloseModal": "Close the Modal",
-    "moreItems": "+{{items}} more"
+    "moreItems": "+{{items}} more",
+    "Copy":"Copy"
 }

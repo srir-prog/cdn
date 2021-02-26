@@ -27,7 +27,7 @@
     "ReplyToAddress":"Reply to address",
     "ReminderCampaigns":"Reminder campaigns",
     "EnableAutoReminders":"Enable auto reminders",
-    "MinimumARReminderAmount ":"Minimum AR reminder amount",
+    "MinimumReminderAmount":"Minimum AR reminder amount",
     "ReminderTemplate":"Reminder template",
     "MonthlyStatementEmails":"Monthly statement emails",
     "SendStatements":"Send statements",
@@ -197,5 +197,8 @@
     "PaymentStatusMessagePredictedDate": "Centime has predicted a payment date based on customer's payment history",
     "PaymentStatusMessagePredictedPast": "The predicted payment date is in the past. Update the date to improve your AR planning",
     "PaymentStatusMessagePaymentDateSet": "The expected payment date is set as the due date since there is not enough data to provide a prediction",
-    "AddANote": "Add a note"
+    "AddANote": "Add a note",
+    "DefaultFetchError":"Error while fetching settings",
+    "DefaultUpdateError":"Error while updating settings",
+    "SettingsSaved":"Settings saved successfully"
 }

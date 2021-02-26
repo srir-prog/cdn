@@ -27,7 +27,7 @@
     "ReplyToAddress":"प्रत्युत्तर पता",
     "ReminderCampaigns":"अनुस्मारक अभियान",
     "EnableAutoReminders":"ऑटो अनुस्मारक सक्षम करें",
-    "MinimumARReminderAmount ":"न्यूनतम एआर अनुस्मारक राशि",
+    "MinimumReminderAmount":"न्यूनतम एआर अनुस्मारक राशि",
     "ReminderTemplate":"अनुस्मारक टेम्पलेट",
     "MonthlyStatementEmails":"मासिक विवरण ईमेल",
     "SendStatements":"बयान भेजें",
@@ -194,5 +194,8 @@
     "HeaderLabelPercentageOverdue": "% ओवरड्यू",
     "HeaderLabelCampaign": "अभियान",
     "HeaderLabelDueDate": "नियत तारीख",
-    "AddANote": "टिप्पणी जोड़ें"
+    "AddANote": "टिप्पणी जोड़ें",
+    "DefaultFetchError":"सेटिंग्स लाने में त्रुटि",
+    "DefaultUpdateError":"सेटिंग्स को अपडेट करते समय त्रुटि",
+    "SettingsSaved":"सेटिंग्स सफलतापूर्वक सहेजी गईं"
 }
