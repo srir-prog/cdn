@@ -204,5 +204,6 @@
     "CustomerPanelTitle": "Customer profile",
     "CustomerHistoryPanelHeaderDate": "Date",
     "CustomerHistoryPanelHeaderAction": "Action",
-    "CustomerHistoryPanelHeaderDescription": "Description"
+    "CustomerHistoryPanelHeaderDescription": "Description",
+    "ByUserName": "by {{userName}}"
 }

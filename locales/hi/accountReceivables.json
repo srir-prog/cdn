@@ -201,5 +201,6 @@
     "CustomerPanelTitle": "ग्राहक रुपरेखा",
     "CustomerHistoryPanelHeaderDate": "तारीख",
     "CustomerHistoryPanelHeaderAction": "कार्य",
-    "CustomerHistoryPanelHeaderDescription": "विवरण"
+    "CustomerHistoryPanelHeaderDescription": "विवरण",
+    "ByUserName": "{{userName}} द्वारा"
 }
