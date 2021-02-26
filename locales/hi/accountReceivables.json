@@ -197,5 +197,9 @@
     "AddANote": "टिप्पणी जोड़ें",
     "DefaultFetchError":"सेटिंग्स लाने में त्रुटि",
     "DefaultUpdateError":"सेटिंग्स को अपडेट करते समय त्रुटि",
-    "SettingsSaved":"सेटिंग्स सफलतापूर्वक सहेजी गईं"
+    "SettingsSaved":"सेटिंग्स सफलतापूर्वक सहेजी गईं",
+    "CustomerPanelTitle": "ग्राहक रुपरेखा",
+    "CustomerHistoryPanelHeaderDate": "तारीख",
+    "CustomerHistoryPanelHeaderAction": "कार्य",
+    "CustomerHistoryPanelHeaderDescription": "विवरण"
 }

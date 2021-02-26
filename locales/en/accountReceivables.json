@@ -200,5 +200,9 @@
     "AddANote": "Add a note",
     "DefaultFetchError":"Error while fetching settings",
     "DefaultUpdateError":"Error while updating settings",
-    "SettingsSaved":"Settings saved successfully"
+    "SettingsSaved":"Settings saved successfully",
+    "CustomerPanelTitle": "Customer profile",
+    "CustomerHistoryPanelHeaderDate": "Date",
+    "CustomerHistoryPanelHeaderAction": "Action",
+    "CustomerHistoryPanelHeaderDescription": "Description"
 }
