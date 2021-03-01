@@ -105,6 +105,7 @@
     "QBDTab4Line1": "Provide consent to grant Centime access to your company file when prompted. Your consent is needed to establish a connection with your company",
     "QBDTab4Line2": "'NEXT' button will be enabled once your consent is received. You can then proceed by clicking on it",
     "QBDGLConsentError":"We have not received your consent. Click here for us to resend the consent form",
+    "GLConnectStatusError": "There is some problem with connecting your general ledger, please try again or contact centime support",
     "---Enter Credentials----": "----------Enter Credentials------------------",
     "IPAddressWhitelist":"व्हिटेलिस्ट स्टिच के आईपी पते",
     "whatneedstobedone":"क्या किये जाने की आवश्यकता है",

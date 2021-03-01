@@ -71,6 +71,7 @@
     "QBDTab4Title": "Provide consent for access to company file",
     "QBDTab4Line1": "Provide consent to grant Centime access to your company file when prompted. Your consent is needed to establish a connection with your company",
     "QBDTab4Line2": "'NEXT' button will be enabled once your consent is received. You can then proceed by clicking on it",
+    "GLConnectStatusError": "There is some problem with connecting your general ledger, please try again or contact centime support",
     "---Enter Credentials----": "----------Enter Credentials------------------",
     "AllSet" : "Thank you! Please click the \"Enter Credentials\" button to continue ",
     "GoodToGo" : "We will present you a popup window in which you can enter your credentials",
