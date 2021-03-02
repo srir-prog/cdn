@@ -206,5 +206,7 @@
     "CustomerHistoryPanelHeaderDate": "Date",
     "CustomerHistoryPanelHeaderAction": "Action",
     "CustomerHistoryPanelHeaderDescription": "Description",
-    "ByUserName": "by {{userName}}"
+    "ByUserName": "by {{userName}}",
+    "DelayDays": "{{noOfDays}} days",
+    "CampaignPausedToolTip": "{{campaignName}} has been paused"
 }

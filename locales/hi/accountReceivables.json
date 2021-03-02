@@ -203,5 +203,7 @@
     "CustomerHistoryPanelHeaderDate": "तारीख",
     "CustomerHistoryPanelHeaderAction": "कार्य",
     "CustomerHistoryPanelHeaderDescription": "विवरण",
-    "ByUserName": "{{userName}} द्वारा"
+    "ByUserName": "{{userName}} द्वारा",
+    "DelayDays": "{{noOfDays}} दिन",
+    "CampaignPausedToolTip": "{{campaignName}} रोक दिया गया है"
 }
