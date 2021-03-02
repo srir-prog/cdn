@@ -27,7 +27,7 @@
     "Forgot Password ?": "Forgot password?",
     "Remember Me" : "Remember me",
     "ResendMail": "Resend Verification Email",
-    "MailSentMsg" : "An account verification email was sent to {{email}}.",
+    "MailSentMsg" : "An account verification email was sent to {{email}}",
     "MailSentMsgResend" : "Your account was not verified ! An account verification email was sent to {{email}}. Please click on the link provided in your email to verify your account.",
     "DidNotGetEmail" : "Did not get a verification email?",
     "NotYetVerified": "You are not yet verified your account, trouble with the link in the email?",
