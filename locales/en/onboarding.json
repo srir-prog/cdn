@@ -59,5 +59,8 @@
     "link1Text":"Centime's privacy policy",
     "link2Text":" terms of service",
     "Welcome":"Welcome",
-    "maximumAttemptText":"You have exceeded maximum retries for resetting password link"
+    "maximumAttemptText":"You have exceeded maximum retries for resetting password link",
+    "InActiveSession":"Inactive session",
+    "LoggedOut":"You are about to be logged out",
+    "StayLoggedIn":"Stay logged in"
 }
