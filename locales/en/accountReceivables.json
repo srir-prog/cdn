@@ -183,6 +183,7 @@
     "HistoryActionExpectedPaymentDateUpdated": "Expected Payment Date Updated",
     "HistoryActionCustomerEmailUpdated": "Customer Email Updated",
     "HistoryActionMonthlyStatementSent": "Monthly Statement Sent",
+    "HistoryActionCustomerReminderSent": "Reminder Sent",
     "HistoryActionCampaignPaused2": "Campaign Paused",
     "HistoryActionCampaignResumed2": "Campaign Resumed",
     "SendRemainderEmailTemplate": "Email Template",
@@ -204,5 +205,8 @@
     "CustomerPanelTitle": "Customer profile",
     "CustomerHistoryPanelHeaderDate": "Date",
     "CustomerHistoryPanelHeaderAction": "Action",
-    "CustomerHistoryPanelHeaderDescription": "Description"
+    "CustomerHistoryPanelHeaderDescription": "Description",
+    "ByUserName": "by {{userName}}",
+    "DelayDays": "{{noOfDays}} days",
+    "CampaignPausedToolTip": "{{campaignName}} has been paused"
 }
