@@ -182,10 +182,13 @@
     "HistoryActionInvoiceStatusUpdated": "Invoice Status Updated",
     "HistoryActionExpectedPaymentDateUpdated": "Expected Payment Date Updated",
     "HistoryActionCustomerEmailUpdated": "Customer Email Updated",
+    "HistoryActionCustomerAddressUpdated": "Customer Address Updated",
+    "HistoryActionCustomerMonthlyStatementFlag": "Customer Monthly Statement setting Updated",
     "HistoryActionMonthlyStatementSent": "Monthly Statement Sent",
     "HistoryActionCustomerReminderSent": "Reminder Sent",
     "HistoryActionCampaignPaused2": "Campaign Paused",
     "HistoryActionCampaignResumed2": "Campaign Resumed",
+    "HistoryActionCampaignChanged": "Campaign changed",
     "SendRemainderEmailTemplate": "Email Template",
     "HistoryActionAutoReminderSet": "Auto Reminder Set",
     "BuyerSendReminderNotificationSuccess": "Reminders have been sent for {{invoicesCount}} invoices",
@@ -208,5 +211,13 @@
     "CustomerHistoryPanelHeaderDescription": "Description",
     "ByUserName": "by {{userName}}",
     "DelayDays": "{{noOfDays}} days",
-    "CampaignPausedToolTip": "{{campaignName}} has been paused"
+    "CampaignPausedToolTip": "{{campaignName}} has been paused",
+    "addressLine": "Address Line",
+    "firstName": "First Name",
+    "middleName": "Middle Name",
+    "lastName": "Last Name",
+    "CustomerSummaryEmailSetUpWarning": "Please set an email to enable communications",
+    "CustomerSummaryNotificationSuccess": "Customer {{buyerName}} has been saved",
+    "CustomerSummaryNotificationError": "There was a problem saving the details of Customer {{buyerName}}. Please contact Centime Support"
+
 }
