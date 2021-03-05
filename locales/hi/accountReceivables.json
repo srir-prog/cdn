@@ -205,5 +205,20 @@
     "CustomerHistoryPanelHeaderDescription": "विवरण",
     "ByUserName": "{{userName}} द्वारा",
     "DelayDays": "{{noOfDays}} दिन",
-    "CampaignPausedToolTip": "{{campaignName}} रोक दिया गया है"
+    "CampaignPausedToolTip": "{{campaignName}} रोक दिया गया है",
+    "HistoryActionCustomerAddressUpdated": "ग्राहक का पता अद्यतन",
+    "HistoryActionCustomerMonthlyStatementFlag": "ग्राहक मासिक स्टेटमेंट सेटिंग अपडेट किया गया",
+    "addressLine": "पता पंक्ति",
+    "firstName": "नाम",
+    "middleName": "मध्य नाम",
+    "lastName": "उपनाम",
+    "CustomerSummaryEmailSetUpWarning": "कृपया संचार सक्षम करने के लिए एक ईमेल सेट करें",
+    "CustomerSummaryNotificationSuccess": "ग्राहक {{buyerName}} सहेजा गया है",
+    "CustomerSummaryNotificationError": "ग्राहक {{buyerName}} के विवरण को सहेजने में समस्या थी। कृपया सेंटिम सपोर्ट से संपर्क करें",
+    "HistoryActionCampaignChanged": "अभियान बदल गया",
+    "ResumeCampaign": "अभियान फिर से शुरू करें",
+    "ViewInvoiceHistory": "चालान इतिहास देखें",
+    "CampaignPausedAccordionMessage": "{{campaignName}} रोक दिया गया है",
+    "CampaignSchedule": "अभियान अनुसूची",
+    "ExpectedDate": "अपेक्षित तारीख"
 }

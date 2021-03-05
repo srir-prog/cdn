@@ -91,6 +91,7 @@
     "NextReminder": "Next Reminder",
     "PauseCampaign": "Pause Campaign",
     "StartCampaign": "Start Campaign",
+    "ResumeCampaign": "Resume Campaign",
     "CampaignToolTipInvoice": "Campaigns can be paused and started for the current Invoice",
     "CampaignToolTipBuyer": "Campaigns can be paused and started for the customer. This action will impact all invoices of this customer",
     "InvoiceDate": "Invoice Date",
@@ -111,6 +112,7 @@
     "LatestNote": "Latest Note",
     "Currency": "Currency",
     "ViewHistory": "View History",
+    "ViewInvoiceHistory": "View Invoice History",
     "Cannot view Reminder Campaigns": "Cannot view Reminder Campaigns",
     "ReminderCampaignsCustomerCount": "Used by <bold>{{customers}}</bold> customers",
     "ReminderCampaignsCustomerEmail": "Customer email: <before></before> <after></after> <on></on>",
@@ -212,12 +214,14 @@
     "ByUserName": "by {{userName}}",
     "DelayDays": "{{noOfDays}} days",
     "CampaignPausedToolTip": "{{campaignName}} has been paused",
+    "CampaignPausedAccordionMessage": "{{campaignName}} has been paused",
     "addressLine": "Address Line",
     "firstName": "First Name",
     "middleName": "Middle Name",
     "lastName": "Last Name",
     "CustomerSummaryEmailSetUpWarning": "Please set an email to enable communications",
     "CustomerSummaryNotificationSuccess": "Customer {{buyerName}} has been saved",
-    "CustomerSummaryNotificationError": "There was a problem saving the details of Customer {{buyerName}}. Please contact Centime Support"
-
+    "CustomerSummaryNotificationError": "There was a problem saving the details of Customer {{buyerName}}. Please contact Centime Support",
+    "CampaignSchedule": "Campaign Schedule",
+    "ExpectedDate": "Expected Date"
 }
