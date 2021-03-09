@@ -23,5 +23,15 @@
     "closingCashBalance": "नकद संतुलन",
     "cashInTotal": "नकद लाभ",
     "cashOutTotal": "नकद खोना",
-    "openingCashBalance": "शुरुआत में नकद"
+    "openingCashBalance": "शुरुआत में नकद",
+    "delay": "विलंब",
+    "customer": "ग्राहक",
+    "invoiceNumber": "बीजक संख्या",
+    "invoiceamount": "बीजक राशि",
+    "status": "स्थिति",
+    "outstanding": "बकाया",
+    "lastPaymentDate": "अंतिम भुगतान तिथि",
+    "dueDate": "नियत तारीख",
+    "paymentTerms": "भुगतान की शर्तें",
+    "description": "विवरण"
 }
