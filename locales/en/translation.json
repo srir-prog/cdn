@@ -78,10 +78,11 @@
     "CloseModal": "Close the Modal",
     "moreItems": "+{{items}} more",
     "Copy":"Copy",
+    "Criteria": "Criteria",
     "savedFilters": "Saved Filters",
-    "applied": "Applied",
     "nameFilter":"Name Filter",
-    "Update": "Update",
+    "UpdateAndApply": "Update & Apply",
     "Apply" : "Apply",
-    "ResetAll":"Reset All"
+    "ResetAll":"Reset All",
+    "SaveAndApply": "Save & Apply"
 }

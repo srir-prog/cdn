@@ -78,11 +78,12 @@
     "CloseModal": "मोडल को बंद करें",
     "moreItems": "+{{items}} ज्यादा",
     "Copy":"प्रतिलिपि",
+    "Criteria": "मानदंड",
     "savedFilters": "सहेजे गए फिल्टर",
-    "appliedFilters": "एप्लाइड",
     "nameFilter":"नाम फ़िल्टर",
-    "Update": "अपडेट करें",
+    "UpdateAndApply": "अपडेट करें",
     "Apply" : "लागू",
-    "ResetAll":"सभी को रीसेट करें"
+    "ResetAll":"सभी को रीसेट करें",
+    "SaveAndApply": "सहेजें और लागू करें"
 }
 
