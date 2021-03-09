@@ -48,5 +48,14 @@
     "cashFlowBurnRate": "Cash flow burn rate",
     "cashBufferDays": "Cash buffer days",
     "cashIn": "Cash in",
-    "cashOut": "Cash out"
+    "cashOut": "Cash out",
+    "customer": "Customer",
+    "invoiceNumber": "Invoice number",
+    "invoiceamount": "Invoice amount",
+    "status": "Status",
+    "outstanding": "Outstanding",
+    "lastPaymentDate": "Last Payment Date",
+    "dueDate": "Due Date",
+    "paymentTerms": "Payment Terms",
+    "description": "Description"
 }
