@@ -57,5 +57,6 @@
     "lastPaymentDate": "Last Payment Date",
     "dueDate": "Due Date",
     "paymentTerms": "Payment Terms",
-    "description": "Description"
+    "description": "Description",
+    "invoices": "Invoices"
 }
