@@ -222,7 +222,11 @@
     "lastName": "Last Name",
     "CustomerSummaryEmailSetUpWarning": "Please set an email to enable communications",
     "CustomerSummaryNotificationSuccess": "Customer {{buyerName}} has been saved",
+    "InvoiceNotificationSuccess": "Invoice {{invoiceId}} has been saved",
     "CustomerSummaryNotificationError": "There was a problem saving the details of Customer {{buyerName}}. Please contact Centime Support",
+    "InvoiceSummaryNotificationError": "There was a problem saving the details of Invoice {{invoiceId}}. Please contact Centime Support",
     "CampaignSchedule": "Campaign Schedule",
-    "ExpectedDate": "Expected Date"
+    "ExpectedDate": "Expected Date",
+    "NotesHistoryPanelTitle": "Notes & History",
+    "InvoiceSidePanelTitle": "{{buyerName}}, Invoice {{invoiceId}}"
 }
