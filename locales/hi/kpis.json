@@ -33,5 +33,6 @@
     "lastPaymentDate": "अंतिम भुगतान तिथि",
     "dueDate": "नियत तारीख",
     "paymentTerms": "भुगतान की शर्तें",
-    "description": "विवरण"
+    "description": "विवरण",
+    "invoices": "चालान"
 }
