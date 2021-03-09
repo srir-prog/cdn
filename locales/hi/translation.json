@@ -77,6 +77,12 @@
     "Subject": "विषय",
     "CloseModal": "मोडल को बंद करें",
     "moreItems": "+{{items}} ज्यादा",
-    "Copy":"प्रतिलिपि"
+    "Copy":"प्रतिलिपि",
+    "savedFilters": "सहेजे गए फिल्टर",
+    "appliedFilters": "एप्लाइड",
+    "nameFilter":"नाम फ़िल्टर",
+    "Update": "अपडेट करें",
+    "Apply" : "लागू",
+    "ResetAll":"सभी को रीसेट करें"
 }
 
