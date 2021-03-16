@@ -228,5 +228,6 @@
     "CampaignSchedule": "Campaign Schedule",
     "ExpectedDate": "Expected Date",
     "NotesHistoryPanelTitle": "Notes & History",
-    "InvoiceSidePanelTitle": "{{buyerName}}, Invoice {{invoiceId}}"
+    "InvoiceSidePanelTitle": "{{buyerName}}, Invoice {{invoiceId}}",
+    "OutstandingAmount": "Outstanding Amount"
 }

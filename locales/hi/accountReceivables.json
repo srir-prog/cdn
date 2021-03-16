@@ -224,5 +224,6 @@
     "InvoiceNotificationSuccess": "चालान {{invoiceId}} सहेजा गया है",
     "InvoiceSummaryNotificationError": "चालान {{invoiceId}} के विवरणों को सहेजने में समस्या थी। कृपया सेंटिम सपोर्ट से संपर्क करें",
     "NotesHistoryPanelTitle": "नोट्स और इतिहास",
-    "InvoiceSidePanelTitle": "{{buyerName}}, चालान {{invoiceId}}"
+    "InvoiceSidePanelTitle": "{{buyerName}}, चालान {{invoiceId}}",
+    "OutstandingAmount": "बकाया राशि"
 }
