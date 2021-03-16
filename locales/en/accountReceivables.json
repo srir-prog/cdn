@@ -220,6 +220,7 @@
     "firstName": "First Name",
     "middleName": "Middle Name",
     "lastName": "Last Name",
+    "familyName": "Family Name",
     "CustomerSummaryEmailSetUpWarning": "Please set an email to enable communications",
     "CustomerSummaryNotificationSuccess": "Customer {{buyerName}} has been saved",
     "InvoiceNotificationSuccess": "Invoice {{invoiceId}} has been saved",
