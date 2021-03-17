@@ -58,5 +58,12 @@
     "dueDate": "Due Date",
     "paymentTerms": "Payment Terms",
     "description": "Description",
-    "invoices": "Invoices"
+    "invoices": "Invoices",
+    "businessCategory": "Business Category",
+    "payeeOrPayer": "Payee / Payer",
+    "type": "Type",
+    "paymentAmount": "Payment Amount",
+    "paymentDate": "Payment Date",
+    "glAccountName": "GL Account",
+    "invoiceDueDate": "Invoice Due Date"
 }
