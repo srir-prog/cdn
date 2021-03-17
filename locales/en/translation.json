@@ -84,5 +84,6 @@
     "UpdateAndApply": "Update & Apply",
     "Apply" : "Apply",
     "ResetAll":"Reset All",
-    "SaveAndApply": "Save & Apply"
+    "SaveAndApply": "Save & Apply",
+    "SearchOptions": "Search the Options"
 }
