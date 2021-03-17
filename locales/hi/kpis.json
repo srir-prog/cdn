@@ -34,5 +34,12 @@
     "dueDate": "नियत तारीख",
     "paymentTerms": "भुगतान की शर्तें",
     "description": "विवरण",
-    "invoices": "चालान"
+    "invoices": "चालान",
+    "businessCategory": "व्यापार वर्ग",
+    "payeeOrPayer": "आदाता / भुगतानकर्ता",
+    "type": "प्रकार",
+    "paymentAmount": "भुगतान राशि",
+    "paymentDate": "भुगतान तिथि",
+    "glAccountName": "जीएल खाता",
+    "invoiceDueDate": "बिल की देय तिथि"
 }
