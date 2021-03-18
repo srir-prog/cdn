@@ -62,5 +62,6 @@
     "maximumAttemptText":"You have exceeded maximum retries for resetting password link",
     "InActiveSession":"Inactive session",
     "LoggedOut":"You are about to be logged out",
-    "StayLoggedIn":"Stay logged in"
+    "StayLoggedIn":"Stay logged in",
+    "ContactAdmin":"Please check with administrator for valid invite"
 }

@@ -212,7 +212,9 @@
     "ByUserName": "by {{userName}}",
     "DelayDays": "{{noOfDays}} days",
     "CampaignPausedToolTip": "{{campaignName}} has been paused",
+    "CampaignEmailInValidationToolTip": "{{campaignName}} was disabled as emails could not be delivered to the customer's email address",
     "CampaignPausedAccordionMessage": "{{campaignName}} has been paused",
+    "CampaignEmailInValidationAccordionMessage": "Campaign has been put on pause since the emails could not be delivered. Please confirm the email and resume the campaign again",
     "AutoSubscribe":"Auto-subscribe all customers",
     "MonthlyToolTip":"Add or remove monthly statement subscription for all current and future customers. This setting can be modified for individual customers through their profile.",
     "PaymentToolTip":"Add or remove payment confirmations subscription for all current and future customers. This setting can be modified for individual customers through their profile.",
@@ -230,5 +232,14 @@
     "ExpectedDate": "Expected Date",
     "NotesHistoryPanelTitle": "Notes & History",
     "InvoiceSidePanelTitle": "{{buyerName}}, Invoice {{invoiceId}}",
-    "OutstandingAmount": "Outstanding Amount"
+    "OutstandingAmount": "Outstanding Amount",
+    "InvoiceStatus": "Invoice Status",
+    "InvoiceNumber": "Invoice Number",
+    "CollectionStatus": "Collection Status",
+    "InvoiceCreatedDate": "Invoice Created Date",
+    "Delay": "Delay",
+    "Customer": "Customer",
+    "InvoiceDueDate": "Invoice Due Date",
+    "PaymentDate": "Payment Date",
+    "Payment Terms": "Payment Terms"
 }
