@@ -232,5 +232,14 @@
     "ExpectedDate": "Expected Date",
     "NotesHistoryPanelTitle": "Notes & History",
     "InvoiceSidePanelTitle": "{{buyerName}}, Invoice {{invoiceId}}",
-    "OutstandingAmount": "Outstanding Amount"
+    "OutstandingAmount": "Outstanding Amount",
+    "InvoiceStatus": "Invoice Status",
+    "InvoiceNumber": "Invoice Number",
+    "CollectionStatus": "Collection Status",
+    "InvoiceCreatedDate": "Invoice Created Date",
+    "Delay": "Delay",
+    "Customer": "Customer",
+    "InvoiceDueDate": "Invoice Due Date",
+    "PaymentDate": "Payment Date",
+    "Payment Terms": "Payment Terms"
 }

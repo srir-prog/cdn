@@ -41,5 +41,11 @@
     "paymentAmount": "भुगतान राशि",
     "paymentDate": "भुगतान तिथि",
     "glAccountName": "जीएल खाता",
-    "invoiceDueDate": "बिल की देय तिथि"
+    "InvoiceDueDate": "बिल की देय तिथि",
+    "InvoiceStatus": "चालान की स्थिति",
+    "InvoiceNumber": "बीजक संख्या",
+    "CollectionStatus": "संग्रह की स्थिति",
+    "InvoiceCreatedDate": "चालान बनाया गया दिनांक",
+    "Delay": "विलंब",
+    "Customer": "ग्राहक"
 }

@@ -85,6 +85,8 @@
     "Apply" : "लागू",
     "ResetAll":"सभी को रीसेट करें",
     "SaveAndApply": "सहेजें और लागू करें",
-    "SearchOptions": "विकल्प खोजें"
+    "SearchOptions": "विकल्प खोजें",
+    "QuickSelection": "त्वरित चयन",
+    "CustomSelection": "कस्टम चयन"
 }
 

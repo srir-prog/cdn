@@ -225,8 +225,17 @@
     "InvoiceSummaryNotificationError": "चालान {{invoiceId}} के विवरणों को सहेजने में समस्या थी। कृपया सेंटिम सपोर्ट से संपर्क करें",
     "NotesHistoryPanelTitle": "नोट्स और इतिहास",
     "InvoiceSidePanelTitle": "{{buyerName}}, चालान {{invoiceId}}",
-    "OutstandingAmount": "बकाया राशि",
     "familyName": "परिवार का नाम",
     "CampaignEmailInValidationToolTip": "{{campaignName}} को अक्षम कर दिया गया था क्योंकि ईमेल ग्राहक के ईमेल पते पर वितरित नहीं किए जा सकते थे",
-    "CampaignEmailInValidationAccordionMessage": "ईमेल डिलीवर न होने के कारण अभियान को रोक दिया गया है। कृपया ईमेल की पुष्टि करें और अभियान फिर से शुरू करें"
+    "CampaignEmailInValidationAccordionMessage": "ईमेल डिलीवर न होने के कारण अभियान को रोक दिया गया है। कृपया ईमेल की पुष्टि करें और अभियान फिर से शुरू करें",
+    "OutstandingAmount": "बकाया राशि",
+    "InvoiceStatus": "चालान की स्थिति",
+    "InvoiceNumber": "बीजक संख्या",
+    "CollectionStatus": "संग्रह की स्थिति",
+    "InvoiceCreatedDate": "चालान बनाया गया दिनांक",
+    "Delay": "विलंब",
+    "Customer": "ग्राहक",
+    "InvoiceDueDate": "बिल की देय तिथि",
+    "PaymentDate": "भुगतान तिथि",
+    "Payment Terms": "भुगतान की शर्तें"
 }

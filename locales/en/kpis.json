@@ -65,5 +65,11 @@
     "paymentAmount": "Payment Amount",
     "paymentDate": "Payment Date",
     "glAccountName": "GL Account",
-    "invoiceDueDate": "Invoice Due Date"
+    "InvoiceDueDate": "Invoice Due Date",
+    "InvoiceStatus": "Invoice Status",
+    "InvoiceNumber": "Invoice Number",
+    "CollectionStatus": "Collection Status",
+    "InvoiceCreatedDate": "Invoice Created Date",
+    "Delay": "Delay",
+    "Customer": "Customer"
 }

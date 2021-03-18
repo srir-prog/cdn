@@ -85,5 +85,7 @@
     "Apply" : "Apply",
     "ResetAll":"Reset All",
     "SaveAndApply": "Save & Apply",
-    "SearchOptions": "Search the Options"
+    "SearchOptions": "Search the Options",
+    "QuickSelection": "Quick Selection",
+    "CustomSelection": "Custom Selection"
 }
