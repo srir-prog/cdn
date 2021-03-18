@@ -71,5 +71,8 @@
     "CollectionStatus": "Collection Status",
     "InvoiceCreatedDate": "Invoice Created Date",
     "Delay": "Delay",
-    "Customer": "Customer"
+    "Customer": "Customer",
+    "paid": "Paid",
+    "unpaid": "Unpaid",
+    "partiallyPaid": "Partially Paid"
 }

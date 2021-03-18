@@ -47,5 +47,8 @@
     "CollectionStatus": "संग्रह की स्थिति",
     "InvoiceCreatedDate": "चालान बनाया गया दिनांक",
     "Delay": "विलंब",
-    "Customer": "ग्राहक"
+    "Customer": "ग्राहक",
+    "paid": "भुगतान किया",
+    "unpaid": "अवैतनिक",
+    "partiallyPaid": "आंशिक रूप से भुगतान किया"
 }
