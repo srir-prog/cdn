@@ -63,5 +63,7 @@
     "InActiveSession":"Inactive session",
     "LoggedOut":"You are about to be logged out",
     "StayLoggedIn":"Stay logged in",
-    "ContactAdmin":"Please check with administrator for valid invite"
+    "ContactAdmin":"Please check with administrator for valid invite",
+    "SessionLogoutMsg":"You have been logged out due to session inactivity",
+    "ConfirmText":"By pressing the back button of the browser, your session will be invalid and all unsaved data will be lost. Are you sure you want to continue?"
 }
