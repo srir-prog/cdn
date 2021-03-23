@@ -87,6 +87,16 @@
     "SaveAndApply": "सहेजें और लागू करें",
     "SearchOptions": "विकल्प खोजें",
     "QuickSelection": "त्वरित चयन",
-    "CustomSelection": "कस्टम चयन"
+    "CustomSelection": "कस्टम चयन",
+    "Quarters":"क्वार्टरों",
+    "Months":"महीने",
+    "Days":"दिन",
+    "LastMonth":"पिछला महीना",
+    "LastQuarter":"आख़िरी चौथाई",
+    "LastYear":"पिछले साल",
+    "PreviousPeriod":"पिछली अवधि",
+    "PreviousYear":"Previous Year",
+    "Start Date":"आरंभ करने की तिथि",
+    "End Date":"End Date"
 }
 
