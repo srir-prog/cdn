@@ -87,5 +87,15 @@
     "SaveAndApply": "Save & Apply",
     "SearchOptions": "Search the Options",
     "QuickSelection": "Quick Selection",
-    "CustomSelection": "Custom Selection"
+    "CustomSelection": "Custom Selection",
+    "Quarters":"Quarters",
+    "Months":"Months",
+    "Days":"Days",
+    "LastMonth":"Last Month",
+    "LastQuarter":"Last Quarter",
+    "LastYear":"Last Year",
+    "PreviousPeriod":"Previous Period",
+    "PreviousYear":"Previous Year",
+    "Start Date":"Start Date",
+    "End Date":"End Date"
 }
