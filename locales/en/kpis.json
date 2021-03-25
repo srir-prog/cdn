@@ -19,7 +19,7 @@
     "averageDaysPastDue": "Average days past due",
     "turnOverRatio": "Turnover ratio",
     "unCollected": "Uncollected",
-    "collectionsExpected": "Expected",
+    "collectionsExpected": "Due",
     "collectionsExpectedMetric": "Collections expected",
     "collectedOnTime": "Collected On Time",
     "collectedLate": "Collected late",
@@ -74,5 +74,7 @@
     "Customer": "Customer",
     "paid": "Paid",
     "unpaid": "Unpaid",
-    "partiallyPaid": "Partially Paid"
+    "partiallyPaid": "Partially Paid",
+    "onTime": "On time",
+    "impact": "Impact"
 }
