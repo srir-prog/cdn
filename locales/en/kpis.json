@@ -76,5 +76,6 @@
     "unpaid": "Unpaid",
     "partiallyPaid": "Partially Paid",
     "onTime": "On time",
-    "impact": "Impact"
+    "impact": "Impact",
+    "transactions": "Transactions"
 }
