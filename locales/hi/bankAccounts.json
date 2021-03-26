@@ -41,5 +41,18 @@
     "viewStatement": "विवरण देखें",
     "Accounts":"खातों",
     "defaultSunburstMsg":"प्रत्येक अंगूठी आपके बैंकिंग संबंध के एक घटक का प्रतिनिधित्व करती है",
-    "defaultErrorMsg":"विवरण प्राप्त करते समय त्रुटि"
+    "defaultErrorMsg":"विवरण प्राप्त करते समय त्रुटि",
+    "balanceMismatchTooltip": "बैंक बैलेंस सामान्य खाता बही संतुलन से मेल नहीं खाता",
+    "glNotConnectedTooltip": "सेटिंग पृष्ठ के माध्यम से एक सामान्य खाता बही खाते में अपने बैंक खाते को लिंक करें",
+    "accountType": "खाते का प्रकार",
+    "accountsCount": "{{count}} हिसाब किताब",
+    "bankingAccounts": "बैंकिंग खातों",
+    "balance": "संतुलन",
+    "glBalance": "सामान्य खाता बही संतुलन",
+    "creditLoanAccounts": "क्रेडिट और ऋण खातों",
+    "financialInstitution": "वित्तीय संस्थान",
+    "bankBalance": "बैंक राशि",
+    "creditAndLoanBalance": "क्रेडिट और ऋण की शेष राशि",
+    "generalLedgerBalance": "सामान्य खाता बही संतुलन",
+    "sunburstCenterText": "प्रत्येक अंगूठी अपने बैंकिंग रिश्ते की एक घटक का प्रतिनिधित्व"
 }
