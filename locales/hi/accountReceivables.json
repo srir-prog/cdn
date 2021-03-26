@@ -21,10 +21,10 @@
     "CampaignUsed":"Campaign used",
     "ConfirmationEmail":"भुगतान पुष्टिकरण ईमेल भेजें",
     "ARSettings":"खाता प्राप्य सेटिंग्स",
-    "EmailSettings":"ईमेल सेटिंग",
-    "SenderName":"भेजने वाले का नाम",
-    "SenderSignature":"प्रेषक के हस्ताक्षर",
-    "ReplyToAddress":"प्रत्युत्तर पता",
+    "EmailSettings":"ईमेल के लिए प्रेषक प्रोफ़ाइल",
+    "SenderName":"नाम",
+    "SenderSignature":"हस्ताक्षर",
+    "ReplyToAddress":"ईमेल",
     "ReminderCampaigns":"अनुस्मारक अभियान",
     "EnableAutoReminders":"ऑटो अनुस्मारक सक्षम करें",
     "MinimumReminderAmount":"न्यूनतम एआर अनुस्मारक राशि",
@@ -237,5 +237,6 @@
     "Customer": "ग्राहक",
     "InvoiceDueDate": "बिल की देय तिथि",
     "PaymentDate": "भुगतान तिथि",
-    "Payment Terms": "भुगतान की शर्तें"
+    "Payment Terms": "भुगतान की शर्तें",
+    "RecipientProfile":"आंतरिक सूचनाओं के लिए प्राप्तकर्ता प्रोफाइल"
 }
