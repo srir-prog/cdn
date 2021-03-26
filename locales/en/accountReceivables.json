@@ -53,9 +53,9 @@
     "BucketLabel1": "Due in 30+ days",
     "BucketLabel2": "Due in 30 days",
     "BucketLabel3": "0-30 days overdue",
-    "BucketLabel4": "30-60 days overdue",
-    "BucketLabel5": "60-90 days overdue",
-    "BucketLabel6": "90-120 days overdue",
+    "BucketLabel4": "31-60 days overdue",
+    "BucketLabel5": "61-90 days overdue",
+    "BucketLabel6": "91-120 days overdue",
     "BucketLabel7": "120+ days overdue",
     "SetFilter": "Click to set filter",
     "UnsetFilter": "Click to unset filter",
@@ -242,5 +242,6 @@
     "InvoiceDueDate": "Invoice Due Date",
     "PaymentDate": "Payment Date",
     "Payment Terms": "Payment Terms",
-    "RecipientProfile":"Recipient profile for internal notifications"
+    "RecipientProfile":"Recipient profile for internal notifications",
+    "TableCellWaringRequired": "Required"
 }
