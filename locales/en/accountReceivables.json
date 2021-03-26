@@ -21,10 +21,10 @@
     "StatementEmail":"Send monthly statement email",
     "ConfirmationEmail":"Send payment confirmation email",
     "ARSettings":"AR Settings",
-    "EmailSettings":"Email settings",
-    "SenderName":"Sender name",
-    "SenderSignature":"Sender signature",
-    "ReplyToAddress":"Reply to address",
+    "EmailSettings":"Sender profile for emails",
+    "SenderName":"Name",
+    "SenderSignature":"Signature",
+    "ReplyToAddress":"Email",
     "ReminderCampaigns":"Reminder campaigns",
     "EnableAutoReminders":"Enable campaigns",
     "MinimumReminderAmount":"Minimum AR reminder amount",
@@ -241,5 +241,6 @@
     "Customer": "Customer",
     "InvoiceDueDate": "Invoice Due Date",
     "PaymentDate": "Payment Date",
-    "Payment Terms": "Payment Terms"
+    "Payment Terms": "Payment Terms",
+    "RecipientProfile":"Recipient profile for internal notifications"
 }
