@@ -50,5 +50,18 @@
     "Line of credit legend": "LINE OF CREDIT BALANCE",
     "SummaryTable" : "Summary Table",
     "defaultSunburstMsg":"Each ring represents a component of your banking relationship",
-    "defaultErrorMsg":"Error while fetching details"
+    "defaultErrorMsg":"Error while fetching details",
+    "accountType": "Account type",
+    "accountsCount": "{{count}} Accounts",
+    "balanceMismatchTooltip": "The bank balance does not match the general ledger balance",
+    "glNotConnectedTooltip": "Please link your bank account to a general ledger account through the settings page",
+    "bankingAccounts": "Banking accounts",
+    "balance": "Balance",
+    "glBalance": "General Ledger balance",
+    "creditLoanAccounts": "Credit and Loan accounts",
+    "financialInstitution": "Financial institution",
+    "bankBalance": "Bank balance",
+    "creditAndLoanBalance": "Credit and Loan balance",
+    "generalLedgerBalance": "General ledger balance",
+    "sunburstCenterText": "Each ring represents a component of your banking relationship"
 }
