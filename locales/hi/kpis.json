@@ -56,5 +56,14 @@
     "collectionsExpected": "देय",
     "collectedLately": "विलंब से",
     "unCollected": "खोलना",
-    "transactions": "लेन-देन"
+    "transactions": "लेन-देन",
+    "collectionsExpectedMetric": "संग्रह देय",
+    "collectedOnTime": "समय पर एकत्र किया गया",
+    "collectedLate": "देर से एकत्र किया गया",
+    "closingBalance": "जमा शेष",
+    "cashIn": "नकद आय",
+    "cashOut": "नकदी निकलना",
+    "openingBalance": "प्रारंभिक शेष",
+    "Metrics": "मैट्रिक्स",
+    "Insights": "इनसाइट्स"
 }
