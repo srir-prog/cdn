@@ -20,7 +20,7 @@
     "turnOverRatio": "Turnover ratio",
     "unCollected": "Uncollected",
     "collectionsExpected": "Due",
-    "collectionsExpectedMetric": "Collections expected",
+    "collectionsExpectedMetric": "Collections due",
     "collectedOnTime": "Collected On Time",
     "collectedLate": "Collected late",
     "axisInfoContent": "All amounts in thousands of USD",
