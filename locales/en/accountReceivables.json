@@ -90,8 +90,8 @@
     "PauseCampaign": "Pause Campaign",
     "StartCampaign": "Start Campaign",
     "ResumeCampaign": "Resume Campaign",
-    "CampaignToolTipInvoice": "Campaigns can be paused and started for the current Invoice",
-    "CampaignToolTipBuyer": "Campaigns can be paused and started for the customer. This action will impact all invoices of this customer",
+    "CampaignToolTipInvoice": "Campaigns can be paused and resumed for the current Invoice",
+    "CampaignToolTipBuyer": "Campaigns can be paused and resumed for the customer. This action will impact all invoice campaigns of this customer",
     "InvoiceDate": "Invoice Date",
     "InvoiceAmount": "Invoice Amount",
     "PaymentTerms": "Payment Terms",
@@ -243,5 +243,6 @@
     "PaymentDate": "Payment Date",
     "Payment Terms": "Payment Terms",
     "RecipientProfile":"Recipient profile for internal notifications",
-    "TableCellWaringRequired": "Required"
+    "TableCellWaringRequired": "Required",
+    "SetReminderCampaignToolTip": "The current campaign for the customer. It will be overwritten by the selected campaign"
 }

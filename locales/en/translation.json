@@ -78,6 +78,7 @@
     "CloseModal": "Close the Modal",
     "moreItems": "+{{items}} more",
     "Copy":"Copy",
+    "filters": "Filters",
     "Criteria": "Criteria",
     "savedFilters": "Saved Filters",
     "nameFilter":"Name Filter",
