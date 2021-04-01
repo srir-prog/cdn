@@ -79,6 +79,7 @@
     "moreItems": "+{{items}} more",
     "Copy":"Copy",
     "Criteria": "Criteria",
+    "filters": "Filters",
     "savedFilters": "Saved Filters",
     "nameFilter":"Name Filter",
     "UpdateAndApply": "Update & Apply",
