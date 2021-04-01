@@ -165,7 +165,7 @@
     "HistoryActionCampaignResumed": "अभियान {{campaignName}} फिर से शुरू किया गया",
     "HistoryActionInvoiceStatusUpdated": "चालान की स्थिति अपडेट की गई",
     "HistoryActionExpectedPaymentDateUpdated": "अपेक्षित भुगतान तिथि अपडेट की गई",
-    "HistoryActionCustomerEmailUpdated": "ग्राहक ईमेल अपडेट किया गया",
+    "HistoryActionCustomerEmailUpdated": "प्राथमिक संपर्क ईमेल अपडेट",
     "ConfigureTemplate":"टेम्पलेट कॉन्फ़िगर करें",
     "BuyerSendReminderNotificationSuccess": "अनुस्मारक {{invoicesCount}} चालान के लिए भेजे गए हैं",
     "BuyerSendReminderNotificationFailure": "चालान रिमाइंडर नहीं भेजे जा सके। कृपया Centime Support से संपर्क करें",
@@ -240,5 +240,8 @@
     "Payment Terms": "भुगतान की शर्तें",
     "RecipientProfile":"आंतरिक सूचनाओं के लिए प्राप्तकर्ता प्रोफाइल",
     "TableCellWaringRequired": "अपेक्षित",
-    "SetReminderCampaignToolTip": "ग्राहक के लिए वर्तमान अभियान। यह चयनित अभियान द्वारा अधिलेखित कर दिया जाएगा"
+    "SetReminderCampaignToolTip": "ग्राहक के लिए वर्तमान अभियान। यह चयनित अभियान द्वारा अधिलेखित कर दिया जाएगा",
+    "HistoryActionCustomerPhoneNoUpdated": "ग्राहक फोन अपडेट किया गया",
+    "HistoryActionCustomerWebSiteUpdated": "ग्राहक वेबसाइट अद्यतन",
+    "HistoryActionCustomerContactNameUpdated": "प्राथमिक संपर्क नाम अपडेट किया गया"
 }
