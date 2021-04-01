@@ -78,8 +78,8 @@
     "NextReminder": "अगला रिमाइंडर",
     "PauseCampaign": "अभियान को रोकें",
     "StartCampaign": "अभियान शुरू करें",
-    "CampaignToolTipInvoice": "वर्तमान चालान के लिए अभियान रोका जा सकता है और शुरू किया जा सकता है",
-    "CampaignToolTipBuyer": "ग्राहक के लिए अभियान रोका जा सकता है और शुरू किया जा सकता है। यह क्रिया इस ग्राहक के सभी चालानों को प्रभावित करेगी",
+    "CampaignToolTipInvoice": "वर्तमान चालान के लिए अभियान रोका जा सकता है और फिर से शुरू किया जा सकता है",
+    "CampaignToolTipBuyer": "Campaigns can be paused and resumed for the customer. This action will impact all invoice campaigns of this customer",
     "InvoiceDate": "चालान की तारीख",
     "InvoiceAmount": "बीजक राशि",
     "PaymentTerms": "भुगतान की शर्तें",
@@ -239,5 +239,6 @@
     "PaymentDate": "भुगतान तिथि",
     "Payment Terms": "भुगतान की शर्तें",
     "RecipientProfile":"आंतरिक सूचनाओं के लिए प्राप्तकर्ता प्रोफाइल",
-    "TableCellWaringRequired": "अपेक्षित"
+    "TableCellWaringRequired": "अपेक्षित",
+    "SetReminderCampaignToolTip": "ग्राहक के लिए वर्तमान अभियान। यह चयनित अभियान द्वारा अधिलेखित कर दिया जाएगा"
 }
