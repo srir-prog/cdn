@@ -63,5 +63,8 @@
     "bankBalance": "Bank balance",
     "creditAndLoanBalance": "Credit and Loan balance",
     "generalLedgerBalance": "General ledger balance",
-    "sunburstCenterText": "Each ring represents a component of your banking relationship"
+    "sunburstCenterText": "Each ring represents a component of your banking relationship",
+    "FIInfo":"Monitor cash and track balances across your bank, credit and loan accounts",
+    "FIInfoNotConnected":"Monitor your cash by connecting to financial institutions and  track balances across your bank, credit and loan accounts",
+    "ConnectFI":"Connect Financial Institution"
 }

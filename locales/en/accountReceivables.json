@@ -247,5 +247,6 @@
     "Payment Terms": "Payment Terms",
     "RecipientProfile":"Recipient profile for internal notifications",
     "TableCellWaringRequired": "Required",
-    "SetReminderCampaignToolTip": "The current campaign for the customer. It will be overwritten by the selected campaign"
+    "SetReminderCampaignToolTip": "The current campaign for the customer. It will be overwritten by the selected campaign",
+    "ReceivablesInfo":"Stay in control of your accounts receivables by tracking open invoices and automating your customer follow ups"
 }

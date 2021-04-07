@@ -243,5 +243,6 @@
     "SetReminderCampaignToolTip": "ग्राहक के लिए वर्तमान अभियान। यह चयनित अभियान द्वारा अधिलेखित कर दिया जाएगा",
     "HistoryActionCustomerPhoneNoUpdated": "ग्राहक फोन अपडेट किया गया",
     "HistoryActionCustomerWebSiteUpdated": "ग्राहक वेबसाइट अद्यतन",
-    "HistoryActionCustomerContactNameUpdated": "प्राथमिक संपर्क नाम अपडेट किया गया"
+    "HistoryActionCustomerContactNameUpdated": "प्राथमिक संपर्क नाम अपडेट किया गया",
+    "ReceivablesInfo":"खुले चालान पर नज़र रखने और अपने ग्राहक फ़ॉलो अप को स्वचालित करके अपने खातों की प्राप्ति के नियंत्रण में रहें"
 }
