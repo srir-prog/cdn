@@ -12,5 +12,5 @@
   "UnableToSignUp": "Sorry we are unable to sign you up at the moment. Please contact FNBO.",
   "CannotSignUp" : "Sorry, we are unable to sign you up at the moment.",
   "GLSyncInProgress":"Please wait while the GL data is being loaded. This may take several minutes. You can access the modules after the process completes",
-  "NoEntitlements": "You need entitlements to use the Centime platform. Please contact the administra"    
+  "NoEntitlements": "You need entitlements to use the Centime platform. Please contact the administrator"    
 }
