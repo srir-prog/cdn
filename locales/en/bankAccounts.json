@@ -81,5 +81,8 @@
     "paymentDueDate": "Payment due date",
     "paymentMinAmount": "Minimum payment Amount",
     "withDrawals": "Withdrawals",
-    "deposits": "Deposits"
+    "deposits": "Deposits",
+    "FIInfo":"Monitor cash and track balances across your bank, credit and loan accounts",
+    "FIInfoNotConnected":"Monitor your cash by connecting to financial institutions and  track balances across your bank, credit and loan accounts",
+    "ConnectFI":"Connect Financial Institution"
 }
