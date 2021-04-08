@@ -1,7 +1,7 @@
 {
     "SetReminderCampaign":"Set Reminder Campaign",
     "EmailSummary":"Provide emails for following customers before proceeding",
-    "ReminderCampaign":"REMINDER CAMPAIGN",
+    "ReminderCampaign":"Reminder Campaign",
     "CantFindCampaign":"Can't find a campaign you need? You can create one from the settings page",
     "timelineDays":"{{sign}}{{count}} day",
     "timelineDays_plural":"{{sign}}{{count}} days",
@@ -251,5 +251,10 @@
     "RecipientProfile":"Recipient profile for internal notifications",
     "TableCellWaringRequired": "Required",
     "SetReminderCampaignToolTip": "The current campaign for the customer. It will be overwritten by the selected campaign",
-    "ReceivablesInfo":"Stay in control of your accounts receivables by tracking open invoices and automating your customer follow ups"
+    "ReceivablesInfo":"Stay in control of your accounts receivables by tracking open invoices and automating your customer follow ups",
+    "OverdueAmount": "Overdue Amount",
+    "PercentageOverdue": "Percentage Overdue",
+    "PaymentConfirmation": "Payment Confirmation",
+    "MonthlyStatement": "Monthly Statement",
+    "InvoiceAge": "Invoice Age"
 }
