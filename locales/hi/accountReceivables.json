@@ -247,5 +247,10 @@
     "PaymentStatusMessagePredictedNew": "देरी होने की भविष्यवाणी की जाती है",
     "CampaignPausedToolTipPlain": "इस अभियान को रोक दिया गया था",
     "CampaignEmailInValidationToolTipPlain": "इस अभियान को अक्षम कर दिया गया था क्योंकि ईमेल ग्राहक के ईमेल पते पर वितरित नहीं किए जा सकते थे"
-    "ReceivablesInfo":"खुले चालान पर नज़र रखने और अपने ग्राहक फ़ॉलो अप को स्वचालित करके अपने खातों की प्राप्ति के नियंत्रण में रहें"
+    "ReceivablesInfo":"खुले चालान पर नज़र रखने और अपने ग्राहक फ़ॉलो अप को स्वचालित करके अपने खातों की प्राप्ति के नियंत्रण में रहें",
+    "OverdueAmount": "अतिदेय राशि",
+    "PercentageOverdue": "प्रतिशत से अधिक",
+    "PaymentConfirmation": "भुगतान की पुष्टि",
+    "MonthlyStatement": "मासिक विवरण",
+    "InvoiceAge": "चालान आयु"
 }
