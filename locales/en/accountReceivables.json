@@ -256,5 +256,6 @@
     "PercentageOverdue": "Percentage Overdue",
     "PaymentConfirmation": "Payment Confirmation",
     "MonthlyStatement": "Monthly Statement",
-    "InvoiceAge": "Invoice Age"
+    "InvoiceAge": "Invoice Age",
+    "ExpectedPaymentDate": "Expected Payment Date"
 }

@@ -252,5 +252,6 @@
     "PercentageOverdue": "प्रतिशत से अधिक",
     "PaymentConfirmation": "भुगतान की पुष्टि",
     "MonthlyStatement": "मासिक विवरण",
-    "InvoiceAge": "चालान आयु"
+    "InvoiceAge": "चालान आयु",
+    "ExpectedPaymentDate": "अपेक्षित भुगतान तिथि"
 }
