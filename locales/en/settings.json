@@ -126,5 +126,15 @@
     "UnsavedChanges" : "You have unsaved changes",
     "PleaseSave" : "Please save your changes before proceeding",
     "OnlyAdminUser": "You are the only Centime user with admin privileges",
-    "RemovingAdminError" : "You are the only Centime user with admin privileges, please add admin privileges to somebody else before you remove yourself"
+    "RemovingAdminError" : "You are the only Centime user with admin privileges, please add admin privileges to somebody else before you remove yourself",
+    "CompanySettings":"Company Settings",
+    "CompanyInformation":"Company Information",
+    "UserManagement":"User management",
+    "PersonalDetails":"Personal details",
+    "JobTitle":"Job title",
+    "PhoneNumberMgmt":"Phone number management",
+    "PasswordManagement":"Password management",
+    "CentimePreferences":"Centime preferences",
+    "IdleTimeout":"Idle timeout",
+    "SelectTimeout":"Select session timeout"
 }

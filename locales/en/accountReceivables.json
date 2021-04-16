@@ -120,7 +120,7 @@
     "CampaignOn": "<bold>{{customerOnCount}}</bold> on due date",
     "CampaignInternalAfter": "<bold>{{internalAfterCount}}</bold> after due date",
     "CampaignInternalBefore": "<bold>{{internalBeforeCount}}</bold> before due date{{comma}}",
-    "CampaignName": "Campaign name",
+    "HeaderLabelCampaignName": "Campaign name",
     "CampaignDescription": "Description",
     "CampaignLastEdited": "Last Edited",
     "BackToARAging": "Back to AR Aging",
@@ -257,5 +257,6 @@
     "PaymentConfirmation": "Payment Confirmation",
     "MonthlyStatement": "Monthly Statement",
     "InvoiceAge": "Invoice Age",
-    "ExpectedPaymentDate": "Expected Payment Date"
+    "ExpectedPaymentDate": "Expected Payment Date",
+    "HeaderLabelSchedule":"Schedule"
 }
