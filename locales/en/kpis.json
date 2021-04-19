@@ -92,5 +92,6 @@
     "categories": "Categories",
     "KPIsInfo":"Evaluate the performance of your business through KPIs and Metrics, and identify areas impacting performance using  visualizations and insights",
     "Period": "Period",
-    "grossBurnRate": "Gross Burn Rate"
+    "grossBurnRate": "Gross Burn Rate",
+    "trend": "Trend"
 }

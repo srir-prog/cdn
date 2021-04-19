@@ -1,0 +1,14 @@
+{
+  "HistoryActionCustomerEmailUpdated": "प्राथमिक संपर्क ईमेल अपडेट",
+  "HistoryActionCustomerContactNameUpdated": "प्राथमिक संपर्क नाम अपडेट किया गया",
+  "HistoryActionCampaignChanged": "अभियान बदल गया",
+  "HistoryActionCustomerAddressUpdated": "ग्राहक का पता अद्यतन",
+  "HistoryActionCustomerPhoneNoUpdated": "ग्राहक फोन अपडेट किया गया",
+  "HistoryActionCustomerWebsiteUpdated": "ग्राहक वेबसाइट अद्यतन",
+  "HistoryActionCustomerWebSiteUpdated": "ग्राहक वेबसाइट अद्यतन",
+  "HistoryActionCustomerMonthlyStatementFlag": "ग्राहक मासिक स्टेटमेंट सेटिंग अपडेट किया गया",
+  "HistoryActionNotesAdded": "नोट्स जोड़े गए",
+  "ByUserName": "द्वारा {{userName}}",
+  "CustomerSummaryNotificationSuccess": "ग्राहक {{buyerName}} सहेजने गया",
+  "CustomerSummaryNotificationError": "ग्राहक के विवरण को सहेजने में समस्या थी {{buyerName}}. कृपया सेंटिम सपोर्ट से संपर्क करें"
+}

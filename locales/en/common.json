@@ -1,0 +1,14 @@
+{
+  "HistoryActionCustomerEmailUpdated": "Primary Contact Email Updated",
+  "HistoryActionCustomerContactNameUpdated": "Primary Contact Name Updated",
+  "HistoryActionCampaignChanged": "Campaign changed",
+  "HistoryActionCustomerAddressUpdated": "Customer Address Updated",
+  "HistoryActionCustomerPhoneNoUpdated": "Customer Phone Updated",
+  "HistoryActionCustomerWebsiteUpdated": "Customer Website Updated",
+  "HistoryActionCustomerWebSiteUpdated": "Customer Website Updated",
+  "HistoryActionCustomerMonthlyStatementFlag": "Customer Monthly Statement setting Updated",
+  "HistoryActionNotesAdded": "Notes Added",
+  "ByUserName": "by {{userName}}",
+  "CustomerSummaryNotificationSuccess": "Customer {{buyerName}} has been saved",
+  "CustomerSummaryNotificationError": "There was a problem saving the details of Customer {{buyerName}}. Please contact Centime Support"
+}
