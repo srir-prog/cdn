@@ -107,7 +107,7 @@
     "CampaignOn": "<bold>{{customerOnCount}}</bold> नियत तिथि पर",
     "CampaignInternalAfter": "<bold>{{internalAfterCount}}</bold> ियत तारीख के बाद",
     "CampaignInternalBefore": "<bold>{{internalBeforeCount}}</bold> नियत तारीख से पहले{{comma}}",
-    "CampaignName": "अभियान का नाम",
+    "HeaderLabelCampaignName": "अभियान का नाम",
     "CampaignDescription": "विवरण",
     "CampaignLastEdited": "अंतिम संपादित",
     "BackToARAging": "वापस एआर एजिंग के लिए",
@@ -246,12 +246,13 @@
     "HistoryActionCustomerContactNameUpdated": "प्राथमिक संपर्क नाम अपडेट किया गया",
     "PaymentStatusMessagePredictedNew": "देरी होने की भविष्यवाणी की जाती है",
     "CampaignPausedToolTipPlain": "इस अभियान को रोक दिया गया था",
-    "CampaignEmailInValidationToolTipPlain": "इस अभियान को अक्षम कर दिया गया था क्योंकि ईमेल ग्राहक के ईमेल पते पर वितरित नहीं किए जा सकते थे"
+    "CampaignEmailInValidationToolTipPlain": "इस अभियान को अक्षम कर दिया गया था क्योंकि ईमेल ग्राहक के ईमेल पते पर वितरित नहीं किए जा सकते थे",
     "ReceivablesInfo":"खुले चालान पर नज़र रखने और अपने ग्राहक फ़ॉलो अप को स्वचालित करके अपने खातों की प्राप्ति के नियंत्रण में रहें",
     "OverdueAmount": "अतिदेय राशि",
     "PercentageOverdue": "प्रतिशत से अधिक",
     "PaymentConfirmation": "भुगतान की पुष्टि",
     "MonthlyStatement": "मासिक विवरण",
     "InvoiceAge": "चालान आयु",
-    "ExpectedPaymentDate": "अपेक्षित भुगतान तिथि"
+    "ExpectedPaymentDate": "अपेक्षित भुगतान तिथि",
+    "HeaderLabelSchedule":"अनुसूची"
 }
