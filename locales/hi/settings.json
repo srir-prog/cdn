@@ -135,5 +135,13 @@
     "PasswordManagement":"पासवर्ड प्रबंधन",
     "CentimePreferences":"शताब्दी की प्राथमिकताएँ",
     "IdleTimeout":"निष्क्रिय समय",
-    "SelectTimeout":"सत्र टाइमआउट का चयन करें"
+    "SelectTimeout":"सत्र टाइमआउट का चयन करें",
+    "PhoneNumSuccessMsg":"फ़ोन नंबर सहेजा गया है",
+    "PhoneNumFailureMsg":"फ़ोन नंबर सहेजा नहीं जा सकता। कृपया पुन: प्रयास करें",
+    "PwdSuccessMsg":"पासवर्ड सहेज लिया गया है",
+    "PwdFailureMsg":"पासवर्ड सहेजा नहीं जा सकता। कृपया पुन: प्रयास करें",
+    "PersonalSuccessMsg":"व्यक्तिगत विवरण सहेजे गए हैं",
+    "PersonalFailureMsg":"व्यक्तिगत विवरण सहेजे नहीं जा सकते। कृपया पुन: प्रयास करें",
+    "PrefsSuccessMsg":"प्राथमिकताएं बचाई गई हैं",
+    "PrefsFailureMsg":"प्राथमिकताएं नहीं बचाई जा सकती हैं। कृपया पुन: प्रयास करें"
 }

@@ -136,5 +136,14 @@
     "PasswordManagement":"Password management",
     "CentimePreferences":"Centime preferences",
     "IdleTimeout":"Idle timeout",
-    "SelectTimeout":"Select session timeout"
+    "SelectTimeout":"Select session timeout",
+    "PhoneNumber":"Phone number",
+    "PhoneNumSuccessMsg":"Phone number has been saved",
+    "PhoneNumFailureMsg":"Phone number cannot be saved. Please try again",
+    "PwdSuccessMsg":"Password has been saved",
+    "PwdFailureMsg":"Password cannot be saved. Please try again",
+    "PersonalSuccessMsg":"Personal details have been saved",
+    "PersonalFailureMsg":"Personal details cannot be saved. Please try again",
+    "PrefsSuccessMsg":"Preferences have been saved",
+    "PrefsFailureMsg":"Preferences cannot be saved. Please try again"
 }
