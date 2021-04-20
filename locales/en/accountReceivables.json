@@ -1,6 +1,6 @@
 {
     "SetReminderCampaign":"Set Reminder Campaign",
-    "EmailSummary":"Provide emails for following customers before proceeding",
+    "EmailSummary":"{{withoutEmailCustomersSelected}} out of {{totalCustomersSelected}} selected customer profiles do not have emails. To include these customers in the campaign, provide their emails. Else, skip this step to exclude these customers",
     "ReminderCampaign":"Reminder Campaign",
     "CantFindCampaign":"Can't find a campaign you need? You can create one from the settings page",
     "timelineDays":"{{sign}}{{count}} day",
