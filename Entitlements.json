@@ -1,14 +1,14 @@
 {
   "AR": {
     "featureIds":{
-      "canEditExpectedDate": 1,
-      "canEditStatus": 2,
-      "canAddInvoiceNotes": 3,
-      "canEditCustomerSummaryDetails": 4,
-      "canSetCampaign": 5,
-      "canSendStatement": 6,
-      "canSendReminders": 7,
-      "canPauseResumeCampaigns": 8
+      "canEditExpectedDate": 14,
+      "canEditStatus": 14,
+      "canAddInvoiceNotes": 14,
+      "canEditCustomerSummaryDetails": 15,
+      "canSetCampaign": 16,
+      "canSendStatement": 19,
+      "canSendReminders": 20,
+      "canPauseResumeCampaigns": 21
     }
   }
 }
