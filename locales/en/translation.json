@@ -119,5 +119,9 @@
     "Guide": "Guide",
     "Menu": "Menu",
     "Settings": "Settings",
-    "More": "More"
+    "More": "More",
+    "between": "between",
+    "on": "on",
+    "isLessThan": "is less than",
+    "isGreaterThan": "is greater than"
 }

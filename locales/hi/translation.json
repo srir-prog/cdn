@@ -119,6 +119,10 @@
     "Guide": "मार्गदर्शक",
     "Menu": "मेन्यू",
     "Settings": "समायोजन",
-    "More": "अधिक"
+    "More": "अधिक",
+    "between": "के बीच",
+    "on": "पर",
+    "isLessThan": "से कम है",
+    "isGreaterThan": "से अधिक है"
 }
 
