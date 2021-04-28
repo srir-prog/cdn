@@ -58,7 +58,7 @@
     "ModuleActionsModal" : "Module Actions Modal",
     "EntitlementsWizard": "Entitlements Wizard",
     "EntitlementsDesc" : "Identifying job functions is the easiest way to define entitlements",
-    "JobFuncQuestion" : "<q>Q. </q>What are {{fullName}}'s job functions?",
+    "JobFuncQuestion" : "What are {{fullName}}'s job functions?",
     "JobFuncPrompt": "* Task(s) not listed? Don't worry, you'll be able to define entitlements on the next page",
     "BackToUsersPage": "Back to Manage Users",
     "BackToModify": "Back to Modify Entitlements",
