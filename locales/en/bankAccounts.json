@@ -84,5 +84,8 @@
     "FIInfo":"Monitor cash and track balances across your bank, credit and loan accounts",
     "FIInfoNotConnected":"Monitor your cash by connecting to financial institutions and  track balances across your bank, credit and loan accounts",
     "ConnectFI":"Connect Financial Institution",
-    "SyncNowError":"There were errors while syncing bank account transactions. Please contact Centime Support."
+    "SyncNowError":"There were errors while syncing bank account transactions. Please contact Centime Support.",
+    "Transactions": "Transactions",
+    "loanAmount": "Loan amount",
+    "availableBalance": "Available balance"
 }
