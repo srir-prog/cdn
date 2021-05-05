@@ -258,5 +258,6 @@
     "MonthlyStatement": "Monthly Statement",
     "InvoiceAge": "Invoice Age",
     "ExpectedPaymentDate": "Expected Payment Date",
-    "HeaderLabelSchedule":"Schedule"
+    "HeaderLabelSchedule":"Schedule",
+    "EmailTrackFetchFailed": "Email message could not be retrieved. Please contact Centime Support"
 }
