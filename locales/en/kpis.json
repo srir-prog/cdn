@@ -91,5 +91,13 @@
     "backToKpisAndInsights": "Back To KPIs and Insights",
     "categories": "Categories",
     "KPIsInfo":"Evaluate the performance of your business through KPIs and Metrics, and identify areas impacting performance using  visualizations and insights",
-    "Period": "Period"
+    "Period": "Period",
+    "grossBurnRate": "Gross Burn Rate",
+    "trend": "Trend",
+    "closingBalanceLabel": "Closing balance ('000s USD)",
+    "time": "Time",
+    "time(weekEnding)": "Time (week ending)",
+    "collectionAmountLabel": "Collection amount ('000s USD)",
+    "dueDate": "Due date",
+    "dueDate(weekEnding)": "Due date (week ending)"
 }
