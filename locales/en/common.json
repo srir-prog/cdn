@@ -16,6 +16,7 @@
   "HistoryActionCustomerReminderSent": "Reminder Sent",
   "HistoryActionCampaignPaused2": "Campaign Paused",
   "HistoryActionCampaignResumed2": "Campaign Resumed",
+  "EmailTrackFetchFailed": "Email message could not be retrieved. Please contact Centime Support",
   "ByUserName": "by {{userName}}",
   "CustomerSummaryNotificationSuccess": "Customer {{buyerName}} has been saved",
   "CustomerSummaryNotificationError": "There was a problem saving the details of Customer {{buyerName}}. Please contact Centime Support",
