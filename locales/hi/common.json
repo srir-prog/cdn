@@ -17,6 +17,7 @@
   "HistoryActionCustomerReminderSent": "अनुस्मारक भेजा गया",
   "HistoryActionCampaignPaused2": "अभियान रोका गया",
   "HistoryActionCampaignResumed2": "अभियान फिर से शुरू हुआ",
+  "EmailTrackFetchFailed": "ईमेल संदेश पुनर्प्राप्त नहीं किया जा सका। कृपया सेंटिम सपोर्ट से संपर्क करें",
   "ByUserName": "द्वारा {{userName}}",
   "CustomerSummaryNotificationSuccess": "ग्राहक {{buyerName}} सहेजने गया",
   "CustomerSummaryNotificationError": "ग्राहक के विवरण को सहेजने में समस्या थी {{buyerName}}. कृपया सेंटिम सपोर्ट से संपर्क करें",
