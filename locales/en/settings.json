@@ -148,5 +148,13 @@
     "PersonalSuccessMsg":"Personal details have been saved",
     "PersonalFailureMsg":"Personal details cannot be saved. Please try again",
     "PrefsSuccessMsg":"Preferences have been saved",
-    "PrefsFailureMsg":"Preferences cannot be saved. Please try again"
+    "PrefsFailureMsg":"Preferences cannot be saved. Please try again",
+    "CompanyDetails":"Company details",
+    "LegalName":"Legal name",
+    "LegalAddress":"Legal address",
+    "TaxID":"Tax ID",
+    "Website":"Website",
+    "Industry":"Industry",
+    "PrimaryContactDetails":"Primary contact details",
+    "Name":"Name"
 }
