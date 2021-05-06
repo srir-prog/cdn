@@ -98,6 +98,6 @@
     "time": "Time",
     "time(weekEnding)": "Time (week ending)",
     "collectionAmountLabel": "Collection amount ('000s USD)",
-    "dueDate": "Due date",
-    "dueDate(weekEnding)": "Due date (week ending)"
+    "dueDate(weekEnding)": "Due date (week ending)",
+    "SelectDifferentPeriod": "Select a different time period"
 }
