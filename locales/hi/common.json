@@ -10,5 +10,9 @@
   "HistoryActionNotesAdded": "नोट्स जोड़े गए",
   "ByUserName": "द्वारा {{userName}}",
   "CustomerSummaryNotificationSuccess": "ग्राहक {{buyerName}} सहेजने गया",
-  "CustomerSummaryNotificationError": "ग्राहक के विवरण को सहेजने में समस्या थी {{buyerName}}. कृपया सेंटिम सपोर्ट से संपर्क करें"
+  "CustomerSummaryNotificationError": "ग्राहक के विवरण को सहेजने में समस्या थी {{buyerName}}. कृपया सेंटिम सपोर्ट से संपर्क करें",
+  "NoNotifications": "सूचनाएं खोजें",
+    "NoEmails":"{{Customer_name}} के लिए अभियान और अन्य संचार अक्षम कर दिए गए हैं क्योंकि ईमेल ग्राहक को वितरित नहीं किए जा सकते",
+    "Reconnect": "सही क्रेडेंशियल्स के साथ फिर से कनेक्ट करें",
+    "InvalidCredentials": "गलत या समय सीमा समाप्त क्रेडेंशियल्स के कारण हम {{gl_name}} से कनेक्ट करने में असमर्थ हैं",
 }

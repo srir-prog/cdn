@@ -114,5 +114,6 @@
     "between": "between",
     "on": "on",
     "isLessThan": "is less than",
-    "isGreaterThan": "is greater than"
+    "isGreaterThan": "is greater than",
+    "SearchNotifications": "Search Notifications"
 }
