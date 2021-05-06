@@ -254,5 +254,6 @@
     "MonthlyStatement": "मासिक विवरण",
     "InvoiceAge": "चालान आयु",
     "ExpectedPaymentDate": "अपेक्षित भुगतान तिथि",
-    "HeaderLabelSchedule":"अनुसूची"
+    "HeaderLabelSchedule":"अनुसूची",
+    "EmailTrackFetchFailed": "ईमेल संदेश पुनर्प्राप्त नहीं किया जा सका। कृपया सेंटिम सपोर्ट से संपर्क करें"
 }

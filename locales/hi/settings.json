@@ -152,5 +152,13 @@
     "PersonalSuccessMsg":"व्यक्तिगत विवरण सहेजे गए हैं",
     "PersonalFailureMsg":"व्यक्तिगत विवरण सहेजे नहीं जा सकते। कृपया पुन: प्रयास करें",
     "PrefsSuccessMsg":"प्राथमिकताएं बचाई गई हैं",
-    "PrefsFailureMsg":"प्राथमिकताएं नहीं बचाई जा सकती हैं। कृपया पुन: प्रयास करें"
+    "PrefsFailureMsg":"प्राथमिकताएं नहीं बचाई जा सकती हैं। कृपया पुन: प्रयास करें",
+    "CompanyDetails":"Company details",
+    "LegalName":"कानूनी नाम",
+    "LegalAddress":"वैधानिक पता",
+    "TaxID":"टैक्स आईडी",
+    "Website":"वेबसाइट",
+    "Industry":"उद्योग",
+    "PrimaryContactDetails":"प्राथमिक संपर्क विवरण",
+    "Name":"नाम"
 }
