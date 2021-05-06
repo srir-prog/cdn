@@ -216,5 +216,5 @@
     "NetsuiteStep3Heading": "Create an Integration Record for Centime",
     "NetsuiteStep4Heading": "Create a Centime Netsuite Role & Configure Permissions",
     "NetsuiteStep5Heading": "Create a Centime Netsuite User",
-    "GLConnectError":"There was a problem while connecting to your {{GLType}} account. Please check the tokens provided or contact Centime Support",
+    "GLConnectError":"There was a problem while connecting to your {{GLType}} account. Please check the tokens provided or contact Centime Support"
 }
