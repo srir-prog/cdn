@@ -58,5 +58,6 @@
   "NoNotifications":"There are no notifications at this moment",
   "NoEmails":"Campaigns and other communications for {{customer_name}} have been disabled as emails could not be delivered to the customer",
   "Reconnect": "Reconnect with correct credentials",
-  "InvalidCredentials": "We are unable to connect to {{gl_name}} due to incorrect or expired credentials"
+  "InvalidCredentials": "We are unable to connect to {{gl_name}} due to incorrect or expired credentials",
+  "InitialSyncSuccess":"Initial sync with {{gl_name}} is complete"
 }
