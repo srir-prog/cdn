@@ -6,7 +6,7 @@
     "timelineDays":"{{sign}}{{count}} day",
     "timelineDays_plural":"{{sign}}{{count}} days",
     "DueDate" : "Due Date",
-    "CampaignCadence":"CAMPAIGN CADENCE",
+    "CampaignCadence":"Campaign Cadence",
     "Summary":"Summary",
     "History":"History",
     "Website":"Website",
