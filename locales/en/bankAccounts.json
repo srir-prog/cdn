@@ -87,5 +87,6 @@
     "SyncNowError":"There were errors while syncing bank account transactions. Please contact Centime Support.",
     "Transactions": "Transactions",
     "loanAmount": "Loan amount",
-    "availableBalance": "Available balance"
+    "availableBalance": "Available balance",
+    "SyncNowSuccess":"Sync has been successfully initiated"
 }
