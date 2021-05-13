@@ -104,5 +104,6 @@
     "time(weekEnding)": "समय (सप्ताह समाप्त)",
     "collectionAmountLabel": "संग्रह राशि ('000s USD)",
     "dueDate(weekEnding)": "नियत तारीख (सप्ताह समाप्त)",
-    "SelectDifferentPeriod": "एक अलग समय अवधि का चयन करें"
+    "SelectDifferentPeriod": "एक अलग समय अवधि का चयन करें",
+    "serviceDown": "सेवा अस्थायी रूप से नीचे है। कृपया कुछ देर बाद प्रयास करें।"
 }

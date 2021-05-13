@@ -99,5 +99,6 @@
     "time(weekEnding)": "Time (week ending)",
     "collectionAmountLabel": "Collection amount ('000s USD)",
     "dueDate(weekEnding)": "Due date (week ending)",
-    "SelectDifferentPeriod": "Select a different time period"
+    "SelectDifferentPeriod": "Select a different time period",
+    "serviceDown": "Service is temporarily down. Please try after sometime."
 }
