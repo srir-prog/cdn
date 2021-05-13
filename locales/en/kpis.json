@@ -46,7 +46,7 @@
     "delayAmountHeatMap": "Delayed Amount",
     "openingBalance": "Opening balance",
     "closingBalance": "Closing balance",
-    "cashFlowBurnRate": "Cash flow burn rate",
+    "cashFlowBurnRate": "Gross burn rate",
     "cashBufferDays": "Cash buffer days",
     "cashIn": "Cash in",
     "cashOut": "Cash out",
@@ -99,5 +99,6 @@
     "time(weekEnding)": "Time (week ending)",
     "collectionAmountLabel": "Collection amount ('000s USD)",
     "dueDate(weekEnding)": "Due date (week ending)",
-    "SelectDifferentPeriod": "Select a different time period"
+    "SelectDifferentPeriod": "Select a different time period",
+    "serviceDown": "Service is temporarily down. Please try after sometime."
 }
