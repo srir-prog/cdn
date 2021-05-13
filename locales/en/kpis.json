@@ -46,7 +46,7 @@
     "delayAmountHeatMap": "Delayed Amount",
     "openingBalance": "Opening balance",
     "closingBalance": "Closing balance",
-    "cashFlowBurnRate": "Cash flow burn rate",
+    "cashFlowBurnRate": "Gross burn rate",
     "cashBufferDays": "Cash buffer days",
     "cashIn": "Cash in",
     "cashOut": "Cash out",
