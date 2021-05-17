@@ -133,6 +133,7 @@
     "RetryAgain" : "There is some problem with connecting your general ledger, please try again by clicking on this button",
     "TryAgain" : "Try Again",
     "ResendCodeTimerMsg": "Resend code in {{count}} seconds",
+    "TooManyOTPRequests": "Too many requests, please try again after 15 min",
     "NameTheEntity": "Name the entity",
     "SelectGLStep": "Select general ledger",
     "DontHaveAdminPrivileges": "Don't have general ledger admin privileges?",
