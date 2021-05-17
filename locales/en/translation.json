@@ -121,5 +121,7 @@
     "BackToHome": "Back to Home",
     "AccountLocked": "This account has been locked",
     "PageNotFound": "Page not found",
-    "SampleLoremText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+    "SampleLoremText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+    "SetMinVal": "Set Minimum Value",
+    "SetMaxVal": "Set Maximum Value"
 }

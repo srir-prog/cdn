@@ -90,7 +90,7 @@
     "daysSalesOutstanding": "दिनों में बकाये बिक्री",
     "averageDaysPastDue": "औसत दिनों के कारण पिछले",
     "turnOverRatio": "कारोबार अनुपात",
-    "cashFlowBurnRate": "नकदी प्रवाह जला दर",
+    "cashFlowBurnRate": "सकल जला दर",
     "variance": "झगड़ा",
     "evaluationVsComparison": "मूल्यांकन बनाम तुलना",
     "filters": "फिल्टर",
@@ -104,5 +104,6 @@
     "time(weekEnding)": "समय (सप्ताह समाप्त)",
     "collectionAmountLabel": "संग्रह राशि ('000s USD)",
     "dueDate(weekEnding)": "नियत तारीख (सप्ताह समाप्त)",
-    "SelectDifferentPeriod": "एक अलग समय अवधि का चयन करें"
+    "SelectDifferentPeriod": "एक अलग समय अवधि का चयन करें",
+    "serviceDown": "सेवा अस्थायी रूप से नीचे है। कृपया कुछ देर बाद प्रयास करें।"
 }
