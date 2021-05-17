@@ -21,5 +21,9 @@
   "capsLockOn" : "CAPS Lock is On",
   "validNo" : "Please Enter a Valid Phone Number with Country Code" ,
   "NoWithInRange" : "Please Enter a Valid Number within range",
-  "EnterValue": "Enter Value"
+  "EnterValue": "Enter Value",
+  "TaxIDInvalid":"Tax ID is invalid",
+  "EmailInvalid":"Email is invalid",
+  "PhoneNumberInvalid":"Phone number is invalid",
+  "WebSiteInvalid":"Website is invalid"
 }
