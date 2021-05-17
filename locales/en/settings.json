@@ -156,5 +156,16 @@
     "Website":"Website",
     "Industry":"Industry",
     "PrimaryContactDetails":"Primary contact details",
-    "Name":"Name"
+    "Name":"Name",
+    "AddressLine1":"address line 1",
+    "AddressLine2":"address line 2",
+    "City":"City",
+    "State":"State",
+    "Country":"Country",
+    "ZipCode":"ZipCode",
+    "SelectIndustry":"Select Industry",
+    "CompanyDetailsSuccess":"Company details have been saved",
+    "CompanyDetailsFailure":"Company details cannot be saved. Please try again",
+    "ContactDetailsSuccess":"Contact details have been saved",
+    "ContactDetailsFailure":"Contact details cannot be saved. Please try again"
 }
