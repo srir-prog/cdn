@@ -8,7 +8,7 @@
   "testMsg2" : "Testing another message",
   "GoHome": "Go to Home",
   "Error" : "Error",
-  "UnableToSignUp": "Sorry we are unable to sign you up at the moment. Please contact FNBO.",
+  "UnableToSignUp": "Sorry we are unable to sign you up at the moment. Please contact {{bankName}} support.",
   "CannotSignUp" : "Sorry, we are unable to sign you up at the moment.",
   "GLSyncInProgress":"Please wait while the GL data is being loaded. This may take several minutes. You can access the modules after the process completes",
   "UnableToLoadDashboard": "Sorry we are unable to load the dashboard at this moment.",
