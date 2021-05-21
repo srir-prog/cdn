@@ -38,8 +38,8 @@
     "businessCategory": "व्यापार वर्ग",
     "payeeOrPayer": "आदाता / भुगतानकर्ता",
     "type": "प्रकार",
-    "paymentAmount": "भुगतान राशि",
-    "paymentDate": "भुगतान तिथि",
+    "paymentAmount": "राशि",
+    "paymentDate": "तिथि",
     "glAccountName": "जीएल खाता",
     "InvoiceDueDate": "बिल की देय तिथि",
     "InvoiceStatus": "चालान की स्थिति",
@@ -90,7 +90,7 @@
     "daysSalesOutstanding": "दिनों में बकाये बिक्री",
     "averageDaysPastDue": "औसत दिनों के कारण पिछले",
     "turnOverRatio": "कारोबार अनुपात",
-    "cashFlowBurnRate": "नकदी प्रवाह जला दर",
+    "cashFlowBurnRate": "सकल जला दर",
     "variance": "झगड़ा",
     "evaluationVsComparison": "मूल्यांकन बनाम तुलना",
     "filters": "फिल्टर",
@@ -98,5 +98,12 @@
     "KPIsInfo":"KPI और मेट्रिक्स के माध्यम से अपने व्यवसाय के प्रदर्शन का मूल्यांकन करें, और विज़ुअलाइज़ेशन और अंतर्दृष्टि का उपयोग करते हुए प्रदर्शन को प्रभावित करने वाले क्षेत्रों की पहचान करें",
     "Period": "अवधि",
     "grossBurnRate": "सकल जला दर",
-    "trend": "ट्रेंड"
+    "trend": "ट्रेंड",
+    "closingBalanceLabel": "नकद संतुलन ('000s USD)",
+    "time": "समय",
+    "time(weekEnding)": "समय (सप्ताह समाप्त)",
+    "collectionAmountLabel": "संग्रह राशि ('000s USD)",
+    "dueDate(weekEnding)": "नियत तारीख (सप्ताह समाप्त)",
+    "SelectDifferentPeriod": "एक अलग समय अवधि का चयन करें",
+    "serviceDown": "सेवा अस्थायी रूप से नीचे है। कृपया कुछ देर बाद प्रयास करें।"
 }

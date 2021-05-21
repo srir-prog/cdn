@@ -46,7 +46,7 @@
     "delayAmountHeatMap": "Delayed Amount",
     "openingBalance": "Opening balance",
     "closingBalance": "Closing balance",
-    "cashFlowBurnRate": "Cash flow burn rate",
+    "cashFlowBurnRate": "Gross burn rate",
     "cashBufferDays": "Cash buffer days",
     "cashIn": "Cash in",
     "cashOut": "Cash out",
@@ -63,8 +63,8 @@
     "businessCategory": "Business Category",
     "payeeOrPayer": "Payee / Payer",
     "type": "Type",
-    "paymentAmount": "Payment Amount",
-    "paymentDate": "Payment Date",
+    "paymentAmount": "Amount",
+    "paymentDate": "Date",
     "glAccountName": "GL Account",
     "InvoiceDueDate": "Invoice Due Date",
     "InvoiceStatus": "Invoice Status",
@@ -93,5 +93,12 @@
     "KPIsInfo":"Evaluate the performance of your business through KPIs and Metrics, and identify areas impacting performance using  visualizations and insights",
     "Period": "Period",
     "grossBurnRate": "Gross Burn Rate",
-    "trend": "Trend"
+    "trend": "Trend",
+    "closingBalanceLabel": "Closing balance ('000s USD)",
+    "time": "Time",
+    "time(weekEnding)": "Time (week ending)",
+    "collectionAmountLabel": "Collection amount ('000s USD)",
+    "dueDate(weekEnding)": "Due date (week ending)",
+    "SelectDifferentPeriod": "Select a different time period",
+    "serviceDown": "Service is temporarily down. Please try after sometime."
 }

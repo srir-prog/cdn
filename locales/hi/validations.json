@@ -21,5 +21,9 @@
   "capsLockOn" : "कैप्स लॉक ऑन है",
   "validNo" : "कृपया देश कोड के साथ एक वैध फोन नंबर दर्ज करें",
   "NoWithInRange" : "कृपया सीमा के भीतर एक वैध संख्या दर्ज करें",
-  "EnterValue": "दर्ज मूल्य"
+  "EnterValue": "दर्ज मूल्य",
+  "TaxIDInvalid":"टैक्स आईडी अमान्य है",
+  "EmailInvalid":"ईमेल अमान्य है",
+  "PhoneNumberInvalid":"फ़ोन नंबर अमान्य है",
+  "WebSiteInvalid":"वेबसाइट अमान्य है"
 }
