@@ -100,5 +100,15 @@
     "collectionAmountLabel": "Collection amount ('000s USD)",
     "dueDate(weekEnding)": "Due date (week ending)",
     "SelectDifferentPeriod": "Select a different time period",
-    "serviceDown": "Service is temporarily down. Please try after sometime."
+    "serviceDown": "Service is temporarily down. Please try after sometime.",
+    "netCashFlowTooltipInfo": "Net amount of cash transferred into and out of a business in a given period",
+    "cashFlowBurnRateTooltipInfo": "Total amount of operating costs incurred by the company per month",
+    "cashBufferDaysTooltipInfo": "Number of days of cash outflows a business could pay out were its inflows to stop",
+    "collectionsEffectivenessTooltipInfo": "Receivables collected in a given period vs total receivables available for collection",
+    "%OverdueTooltipInfo": "Receivables uncollected and collected late in a given period vs total receivables available for collection",
+    "daysSalesOutstandingTooltipInfo": "Measure of how long it takes customers to pay an invoice",
+    "averageDaysPastDueTooltipInfo": "Average time from a invoice's due date to its paid date",
+    "turnOverRatioTooltipInfo": "Measures the number of times receivables are converted to cash in a given period",
+    "delayTooltipInfo": "Weighted average of payment delay days for invoices collected late",
+    "impactTooltipInfo": "Measure of negative effect on cash flows due to delayed collection from customers Impact for Customer A = (Collected Late + Uncollected amount from Customer A)/(Total Collected Late + Uncollected amount)"
 }
