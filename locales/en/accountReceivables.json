@@ -282,7 +282,5 @@
     "FormFieldSenderSignature": "Sender signature",
     "FormFieldRecipientName": "Recipient name for internal notifications",
     "FormFieldRecipientEmail": "Recipient email",
-    "OverrideTemplatePrompt": "The action you are trying to add already exists for the selected date. Are you sure you want to overwrite the existing template?",
-    "xAxisLabelClosingBalance": "Closing Balance (’000s USD)",
-    "yAxisLabelTime": "Time (month)"
+    "OverrideTemplatePrompt": "The action you are trying to add already exists for the selected date. Are you sure you want to overwrite the existing template?"
 }
