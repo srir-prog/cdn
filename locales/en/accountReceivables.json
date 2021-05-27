@@ -273,7 +273,7 @@
     "daysBeforeDueDate": "days before due date",
     "daysAfterDueDate": "days after due date",
     "onDueDate": "on Due Date",
-    "actionData": "Action data",
+    "actionDate": "Action date",
     "manageTemplate": "Manage template",
     "CampaignDetails": "Campaign details - {{name}}",
     "LimitReachedForAddDate": "You have reached the maximum limit of actions",
@@ -282,5 +282,7 @@
     "FormFieldSenderSignature": "Sender signature",
     "FormFieldRecipientName": "Recipient name for internal notifications",
     "FormFieldRecipientEmail": "Recipient email",
-    "OverrideTemplatePrompt": "The action you are trying to add already exists for the selected date. Are you sure you want to overwrite the existing template?"
+    "OverrideTemplatePrompt": "The action you are trying to add already exists for the selected date. Are you sure you want to overwrite the existing template?",
+    "EmailOptionOurName": "[Our_Name]",
+    "EmailOptionCustomerName": "[Customer_Name]"
 }
