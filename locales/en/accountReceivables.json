@@ -121,6 +121,7 @@
     "CampaignInternalAfter": "<bold>{{internalAfterCount}}</bold> after due date",
     "CampaignInternalBefore": "<bold>{{internalBeforeCount}}</bold> before due date{{comma}}",
     "HeaderLabelCampaignName": "Campaign name",
+    "FormFieldCampaignName": "Campaign name",
     "CampaignDescription": "Description",
     "CampaignLastEdited": "Last Edited",
     "BackToARAging": "Back to AR Aging",
@@ -273,5 +274,13 @@
     "daysAfterDueDate": "days after due date",
     "onDueDate": "on Due Date",
     "actionData": "Action data",
-    "manageTemplate": "Manage template"
+    "manageTemplate": "Manage template",
+    "CampaignDetails": "Campaign details - {{name}}",
+    "LimitReachedForAddDate": "You have reached the maximum limit of actions",
+    "FormFieldSenderName": "Sender name",
+    "FormFieldSenderEmail": "Sender email",
+    "FormFieldSenderSignature": "Sender signature",
+    "FormFieldRecipientName": "Recipient name for internal notifications",
+    "FormFieldRecipientEmail": "Recipient email",
+    "OverrideTemplatePrompt": "The action you are trying to add already exists for the selected date. Are you sure you want to overwrite the existing template?"
 }

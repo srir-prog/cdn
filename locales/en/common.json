@@ -57,7 +57,7 @@
   "Address": "Address",
   "NoNotifications":"There are no notifications at this moment",
   "NoEmails":"Campaigns and other communications for {{customer_name}} have been disabled as emails could not be delivered to the customer",
-  "AlternateEmail": "Provide an alternate email address",    
+  "AlternateEmail": "Provide an alternate email address",
   "Reconnect": "Reconnect with correct credentials",
   "InvalidCredentials": "We are unable to connect to {{gl_name}} due to incorrect or expired credentials",
   "InitialSyncSuccess":"Initial sync with {{gl_name}} is complete",
@@ -71,5 +71,6 @@
   "AutofySyncLost":"There is a sync error as connection to the Centime {{agent_name}} agent is lost.",
   "Reinstate":"Reinstate the connection",
   "CheckSync":"Check sync details",
-  "GLConnectionSuccess":"Connection to {{gl_name}} is successful. The initial sync has started"
+  "GLConnectionSuccess":"Connection to {{gl_name}} is successful. The initial sync has started",
+  "InvalidEmailProvideNew": "Email address is invalid. Please correct the email address to enable campaigns and other communications with the customer"
 }
