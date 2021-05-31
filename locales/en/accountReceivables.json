@@ -60,7 +60,8 @@
     "SetFilter": "Click to set filter",
     "UnsetFilter": "Click to unset filter",
     "ARAging": "AR",
-    "totalOutstanding": "Total AR",
+    "totalAR": "Total AR",
+    "totalOutstanding": "Total Outstanding",
     "totalOverdue": "Total Overdue",
     "totalCustomers": "Total Customers",
     "totalInvoices": "Total Invoices",
@@ -284,5 +285,6 @@
     "FormFieldRecipientEmail": "Recipient email",
     "OverrideTemplatePrompt": "The action you are trying to add already exists for the selected date. Are you sure you want to overwrite the existing template?",
     "EmailOptionOurName": "[Our_Name]",
-    "EmailOptionCustomerName": "[Customer_Name]"
+    "EmailOptionCustomerName": "[Customer_Name]",
+    "EnterEmail": "Enter email"
 }
