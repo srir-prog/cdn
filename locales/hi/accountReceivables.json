@@ -280,5 +280,6 @@
     "FormFieldRecipientEmail": "प्राप्तकर्ता का ई - मेल",
     "OverrideTemplatePrompt": "कार्रवाई आप पहले से ही जोड़ने की कोशिश कर रहे हैं चयनित तिथि के लिए मौजूद है। आप मौजूदा टेम्पलेट अधिलेखित करना चाहते हैं क्या आप वाकई रहे हैं?",
     "EmailOptionOurName": "[से_नाम]",
-    "EmailOptionCustomerName": "[ग्राहकों_नाम]"
+    "EmailOptionCustomerName": "[ग्राहकों_नाम]",
+    "EnterEmail": "ईमेल दर्ज करें"
 }
