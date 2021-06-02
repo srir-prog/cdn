@@ -88,5 +88,8 @@
     "Transactions": "Transactions",
     "loanAmount": "Loan amount",
     "availableBalance": "Available balance",
-    "SyncNowSuccess":"Sync has been successfully initiated"
+    "SyncNowSuccess":"Sync has been successfully initiated",
+    "LoadingFIDataMsg": "Please wait while the financial institution data is being loaded. This may take several minutes. You can access the transactions after the process completes",
+    "xAxisLabelClosingBalance": "Closing Balance (’000s USD)",
+    "yAxisLabelTime": "Time (month)"
 }
