@@ -112,7 +112,7 @@
     "StartOver" : "Start Over",
     "ContactUs": "Contact Support",
     "ConfirmAccess" : "Confirm access privileges",
-    "ConfirmConfiguration" : "Confirm general ledger",
+    "ConfirmConfiguration" : "Configure general ledger",
     "EnterCredentials" : "Enter credentials",
     "CheckAccess" : "Establish connection",
     "ConfirmAccessTitle" : "To access {{GLType}}, you will need either of the below privileges",
