@@ -252,5 +252,6 @@
     "EnterQBDVer": "Enter QuickBooks Desktop Version",
     "NeedAdminAccessFor3Party": "<b>Note:</b> You will need administrative access to the server hosted by the third-party hosting service",
     "NeedAdminAccessToCompanyServer": "<b>Note:</b> You will need administrative access to the company server in order to install the Centime Agent",
-    "ShowMeHow": "Show me how"
+    "ShowMeHow": "Show me how",
+    "QBDVersionInfo": "You can find the version displayed on the title bar of the QuickBooks desktop application."
 }
