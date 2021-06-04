@@ -123,5 +123,7 @@
     "PageNotFound": "Page not found",
     "SampleLoremText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
     "SetMinVal": "Set Minimum Value",
-    "SetMaxVal": "Set Maximum Value"
+    "SetMaxVal": "Set Maximum Value",
+    "Yes": "Yes",
+    "No": "No"
 }
