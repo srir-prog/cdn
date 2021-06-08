@@ -157,7 +157,7 @@
     "Industry":"Industry",
     "PrimaryContactDetails":"Primary contact details",
     "Name":"Name",
-    "AddressLine1":"address line 1",
+    "AddressLine":"address line",
     "AddressLine2":"address line 2",
     "City":"City",
     "State":"State",
@@ -167,5 +167,8 @@
     "CompanyDetailsSuccess":"Company details have been saved",
     "CompanyDetailsFailure":"Company details cannot be saved. Please try again",
     "ContactDetailsSuccess":"Contact details have been saved",
-    "ContactDetailsFailure":"Contact details cannot be saved. Please try again"
+    "ContactDetailsFailure":"Contact details cannot be saved. Please try again",
+    "Disconnect":"Disconnect",
+    "DisconnectGLHeading":"Disconnecting General Ledger",
+    "DisconnectGLBody":"Are you sure you want to disconnect the General Ledger?  Once disconnected, updates from your general ledger will no longer be synced to Centime. You can however reconnect whenever you are ready to start syncing data again"
 }
