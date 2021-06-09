@@ -72,5 +72,6 @@
   "Reinstate":"Reinstate the connection",
   "CheckSync":"Check sync details",
   "GLConnectionSuccess":"Connection to {{gl_name}} is successful. The initial sync has started",
-  "InvalidEmailProvideNew": "Email address is invalid. Please correct the email address to enable campaigns and other communications with the customer"
+  "InvalidEmailProvideNew": "Email address is invalid. Please correct the email address to enable campaigns and other communications with the customer",
+  "IncrementalSyncFailed": "Incremental sync with {gl_name} has failed"
 }
