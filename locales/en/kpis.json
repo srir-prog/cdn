@@ -112,5 +112,11 @@
     "delayTooltipInfo": "Weighted average of payment delay days for invoices collected late",
     "impactTooltipInfo": "Measure of negative effect on cash flows due to delayed collection from customers <nl /> Impact for Customer A = (Collected Late + Uncollected amount from Customer A)/(Total Collected Late + Uncollected amount)",
     "trendTooltipInfo": "Trend may not be meaningful as time periods are of unequal duration",
-    "notApplicable": "N/A"
+    "notApplicable": "N/A",
+    "InvoiceAmount":  "Invoice Amount",
+    "Outstanding":  "Outstanding",
+    "uncollected": "Uncollected",
+    "PaymentTerms": "Payment Terms",
+    "PaymentDate": "Payment Date",
+    "OutstandingAmount": "Outstanding Amount"
 }
