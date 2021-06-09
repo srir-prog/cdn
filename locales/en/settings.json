@@ -169,6 +169,13 @@
     "ContactDetailsSuccess":"Contact details have been saved",
     "ContactDetailsFailure":"Contact details cannot be saved. Please try again",
     "Disconnect":"Disconnect",
+    "Reconnect":"Reconnect",
     "DisconnectGLHeading":"Disconnecting General Ledger",
-    "DisconnectGLBody":"Are you sure you want to disconnect the General Ledger?  Once disconnected, updates from your general ledger will no longer be synced to Centime. You can however reconnect whenever you are ready to start syncing data again"
+    "DisconnectGLBody":"Are you sure you want to disconnect the General Ledger?  Once disconnected, updates from your general ledger will no longer be synced to Centime. You can however reconnect whenever you are ready to start syncing data again",
+    "ReconnectGLHeading":"Reconnect General Ledger",
+    "ReconnectGLBody":"Are you sure you want to reconnect the General Ledger?  Once you reconnect, the period syncs from your general ledger to Centime will resume.",
+    "DisconnectSuccess":"Disconnected the General Ledger successfully",
+    "ReconnectSuccess":"Reconnected to the General Ledger successfully",
+    "DisconnectFailure":"Unable to disconnect the General Ledger. Please try again later",
+    "ReconnectFailure":"Unable to reconnect the General Ledger. Please try again later"
 }
