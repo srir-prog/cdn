@@ -123,5 +123,17 @@
     "uncollected": "असंग्रहीत",
     "PaymentTerms": "भुगतान की शर्तें",
     "PaymentDate": "भुगतान तिथि",
-    "OutstandingAmount": "बकाया राशि"
+    "OutstandingAmount": "बकाया राशि",
+    "PaymentAmount": "भुगतान राशि",
+    "BusinessCategory": "व्यापार वर्ग",
+    "GLAccount": "जीएल खाता",
+    "TransactionType": "सौदे का प्रकार",
+    "CashFlowType": "नकदी प्रवाह प्रकार",
+    "Description": "विवरण",
+    "Payer": "भुगतानकर्ता",
+    "Payee": "आदाता",
+    "inflow": "शाखा",
+    "outflow": "निकल भागना",
+    "invoice": "बीजक",
+    "others": "अन्य"
 }
