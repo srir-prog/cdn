@@ -125,5 +125,6 @@
     "SetMinVal": "Set Minimum Value",
     "SetMaxVal": "Set Maximum Value",
     "Yes": "Yes",
-    "No": "No"
+    "No": "No",
+    "Disconnected": "Disconnected"
 }
