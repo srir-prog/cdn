@@ -286,5 +286,13 @@
     "SenderEmail": "<प्रेषक ईमेल>",
     "RecipientName": "<प्राथमिक संपर्क नाम>",
     "SenderSignaturePlaceholder": "<प्रेषक हस्ताक्षर>",
-    "EnableCommunications": "कृपया सभी संचार सक्षम करने के लिए एक ईमेल सेट करें"
+    "EnableCommunications": "कृपया सभी संचार सक्षम करने के लिए एक ईमेल सेट करें",
+    "TotalOutstandingPlaceholder": "<कुल बकाया>",
+    "TotalOverduePlaceholder": "<कुल अतिदेय>",
+    "InvoiceNumberPlaceholder": "<चालान संख्या>",
+    "DueDatePlaceholder": "<नियत तारीख>",
+    "OutstandingPlaceholder": "<बकाया>",
+    "StatusPlaceholder": "<स्थिति>",
+    "InvoiceAmountPlaceholder": "<बीजक राशि>",
+    "ReceivedPlaceholder": "<प्राप्त किया था>"
 }
