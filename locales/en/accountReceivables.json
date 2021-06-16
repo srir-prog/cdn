@@ -284,7 +284,11 @@
     "FormFieldRecipientName": "Recipient name for internal notifications",
     "FormFieldRecipientEmail": "Recipient email",
     "OverrideTemplatePrompt": "The action you are trying to add already exists for the selected date. Are you sure you want to overwrite the existing template?",
-    "EmailOptionOurName": "[Our_Name]",
-    "EmailOptionCustomerName": "[Customer_Name]",
-    "EnterEmail": "Enter email"
+    "EmailOptionOurCompanyName": "<our company name>",
+    "EmailOptionCustomerName": "<customer name>",
+    "SenderEmail": "<sender email>",
+    "RecipientName": "<primary contact name>",
+    "SenderSignaturePlaceholder": "<sender signature>",
+    "EnterEmail": "Enter email",
+    "EnableCommunications": "Please set an email to enable all communications"
 }
