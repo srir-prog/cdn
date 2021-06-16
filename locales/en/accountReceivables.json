@@ -290,5 +290,13 @@
     "RecipientName": "<primary contact name>",
     "SenderSignaturePlaceholder": "<sender signature>",
     "EnterEmail": "Enter email",
-    "EnableCommunications": "Please set an email to enable all communications"
+    "EnableCommunications": "Please set an email to enable all communications",
+    "TotalOutstandingPlaceholder": "<total outstanding>",
+    "TotalOverduePlaceholder": "<total overdue>",
+    "InvoiceNumberPlaceholder": "<invoice number>",
+    "DueDatePlaceholder": "<due date>",
+    "OutstandingPlaceholder": "<outstanding>",
+    "StatusPlaceholder": "<status>",
+    "InvoiceAmountPlaceholder": "<invoice amount>",
+    "ReceivedPlaceholder": "<received>"
 }
