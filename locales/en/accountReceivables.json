@@ -5,7 +5,7 @@
     "CantFindCampaign":"Can't find a campaign you need? You can create one from the settings page",
     "timelineDays":"{{sign}}{{count}} day",
     "timelineDays_plural":"{{sign}}{{count}} days",
-    "DueDate" : "Due Date",
+    "DueDate" : "Due date",
     "CampaignCadence":"Campaign Cadence",
     "Summary":"Summary",
     "History":"History",
