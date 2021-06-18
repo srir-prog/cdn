@@ -1,8 +1,10 @@
 {
   "0": "Some internal error occurred",
   "0Msg": "Please try again after some time, we will fix this ASAP in the meantime..",
-  "1": "Internet lost",
-  "1Msg": "Check your internet connection and try again",
+  "Some internal error occurred": "Some internal error occurred",
+  "Please try again after some time, we will fix this ASAP in the meantime..": "Please try again after some time, we will fix this ASAP in the meantime..",
+  "Internet lost": "Internet lost",
+  "Check your internet connection and try again": "Check your internet connection and try again",
   "testHeader": "Testing the Heading",
   "testMsg" : "Testing a message",
   "testMsg2" : "Testing another message",
