@@ -64,6 +64,7 @@
     "LiquidityOptions" : "Liquidity Options",
     "WorkInProgress" : "This is a Work in Progress",
     "Remove": "Remove",
+    "Add":"Add",
     "Reconnect": "Reconnect",
     "BackLogin":"Back to Login",
     "GoBack":"Go Back",
