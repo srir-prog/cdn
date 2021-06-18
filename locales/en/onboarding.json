@@ -27,8 +27,8 @@
     "Forgot Password ?": "Forgot password?",
     "Remember Me": "Remember me",
     "ResendMail": "Resend Verification Email",
-    "MailSentMsg": "An account verification email was sent to {{email}}",
-    "MailSentMsgResend": "Your account was not verified ! An account verification email was sent to {{email}}. Please click on the link provided in your email to verify your account.",
+    "MailSentMsg": "An account verification email was sent at {{email}}",
+    "MailSentMsgResend": "Verification link expired. Please search for the most recent email or click resend now to receive a new verification email",
     "DidNotGetEmail": "Did not get a verification email?",
     "NotYetVerified": "You are not yet verified your account, trouble with the link in the email?",
     "AlreadySignUp": "Looks like you're already signed up",
@@ -65,5 +65,9 @@
     "StayLoggedIn": "Stay logged in",
     "ContactAdmin": "Please check with administrator for valid invite",
     "SessionLogoutMsg": "You have been logged out due to session inactivity",
-    "ConfirmText": "By pressing the back button of the browser, your session will be invalid and all unsaved data will be lost. Are you sure you want to continue?"
+    "ConfirmText": "By pressing the back button of the browser, your session will be invalid and all unsaved data will be lost. Are you sure you want to continue?",
+    "VerifyYourAccount": "Please verify your account",
+    "EmailSentToEmailId": "We have sent a verification email at {{emailId}}.<br>Please click on the link to verify your account",
+    "CantFindEmail": "Can't find the verification email?",
+    "ResendNow": "Resend now"
 }
