@@ -127,5 +127,6 @@
     "SetMaxVal": "Set Maximum Value",
     "Yes": "Yes",
     "No": "No",
-    "Disconnected": "Disconnected"
+    "Disconnected": "Disconnected",
+    "SessionTimeoutModal": "Session Timeout PopUp"
 }

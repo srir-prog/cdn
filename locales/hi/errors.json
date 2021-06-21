@@ -1,6 +1,10 @@
 {
   "0": "कुछ आंतरिक त्रुटि",
   "0Msg": "कुछ समय बाद प्रयास करें..",
+  "Some internal error occurred": "कुछ आंतरिक त्रुटि",
+  "Please try again after some time, we will fix this ASAP in the meantime..": "कुछ समय बाद प्रयास करें..",
+  "Internet lost": "इंटरनेट खो गया",
+  "Check your internet connection and try again": "अपना इंटरनेट कनेक्शन जांचें और पुनः प्रयास करें",
   "testHeader": "शीर्षक का परीक्षण",
   "testMsg" : "संदेश का परीक्षण",
   "testMsg2" : "एक और संदेश का परीक्षण",
