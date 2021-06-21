@@ -69,5 +69,6 @@
     "VerifyYourAccount": "Please verify your account",
     "EmailSentToEmailId": "We have sent a verification email at {{emailId}}.<br>Please click on the link to verify your account",
     "CantFindEmail": "Can't find the verification email?",
-    "ResendNow": "Resend now"
+    "ResendNow": "Resend now",
+    "CouldNotDeliverEmail":"We could not deliver you email at this moment."
 }
