@@ -59,7 +59,7 @@
     "EntitlementsWizard": "Permissions mapping",
     "EntitlementsDesc" : "Defining team members' roles helps map their tasks and duties to the appropriate level of permissions for each user",
     "JobFuncQuestion" : "What are {{fullName}}'s daily tasks and duties?",
-    "JobFuncPrompt": "* Task(s) not listed? Don't worry, you'll be able to define entitlements on the next page",
+    "JobFuncPrompt": "Don't see something? The next page will allow further refinement of permissions.",
     "BackToUsersPage": "Back to Manage Users",
     "BackToModify": "Back to Modify Entitlements",
     "EnableAccess":"Turn on permissions",
