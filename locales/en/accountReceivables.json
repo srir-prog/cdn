@@ -268,7 +268,7 @@
     "EmailTotalOverDue": "Total overdue:",
     "EmailInvoiceNumber": "Invoice number",
     "Outstanding": "Outstanding",
-    "ManageTemplate": "Manage Template",
+    "ManageTemplate": "Manage statement template",
     "ActionBeforeDueDate": "Actions before due date",
     "ActionAfterDueDate": "Actions after due date",
     "daysBeforeDueDate": "days before due date",
