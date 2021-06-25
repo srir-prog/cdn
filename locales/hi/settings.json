@@ -185,5 +185,9 @@
     "ReconnectFailure":"सामान्य लेज़र पुन: कनेक्ट करने में असमर्थ। बाद में पुन: प्रयास करें",
     "LaunchLink":"एंटाइटेलमेंट गाइड लॉन्च करें",
     "GeneralSettings":"सामान्य सेटिंग्स",
-    "ReceivablesPanel":"प्राप्तियों"
+    "ReceivablesPanel":"प्राप्तियों",
+    "UserProfile": "उपयोगकर्ता प्रोफ़ाइल",
+    "CompanyInfo": "कारखाना की जानकारी",
+    "ManagePermissions":"अनुमतियाँ प्रबंधित करें",
+    "ReminderCampaigns":"अनुस्मारक अभियान"
 }

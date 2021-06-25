@@ -1,5 +1,5 @@
 {
-    "collectionsPerformance": "Collections efficiency",
+    "collectionsPerformance": "Collections",
     "netCashFlow": "Cash flow",
     "closingCashBalance": "Closing Balance",
     "cashInTotal": "Cash In",
@@ -90,7 +90,7 @@
     "Years": "Years",
     "backToKpisAndInsights": "Back To KPIs and Insights",
     "categories": "Categories",
-    "KPIsInfo":"Evaluate the performance of your business through KPIs and Metrics, and identify areas impacting performance using  visualizations and insights",
+    "KPIsInfo": "Evaluate the performance of your business through KPIs and Metrics, and identify areas impacting performance using  visualizations and insights",
     "Period": "Period",
     "grossBurnRate": "Gross Burn Rate",
     "trend": "Trend",
@@ -113,8 +113,8 @@
     "impactTooltipInfo": "Measure of negative effect on cash flows due to delayed collection from customers <nl /> Impact for Customer A = (Collected Late + Uncollected amount from Customer A)/(Total Collected Late + Uncollected amount)",
     "trendTooltipInfo": "Trend may not be meaningful as time periods are of unequal duration",
     "notApplicable": "N/A",
-    "InvoiceAmount":  "Invoice amount",
-    "Outstanding":  "Outstanding",
+    "InvoiceAmount": "Invoice amount",
+    "Outstanding": "Outstanding",
     "uncollected": "Uncollected",
     "PaymentTerms": "Payment terms",
     "PaymentDate": "Payment date",
@@ -130,5 +130,6 @@
     "inflow": "Inflow",
     "outflow": "Outflow",
     "invoice": "Invoice",
-    "others": "Others"
+    "others": "Others",
+    "pageTitle": "Metrics and performance"
 }
