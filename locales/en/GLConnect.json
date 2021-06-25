@@ -141,6 +141,8 @@
     "selectCustomGL": "Select general ledger",
     "CompanyAlreadyThere": "This company was already added",
     "CompanyExistsContactAdmin": "Please contact your administrator to be added to the team",
+    "DifferentCompanyConnected": "Different company was connected",
+    "ConnectWithSame": "Please connect with the same company you have connected previously",
     "ConnectionProblem": "Connection Problem",
     "RetryAgain": "There is some problem with connecting your general ledger, please try again by clicking on this button",
     "TryAgain": "Try Again",
