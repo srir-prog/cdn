@@ -1,5 +1,5 @@
 {
-    "collectionsPerformance": "Collections efficiency",
+    "collectionsPerformance": "Collections",
     "netCashFlow": "Cash flow",
     "closingCashBalance": "Closing Balance",
     "cashInTotal": "Cash In",
@@ -131,5 +131,5 @@
     "outflow": "Outflow",
     "invoice": "Invoice",
     "others": "Others",
-    "pageTitle": "KPIs and insights"
+    "pageTitle": "Metrics and performance"
 }
