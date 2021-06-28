@@ -241,5 +241,9 @@
     "NeedAdminAccessToCompanyServer": "<b>नोट:</b> Centime Agent को स्थापित करने के लिए आपको कंपनी सर्वर तक प्रशासनिक पहुंच की आवश्यकता होगी",
     "ShowMeHow": "मुझे दिखाओ कि कैसे",
     "QBDVersionInfo": "आप QuickBooks डेस्कटॉप एप्लिकेशन के टाइटल बार पर प्रदर्शित संस्करण पा सकते हैं।",
-    "CodeNotSent": "कोड प्राप्त नहीं हुआ?"
+    "CodeNotSent": "कोड प्राप्त नहीं हुआ?",
+    "ConnectYourGL": "अपना GL . कनेक्ट करें",
+    "ReviewGLConfigurations": "जीएल कॉन्फ़िगरेशन की समीक्षा करें",
+    "ThanksNotice": "धन्यवाद सूचना",
+    "SelectEntityTitle": "एक व्यावसायिक इकाई चुनें"
 }

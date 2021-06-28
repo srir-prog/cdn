@@ -181,5 +181,9 @@
     "ReconnectFailure":"Unable to reconnect the General Ledger. Please try again later",
     "LaunchLink":"Launch the entitlements guide",
     "GeneralSettings":"General settings",
-    "ReceivablesPanel":"Receivables"
+    "ReceivablesPanel":"Receivables",
+    "UserProfile": "User profile",
+    "CompanyInfo": "Company information",
+    "ManagePermissions":"Manage permissions",
+    "ReminderCampaigns":"Reminder campaigns"
 }
