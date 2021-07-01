@@ -29,7 +29,7 @@
     "Change to Hindi" : "हिंदी को बदलें",
     "checkbox" : "चेकबॉक्स",
     "Select" : "चुनें",
-    "Clear" : "ख़ाली करे",
+    "Clear" : "ख़ाली करे",
     "Close" : "बंद करे",
     "Home" : "होम",
     "BackHome" : "होम स्क्रीन पर वापस",
@@ -63,8 +63,9 @@
     "GoodMorning" : "शुभ प्रभात",
     "LiquidityOptions" : "तरलता विकल्प",
     "WorkInProgress" : "कार्य प्रगति पर है",
-    "Remove": "Remove",
-    "Reconnect": "Reconnect",
+    "Remove": "हटाना",
+    "Add":"जोड़ना",
+    "Reconnect": "रिकनेक्ट",
     "BackLogin":"लॉगिन पर वापस जाएं",
     "GoBack":"वापस जाओ",
     "ReminderCampaigns":"अनुस्मारक अभियान",
@@ -125,6 +126,8 @@
     "SetMinVal": "न्यूनतम मान सेट करें",
     "SetMaxVal": "अधिकतम मान सेट करें",
     "Yes": "हाँ",
-    "No": "नहीं न"
+    "No": "नहीं न",
+    "Disconnected": "डिस्कनेक्ट किया गया",
+    "SessionTimeoutModal": "सत्र समयबाह्य पॉपअप"
 }
 
