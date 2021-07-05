@@ -116,7 +116,7 @@
     "EnterCredentials": "Enter credentials",
     "CheckAccess": "Establish connection",
     "ConfirmAccessTitle": "To access {{GLType}}, you will need either of the below privileges",
-    "ConfirmAccessTitleQBD": "In order to access QuickBooks Desktop, you need to have Administrator privileges",
+    "ConfirmAccessTitleQBD": "In order to access Desktop, you need to have Administrator privileges",
     "ConfirmAccessPage": "Confirm Access Privileges",
     "CAPList1": "Master Admin access privileges",
     "CAPList2": "Company Admin access privileges",
