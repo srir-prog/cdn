@@ -1,8 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="31" height="24" viewBox="0 0 31 24">
-    <g fill="none" fill-rule="evenodd">
-        <g fill="#FDC231">
-            <g>
-                <path d="M0 23.704L11.931 23.704 21.813 15.798 21.813 23.704 29.63 23.704 29.63 0z" transform="translate(-191 -180) translate(191 180)"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="19px" viewBox="0 0 24 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Centime</title>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-508.000000, -1515.000000)" id="Group">
+            <g transform="translate(508.000000, 1512.000000)">
+                <rect id="bg" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="24" height="24"></rect>
+                <polygon id="icon" fill="#FDC231" fill-rule="nonzero" points="24 3 0 21.6478425 9.6658115 21.6478425 17.6691219 15.4290297 17.6691219 21.6478425 24 21.6478425"></polygon>
             </g>
         </g>
     </g>
