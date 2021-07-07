@@ -11,7 +11,7 @@
   "GoHome": "Go to Home",
   "Error" : "Error",
   "UnableToSignUp": "Sorry we are unable to sign you up at the moment. Please contact {{bankName}} support.",
-  "CannotSignUp" : "Sorry, we are unable to sign you up at the moment.",
+  "CannotSignUp" : "Error while signing up. Get support from our team using the chat bubble.",
   "GLSyncInProgress":"Please wait while the GL data is being loaded. This may take several minutes. You can access the modules after the process completes",
   "UnableToLoadDashboard": "Sorry we are unable to load the dashboard at this moment.",
   "NoEntitlements": "You need entitlements to use the Centime platform. Please contact the administrator",
