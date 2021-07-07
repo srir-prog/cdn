@@ -60,7 +60,7 @@
     "EntitlementWizardBtn":"Entitlements wizard",
     "EntitlementsDesc" : "Defining team members' roles helps map their tasks and duties to the appropriate level of permissions for each user",
     "JobFuncQuestion" : "What are {{fullName}}'s daily tasks and duties?",
-    "JobFuncPrompt": "Don't see something? The next page will allow further refinement of permissions.",
+    "JobFuncPrompt": "Don't see an exact match? You can define granular permissions on the next page.",
     "BackToUsersPage": "Back to Manage Users",
     "BackToModify": "Back to Modify Entitlements",
     "EnableAccess":"Turn on permissions",
