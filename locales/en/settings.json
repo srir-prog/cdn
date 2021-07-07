@@ -30,7 +30,7 @@
     "syncErrorDetails" : "There were errors while syncing with {{GLType}}. For details, refer to the sync results below. Categories in red were not synced. Synced categories are indicated in green",
     "viewMore": "View more",
     "LogCase" : "Log case with Centime Support",
-    "Profile": "Profile",
+    "Profile": "My profile",
     "Ledger": "General Ledger",
     "BankAccounts" : "Bank Accounts",
     "Financial Institutions" : "Financial institutions",
