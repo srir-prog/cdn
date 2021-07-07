@@ -112,7 +112,7 @@
     "Currency": "Currency",
     "ViewHistory": "View History",
     "ViewInvoiceHistory": "View Invoice History",
-    "Cannot view Reminder Campaigns": "Cannot view Reminder Campaigns",
+    "Cannot view Reminder Campaigns": "Cannot view Reminder campaigns",
     "ReminderCampaignsCustomerCount": "Used by <bold>{{customers}}</bold> customers",
     "ReminderCampaignsCustomerEmail": "Customer email: <before></before> <after></after> <on></on>",
     "ReminderCampaignsInternalEmail": "Internal email: <beforeInternal></beforeInternal> <afterInternal></afterInternal>",
@@ -303,5 +303,6 @@
     "CannotUpdateReminderCampaigns": "Cannot update Reminder campaigns",
     "Cannot delete Reminder Campaigns": "Cannot delete Reminder campaigns",
     "sendCustomerEmail": "Send customer email",
-    "sendInternalNotification": "Send internal notification"
+    "sendInternalNotification": "Send internal notification",
+    "Cannot add Reminder Campaigns": "Cannot add Reminder campaigns"
 }
