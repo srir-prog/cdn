@@ -57,7 +57,7 @@
     "VideoTutorial" : "{{Module}} Video Tutorial",
     "ModuleActionsModal" : "Module Actions Modal",
     "EntitlementsWizard": "Permissions mapping",
-    "EntitlementWizardBtn":"Entitlements wizard",
+    "EntitlementWizardBtn":"Permissions wizard",
     "EntitlementsDesc" : "Defining team members' roles helps map their tasks and duties to the appropriate level of permissions for each user",
     "JobFuncQuestion" : "What are {{fullName}}'s daily tasks and duties?",
     "JobFuncPrompt": "Don't see an exact match? You can define granular permissions on the next page.",
