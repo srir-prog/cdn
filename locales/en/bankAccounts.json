@@ -8,7 +8,7 @@
     "buttonTextReconnect": "RECONNECT",
     "buttonTextRemove": "REMOVE",
     "headlineTextFL": "Your Financial Institutions",
-    "headlineTextGL": "Link your bank accounts with General Ledger accounts",
+    "headlineTextGL": "Financial institutions",
     "glAnalysisText": "Our General Ledger analysis reveals you have {{count}} bank accounts.",
     "financialInstitutions": "Financial Institutions",
     "syncAccounts": "Sync accounts",
