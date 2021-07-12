@@ -91,5 +91,6 @@
     "SyncNowSuccess": "Sync has been successfully initiated",
     "LoadingFIDataMsg": "It may take several minutes for your data to load. You can access the transactions upon completion.",
     "xAxisLabelClosingBalance": "Closing Balance (’000s USD)",
-    "yAxisLabelTime": "Time (month)"
+    "yAxisLabelTime": "Time (month)",
+    "notLinkedIconTT": "One or more of your bank accounts are not linked"
 }
