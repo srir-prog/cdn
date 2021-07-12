@@ -255,7 +255,7 @@
     "NeedAdminAccessToCompanyServer": "<b>Note:</b> You will need administrative access to the company server in order to install the Centime Agent",
     "ShowMeHow": "Show me how",
     "QBDVersionInfo": "You can find the version displayed on the title bar of the QuickBooks desktop application.",
-    "CodeNotSent": "Didn't receive code?",
+    "CodeNotSent": "Didn't receive a code?",
     "ConnectYourGL": "Connect your GL",
     "ReviewGLConfigurations": "Review GL configurations",
     "ThanksNotice": "Thanks notice",
