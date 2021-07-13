@@ -1,6 +1,6 @@
 {
     "Invalid": "Invalid",
-    "inValidEmail": "Invalid Email",
+    "inValidEmail": "Invalid email",
     "isRequired": "This is a required field",
     "maxLenExceeded": "Character limit exceeded",
     "max255Len": "Maximum of 255 characters allowed",
