@@ -178,7 +178,7 @@
     "InvoicesAgeOverdueBy": "Overdue by {{age}} days",
     "EditEmailTemp": "Edit statement email template",
     "EditPaymentTemp": "Edit payment confirmation email template",
-    "HistoryActionNotesAdded": "Notes added",
+    "HistoryActionNotesAdded": "Note added",
     "HistoryActionCampaignPaused": "Campaign {{campaignName}} paused",
     "HistoryActionCampaignResumed": "Campaign {{campaignName}} resumed",
     "HistoryActionInvoiceStatusUpdated": "Invoice status updated",
