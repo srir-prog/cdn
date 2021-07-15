@@ -89,5 +89,8 @@
     "ClosePopup": "Close popup",
     "WorkInProgress": "Work in progress",
     "Dashboard": "Dashboard",
-    "SubmitOTP": "Submit OTP"
+    "SubmitOTP": "Submit OTP",
+    "Payments": "Payments",
+    "PaymentTerms": "Payment terms",
+    "Currency": "Currency"
 }
