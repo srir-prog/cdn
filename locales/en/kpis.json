@@ -131,5 +131,6 @@
     "outflow": "Outflow",
     "invoice": "Invoice",
     "others": "Others",
-    "pageTitle": "Metrics and performance"
+    "pageTitle": "Metrics and performance",
+    "lastPaymentAmount": "Last Payment Amount"
 }
