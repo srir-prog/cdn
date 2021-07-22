@@ -245,7 +245,7 @@
     "InvoiceNumber": "Invoice number",
     "CollectionStatus": "Collection status",
     "InvoiceCreatedDate": "Invoice created date",
-    "InvoiceCurrency": "Invoice Currency",
+    "InvoiceCurrency": "Invoice currency",
     "Delay": "Delay",
     "Customer": "Customer",
     "InvoiceDueDate": "Invoice due date",
