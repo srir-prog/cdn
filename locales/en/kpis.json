@@ -53,7 +53,7 @@
     "customer": "Customer",
     "invoiceNumber": "Invoice number",
     "invoiceamount": "Invoice amount",
-    "status": "Status",
+    "Status": "Status",
     "outstanding": "Outstanding",
     "lastPaymentDate": "Last Payment Date",
     "dueDate": "Due Date",
@@ -133,5 +133,8 @@
     "others": "Others",
     "pageTitle": "Metrics and performance",
     "lastPaymentAmount": "Last Payment Amount",
-    "Currency": "Currency"
+    "Currency": "Currency",
+    "daysWithCount": "{{count}} day",
+    "daysWithCount_plural": "{{count}} days",
+    "ratePerMonth": "{{rate}} per month"
 }
