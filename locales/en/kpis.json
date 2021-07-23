@@ -77,5 +77,10 @@
     "partiallyPaid": "Partially Paid",
     "onTime": "On time",
     "impact": "Impact",
-    "transactions": "Transactions"
+    "transactions": "Transactions",
+    "TrendingUp": "Trending Up",
+    "TrendingDown": "Trending Down",
+    "collectedTimely": "Collected Timely",
+    "collectedLately": "Collected Late",
+    "unCollected": "Uncollected"
 }

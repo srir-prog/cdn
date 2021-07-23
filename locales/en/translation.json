@@ -98,5 +98,10 @@
     "PreviousYear":"Previous Year",
     "Start Date":"Start Date",
     "End Date":"End Date",
-    "Total": "Total"
+    "Total": "Total",
+    "Sort": "Sort",
+    "DatePicker" : "DatePicker",
+    "CollectedTimely": "Collected Timely",
+    "CollectedLate": "Collected Late",
+    "UnCollected": "Uncollected"
 }

@@ -65,5 +65,10 @@
     "cashOut": "नकदी निकलना",
     "openingBalance": "प्रारंभिक शेष",
     "Metrics": "मैट्रिक्स",
-    "Insights": "इनसाइट्स"
+    "Insights": "इनसाइट्स",
+    "TrendingUp": "रुझान ऊपर",
+    "TrendingDown": "नीचे रुझान",
+    "collectedTimely": "समय पर एकत्रित",
+    "collectedLately": "देर से एकत्र किया गया",
+    "unCollected": "असंग्रहीत"
 }

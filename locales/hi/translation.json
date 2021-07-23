@@ -95,9 +95,11 @@
     "LastQuarter":"आख़िरी चौथाई",
     "LastYear":"पिछले साल",
     "PreviousPeriod":"पिछली अवधि",
-    "PreviousYear":"Previous Year",
+    "PreviousYear":"पिछला साल",
     "Start Date":"आरंभ करने की तिथि",
-    "End Date":"End Date",
-    "Total": "संपूर्ण"
+    "End Date":"समाप्ति तिथि",
+    "Total": "संपूर्ण",
+    "Sort": "तरह",
+    "DatePicker" : "खजूर बीनने वाला"
 }
 
