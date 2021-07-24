@@ -79,8 +79,5 @@
     "impact": "Impact",
     "transactions": "Transactions",
     "TrendingUp": "Trending Up",
-    "TrendingDown": "Trending Down",
-    "collectedTimely": "Collected Timely",
-    "collectedLately": "Collected Late",
-    "unCollected": "Uncollected"
+    "TrendingDown": "Trending Down"
 }

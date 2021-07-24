@@ -100,8 +100,5 @@
     "End Date":"End Date",
     "Total": "Total",
     "Sort": "Sort",
-    "DatePicker" : "DatePicker",
-    "CollectedTimely": "Collected Timely",
-    "CollectedLate": "Collected Late",
-    "UnCollected": "Uncollected"
+    "DatePicker" : "DatePicker"
 }
