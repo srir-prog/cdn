@@ -14,5 +14,6 @@
   "reactWithCount": "Hello <b>{{name}}</b>, you have {{count}} unread message.<ourLink></ourLink>.",
   "reactWithCount_plural": "Hello <b>{{name}}</b>, you have {{count}} unread messages.<ourLink></ourLink>.",
   "GoTo": "Go to message",
-  "GoTo_plural": "Go to messages"
+  "GoTo_plural": "Go to messages",
+  "multipleLines": "Welcome <b>{{name}}</b>, Translating {{count}} messages with multiple tags in multiple lines.<nl/> This is the second line that [should] come in new line."       
 }
