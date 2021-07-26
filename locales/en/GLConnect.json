@@ -168,7 +168,7 @@
     "YourDataIsSafePara5": "Maintaining PCI compliance for any stored credit card information",
     "YourDataIsSafePara6": "Maintaining SOC compliance with respect to data security",
     "YourDataIsSafePara7": "You own your data. ",
-    "YourDataIsSafePara8": "Your data will never be shared with a third party, including partner banks, without your consent. Should you opt out of Centime in the future, any and all financial data in our platform will be promptly deleted",
+    "YourDataIsSafePara8": "Your data will never be shared with a third party, including partner banks, without your consent. Should you opt out of Centime in the future, any and all financial data in our platform will be promptly deleted.",
     "NetSuiteSetupInfoTitle": "Enter your Client Credentials",
     "NetSuiteSetupInfo1": "Centime will need the <b>Client Credentials</b> that you obtained on creating the Centime’s integration record in order to initiate the connection to your Netsuite account.",
     "NetSuiteSetupInfo2": "Please enter the <b>CONSUMER KEY and CONSUMER SECRET</b> noted down when you created the <b>Integration record</b> for Centime (in Step 3) in the input fields provided below.",
