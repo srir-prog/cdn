@@ -130,5 +130,6 @@
     "Disconnected": "Disconnected",
     "SessionTimeoutModal": "Session Timeout PopUp",
     "Sort": "Sort",
-    "DatePicker" : "DatePicker"
+    "DatePicker" : "DatePicker",
+    "RemoveFilter": "Remove filter"
 }

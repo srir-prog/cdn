@@ -95,5 +95,7 @@
     "notLinkedIconTT": "One or more of your bank accounts are not linked",
     "Name": "Name",
     "Type": "Type",
-    "Number": "Number"
+    "Number": "Number",
+    "ExpandPanel":"Expand panel",
+    "CollapsePanel": "Collapse panel"
 }
