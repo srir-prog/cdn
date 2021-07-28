@@ -141,5 +141,7 @@
     "Currency": "मुद्रा",
     "daysWithCount": "{{count}} दिन",
     "daysWithCount_plural": "{{count}} दिन",
-    "ratePerMonth": "{{rate}} प्रति महीने"
+    "ratePerMonth": "{{rate}} प्रति महीने",
+    "TrendingUp": "रुझान ऊपर",
+    "TrendingDown": "नीचे रुझान"
 }
