@@ -10,6 +10,7 @@
     "navigation": "पथ प्रदर्शन",
     "Skip": "मुख्य विषयवस्तु में जाएं",
     "search" : "खोज",
+    "Search": "खोज",
     "settings": "समायोजन",
     "guide" : "मार्गदर्शक",
     "sync": "सिंक",
@@ -97,9 +98,9 @@
     "LastQuarter":"आख़िरी चौथाई",
     "LastYear":"पिछले साल",
     "PreviousPeriod":"पिछली अवधि",
-    "PreviousYear":"Previous Year",
+    "PreviousYear":"पिछला साल",
     "Start Date":"आरंभ करने की तिथि",
-    "End Date":"End Date",
+    "End Date":"समाप्ति तिथि",
     "Total": "संपूर्ण",
     "ComingSoon": "शीघ्र आ रहा है",
     "LearnMore": "और अधिक जानें",
@@ -107,6 +108,7 @@
     "manage":"प्रबंधित",
     "monitor": "मॉनिटर",
     "Sync":"सिंक",
+    "SyncStatus": "जीएल सिंक स्थिति",
     "Notifications": "सूचनाएं",
     "Guide": "मार्गदर्शक",
     "Menu": "मेन्यू",
@@ -128,6 +130,12 @@
     "Yes": "हाँ",
     "No": "नहीं न",
     "Disconnected": "डिस्कनेक्ट किया गया",
-    "SessionTimeoutModal": "सत्र समयबाह्य पॉपअप"
+    "SessionTimeoutModal": "सत्र समयबाह्य पॉपअप",
+    "Sort": "तरह",
+    "DatePicker" : "खजूर बीनने वाला",
+    "RemoveFilter": "फ़िल्टर हटाएं",
+    "Expand": "विस्तार करना",
+    "Open":"खोलना",
+    "Edit":"संपादित करें"
 }
 

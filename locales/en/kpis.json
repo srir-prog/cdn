@@ -136,5 +136,7 @@
     "Currency": "Currency",
     "daysWithCount": "{{count}} day",
     "daysWithCount_plural": "{{count}} days",
-    "ratePerMonth": "{{rate}} per month"
+    "ratePerMonth": "{{rate}} per month",
+    "TrendingUp": "Trending Up",
+    "TrendingDown": "Trending Down"
 }
