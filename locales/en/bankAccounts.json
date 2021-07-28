@@ -92,7 +92,7 @@
     "LoadingFIDataMsg": "It may take several minutes for your data to load. You can access the transactions upon completion.",
     "xAxisLabelClosingBalance": "Closing Balance (’000s USD)",
     "yAxisLabelTime": "Time (month)",
-    "notLinkedIconTT": "One or more of your bank accounts are not linked",
+    "notLinkedIconTT": "One or more of your bank accounts are not linked to the general ledger accounts",
     "Name": "Name",
     "Type": "Type",
     "Number": "Number",
