@@ -20,6 +20,6 @@
   "BackToHome": "Back to previous page",
   "AccountLocked": "This account has been locked",
   "PageNotFound": "Page not found",
-  "SampleLoremText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+  "SampleLoremText": "The page you are trying to reach could not be found. Please click the link below to go back to the login page. If the problem persists please contact our team via the chat bubble.",
   "SandboxGettingReady": "We need some time to create your sandbox. Please try accessing the modules in a few minutes."
 }
