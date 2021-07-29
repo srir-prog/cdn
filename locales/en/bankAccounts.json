@@ -96,6 +96,13 @@
     "Name": "Name",
     "Type": "Type",
     "Number": "Number",
-    "ExpandPanel":"Expand panel",
-    "CollapsePanel": "Collapse panel"
+    "ExpandPanel": "Expand panel",
+    "CollapsePanel": "Collapse panel",
+    "AccountDetails": "Account details",
+    "InstitutionName": "Institution name",
+    "AccountName": "Account name",
+    "AccountType": "Account type",
+    "AccountNumber": "Account number",
+    "AccountDetailsSuccessMsg": "Account details successfully saved",
+    "AccountDetailsFailureMsg": "There is a problem saving the account details. Get support from our team using the chat bubble."
 }
