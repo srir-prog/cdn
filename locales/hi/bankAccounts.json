@@ -85,6 +85,13 @@
     "Name": "नाम",
     "Type": "प्रकार",
     "Number": "संख्या",
-    "ExpandPanel":"पैनल का विस्तार करें",
-    "CollapsePanel":"संक्षिप्त करेंपैनल"
+    "ExpandPanel": "पैनल का विस्तार करें",
+    "CollapsePanel": "संक्षिप्त करेंपैनल",
+    "AccountDetails": "खाता विवरण",
+    "InstitutionName": "संस्था का नाम",
+    "AccountName": "खाता नाम",
+    "AccountType": "खाते का प्रकार",
+    "AccountNumber": "खाता संख्या",
+    "AccountDetailsSuccessMsg": "खाता विवरण सफलतापूर्वक सहेजा गया",
+    "AccountDetailsFailureMsg": "खाता विवरण सहेजने में कोई समस्या है. चैट बबल का उपयोग करके हमारी टीम से सहायता प्राप्त करें।"
 }
