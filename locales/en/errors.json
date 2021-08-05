@@ -1,5 +1,5 @@
 {
-  "0": "Unable to log in",
+  "0": "An internal error occured",
   "0Msg": "Please try again, or get support from our team using the chat bubble if the problem persists",
   "Some internal error occurred": "Internal error occurred",
   "Please try again after some time, we will fix this ASAP in the meantime..": "Please try again, or get support from our team using the chat bubble if the problem persists",
@@ -21,5 +21,6 @@
   "AccountLocked": "This account has been locked",
   "PageNotFound": "Page not found",
   "SampleLoremText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+  "PageNotFoundDesc": "The page you are trying to reach could not be found. Please click the link below to go back to the login page. If the problem persists please contact our team via the chat bubble.",
   "SandboxGettingReady": "We need some time to create your sandbox. Please try accessing the modules in a few minutes."
 }
