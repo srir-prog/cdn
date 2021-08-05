@@ -1,6 +1,6 @@
 {
     "Invalid": "Invalid",
-    "inValidEmail": "Invalid Email",
+    "inValidEmail": "Invalid email",
     "isRequired": "This is a required field",
     "maxLenExceeded": "Character limit exceeded",
     "max255Len": "Maximum of 255 characters allowed",
@@ -25,5 +25,7 @@
     "TaxIDInvalid": "Invalid Tax ID",
     "EmailInvalid": "Invalid email",
     "PhoneNumberInvalid": "Invalid phone number",
-    "WebSiteInvalid": "Invalid website"
+    "WebSiteInvalid": "Invalid website",
+    "AccountNameDuplicate": "Account name already exists",
+    "InstitutionNameDuplicate": "Financial Institution name already exists"
 }
