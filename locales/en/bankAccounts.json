@@ -104,5 +104,18 @@
     "AccountType": "Account type",
     "AccountNumber": "Account number",
     "AccountDetailsSuccessMsg": "Account details successfully saved",
-    "AccountDetailsFailureMsg": "There is a problem saving the account details. Get support from our team using the chat bubble."
+    "AccountDetailsFailureMsg": "There is a problem saving the account details. Get support from our team using the chat bubble.",
+    "CHECKING": "Checking",
+    "SAVINGS": "Savings",
+    "INVESTMENT": "Investment",
+    "MONEY MARKET": "Money market",
+    "CREDIT CARD": "Credit card",
+    "LINE OF CREDIT": "Line of credit",
+    "LOAN": "Loan",
+    "ErrorMsg103": "The login credentials you entered are not valid for this account. Please log into your bank’s site and make sure you have access and then try again.",
+    "ErrorMsg108": "User action is required at your financial institution. Log into your financial institution and check if you have any actions that need to be taken. ",
+    "ErrorMsg109": "Your financial institution is requiring new security info. Try logging into your financial institution and changing or updating your security credentials.",
+    "ErrorMsg185": "During the nightly batch aggregation or during a non-interactive refresh MFA was needed.",
+    "ErrorMsg187": "The answer to your security question was incorrect. Please add your account again.",
+    "ErrorMsg936": "You have a language preference other than English at your financial institution, which is not supported. Please log in to your financial institution and change your language to English in order to connect."
 }
