@@ -59,7 +59,7 @@
     "NoEmails": "Campaigns and other communications for {{customer_name}} have been disabled as emails could not be delivered to the customer",
     "AlternateEmail": "Provide an alternate email address",
     "Reconnect": "Reconnect with correct credentials",
-    "InvalidCredentials": "We are unable to connect to {{gl_name}} due to incorrect or expired credentials",
+    "InvalidCredentials": "Unable to sync data. Your {{gl_type}} login or password changed, or your credentials expired.",
     "InitialSyncSuccess": "Initial sync with {{gl_name}} is complete",
     "InitialSyncFailed": "Initial sync with {{gl_name}}  has failed",
     "ContactSupport": "Please contact Centime Support",
