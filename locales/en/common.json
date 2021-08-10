@@ -60,6 +60,8 @@
     "AlternateEmail": "Provide an alternate email address",
     "Reconnect": "Reconnect with correct credentials",
     "InvalidCredentials": "Unable to sync data. Your {{gl_type}} login or password changed, or your credentials expired.",
+    "ReconnectByClicking":"Please reconnect by clicking the Reconnect button.",
+    "AdminNotified": "Your account administrator has been notified.",
     "InitialSyncSuccess": "Initial sync with {{gl_name}} is complete",
     "InitialSyncFailed": "Initial sync with {{gl_name}}  has failed",
     "ContactSupport": "Please contact Centime Support",
