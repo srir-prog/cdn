@@ -234,7 +234,6 @@
     "InvoiceNumber": "बीजक संख्या",
     "CollectionStatus": "संग्रह की स्थिति",
     "InvoiceCreatedDate": "चालान बनाया गया दिनांक",
-    "InvoiceCurrency": "चालान की मुद्रा",
     "Delay": "विलंब",
     "Customer": "ग्राहक",
     "InvoiceDueDate": "बिल की देय तिथि",

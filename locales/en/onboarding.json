@@ -7,8 +7,6 @@
     "Last Name": "Last Name",
     "Work E-Mail Address": "work email",
     "Password": "Password",
-    "ShowPassword": "Show password",
-    "HidePassword": "Hide password",
     "Complete your profile": "Complete your profile",
     "Create your profile": "Create your profile",
     "NotUser": "Not {{fullName}} ?",

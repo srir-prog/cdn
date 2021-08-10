@@ -28,7 +28,7 @@
     "customer": "ग्राहक",
     "invoiceNumber": "बीजक संख्या",
     "invoiceamount": "बीजक राशि",
-    "Status": "स्थिति",
+    "status": "स्थिति",
     "outstanding": "बकाया",
     "lastPaymentDate": "अंतिम भुगतान तिथि",
     "dueDate": "नियत तारीख",
@@ -136,12 +136,5 @@
     "outflow": "निकल भागना",
     "invoice": "बीजक",
     "others": "अन्य",
-    "pageTitle": "मेट्रिक्स और प्रदर्शन",
-    "lastPaymentAmount": "अंतिम भुगतान राशि",
-    "Currency": "मुद्रा",
-    "daysWithCount": "{{count}} दिन",
-    "daysWithCount_plural": "{{count}} दिन",
-    "ratePerMonth": "{{rate}} प्रति महीने",
-    "TrendingUp": "रुझान ऊपर",
-    "TrendingDown": "नीचे रुझान"
+    "pageTitle": "मेट्रिक्स और प्रदर्शन"
 }

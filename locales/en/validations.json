@@ -25,7 +25,5 @@
     "TaxIDInvalid": "Invalid Tax ID",
     "EmailInvalid": "Invalid email",
     "PhoneNumberInvalid": "Invalid phone number",
-    "WebSiteInvalid": "Invalid website",
-    "AccountNameDuplicate": "Account name already exists",
-    "InstitutionNameDuplicate": "Financial Institution name already exists"
+    "WebSiteInvalid": "Invalid website"
 }
