@@ -118,5 +118,5 @@
     "ErrorMsg185": "During the nightly batch aggregation or during a non-interactive refresh MFA was needed.",
     "ErrorMsg187": "The answer to your security question was incorrect. Please add your account again.",
     "ErrorMsg936": "You have a language preference other than English at your financial institution, which is not supported. Please log in to your financial institution and change your language to English in order to connect.",
-    "CommonErrorMsg": "There is a problem with your bank connection. Please contact Centime support."
+    "CommonErrorMsg": "There is a problem with your bank connection. Get support from our team using the chat bubble."
 }
