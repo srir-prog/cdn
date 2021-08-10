@@ -22,7 +22,7 @@
     "unCollected": "Uncollected",
     "collectionsExpected": "Due",
     "collectionsExpectedMetric": "Collections due",
-    "collectedOnTime": "Collected On Time",
+    "collectedOnTime": "Collected on time",
     "collectedLate": "Collected late",
     "axisInfoContent": "All amounts in thousands of USD",
     "collectionsByTimeInfo": "Identify collections performance trends or seasonality by reviewing collections due in the time period selected, broken down by collections received timely or late or still remaining uncollected. Click on any bar to drill into the underlying invoices.",
@@ -53,7 +53,7 @@
     "customer": "Customer",
     "invoiceNumber": "Invoice number",
     "invoiceamount": "Invoice amount",
-    "status": "Status",
+    "Status": "Status",
     "outstanding": "Outstanding",
     "lastPaymentDate": "Last Payment Date",
     "dueDate": "Due Date",
@@ -131,5 +131,12 @@
     "outflow": "Outflow",
     "invoice": "Invoice",
     "others": "Others",
-    "pageTitle": "Metrics and performance"
+    "pageTitle": "Metrics and performance",
+    "lastPaymentAmount": "Last Payment Amount",
+    "Currency": "Currency",
+    "daysWithCount": "{{count}} day",
+    "daysWithCount_plural": "{{count}} days",
+    "ratePerMonth": "{{rate}} per month",
+    "TrendingUp": "Trending Up",
+    "TrendingDown": "Trending Down"
 }
