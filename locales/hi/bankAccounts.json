@@ -115,5 +115,15 @@
     "cashOutTotal": "नकदी निकलना",
     "closingCashBalance": "जमा शेष",
     "netCashFlow": "नकदी प्रवाह",
-    "openingCashBalance": "प्रारंभिक जमा"
+    "openingCashBalance": "प्रारंभिक जमा",
+    "AccountTypeBankingTable": "खाता प्रकार बैंकिंग तालिका",
+    "AccountTypeBankingTableAccordion": "खाता प्रकार बैंकिंग तालिका अकॉर्डियन",
+    "AccountTypeCreditAndLoanTable": "खाता प्रकार क्रेडिट और ऋण तालिका",
+    "AccountTypeCreditAndLoanTableAccordion": "खाता प्रकार क्रेडिट और ऋण तालिका अकॉर्डियन",
+    "BankingInstituteTable": "बैंकिंग संस्थान तालिका",
+    "BankingInstituteTableAccordion": "बैंकिंग संस्थान तालिका अकॉर्डियन",
+    "DurationDropdown": "अवधि ड्रॉपडाउन",
+    "ClosingBalance('000sUSD)": "समापन शेष ('000s USD)",
+    "Time(weekEnding)": "समय (सप्ताह समाप्त)",
+    "CashInflows/Outflows('000sUSD)": "नकद अंतर्वाह / बहिर्वाह ('000s USD)"
 }
