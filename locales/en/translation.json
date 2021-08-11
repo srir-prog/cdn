@@ -138,5 +138,5 @@
     "Expand": "Expand",
     "Open":"Open",
     "Edit":"Edit",
-    "Weeks": "weeks"
+    "nWeeks": "{{value}} weeks"
 }
