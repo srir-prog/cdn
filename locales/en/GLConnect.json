@@ -109,8 +109,6 @@
     "errorTitle": "Sync error",
     "errorSubTitle": "We were not able to sync data from {{GLType}} for these reasons",
     "errorInfo": "Please <ourLink>download</ourLink> this report, correct the errors and try connecting again. A detailed error report has been mailed to you",
-    "ErrorSyncStatus": "Unable to sync data. Your {{GLType}} login or password changed, or your credentials expired.",
-    "ManuallyDisconnected":"Data is not being synced. Your {{GLType}} has been disconnected by a member of your team.",
     "download": "download",
     "StartOver": "Start over",
     "ContactUs": "Contact Support",
