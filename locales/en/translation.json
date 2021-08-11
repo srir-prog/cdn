@@ -138,5 +138,6 @@
     "Expand": "Expand",
     "Open":"Open",
     "Edit":"Edit",
-    "nWeeks": "{{value}} weeks"
+    "nWeeks": "{{value}} weeks",
+    "ChartIcon": "Chart icon"
 }
