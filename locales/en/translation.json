@@ -115,6 +115,7 @@
     "Menu": "Menu",
     "Settings": "Settings",
     "More": "More",
+    "Initials": "Profile",
     "between": "between",
     "on": "on",
     "isLessThan": "is less than",
@@ -137,5 +138,7 @@
     "RemoveFilter": "Remove filter",
     "Expand": "Expand",
     "Open":"Open",
-    "Edit":"Edit"
+    "Edit":"Edit",
+    "nWeeks": "{{value}} weeks",
+    "ChartIcon": "Chart icon"
 }
