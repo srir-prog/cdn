@@ -305,5 +305,7 @@
     "Cannot delete Reminder Campaigns": "Cannot delete reminder campaigns",
     "sendCustomerEmail": "Send customer email",
     "sendInternalNotification": "Send internal notification",
-    "Cannot add Reminder Campaigns": "Cannot add reminder campaigns"
+    "Cannot add Reminder Campaigns": "Cannot add reminder campaigns",
+    "SenderProfile": "Sender profile",
+    "InternalNotificationsRecipientProfile": "Internal notifications recipient profile"
 }
