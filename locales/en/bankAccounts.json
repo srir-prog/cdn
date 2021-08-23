@@ -141,5 +141,6 @@
     "ClosingBalance('000sUSD)": "Closing balance ('000s USD)",
     "Time(weekEnding)": "Time (week ending)",
     "CashInflows/Outflows('000sUSD)": "Cash inflows / outflows ('000s USD)",
-    "CashInflowAndOutflowAxis": "Cash inflow and outflow axis"
+    "CashInflowAndOutflowAxis": "Cash inflow and outflow axis",
+    "monitorCash": "Monitor cash"
 }
