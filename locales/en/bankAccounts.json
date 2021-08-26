@@ -22,6 +22,7 @@
     "AccountNotLinked": "Account is not linked",
     "ReconnectErrorMsg": "Your bank login information is incorrect. To update your credentials, click ‘Reconnect’ and enter your current security credentials.",
     "LinkErrorMsg": "Error linking. Get support from our team using the chat bubble.",
+    "UnLinkErrorMsg": "Unlinking has failed. Get support from our team using the chat bubble.",
     "confirmationText": "Are you sure you want to remove this account?",
     "confirmationHint": "You can always add it back later",
     "SelectGLAccount": "Select a General Ledger account",
@@ -92,7 +93,7 @@
     "availableBalance": "Available balance",
     "SyncNowSuccess": "Sync has been successfully initiated",
     "LoadingFIDataMsg": "It may take several minutes for your data to load. You can access the transactions upon completion.",
-    "xAxisLabelClosingBalance": "Closing Balance (’000s USD)",
+    "xAxisLabelClosingBalance": "Closing Balance",
     "yAxisLabelTime": "Time (month)",
     "notLinkedIconTT": "One or more of your bank accounts are not linked to the general ledger accounts",
     "Name": "Name",
@@ -138,9 +139,9 @@
     "BankingInstituteTable": "Banking institute table",
     "BankingInstituteTableAccordion": "Banking institute table accordion",
     "DurationDropdown": "Duration dropdown",
-    "ClosingBalance('000sUSD)": "Closing balance ('000s USD)",
+    "ClosingBalance('000sUSD)": "Closing balance",
     "Time(weekEnding)": "Time (week ending)",
-    "CashInflows/Outflows('000sUSD)": "Cash inflows / outflows ('000s USD)",
+    "CashInflows/Outflows('000sUSD)": "Cash inflows / outflows",
     "CashInflowAndOutflowAxis": "Cash inflow and outflow axis",
     "monitorCash": "Monitor cash"
 }
