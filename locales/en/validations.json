@@ -2,7 +2,7 @@
     "Invalid": "Invalid",
     "inValidEmail": "Invalid email",
     "isRequired": "This is a required field",
-    "maxLenExceeded": "Character limit exceeded",
+    "maxLenExceeded": "Maximum character limit {{charLimit}} reached",
     "max255Len": "Maximum of 255 characters allowed",
     "max99Len": "Maximum of 99 characters allowed",
     "min3Len": "At least three characters are required",
@@ -27,5 +27,6 @@
     "PhoneNumberInvalid": "Invalid phone number",
     "WebSiteInvalid": "Invalid website",
     "AccountNameDuplicate": "Account name already exists",
-    "InstitutionNameDuplicate": "Financial Institution name already exists"
+    "InstitutionNameDuplicate": "Financial Institution name already exists",
+    "maxAmount": "Value must be less than or equal to 999,999,999"
 }
