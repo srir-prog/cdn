@@ -27,5 +27,6 @@
     "PhoneNumberInvalid": "फ़ोन नंबर अमान्य है",
     "WebSiteInvalid": "वेबसाइट अमान्य है",
     "AccountNameDuplicate": "खाते का नाम पहले से मौजूद है",
-    "InstitutionNameDuplicate": "वित्तीय संस्थान का नाम पहले से मौजूद है"
+    "InstitutionNameDuplicate": "वित्तीय संस्थान का नाम पहले से मौजूद है",
+    "maxAmount": "मान {{amountLimit}} से कम या उसके बराबर होना चाहिए"
 }
