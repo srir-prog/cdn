@@ -22,7 +22,7 @@
     "AccountNotLinked": "Account is not linked",
     "ReconnectErrorMsg": "Your bank login information is incorrect. To update your credentials, click ‘Reconnect’ and enter your current security credentials.",
     "LinkErrorMsg": "Error linking. Get support from our team using the chat bubble.",
-    "UnLinkErrorMsg": "Unlinking has failed. Get support from our team using the chat bubble.",
+    "UnLinkErrorMsg": "Error unlinking. Get support from our team using the chat bubble.",
     "confirmationText": "Are you sure you want to remove this account?",
     "confirmationHint": "You can always add it back later",
     "SelectGLAccount": "Select a General Ledger account",
