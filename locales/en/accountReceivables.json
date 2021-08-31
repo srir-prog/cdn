@@ -307,5 +307,6 @@
     "sendInternalNotification": "Send internal notification",
     "Cannot add Reminder Campaigns": "Cannot add reminder campaigns",
     "SenderProfile": "Sender profile",
-    "InternalNotificationsRecipientProfile": "Internal notifications recipient profile"
+    "InternalNotificationsRecipientProfile": "Internal notifications recipient profile",
+    "ReceivablesPanel":"Receivables"
 }
