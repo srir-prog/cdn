@@ -45,6 +45,8 @@
     "totalAP": "Total AP",
     "totalOverdue": "Total Overdue",
     "totalSuppliers": "Total Suppliers",
-    "totalInvoices": "Total Invoices"
-
+    "totalInvoices": "Total Invoices",
+    "totalPayablesOutstanding":"Total Outstanding",
+    "totalPayablesOverdue": "Total Overdue",
+    "totalBills": "Total Invoices"
 }

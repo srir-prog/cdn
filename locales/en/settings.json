@@ -28,6 +28,7 @@
     "firstSyncDetails" : "First sync details",
     "syncSuccessDetails" : "{{GLType}} sync was successful. For details, refer to the sync results below.",
     "syncErrorDetails" : "There were errors while syncing with {{GLType}}. For details, refer to the sync results below. Categories in red were not synced. Synced categories are indicated in green",
+    "syncInProgressDetails": "{{GLType}} sync is in progress. For details, refer to the sync results below.",
     "viewMore": "View more",
     "LogCase" : "Log case with Centime Support",
     "Profile": "My profile",

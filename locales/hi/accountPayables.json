@@ -45,5 +45,8 @@
     "totalAP": "टोटल एपी",
     "totalOverdue": "टोटल ओवरड्यू",
     "totalSuppliers": "कुल आपूर्तिकर्ता",
-    "totalInvoices": "कुल चालान"
+    "totalInvoices": "कुल चालान",
+    "totalPayablesOutstanding":"टोटल ओवरड्यू",
+    "totalPayablesOverdue": "कुल चालान",
+    "totalBills": "कुल चालान"
 }
