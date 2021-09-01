@@ -1,5 +1,6 @@
 {
     "Payables": "Payables",
+    "PayablesPanel": "Payables",
     "Suppliers": "Suppliers",
     "UnpaidInvoices": "Unpaid Invoices",
     "PaidInvoices": "Paid Invoices",
@@ -43,10 +44,17 @@
     "PaymentDate": "Payment date",
     "Status": "Status",
     "totalAP": "Total AP",
-    "totalOverdue": "Total Overdue",
     "totalSuppliers": "Total Suppliers",
     "totalInvoices": "Total Invoices",
     "totalPayablesOutstanding":"Total Outstanding",
     "totalPayablesOverdue": "Total Overdue",
-    "totalBills": "Total Invoices"
+    "totalBills": "Total Invoices",
+    "AccordionInvoiceAmount": "Invoice Amount",
+    "AccordionInvoiceDate": "Invoice Date",
+    "AccordionPaymentTerms": "Payment Terms",
+    "AccordionDescription": "Description",
+    "AccordionViewInvoiceHistory": "View Invoice History",
+    "AccordionPaymentStatus": "Payment Status",
+    "AccordionLastPaymentAmount": "Last Payment Amount",
+    "AccordionLastPaymentDate": "Last Payment Date"
 }
