@@ -298,5 +298,6 @@
     "ReceivedPlaceholder": "<प्राप्त किया था>",
     "GeneralSettings": "सामान्य सेटिंग्स",
     "SenderProfile": "प्रेषक प्रोफ़ाइल",
-    "InternalNotificationsRecipientProfile": "आंतरिक सूचनाएं प्राप्तकर्ता प्रोफ़ाइल"
+    "InternalNotificationsRecipientProfile": "आंतरिक सूचनाएं प्राप्तकर्ता प्रोफ़ाइल",
+    "ReceivablesPanel": "प्राप्तियों"
 }
