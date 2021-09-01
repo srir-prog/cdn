@@ -43,7 +43,6 @@
     "PaymentDate": "भुगतान की तारीख",
     "Status": "स्थिति",
     "totalAP": "टोटल एपी",
-    "totalOverdue": "टोटल ओवरड्यू",
     "totalSuppliers": "कुल आपूर्तिकर्ता",
     "totalInvoices": "कुल चालान",
     "totalPayablesOutstanding":"टोटल ओवरड्यू",
