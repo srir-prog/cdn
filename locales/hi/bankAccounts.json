@@ -22,6 +22,7 @@
     "AccountNotLinked": "खाता लिंक नहीं किया गया है",
     "ReconnectErrorMsg": "आपकी बैंक लॉगिन जानकारी गलत है। अपने क्रेडेंशियल अपडेट करने के लिए, 'फिर से कनेक्ट करें' पर क्लिक करें और अपने मौजूदा सुरक्षा क्रेडेंशियल दर्ज करें।",
     "LinkErrorMsg": "लिंक नहीं हो सका। कृपया Centime समर्थन से संपर्क करें",
+    "UnLinkErrorMsg": "अनलिंक करने में त्रुटि. चैट बबल का उपयोग करके हमारी टीम से सहायता प्राप्त करें।",
     "confirmationText": "क्या आप वाकई इस खाते को हटाना चाहते हैं?",
     "confirmationHint": "(आप इसे बाद में वापस जोड़ सकते हैं)",
     "SelectGLAccount": "एक सामान्य लेजर खाता चुनें",
@@ -31,6 +32,8 @@
     "RemoveAccountConfirmationLine1": "क्या आप वाकई इस खाते को हटाना चाहते हैं?",
     "RemoveAccountConfirmationLine2": "(आप इसे हमेशा बाद में वापस जोड़ सकते हैं।)",
     "RemoveAccountSuccess": "<b>{{bankDetails}}</b> निकाल दिया गया है",
+    "RemoveOAuthAccountsConfirmationLine1": "आपका वित्तीय संस्थान केवल बैच हटाने की अनुमति देता है; आप एक भी खाता नहीं हटा सकते। हालाँकि, बैच हटाने के बाद, आप केवल वही खाते वापस जोड़ सकते हैं जिनकी आपको आवश्यकता है।",
+    "RemoveOAuthAccountsConfirmationLine2": "क्या आप वाकई अपने सभी खाते हटाना चाहते हैं?",
     "RemoveAccountError": "<b>{{bankDetails}}</b> हटाया नहीं जा सका।.कृपया Centime Support से संपर्क करें",
     "FinicityPreConnectError": "वित्तीय संस्थान से कनेक्ट करते समय एक समस्या थी।.कृपया Centime Support से संपर्क करें",
     "FinicityPostConnectError": "वित्तीय संस्थान से खाते जोड़ते समय एक समस्या थी. कृपया Centime Support से संपर्क करें",
@@ -127,5 +130,7 @@
     "ClosingBalance('000sUSD)": "समापन शेष ('000s USD)",
     "Time(weekEnding)": "समय (सप्ताह समाप्त)",
     "CashInflows/Outflows('000sUSD)": "नकद अंतर्वाह / बहिर्वाह ('000s USD)",
-    "CashInflowAndOutflowAxis": "नकदी प्रवाह और बहिर्वाह अक्ष"
+    "CashInflowAndOutflowAxis": "नकदी प्रवाह और बहिर्वाह अक्ष",
+    "CashFlowTable": "कैश फ्लो टेबल",
+    "monitorCash": "मॉनिटर कैश"
 }
