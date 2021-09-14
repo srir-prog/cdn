@@ -48,12 +48,13 @@
     "totalPayablesOutstanding":"टोटल ओवरड्यू",
     "totalPayablesOverdue": "कुल चालान",
     "totalBills": "कुल चालान",
-    "AccordionInvoiceAmount": "चालान राशि",
-    "AccordionInvoiceDate": "चालान की तारीख",
-    "AccordionPaymentTerms": "भुगतान शर्तें",
-    "AccordionDescription": "विवरण",
+    "InvoiceAmount": "चालान राशि",
+    "InvoiceDate": "चालान की तारीख",
+    "PaymentTerms": "भुगतान शर्तें",
+    "Description": "विवरण",
     "AccordionViewInvoiceHistory": "चालान इतिहास देखें",
-    "AccordionPaymentStatus": "भुगतान स्थिति",
-    "AccordionLastPaymentAmount": "अंतिम भुगतान राशि",
-    "AccordionLastPaymentDate": "अंतिम भुगतान तिथि"
+    "PaymentStatus": "भुगतान स्थिति",
+    "LastPaymentAmount": "अंतिम भुगतान राशि",
+    "LastPaymentDate": "अंतिम भुगतान तिथि",
+    "Currency": "मुद्रा"
 }

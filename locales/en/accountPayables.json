@@ -49,12 +49,13 @@
     "totalPayablesOutstanding":"Total Outstanding",
     "totalPayablesOverdue": "Total Overdue",
     "totalBills": "Total Invoices",
-    "AccordionInvoiceAmount": "Invoice Amount",
-    "AccordionInvoiceDate": "Invoice Date",
-    "AccordionPaymentTerms": "Payment Terms",
-    "AccordionDescription": "Description",
+    "InvoiceAmount": "Invoice Amount",
+    "InvoiceDate": "Invoice Date",
+    "PaymentTerms": "Payment Terms",
+    "Description": "Description",
     "AccordionViewInvoiceHistory": "View Invoice History",
-    "AccordionPaymentStatus": "Payment Status",
-    "AccordionLastPaymentAmount": "Last Payment Amount",
-    "AccordionLastPaymentDate": "Last Payment Date"
+    "PaymentStatus": "Payment Status",
+    "LastPaymentAmount": "Last Payment Amount",
+    "LastPaymentDate": "Last Payment Date",
+    "Currency": "Currency"
 }
