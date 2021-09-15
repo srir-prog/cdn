@@ -56,5 +56,6 @@
     "PaymentStatus": "भुगतान स्थिति",
     "LastPaymentAmount": "अंतिम भुगतान राशि",
     "LastPaymentDate": "अंतिम भुगतान तिथि",
-    "Currency": "मुद्रा"
+    "Currency": "मुद्रा",
+    "Ageing": "उम्र बढ़ने"
 }
