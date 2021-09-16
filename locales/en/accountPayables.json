@@ -57,5 +57,6 @@
     "PaymentStatus": "Payment Status",
     "LastPaymentAmount": "Last Payment Amount",
     "LastPaymentDate": "Last Payment Date",
-    "Currency": "Currency"
+    "Currency": "Currency",
+    "Ageing": "Ageing"
 }
