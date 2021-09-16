@@ -28,6 +28,7 @@
     "firstSyncDetails" : "First sync details",
     "syncSuccessDetails" : "{{GLType}} sync was successful. For details, refer to the sync results below.",
     "syncErrorDetails" : "There were errors while syncing with {{GLType}}. For details, refer to the sync results below. Categories in red were not synced. Synced categories are indicated in green",
+    "syncInProgressDetails": "{{GLType}} sync is in progress. For details, refer to the sync results below.",
     "viewMore": "View more",
     "LogCase" : "Log case with Centime Support",
     "Profile": "My profile",
@@ -60,7 +61,7 @@
     "EntitlementWizardBtn":"Permissions wizard",
     "EntitlementsDesc" : "Defining team members' roles helps map their tasks and duties to the appropriate level of permissions for each user",
     "JobFuncQuestion" : "What are {{fullName}}'s daily tasks and duties?",
-    "JobFuncPrompt": "Don't see an exact match? You can define granular permissions on the next page.",
+    "JobFuncPrompt": "Don't see an exact match? You can define granular permissions on the next page",
     "BackToUsersPage": "Back to Manage Users",
     "BackToModify": "Back to Modify Permissions",
     "EnableAccess":"Turn on permissions",
@@ -186,5 +187,8 @@
     "CompanyInfo": "Company information",
     "ManagePermissions":"Manage permissions",
     "ReminderCampaigns":"Reminder campaigns",
-    "MonitorCash":"Monitor Cash"
+    "MonitorCash":"Monitor Cash",
+    "SuccessInGLConnect": "Successfully reconnected to your general ledger. Initiated sync to update your data in Centime.",
+    "ErrorInGLConnect" : "Error in reconnecting to your General Ledger. QuickBooks company selected is incorrect. Please try again by clicking the Reconnect button",
+    "PayablesPanel": "Payables"
 }

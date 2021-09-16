@@ -73,5 +73,6 @@
     "EmailSentToEmailId": "We have sent a verification email to {{emailId}}.<br>Please click the link to verify your account.",
     "CantFindEmail": "Can't find the verification email?",
     "ResendNow": "Resend now",
-    "CouldNotDeliverEmail": "We could not deliver your email right now"
+    "CouldNotDeliverEmail": "We could not deliver your email right now",
+    "PasswordInCognitoError": "Password has expired due to security reasons. Please click on Forgot password to create a new password"
 }
