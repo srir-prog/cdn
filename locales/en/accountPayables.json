@@ -58,5 +58,13 @@
     "LastPaymentAmount": "Last Payment Amount",
     "LastPaymentDate": "Last Payment Date",
     "Currency": "Currency",
-    "Ageing": "Ageing"
+    "Ageing": "Ageing",
+    "RemittanceStatus": "Remittance Status",
+    "PostingStatus": "Posting Status",
+    "NotSent": "Not Sent",
+    "PostingInProgress": "Posting in progress",
+    "Posted": "Posted",
+    "PartiallyPaid": "Partially Paid",
+    "UnPaid": "Unpaid",
+    "Paid": "Paid"
 }
