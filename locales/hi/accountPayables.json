@@ -57,5 +57,13 @@
     "LastPaymentAmount": "अंतिम भुगतान राशि",
     "LastPaymentDate": "अंतिम भुगतान तिथि",
     "Currency": "मुद्रा",
-    "Ageing": "उम्र बढ़ने"
+    "Ageing": "उम्र बढ़ने",
+    "RemittanceStatus": "रेमिटेंस स्टेटस",
+    "PostingStatus": "पोस्टिंग स्टेटस",
+    "NotSent": "भेजा नहीं गया",
+    "PostingInProgress": "पोस्टिंग प्रगति पर है",
+    "Posted": "पोस्ट किया गया",
+    "PartiallyPaid": "आंशिक रूप से भुगतान किया गया",
+    "UnPaid": "अवैतनिक",
+    "Paid": "भुगतान किया"
 }
