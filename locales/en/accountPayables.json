@@ -64,7 +64,14 @@
     "NotSent": "Not Sent",
     "PostingInProgress": "Posting in progress",
     "Posted": "Posted",
-    "PartiallyPaid": "Partially Paid",
+    "PartiallyPaid": "Partially paid",
     "UnPaid": "Unpaid",
-    "Paid": "Paid"
+    "Paid": "Paid",
+    "FundingAccount": "Funding Account",
+    "CreditCard": "Credit card",
+    "Card": "Card",
+    "ACH": "ACH",
+    "Check": "Check",
+    "OfflinePayment": "Offline payment",
+    "PostToGLAccount": "Post to GL account"
 }
