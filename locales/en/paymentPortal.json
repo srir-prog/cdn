@@ -1,7 +1,6 @@
 {
   "paymentPortal": "Payment Portal",
   "register": "Register to manage payment preferences and",
-  "login": "Login to manage payment preferences and",
   "monitor unpaid invoices": "monitor unpaid invoices",
   "manage": "Manage customer invoices and payment",
   "information": "information with <bold>Centime Payment Portal</bold>",
