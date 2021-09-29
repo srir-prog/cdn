@@ -189,5 +189,6 @@
     "ReminderCampaigns":"Reminder campaigns",
     "MonitorCash":"Monitor Cash",
     "SuccessInGLConnect": "Successfully reconnected to your general ledger. Initiated sync to update your data in Centime.",
-    "ErrorInGLConnect" : "Error in reconnecting to your General Ledger. QuickBooks company selected is incorrect. Please try again by clicking the Reconnect button"
+    "ErrorInGLConnect" : "Error in reconnecting to your General Ledger. QuickBooks company selected is incorrect. Please try again by clicking the Reconnect button",
+    "PayablesPanel": "Payables"
 }
