@@ -3,6 +3,7 @@
     "Skip": "मुख्य विषयवस्तु में जाएं",
     "Login": "लॉगिन",
     "AlreadyUser": "पहले से ही एक उपयोगकर्ता ?<LoginLink></LoginLink>",
+    "AlreadyHaveAnAccount": "क्या आपके पास पहले से एक खाता मौजूद है?<LoginLink></LoginLink>",
     "First Name": "पहला नाम",
     "Last Name": "उपनाम",
     "Work E-Mail Address": "कार्य ईमेल",
