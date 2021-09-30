@@ -14,7 +14,7 @@
     "SendRemittance": "Send Remittance",
     "BucketLabel1": "Due in 30+ days",
     "BucketLabel2": "Due in 30 days",
-    "BucketLabel3": "0-30 days overdue",
+    "BucketLabel3": "1-30 days overdue",
     "BucketLabel4": "31-60 days overdue",
     "BucketLabel5": "61-90 days overdue",
     "BucketLabel6": "91-120 days overdue",
