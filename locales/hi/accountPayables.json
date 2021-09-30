@@ -72,5 +72,9 @@
     "ACH": "एसीएच",
     "Check": "जाँच",
     "OfflinePayment": "ऑफ़लाइन भुगतान",
-    "PostToGLAccount": "GL खाते में पोस्ट करें"
+    "PostToGLAccount": "GL खाते में पोस्ट करें",
+    "ConfirmPayment": "Confirm Payment",
+    "clickHere": "यहां क्लिक करें",
+    "PaymentModalBottomMessage":"<ourLink></ourLink> शुल्क संरचना के टूटने के लिए",
+    "NoPaymentTooltip": "आपूर्तिकर्ता के लिए भुगतान विवरण नहीं जोड़े गए हैं"
 }
