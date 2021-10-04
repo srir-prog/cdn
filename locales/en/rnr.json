@@ -1,0 +1,12 @@
+{
+  "unknownRisk": "Unknown risk",
+  "highRisk": "High risk",
+  "mediumRisk": "Medium risk",
+  "lowRisk": "Low risk",
+  "overallCentimeRisk": "Overall Centime risk",
+  "customers": "Customers",
+  "suppliers": "Suppliers",
+  "add": "Add",
+  "search": "Search",
+  "filter": "Filter"
+}
