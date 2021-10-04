@@ -260,5 +260,6 @@
     "ConnectYourGL": "Connect your General Ledger",
     "ReviewGLConfigurations": "Review General Ledger configuration",
     "ThanksNotice": "Thanks notice",
-    "SelectEntityTitle": "Select a business entity"
+    "SelectEntityTitle": "Select a business entity",
+    "CanelPhoneVerificationError": "Error cancelling phone verification"
 }
