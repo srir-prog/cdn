@@ -1,0 +1,12 @@
+{
+  "unknownRisk": "अज्ञात जोखिम",
+  "highRisk": "भारी जोखिम",
+  "mediumRisk": "मध्यम जोखिम",
+  "lowRisk": "कम जोखिम",
+  "overallCentimeRisk": "कुल सांटीम जोखिम",
+  "customers": "ग्राहकों",
+  "suppliers": "आपूर्तिकर्ताओं",
+  "add": "जोड़ें",
+  "search": "खोज",
+  "filter": "फ़िल्टर"
+}
