@@ -8,5 +8,8 @@
   "suppliers": "Suppliers",
   "add": "Add",
   "search": "Search",
-  "filter": "Filter"
+  "filter": "Filter",
+  "rnr": "Risk & Reputation",
+  "zoomIn": "Zoom in",
+  "zoomOut": "Zoom out"
 }
