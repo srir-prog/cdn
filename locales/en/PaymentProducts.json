@@ -18,12 +18,6 @@
   "state": "State",
   "zipcode": "Zip Code",
   "country": "Country",
-  "returnAddress": "Address To Be Printed Below Bank Name",
-  "returnAddress1": "Address",
-  "returnCity": "City",
-  "returnState": "State",
-  "returnZipcode": "Zip Code",
-  "returnCountry": "Country",
   "cancelActivation": "Cancel Activation",
   "activate": "Activate"
 }

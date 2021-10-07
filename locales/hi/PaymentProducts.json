@@ -18,12 +18,6 @@
   "state": "राज्य",
   "zipcode": "ज़िप कोड",
   "country": "देश",
-  "returnAddress": "बैंक के नाम के नीचे मुद्रित किया जाने वाला पता",
-  "returnAddress1": "पता",
-  "returnCity": "शहर",
-  "returnState": "राज्य",
-  "returnZipcode": "ज़िप कोड",
-  "returnCountry": "देश",
   "cancelActivation": "सक्रियण रद्द करें",
   "activate": "सक्रिय"
 }
