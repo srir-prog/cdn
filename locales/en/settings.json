@@ -76,6 +76,7 @@
     "kpis": "KPIs and insights",
     "riskAndReputation": "Risk and reputation",
     "Admin" : "Administration",
+    "PaymentProducts":"Payment Products",
     "------------":"------------",
     "PayablesDesc" : "Schedule, authorize and execute supplier payments",
     "AdminDesc" : "Manage company settings. Create and manage users, teams and their permissions. Administer the General Ledger connection.",
