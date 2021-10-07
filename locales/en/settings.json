@@ -74,6 +74,7 @@
     "Payables": "Payables",
     "Cash": "cash",
     "kpis": "KPIs and insights",
+    "riskAndReputation": "Risk and reputation",
     "Admin" : "Administration",
     "------------":"------------",
     "PayablesDesc" : "Schedule, authorize and execute supplier payments",
