@@ -97,5 +97,6 @@
     "SubmitOTP": "ओटीपी सबमिट करें",
     "Payments": "भुगतान",
     "PaymentTerms": "भुगतान शर्तें",
-    "Currency": "मुद्रा"
+    "Currency": "मुद्रा",
+    "PaymentProducts":"भुगतान उत्पाद"
 }

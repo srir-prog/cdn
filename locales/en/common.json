@@ -96,5 +96,6 @@
     "SubmitOTP": "Submit OTP",
     "Payments": "Payments",
     "PaymentTerms": "Payment terms",
-    "Currency": "Currency"
+    "Currency": "Currency",
+    "PaymentProducts":"Payment Products"
 }
