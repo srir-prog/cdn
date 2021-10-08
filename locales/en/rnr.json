@@ -11,5 +11,16 @@
   "filter": "Filter",
   "rnr": "Risk & Reputation",
   "zoomIn": "Zoom in",
-  "zoomOut": "Zoom out"
+  "zoomOut": "Zoom out",
+  "centimeRiskAssessment": "Centime risk assessment",
+  "lastRiskUpdated": "Last updated {{lastSyncDate}}",
+  "riskLevel": "Risk level",
+  "dateOfIncorporation": "Date of incorporation",
+  "businessType": "Business type",
+  "noOfEmployees": "No. of employees",
+  "viewDetails": "View Details",
+  "complianceRisk": "Compliance risk",
+  "creditRisk": "Credit risk",
+  "experianCreditScore": "Experian credit score",
+  "reputationRisk": "Reputation risk"
 }
