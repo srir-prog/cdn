@@ -201,5 +201,12 @@
     "senderEmail":"Sender email",
     "senderSignature":"Sender signature",
     "paymentSettings":"Payment settings",
-    "autoSubscribeSuppliers":"Auto-subscribe to all suppliers"
+    "autoSubscribeSuppliers":"Auto-subscribe to all suppliers",
+    "checkPayments":"Check payments",
+    "defaultFundingAccount":"Default funding account",
+    "achPayments":"ACH payments",
+    "fxPayments":"FX payments",
+    "postToGLaccount":"Post to GL account",
+    "otherPayments":"Other payments",
+    "paymentMethod":"Payment method"
 }

@@ -206,5 +206,12 @@
     "senderEmail":"प्रेषक ईमेल",
     "senderSignature":"प्रेषक हस्ताक्षर",
     "paymentSettings":"भुगतान सेटिंग",
-    "autoSubscribeSuppliers":"सभी आपूर्तिकर्ताओं को ऑटो-सब्सक्राइब करें"
+    "autoSubscribeSuppliers":"सभी आपूर्तिकर्ताओं को ऑटो-सब्सक्राइब करें",
+    "checkPayments":"भुगतान जांचें",
+    "defaultFundingAccount":"डिफ़ॉल्ट फंडिंग खाता",
+    "achPayments":"एसीएच भुगतान",
+    "fxPayments":"एफएक्स भुगतान",
+    "postToGLaccount":"जीएल खाते में पोस्ट करें",
+    "otherPayments":"अन्य भुगतान",
+    "paymentMethod":"भुगतान विधि"
 }
