@@ -206,5 +206,5 @@
     "senderEmail":"प्रेषक ईमेल",
     "senderSignature":"प्रेषक हस्ताक्षर",
     "paymentSettings":"भुगतान सेटिंग",
-    "AutoSubscribeSuppliers":"सभी आपूर्तिकर्ताओं को ऑटो-सब्सक्राइब करें"
+    "autoSubscribeSuppliers":"सभी आपूर्तिकर्ताओं को ऑटो-सब्सक्राइब करें"
 }

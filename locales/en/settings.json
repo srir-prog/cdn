@@ -201,5 +201,5 @@
     "senderEmail":"Sender email",
     "senderSignature":"Sender signature",
     "paymentSettings":"Payment settings",
-    "AutoSubscribeSuppliers":"Auto-subscribe to all suppliers"
+    "autoSubscribeSuppliers":"Auto-subscribe to all suppliers"
 }
