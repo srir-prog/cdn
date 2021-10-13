@@ -13,7 +13,7 @@
   "zoomIn": "Zoom in",
   "zoomOut": "Zoom out",
   "centimeRiskAssessment": "Centime risk assessment",
-  "lastRiskUpdated": "Last updated {{lastSyncDate}}",
+  "lastRiskUpdated": "Last updated - {{lastSyncDate}}",
   "riskLevel": "Risk level",
   "dateOfIncorporation": "Date of incorporation",
   "businessType": "Business type",

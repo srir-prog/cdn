@@ -23,9 +23,9 @@
     "Summary": "Summary",
     "History": "History",
     "Notes": "Notes",
-    "CustomerPanelTitle": "Customer profile",
-    "NotesHistoryPanelTitle": "Notes & History",
-    "InvoiceSidePanelTitle": "{{buyerName}}, Invoice {{invoiceId}}",
+    "CustomerPanelTitle": "Customer profile - {{buyerName}}",
+    "NotesHistoryPanelTitle": "Notes & History - {{buyerName}}",
+    "InvoiceSidePanelTitle": "Customer profile - {{buyerName}}, Invoice {{invoiceId}}",
     "CustomerSummaryTabs": "Customer Summary Tabs",
     "ReminderSwitch": "Reminder Switch",
     "AddressLine": "Address line",
@@ -97,7 +97,6 @@
     "Payments": "Payments",
     "PaymentTerms": "Payment terms",
     "Currency": "Currency",
-    "RiskReputation": "Risk and Reputation",
     "EmailCommunication": "Email communication settings",
     "NotifyPayments": "Notify when payment has been approved",
     "NotifyRemittance": "Send remittance after payment has been initiated",
@@ -120,5 +119,10 @@
     "FXPaymentToolTip": "Payments are made outside Centime. After the payments are made, you can record payment details in Centime and post payments to General ledger ",
     "postToGL": "Post to GL account",
     "FXPayment": "FX payment",
-    "Surcharge": "Surcharge"
+    "Surcharge": "Surcharge",
+    "customerSummary": "Summary",
+    "payments": "Payments",
+    "history": "History",
+    "notes": "Notes",
+    "riskReputation": "Risk and Reputation"
 }

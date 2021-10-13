@@ -13,7 +13,7 @@
   "zoomIn": "ज़ूम इन",
   "zoomOut": "ज़ूम आउट",
   "centimeRiskAssessment": "सांटीम जोखिम मूल्यांकन",
-  "lastRiskUpdated": "आखरी अपडेट {{lastSyncDate}}",
+  "lastRiskUpdated": "आखरी अपडेट - {{lastSyncDate}}",
   "riskLevel": "जोखिम का स्तर",
   "dateOfIncorporation": "निगमन की तारीख",
   "businessType": "व्यापार के प्रकार",
