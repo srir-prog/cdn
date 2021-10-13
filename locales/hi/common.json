@@ -4,7 +4,6 @@
     "HistoryActionCampaignChanged": "अभियान बदल गया",
     "HistoryActionCustomerAddressUpdated": "ग्राहक का पता अद्यतन",
     "HistoryActionCustomerPhoneNoUpdated": "ग्राहक फोन अपडेट किया गया",
-    "HistoryActionCustomerWebsiteUpdated": "ग्राहक वेबसाइट अद्यतन",
     "HistoryActionCustomerWebSiteUpdated": "ग्राहक वेबसाइट अद्यतन",
     "HistoryActionCustomerMonthlyStatementFlag": "ग्राहक मासिक स्टेटमेंट सेटिंग अपडेट किया गया",
     "HistoryActionNotesAdded": "नोट्स जोड़े गए",
@@ -24,9 +23,9 @@
     "Summary": "सारांश",
     "History": "इतिहास",
     "Notes": "टिप्पणियाँ",
-    "CustomerPanelTitle": "ग्राहक रुपरेखा",
-    "NotesHistoryPanelTitle": "नोट्स और इतिहास",
-    "InvoiceSidePanelTitle": "{{buyerName}}, चालान {{invoiceId}}",
+    "CustomerPanelTitle": "ग्राहक रुपरेखा - {{buyerName}}",
+    "NotesHistoryPanelTitle": "नोट्स और इतिहास - {{buyerName}}",
+    "InvoiceSidePanelTitle": "ग्राहक रुपरेखा - {{buyerName}}, चालान {{invoiceId}}",
     "CustomerSummaryTabs": "ग्राहक सारांश टैब",
     "ReminderSwitch": "अनुस्मारक स्विच",
     "AddressLine": "पता पंक्ति",
@@ -120,5 +119,10 @@
     "FXPaymentToolTip": "भुगतान Centime के बाहर किया जाता है। भुगतान किए जाने के बाद, आप भुगतान विवरण को सेंटिम में रिकॉर्ड कर सकते हैं और सामान्य खाता बही में भुगतान पोस्ट कर सकते हैं",
     "postToGL": "जीएल खाते में पोस्ट करें",
     "FXPayment": "एफएक्स भुगतान",
-    "Surcharge": "अधिभार"
+    "Surcharge": "अधिभार",
+    "customerSummary": "सारांश",
+    "payments": "भुगतान",
+    "history": "इतिहास",
+    "notes": "टिप्पणियाँ",
+    "riskReputation": "जोखिम और प्रतिष्ठा"
 }
