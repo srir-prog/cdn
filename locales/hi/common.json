@@ -124,5 +124,7 @@
     "payments": "भुगतान",
     "history": "इतिहास",
     "notes": "टिप्पणियाँ",
-    "riskReputation": "जोखिम और प्रतिष्ठा"
+    "riskReputation": "जोखिम और प्रतिष्ठा",
+    "profile": "प्रोफ़ाइल",
+    "supplierPanelTitle": "प्रदायक - {{buyerName}}"
 }
