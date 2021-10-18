@@ -26,5 +26,6 @@
   "getPaymentProductError": "भुगतान उत्पाद लाने में त्रुटि",
   "activatedCheckPayment": "जाँच सफलतापूर्वक सक्रिय हो गई",
   "activateCheckPaymentError": "चेक सक्रिय करते समय त्रुटि",
-  "activated": "सक्रिय"
+  "activated": "सक्रिय",
+  "tableForPaymentProducts": "भुगतान के लिए तालिका"
 }
