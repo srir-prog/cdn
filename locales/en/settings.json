@@ -84,6 +84,7 @@
     "CashFlowForecastDesc" : "Manage cash flow forecast",
     "CashDesc" : "Connect bank, credit and loan accounts from one or more financial institutions. Access aggregated balances and drill into transactions.",
     "ReceivablesDesc" : "Manage open receivables. Define and set reminder campaigns. Send statements and edit customer details.",
+    "riskAndReputationDesc":"Manage risk profile of your business, customers and suppliers. Fetch risk profiles of prospective customers/vendors."
     "---------------":"------------",
     "PayablesActionsInfo" : "Describe payables entitlements in a few words. This informations will be changed based on the entitlement module.",
     "AdminActionsInfo" : "Manage organizational settings and access control",
