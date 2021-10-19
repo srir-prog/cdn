@@ -135,5 +135,7 @@
     "CashInflows/Outflows('000sUSD)": "नकद अंतर्वाह / बहिर्वाह ('000s USD)",
     "CashInflowAndOutflowAxis": "नकदी प्रवाह और बहिर्वाह अक्ष",
     "CashFlowTable": "कैश फ्लो टेबल",
-    "monitorCash": "मॉनिटर कैश"
+    "monitorCash": "मॉनिटर कैश",
+    "TargetCash": "लक्ष्य नकद",
+    "LowCash": "कम नकद"
 }

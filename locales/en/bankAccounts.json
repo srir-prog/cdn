@@ -115,7 +115,7 @@
     "CashFlowForecast": "Cash flow forecast",
     "CashFlowBars": "Cash flow bars",
     "CashFlowWaterfall": "Cash flow waterfall",
-    "cashInTotal": "Cash In",
+    "cashInTotal": "Cash in",
     "cashOutTotal": "Cash out",
     "closingCashBalance": "Closing balance",
     "netCashFlow": "Cash flow",
@@ -146,5 +146,7 @@
     "Time(weekEnding)": "Time (week ending)",
     "CashInflows/Outflows('000sUSD)": "Cash inflows / outflows",
     "CashInflowAndOutflowAxis": "Cash inflow and outflow axis",
-    "monitorCash": "Monitor cash"
+    "monitorCash": "Monitor cash",
+    "TargetCash": "Target cash",
+    "LowCash": "Low cash"
 }
