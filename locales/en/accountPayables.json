@@ -26,7 +26,7 @@
     "ChooseAction": "Choose action to apply",
     "Filters": "Filters",
     "ReadyToPay":"Ready to Pay",
-    "AwaitingForApproval": "Awaiting for approval",
+    "AwaitingForApproval": "Awaiting approval",
     "Rejected": "Rejected",
     "Scheduled": "Scheduled",
     "Failed": "Failed",
@@ -69,6 +69,7 @@
     "Paid": "Paid",
     "FundingAccount": "Funding Account",
     "CreditCard": "Credit card",
+    "CentimeCard": "Centime card",
     "Card": "Card",
     "ACH": "ACH",
     "Check": "Check",
@@ -78,5 +79,10 @@
     "PaymentModalBottomMessage":"<ourLink></ourLink> for a breakdown of the fee structure",
     "NoPaymentTooltip": "Payment details are not added for the supplier",
     "SentToApprovalSuccess": "{{billsCount}} invoices successfully scheduled for payment",
-    "SentToApprovalFailure": "There was an issue encountered in scheduling payments for {{billsCount}} invoices. Please try again"
+    "SentToApprovalFailure": "There was an issue encountered in scheduling payments for {{billsCount}} invoices. Please try again",
+    "ConfirmApproval": "Confirm approval",
+    "PaymentDateHasPassed": "Payment date has passed",
+    "RejectPayments": "Reject payments",
+    "Reason": "Reason",
+    "ChooseAReason": "Choose a reason"
 }
