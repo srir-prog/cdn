@@ -19,5 +19,13 @@
   "zipcode": "ज़िप कोड",
   "country": "देश",
   "cancelActivation": "सक्रियण रद्द करें",
-  "activate": "सक्रिय"
+  "activate": "सक्रिय",
+  "centimeSolutions": "सांटीम समाधान",
+  "useDifferentAddress": "कंपनी से भिन्न पते का उपयोग करें",
+  "returnAddress": "भेजने वाले का पता",
+  "getPaymentProductError": "भुगतान उत्पाद लाने में त्रुटि",
+  "activatedCheckPayment": "जाँच सफलतापूर्वक सक्रिय हो गई",
+  "activateCheckPaymentError": "चेक सक्रिय करते समय त्रुटि",
+  "activated": "सक्रिय",
+  "tableForPaymentProducts": "भुगतान के लिए तालिका"
 }

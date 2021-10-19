@@ -1,5 +1,6 @@
 {
   "creditPaymentSolutions": "Credit and Payment Solutions",
+  "centimeSolutions": "Centime Solutions",
   "allSolutions": "All Solutions",
   "description": "Description",
   "status": "Status",
@@ -19,5 +20,12 @@
   "zipcode": "Zip Code",
   "country": "Country",
   "cancelActivation": "Cancel Activation",
-  "activate": "Activate"
+  "activate": "Activate",
+  "useDifferentAddress": "Use address different from company",
+  "returnAddress": "Return Address",
+  "getPaymentProductError": "Error while fetching payment products",
+  "activatedCheckPayment": "Check activated successfully",
+  "activateCheckPaymentError": "Error while activating Check",
+  "activated": "Activated",
+  "tableForPaymentProducts": "Table For Payments"
 }
