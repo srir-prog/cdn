@@ -23,5 +23,11 @@
   "complianceRisk": "अनुपालन जोखिम",
   "creditRisk": "ऋण जोखिम",
   "experianCreditScore": "एक्सपीरियन क्रेडिट स्कोर",
-  "reputationRisk": "प्रतिष्ठा जोखिम"
+  "reputationRisk": "प्रतिष्ठा जोखिम",
+  "unknownRiskInfo": "अज्ञात जोखिम टूलटिप जानकारी",
+  "highRiskInfo": "उच्च जोखिम टूलटिप जानकारी",
+  "mediumRiskInfo": "मध्यम जोखिम टूलटिप जानकारी",
+  "lowRiskInfo": "कम जोखिम वाले टूलटिप की जानकारी",
+  "fetchRiskProfile": "जोखिम प्रोफ़ाइल प्राप्त करें",
+  "updateRiskProfile": "जोखिम प्रोफ़ाइल अपडेट करें"
 }
