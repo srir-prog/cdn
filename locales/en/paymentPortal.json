@@ -8,6 +8,41 @@
   "secure": "Securely manage your payment preferences",
   "receive": "Receive payment notifications",
   "download": "Download extended remittance information",
-  "Payment Portal Sign Up": "Payment Portal Sign Up",
-  "Payment Portal Dashboard": "Payment Portal Dashboard"
+  "paymentPortalSignUp": "Payment Portal Sign Up",
+  "paymentPortalDashboard": "Payment Portal Dashboard",
+
+  "headerLabelCustomer": "Customer",
+  "headerLabelInvoice": "Invoice",
+  "headerLabelOutstanding": "Outstanding",
+  "headerLabelDueDate": "Due date",
+  "headerLabelScheduledDate": "Scheduled date",
+  "headerLabelStatus": "Status",
+  "headerLabelPaymentMethod": "Payment method",
+  "headerLabelPaymentDate": "Payment date",
+  "headerLabelAmount": "Amount",
+
+  "invoiceAccordionHeaderDate": "INVOICE DATE",
+  "invoiceAccordionHeaderAmount": "INVOICE AMOUNT",
+  "invoiceAccordionHeaderCredits": "CREDITS USED",
+  "invoiceAccordionHeaderDiscounts": "DISCOUNTS USED",
+  "invoiceAccordionHeaderPayments": "PAYMENTS TERMS",
+  "invoiceAccordionHeaderDescription": "DESCRIPTION",
+
+  "chooseAFilter": "Choose a filter",
+  "filter": "Filters",
+  "chooseAction": "Choose action to apply",
+
+  "cardNumber": "CARD NUMBER",
+  "cvv": "CVV",
+  "expirationDate": "EXPIRATION DATE",
+  "paymentAmount": "PAYMENT AMOUNT",
+  "securityReasons": "For security reasons, the card will only remain active for ",
+  "cardIsNotActive": "Card is not active. Click on the button to activate it",
+  "noteOnce": "Note: Once activated, the card will be valid for 24 hours only",
+  "nameOnCheck": "NAME ON CHECK",
+  "mailingAddress": "MAILING ADDRESS",
+
+  "routingNumber": "ROUTING NUMBER",
+  "bank": "BANK",
+  "accountNumber": "ACCOUNT NUMBER"
 }
