@@ -122,7 +122,6 @@
     "isGreaterThan": "is greater than",
     "SearchNotifications": "Search notifications",
     "AccountLockedWithMultipleAttempts": "Your account has been locked due to too many failed login attempts. If you would like to be contacted for assistance, click the button below.",
-    "NoDataToShow": "No data to show",
     "BackToHome": "Back to Home",
     "AccountLocked": "This account has been locked",
     "PageNotFound": "Page not found",
@@ -140,5 +139,6 @@
     "Open":"Open",
     "Edit":"Edit",
     "nWeeks": "{{value}} weeks",
-    "ChartIcon": "Chart icon"
+    "ChartIcon": "Chart icon",
+    "Payment": "Payment"
 }
