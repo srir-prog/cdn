@@ -13,8 +13,6 @@
   "zoomIn": "Zoom in",
   "zoomOut": "Zoom out",
   "myBusiness" : "My Business",
-  "customers" : "Customers",
-  "suppliers" : "Suppliers",
   "centimeRiskAssessment": "Centime risk assessment",
   "lastRiskUpdated": "Last updated - {{lastSyncDate}}",
   "riskLevel": "Risk level",
