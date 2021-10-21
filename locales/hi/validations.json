@@ -3,6 +3,7 @@
     "inValidEmail": "अमान्य ईमेल",
     "isRequired": "यह एक ज़रूरी जगह हैं",
     "maxLenExceeded": "अधिकतम वर्ण सीमा {{charLimit}} पर पहुंच गई",
+    "minLenExceeded": "कम से कम {{charLimit}} आवश्यक हैं",
     "oneLowerCase": "एक निचला मामला चरित्र (a-z)",
     "max255Len": "अधिकतम 255 वर्ण अनुमत",
     "max99Len": "अधिकतम 99 वर्णों की अनुमति",
