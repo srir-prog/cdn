@@ -3,6 +3,7 @@
     "inValidEmail": "Invalid email",
     "isRequired": "This is a required field",
     "maxLenExceeded": "Maximum character limit {{charLimit}} reached",
+    "minLenExceeded": "At least {{charLimit}} are required",
     "max255Len": "Maximum of 255 characters allowed",
     "max99Len": "Maximum of 99 characters allowed",
     "min3Len": "At least three characters are required",
