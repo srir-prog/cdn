@@ -13,7 +13,7 @@
   "checkName": "Name on the check",
   "checkNumber": "Starting check number",
   "signature": "Signature name",
-  "bankAddress": "Address to be printed below bank name",
+  "bankAddress": "Address to print below the bank name",
   "address1": "Address",
   "city": "City",
   "state": "State",
