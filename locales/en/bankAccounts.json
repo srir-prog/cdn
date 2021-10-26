@@ -145,5 +145,19 @@
     "CashInflowAndOutflowAxis": "Cash inflow and outflow axis",
     "monitorCash": "Monitor cash",
     "TargetCash": "Target cash",
-    "LowCash": "Low cash"
+    "LowCash": "Low cash",
+    "CategoryDetails": "Category Details",
+    "CashOutflow": "Cash Outflow",
+    "CashInflow": "Cash Inflow",
+    "CategoryName": "Category name",
+    "categoryForecast": "Category forecast",
+    "glAccountMapping": "GL account mapping",
+    "transactionName": "Transaction name",
+    "transactionType": "Transaction type",
+    "addTransaction": "Add transaction",
+    "accountName": "Account name",
+    "addMapping": "Add mapping",
+    "removeMapping": "Remove mapping",
+    "unmappedAccounts": "Unmapped accounts",
+    "mappedAccounts": "Mapped accounts"
 }
