@@ -84,5 +84,6 @@
     "PaymentDateHasPassed": "Payment date has passed",
     "RejectPayments": "Reject payments",
     "Reason": "Reason",
-    "ChooseAReason": "Choose a reason"
+    "ChooseAReason": "Choose a reason",
+    "PayablesInfo" : "Schedule, authorize and execute supplier payments"
 }

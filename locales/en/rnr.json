@@ -25,5 +25,6 @@
   "complianceRisk": "Compliance risk",
   "creditRisk": "Credit risk",
   "experianCreditScore": "Experian credit score",
-  "reputationRisk": "Reputation risk"
+  "reputationRisk": "Reputation risk",
+  "rnRInfo": "Manage risk profile of your business, customers and suppliers. Fetch risk profiles of prospective customers/vendors"
 }
