@@ -126,5 +126,8 @@
     "notes": "Notes",
     "riskReputation": "Risk and Reputation",
     "profile": "Profile",
-    "supplierPanelTitle": "Supplier - {{buyerName}}"
+    "supplierPanelTitle": "Supplier - {{buyerName}}",
+    "myProfile": "My profile",
+    "taxType": "Tax type",
+    "taxNumber": "Tax number"
 }
