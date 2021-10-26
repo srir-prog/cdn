@@ -28,5 +28,6 @@
     "WebSiteInvalid": "Invalid website",
     "AccountNameDuplicate": "Account name already exists",
     "InstitutionNameDuplicate": "Financial Institution name already exists",
-    "maxAmount": "Value must be less than or equal to {{amountLimit}}"
+    "maxAmount": "Value must be less than or equal to {{amountLimit}}",
+    "CategoryNameDuplicate": "Category name already exists"
 }

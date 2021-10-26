@@ -145,5 +145,9 @@
     "CashInflowAndOutflowAxis": "Cash inflow and outflow axis",
     "monitorCash": "Monitor cash",
     "TargetCash": "Target cash",
-    "LowCash": "Low cash"
+    "LowCash": "Low cash",
+    "CategoryDetails": "Category Details",
+    "CashOutflow": "Cash Outflow",
+    "CashInflow": "Cash Inflow",
+    "CategoryName": "Category name"
 }
