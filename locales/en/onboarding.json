@@ -2,7 +2,7 @@
     "WelcomeUser": "Welcome{{fullName}}",
     "Skip": "Skip to main content",
     "AlreadyUser": "Already a user? <LoginLink></LoginLink>",
-    "AlreadyHaveAnAccount": "Already have an account?     <LoginLink label={{label}} href={{href}} tns={{tns}}></LoginLink>",
+    "AlreadyHaveAnAccount": "Already have an account? <LoginLink></LoginLink>",
     "Login": "Log In",
     "First Name": "First Name",
     "Last Name": "Last Name",

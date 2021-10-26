@@ -1,12 +1,12 @@
 {
   "paymentPortal": "Payment Portal",
   "register": "Register to manage payment preferences and",
-  "login": "Login to manage payment preferences and",
   "monitor unpaid invoices": "monitor unpaid invoices",
   "manage": "Manage customer invoices and payment",
   "information": "information with <bold>Centime Payment Portal</bold>",
   "monitor": "Monitor status of unpaid invoices",
   "secure": "Securely manage your payment preferences",
   "receive": "Receive payment notifications",
-  "download": "Download extended remittance information"
+  "download": "Download extended remittance information",
+  "Payment Portal Sign Up": "Payment Portal Sign Up"
 }
