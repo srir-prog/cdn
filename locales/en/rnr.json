@@ -29,6 +29,8 @@
   "mediumRiskInfo": "Medium risk tooltip information",
   "lowRiskInfo": "Low risk tooltip information",
   "fetchRiskProfile": "Fetch risk profile",
-  "updateRiskProfile": "Update risk profile",
   "rnRInfo": "Manage risk profile of your business, customers and suppliers. Fetch risk profiles of prospective customers/vendors"
+  "updateRiskProfile": "Update risk profile",
+  "updateCompanyDetailsNotification": "Company details submitted saved successfully",
+  "fetchRiskProfileNotification": "Fetch risk profile is initiated successfully"
 }
