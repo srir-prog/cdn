@@ -212,6 +212,10 @@
     "paymentMethod":"Payment method",
     "nonActiveAchPayment":"ACH payments have not been activated. For help setting them up, please use the chat bubble",
     "nonActiveCheckPayment":"Check payments have not been activated. For help setting them up, please use the chat bubble",
-    "glAccount":"GL account"
+    "glAccount":"GL account",
+    "defaultPaymentsFetchError":"Cannot fetch payables payment settings",
+    "updatePaymentSettingsError":"Cannot update payables payment settings",
+    "updateGsPayabalesError":"Cannot update payables general settings",
+    "viewGsPayabalesError":"Cannot fetch payables general settings"
 
 }
