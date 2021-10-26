@@ -214,5 +214,12 @@
     "fxPayments":"एफएक्स भुगतान",
     "postToGLaccount":"जीएल खाते में पोस्ट करें",
     "otherPayments":"अन्य भुगतान",
-    "paymentMethod":"भुगतान विधि"
+    "paymentMethod":"भुगतान विधि",
+    "nonActiveAchPayment":"ACH भुगतान सक्रिय नहीं किया गया है। उन्हें स्थापित करने में सहायता के लिए, कृपया चैट बबल का उपयोग करें",
+    "nonActiveCheckPayment":"चेक भुगतान सक्रिय नहीं किया गया है। उन्हें स्थापित करने में सहायता के लिए, कृपया चैट बबल का उपयोग करें",
+    "glAccount":"जीएल खाता",
+    "defaultPaymentsFetchError":"भुगतानयोग्य भुगतान सेटिंग प्राप्त नहीं कर सकते",
+    "updatePaymentSettingsError":"भुगतान योग्य भुगतान सेटिंग अपडेट नहीं कर सकते",
+    "updateGsPayabalesError":"भुगतान योग्य सामान्य सेटिंग्स को अपडेट नहीं कर सकता",
+    "viewGsPayabalesError":"भुगतान योग्य सामान्य सेटिंग नहीं ला सकता"
 }
