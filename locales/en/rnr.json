@@ -13,8 +13,6 @@
   "zoomIn": "Zoom in",
   "zoomOut": "Zoom out",
   "myBusiness" : "My Business",
-  "customers" : "Customers",
-  "suppliers" : "Suppliers",
   "centimeRiskAssessment": "Centime risk assessment",
   "lastRiskUpdated": "Last updated - {{lastSyncDate}}",
   "riskLevel": "Risk level",
@@ -26,5 +24,11 @@
   "creditRisk": "Credit risk",
   "experianCreditScore": "Experian credit score",
   "reputationRisk": "Reputation risk",
+  "unknownRiskInfo": "Unknown risk tooltip information",
+  "highRiskInfo": "High risk tooltip information",
+  "mediumRiskInfo": "Medium risk tooltip information",
+  "lowRiskInfo": "Low risk tooltip information",
+  "fetchRiskProfile": "Fetch risk profile",
+  "updateRiskProfile": "Update risk profile",
   "rnRInfo": "Manage risk profile of your business, customers and suppliers. Fetch risk profiles of prospective customers/vendors"
 }

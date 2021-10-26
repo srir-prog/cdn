@@ -13,8 +13,6 @@
   "zoomIn": "ज़ूम इन",
   "zoomOut": "ज़ूम आउट",
   "myBusiness" : "मेरे व्यापार",
-  "customers" : "ग्राहकों",
-  "suppliers" : "आपूर्तिकर्ताओं",
   "centimeRiskAssessment": "सांटीम जोखिम मूल्यांकन",
   "lastRiskUpdated": "आखरी अपडेट - {{lastSyncDate}}",
   "riskLevel": "जोखिम का स्तर",
@@ -26,5 +24,11 @@
   "creditRisk": "ऋण जोखिम",
   "experianCreditScore": "एक्सपीरियन क्रेडिट स्कोर",
   "reputationRisk": "प्रतिष्ठा जोखिम",
+  "unknownRiskInfo": "अज्ञात जोखिम टूलटिप जानकारी",
+  "highRiskInfo": "उच्च जोखिम टूलटिप जानकारी",
+  "mediumRiskInfo": "मध्यम जोखिम टूलटिप जानकारी",
+  "lowRiskInfo": "कम जोखिम वाले टूलटिप की जानकारी",
+  "fetchRiskProfile": "जोखिम प्रोफ़ाइल प्राप्त करें",
+  "updateRiskProfile": "जोखिम प्रोफ़ाइल अपडेट करें",
   "rnRInfo": "अपने व्यवसाय, ग्राहकों और आपूर्तिकर्ताओं की जोखिम प्रोफ़ाइल प्रबंधित करें। संभावित ग्राहकों/विक्रेताओं के जोखिम प्रोफाइल प्राप्त करें"
 }
