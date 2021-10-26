@@ -149,5 +149,15 @@
     "CategoryDetails": "Category Details",
     "CashOutflow": "Cash Outflow",
     "CashInflow": "Cash Inflow",
-    "CategoryName": "Category name"
+    "CategoryName": "Category name",
+    "categoryForecast": "Category forecast",
+    "glAccountMapping": "GL account mapping",
+    "transactionName": "Transaction name",
+    "transactionType": "Transaction type",
+    "addTransaction": "Add transaction",
+    "accountName": "Account name",
+    "addMapping": "Add mapping",
+    "removeMapping": "Remove mapping",
+    "unmappedAccounts": "Unmapped accounts",
+    "mappedAccounts": "Mapped accounts"
 }
