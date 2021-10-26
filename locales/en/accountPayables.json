@@ -91,5 +91,6 @@
     "RejectPayments": "Reject payments",
     "Reason": "Reason",
     "ChooseAReason": "Choose a reason",
-    "RecallPayments": "Recall payments"
+    "RecallPayments": "Recall payments",
+    "PayablesInfo" : "Schedule, authorize and execute supplier payments"
 }
