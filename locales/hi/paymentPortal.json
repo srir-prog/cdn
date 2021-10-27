@@ -47,5 +47,7 @@
   "noAction": "कोई कार्रवाई नहीं",
   "downloadRemittance": "प्रेषण डाउनलोड करें",
   "tinPageTitle": "कर सत्यापन",
-  "companyInformation": "कृपया कंपनी की जानकारी दर्ज करें"
+  "companyInformation": "कृपया कंपनी की जानकारी दर्ज करें",
+  "cppInvoicesTable": "चालान विवरण"
+
 }

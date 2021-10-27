@@ -47,5 +47,6 @@
   "noAction": "NO ACTION",
   "downloadRemittance": "DOWNLOAD REMITTANCE",
   "tinPageTitle": "Tax Verification",
-  "companyInformation": "Please enter company information"
+  "companyInformation": "Please enter company information",
+  "cppInvoicesTable": "Invoices Details"
 }
