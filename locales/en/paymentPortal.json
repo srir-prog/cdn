@@ -48,5 +48,6 @@
   "downloadRemittance": "DOWNLOAD REMITTANCE",
   "tinPageTitle": "Tax Verification",
   "companyInformation": "Please enter company information",
-  "cppInvoicesTable": "Invoices Details"
+  "cppInvoicesTable": "Invoices Details",
+  "pleaseEnterValidTax": "Please enter valid tax id"
 }
