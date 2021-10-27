@@ -45,5 +45,7 @@
   "trackCheck": "Track Check",
   "achSubmitted": "ACH Submitted",
   "noAction": "NO ACTION",
-  "downloadRemittance": "DOWNLOAD REMITTANCE"
+  "downloadRemittance": "DOWNLOAD REMITTANCE",
+  "tinPageTitle": "Tax Verification",
+  "companyInformation": "Please enter company information"
 }
