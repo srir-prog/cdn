@@ -49,6 +49,11 @@
   "tinPageTitle": "कर सत्यापन",
   "companyInformation": "कृपया कंपनी की जानकारी दर्ज करें",
   "cppInvoicesTable": "चालान विवरण",
-  "pleaseEnterValidTax":"कृपया मान्य टैक्स आईडी दर्ज करें"
+  "pleaseEnterValidTax":"कृपया मान्य टैक्स आईडी दर्ज करें",
+  "-": "-",
+  "Card": "कार्ड",
+  "Check": "चेक",
+  "Unpaid":"भुगतान किया गया",
+  "Paid": "अवैतनिक"
 
 }

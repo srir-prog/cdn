@@ -49,5 +49,10 @@
   "tinPageTitle": "Tax Verification",
   "companyInformation": "Please enter company information",
   "cppInvoicesTable": "Invoices Details",
-  "pleaseEnterValidTax": "Please enter valid tax id"
+  "pleaseEnterValidTax": "Please enter valid tax id",
+  "-": "-",
+  "Card": "Card",
+  "Check": "Check",
+  "Unpaid":"Unpaid",
+  "Paid": "Paid"
 }
