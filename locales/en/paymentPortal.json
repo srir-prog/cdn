@@ -10,7 +10,6 @@
   "download": "Download extended remittance information",
   "paymentPortalSignUp": "Payment Portal Sign Up",
   "paymentPortalDashboard": "Payment Portal Dashboard",
-
   "headerLabelCustomer": "Customer",
   "headerLabelInvoice": "Invoice",
   "headerLabelOutstanding": "Outstanding",
@@ -20,18 +19,15 @@
   "headerLabelPaymentMethod": "Payment method",
   "headerLabelPaymentDate": "Payment date",
   "headerLabelAmount": "Amount",
-
   "invoiceAccordionHeaderDate": "INVOICE DATE",
   "invoiceAccordionHeaderAmount": "INVOICE AMOUNT",
   "invoiceAccordionHeaderCredits": "CREDITS USED",
   "invoiceAccordionHeaderDiscounts": "DISCOUNTS USED",
   "invoiceAccordionHeaderPayments": "PAYMENTS TERMS",
   "invoiceAccordionHeaderDescription": "DESCRIPTION",
-
   "chooseAFilter": "Choose a filter",
   "filter": "Filters",
   "chooseAction": "Choose action to apply",
-
   "cardNumber": "CARD NUMBER",
   "cvv": "CVV",
   "expirationDate": "EXPIRATION DATE",
@@ -41,8 +37,13 @@
   "noteOnce": "Note: Once activated, the card will be valid for 24 hours only",
   "nameOnCheck": "NAME ON CHECK",
   "mailingAddress": "MAILING ADDRESS",
-
   "routingNumber": "ROUTING NUMBER",
   "bank": "BANK",
-  "accountNumber": "ACCOUNT NUMBER"
+  "accountNumber": "ACCOUNT NUMBER",
+  "status": "STATUS",
+  "checkAtLocalPostOffice": "Check at local post office",
+  "trackCheck": "Track Check",
+  "achSubmitted": "ACH Submitted",
+  "noAction": "NO ACTION",
+  "downloadRemittance": "DOWNLOAD REMITTANCE"
 }
