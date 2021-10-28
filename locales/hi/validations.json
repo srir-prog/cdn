@@ -29,5 +29,6 @@
     "WebSiteInvalid": "वेबसाइट अमान्य है",
     "AccountNameDuplicate": "खाते का नाम पहले से मौजूद है",
     "InstitutionNameDuplicate": "वित्तीय संस्थान का नाम पहले से मौजूद है",
-    "maxAmount": "मान {{amountLimit}} से कम या उसके बराबर होना चाहिए"
+    "maxAmount": "मान {{amountLimit}} से कम या उसके बराबर होना चाहिए",
+    "min9Len": "कम से कम 9 वर्णों की आवश्यकता है"
 }

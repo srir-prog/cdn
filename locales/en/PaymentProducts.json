@@ -28,5 +28,6 @@
   "activateCheckPaymentError": "Error while activating check",
   "activated": "Activated",
   "tableForPaymentProducts": "Table for payments",
-  "noAccounts": "Please add the accounts in FI"
+  "noAccounts": "Please add the accounts in FI",
+  "CHECK": "Checks"
 }
