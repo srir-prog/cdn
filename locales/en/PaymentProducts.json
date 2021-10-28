@@ -29,5 +29,5 @@
   "activated": "Activated",
   "tableForPaymentProducts": "Table for payments",
   "noAccounts": "Please add the accounts in FI",
-  "Check": "Checks"
+  "CHECK": "Checks"
 }
