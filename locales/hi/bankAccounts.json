@@ -134,5 +134,16 @@
     "CashFlowTable": "कैश फ्लो टेबल",
     "monitorCash": "मॉनिटर कैश",
     "TargetCash": "लक्ष्य नकद",
-    "LowCash": "कम नकद"
+    "LowCash": "कम नकद",
+    "CategoryName": "श्रेणी नाम",
+    "categoryForecast": "श्रेणी पूर्वानुमान",
+    "glAccountMapping": "जीएल अकाउंट मैपिंग",
+    "transactionName": "लेन-देन का नाम",
+    "transactionType": "सौदे का प्रकार",
+    "addTransaction": "लेन-देन जोड़ें",
+    "accountName": "खाता नाम",
+    "addMapping": "मैपिंग जोड़ें",
+    "removeMapping": "मैपिंग हटाएं",
+    "unmappedAccounts": "मैप न किए गए खाते",
+    "mappedAccounts": "मैप किए गए खाते"
 }
