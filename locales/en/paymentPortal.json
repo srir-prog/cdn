@@ -54,5 +54,8 @@
   "Card": "Card",
   "Check": "Check",
   "Unpaid":"Unpaid",
-  "Paid": "Paid"
+  "Paid": "Paid",
+  "scheduled": "Scheduled",
+  "received": "Received",
+  "readyToProcess": "Ready to process"
 }
