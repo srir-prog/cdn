@@ -28,5 +28,7 @@
   "activateCheckPaymentError": "चेक सक्रिय करते समय त्रुटि",
   "activated": "सक्रिय",
   "tableForPaymentProducts": "भुगतान के लिए तालिका",
-  "noAccounts": "कृपया FI में खाते जोड़ें"
+  "noAccounts": "कृपया FI में खाते जोड़ें",
+  "CHECK": "चेकों",
+  "uniqueAccountNumber": "खाता संख्या अद्वितीय होनी चाहिए"
 }
