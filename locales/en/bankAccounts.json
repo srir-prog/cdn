@@ -159,5 +159,20 @@
     "addMapping": "Add mapping",
     "removeMapping": "Remove mapping",
     "unmappedAccounts": "Unmapped accounts",
-    "mappedAccounts": "Mapped accounts"
+    "mappedAccounts": "Mapped accounts",
+    "mappedAccountsCount": "{{count}} Account Mapped",
+    "mappedAccountsCount_plural": "{{count}} Accounts Mapped",
+    "noAccountsMapped": "No Accounts Mapped",
+    "accountsMapped": "Map Accounts",
+    "removeCategoryConfirmContent": "Are you sure you want to remove this category?",
+    "newTransaction": "New transaction",
+    "supplierName": "Supplier name",
+    "transactionDate": "Transaction date",
+    "startAndEndDate": "Start and end date",
+    "frequency": "Frequency",
+    "notes": "Notes",
+    "increaseDecrease": "Increase/decrease",
+    "amountPercent": "Amount/percent",
+    "percentageQuantity": "Percentage quantity",
+    "addATrend": "Add a trend"
 }
