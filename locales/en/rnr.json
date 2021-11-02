@@ -33,5 +33,9 @@
   "updateRiskProfile": "Update risk profile",
   "updateCompanyDetailsNotification": "Company details submitted saved successfully",
   "fetchRiskProfileNotification": "Fetch risk profile is initiated successfully",
-  "riskSyncStatusInProgress": "Risk assessment is in progress, we will notify you once it's ready"
+  "riskSyncStatusInProgress": "Risk assessment is in progress, we will notify you once it's ready",
+  "updateRiskProfileNotification": "Update risk profile is initiated successfully",
+  "updateCompanyDetailsErrorNotification": "Problem with saving company details provided",
+  "fetchRiskProfileErrorNotification": "Problem with initiating fetch risk profile",
+  "updateRiskProfileErrorNotification": "Problem with initiating update risk profile"
 }
