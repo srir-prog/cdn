@@ -129,5 +129,6 @@
     "supplierPanelTitle": "Supplier profile - {{buyerName}}",
     "myProfile": "My profile",
     "taxType": "Tax type",
-    "taxNumber": "Tax number"
+    "taxNumber": "Tax number",
+    "riskEvalCompleted" : "Risk profile evaluation completed for {{company_type}} having name {{company_name}}"
 }
