@@ -130,5 +130,7 @@
     "myProfile": "My profile",
     "taxType": "Tax type",
     "taxNumber": "Tax number",
-    "riskEvalCompleted" : "Risk profile evaluation completed for {{company_type}} having name {{company_name}}"
+    "riskEvalCompleted" : "Risk profile evaluation completed for {{company_type}} having name {{company_name}}",
+    "backToCustomerProfile": "Back to customer profile",
+    "backToSupplierProfile": "Back to supplier profile"
 }
