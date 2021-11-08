@@ -260,6 +260,7 @@
     "EmailTrackFetchFailed": "ईमेल संदेश पुनर्प्राप्त नहीं किया जा सका। कृपया सेंटिम सपोर्ट से संपर्क करें",
     "EmailTotalOutstanding": "कुल बकाया:",
     "EmailFrom": "से:",
+    "EmailTo": "प्रति:",
     "EmailSubject": "विषय:",
     "EmailTotalOverDue": "कुल अतिदेय:",
     "EmailInvoiceNumber": "बीजक संख्या",
