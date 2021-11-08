@@ -37,5 +37,16 @@
   "updateRiskProfileNotification": "Update risk profile is initiated successfully",
   "updateCompanyDetailsErrorNotification": "Problem with saving company details provided",
   "fetchRiskProfileErrorNotification": "Problem with initiating fetch risk profile",
-  "updateRiskProfileErrorNotification": "Problem with initiating update risk profile"
+  "updateRiskProfileErrorNotification": "Problem with initiating update risk profile",
+  "websiteUrl": "Website URL",
+  "businessFacts": "Business facts",
+  "legalName": "Legal name",
+  "stateOfIncorporation": "State of incorporation",
+  "address": "Address",
+  "taxId": "Tax ID",
+  "sicCode": "SIC code",
+  "naicsCode": "NAICS code",
+  "sales": "Sales",
+  "url": "URL",
+  "sanctionMatchList": "Sanction Match List"
 }
