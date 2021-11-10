@@ -13,7 +13,7 @@
     "SendRemittance": "प्रेषण भेजें",
     "BucketLabel1": "कारण 30+ दिन",
     "BucketLabel2": "कारण 30 दिनों में",
-    "BucketLabel3": "0-30 दिन अतिदेय",
+    "BucketLabel3": "1-30 दिन अतिदेय",
     "BucketLabel4": "31-60 दिन अतिदेय",
     "BucketLabel5": "61-90 दिन अतिदेय",
     "BucketLabel6": "91-120 दिन अतिदेय",
@@ -72,5 +72,10 @@
     "ACH": "एसीएच",
     "Check": "जाँच",
     "OfflinePayment": "ऑफ़लाइन भुगतान",
-    "PostToGLAccount": "GL खाते में पोस्ट करें"
+    "PostToGLAccount": "GL खाते में पोस्ट करें",
+    "ConfirmPayment": "Confirm Payment",
+    "clickHere": "यहां क्लिक करें",
+    "PaymentModalBottomMessage":"<ourLink></ourLink> शुल्क संरचना के टूटने के लिए",
+    "NoPaymentTooltip": "आपूर्तिकर्ता के लिए भुगतान विवरण नहीं जोड़े गए हैं",
+    "PayablesInfo" : "आपूर्तिकर्ता भुगतानों को शेड्यूल, अधिकृत और निष्पादित करें"
 }

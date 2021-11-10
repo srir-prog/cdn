@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="c" x1="50%" x2="50%" y2="100%">
+            <stop stop-color="#80E0C6" offset="0"/>
+            <stop stop-color="#77D7BD" offset="1"/>
+        </linearGradient>
+        <linearGradient id="b" x1="50%" x2="50%" y2="100%">
+            <stop stop-color="#FF9C90" offset="0"/>
+            <stop stop-color="#FF8B7D" offset="1"/>
+        </linearGradient>
+        <linearGradient id="a" x1="50%" x2="50%" y2="100%">
+            <stop stop-color="#FFD07A" offset="0"/>
+            <stop stop-color="#F7C66C" offset="1"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(-292 -571)">
+            <g transform="translate(276 551)">
+                <g transform="translate(16 20)">
+                    <rect width="32" height="32" fill="#fff" fill-opacity="0"/>
+                    <path d="m6.1527 16.001c0 0.030062 0 0.05812 0.0020041 0.088182h-6.1527c-0.0020041-0.030062-0.0020041-0.05812-0.0020041-0.088182 0-5.6777 2.9721-10.674 7.4434-13.514l2.7717 5.5434c-2.4631 1.7897-4.0624 4.6937-4.0624 7.9704" fill="url(#c)"/>
+                    <path d="m32 16.001c0 0.030062 0 0.05812-0.0020041 0.088182h-6.1527c0.0020042-0.030062 0.0020042-0.05812 0.0020042-0.088182 0-3.2768-1.6013-6.1807-4.0624-7.9704l2.7717-5.5434c4.4712 2.8399 7.4434 7.8362 7.4434 13.514" fill="url(#b)"/>
+                    <path d="m23.16 1.6955-2.7497 5.4993c-1.3267-0.66738-2.8258-1.0421-4.4111-1.0421-1.5853 0-3.0844 0.37477-4.4111 1.0421l-2.7497-5.4993c2.1544-1.0842 4.5875-1.6955 7.1608-1.6955 2.5733 0 5.0043 0.61126 7.1608 1.6955" fill="url(#a)"/>
+                    <path transform="translate(14 14) rotate(-45) translate(-14 -14)" d="m14 19c-1.1045 0-1.9999-0.88047-1.9999-1.9664s1.8911-8.0336 1.9999-8.0336c0.12159 0 2.0001 6.9477 2.0001 8.0336s-0.89533 1.9664-2.0001 1.9664z" fill="#083F6E"/>
+                    <circle cx="16" cy="16" r="1" fill="#083F6E"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
