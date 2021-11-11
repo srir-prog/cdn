@@ -31,5 +31,6 @@
     "InstitutionNameDuplicate": "Financial Institution name already exists",
     "maxAmount": "Value must be less than or equal to {{amountLimit}}",
     "CategoryNameDuplicate": "Category name already exists",
-    "min9Len": "Value should be a number with 9 digits"
+    "min9Len": "Value should be a number with 9 digits",
+    "max9Len": "Maximum character limit 9 reached"
 }
