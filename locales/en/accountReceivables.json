@@ -265,6 +265,8 @@
     "EmailTrackFetchFailed": "Email message could not be retrieved. Get support from our team using the chat bubble.",
     "EmailTotalOutstanding": "Total outstanding:",
     "EmailFrom": "From:",
+    "EmailTo": "To:",
+    "EmailInviteLink": "Invite link:",
     "EmailSubject": "Subject:",
     "EmailTotalOverDue": "Total overdue:",
     "EmailInvoiceNumber": "Invoice number",
