@@ -95,7 +95,7 @@
     "RecallPayments": "Recall payments",
     "PayablesInfo" : "Schedule, authorize and execute supplier payments",
     "PaymentMethodNotActivated": "{{PaymentMethod}} payments have not been activated. For help setting them up, please use the chat bubble",
-    "HistoryActionPaymentScheduledBy": "Payment scheduled by",
+    "HistoryActionPaymentScheduledBy": "Payment scheduled",
     "PaymentMethodUpdateSuccess": "Payment method successfully updated",
     "PaymentMethodUpdateFailure": "There was an issue encountered in updating payment method for invoice. Please try again"
 }
