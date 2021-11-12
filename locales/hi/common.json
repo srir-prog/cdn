@@ -126,8 +126,14 @@
     "notes": "टिप्पणियाँ",
     "riskReputation": "जोखिम और प्रतिष्ठा",
     "profile": "प्रोफ़ाइल",
-    "supplierPanelTitle": "प्रदायक - {{buyerName}}",
+    "supplierPanelTitle": "प्रदायक रुपरेखा - {{buyerName}}",
     "myProfile": "मेरी प्रोफाइल",
     "taxType": "कर प्रकार",
-    "taxNumber": "कर नंबर"
+    "taxNumber": "कर नंबर",
+    "riskEvalCompleted" : "{{company_type}} नाम {{company_name}} के लिए जोखिम प्रोफ़ाइल मूल्यांकन पूरा हुआ",
+    "backToCustomerProfile": "ग्राहक प्रोफ़ाइल पर वापस जाएं",
+    "backToSupplierProfile": "आपूर्तिकर्ता प्रोफ़ाइल पर वापस जाएं",
+    "cffGenerationIncomplete" : "पूर्वानुमान उत्पन्न नहीं किया जा सका। आपको अधिक डेटा शामिल करने या श्रेणियों को संयोजित करने की आवश्यकता हो सकती है।",
+    "cffGenerationSuccess": "आपका नकदी प्रवाह पूर्वानुमान अब उपलब्ध है।",
+    "clickHere": "कृपया देखने के लिए यहां क्लिक करें।"
 }

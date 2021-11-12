@@ -32,5 +32,6 @@
     "maxAmount": "Value must be less than or equal to {{amountLimit}}",
     "categoryNameDuplicate": "Category name already exists",
     "categoryNameCantBeBlank": "Category name can't be blank",
-    "min9Len": "Value should be a number with 9 digits"
+    "min9Len": "Value should be a number with 9 digits",
+    "max9Len": "Maximum character limit 9 reached"
 }
