@@ -174,5 +174,21 @@
     "increaseDecrease": "Increase/decrease",
     "amountPercent": "Amount/percent",
     "percentageQuantity": "Percentage quantity",
-    "addATrend": "Add a trend"
+    "addATrend": "Add a trend",
+    "WEEKLY": "Every week",
+    "MONTHLY": "Every month",
+    "QUARTERLY": "Every quarter",
+    "YEARLY": "Every year",
+    "INCREASE": "Increase",
+    "DECREASE": "Decrease",
+    "AMOUNT": "Amount",
+    "PERCENTAGE": "Percentage",
+    "closeEditCategory": "Close edit category",
+    "saveChangesCategory": "Save changes category",
+    "editCategoryName": "Edit category name",
+    "manualTransactionDescription": "One time ${{amount}} on {{date}}",
+    "weeklyRecurringTransactionDescription": "Recurring ${{amount}}, weekly starting {{date}}",
+    "monthlyRecurringTransactionDescription": "Recurring ${{amount}}, monthly starting {{date}}",
+    "quarterlyRecurringTransactionDescription": "Recurring ${{amount}}, quarterly starting {{date}}",
+    "yearlyRecurringTransactionDescription": "Recurring ${{amount}}, yearly starting {{date}}"
 }

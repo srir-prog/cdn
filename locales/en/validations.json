@@ -30,6 +30,7 @@
     "AccountNameDuplicate": "Account name already exists",
     "InstitutionNameDuplicate": "Financial Institution name already exists",
     "maxAmount": "Value must be less than or equal to {{amountLimit}}",
-    "CategoryNameDuplicate": "Category name already exists",
+    "categoryNameDuplicate": "Category name already exists",
+    "categoryNameCantBeBlank": "Category name can't be blank",
     "min9Len": "Value should be a number with 9 digits"
 }
