@@ -151,6 +151,8 @@
     "TooManyOTPRequests": "Too many requests, please try again after 15 min",
     "NameTheEntity": "Name the business entity",
     "SpecifyConfiguration": "Specify configuration",
+    "InviteMailSuccessful": "Invite sent successfully",
+    "InviteMailError": "Error in sending email please try again",
     "SelectGLStep": "Select General Ledger",
     "DontHaveAdminPrivileges": "Don't have General Ledger admin privileges?",
     "ConfirmAccessPanelPara1": "Click 'copy invite' and a user invitation will be copied to your clipboard. Then paste this in an email and send it to a team member with General Ledger admin privileges.",
