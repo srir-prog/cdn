@@ -140,6 +140,8 @@
     "Edit":"संपादित करें",
     "nWeeks": "{{value}} हफ्तों",
     "ChartIcon": "चार्ट आइकन",
-    "Payment": "भुगतान"
+    "Payment": "भुगतान",
+    "QuarterToDate" : "तिमाही से आज तक",
+    "YearToDate" : "साल से दिन"
 }
 
