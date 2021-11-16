@@ -264,5 +264,6 @@
     "ReviewGLConfigurations": "Review General Ledger configuration",
     "ThanksNotice": "Thanks notice",
     "SelectEntityTitle": "Select a business entity",
-    "CanelPhoneVerificationError": "Error cancelling phone verification"
+    "CanelPhoneVerificationError": "Error cancelling phone verification",
+    "InviteAdmin": "Invite admin"
 }
