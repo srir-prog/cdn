@@ -265,6 +265,8 @@
     "EmailTrackFetchFailed": "Email message could not be retrieved. Get support from our team using the chat bubble.",
     "EmailTotalOutstanding": "Total outstanding:",
     "EmailFrom": "From:",
+    "EmailTo": "To:",
+    "EmailInviteLink": "Invite link:",
     "EmailSubject": "Subject:",
     "EmailTotalOverDue": "Total overdue:",
     "EmailInvoiceNumber": "Invoice number",
@@ -308,5 +310,6 @@
     "Cannot add Reminder Campaigns": "Cannot add reminder campaigns",
     "SenderProfile": "Sender profile for customer emails",
     "InternalNotificationsRecipientProfile": "Recipient profile for internal notifications",
-    "ReceivablesPanel":"Receivables"
+    "ReceivablesPanel":"Receivables",
+    "InviteEmailPostScript":"Please click on the button to sign up."
 }
