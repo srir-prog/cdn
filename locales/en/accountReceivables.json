@@ -310,5 +310,6 @@
     "Cannot add Reminder Campaigns": "Cannot add reminder campaigns",
     "SenderProfile": "Sender profile for customer emails",
     "InternalNotificationsRecipientProfile": "Recipient profile for internal notifications",
-    "ReceivablesPanel":"Receivables"
+    "ReceivablesPanel":"Receivables",
+    "InviteEmailPostScript":"Please click on the button to sign up."
 }
