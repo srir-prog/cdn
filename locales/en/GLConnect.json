@@ -265,5 +265,7 @@
     "ThanksNotice": "Thanks notice",
     "SelectEntityTitle": "Select a business entity",
     "CanelPhoneVerificationError": "Error cancelling phone verification",
-    "InviteAdmin": "Invite admin"
+    "InviteAdmin": "Invite admin",
+    "Next": "Next",
+    "Previous": "Previous"
 }
