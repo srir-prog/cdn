@@ -249,5 +249,6 @@
     "ReviewGLConfigurations": "जीएल कॉन्फ़िगरेशन की समीक्षा करें",
     "ThanksNotice": "धन्यवाद सूचना",
     "SelectEntityTitle": "एक व्यावसायिक इकाई चुनें",
-    "CanelPhoneVerificationError": "फ़ोन सत्यापन रद्द करने में त्रुटि"
+    "CanelPhoneVerificationError": "फ़ोन सत्यापन रद्द करने में त्रुटि",
+    "InviteAdmin": "व्यवस्थापक को आमंत्रित करें"
 }

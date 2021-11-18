@@ -311,5 +311,8 @@
     "SenderProfile": "Sender profile for customer emails",
     "InternalNotificationsRecipientProfile": "Recipient profile for internal notifications",
     "ReceivablesPanel":"Receivables",
-    "InviteEmailPostScript":"Please click on the button to sign up."
+    "InviteEmailPostScript":"Please click on the button to sign up.",
+    "InviteAdmin": "Invite admin",
+    "ThanksTextEmailWithComma": "Thanks,",
+    "Received": "Received"
 }
