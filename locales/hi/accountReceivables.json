@@ -304,5 +304,6 @@
     "ReceivablesPanel": "प्राप्तियों",
     "InviteEmailPostScript":"साइन अप करने के लिए कृपया बटन पर क्लिक करें।",
     "InviteAdmin": "व्यवस्थापक को आमंत्रित करें",
-    "ThanksTextEmailWithComma": "धन्यवाद,"
+    "ThanksTextEmailWithComma": "धन्यवाद,",
+    "Received": "प्राप्त"
 }

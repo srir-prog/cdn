@@ -141,5 +141,6 @@
     "nWeeks": "{{value}} weeks",
     "ChartIcon": "Chart icon",
     "Update": "Update",
-    "Payment": "Payment"
+    "Payment": "Payment",
+    "copyInviteLink":"Copy invite link"
 }
