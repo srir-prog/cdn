@@ -141,6 +141,8 @@
     "nWeeks": "{{value}} हफ्तों",
     "ChartIcon": "चार्ट आइकन",
     "Payment": "भुगतान",
-    "copyInviteLink":"कॉपी आमंत्रण लिंक"
+    "copyInviteLink":"कॉपी आमंत्रण लिंक",
+    "QuarterToDate" : "तिमाही से आज तक",
+    "YearToDate" : "साल से दिन"
 }
 

@@ -33,5 +33,20 @@
   "updateRiskProfile": "जोखिम प्रोफ़ाइल अपडेट करें",
   "updateCompanyDetailsNotification": "सबमिट किया गया कंपनी विवरण सफलतापूर्वक सहेजा गया",
   "fetchRiskProfileNotification": "फ़ेच रिस्क प्रोफाइल सफलतापूर्वक शुरू किया गया है",
-  "riskSyncStatusInProgress": "जोखिम मूल्यांकन प्रगति पर है, इसके तैयार होने पर हम आपको सूचित करेंगे"
+  "riskSyncStatusInProgress": "जोखिम मूल्यांकन प्रगति पर है, इसके तैयार होने पर हम आपको सूचित करेंगे",
+  "updateRiskProfileNotification": "अद्यतन जोखिम प्रोफ़ाइल सफलतापूर्वक शुरू की गई है",
+  "updateCompanyDetailsErrorNotification": "प्रदान की गई कंपनी विवरण सहेजने में समस्या",
+  "fetchRiskProfileErrorNotification": "फ़ेच रिस्क प्रोफाइल शुरू करने में समस्या",
+  "updateRiskProfileErrorNotification": "अद्यतन जोखिम प्रोफ़ाइल शुरू करने में समस्या",
+  "websiteUrl": "वेबसाइट यूआरएल",
+  "businessFacts": "व्यावसायिक तथ्य",
+  "legalName": "कानूनी नाम",
+  "stateOfIncorporation": "समावेश की स्थिति",
+  "address": "पता",
+  "taxId": "टैक्स आईडी",
+  "sicCode": "एसआईसी कोड",
+  "naicsCode": "नईसीएस कोड",
+  "sales": "बिक्री",
+  "url": "यूआरएल",
+  "sanctionMatchList": "प्रतिबंध मैच सूची"
 }

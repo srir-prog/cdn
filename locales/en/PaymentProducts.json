@@ -29,5 +29,7 @@
   "activated": "Activated",
   "tableForPaymentProducts": "Table for payments",
   "noAccounts": "Please add the accounts in FI",
-  "CHECK": "Checks"
+  "CHECK": "Checks",
+  "uniqueAccountNumber": "Account number should be unique",
+  "accountNumberMatch": "Last 4 digits of account number should be matched with bank account number"
 }

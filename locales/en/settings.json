@@ -218,6 +218,16 @@
     "updateGsPayabalesError":"Cannot update payables general settings",
     "viewGsPayabalesError":"Cannot fetch payables general settings",
     "autoSubcribeTooltipForPayment":"Send notifications after invoice payments are approved to all current and future suppliers. This setting can be modified for individual suppliers through their profile.",
-    "autoSubcribeTooltipForRemittance":"Send remittance details after invoice payments are initiated to all current and future suppliers. This setting can be modified for individual suppliers through their profile."
-
+    "autoSubcribeTooltipForRemittance":"Send remittance details after invoice payments are initiated to all current and future suppliers. This setting can be modified for individual suppliers through their profile.",
+    "addPaymentMethods":"Add payment method",
+    "nonActiveOtherPayments":"Other payments have not been activated. For help setting them up, please use the chat bubble",
+    "nonActiveFXPayment":"FX payments have not been activated. For help setting them up, please use the chat bubble",
+    "approvalPolicy": "Approval policy",
+    "paymentApprovalProcess": "Payment approval policy",
+    "firstApproval": "First approval",
+    "secondApproval": "Second approval",
+    "thirdApproval": "Third approval",
+    "reqPaymentsAmount": "Required for payments at or above",
+    "approvers": "Approvers",
+    "approverError": "Please add approvers before you can make payments"
 }

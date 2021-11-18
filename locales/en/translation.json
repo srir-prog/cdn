@@ -142,5 +142,7 @@
     "ChartIcon": "Chart icon",
     "Update": "Update",
     "Payment": "Payment",
-    "copyInviteLink":"Copy invite link"
+    "copyInviteLink":"Copy invite link",
+    "QuarterToDate" : "Quarter to date",
+    "YearToDate" : "Year to date"
 }
