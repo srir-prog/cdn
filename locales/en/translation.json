@@ -147,5 +147,6 @@
     "YearToDate" : "Year to date",
     "EmailTemplate" : "Email template",
     "Invite": "Invite",
-    "cancel": "Cancel"
+    "cancel": "Cancel",
+    "enterEmailPlaceHolder": "Enter Email"
 }

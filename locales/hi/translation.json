@@ -146,6 +146,7 @@
     "YearToDate" : "साल से दिन",
     "EmailTemplate" : "ईमेल टेम्पलेट",
     "Invite": "आमंत्रण",
-    "cancel": "रद्द करें"
+    "cancel": "रद्द करें",
+    "enterEmailPlaceHolder": "ईमेल दर्ज करें"
 }
 
