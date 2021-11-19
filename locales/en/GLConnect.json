@@ -265,7 +265,13 @@
     "ThanksNotice": "Thanks notice",
     "SelectEntityTitle": "Select a business entity",
     "CanelPhoneVerificationError": "Error cancelling phone verification",
-    "InviteAdmin": "Invite admin",
     "Next": "Next",
-    "Previous": "Previous"
+    "Previous": "Previous",
+    "InviteEmailPostScript":"Please click on the button to sign up.",
+    "InviteAdmin": "Invite admin",
+    "ThanksTextEmailWithComma": "Thanks,",
+    "Received": "Received",
+    "EmailSubject": "Subject:",
+    "EmailFrom": "From:",
+    "EmailTo": "To:"
 }
