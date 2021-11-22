@@ -230,5 +230,5 @@
     "reqPaymentsAmount": "Required for payments at or above",
     "approvers": "Approvers",
     "approverError": "Please add approvers before you can make payments",
-    "DuplicatePaymentMethodsFound":"Duplicate payment methods found"
+    "duplicatePaymentMethodsFound":"Duplicate payment methods found"
 }
