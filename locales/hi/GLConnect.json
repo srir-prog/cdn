@@ -249,5 +249,12 @@
     "ReviewGLConfigurations": "जीएल कॉन्फ़िगरेशन की समीक्षा करें",
     "ThanksNotice": "धन्यवाद सूचना",
     "SelectEntityTitle": "एक व्यावसायिक इकाई चुनें",
-    "CanelPhoneVerificationError": "फ़ोन सत्यापन रद्द करने में त्रुटि"
+    "CanelPhoneVerificationError": "फ़ोन सत्यापन रद्द करने में त्रुटि",
+    "InviteEmailPostScript":"साइन अप करने के लिए कृपया बटन पर क्लिक करें।",
+    "InviteAdmin": "व्यवस्थापक को आमंत्रित करें",
+    "ThanksTextEmailWithComma": "धन्यवाद,",
+    "Received": "प्राप्त",
+    "EmailFrom": "से:",
+    "EmailTo": "प्रति:",
+    "EmailSubject": "विषय:"
 }
