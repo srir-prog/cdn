@@ -234,5 +234,6 @@
     "thirdApproval": "तीसरी स्वीकृति",
     "reqPaymentsAmount": "पर या उससे अधिक भुगतान के लिए आवश्यक",
     "approvers": "अनुमोदक",
-    "approverError": "भुगतान करने से पहले कृपया अनुमोदनकर्ता जोड़ें"
+    "approverError": "भुगतान करने से पहले कृपया अनुमोदनकर्ता जोड़ें",
+    "duplicatePaymentMethodsFound":"भुगतान के डुप्लीकेट तरीके मिले"
 }

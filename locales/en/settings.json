@@ -229,5 +229,6 @@
     "thirdApproval": "Third approval",
     "reqPaymentsAmount": "Required for payments at or above",
     "approvers": "Approvers",
-    "approverError": "Please add approvers before you can make payments"
+    "approverError": "Please add approvers before you can make payments",
+    "duplicatePaymentMethodsFound":"Duplicate payment methods found"
 }
