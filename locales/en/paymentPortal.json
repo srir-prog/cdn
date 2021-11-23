@@ -32,7 +32,7 @@
   "cvv": "CVV",
   "expirationDate": "EXPIRATION DATE",
   "paymentAmount": "PAYMENT AMOUNT",
-  "securityReasons": "For security reasons, the card will only remain active for ",
+  "securityReasons": "For security reasons, the card will only remain active for {{time}}",
   "cardIsNotActive": "Card is not active. Click on the button to activate it",
   "noteOnce": "Note: Once activated, the card will be valid for 24 hours only",
   "nameOnCheck": "NAME ON CHECK",
@@ -57,5 +57,8 @@
   "Paid": "Paid",
   "scheduled": "Scheduled",
   "received": "Received",
-  "readyToProcess": "Ready to process"
+  "readyToProcess": "Ready to process",
+  "activateCard": "ACTIVATE CARD",
+  "checkSubmitted": "Check at local post office",
+  "trackCheck": "Track Check"
 }
