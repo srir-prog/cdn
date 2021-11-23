@@ -30,5 +30,6 @@
   "tableForPaymentProducts": "भुगतान के लिए तालिका",
   "noAccounts": "कृपया FI में खाते जोड़ें",
   "CHECK": "चेकों",
-  "uniqueAccountNumber": "खाता संख्या अद्वितीय होनी चाहिए"
+  "uniqueAccountNumber": "खाता संख्या अद्वितीय होनी चाहिए",
+  "accountNumberMatch": "खाता संख्या के अंतिम 4 अंक बैंक खाता संख्या से मेल खाना चाहिए"
 }
