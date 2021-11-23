@@ -50,7 +50,7 @@
     "SendReminder": "याद दिलाना",
     "BucketLabel1": "कारण 30+ दिन",
     "BucketLabel2": "कारण 30 दिनों में",
-    "BucketLabel3": "0-30 दिन अतिदेय",
+    "BucketLabel3": "1-30 दिन अतिदेय",
     "BucketLabel4": "31-60 दिन अतिदेय",
     "BucketLabel5": "61-90 दिन अतिदेय",
     "BucketLabel6": "91-120 दिन अतिदेय",
@@ -259,7 +259,8 @@
     "HeaderLabelSchedule": "अनुसूची",
     "EmailTrackFetchFailed": "ईमेल संदेश पुनर्प्राप्त नहीं किया जा सका। कृपया सेंटिम सपोर्ट से संपर्क करें",
     "EmailTotalOutstanding": "कुल बकाया:",
-    "EmailFrom": "से:",
+    "EmailTo": "प्रति:",
+    "EmailInviteLink": "लिंक आमंत्रित करें:",
     "EmailSubject": "विषय:",
     "EmailTotalOverDue": "कुल अतिदेय:",
     "EmailInvoiceNumber": "बीजक संख्या",
@@ -298,5 +299,6 @@
     "ReceivedPlaceholder": "<प्राप्त किया था>",
     "GeneralSettings": "सामान्य सेटिंग्स",
     "SenderProfile": "प्रेषक प्रोफ़ाइल",
-    "InternalNotificationsRecipientProfile": "आंतरिक सूचनाएं प्राप्तकर्ता प्रोफ़ाइल"
+    "InternalNotificationsRecipientProfile": "आंतरिक सूचनाएं प्राप्तकर्ता प्रोफ़ाइल",
+    "ReceivablesPanel": "प्राप्तियों"
 }

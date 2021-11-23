@@ -52,7 +52,7 @@
     "SendReminder": "Send Reminder",
     "BucketLabel1": "Due in 30+ days",
     "BucketLabel2": "Due in 30 days",
-    "BucketLabel3": "0-30 days overdue",
+    "BucketLabel3": "1-30 days overdue",
     "BucketLabel4": "31-60 days overdue",
     "BucketLabel5": "61-90 days overdue",
     "BucketLabel6": "91-120 days overdue",
@@ -265,6 +265,7 @@
     "EmailTrackFetchFailed": "Email message could not be retrieved. Get support from our team using the chat bubble.",
     "EmailTotalOutstanding": "Total outstanding:",
     "EmailFrom": "From:",
+    "EmailInviteLink": "Invite link:",
     "EmailSubject": "Subject:",
     "EmailTotalOverDue": "Total overdue:",
     "EmailInvoiceNumber": "Invoice number",
@@ -306,6 +307,7 @@
     "sendCustomerEmail": "Send customer email",
     "sendInternalNotification": "Send internal notification",
     "Cannot add Reminder Campaigns": "Cannot add reminder campaigns",
-    "SenderProfile": "Sender profile",
-    "InternalNotificationsRecipientProfile": "Internal notifications recipient profile"
+    "SenderProfile": "Sender profile for customer emails",
+    "InternalNotificationsRecipientProfile": "Recipient profile for internal notifications",
+    "ReceivablesPanel":"Receivables"
 }

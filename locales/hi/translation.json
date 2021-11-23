@@ -122,7 +122,6 @@
     "isGreaterThan": "से अधिक है",
     "SearchNotifications": "सूचनाएं खोजें",
     "AccountLockedWithMultipleAttempts":"बहुत से विफल लॉगिन प्रयासों के कारण आपका खाता लॉक कर दिया गया है। यदि आप सहायता के लिए संपर्क करना चाहते हैं, तो नीचे दिए गए बटन पर क्लिक करें।",
-    "NoDataToShow": "दिखाने के लिए कोई डेटा नहीं",
     "BackToHome": "घर वापिस जा रहा हूँ",
     "AccountLocked": "यह खाता लॉक कर दिया गया है",
     "PageNotFound": "पृष्ठ नहीं मिला",
@@ -140,6 +139,14 @@
     "Open":"खोलना",
     "Edit":"संपादित करें",
     "nWeeks": "{{value}} हफ्तों",
-    "ChartIcon": "चार्ट आइकन"
+    "ChartIcon": "चार्ट आइकन",
+    "Payment": "भुगतान",
+    "copyInviteLink":"कॉपी आमंत्रण लिंक",
+    "QuarterToDate" : "तिमाही से आज तक",
+    "YearToDate" : "साल से दिन",
+    "EmailTemplate" : "ईमेल टेम्पलेट",
+    "Invite": "आमंत्रण",
+    "cancel": "रद्द करें",
+    "enterEmailPlaceHolder": "ईमेल दर्ज करें"
 }
 

@@ -3,6 +3,7 @@
     "Skip": "मुख्य विषयवस्तु में जाएं",
     "Login": "लॉगिन",
     "AlreadyUser": "पहले से ही एक उपयोगकर्ता ?<LoginLink></LoginLink>",
+    "AlreadyHaveAnAccount": "क्या आपके पास पहले से एक खाता मौजूद है?<LoginLink></LoginLink>",
     "First Name": "पहला नाम",
     "Last Name": "उपनाम",
     "Work E-Mail Address": "कार्य ईमेल",
@@ -71,5 +72,6 @@
     "EmailSentToEmailId": "हमने {{emailId}} पर एक सत्यापन ईमेल भेजा है।<br>कृपया अपना खाता सत्यापित करने के लिए लिंक पर क्लिक करें",
     "CantFindEmail": "सत्यापन ईमेल नहीं मिल रहा है?",
     "ResendNow": "अभी फिर से भेजें",
-    "CouldNotDeliverEmail":"हम इस समय आपको ईमेल डिलीवर नहीं कर सके।"
+    "CouldNotDeliverEmail": "हम इस समय आपको ईमेल डिलीवर नहीं कर सके।",
+    "PasswordInCognitoError": "पासवर्ड सुरक्षा कारणों से समाप्त हो गया है। नया पासवर्ड बनाने के लिए कृपया पासवर्ड भूल गए पर क्लिक करें"
 }
