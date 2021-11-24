@@ -34,5 +34,6 @@
     "categoryNameCantBeBlank": "Category name can't be blank",
     "min9Len": "Value should be a number with 9 digits",
     "max9Len": "Maximum character limit 9 reached",
-    "transactionNameDuplicate": "Transaction name already exists"
+    "transactionNameDuplicate": "Transaction name already exists",
+    "min4Len": "Value should be a number with 4 digits or more"
 }
