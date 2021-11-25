@@ -133,6 +133,7 @@
     "riskEvalCompleted" : "{{company_type}} नाम {{company_name}} के लिए जोखिम प्रोफ़ाइल मूल्यांकन पूरा हुआ",
     "backToCustomerProfile": "ग्राहक प्रोफ़ाइल पर वापस जाएं",
     "backToSupplierProfile": "आपूर्तिकर्ता प्रोफ़ाइल पर वापस जाएं",
+    "backToMyProfile": "मेरी प्रोफ़ाइल पर वापस",
     "cffGenerationIncomplete" : "पूर्वानुमान उत्पन्न नहीं किया जा सका। आपको अधिक डेटा शामिल करने या श्रेणियों को संयोजित करने की आवश्यकता हो सकती है।",
     "cffGenerationSuccess": "आपका नकदी प्रवाह पूर्वानुमान अब उपलब्ध है।",
     "clickHere": "कृपया देखने के लिए यहां क्लिक करें।"
