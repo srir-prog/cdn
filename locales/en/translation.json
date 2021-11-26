@@ -142,6 +142,12 @@
     "ChartIcon": "Chart icon",
     "Update": "Update",
     "Payment": "Payment",
+    "transactionNameDuplicate": "Transaction name already exists",
+    "copyInviteLink":"Copy invite link",
     "QuarterToDate" : "Quarter to date",
-    "YearToDate" : "Year to date"
+    "YearToDate" : "Year to date",
+    "EmailTemplate" : "Email template",
+    "Invite": "Invite",
+    "cancel": "Cancel",
+    "enterEmailPlaceHolder": "Enter Email"
 }

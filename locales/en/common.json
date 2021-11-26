@@ -133,6 +133,7 @@
     "riskEvalCompleted" : "Risk profile evaluation completed for {{company_type}} having name {{company_name}}",
     "backToCustomerProfile": "Back to customer profile",
     "backToSupplierProfile": "Back to supplier profile",
+    "backToMyProfile": "Back to my profile",
     "cffGenerationIncomplete" : "A forecast could not be generated. You might need to include more data, or combine categories.",
     "cffGenerationSuccess": "Your cash flow forecast is now available.",
     "clickHere": "Please click here to view.",

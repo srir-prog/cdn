@@ -38,6 +38,7 @@
   "updateCompanyDetailsErrorNotification": "Problem with saving company details provided",
   "fetchRiskProfileErrorNotification": "Problem with initiating fetch risk profile",
   "updateRiskProfileErrorNotification": "Problem with initiating update risk profile",
+  "summaryErrorNotification": "Problem with loading summary details",
   "websiteUrl": "Website URL",
   "businessFacts": "Business facts",
   "legalName": "Legal name",
