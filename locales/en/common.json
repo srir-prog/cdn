@@ -136,5 +136,12 @@
     "backToMyProfile": "Back to my profile",
     "cffGenerationIncomplete" : "A forecast could not be generated. You might need to include more data, or combine categories.",
     "cffGenerationSuccess": "Your cash flow forecast is now available.",
-    "clickHere": "Please click here to view."
+    "clickHere": "Please click here to view.",
+    "paymentsFailed": "Payments for {{count}} invoices failed on {{date}}.",
+    "paymentsRejected": "Payments for {{count}} invoices were rejected on {{date}}.",
+    "paymentsDue" : "{{count}} invoices are due for payment on {{payment_date}}. These payments have to be made manually.",
+    "invoicesToBeApproved":"{{count}} invoices are awaiting your approval.",
+    "cardPaymentsToBeProcessed": "Card payments for {{count}} invoices need to be processed on supplier website.",
+    "invoicesScheduled": "{{count}} invoices are scheduled for payment on Card for today.",
+    "cardPaymentsWaiting": "Card payments for {{count}} invoices are waiting to be processed by the suppliers."
 }
