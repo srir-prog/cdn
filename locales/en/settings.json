@@ -230,5 +230,22 @@
     "reqPaymentsAmount": "Required for payments at or above",
     "approvers": "Approvers",
     "approverError": "Please add approvers before you can make payments",
-    "duplicatePaymentMethodsFound":"Duplicate payment methods found"
+    "duplicatePaymentMethodsFound":"Duplicate payment methods found",
+    "card": "Card",
+    "ach": "ACH",
+    "check": "Check",
+    "acceptCardPayment": "Accept card payments",
+    "addSurcharge": "Add a card payment surcharge",
+    "limitPaymentAmount": "Limit payment amount",
+    "onlyAcceptCards": "Only accept cards on company portal",
+    "routingNumber": "Routing number",
+    "bank": "Bank",
+    "accountNumber": "Account number",
+    "nameOnCheck": "Name on Check",
+    "mailingAddress": "Mailing address",
+    "confirmAccountNumber": "Confirm Account Number",
+    "city": "City",
+    "state": "State",
+    "country": "Country",
+    "zipcode": "Zipcode"
 }
