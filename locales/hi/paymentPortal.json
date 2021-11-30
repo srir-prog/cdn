@@ -55,7 +55,7 @@
   "Check": "चेक",
   "Unpaid":"भुगतान किया गया",
   "Paid": "अवैतनिक",
-  "Scheduled": "अनुसूचित",
+  "scheduled": "अनुसूचित",
   "received": "प्राप्त",
   "readyToProcess": "संसाधित करने के लिए तैयार",
   "activateCard": "कार्ड सक्रिय करें",
