@@ -235,5 +235,22 @@
     "reqPaymentsAmount": "पर या उससे अधिक भुगतान के लिए आवश्यक",
     "approvers": "अनुमोदक",
     "approverError": "भुगतान करने से पहले कृपया अनुमोदनकर्ता जोड़ें",
-    "duplicatePaymentMethodsFound":"भुगतान के डुप्लीकेट तरीके मिले"
+    "duplicatePaymentMethodsFound":"भुगतान के डुप्लीकेट तरीके मिले",
+    "card": "कार्ड",
+    "ach": "आक",
+    "check": "जाँच",
+    "acceptCardPayment": "कार्ड से भुगतान स्वीकार करें",
+    "addSurcharge": "कार्ड भुगतान अधिभार जोड़ें",
+    "limitPaymentAmount": "भुगतान राशि सीमित करें",
+    "onlyAcceptCards": "केवल कंपनी पोर्टल पर कार्ड स्वीकार करें",
+    "routingNumber": "राउटिंग नम्बर",
+    "bank": "बैंक",
+    "accountNumber": "खाता संख्या",
+    "nameOnCheck": "चेक पर नाम",
+    "mailingAddress": "डाक पता",
+    "confirmAccountNumber": "खाता संख्या की पुष्टि करें",
+    "city": "शहर",
+    "state": "राज्य",
+    "country": "देश",
+    "zipcode": "ज़िप कोड"
 }
