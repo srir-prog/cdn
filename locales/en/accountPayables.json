@@ -110,5 +110,10 @@
     "HistoryActionSupplierCheckPayment":"Check payment setting updated",
     "HistoryActionDefaultPaymentMethodUpdated": "Default payment method updated",
     "PaymentMethodUpdateSuccess": "Payment method successfully updated",
-    "PaymentMethodUpdateFailure": "There was an issue encountered in updating payment method for invoice. Please try again"
+    "PaymentMethodUpdateFailure": "There was an issue encountered in updating payment method for invoice. Please try again",
+    "ExpirationDate": "Expiration Date",
+    "SupplierWebsite": "Supplier Website",
+    "CardNumber": "Card Number",
+    "CVV": "CVV",
+    "OtherPaymentsToolTip": "Payments are made outside Centime. After the payments are made, you can record payment details in Centime and post payments to General ledger "
 }
