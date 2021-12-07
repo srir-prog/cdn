@@ -177,6 +177,8 @@
     "monthlyRecurringTransactionDescription": "पुनरावर्ती ${{amount}}, महीने के शुरुआत {{date}}",
     "quarterlyRecurringTransactionDescription": "पुनरावर्ती ${{amount}}, त्रैमासिक शुरुआत {{date}}",
     "yearlyRecurringTransactionDescription": "पुनरावर्ती ${{amount}}, सालाना शुरुआत {{date}}",
-    "selectEligibleAccounts ":"योग्य खातों का चयन करें",
-    "selectionConfirmation":"कृपया चुनें कि आप सेंटीम में कौन से खाते देखना चाहते हैं"
+    "selectEligibleAccounts":"योग्य खातों का चयन करें",
+    "selectionConfirmation":"कृपया चुनें कि आप सेंटीम में कौन से खाते देखना चाहते हैं" ,
+    "areYouSureYouWantToExit":"क्या आप निश्चित हैं आपकी बाहर निकलने की इच्छा है?",
+    "notAddedInCentime":"{{institionNames}} से आपके खाते की जानकारी Centime . में नहीं जोड़ी जाएगी"
 }
