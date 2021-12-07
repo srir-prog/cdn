@@ -300,5 +300,7 @@
     "GeneralSettings": "सामान्य सेटिंग्स",
     "SenderProfile": "प्रेषक प्रोफ़ाइल",
     "InternalNotificationsRecipientProfile": "आंतरिक सूचनाएं प्राप्तकर्ता प्रोफ़ाइल",
-    "ReceivablesPanel": "प्राप्तियों"
+    "ReceivablesPanel": "प्राप्तियों",
+    "usuallyPaysLate": "आमतौर पर देर से भुगतान करता है",
+    "usuallyPaysEarly": "आमतौर पर जल्दी भुगतान करता है"
 }
