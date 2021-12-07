@@ -143,5 +143,6 @@
     "invoicesToBeApproved":"{{count}} invoices are awaiting your approval.",
     "cardPaymentsToBeProcessed": "Card payments for {{count}} invoices need to be processed on supplier website.",
     "invoicesScheduled": "{{count}} invoices are scheduled for payment on Card for today.",
-    "cardPaymentsWaiting": "Card payments for {{count}} invoices are waiting to be processed by the suppliers."
+    "cardPaymentsWaiting": "Card payments for {{count}} invoices are waiting to be processed by the suppliers.",
+    "OtherPaymentsToolTip": "Payments are made outside Centime. After the payments are made, you can record payment details in Centime and post payments to General ledger "
 }
