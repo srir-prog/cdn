@@ -115,5 +115,10 @@
     "SupplierWebsite": "Supplier Website",
     "CardNumber": "Card Number",
     "CVV": "CVV",
-    "OtherPaymentsToolTip": "Payments are made outside Centime. After the payments are made, you can record payment details in Centime and post payments to General ledger "
+    "OtherPaymentsToolTip": "Payments are made outside Centime. After the payments are made, you can record payment details in Centime and post payments to General ledger ",
+    "CardIsNotActive": "Card is not active. Click on the button to activate it",
+    "CardNotActiveNote": "Once activated the card will be valid for {{validityPeriod}}",
+    "ActivateCard": "Activate Card",
+    "Note": "Note: ",
+    "CardWillRemainActiveUntil": "For security reasons, the card will only remain active until {{validUntil}}"
 }
