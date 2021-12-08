@@ -183,12 +183,16 @@
     "DECREASE": "Decrease",
     "AMOUNT": "Amount",
     "PERCENTAGE": "Percentage",
-    "closeEditCategory": "Close edit category",
+    "closeEditCategory": "Close edit category", 
     "saveChangesCategory": "Save changes category",
     "editCategoryName": "Edit category name",
     "manualTransactionDescription": "One time ${{amount}} on {{date}}",
     "weeklyRecurringTransactionDescription": "Recurring ${{amount}}, weekly starting {{date}}",
     "monthlyRecurringTransactionDescription": "Recurring ${{amount}}, monthly starting {{date}}",
     "quarterlyRecurringTransactionDescription": "Recurring ${{amount}}, quarterly starting {{date}}",
-    "yearlyRecurringTransactionDescription": "Recurring ${{amount}}, yearly starting {{date}}"
+    "yearlyRecurringTransactionDescription": "Recurring ${{amount}}, yearly starting {{date}}",
+    "selectEligibleAccounts":"Select the eligible accounts",
+    "selectionConfirmation":"Please select which accounts you'd like to view in Centime",
+    "areYouSureYouWantToExit":"Are you sure you want to exit?",
+    "notAddedInCentime":"Your account information from {{institutionNames}} will not be added in Centime"
 }
