@@ -120,5 +120,6 @@
     "CardNotActiveNote": "Once activated the card will be valid for {{validityPeriod}}",
     "ActivateCard": "Activate Card",
     "Note": "Note: ",
-    "CardWillRemainActiveUntil": "For security reasons, the card will only remain active until {{validUntil}}"
+    "CardWillRemainActiveUntil": "For security reasons, the card will only remain active until {{validUntil}}",
+    "NoActivePaymentMethods": "To continue, you must activate payment methods. Please use the chat bubble to get help setting them up."
 }
