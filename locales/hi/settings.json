@@ -256,4 +256,5 @@
     "getApproverPolicyError" : "अनुमोदक नीति लाने में त्रुटि",
     "updateApprovalPolicyError": "अनुमोदक नीति अपडेट करते समय त्रुटि",
     "createApprovalPolicy": "अनुमोदक नीति बनाते समय त्रुटि",
+    "type":"प्रकार"
 }
