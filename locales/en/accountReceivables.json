@@ -310,6 +310,6 @@
     "SenderProfile": "Sender profile for customer emails",
     "InternalNotificationsRecipientProfile": "Recipient profile for internal notifications",
     "ReceivablesPanel":"Receivables",
-    "usuallyPaysLate": "Usually Pays Late",
-    "usuallyPaysEarly": "Usually Pays Early"
+    "usuallyPaysLate": "Usually pays late",
+    "usuallyPaysEarly": "Usually pays early"
 }
