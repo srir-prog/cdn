@@ -251,5 +251,6 @@
     "getApproverPolicyError": "Error while fetching approver policy",
     "approvalPolicyError": "Changes for Approval policy could not be saved. Please try again",
     "approvalPolicySuccess": "Changes for Approval policy have been saved",
-    "type":"Type"
+    "type":"Type", 
+    "taxId":"Tax ID"
 }
