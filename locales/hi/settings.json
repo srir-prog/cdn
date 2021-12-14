@@ -257,5 +257,11 @@
     "updateApprovalPolicyError": "अनुमोदक नीति अपडेट करते समय त्रुटि",
     "createApprovalPolicy": "अनुमोदक नीति बनाते समय त्रुटि",
     "type":"प्रकार",
-    "taxId":"टैक्स आईडी"
+    "taxId":"टैक्स आईडी",
+    "defaultEmailTemplates":"डिफ़ॉल्ट ईमेल टेम्प्लेट",
+    "oneOffReminder":"वन ऑफ रिमाइंडर",
+    "reminderAfterDueDate":"नियत तारीख के बाद अनुस्मारक",
+    "reminderBeforeDueDate":"नियत तारीख से पहले अनुस्मारक",
+    "reminderOnDueDate":"नियत तारीख पर अनुस्मारक",
+    "monthlyStatement":"मासिक विवरण"
 }
