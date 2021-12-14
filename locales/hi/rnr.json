@@ -38,6 +38,7 @@
   "updateCompanyDetailsErrorNotification": "प्रदान की गई कंपनी विवरण सहेजने में समस्या",
   "fetchRiskProfileErrorNotification": "फ़ेच रिस्क प्रोफाइल शुरू करने में समस्या",
   "updateRiskProfileErrorNotification": "अद्यतन जोखिम प्रोफ़ाइल शुरू करने में समस्या",
+  "summaryErrorNotification": "सारांश विवरण लोड करने में समस्या",
   "websiteUrl": "वेबसाइट यूआरएल",
   "businessFacts": "व्यावसायिक तथ्य",
   "legalName": "कानूनी नाम",
