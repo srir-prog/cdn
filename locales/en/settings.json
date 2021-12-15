@@ -252,4 +252,6 @@
     "approvalPolicyError": "Changes for Approval policy could not be saved. Please try again",
     "approvalPolicySuccess": "Changes for Approval policy have been saved",
     "paymentApprovalPolicy": "Payment approval policy"
+    "type":"Type",
+    "taxId":"Tax ID"
 }

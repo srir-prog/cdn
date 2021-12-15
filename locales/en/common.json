@@ -137,6 +137,8 @@
     "cffGenerationIncomplete" : "A forecast could not be generated. You might need to include more data, or combine categories.",
     "cffGenerationSuccess": "Your cash flow forecast is now available.",
     "clickHere": "Please click here to view.",
+    "review": "Review",
+    "accessCardDetails": "Access card details",
     "paymentsFailed": "Payments for {{count}} invoice failed on {{date}}.",
     "paymentsRejected": "Payments for {{count}} invoice was rejected on {{date}}.",
     "paymentsDue" : "{{count}} invoice is due for payment on {{payment_date}}. This payment has to be made manually.",
@@ -151,5 +153,7 @@
     "cardPaymentsToBeProcessed_plural": "Card payments for {{count}} invoices need to be processed on supplier website.",
     "invoicesScheduled_plural": "{{count}} invoices are scheduled for payment on Card for today.",
     "cardPaymentsWaiting_plural": "Card payments for {{count}} invoices are waiting to be processed by the suppliers.",
-    "OtherPaymentsToolTip": "Payments are made outside Centime. After the payments are made, you can record payment details in Centime and post payments to General ledger "
+    "OtherPaymentsToolTip": "Payments are made outside Centime. After the payments are made, you can record payment details in Centime and post payments to General ledger ",
+    "supplierSummaryNotificationSuccess": "Supplier {{buyerName}} has been saved",
+    "supplierSummaryNotificationError": "There was a problem saving the details of supplier {{buyerName}}. Get support from our team using the chat bubble."
 }

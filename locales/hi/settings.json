@@ -256,5 +256,7 @@
     "getApproverPolicyError" : "अनुमोदक नीति लाने में त्रुटि",
     "approvalPolicyError": "स्वीकृति नीति के लिए परिवर्तन सहेजे नहीं जा सके. कृपया पुन: प्रयास करें",
     "approvalPolicySuccess": "स्वीकृति नीति के परिवर्तन सहेज लिए गए हैं",
-    "paymentApprovalPolicy": "भुगतान स्वीकृति नीति"
+    "paymentApprovalPolicy": "भुगतान स्वीकृति नीति",
+    "type":"प्रकार",
+    "taxId":"टैक्स आईडी"
 }
