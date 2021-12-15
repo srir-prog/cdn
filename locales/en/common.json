@@ -155,5 +155,7 @@
     "cardPaymentsWaiting_plural": "Card payments for {{count}} invoices are waiting to be processed by the suppliers.",
     "OtherPaymentsToolTip": "Payments are made outside Centime. After the payments are made, you can record payment details in Centime and post payments to General ledger ",
     "supplierSummaryNotificationSuccess": "Supplier {{buyerName}} has been saved",
-    "supplierSummaryNotificationError": "There was a problem saving the details of supplier {{buyerName}}. Get support from our team using the chat bubble."
+    "supplierSummaryNotificationError": "There was a problem saving the details of supplier {{buyerName}}. Get support from our team using the chat bubble.",
+    "historyActionCustomerCompanyTypeUpdated": "Customer company type updated",
+    "historyActionSupplierCompanyTypeUpdated": "Supplier company type updated"
 }
