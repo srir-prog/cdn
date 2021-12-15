@@ -154,5 +154,7 @@
     "invoicesScheduled_plural": "{{गिनती}} चालान आज के लिए कार्ड पर भुगतान के लिए निर्धारित हैं।",
     "cardPaymentsWaiting_plural": "{{गिनती}} चालानों के लिए कार्ड भुगतान आपूर्तिकर्ताओं द्वारा संसाधित किए जाने की प्रतीक्षा कर रहे हैं।",
     "supplierSummaryNotificationSuccess": "देने वाला {{buyerName}} सहेजने गया",
-    "supplierSummaryNotificationError": "देने वाला के विवरण को सहेजने में समस्या थी {{buyerName}}. कृपया सेंटिम सपोर्ट से संपर्क करें"
+    "supplierSummaryNotificationError": "देने वाला के विवरण को सहेजने में समस्या थी {{buyerName}}. कृपया सेंटिम सपोर्ट से संपर्क करें",
+    "historyActionCustomerCompanyTypeUpdated": "ग्राहक कंपनी प्रकार अपडेट किया गया",
+    "historyActionSupplierCompanyTypeUpdated": "आपूर्तिकर्ता कंपनी प्रकार अपडेट किया गया"
 }
