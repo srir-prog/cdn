@@ -137,6 +137,8 @@
     "cffGenerationIncomplete" : "पूर्वानुमान उत्पन्न नहीं किया जा सका। आपको अधिक डेटा शामिल करने या श्रेणियों को संयोजित करने की आवश्यकता हो सकती है।",
     "cffGenerationSuccess": "आपका नकदी प्रवाह पूर्वानुमान अब उपलब्ध है।",
     "clickHere": "कृपया देखने के लिए यहां क्लिक करें।",
+    "review": "समीक्षा",
+    "accessCardDetails": "एक्सेस कार्ड विवरण",
     "paymentsFailed": "{{गिनती}} चालानों का भुगतान {{date}} को विफल हो गया।",
     "paymentsRejected": "{{गिनती}} चालानों का भुगतान {{date}} को अस्वीकार कर दिया गया था।",
     "paymentsDue" : "{{गिनती}} चालान {{payment_date}} को भुगतान के लिए देय हैं। इन भुगतानों को मैन्युअल रूप से करना होगा।",
@@ -152,5 +154,7 @@
     "invoicesScheduled_plural": "{{गिनती}} चालान आज के लिए कार्ड पर भुगतान के लिए निर्धारित हैं।",
     "cardPaymentsWaiting_plural": "{{गिनती}} चालानों के लिए कार्ड भुगतान आपूर्तिकर्ताओं द्वारा संसाधित किए जाने की प्रतीक्षा कर रहे हैं।",
     "supplierSummaryNotificationSuccess": "देने वाला {{buyerName}} सहेजने गया",
-    "supplierSummaryNotificationError": "देने वाला के विवरण को सहेजने में समस्या थी {{buyerName}}. कृपया सेंटिम सपोर्ट से संपर्क करें"
+    "supplierSummaryNotificationError": "देने वाला के विवरण को सहेजने में समस्या थी {{buyerName}}. कृपया सेंटिम सपोर्ट से संपर्क करें",
+    "historyActionCustomerCompanyTypeUpdated": "ग्राहक कंपनी प्रकार अपडेट किया गया",
+    "historyActionSupplierCompanyTypeUpdated": "आपूर्तिकर्ता कंपनी प्रकार अपडेट किया गया"
 }

@@ -251,12 +251,13 @@
     "getApproverPolicyError": "Error while fetching approver policy",
     "approvalPolicyError": "Changes for Approval policy could not be saved. Please try again",
     "approvalPolicySuccess": "Changes for Approval policy have been saved",
-    "type":"Type", 
-    "taxId":"Tax ID",
     "defaultEmailTemplates":"Default email templates",
     "oneOffReminder":"One off reminder",
     "reminderAfterDueDate":"Reminder after due date",
     "reminderBeforeDueDate":"Reminder before due date",
     "reminderOnDueDate":"Reminder on due date",
-    "monthlyStatement":"Monthly statement"
+    "monthlyStatement":"Monthly statement",
+    "paymentApprovalPolicy": "Payment approval policy",
+    "type":"Type",
+    "taxId":"Tax ID"
 }
