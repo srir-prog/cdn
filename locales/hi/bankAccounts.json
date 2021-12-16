@@ -180,5 +180,6 @@
     "selectEligibleAccounts":"योग्य खातों का चयन करें",
     "selectionConfirmation":"कृपया चुनें कि आप सेंटीम में कौन से खाते देखना चाहते हैं" ,
     "areYouSureYouWantToExit":"क्या आप निश्चित हैं आपकी बाहर निकलने की इच्छा है?",
-    "notAddedInCentime":"{{institionNames}} से आपके खाते की जानकारी Centime . में नहीं जोड़ी जाएगी"
+    "notAddedInCentime":"{{institionNames}} से आपके खाते की जानकारी Centime . में नहीं जोड़ी जाएगी",
+    "commonFailureMsg":"वित्तीय संस्थान से खाते जोड़ते समय एक समस्या हुई. कृपया केंद्र सहायता से संपर्क करें।"
 }
