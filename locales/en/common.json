@@ -157,5 +157,9 @@
     "supplierSummaryNotificationSuccess": "Supplier {{buyerName}} has been saved",
     "supplierSummaryNotificationError": "There was a problem saving the details of supplier {{buyerName}}. Get support from our team using the chat bubble.",
     "historyActionCustomerCompanyTypeUpdated": "Customer company type updated",
-    "historyActionSupplierCompanyTypeUpdated": "Supplier company type updated"
+    "historyActionSupplierCompanyTypeUpdated": "Supplier company type updated",
+    "historyActionSupplierTaxIdUpdated":"Supplier tax id updated",
+    "historyActionSupplierTaxIdTypeUpdated":"Supplier tax id type updated",
+    "historyActionCustomerTaxIdUpdated":"Customer tax id updated",
+    "historyActionCustomerTaxIdTypeUpdated":"Customer tax id type updated"
 }
