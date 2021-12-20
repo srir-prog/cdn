@@ -313,6 +313,6 @@
     "usuallyPaysLate": "Usually pays late",
     "usuallyPaysEarly": "Usually pays early",
     "paid": "Paid Invoices",
-    "unPaid": "Unpaid Invoices",
+    "unPaid": "Invoices",
     "PaymentStatusMessageEstimatedToPay": "The invoice has estimated to pay set"
 }

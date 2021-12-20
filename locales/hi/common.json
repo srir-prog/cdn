@@ -156,5 +156,9 @@
     "supplierSummaryNotificationSuccess": "देने वाला {{buyerName}} सहेजने गया",
     "supplierSummaryNotificationError": "देने वाला के विवरण को सहेजने में समस्या थी {{buyerName}}. कृपया सेंटिम सपोर्ट से संपर्क करें",
     "historyActionCustomerCompanyTypeUpdated": "ग्राहक कंपनी प्रकार अपडेट किया गया",
-    "historyActionSupplierCompanyTypeUpdated": "आपूर्तिकर्ता कंपनी प्रकार अपडेट किया गया"
+    "historyActionSupplierCompanyTypeUpdated": "आपूर्तिकर्ता कंपनी प्रकार अपडेट किया गया",
+    "historyActionSupplierTaxIdUpdated":"आपूर्तिकर्ता टैक्स आईडी अपडेट किया गया",
+    "historyActionSupplierTaxIdTypeUpdated":"आपूर्तिकर्ता टैक्स आईडी प्रकार अपडेट किया गया",
+    "historyActionCustomerTaxIdUpdated":"ग्राहक कर आईडी अपडेट किया गया",
+    "historyActionCustomerTaxIdTypeUpdated":"ग्राहक कर आईडी प्रकार अपडेट किया गया"
 }
