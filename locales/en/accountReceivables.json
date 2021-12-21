@@ -311,5 +311,8 @@
     "InternalNotificationsRecipientProfile": "Recipient profile for internal notifications",
     "ReceivablesPanel":"Receivables",
     "usuallyPaysLate": "Usually pays late",
-    "usuallyPaysEarly": "Usually pays early"
+    "usuallyPaysEarly": "Usually pays early",
+    "paid": "Paid Invoices",
+    "unPaid": "Invoices",
+    "PaymentStatusMessageEstimatedToPay": "The invoice has estimated to pay set"
 }
