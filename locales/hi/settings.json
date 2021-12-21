@@ -264,5 +264,8 @@
     "reminderAfterDueDate":"नियत तारीख के बाद अनुस्मारक",
     "reminderBeforeDueDate":"नियत तारीख से पहले अनुस्मारक",
     "reminderOnDueDate":"नियत तारीख पर अनुस्मारक",
-    "monthlyStatement":"मासिक विवरण"
+    "monthlyStatement":"मासिक विवरण",
+    "onlinePayments":"ऑनलाइन भुगतान",
+    "includePaymentLinkInRemindersAndStatements":"रिमाइंडर और स्टेटमेंट में भुगतान लिंक शामिल करें",
+    "activateYourCentimePayAccount":"ऑनलाइन भुगतान स्वीकार करने के लिए कृपया अपना CentimePay खाता सक्रिय करें"
 }

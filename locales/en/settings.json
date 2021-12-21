@@ -259,5 +259,8 @@
     "monthlyStatement":"Monthly statement",
     "paymentApprovalPolicy": "Payment approval policy",
     "type":"Type",
-    "taxId":"Tax ID"
+    "taxId":"Tax ID",
+    "onlinePayments":"Online payments",
+    "includePaymentLinkInRemindersAndStatements":"Include payment link in reminders and statements",
+    "activateYourCentimePayAccount":"Please activate your CentimePay account in order to accept online payments"
 }
