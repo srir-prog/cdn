@@ -1,11 +1,12 @@
 {
-  "creditPaymentSolutions": "Credit and Payment Solutions",
+  "creditPaymentSolutions": "Credit and Payment solutions",
   "centimeSolutions": "Centime Solutions",
   "allSolutions": "All solutions",
   "description": "Description",
   "status": "Status",
   "actions": "Actions",
-  "bankName": "Bank Name",
+  "bankName": "Institution Name",
+  "accountName": "Account Name",
   "accountType": "Account Type",
   "checkPayments":"Check payments",
   "accountNumber": "Account number",
@@ -31,5 +32,10 @@
   "noAccounts": "Please add the accounts in FI",
   "CHECK": "Checks",
   "uniqueAccountNumber": "Account number should be unique",
-  "accountNumberMatch": "Last 4 digits of account number should be matched with bank account number"
+  "accountNumberMatch": "Last 4 digits of account number should be matched with bank account number",
+  "deactivate": "Deactivate",
+  "active": "Active",
+  "inactive": "Inactive",
+  "details": "Details",
+  "default": "Default"
 }

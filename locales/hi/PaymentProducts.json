@@ -4,7 +4,8 @@
   "description": "विवरण",
   "status": "स्थिति",
   "actions": "कार्रवाई",
-  "bankName": "बैंक का नाम",
+  "bankName": "संस्था का नाम",
+  "accountName": "खाते का नाम",
   "accountType": "खाते का प्रकार",
   "checkPayments":"भुगतान जांचें",
   "accountNumber": "खाता संख्या",
@@ -31,5 +32,11 @@
   "noAccounts": "कृपया FI में खाते जोड़ें",
   "CHECK": "चेकों",
   "uniqueAccountNumber": "खाता संख्या अद्वितीय होनी चाहिए",
-  "accountNumberMatch": "खाता संख्या के अंतिम 4 अंक बैंक खाता संख्या से मेल खाना चाहिए"
+  "accountNumberMatch": "खाता संख्या के अंतिम 4 अंक बैंक खाता संख्या से मेल खाना चाहिए",
+  "deactivate": "निष्क्रिय करें",
+  "active": "सक्रिय",
+  "inactive": "निष्क्रिय",
+  "details": "विवरण",
+  "default": "चूक"
+
 }
