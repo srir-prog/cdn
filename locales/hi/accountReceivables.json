@@ -259,7 +259,8 @@
     "HeaderLabelSchedule": "अनुसूची",
     "EmailTrackFetchFailed": "ईमेल संदेश पुनर्प्राप्त नहीं किया जा सका। कृपया सेंटिम सपोर्ट से संपर्क करें",
     "EmailTotalOutstanding": "कुल बकाया:",
-    "EmailFrom": "से:",
+    "EmailTo": "प्रति:",
+    "EmailInviteLink": "लिंक आमंत्रित करें:",
     "EmailSubject": "विषय:",
     "EmailTotalOverDue": "कुल अतिदेय:",
     "EmailInvoiceNumber": "बीजक संख्या",
@@ -299,5 +300,10 @@
     "GeneralSettings": "सामान्य सेटिंग्स",
     "SenderProfile": "प्रेषक प्रोफ़ाइल",
     "InternalNotificationsRecipientProfile": "आंतरिक सूचनाएं प्राप्तकर्ता प्रोफ़ाइल",
-    "ReceivablesPanel": "प्राप्तियों"
+    "ReceivablesPanel": "प्राप्तियों",
+    "usuallyPaysLate": "आमतौर पर देर से भुगतान करता है",
+    "usuallyPaysEarly": "आमतौर पर जल्दी भुगतान करता है",
+    "paid": "भुगतान चालान",
+    "unPaid": "अवैतनिक चालान",
+    "PaymentStatusMessageEstimatedToPay": "चालान ने भुगतान करने का अनुमान लगाया है"
 }

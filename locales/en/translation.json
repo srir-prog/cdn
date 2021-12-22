@@ -97,8 +97,8 @@
     "Months": "Months",
     "Days": "Days",
     "LastMonth": "Last Month",
-    "LastQuarter": "Last Quarter",
-    "LastYear": "Last Year",
+    "lastQuarter": "Last Quarter",
+    "lastYear": "Last Year",
     "PreviousPeriod": "Previous Period",
     "PreviousYear": "Previous Year",
     "Start Date": "Start Date",
@@ -141,5 +141,13 @@
     "nWeeks": "{{value}} weeks",
     "ChartIcon": "Chart icon",
     "Update": "Update",
-    "Payment": "Payment"
+    "Payment": "Payment",
+    "transactionNameDuplicate": "Transaction name already exists",
+    "copyInviteLink":"Copy invite link",
+    "quarterToDate" : "Quarter to date",
+    "yearToDate" : "Year to date",
+    "EmailTemplate" : "Email template",
+    "Invite": "Invite",
+    "cancel": "Cancel",
+    "enterEmailPlaceHolder": "Enter Email"
 }

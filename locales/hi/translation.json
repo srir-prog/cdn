@@ -97,8 +97,8 @@
     "Months":"महीने",
     "Days":"दिन",
     "LastMonth":"पिछला महीना",
-    "LastQuarter":"आख़िरी चौथाई",
-    "LastYear":"पिछले साल",
+    "lastQuarter":"आख़िरी चौथाई",
+    "lastYear":"पिछले साल",
     "PreviousPeriod":"पिछली अवधि",
     "PreviousYear":"पिछला साल",
     "Start Date":"आरंभ करने की तिथि",
@@ -140,6 +140,13 @@
     "Edit":"संपादित करें",
     "nWeeks": "{{value}} हफ्तों",
     "ChartIcon": "चार्ट आइकन",
-    "Payment": "भुगतान"
+    "Payment": "भुगतान",
+    "copyInviteLink":"कॉपी आमंत्रण लिंक",
+    "quarterToDate" : "तिमाही से आज तक",
+    "yearToDate" : "साल से दिन",
+    "EmailTemplate" : "ईमेल टेम्पलेट",
+    "Invite": "आमंत्रण",
+    "cancel": "रद्द करें",
+    "enterEmailPlaceHolder": "ईमेल दर्ज करें"
 }
 
