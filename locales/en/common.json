@@ -162,4 +162,14 @@
     "historyActionSupplierTaxIdTypeUpdated":"Supplier tax id type updated",
     "historyActionCustomerTaxIdUpdated":"Customer tax id updated",
     "historyActionCustomerTaxIdTypeUpdated":"Customer tax id type updated"
+    "HistoryActionSupplierProfileUpdated": "Supplier profile updated",
+    "HistoryActionPrimaryContactDetailsUpdated": "Primary contact details updated",
+    "HistoryActionSupplierApprovalNotificationFlag": "Payment approval notification setting updated",
+    "HistoryActionSupplierSendRemittanceFlag": "Payment remittance notification setting updated",
+    "HistoryActionSupplierCentimeCardPayment":"CentimeCard payment setting updated",
+    "HistoryActionSupplierCheckPayment":"Check payment setting updated",
+    "HistoryActionDefaultPaymentMethodUpdated": "Default payment method updated",
+    "PaymentMethodUpdateSuccess": "Payment method successfully updated",
+    "PaymentMethodUpdateFailure": "There was an issue encountered in updating payment method for invoice. Please try again",
+    "Note": "Note: "
 }
