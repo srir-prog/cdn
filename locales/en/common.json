@@ -161,7 +161,7 @@
     "historyActionSupplierTaxIdUpdated":"Supplier tax id updated",
     "historyActionSupplierTaxIdTypeUpdated":"Supplier tax id type updated",
     "historyActionCustomerTaxIdUpdated":"Customer tax id updated",
-    "historyActionCustomerTaxIdTypeUpdated":"Customer tax id type updated"
+    "historyActionCustomerTaxIdTypeUpdated":"Customer tax id type updated",
     "HistoryActionSupplierProfileUpdated": "Supplier profile updated",
     "HistoryActionPrimaryContactDetailsUpdated": "Primary contact details updated",
     "HistoryActionSupplierApprovalNotificationFlag": "Payment approval notification setting updated",
