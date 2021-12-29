@@ -145,5 +145,7 @@
     "daysWithCount_plural": "{{count}} दिन",
     "ratePerMonth": "{{rate}} प्रति महीने",
     "TrendingUp": "रुझान ऊपर",
-    "TrendingDown": "नीचे रुझान"
+    "TrendingDown": "नीचे रुझान",
+    "transactionsTableDefaultHeaderPrefix": "से सभी लेनदेन",
+    "invoicesTableDefaultHeaderPrefix": "के बीच सभी चालान"
 }

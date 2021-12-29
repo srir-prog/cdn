@@ -157,5 +157,19 @@
     "supplierSummaryNotificationSuccess": "Supplier {{buyerName}} has been saved",
     "supplierSummaryNotificationError": "There was a problem saving the details of supplier {{buyerName}}. Get support from our team using the chat bubble.",
     "historyActionCustomerCompanyTypeUpdated": "Customer company type updated",
-    "historyActionSupplierCompanyTypeUpdated": "Supplier company type updated"
+    "historyActionSupplierCompanyTypeUpdated": "Supplier company type updated",
+    "historyActionSupplierTaxIdUpdated":"Supplier tax id updated",
+    "historyActionSupplierTaxIdTypeUpdated":"Supplier tax id type updated",
+    "historyActionCustomerTaxIdUpdated":"Customer tax id updated",
+    "historyActionCustomerTaxIdTypeUpdated":"Customer tax id type updated",
+    "HistoryActionSupplierProfileUpdated": "Supplier profile updated",
+    "HistoryActionPrimaryContactDetailsUpdated": "Primary contact details updated",
+    "HistoryActionSupplierApprovalNotificationFlag": "Payment approval notification setting updated",
+    "HistoryActionSupplierSendRemittanceFlag": "Payment remittance notification setting updated",
+    "HistoryActionSupplierCentimeCardPayment":"CentimeCard payment setting updated",
+    "HistoryActionSupplierCheckPayment":"Check payment setting updated",
+    "HistoryActionDefaultPaymentMethodUpdated": "Default payment method updated",
+    "PaymentMethodUpdateSuccess": "Payment method successfully updated",
+    "PaymentMethodUpdateFailure": "There was an issue encountered in updating payment method for invoice. Please try again",
+    "Note": "Note: "
 }
