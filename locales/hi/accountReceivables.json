@@ -308,8 +308,8 @@
     "PaymentStatusMessageEstimatedToPay": "चालान ने भुगतान करने का अनुमान लगाया है",
     "highConfidence": "उच्च आत्मविश्वास",
     "mediumConfidence": "मध्यम आत्मविश्वास",
-    "sendReceipt": "Send Receipt",
-    "post": "Post",
+    "sendReceipt": "रसीद भेजें",
+    "post": "पद",
     "paymentAmount" : "भुगतान राशि",
     "paymentMethod": "भुगतान का तरीका",
     "paymentDate" : "भुगतान तिथि"
