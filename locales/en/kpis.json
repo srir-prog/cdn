@@ -120,6 +120,8 @@
     "uncollected": "Uncollected",
     "PaymentTerms": "Payment terms",
     "PaymentDate": "Payment date",
+    "transactionsTableDefaultHeaderPrefix": "All transactions from",
+    "invoicesTableDefaultHeaderPrefix": "All invoices due between",
     "OutstandingAmount": "Outstanding amount",
     "PaymentAmount": "Payment amount",
     "BusinessCategory": "Business Category",
