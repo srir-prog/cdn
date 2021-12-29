@@ -18,5 +18,6 @@
   "multipleLines": "Welcome <b>{{name}}</b>, Translating {{count}} messages with multiple tags in multiple lines.<nl/> This is the second line that [should] come in new line."    ,
   "knowMore": "<ourLink></ourLink> to know more",
   "clickHere": "Click here",
-  "activeCount": "{{active}}/{{total}} active"
+  "activeCount": "{{active}}/{{total}} active",
+  "checkActivation": "<ourLink></ourLink> to know how to use your check in Centime"
 }

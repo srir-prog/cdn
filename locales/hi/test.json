@@ -18,5 +18,6 @@
   "multipleLines": "स्वागत <b>{{name}}</b>, {{count}} संदेशों का कई टैग के साथ कई पंक्तियों में अनुवाद करना।<nl/> यह दूसरी पंक्ति है जो [नई] पंक्ति में आनी चाहिए।",
   "knowMore": "<ourLink></ourLink> अधिक जानने के लिए",
   "clickHere": "यहां क्लिक करें",
-  "activeCount": "{{active}}/{{total}} सक्रिय"
+  "activeCount": "{{active}}/{{total}} सक्रिय",
+  "checkActivation": "<ourLink></ourLink> सेंटीमे में अपने चेक का उपयोग कैसे करें, यह जानने के लिए"
 }
