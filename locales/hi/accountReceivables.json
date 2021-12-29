@@ -310,7 +310,7 @@
     "mediumConfidence": "मध्यम आत्मविश्वास",
     "sendReceipt": "Send Receipt",
     "post": "Post",
-    "paymentAmount" : "Payment amount",
-    "paymentMethod": "Payment method",
-    "paymentDate" : "Payment date"
+    "paymentAmount" : "भुगतान राशि",
+    "paymentMethod": "भुगतान का तरीका",
+    "paymentDate" : "भुगतान तिथि"
 }
