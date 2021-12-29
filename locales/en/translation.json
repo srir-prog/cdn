@@ -148,5 +148,7 @@
     "EmailTemplate" : "Email template",
     "Invite": "Invite",
     "cancel": "Cancel",
-    "enterEmailPlaceHolder": "Enter Email"
+    "enterEmailPlaceHolder": "Enter Email",
+    "transactionsTableDefaultHeaderPrefix": "All transactions from",
+    "invoicesTableDefaultHeaderPrefix": "All invoices due between"
 }
