@@ -147,6 +147,8 @@
     "EmailTemplate" : "ईमेल टेम्पलेट",
     "Invite": "आमंत्रण",
     "cancel": "रद्द करें",
-    "enterEmailPlaceHolder": "ईमेल दर्ज करें"
+    "enterEmailPlaceHolder": "ईमेल दर्ज करें",
+    "transactionsTableDefaultHeaderPrefix": "से सभी लेनदेन",
+    "invoicesTableDefaultHeaderPrefix": "के बीच सभी चालान"
 }
 
