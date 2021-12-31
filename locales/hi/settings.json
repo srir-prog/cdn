@@ -269,8 +269,6 @@
     "includePaymentLinkInRemindersAndStatements":"रिमाइंडर और स्टेटमेंट में भुगतान लिंक शामिल करें",
     "activateYourCentimePayAccount":"ऑनलाइन भुगतान स्वीकार करने के लिए कृपया अपना CentimePay खाता सक्रिय करें",
     "groups":"समूहों",
-    "cashInflows":"नकदी प्रवाह",
-    "cashOutflows":"नकदी नि: स्राव",
     "noGroupCreatedYet":"अभी तक कोई ग्रुप नहीं बनाया गया",
     "newCashFlowGroup":"नया नकदी प्रवाह समूह",
     "name":"नाम",
@@ -284,5 +282,6 @@
     "investing":"निवेश",
     "financing":"फाइनेंसिंग",
     "noAction":"कोई कार्रवाई नहीं",
-    "cashInFlows":"नकदी प्रवाह"
+    "cashInFlows":"नकदी प्रवाह",
+    "cashOutFlows":"नकदी नि: स्राव"
 }
