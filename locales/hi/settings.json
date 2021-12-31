@@ -279,5 +279,10 @@
     "cashInCashOut":"कैश इन / कैश आउट",
     "description":"विवरण",
     "foreCast":"पूर्वानुमान",
-    "cashFlowGroups":"नकदी प्रवाह समूह"
+    "cashFlowGroups":"नकदी प्रवाह समूह",
+    "operating":"ऑपरेटिंग",
+    "investing":"निवेश",
+    "financing":"फाइनेंसिंग",
+    "noAction":"कोई कार्रवाई नहीं",
+    "cashInFlows":"नकदी प्रवाह"
 }
