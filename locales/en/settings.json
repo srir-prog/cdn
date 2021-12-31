@@ -264,15 +264,19 @@
     "includePaymentLinkInRemindersAndStatements":"Include payment link in reminders and statements",
     "activateYourCentimePayAccount":"Please activate your CentimePay account in order to accept online payments",
     "groups":"Groups",
-    "cashInflows":"Cash inflows",
-    "cashOutflows":"Cash outflows",
     "noGroupCreatedYet":"No group created yet",
     "newCashFlowGroup":"New cash flow group",
     "name":"Name",
-    "group":"Group",
+    "group":"Groups",
     "cashFlows":"Cash flows",
     "cashInCashOut":"Cash in / Cash out",
     "description":"Description",
     "foreCast":"Forecast",
-    "cashFlowGroups":"Cash flow groups"
+    "cashFlowGroups":"Cash flow groups",
+    "operating":"Operating",
+    "investing":"Investing",
+    "financing":"Financing",
+    "noAction":"No Action",
+    "cashInFlows":"Cash inflows",
+    "cashOutFlows":"Cash outflows"
 }
