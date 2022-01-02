@@ -121,5 +121,6 @@
     "ActivateCard": "Activate Card",
     "Note": "Note: ",
     "CardWillRemainActiveUntil": "For security reasons, the card will only remain active until {{validUntil}}",
-    "NoActivePaymentMethods": "To continue, you must activate payment methods. Please use the chat bubble to get help setting them up."
+    "NoActivePaymentMethods": "To continue, you must activate payment methods. Please use the chat bubble to get help setting them up.",
+    "NoApprovalPolicyDefined": "Approvers have not been defined. Please contact the account administrator."
 }
