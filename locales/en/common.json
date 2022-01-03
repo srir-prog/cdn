@@ -171,5 +171,11 @@
     "HistoryActionDefaultPaymentMethodUpdated": "Default payment method updated",
     "PaymentMethodUpdateSuccess": "Payment method successfully updated",
     "PaymentMethodUpdateFailure": "There was an issue encountered in updating payment method for invoice. Please try again",
-    "Note": "Note: "
+    "Note": "Note: ",
+    "plus": "plus",
+    "closeBare": "close-bare",
+    "tick": "tick",
+    "success": "success",
+    "centimeCardLogo": "centime-card-logo",
+    "checks": "checks"
 }
