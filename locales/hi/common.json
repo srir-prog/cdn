@@ -171,11 +171,6 @@
     "PaymentMethodUpdateSuccess": "भुगतान विधि सफलतापूर्वक अपडेट की गई",
     "PaymentMethodUpdateFailure": "इनवॉइस के लिए भुगतान विधि को अपडेट करने में एक समस्या आई थी। कृपया फिर से प्रयास करें",
     "नोट": "नोट:",
-    "plus": "प्लस",
-    "closeBare": "करीब नंगे",
-    "tick": "टिकटिक",
     "success": "सफलता",
-    "centimeCardLogo": "केंद्र-कार्ड-लोगो",
-    "checks": "checks"
-
+    "centimeCardLogo": "केंद्र-कार्ड-लोगो"
 }
