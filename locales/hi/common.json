@@ -170,5 +170,7 @@
     "HistoryActionDefaultPaymentMethodUpdated": "डिफ़ॉल्ट भुगतान विधि अपडेट की गई",
     "PaymentMethodUpdateSuccess": "भुगतान विधि सफलतापूर्वक अपडेट की गई",
     "PaymentMethodUpdateFailure": "इनवॉइस के लिए भुगतान विधि को अपडेट करने में एक समस्या आई थी। कृपया फिर से प्रयास करें",
-    "नोट": "नोट:"
+    "नोट": "नोट:",
+    "success": "सफलता",
+    "centimeCardLogo": "केंद्र-कार्ड-लोगो"
 }
