@@ -271,7 +271,7 @@
     "noGroupCreatedYet":"No group created yet",
     "newCashFlowGroup":"New cash flow group",
     "name":"Name",
-    "group":"Groups",
+    "group":"Group",
     "cashFlows":"Cash flows",
     "cashInCashOut":"Cash in / Cash out",
     "description":"Description",
@@ -282,5 +282,9 @@
     "financing":"Financing",
     "noAction":"No Action",
     "cashInFlows":"Cash inflows",
-    "cashOutFlows":"Cash outflows"
+    "cashOutFlows":"Cash outflows",
+    "inflowOutflow":"Inflow/Outflow",
+    "inflows":"Inflows",
+    "groupsTable":"Groups table",
+    "cashFlowTable":"Cash flow types table"
 }
