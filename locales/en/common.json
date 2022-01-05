@@ -173,5 +173,7 @@
     "PaymentMethodUpdateFailure": "There was an issue encountered in updating payment method for invoice. Please try again",
     "Note": "Note: ",
     "chooseAFilter": "Choose a filter",
-    "chooseAction": "Choose action to apply"
+    "chooseAction": "Choose action to apply",
+    "success": "Success",
+    "centimeCardLogo": "centime-card-logo"
 }
