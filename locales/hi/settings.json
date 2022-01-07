@@ -287,5 +287,9 @@
     "financing":"फाइनेंसिंग",
     "noAction":"कोई कार्रवाई नहीं",
     "cashInFlows":"नकदी प्रवाह",
-    "cashOutFlows":"नकदी नि: स्राव"
+    "cashOutFlows":"नकदी नि: स्राव",
+    "inflowOutflow":"अंतर्वाह / बहिर्वाह",
+    "inflows":"अंतर्वाह",
+    "groupsTable":"समूह तालिका",
+    "cashFlowTable":"नकदी प्रवाह प्रकार तालिका"
 }
