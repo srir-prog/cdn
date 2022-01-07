@@ -174,5 +174,7 @@
     "chooseAFilter": "एक फ़िल्टर चुनें",
     "chooseAction": "लागू करने के लिए कार्रवाई चुनें",
     "success": "सफलता",
-    "centimeCardLogo": "केंद्र-कार्ड-लोगो"
+    "centimeCardLogo": "केंद्र-कार्ड-लोगो",
+    "historyActionSupplierElectronicPaymentEnabled": "इलेक्ट्रॉनिक भुगतान नामांकन सेटिंग अपडेट की गई",
+    "electronicPaymentEnabledTooltip": "हम क्रेडिट कार्ड के माध्यम से भुगतान प्राप्त करने के लिए आपूर्तिकर्ताओं से संपर्क करेंगे और ए सी एच के माध्यम से भुगतान करने के लिए खाता विवरण प्राप्त करेंगे।"
 }
