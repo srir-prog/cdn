@@ -46,5 +46,6 @@
   "knowMore": "<ourLink></ourLink> to know more",
   "clickHere": "Click here",
   "activeCount": "{{active}}/{{total}} active",
-  "checkActivation": "<ourLink></ourLink> to know how to use your check in Centime"
+  "checkActivation": "<ourLink></ourLink> to know how to use your check in Centime",
+  "noCheckPayment": "This account is not eligible for check payment"
 }
