@@ -152,6 +152,5 @@
     "enterEmailPlaceHolder": "Enter Email",
     "transactionsTableDefaultHeaderPrefix": "All transactions from",
     "invoicesTableDefaultHeaderPrefix": "All invoices due between",
-    "networkErrorMessage": "We are sorry ! We are facing some technical issues, Please try again later",
-    "done":"done"
+    "networkErrorMessage": "We are sorry ! We are facing some technical issues, Please try again later"
 }
