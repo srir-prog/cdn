@@ -175,5 +175,8 @@
     "chooseAFilter": "Choose a filter",
     "chooseAction": "Choose action to apply",
     "success": "Success",
-    "centimeCardLogo": "centime-card-logo"
+    "centimeCardLogo": "centime-card-logo",
+    "historyActionSupplierElectronicPaymentEnabled": "Electronic payment enrolment setting updated",
+    "electronicPaymentEnabledTooltip": "We will reach out to the suppliers to check their preferences for receiving payments via Credit Card and fetch account details to make payments via ACH",
+    "historyActionCustomerProfileUpdated": "Customer profile updated"
 }

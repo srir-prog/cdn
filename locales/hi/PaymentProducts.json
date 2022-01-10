@@ -46,5 +46,6 @@
   "knowMore": "<ourLink></ourLink> अधिक जानने के लिए",
   "clickHere": "यहां क्लिक करें",
   "activeCount": "{{active}}/{{total}} सक्रिय",
-  "checkActivation": "<ourLink></ourLink> सेंटीमे में अपने चेक का उपयोग कैसे करें, यह जानने के लिए"
+  "checkActivation": "<ourLink></ourLink> सेंटीमे में अपने चेक का उपयोग कैसे करें, यह जानने के लिए",
+  "noCheckPayment": "यह खाता योग्य नहीं है\nएसीएच भुगतान के लिए\n"
 }
