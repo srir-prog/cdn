@@ -177,5 +177,6 @@
     "success": "Success",
     "centimeCardLogo": "centime-card-logo",
     "historyActionSupplierElectronicPaymentEnabled": "Electronic payment enrolment setting updated",
-    "electronicPaymentEnabledTooltip": "We will reach out to the suppliers to check their preferences for receiving payments via Credit Card and fetch account details to make payments via ACH"
+    "electronicPaymentEnabledTooltip": "We will reach out to the suppliers to check their preferences for receiving payments via Credit Card and fetch account details to make payments via ACH",
+    "historyActionCustomerProfileUpdated": "Customer profile updated"
 }
