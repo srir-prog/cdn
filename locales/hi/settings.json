@@ -291,5 +291,7 @@
     "inflowOutflow":"अंतर्वाह / बहिर्वाह",
     "inflows":"अंतर्वाह",
     "groupsTable":"समूह तालिका",
-    "cashFlowTable":"नकदी प्रवाह प्रकार तालिका"
+    "cashFlowTable":"नकदी प्रवाह प्रकार तालिका",
+    "cashFlowCategoryDropdown":"नकदी प्रवाह श्रेणी ड्रॉप डाउन",
+    "cashFlowTypesDropdown":"नकदी प्रवाह के प्रकार नीचे गिरते हैं"
 }
