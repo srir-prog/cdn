@@ -190,5 +190,21 @@
     "weeklyRecurringTransactionDescription": "Recurring ${{amount}}, weekly starting {{date}}",
     "monthlyRecurringTransactionDescription": "Recurring ${{amount}}, monthly starting {{date}}",
     "quarterlyRecurringTransactionDescription": "Recurring ${{amount}}, quarterly starting {{date}}",
-    "yearlyRecurringTransactionDescription": "Recurring ${{amount}}, yearly starting {{date}}"
+    "yearlyRecurringTransactionDescription": "Recurring ${{amount}}, yearly starting {{date}}",
+    "cashOutFlow": "Cash out flow",
+    "cashInFlow": "Cash in flow",
+    "backToCashcashIn": "Back to cash inflows",
+    "backToCashcashOut": "Back to cash outflows",
+    "outflows": "Outflows",
+    "inflows": "Inflows",
+    "historicalChartTitle": "Historical and future cash flows",
+    "forecastTotal": "Forecast total",
+    "manageGroup": "Manage group",
+    "+showMore": "+ Show more",
+    "-showLess": "- Show less",
+    "OPERATING": "Cash flow from operating",
+    "INVESTING": "Cash flow from investing",
+    "FINANCING": "Cash flow from financing",
+    "cashIn": "Cash in",
+    "cashOut": "Cash out"
 }
