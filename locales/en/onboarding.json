@@ -74,5 +74,6 @@
     "CantFindEmail": "Can't find the verification email?",
     "ResendNow": "Resend now",
     "CouldNotDeliverEmail": "We could not deliver your email right now",
-    "PasswordInCognitoError": "Password has expired due to security reasons. Please click on Forgot password to create a new password"
+    "PasswordInCognitoError": "Password has expired due to security reasons. Please click on Forgot password to create a new password",
+    "tooManyOTPRequests": "Too many requests, please try again after 15 min"
 }

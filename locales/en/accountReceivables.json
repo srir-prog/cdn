@@ -310,6 +310,16 @@
     "SenderProfile": "Sender profile for customer emails",
     "InternalNotificationsRecipientProfile": "Recipient profile for internal notifications",
     "ReceivablesPanel":"Receivables",
-    "usuallyPaysLate": "Usually Pays Late",
-    "usuallyPaysEarly": "Usually Pays Early"
+    "usuallyPaysLate": "Usually pays late",
+    "usuallyPaysEarly": "Usually pays early",
+    "paid": "Paid Invoices",
+    "unPaid": "Unpaid Invoices",
+    "PaymentStatusMessageEstimatedToPay": "The invoice has estimated to pay set",
+    "highConfidence": "High confidence",
+    "mediumConfidence": "Medium confidence",
+    "sendReceipt": "Send Receipt",
+    "post": "Post",
+    "paymentAmount" : "Payment amount",
+    "paymentMethod": "Payment method",
+    "paymentDate" : "Payment date"
 }

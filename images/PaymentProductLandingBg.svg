@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1452px" height="853px" viewBox="0 0 1452 853" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Background Final</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1452" height="853"></rect>
+        <linearGradient x1="46.8736897%" y1="116.637186%" x2="46.8736897%" y2="-16.4357311%" id="linearGradient-3">
+            <stop stop-color="#EBFBFE" offset="0%"></stop>
+            <stop stop-color="#FFFCF7" offset="48.8572167%"></stop>
+            <stop stop-color="#E5F9FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="88.9349668%" y1="50.902117%" x2="-13.4104722%" y2="52.9018651%" id="linearGradient-4">
+            <stop stop-color="#27B2BF" offset="0%"></stop>
+            <stop stop-color="#D8D8D8" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="74.3484421%" y1="49.1591358%" x2="5.67045032%" y2="52.737768%" id="linearGradient-5">
+            <stop stop-color="#02A2B1" offset="0%"></stop>
+            <stop stop-color="#D8D8D8" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-6" x="0" y="0" width="1465.56723" height="215"></rect>
+        <linearGradient x1="43.0530928%" y1="-11.9570558%" x2="43.0530928%" y2="50%" id="linearGradient-8">
+            <stop stop-color="#02A2B1" offset="0%"></stop>
+            <stop stop-color="#D8D8D8" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#D7F2F6" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="35.5890898%" y1="-14.4966979%" x2="35.5890898%" y2="95.2374555%" id="linearGradient-10">
+            <stop stop-color="#86C9E9" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Final-Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1_1_CentimeGo_Payment_homepage_no_verify_entitlement_company_not_verified-Copy" transform="translate(0.000000, -64.000000)">
+            <g id="Background-Final" transform="translate(0.000000, 64.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g mask="url(#mask-2)">
+                    <g transform="translate(-20.000000, -104.000000)">
+                        <g id="horizon-copy-3" stroke-width="1" fill="none">
+                            <rect id="Rectangle" fill="url(#linearGradient-3)" transform="translate(754.000000, 125.500000) rotate(180.000000) translate(-754.000000, -125.500000) " x="21" y="15" width="1466" height="221"></rect>
+                            <g id="horizon">
+                                <path d="M19.1703699,87.3288151 C393.880126,104.658385 698.86738,127.299189 934.132133,155.251227 C1169.39689,183.203265 1442.80723,131.452856 1754.36317,0 L1602.87669,235.649184 L0,235.649184 L19.1703699,87.3288151 Z" id="Path-3" fill="url(#linearGradient-4)" style="mix-blend-mode: multiply;" opacity="0.105492001"></path>
+                                <path d="M38.7111793,139.654811 C513.51859,136.814977 880.384676,107.626688 1139.30944,52.0899436 C1398.2342,-3.44680099 1709.46439,48.1401751 2073,206.850872 L1874.9124,235.649184 L19.1703699,235.649184 L38.7111793,139.654811 Z" id="Path-11" fill="url(#linearGradient-5)" style="mix-blend-mode: multiply;" opacity="0.10500372"></path>
+                                <g id="Path-13" transform="translate(19.170370, 15.247888)">
+                                    <mask id="mask-7" fill="white">
+                                        <use xlink:href="#path-6"></use>
+                                    </mask>
+                                    <g id="Mask"></g>
+                                    <path d="M-156.142944,109.12139 C298.444817,109.945104 705.682884,155.249378 1065.57126,245.034211 C1425.45963,334.819044 988.066941,342.232471 -246.606812,267.274491 L-156.142944,109.12139 Z" fill="url(#linearGradient-8)" style="mix-blend-mode: multiply;" opacity="0.116420201" mask="url(#mask-7)"></path>
+                                </g>
+                            </g>
+                        </g>
+                        <path d="M21,213.4065 C569.285174,166.811153 831.416576,280.222469 1473,213.4065 L1473,748.813414 L21,748.813414 L21,213.4065 Z" id="Rectangle" fill="url(#linearGradient-9)"></path>
+                        <path d="M20,748.813414 C279.636387,713.545285 492.124422,713.545285 657.464104,748.813414 C822.803786,784.081542 1099.42023,826.54835 1487.31342,876.213837 L948.343407,880.213837 L20,880.213837 L20,748.813414 Z" id="Path-10-Copy-2" fill="url(#linearGradient-10)" style="mix-blend-mode: multiply;" opacity="0.243263993" transform="translate(753.656710, 801.288077) scale(-1, 1) translate(-753.656710, -801.288077) "></path>
+                        <rect id="Rectangle" fill="#D0F3FF" style="mix-blend-mode: color;" x="20" y="21" width="1453" height="701"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

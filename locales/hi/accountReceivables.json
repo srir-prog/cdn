@@ -302,5 +302,15 @@
     "InternalNotificationsRecipientProfile": "आंतरिक सूचनाएं प्राप्तकर्ता प्रोफ़ाइल",
     "ReceivablesPanel": "प्राप्तियों",
     "usuallyPaysLate": "आमतौर पर देर से भुगतान करता है",
-    "usuallyPaysEarly": "आमतौर पर जल्दी भुगतान करता है"
+    "usuallyPaysEarly": "आमतौर पर जल्दी भुगतान करता है",
+    "paid": "भुगतान चालान",
+    "unPaid": "अवैतनिक चालान",
+    "PaymentStatusMessageEstimatedToPay": "चालान ने भुगतान करने का अनुमान लगाया है",
+    "highConfidence": "उच्च आत्मविश्वास",
+    "mediumConfidence": "मध्यम आत्मविश्वास",
+    "sendReceipt": "रसीद भेजें",
+    "post": "पद",
+    "paymentAmount" : "भुगतान राशि",
+    "paymentMethod": "भुगतान का तरीका",
+    "paymentDate" : "भुगतान तिथि"
 }
