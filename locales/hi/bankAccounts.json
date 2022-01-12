@@ -161,7 +161,6 @@
     "amountPercent": "राशि/प्रतिशत",
     "percentageQuantity": "प्रतिशत मात्रा",
     "addATrend": "एक प्रवृत्ति जोड़ें",
-    "addATrend": "एक प्रवृत्ति जोड़ें",
     "WEEKLY": "प्रति सप्ताह",
     "MONTHLY": "हर महीने",
     "QUARTERLY": "हर तिमाही",
@@ -193,5 +192,11 @@
     "INVESTING": "निवेश से नकदी प्रवाह",
     "FINANCING": "वित्त पोषण से नकदी प्रवाह",
     "cashIn": "नकद में",
-    "cashOut": "नकदी निकलना"
+    "cashOut": "नकदी निकलना",
+    "selectEligibleAccounts":"योग्य खातों का चयन करें",
+    "selectionConfirmation":"कृपया चुनें कि आप सेंटीम में कौन से खाते देखना चाहते हैं" ,
+    "areYouSureYouWantToExit":"क्या आप निश्चित हैं आपकी बाहर निकलने की इच्छा है?",
+    "notAddedInCentime":"{{institionNames}} से आपके खाते की जानकारी Centime . में नहीं जोड़ी जाएगी",
+    "commonFailureMsg":"वित्तीय संस्थान से खाते जोड़ते समय एक समस्या हुई. कृपया केंद्र सहायता से संपर्क करें।",
+    "noAccount": "कोई सामान्य खाता बही नहीं\nइस बैंक खाते से जुड़े"
 }
