@@ -174,5 +174,6 @@
     "rejectedBy": "द्वारा अस्वीकृत किया गया",
     "reason": "कारण",
     "generalLedgerPostStatus": "सामान्य लेजर पोस्ट की स्थिति",
-    "remittance": "प्रेषण"
+    "remittance": "प्रेषण",
+    "checkNumber": "चेक की संख्या"
 }

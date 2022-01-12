@@ -177,5 +177,6 @@
     "rejectedBy": "Rejected by",
     "reason": "Reason",
     "generalLedgerPostStatus": "General Ledger post status",
-    "remittance": "Remittance"
+    "remittance": "Remittance",
+    "checkNumber": "Check Number"
 }
