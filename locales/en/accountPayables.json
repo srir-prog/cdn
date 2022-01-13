@@ -178,5 +178,6 @@
     "reason": "Reason",
     "generalLedgerPostStatus": "General Ledger post status",
     "remittance": "Remittance",
-    "checkNumber": "Check Number"
+    "checkNumber": "Check Number",
+    "posted": "Posted"
 }

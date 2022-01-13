@@ -175,5 +175,6 @@
     "reason": "कारण",
     "generalLedgerPostStatus": "सामान्य लेजर पोस्ट की स्थिति",
     "remittance": "प्रेषण",
-    "checkNumber": "चेक की संख्या"
+    "checkNumber": "चेक की संख्या",
+    "posted": "पोस्ट किया गया"
 }
