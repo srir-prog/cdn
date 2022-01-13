@@ -179,5 +179,6 @@
     "generalLedgerPostStatus": "General Ledger post status",
     "remittance": "Remittance",
     "checkNumber": "Check Number",
-    "posted": "Posted"
+    "posted": "Posted",
+    "remittanceEmail": "Sent to {{email}}"
 }
