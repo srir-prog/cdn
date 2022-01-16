@@ -182,5 +182,6 @@
     "payFromAccount": "Pay from account",
     "payToAccount": "Pay to account",
     "type": "Type",
-    "noneSpecified": "None specified"
+    "noneSpecified": "None specified",
+    "phoneNumber": "Phone number"
 }
