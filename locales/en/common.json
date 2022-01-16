@@ -180,5 +180,7 @@
     "nameOnCheck": "Name on check",
     "mailingAddress": "Mailing address",
     "payFromAccount": "Pay from account",
-    "payToAccount": "Pay to account"
+    "payToAccount": "Pay to account",
+    "type": "Type",
+    "noneSpecified": "None specified"
 }
