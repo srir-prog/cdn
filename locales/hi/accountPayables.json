@@ -177,5 +177,7 @@
     "remittance": "प्रेषण",
     "checkNumber": "चेक की संख्या",
     "posted": "पोस्ट किया गया",
-    "remittanceEmail": "{{email}} को भेजा "
+    "remittanceEmail": "{{email}} को भेजा",
+    "voidingInProcess": "अतिरिक्त प्रक्रिया में",
+    "postingInProcess": "पोस्टिंग प्रक्रिया में"
 }
