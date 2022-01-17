@@ -181,5 +181,6 @@
     "payFromAccount": "खाते से भुगतान",
     "payToAccount": "खाते में भुगतान करें",
     "type": "प्रकार",
-    "noneSpecified": "कुछ भी निर्दिष्ट नहीं"
+    "noneSpecified": "कुछ भी निर्दिष्ट नहीं",
+    "phoneNumber": "फ़ोन नंबर"
 }
