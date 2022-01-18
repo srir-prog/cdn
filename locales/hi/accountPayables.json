@@ -92,6 +92,9 @@
     "ChooseAReason": "कोई कारण चुनें",
     "RecallPayments": "रिकॉल पेमेंट्स",
     "PayablesInfo" : "आपूर्तिकर्ता भुगतानों को शेड्यूल, अधिकृत और निष्पादित करें",
+    "PaymentMethodNotActivated": "{{PaymentMethod}} भुगतान सक्रिय नहीं किए गए हैं। उन्हें सेट करने में सहायता के लिए, कृपया चैट बबल का उपयोग करें",
+    "HistoryActionPaymentDateChanged": "भुगतान दिनांक परिवर्तित",
+    "HistoryActionPaymentAmountChanged": "भुगतान राशि परिवर्तित",
     "HistoryActionPaymentScheduled": "भुगतान शेड्यूल किया गया",
     "HistoryActionPaymentScheduledBy": "भुगतान शेड्यूल किया गया",
     "HistoryActionPaymentApproved": "भुगतान स्वीकृत",
@@ -171,5 +174,10 @@
     "rejectedBy": "द्वारा अस्वीकृत किया गया",
     "reason": "कारण",
     "generalLedgerPostStatus": "सामान्य लेजर पोस्ट की स्थिति",
-    "remittance": "प्रेषण"
+    "remittance": "प्रेषण",
+    "checkNumber": "चेक की संख्या",
+    "posted": "पोस्ट किया गया",
+    "remittanceEmail": "{{email}} को भेजा",
+    "voidingInProcess": "अतिरिक्त प्रक्रिया में",
+    "postingInProcess": "पोस्टिंग प्रक्रिया में"
 }

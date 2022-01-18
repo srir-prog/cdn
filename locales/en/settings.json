@@ -286,5 +286,7 @@
     "inflowOutflow":"Inflow/Outflow",
     "inflows":"Inflows",
     "groupsTable":"Groups table",
-    "cashFlowTable":"Cash flow types table"
+    "cashFlowTable":"Cash flow types table",
+    "cashFlowCategoryDropdown":"Cash flow category drop down",
+    "cashFlowTypesDropdown":"Cash flow types drop down"
 }

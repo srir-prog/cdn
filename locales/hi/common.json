@@ -108,8 +108,6 @@
     "CardDetails": "कार्ड के विवरण",
     "EnterSupplierWebsite": "आपूर्तिकर्ता वेबसाइट दर्ज करें",
     "LimitPaymentAmount": "भुगतान राशि सीमित करें",
-    "NameOnCheck": "चेक पर नाम",
-    "MailingAddress": "डाक पता",
     "FundingAccount": "फंडिंग अकाउंट",
     "DifferentAddressOption": "प्राथमिक कंपनी के पते से भिन्न पते का उपयोग करें",
     "AccountNumber": "खाता संख्या",
@@ -174,5 +172,16 @@
     "chooseAFilter": "एक फ़िल्टर चुनें",
     "chooseAction": "लागू करने के लिए कार्रवाई चुनें",
     "success": "सफलता",
-    "centimeCardLogo": "केंद्र-कार्ड-लोगो"
+    "centimeCardLogo": "केंद्र-कार्ड-लोगो",
+    "historyActionSupplierElectronicPaymentEnabled": "इलेक्ट्रॉनिक भुगतान नामांकन सेटिंग अपडेट की गई",
+    "electronicPaymentEnabledTooltip": "हम क्रेडिट कार्ड के माध्यम से भुगतान प्राप्त करने के लिए आपूर्तिकर्ताओं से संपर्क करेंगे और ए सी एच के माध्यम से भुगतान करने के लिए खाता विवरण प्राप्त करेंगे।",
+    "historyActionCustomerProfileUpdated": "ग्राहक प्रोफ़ाइल अपडेट की गई",
+    "nameOnCheck": "चेक पर नाम",
+    "mailingAddress": "डाक पता",
+    "payFromAccount": "खाते से भुगतान",
+    "payToAccount": "खाते में भुगतान करें",
+    "type": "प्रकार",
+    "noneSpecified": "कुछ भी निर्दिष्ट नहीं",
+    "phoneNumber": "फ़ोन नंबर",
+    "checkPaymentsNotActive": "चेक भुगतान सक्रिय नहीं किया गया है। उन्हें स्थापित करने में सहायता के लिए, कृपया चैट बबल का उपयोग करें"
 }

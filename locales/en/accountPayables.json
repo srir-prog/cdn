@@ -95,6 +95,8 @@
     "RecallPayments": "Recall payments",
     "PayablesInfo" : "Schedule, authorize and execute supplier payments",
     "PaymentMethodNotActivated": "{{PaymentMethod}} payments have not been activated. For help setting them up, please use the chat bubble",
+    "HistoryActionPaymentDateChanged": "Payment date changed",
+    "HistoryActionPaymentAmountChanged": "Payment amount changed",
     "HistoryActionPaymentScheduled": "Payment scheduled",
     "HistoryActionPaymentScheduledBy": "Payment scheduled",
     "HistoryActionPaymentApproved": "Payment approved",
@@ -175,5 +177,10 @@
     "rejectedBy": "Rejected by",
     "reason": "Reason",
     "generalLedgerPostStatus": "General Ledger post status",
-    "remittance": "Remittance"
+    "remittance": "Remittance",
+    "checkNumber": "Check Number",
+    "posted": "Posted",
+    "remittanceEmail": "Sent to {{email}}",
+    "voidingInProcess": "Voiding in process",
+    "postingInProcess": "Posting in process"
 }
