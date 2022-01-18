@@ -182,5 +182,9 @@
     "posted": "Posted",
     "remittanceEmail": "Sent to {{email}}",
     "voidingInProcess": "Voiding in process",
-    "postingInProcess": "Posting in process"
+    "postingInProcess": "Posting in process",
+    "markedPaid": "Marked Paid",
+    "paidInGeneralLedger": "Paid in General Ledger",
+    "userActionNeeded": "User Action Needed",
+    "inProcess": "In Process"
 }

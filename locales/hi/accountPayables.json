@@ -179,5 +179,9 @@
     "posted": "पोस्ट किया गया",
     "remittanceEmail": "{{email}} को भेजा",
     "voidingInProcess": "अतिरिक्त प्रक्रिया में",
-    "postingInProcess": "पोस्टिंग प्रक्रिया में"
+    "postingInProcess": "पोस्टिंग प्रक्रिया में",
+    "markedPaid": "चिह्नित भुगतान",
+    "paidInGeneralLedger": "सामान्य लेजर में भुगतान किया गया",
+    "userActionNeeded": "उपयोगकर्ता कार्रवाई की आवश्यकता",
+    "inProcess": "इस प्रक्रिया में"
 }
