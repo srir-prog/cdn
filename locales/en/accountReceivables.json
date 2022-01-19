@@ -313,6 +313,13 @@
     "usuallyPaysLate": "Usually pays late",
     "usuallyPaysEarly": "Usually pays early",
     "paid": "Paid Invoices",
-    "unPaid": "Invoices",
-    "PaymentStatusMessageEstimatedToPay": "The invoice has estimated to pay set"
+    "unPaid": "Unpaid Invoices",
+    "PaymentStatusMessageEstimatedToPay": "The invoice has estimated to pay set",
+    "highConfidence": "High confidence",
+    "mediumConfidence": "Medium confidence",
+    "sendReceipt": "Send Receipt",
+    "post": "Post",
+    "paymentAmount" : "Payment amount",
+    "paymentMethod": "Payment method",
+    "paymentDate" : "Payment date"
 }
