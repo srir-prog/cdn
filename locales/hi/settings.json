@@ -293,5 +293,15 @@
     "groupsTable":"समूह तालिका",
     "cashFlowTable":"नकदी प्रवाह प्रकार तालिका",
     "cashFlowCategoryDropdown":"नकदी प्रवाह श्रेणी ड्रॉप डाउन",
-    "cashFlowTypesDropdown":"नकदी प्रवाह के प्रकार नीचे गिरते हैं"
+    "cashFlowTypesDropdown":"नकदी प्रवाह के प्रकार नीचे गिरते हैं",
+    "deleteCffGroupWithGroups":"असाइन किए गए कैशफ़्लो को 'अन्य' समूह को पुन: असाइन किया जाएगा",
+    "deleteCffGroupWithNoGroups":"क्या आप वाकई इस कैशफ़्लो समूह को हटाना चाहते हैं",
+    "cashFlowGroupsFailure":"कैशफ्लो समूह नहीं ला सकते",
+    "groupsDropDown":"समूह ड्रॉप डाउन",
+    "choose":"चुनना",
+    "selectGroup":"समूह चुनें",
+    "inflowGroupsTable":"अंतर्वाह समूह तालिका बदलें",
+    "outflowGroupsTable":"बहिर्वाह समूह तालिका बदलें",
+    "groupInflows":"समूह प्रवाह",
+    "groupOutflows":"समूह बहिर्वाह"
 }
