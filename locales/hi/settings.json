@@ -303,5 +303,8 @@
     "inflowGroupsTable":"अंतर्वाह समूह तालिका बदलें",
     "outflowGroupsTable":"बहिर्वाह समूह तालिका बदलें",
     "groupInflows":"समूह प्रवाह",
-    "groupOutflows":"समूह बहिर्वाह"
+    "groupOutflows":"समूह बहिर्वाह",
+    "creditCardPayments":"क्रेडिट कार्ड भुगतान",
+    "creditCard":"क्रेडिट कार्ड",
+    "inactiveCreditCard":"क्रेडिट कार्ड भुगतान सक्रिय नहीं किया गया है। उन्हें स्थापित करने में सहायता के लिए, कृपया चैट बबल का उपयोग करें"
 }
