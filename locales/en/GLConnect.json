@@ -148,7 +148,6 @@
     "RetryAgain": "Error connecting to your General Ledger. Try again using the button below or get support from our team using the chat bubble.",
     "TryAgain": "Try Again",
     "ResendCodeTimerMsg": "Resend in {{count}} sec",
-    "TooManyOTPRequests": "Too many requests, please try again after 15 min",
     "NameTheEntity": "Name the business entity",
     "SpecifyConfiguration": "Specify configuration",
     "InviteMailSuccessful": "Invite sent successfully",
