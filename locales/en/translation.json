@@ -141,7 +141,7 @@
     "nWeeks": "{{value}} weeks",
     "ChartIcon": "Chart icon",
     "Update": "Update",
-    "Payment": "Centime Products",
+    "Payment": "Payment",
     "transactionNameDuplicate": "Transaction name already exists",
     "copyInviteLink":"Copy invite link",
     "quarterToDate" : "Quarter to date",
@@ -153,5 +153,6 @@
     "transactionsTableDefaultHeaderPrefix": "All transactions from",
     "invoicesTableDefaultHeaderPrefix": "All invoices due between",
     "networkErrorMessage": "We are sorry ! We are facing some technical issues, Please try again later",
-    "EntityDropdown": "Entity Dropdown"
+    "EntityDropdown": "Entity Dropdown",
+    "CentimeProduct": "Centime Products"
 }

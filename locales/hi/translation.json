@@ -140,7 +140,7 @@
     "Edit":"संपादित करें",
     "nWeeks": "{{value}} हफ्तों",
     "ChartIcon": "चार्ट आइकन",
-    "Payment": "Centime उत्पादों",
+    "Payment": "भुगतान",
     "copyInviteLink":"कॉपी आमंत्रण लिंक",
     "quarterToDate" : "तिमाही से आज तक",
     "yearToDate" : "साल से दिन",
@@ -151,6 +151,7 @@
     "transactionsTableDefaultHeaderPrefix": "से सभी लेनदेन",
     "invoicesTableDefaultHeaderPrefix": "के बीच सभी चालान",
     "networkErrorMessage": "हमें खेद है ! हमें कुछ तकनीकी समस्याओं का सामना करना पड़ रहा है, कृपया बाद में पुनः प्रयास करें",
-    "EntityDropdown": "इकाई ड्रॉपडाउन"
+    "EntityDropdown": "इकाई ड्रॉपडाउन",
+    "CentimeProduct": "Centime उत्पादों"
 }
 
