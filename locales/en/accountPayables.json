@@ -25,7 +25,7 @@
     "ChooseAFilter": "Choose a filter",
     "ChooseAction": "Choose action to apply",
     "Filters": "Filters",
-    "ReadyToPay":"Ready to Pay",
+    "ReadyToPay":"Ready to pay",
     "AwaitingForApproval": "Awaiting approval",
     "Rejected": "Rejected",
     "Scheduled": "Scheduled",
@@ -182,5 +182,9 @@
     "posted": "Posted",
     "remittanceEmail": "Sent to {{email}}",
     "voidingInProcess": "Voiding in process",
-    "postingInProcess": "Posting in process"
+    "postingInProcess": "Posting in process",
+    "markedPaid": "Marked paid",
+    "paidInGeneralLedger": "Paid in General Ledger",
+    "userActionNeeded": "User action needed",
+    "inProcess": "In process"
 }
