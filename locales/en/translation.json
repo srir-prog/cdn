@@ -152,5 +152,7 @@
     "enterEmailPlaceHolder": "Enter Email",
     "transactionsTableDefaultHeaderPrefix": "All transactions from",
     "invoicesTableDefaultHeaderPrefix": "All invoices due between",
-    "networkErrorMessage": "We are sorry ! We are facing some technical issues, Please try again later"
+    "networkErrorMessage": "We are sorry ! We are facing some technical issues, Please try again later",
+    "CentimeProduct": "Centime Products",
+    "EntityDropdown": "Entity Dropdown"
 }
