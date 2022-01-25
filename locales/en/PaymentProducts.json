@@ -58,5 +58,11 @@
   "securityPolicy": "Our Security Policy",
   "defaultCreditCard": "Make this the default account for credit cards",
   "CREDIT_CARD": "Credit Cards",
-  "cardValidation": "Please make sure you are activating the same card that its connected in your Financial Institute"
+  "cardValidation": "Please make sure you are activating the same card that its connected in your Financial Institute",
+  "cardActivationSuccess": "Your credit card is now active and you can use it to:",
+  "cardActivation": "<ourLink></ourLink> to know how to use your credit card in Centime and its benefits",
+  "cardSuccess": "Pay card-accepting Suppliers.",
+  "BFCSuccess": "Pay any Supplier. Centime will simply use your credit card \nas the source and pay suppliers by ACH.",
+  "defaultCheckLabel": "Make this the default account for check",
+  "defaultCreditCardLabel": "Make this the default account for credit cards"
 }
