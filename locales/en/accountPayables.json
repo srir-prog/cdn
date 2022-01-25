@@ -187,5 +187,6 @@
     "markedPaid": "Marked paid",
     "paidInGeneralLedger": "Paid in General Ledger",
     "userActionNeeded": "User action needed",
-    "inProcess": "In process"
+    "inProcess": "In process",
+    "invoicePostingFailed": "Invoice posting failed"
 }
