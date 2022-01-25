@@ -192,5 +192,6 @@
     "enterAddressLine":"गली/मकान नंबर दर्ज करें",
     "enterCity":"शहर दर्ज करें",
     "enterZip":"ज़िप दर्ज करें",
-    "selectAState":"एक राज्य का चयन करें"
+    "selectAState":"एक राज्य का चयन करें",
+    "enterState":"राज्य दर्ज करें"
 }

@@ -193,5 +193,6 @@
     "enterAddressLine":"Enter street/house no",
     "enterCity":"Enter city",
     "enterZip":"Enter zip",
-    "selectAState":"Select a state"
+    "selectAState":"Select a state",
+    "enterState":"Enter state"
 }
