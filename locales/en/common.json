@@ -180,5 +180,9 @@
     "nameOnCheck": "Name on check",
     "mailingAddress": "Mailing address",
     "payFromAccount": "Pay from account",
-    "payToAccount": "Pay to account"
+    "payToAccount": "Pay to account",
+    "type": "Type",
+    "noneSpecified": "None specified",
+    "phoneNumber": "Phone number",
+    "checkPaymentsNotActive": "Check payments have not been activated. For help setting them up, please use the chat bubble"
 }

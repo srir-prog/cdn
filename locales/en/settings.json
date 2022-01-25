@@ -288,5 +288,19 @@
     "groupsTable":"Groups table",
     "cashFlowTable":"Cash flow types table",
     "cashFlowCategoryDropdown":"Cash flow category drop down",
-    "cashFlowTypesDropdown":"Cash flow types drop down"
+    "cashFlowTypesDropdown":"Cash flow types drop down",
+    "deleteCffGroupWithGroups":"Assigned cashflows will be reassigned to ‘other’ group",
+    "deleteCffGroupWithNoGroups":"Are you sure you want to delete this Cashflow group",
+    "cashFlowGroupsFailure":"Cannot fetch Cashflow groups",
+    "groupsDropDown":"groups drop down",
+    "choose":"Choose",
+    "selectGroup":"select group",
+    "inflowGroupsTable":"Change Inflow groups table",
+    "outflowGroupsTable":"Change outflow groups table",
+    "groupInflows":"Group inflows",
+    "groupOutflows":"Group outflows",
+    "changeGroupModal":"Change group modal",
+    "creditCardPayments":"Credit card payments",
+    "creditCard":"Credit card",
+    "inactiveCreditCard":"Credit card payments have not been activated. For help setting them up, please use the chat bubble"
 }

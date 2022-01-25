@@ -179,5 +179,9 @@
     "nameOnCheck": "चेक पर नाम",
     "mailingAddress": "डाक पता",
     "payFromAccount": "खाते से भुगतान",
-    "payToAccount": "खाते में भुगतान करें"
+    "payToAccount": "खाते में भुगतान करें",
+    "type": "प्रकार",
+    "noneSpecified": "कुछ भी निर्दिष्ट नहीं",
+    "phoneNumber": "फ़ोन नंबर",
+    "checkPaymentsNotActive": "चेक भुगतान सक्रिय नहीं किया गया है। उन्हें स्थापित करने में सहायता के लिए, कृपया चैट बबल का उपयोग करें"
 }
