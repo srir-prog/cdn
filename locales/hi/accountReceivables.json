@@ -79,7 +79,7 @@
     "PauseCampaign": "अभियान को रोकें",
     "StartCampaign": "अभियान शुरू करें",
     "CampaignToolTipInvoice": "वर्तमान चालान के लिए अभियान रोका जा सकता है और फिर से शुरू किया जा सकता है",
-    "CampaignToolTipBuyer": "Campaigns can be paused and resumed for the customer. This action will impact all invoice campaigns of this customer",
+    "CampaignToolTipBuyer": "ग्राहक के लिए अभियानों को रोका और फिर से शुरू किया जा सकता है। यह कार्रवाई इस ग्राहक के सभी चालान अभियानों को प्रभावित करेगी",
     "InvoiceDate": "चालान की तारीख",
     "invoiceAmount": "बीजक राशि",
     "PaymentTerms": "भुगतान की शर्तें",

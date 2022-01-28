@@ -331,5 +331,6 @@
     "paymentMethodPlaceholder":"<payment.method>",
     "paymentLink" : "Payment link",
     "genPaymentLink" : "Generate Payment Link",
-    "paymentLinkPlaceholder" : "<payment.link>"
+    "paymentLinkPlaceholder" : "<payment.link>",
+    "Expiry" : "Expiry: {{date}} "
 }
