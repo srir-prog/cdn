@@ -126,6 +126,8 @@
     "CardWillRemainActiveUntil": "For security reasons, the card will only remain active until {{validUntil}}",
     "NoActivePaymentMethods": "To continue, you must activate payment methods. Please use the chat bubble to get help setting them up.",
     "NoApprovalPolicyDefined": "Approvers have not been defined. Please contact the account administrator.",
+    "noCardOnFile": "You need a valid card-on-file in order to make payments. Please <ourLink>ClickHere</ourLink> to securely update your credit card.",
+    "ClickHere": "Click Here",
     "checkPrintingInProcess": "Check printing in process",
     "cardInformationSent": "Card information sent",
     "checkMailed": "Check mailed",
