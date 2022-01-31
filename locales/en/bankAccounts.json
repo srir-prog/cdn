@@ -217,5 +217,11 @@
     "name": "Name",
     "group": "Group",
     "type": "Type",
-    "overdueAmount": "Overdue amount"
+    "overdueAmount": "Overdue amount",
+    "CfCategoryValue": "Cash flow category",
+    "ForecastTotal": "Forecast total",
+    "OverdueAmount": "Overdue amount",
+    "SourceName": "Source name",
+    "GroupName": "Group name",
+    "SupplierType": "Supplier type"
 }
