@@ -200,5 +200,6 @@
     "surCharge": "अधिभार",
     "cardDetails": "कार्ड के विवरण",
     "payDirectlyOnSupplierWebsite": "आपूर्तिकर्ता की वेबसाइट पर सीधे भुगतान करें",
-    "centimeWillShareCardDetailsWithSupplier": "सांटीम आपूर्तिकर्ता के साथ कार्ड विवरण साझा करेंगे"
+    "centimeWillShareCardDetailsWithSupplier": "सांटीम आपूर्तिकर्ता के साथ कार्ड विवरण साझा करेंगे",
+    "creditCardPaymentsNotActive": "क्रेडिट कार्ड भुगतान सक्रिय नहीं किया गया है। उन्हें स्थापित करने में सहायता के लिए, कृपया चैट बबल का उपयोग करें"
 }

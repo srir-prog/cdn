@@ -201,5 +201,6 @@
     "surCharge": "Surcharge",
     "cardDetails": "Card details",
     "payDirectlyOnSupplierWebsite": "Pay directly on supplier website",
-    "centimeWillShareCardDetailsWithSupplier": "Centime will share card details with supplier"
+    "centimeWillShareCardDetailsWithSupplier": "Centime will share card details with supplier",
+    "creditCardPaymentsNotActive": "Credit card payments have not been activated. For help setting them up, please use the chat bubble"
 }
