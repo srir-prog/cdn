@@ -194,5 +194,12 @@
     "enterCity":"Enter city",
     "enterZip":"Enter zip",
     "selectAState":"Select a state",
-    "enterState":"Enter state"
+    "enterState":"Enter state",
+    "historyActionSupplierCreditCardPayment": "Credit card payment setting updated",
+    "supplierWebsite": "Supplier website",
+    "paymentLimit": "Payment limit",
+    "surCharge": "Surcharge",
+    "cardDetails": "Card details",
+    "payDirectlyOnSupplierWebsite": "Pay directly on supplier website",
+    "centimeWillShareCardDetailsWithSupplier": "Centime will share card details with supplier"
 }
