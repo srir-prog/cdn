@@ -193,5 +193,13 @@
     "enterCity":"शहर दर्ज करें",
     "enterZip":"ज़िप दर्ज करें",
     "selectAState":"एक राज्य का चयन करें",
-    "enterState":"राज्य दर्ज करें"
+    "enterState":"राज्य दर्ज करें",
+    "historyActionSupplierCreditCardPayment": "क्रेडिट कार्ड भुगतान सेटिंग अपडेट की गई",
+    "supplierWebsite": "आपूर्तिकर्ता वेबसाइट",
+    "paymentLimit": "भुगतान सीमा",
+    "surCharge": "अधिभार",
+    "cardDetails": "कार्ड के विवरण",
+    "payDirectlyOnSupplierWebsite": "आपूर्तिकर्ता की वेबसाइट पर सीधे भुगतान करें",
+    "centimeWillShareCardDetailsWithSupplier": "सांटीम आपूर्तिकर्ता के साथ कार्ड विवरण साझा करेंगे",
+    "creditCardPaymentsNotActive": "क्रेडिट कार्ड भुगतान सक्रिय नहीं किया गया है। उन्हें स्थापित करने में सहायता के लिए, कृपया चैट बबल का उपयोग करें"
 }
