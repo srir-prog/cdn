@@ -71,6 +71,7 @@
     "Card": "कार्ड",
     "ACH": "एसीएच",
     "Check": "जाँच",
+    "FXPayment": "एफएक्स भुगतान",
     "OfflinePayment": "ऑफ़लाइन भुगतान",
     "PostToGLAccount": "GL खाते में पोस्ट करें",
     "clickHere": "यहां क्लिक करें",
@@ -80,10 +81,12 @@
     "ApprovalSuccess": "{{totalInvoicesCount}} चालानों में से {{successfulInvoicesCount}} के लिए भुगतान सफलतापूर्वक स्वीकृत",
     "RejectionSuccess": "{{totalInvoicesCount}} चालानों में से {{successfulInvoicesCount}} के लिए भुगतान सफलतापूर्वक अस्वीकृत",
     "RecallSuccess": "{{totalInvoicesCount}} चालानों में से {{successfulInvoicesCount}} का भुगतान सफलतापूर्वक वापस ले लिया गया",
+    "PostingSuccess": "{{totalInvoicesCount}} चालानों में से {{successfulInvoicesCount}} का भुगतान सफलतापूर्वक पोस्ट किया गया",
     "SentToApprovalFailure": "{{billsCount}} इनवॉइस के लिए भुगतान शेड्यूल करने में एक समस्या का सामना करना पड़ा। कृपया फिर से प्रयास करें",
     "ApprovalFailure": "{{billsCount}} इनवॉइस के भुगतान को मंज़ूरी देने में एक समस्या आई थी। कृपया फिर से कोशिश करें",
     "RejectFailure": "{{billsCount}} चालानों के भुगतान को अस्वीकार करने में एक समस्या का सामना करना पड़ा। कृपया पुन: प्रयास करें",
     "RecallFailure": "{{billsCount}} इनवॉइस के लिए भुगतान वापस लेने में एक समस्या का सामना करना पड़ा। कृपया फिर से प्रयास करें",
+    "PostingFailure": "{{billsCount}} इनवॉइस के लिए भुगतान पोस्ट करने में एक समस्या आई थी। कृपया पुन: प्रयास करें",
     "ConfirmPayment": "भुगतान की पुष्टि करें",
     "ConfirmApproval": "अनुमोदन की पुष्टि करें",
     "PaymentDateHasPassed": "भुगतान दिनांक बीत चुका है",
@@ -91,6 +94,8 @@
     "Reason": "कारण",
     "ChooseAReason": "कोई कारण चुनें",
     "RecallPayments": "रिकॉल पेमेंट्स",
+    "PostPayments": "पोस्ट पेमेंट्स",
+    "inputFxPayments": "आगे बढ़ने के लिए कृपया FX दर इनपुट करें",
     "PayablesInfo" : "आपूर्तिकर्ता भुगतानों को शेड्यूल, अधिकृत और निष्पादित करें",
     "PaymentMethodNotActivated": "{{PaymentMethod}} भुगतान सक्रिय नहीं किए गए हैं। उन्हें सेट करने में सहायता के लिए, कृपया चैट बबल का उपयोग करें",
     "HistoryActionPaymentDateChanged": "भुगतान दिनांक परिवर्तित",
@@ -185,5 +190,6 @@
     "paidInGeneralLedger": "सामान्य लेजर में भुगतान किया गया",
     "userActionNeeded": "उपयोगकर्ता कार्रवाई की आवश्यकता",
     "inProcess": "इस प्रक्रिया में",
-    "invoicePostingFailed": "चालान पोस्टिंग विफल"
+    "invoicePostingFailed": "चालान पोस्टिंग विफल",
+    "exchangeRate": "विनिमय दर"
 }
