@@ -81,7 +81,7 @@
     "ApprovalSuccess": "{{totalInvoicesCount}} चालानों में से {{successfulInvoicesCount}} के लिए भुगतान सफलतापूर्वक स्वीकृत",
     "RejectionSuccess": "{{totalInvoicesCount}} चालानों में से {{successfulInvoicesCount}} के लिए भुगतान सफलतापूर्वक अस्वीकृत",
     "RecallSuccess": "{{totalInvoicesCount}} चालानों में से {{successfulInvoicesCount}} का भुगतान सफलतापूर्वक वापस ले लिया गया",
-    "PostingSuccess": "{{totalInvoicesCount}} चालानों में से {{successfulInvoicesCount}} का भुगतान सफलतापूर्वक पोस्ट किया गया",
+    "PostingSuccess": "चयनित इनवॉइस के लिए भुगतान सामान्य लेज़र में पोस्ट किए जाएंगे",
     "SentToApprovalFailure": "{{billsCount}} इनवॉइस के लिए भुगतान शेड्यूल करने में एक समस्या का सामना करना पड़ा। कृपया फिर से प्रयास करें",
     "ApprovalFailure": "{{billsCount}} इनवॉइस के भुगतान को मंज़ूरी देने में एक समस्या आई थी। कृपया फिर से कोशिश करें",
     "RejectFailure": "{{billsCount}} चालानों के भुगतान को अस्वीकार करने में एक समस्या का सामना करना पड़ा। कृपया पुन: प्रयास करें",
