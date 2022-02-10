@@ -293,6 +293,8 @@
     "SenderSignaturePlaceholder": "<sender signature>",
     "EnterEmail": "Enter email",
     "EnableCommunications": "Please set an email to enable all communications",
+    "noCardOnFile": "You need a valid card-on-file in order to receive payments via CentimePay. Please <ourLink>ClickHere</ourLink> to securely update your credit card",
+    "ClickHere": "Click Here",
     "TotalOutstandingPlaceholder": "<total outstanding>",
     "TotalOverduePlaceholder": "<total overdue>",
     "InvoiceNumberPlaceholder": "<invoice number>",
