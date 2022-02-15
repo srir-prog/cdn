@@ -23,5 +23,7 @@
   "SampleLoremText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
   "PageNotFoundDesc": "The page you are trying to reach could not be found. Please click the link below to go back to the login page. If the problem persists please contact our team via the chat bubble.",
   "SandboxGettingReady": "We need some time to create your sandbox. Please try accessing the modules in a few minutes.",
+  "NetSuiteNonAdminConnectInfo1": "Connecting your Netsuite instance to Centime can only be performed by your Account Administrator. Please ask your Netsuite Account Administrator to sign up and connect your Netsuite instance to Centime.",
+  "NetSuiteNonAdminConnectHeader": "Not authorised to connect !",
   "WrongSubDomain": "Please try logging through your other subdomain."
 }
