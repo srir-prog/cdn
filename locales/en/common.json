@@ -204,5 +204,6 @@
     "centimeWillShareCardDetailsWithSupplier": "Centime will share card details with supplier",
     "creditCardPaymentsNotActive": "Credit card payments have not been activated. For help setting them up, please use the chat bubble",
     "otherPaymentsNotActive": "Other payments have not been activated. For help setting them up, please use the chat bubble",
-    "historyActionSupplierOtherPayment": "Other payment setting updated"
+    "historyActionSupplierOtherPayment": "Other payment setting updated",
+    "historyActionSupplierFXPayment": "FX payment setting updated"
 }
