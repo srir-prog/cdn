@@ -1,5 +1,6 @@
 {
     "Payables": "देयताएँ",
+    "PayablesPanel": "देयताएँ",
     "Suppliers": "आपूर्तिकर्ता",
     "UnpaidInvoices": "अवैतनिक चालान",
     "PaidInvoices": "भुगतान किए गए चालान",
@@ -193,5 +194,19 @@
     "invoicePostingFailed": "चालान पोस्टिंग विफल",
     "exchangeRate": "विनिमय दर",
     "activateCard": "कार्ड सक्रिय करें",
-    "processThePaymentAndMarkAsPaid": "भुगतान की प्रक्रिया करें और सामान्य लेज़र को भुगतान विवरण पोस्ट करने के लिए चालान को भुगतान के रूप में चिह्नित करें"
+    "processThePaymentAndMarkAsPaid": "भुगतान की प्रक्रिया करें और सामान्य लेज़र को भुगतान विवरण पोस्ट करने के लिए चालान को भुगतान के रूप में चिह्नित करें",
+    "MarkPaid": "मार्क पेड",
+    "PayFromAccount": "खाते से भुगतान करें",
+    "CentimeCard": "सेंटिमकार्ड",
+    "Other": "अन्य",
+    "next": "अगला",
+    "MarkPaidPayments": "इनवॉइस को भुगतान के रूप में चिह्नित करें",
+    "inputMarkPaidPayments": "आपूर्तिकर्ता को भुगतान करने के लिए उपयोग किए गए भुगतान विवरण इनपुट करें",
+    "ExpirationDate": "समाप्ति तिथि",
+    "SupplierWebsite": "आपूर्तिकर्ता वेबसाइट",
+    "CardNumber": "कार्ड नंबर",
+    "CVV": "सीवीवी",
+    "ActivateCard": "कार्ड सक्रिय करें",
+    "Note": "नोट: ",
+    "NoApprovalPolicyDefined": "अनुमोदकों को परिभाषित नहीं किया गया है। कृपया खाता व्यवस्थापक से संपर्क करें।"
 }
