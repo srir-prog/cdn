@@ -47,5 +47,22 @@
   "clickHere": "Click here",
   "activeCount": "{{active}}/{{total}} active",
   "checkActivation": "<ourLink></ourLink> to know how to use your check in Centime",
-  "noCheckPayment": "This account is not eligible for check payment"
+  "noCheckPayment": "This account is not eligible for {{paymentType}} payment",
+  "credit-card": "Credit Card",
+  "creditCardPayments": "Enter credit card details",
+  "cardName": "Name on card",
+  "cardNumber": "Card Number",
+  "expiration": "Expiration",
+  "cvv": "CVV",
+  "billingAddress": "Billing Address",
+  "securityPolicy": "Our Security Policy",
+  "defaultCreditCard": "Make this the default account for credit cards",
+  "CREDIT_CARD": "Credit Cards",
+  "cardValidation": "Please make sure you are activating the same card that its connected in your Financial Institute",
+  "cardActivationSuccess": "Your credit card is now active and you can use it to:",
+  "cardActivation": "<ourLink></ourLink> to know how to use your credit card in Centime and its benefits",
+  "cardSuccess": "Pay card-accepting Suppliers.",
+  "BFCSuccess": "Pay any Supplier. Centime will simply use your credit card \nas the source and pay suppliers by ACH.",
+  "defaultCheckLabel": "Make this the default account for check",
+  "defaultCreditCardLabel": "Make this the default account for credit cards"
 }

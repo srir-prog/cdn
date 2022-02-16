@@ -198,5 +198,16 @@
     "areYouSureYouWantToExit":"क्या आप निश्चित हैं आपकी बाहर निकलने की इच्छा है?",
     "notAddedInCentime":"{{institionNames}} से आपके खाते की जानकारी Centime . में नहीं जोड़ी जाएगी",
     "commonFailureMsg":"वित्तीय संस्थान से खाते जोड़ते समय एक समस्या हुई. कृपया केंद्र सहायता से संपर्क करें।",
-    "noAccount": "कोई सामान्य खाता बही नहीं\nइस बैंक खाते से जुड़े"
+    "noAccount": "कोई सामान्य खाता बही नहीं\nइस बैंक खाते से जुड़े",
+    "newCashFlow": "नया कैश फ्लो",
+    "name": "नाम",
+    "group": "समूह",
+    "type": "प्रकार",
+    "overdueAmount": "अतिदेय राशि",
+    "SourceName": "स्रोत नाम",
+    "CfCategoryValue": "नकदी प्रवाह श्रेणी",
+    "ForecastTotal": "कुल पूर्वानुमान",
+    "OverdueAmount": "अतिदेय राशि",
+    "GroupName": "समूह नाम",
+    "SupplierType": "आपूर्तिकर्ता प्रकार"
 }
