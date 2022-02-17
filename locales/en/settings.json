@@ -289,9 +289,9 @@
     "cashFlowTable":"Cash flow types table",
     "cashFlowCategoryDropdown":"Cash flow category drop down",
     "cashFlowTypesDropdown":"Cash flow types drop down",
-    "deleteCffGroupWithGroups":"Are you sure you want to delete the group {{groupName}}? Cashflows in this group will get reassigned to group ‘Other’",
+    "deleteCffGroupWithGroups":"Are you sure you want to delete the group {{groupName}}? Cashflows in this group will get reassigned to group 'Other'",
     "cashFlowGroupDelete":"Cash flow group {{groupName}} has  been  deleted",
-    "cashFlowGroupsFailure":"Cannot fetch Cashflow groups",
+    "cashFlowGroupsFailure":"{{groupName}} could not be deleted. Get support from our team using the chat bubble.",
     "groupsDropDown":"groups drop down",
     "choose":"Choose",
     "selectGroup":"select group",
@@ -302,5 +302,9 @@
     "changeGroupModal":"Change group modal",
     "creditCardPayments":"Credit card payments",
     "creditCard":"Credit card",
-    "inactiveCreditCard":"Credit card payments have not been activated. For help setting them up, please use the chat bubble"
+    "inactiveCreditCard":"Credit card payments have not been activated. For help setting them up, please use the chat bubble",
+    "cashFlowGroupAddSuccess":"Cash flow group {{groupName}} successfully added",
+    "cashFlowGroupAddDuplicateFailure":"Cash flow group {{groupName}} already exists",
+    "cashFlowGroupChangeSuccess":"Cash flow group {{groupName}} successfully updated",
+    "cashFlowGroupAddFailure":"There is a problem saving the cash flow group. Get support from our team using the chat bubble."
 }
