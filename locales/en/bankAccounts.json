@@ -226,5 +226,9 @@
     "SupplierType": "type",
     "include": "Include",
     "totals": "Totals",
-    "weekCount": "{{timePeriod}} Weeks"
+    "weekCount": "{{timePeriod}} Weeks",
+    "cashflowSuccessfullyAdded":"Cashflow \"{{sourceName}}\" successfully added",
+    "removeSourceConfirmContent": "Are you sure you want to delete the cash flow \"{{sourceName}}\"? Deleting the cashflow will also delete the transactions added",
+    "sourceNameCantBeDuplicate": "Cashflow name can't be duplicate",
+    "sourceNameCantBeBlank": "Cashflow name can't be blank"
 }
