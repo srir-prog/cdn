@@ -296,7 +296,7 @@
     "cashFlowTypesDropdown":"नकदी प्रवाह के प्रकार नीचे गिरते हैं",
     "deleteCffGroupWithGroups":"क्या आप वाकई समूह {{groupName}} को हटाना चाहते हैं? इस समूह में नकदी प्रवाह समूह 'अन्य' को पुन: सौंप दिया जाएगा",
     "cashFlowGroupDelete":"नकदी प्रवाह समूह {{groupName}} हटा दिया गया है",
-    "cashFlowGroupsFailure":"कैशफ्लो समूह नहीं ला सकते",
+    "cashFlowGroupsFailure":"{{groupName}} को हटाया नहीं जा सका। चैट बबल का उपयोग करके हमारी टीम से सहायता प्राप्त करें।",
     "groupsDropDown":"समूह ड्रॉप डाउन",
     "choose":"चुनना",
     "selectGroup":"समूह चुनें",
@@ -306,5 +306,10 @@
     "groupOutflows":"समूह बहिर्वाह",
     "creditCardPayments":"क्रेडिट कार्ड भुगतान",
     "creditCard":"क्रेडिट कार्ड",
-    "inactiveCreditCard":"क्रेडिट कार्ड भुगतान सक्रिय नहीं किया गया है। उन्हें स्थापित करने में सहायता के लिए, कृपया चैट बबल का उपयोग करें"
+    "inactiveCreditCard":"क्रेडिट कार्ड भुगतान सक्रिय नहीं किया गया है। उन्हें स्थापित करने में सहायता के लिए, कृपया चैट बबल का उपयोग करें",
+    "cashFlowGroupAddSuccess":"नकदी प्रवाह समूह {{groupName}} सफलतापूर्वक जोड़ा गया",
+    "cashFlowGroupAddDuplicateFailure":"नकदी प्रवाह समूह {{groupName}} पहले से मौजूद है",
+    "cashFlowGroupChangeSuccess":"नकदी प्रवाह समूह {{groupName}} सफलतापूर्वक अपडेट किया गया",
+    "cashFlowGroupAddFailure":"नकदी प्रवाह समूह को सहेजने में कोई समस्या है. चैट बबल का उपयोग करके हमारी टीम से सहायता प्राप्त करें।",
+    "cashFlowGroupDeleteFailure":"{{groupName}} को हटाया नहीं जा सका। चैट बबल का उपयोग करके हमारी टीम से सहायता प्राप्त करें।"
 }

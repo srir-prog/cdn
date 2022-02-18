@@ -209,5 +209,10 @@
     "ForecastTotal": "कुल पूर्वानुमान",
     "OverdueAmount": "अतिदेय राशि",
     "GroupName": "समूह नाम",
-    "SupplierType": "आपूर्तिकर्ता प्रकार"
+    "SupplierType": "आपूर्तिकर्ता प्रकार",
+    "include": "शामिल करना",
+    "totals": "योग",
+    "weekCount": "{{timePeriod}} हफ्तों",
+    "cashflowSuccessfullyAdded":"नकदी प्रवाह \"{{sourceName}}\" सफलतापूर्वक शामिल",
+    "removeSourceConfirmContent": "क्या आप वाकई नकदी प्रवाह को हटाना चाहते हैं \"{{sourceName}}\"? कैशफ़्लो को हटाने से जोड़े गए लेन-देन भी हट जाएंगे"
 }
