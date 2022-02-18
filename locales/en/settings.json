@@ -307,5 +307,7 @@
     "cashFlowGroupAddDuplicateFailure":"Cash flow group {{groupName}} already exists",
     "cashFlowGroupChangeSuccess":"Cash flow group {{groupName}} successfully updated",
     "cashFlowGroupAddFailure":"There is a problem saving the cash flow group. Get support from our team using the chat bubble.",
-    "cashFlowGroupDeleteFailure":"{{groupName}} could not be deleted. Get support from our team using the chat bubble."
+    "cashFlowGroupDeleteFailure":"{{groupName}} could not be deleted. Get support from our team using the chat bubble.",
+    "cashFlowNameChangeSuccess":"Cash flow group {{groupName}} successfully updated for {{count}} cashflows",
+    "cashFlowNameChangeFailure":"There is a problem updating the cash flow group. Get support from our team using the chat bubble."
 }
