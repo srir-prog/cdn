@@ -42,7 +42,7 @@
     "selectAState":"Select a state",
     "selectAPaymentMethod":"Select a payment method",
     "selectAGlAccount":"Select a GL account",
-    "sourceNameCantBeDuplicate": "Cashflow name can't be duplicate",
-    "sourceNameCantBeBlank": "Cashflow name can't be blank",
+    "sourceNameCantBeDuplicate": "Cash flow name can't be duplicate",
+    "sourceNameCantBeBlank": "Cash flow name can't be blank",
     "groupNameCantBeBlank": "Group can't be blank"
 }
