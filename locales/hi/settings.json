@@ -311,5 +311,7 @@
     "cashFlowGroupAddDuplicateFailure":"नकदी प्रवाह समूह {{groupName}} पहले से मौजूद है",
     "cashFlowGroupChangeSuccess":"नकदी प्रवाह समूह {{groupName}} सफलतापूर्वक अपडेट किया गया",
     "cashFlowGroupAddFailure":"नकदी प्रवाह समूह को सहेजने में कोई समस्या है. चैट बबल का उपयोग करके हमारी टीम से सहायता प्राप्त करें।",
-    "cashFlowGroupDeleteFailure":"{{groupName}} को हटाया नहीं जा सका। चैट बबल का उपयोग करके हमारी टीम से सहायता प्राप्त करें।"
+    "cashFlowGroupDeleteFailure":"{{groupName}} को हटाया नहीं जा सका। चैट बबल का उपयोग करके हमारी टीम से सहायता प्राप्त करें।",
+    "cashFlowNameChangeSuccess":"नकदी प्रवाह समूह {{groupName}} को {{गिनती}} नकदी प्रवाह के लिए सफलतापूर्वक अपडेट किया गया",
+    "cashFlowNameChangeFailure":"नकदी प्रवाह समूह को अपडेट करने में एक समस्या है। चैट बबल का उपयोग करके हमारी टीम से सहायता प्राप्त करें।"
 }
