@@ -41,5 +41,8 @@
     "invalidAmount": "अमान्य राशि",
     "selectAState":"एक राज्य का चयन करें",
   "selectAPaymentMethod":"कोई भुगतान विधि चुनें",
-  "selectAGlAccount":"एक जीएल खाता चुनें"
+  "selectAGlAccount":"एक जीएल खाता चुनें",
+    "sourceNameCantBeDuplicate": "कैशफ्लो का नाम डुप्लीकेट नहीं हो सकता",
+    "sourceNameCantBeBlank": "कैशफ़्लो का नाम खाली नहीं हो सकता",
+    "groupNameCantBeBlank": "समूह खाली नहीं हो सकता"
 }

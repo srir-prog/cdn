@@ -151,6 +151,7 @@
     "cardPaymentsToBeProcessed_plural": "{{गिनती}} चालानों के लिए कार्ड से भुगतान को आपूर्तिकर्ता वेबसाइट पर संसाधित करने की आवश्यकता है।",
     "invoicesScheduled_plural": "{{गिनती}} चालान आज के लिए कार्ड पर भुगतान के लिए निर्धारित हैं।",
     "cardPaymentsWaiting_plural": "{{गिनती}} चालानों के लिए कार्ड भुगतान आपूर्तिकर्ताओं द्वारा संसाधित किए जाने की प्रतीक्षा कर रहे हैं।",
+    "OtherPaymentsToolTip": "भुगतान सांटीम के बाहर किया जाता है। भुगतान किए जाने के बाद, आप सेंटिम में भुगतान विवरण रिकॉर्ड कर सकते हैं और सामान्य खाता बही में भुगतान पोस्ट कर सकते हैं",
     "supplierSummaryNotificationSuccess": "देने वाला {{buyerName}} सहेजने गया",
     "supplierSummaryNotificationError": "देने वाला के विवरण को सहेजने में समस्या थी {{buyerName}}. कृपया सेंटिम सपोर्ट से संपर्क करें",
     "historyActionCustomerCompanyTypeUpdated": "ग्राहक कंपनी प्रकार अपडेट किया गया",
@@ -201,5 +202,8 @@
     "cardDetails": "कार्ड के विवरण",
     "payDirectlyOnSupplierWebsite": "आपूर्तिकर्ता की वेबसाइट पर सीधे भुगतान करें",
     "centimeWillShareCardDetailsWithSupplier": "सांटीम आपूर्तिकर्ता के साथ कार्ड विवरण साझा करेंगे",
-    "creditCardPaymentsNotActive": "क्रेडिट कार्ड भुगतान सक्रिय नहीं किया गया है। उन्हें स्थापित करने में सहायता के लिए, कृपया चैट बबल का उपयोग करें"
+    "creditCardPaymentsNotActive": "क्रेडिट कार्ड भुगतान सक्रिय नहीं किया गया है। उन्हें स्थापित करने में सहायता के लिए, कृपया चैट बबल का उपयोग करें",
+    "otherPaymentsNotActive": "अन्य भुगतान स्थापित नहीं किए गए हैं। कृपया उन्हें भुगतान सेटिंग पृष्ठ पर कॉन्फ़िगर करें",
+    "historyActionSupplierOtherPayment": "अन्य भुगतान सेटिंग अपडेट की गई",
+    "historyActionSupplierFXPayment": "एफएक्स भुगतान सेटिंग अपडेट की गई"
 }
