@@ -36,5 +36,13 @@
     "max9Len": "अधिकतम वर्ण सीमा 9 तक पहुंच गई",
     "transactionNameDuplicate": "लेन-देन का नाम पहले से मौजूद है",
     "min4Len": "मान 4 अंक या अधिक वाली संख्या होनी चाहिए",
-    "minAmount": "मान शून्य से बड़ा होना चाहिए"
+    "minAmount": "मान शून्य से बड़ा होना चाहिए",
+    "exceedsOutstanding": "बकाया से अधिक है",
+    "invalidAmount": "अमान्य राशि",
+    "selectAState":"एक राज्य का चयन करें",
+  "selectAPaymentMethod":"कोई भुगतान विधि चुनें",
+  "selectAGlAccount":"एक जीएल खाता चुनें",
+    "sourceNameCantBeDuplicate": "कैशफ्लो का नाम डुप्लीकेट नहीं हो सकता",
+    "sourceNameCantBeBlank": "कैशफ़्लो का नाम खाली नहीं हो सकता",
+    "groupNameCantBeBlank": "समूह खाली नहीं हो सकता"
 }

@@ -36,5 +36,13 @@
     "max9Len": "Maximum character limit 9 reached",
     "transactionNameDuplicate": "Transaction name already exists",
     "min4Len": "Value should be a number with 4 digits or more",
-    "minAmount": "Value must be greater than zero"
+    "minAmount": "Value must be greater than zero",
+    "exceedsOutstanding": "Exceeds outstanding",
+    "invalidAmount": "Invalid amount",
+    "selectAState":"Select a state",
+    "selectAPaymentMethod":"Select a payment method",
+    "selectAGlAccount":"Select a GL account",
+    "sourceNameCantBeDuplicate": "Cash flow name can't be duplicate",
+    "sourceNameCantBeBlank": "Cash flow name can't be blank",
+    "groupNameCantBeBlank": "Group can't be blank"
 }
