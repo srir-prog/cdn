@@ -44,5 +44,7 @@
     "selectAGlAccount":"Select a GL account",
     "sourceNameCantBeDuplicate": "Cash flow name can't be duplicate",
     "sourceNameCantBeBlank": "Cash flow name can't be blank",
-    "groupNameCantBeBlank": "Group can't be blank"
+    "groupNameCantBeBlank": "Group can't be blank",
+    "isEqualLength": "Value should be a number with {{charLength}} digits",
+    "isInt": "Value should be a number"
 }
