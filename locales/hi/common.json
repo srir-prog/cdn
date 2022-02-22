@@ -205,5 +205,10 @@
     "creditCardPaymentsNotActive": "क्रेडिट कार्ड भुगतान सक्रिय नहीं किया गया है। उन्हें स्थापित करने में सहायता के लिए, कृपया चैट बबल का उपयोग करें",
     "otherPaymentsNotActive": "अन्य भुगतान स्थापित नहीं किए गए हैं। कृपया उन्हें भुगतान सेटिंग पृष्ठ पर कॉन्फ़िगर करें",
     "historyActionSupplierOtherPayment": "अन्य भुगतान सेटिंग अपडेट की गई",
-    "historyActionSupplierFXPayment": "एफएक्स भुगतान सेटिंग अपडेट की गई"
+    "historyActionSupplierFXPayment": "एफएक्स भुगतान सेटिंग अपडेट की गई",
+    "historyActionSupplierACHPayment": "एसीएच भुगतान सेटिंग अपडेट की गई",
+    "accountNumber": "खाता संख्या",
+    "routingNumber": "राउटिंग नम्बर",
+    "bank": "बैंक",
+    "achPaymentsNotActive": "एसीएच भुगतान सक्रिय नहीं किया गया है। उन्हें स्थापित करने में सहायता के लिए, कृपया चैट बबल का उपयोग करें"
 }
