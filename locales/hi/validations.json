@@ -40,6 +40,7 @@
     "exceedsOutstanding": "बकाया से अधिक है",
     "invalidAmount": "अमान्य राशि",
     "selectAState":"एक राज्य का चयन करें",
-  "selectAPaymentMethod":"कोई भुगतान विधि चुनें",
-  "selectAGlAccount":"एक जीएल खाता चुनें"
+    "selectAPaymentMethod":"कोई भुगतान विधि चुनें",
+    "selectAGlAccount":"एक जीएल खाता चुनें",
+    "DuplicateFound": "डुप्लीकेट मिले"
 }

@@ -41,5 +41,6 @@
     "invalidAmount": "Invalid amount",
     "selectAState":"Select a state",
     "selectAPaymentMethod":"Select a payment method",
-    "selectAGlAccount":"Select a GL account"
+    "selectAGlAccount":"Select a GL account",
+    "DuplicateFound": "Duplicates found"
 }
