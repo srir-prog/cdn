@@ -151,7 +151,7 @@
     "cardPaymentsToBeProcessed_plural": "Card payments for {{count}} invoices need to be processed on supplier website.",
     "invoicesScheduled_plural": "{{count}} invoices are scheduled for payment on Card for today.",
     "cardPaymentsWaiting_plural": "Card payments for {{count}} invoices are waiting to be processed by the suppliers.",
-    "OtherPaymentsToolTip": "Payments are made outside Centime. After the payments are made, you can record payment details in Centime and post payments to General ledger ",
+    "OtherPaymentsToolTip": "Payments are made outside Centime. After the payments are made, you can record payment details in Centime and post payments to General ledger",
     "supplierSummaryNotificationSuccess": "Supplier {{buyerName}} has been saved",
     "supplierSummaryNotificationError": "There was a problem saving the details of supplier {{buyerName}}. Get support from our team using the chat bubble.",
     "historyActionCustomerCompanyTypeUpdated": "Customer company type updated",
@@ -202,5 +202,13 @@
     "cardDetails": "Card details",
     "payDirectlyOnSupplierWebsite": "Pay directly on supplier website",
     "centimeWillShareCardDetailsWithSupplier": "Centime will share card details with supplier",
-    "creditCardPaymentsNotActive": "Credit card payments have not been activated. For help setting them up, please use the chat bubble"
+    "creditCardPaymentsNotActive": "Credit card payments have not been activated. For help setting them up, please use the chat bubble",
+    "otherPaymentsNotActive": "Other payments have not been set up. Please configure them on the payment settings page",
+    "historyActionSupplierOtherPayment": "Other payment setting updated",
+    "historyActionSupplierFXPayment": "FX payment setting updated",
+    "historyActionSupplierACHPayment": "ACH payment setting updated",
+    "accountNumber": "Account number",
+    "routingNumber": "Routing number",
+    "bank": "Bank",
+    "achPaymentsNotActive": "ACH payments have not been activated. For help setting them up, please use the chat bubble"
 }
