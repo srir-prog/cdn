@@ -323,5 +323,6 @@
     "paymentLink" : "भुगतान लिंक",
     "genPaymentLink" : "भुगतान लिंक उत्पन्न करें",
     "paymentLinkPlaceholder" : "<भुगतान.लिंक>",
-    "Expiry" : "समाप्ति: {{date}} "
+    "Expiry" : "समाप्ति: {{date}} ",
+    "successLink": "लिंक सफलतापूर्वक जनरेट किया गया"
 }

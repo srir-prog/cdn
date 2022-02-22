@@ -332,5 +332,6 @@
     "paymentLink" : "Payment link",
     "genPaymentLink" : "Generate Payment Link",
     "paymentLinkPlaceholder" : "<payment.link>",
-    "Expiry" : "Expiry: {{date}} "
+    "Expiry" : "Expiry: {{date}} ",
+    "successLink": "Successfully generated the link"
 }
