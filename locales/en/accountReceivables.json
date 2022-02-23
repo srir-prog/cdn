@@ -332,5 +332,7 @@
     "paymentLink" : "Payment link",
     "genPaymentLink" : "Generate Payment Link",
     "paymentLinkPlaceholder" : "<payment.link>",
-    "Expiry" : "Expiry: {{date}} "
+    "Expiry" : "Expiry: {{date}} ",
+    "successLink": "Payment link for Invoice {{invoiceNumber}} generated successfully",
+    "failureLink": "Payment link generation for Invoice {{invoiceNumber}} failed. Please try again later or reach out to our support team via the chat bubble."
 }
