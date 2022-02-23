@@ -294,5 +294,7 @@
     "exploreDemoText": "Explore demo",
     "NetSuiteRedirectConnectInfo1":"We have received your consent to connect to your Netsuite account - {{accountId}}.",
     "NetSuiteRedirectConnectHeader": "Netsuite account connected",
-    "NetSuiteRedirectConnectInfo2": "Please click Continue to complete the process of creating a business entity within Centime. You will be asked to re-login to your Netsuite account and then redirected to the Centime SuiteApp to complete the process."
+    "NetSuiteRedirectConnectInfo2": "Please click Continue to complete the process of creating a business entity within Centime. You will be asked to re-login to your Netsuite account and then redirected to the Centime SuiteApp to complete the process.",
+    "selectSubsidiary": "Select Subsidiary",
+    "SubsidiaryList": "Subsidiary list"
 }
