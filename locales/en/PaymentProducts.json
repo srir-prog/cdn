@@ -65,5 +65,6 @@
   "BFCSuccess": "Pay any Supplier. Centime will simply use your credit card \nas the source and pay suppliers by ACH.",
   "defaultCheckLabel": "Make this the default account for check",
   "defaultCreditCardLabel": "Make this the default account for credit cards",
-  "allRequired": "Card details are mandatory"
+  "allRequired": "Card details are mandatory",
+  "CENTIME_CARD": "ACH"
 }
