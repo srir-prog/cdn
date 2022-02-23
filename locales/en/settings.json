@@ -350,7 +350,8 @@
     "passport": "PASSPORT",
     "socialSecurity": "SOCIAL SECURITY",
     "visa": "VISA",
-    "deleteOwnershipConfirmation":"Are you sure you want to delete the Role {{index}}?",
+    "deleteOwnershipConfirmation":"Are you sure you want to delete the Role {{index}} ?",
     "ownershipDeleted":"Ownership details of Role {{index}} has been deleted",
+    "IDNumber": "ID Number",
     "-----------": "----------------------------------------------"
 }
