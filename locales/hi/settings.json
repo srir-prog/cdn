@@ -354,7 +354,8 @@
     "passport": "पासपोर्ट",
     "socialSecurity": "सामाजिक सुरक्षा",
     "visa": "वीज़ा",
-    "deleteOwnershipConfirmation":"क्या आप वाकई भूमिका को हटाना चाहते हैं {{index}}?",
+    "deleteOwnershipConfirmation":"क्या आप वाकई भूमिका को हटाना चाहते हैं {{index}} ?",
     "ownershipDeleted":"भूमिका {{index}} का स्वामित्व विवरण हटा दिया गया है",
+    "IDNumber": "आईडी नंबर",
     "-----------": "----------------------------------------------"
 }

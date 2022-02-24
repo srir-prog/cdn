@@ -152,6 +152,7 @@
     "invoicesTableDefaultHeaderPrefix": "के बीच सभी चालान",
     "networkErrorMessage": "हमें खेद है ! हमें कुछ तकनीकी समस्याओं का सामना करना पड़ रहा है, कृपया बाद में पुनः प्रयास करें",
     "EntityDropdown": "इकाई ड्रॉपडाउन",
-    "CentimeProduct": "Centime उत्पादों"
+    "CentimeProduct": "Centime उत्पादों",
+    "warning": "चेतावनी"
 }
 

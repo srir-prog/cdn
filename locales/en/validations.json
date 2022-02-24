@@ -47,5 +47,11 @@
     "sourceNameCantBeBlank": "Cash flow name can't be blank",
     "groupNameCantBeBlank": "Group can't be blank",
     "isEqualLength": "Value should be a number with {{charLength}} digits",
-    "isInt": "Value should be a number"
+    "isInt": "Value should be a number",
+    "inValidOwnershipPercentage": "Invalid Ownership Percentage",
+    "inValidSSN": "Invalid SSN",
+    "inValidDrivingLicense": "Invalid Driving License",
+    "inValidPassport": "Invalid Passport",
+    "inValidVISA": "Invalid VISA",
+    "inValidIDNumber": "Invalid ID Number"
 }
