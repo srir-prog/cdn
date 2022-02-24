@@ -47,5 +47,11 @@
     "sourceNameCantBeBlank": "कैशफ़्लो का नाम खाली नहीं हो सकता",
     "groupNameCantBeBlank": "समूह खाली नहीं हो सकता",
     "isEqualLength": "मान {{charLength}} अंकों वाली एक संख्या होनी चाहिए",
-    "isInt": "मान एक संख्या होना चाहिए"
+    "isInt": "मान एक संख्या होना चाहिए",
+    "inValidOwnershipPercentage": "अमान्य स्वामित्व प्रतिशत",
+    "inValidSSN": "अमान्य एसएसएन",
+    "inValidDrivingLicense": "अमान्य ड्राइविंग लाइसेंस",
+    "inValidPassport": "अमान्य पासपोर्ट",
+    "inValidVISA": "अमान्य वीज़ा",
+    "inValidIDNumber": "अमान्य आईडी नंबर"
 }
