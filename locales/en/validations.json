@@ -53,5 +53,6 @@
     "inValidDrivingLicense": "Invalid Driving License",
     "inValidPassport": "Invalid Passport",
     "inValidVISA": "Invalid VISA",
-    "inValidIDNumber": "Invalid ID Number"
+    "inValidIDNumber": "Invalid ID Number",
+    "supplierCentimeCardPrimaryCardDetailsError": "Error in saving details as Primary contact details are not available for the supplier"
 }

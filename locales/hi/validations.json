@@ -53,5 +53,6 @@
     "inValidDrivingLicense": "अमान्य ड्राइविंग लाइसेंस",
     "inValidPassport": "अमान्य पासपोर्ट",
     "inValidVISA": "अमान्य वीज़ा",
-    "inValidIDNumber": "अमान्य आईडी नंबर"
+    "inValidIDNumber": "अमान्य आईडी नंबर",
+    "supplierCentimeCardPrimaryCardDetailsError": "विवरण सहेजने में त्रुटि क्योंकि आपूर्तिकर्ता के लिए प्राथमिक संपर्क विवरण उपलब्ध नहीं है"
 }
