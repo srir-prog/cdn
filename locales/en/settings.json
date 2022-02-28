@@ -47,7 +47,7 @@
     "Info" : "Company information",
     "ManageUsers" : "Manage users",
     "Usage" : "Usage",
-    "InviteSent" : "Invitation has seen successfully sent",
+    "InviteSent" : "Invitation has been successfully sent",
     "CannotAddDirectUser" : "Cannot add this user, Please contact your bank manager",
     "InviteIconTooltip" : "Resend the invite link",
     "DeleteIconTooltip" : "Delete this user",
