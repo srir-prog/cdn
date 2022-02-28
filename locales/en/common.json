@@ -210,6 +210,5 @@
     "accountNumber": "Account number",
     "routingNumber": "Routing number",
     "bank": "Bank",
-    "achPaymentsNotActive": "ACH payments have not been activated. For help setting them up, please use the chat bubble",
-    "address":"Address"
+    "achPaymentsNotActive": "ACH payments have not been activated. For help setting them up, please use the chat bubble"
 }
