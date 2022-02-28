@@ -153,6 +153,12 @@
     "networkErrorMessage": "हमें खेद है ! हमें कुछ तकनीकी समस्याओं का सामना करना पड़ रहा है, कृपया बाद में पुनः प्रयास करें",
     "EntityDropdown": "इकाई ड्रॉपडाउन",
     "CentimeProduct": "Centime उत्पादों",
-    "warning": "चेतावनी"
+    "warning": "चेतावनी",
+    "countryCodeInvalid": "देश कोड अमान्य है",
+    "stateCodeInvalid": "राज्य कोड अमान्य है",
+    "cardInvalid": "कार्ड PUSH या/और PULL संचालन के लिए सक्षम नहीं है ",
+    "requestInvalid": "अनुरोध सत्यापन प्रोसेसर पर विफल रहा.",
+    "dataInvalid": "यदि डेटा सेवा त्रुटि फेंकता है",
+    "productInvalid": "उत्पाद प्रकार अमान्य है. या तो केंद्र-क्रेडिट होना चाहिए या bfc."
 }
 
