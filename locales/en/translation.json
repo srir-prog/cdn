@@ -155,5 +155,11 @@
     "networkErrorMessage": "We are sorry ! We are facing some technical issues, Please try again later",
     "EntityDropdown": "Entity Dropdown",
     "CentimeProduct": "Centime Products",
-    "warning": "warning"
+    "warning": "warning",
+    "countryCodeInvalid": "Country code is invalid",
+    "stateCodeInvalid": "State code is invalid",
+    "cardInvalid": "Card is not enabled for PUSH or/and PULL operations ",
+    "requestInvalid": "Request validation failed at processor.",
+    "dataInvalid": "If data service throws error",
+    "productInvalid": "Product type is invalid. Should be either centime-credit or bfc."
 }
