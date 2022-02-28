@@ -353,5 +353,6 @@
     "deleteOwnershipConfirmation":"Are you sure you want to delete the Role {{index}} ?",
     "ownershipDeleted":"Ownership details of Role {{index}} has been deleted",
     "IDNumber": "ID Number",
+    "ownershipSumError": "Sum of ownership percentage of beneficial owners exceeded 100",
     "-----------": "----------------------------------------------"
 }
