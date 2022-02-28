@@ -329,5 +329,7 @@
     "posted": "की तैनाती",
     "postedManually":"मैन्युअल रूप से पोस्ट किया गया",
     "payoutPending": "भुगतान लंबित",
-    "payoutSent": "पेआउट भेजा गया"
+    "payoutSent": "पेआउट भेजा गया",
+    "postingFailed":"पोस्टिंग विफल",
+    "postingInProgress":"पोस्टिंग जारी है"
 }
