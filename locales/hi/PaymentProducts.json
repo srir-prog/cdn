@@ -66,5 +66,5 @@
   "defaultCheckLabel": "इसे चेक के लिए डिफ़ॉल्ट खाता बनाएं",
   "defaultCreditCardLabel": "इसे क्रेडिट कार्ड के लिए डिफ़ॉल्ट खाता बनाएं",
   "allRequired": "कार्ड विवरण अनिवार्य हैं",
-  "CENTIME_CARD": "ACH"
+  "CENTIME_CARD": "केंद्र कार्ड"
 }
