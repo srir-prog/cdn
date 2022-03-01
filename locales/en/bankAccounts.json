@@ -236,5 +236,6 @@
     "updateSourceSuccessNotificationMsg": "Cash flow \"{{sourceName}}\" successfully updated",
     "updateSourceErrorNotificationMsg": "Cash flow \"{{sourceName}}\" could not be updated. Get support from our team using the chat bubble.",
     "deleteSourceSuccessNotificationMsg" : "Cash flow \"{{sourceName}}\" has been deleted",
-    "deleteSourceErrorNotificationMsg": "Cash flow \"{{sourceName}}\" could not be deleted. Get support from our team using the chat bubble."
+    "deleteSourceErrorNotificationMsg": "Cash flow \"{{sourceName}}\" could not be deleted. Get support from our team using the chat bubble.",
+    "overdueNotIncluded": "{{overdueAmount}} overdue and not included in forecast"
 }
