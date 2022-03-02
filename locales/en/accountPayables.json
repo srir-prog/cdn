@@ -207,5 +207,6 @@
     "processThePaymentAndMarkAsPaid": "Process the payment and mark the invoice as Paid to post payment details to General Ledger",
     "supplierCommonError": "There's an error updating supplier details. Please contact Centime support",
     "supplierCentimeCardPrimaryCardDetailsError": "Error in saving details as Primary contact details are not available for the supplier",
-    "ExchangeRate2": "Exchange rate"
+    "ExchangeRate2": "Exchange rate",
+    "payFrom": "Pay from {{account}}"
 }
