@@ -323,5 +323,13 @@
     "paymentLink" : "भुगतान लिंक",
     "genPaymentLink" : "भुगतान लिंक उत्पन्न करें",
     "paymentLinkPlaceholder" : "<भुगतान.लिंक>",
-    "Expiry" : "समाप्ति: {{date}} "
+    "Expiry" : "समाप्ति: {{date}} ",
+    "successLink": "चालान {{invoiceNumber}} के लिए भुगतान लिंक सफलतापूर्वक जेनरेट हुआ",
+    "failureLink": "चालान {{invoiceNumber}} के लिए भुगतान लिंक बनाना विफल रहा। कृपया बाद में पुन: प्रयास करें या चैट बबल के माध्यम से हमारी सहायता टीम से संपर्क करें।",
+    "posted": "की तैनाती",
+    "postedManually":"मैन्युअल रूप से पोस्ट किया गया",
+    "payoutPending": "भुगतान लंबित",
+    "payoutSent": "पेआउट भेजा गया",
+    "postingFailed":"पोस्टिंग विफल",
+    "postingInProgress":"पोस्टिंग जारी है"
 }

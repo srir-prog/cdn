@@ -228,12 +228,17 @@
     "totals": "Totals",
     "weekCount": "{{timePeriod}} Weeks",
     "cashflowSuccessfullyAdded":"Cash flow \"{{sourceName}}\" successfully added",
-    "removeSourceConfirmContent": "Are you sure you want to delete the cash flow \"{{sourceName}}\"? Deleting the cash flow will also delete the transactions added",
+    "removeSourceConfirmHeader": "Are you sure you want to delete the cash flow \"{{sourceName}}\"?",
+    "removeSourceConfirmContent": "Deleting the cash flow will also delete the transactions added",
     "sourceNameCantBeDuplicate": "Cash flow name can't be duplicate",
     "sourceNameCantBeBlank": "Cash flow name can't be blank",
     "createSourceErrorNotificationMsg":"There is a problem saving the cash flow. Get support from our team using the chat bubble.",
     "updateSourceSuccessNotificationMsg": "Cash flow \"{{sourceName}}\" successfully updated",
     "updateSourceErrorNotificationMsg": "Cash flow \"{{sourceName}}\" could not be updated. Get support from our team using the chat bubble.",
     "deleteSourceSuccessNotificationMsg" : "Cash flow \"{{sourceName}}\" has been deleted",
-    "deleteSourceErrorNotificationMsg": "Cash flow \"{{sourceName}}\" could not be deleted. Get support from our team using the chat bubble."
+    "deleteSourceErrorNotificationMsg": "Cash flow \"{{sourceName}}\" could not be deleted. Get support from our team using the chat bubble.",
+    "overdueNotIncluded": "{{overdueAmount}} overdue and not included in forecast",
+    "invoiceNumber": "Invoice",
+    "paymentAmount": "Payment amount",
+    "paymentDate": "Payment date"
 }

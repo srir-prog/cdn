@@ -47,7 +47,7 @@
     "Info" : "Company information",
     "ManageUsers" : "Manage users",
     "Usage" : "Usage",
-    "InviteSent" : "Invitation has seen successfully sent",
+    "InviteSent" : "Invitation has been successfully sent",
     "CannotAddDirectUser" : "Cannot add this user, Please contact your bank manager",
     "InviteIconTooltip" : "Resend the invite link",
     "DeleteIconTooltip" : "Delete this user",
@@ -350,7 +350,10 @@
     "passport": "PASSPORT",
     "socialSecurity": "SOCIAL SECURITY",
     "visa": "VISA",
-    "deleteOwnershipConfirmation":"Are you sure you want to delete the Role {{index}}?",
+    "deleteOwnershipConfirmation":"Are you sure you want to delete the Role {{index}} ?",
     "ownershipDeleted":"Ownership details of Role {{index}} has been deleted",
-    "-----------": "----------------------------------------------"
+    "IDNumber": "ID Number",
+    "ownershipSumError": "Sum of ownership percentage of beneficial owners exceeded 100",
+    "CashFlowGroupsPage":"Cash flow groups",
+    "----------": "----------------------------------------------"
 }
