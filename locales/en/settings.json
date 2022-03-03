@@ -354,5 +354,6 @@
     "ownershipDeleted":"Ownership details of Role {{index}} has been deleted",
     "IDNumber": "ID Number",
     "ownershipSumError": "Sum of ownership percentage of beneficial owners exceeded 100",
-    "-----------": "----------------------------------------------"
+    "CashFlowGroupsPage":"Cash flow groups",
+    "----------": "----------------------------------------------"
 }
