@@ -243,5 +243,14 @@
     "invoiceNumber": "Invoice",
     "paymentAmount": "Payment amount",
     "paymentDate": "Payment date",
-    "updateTransactionDetails": "Update transaction"
+    "updateTransactionDetails": "Update transaction",
+    "addTransactionSuccessMsg": "Transaction \"{{transactionName}}\" successfully added",
+    "updateTransactionSuccessMsg": "Transaction \"{{transactionName}}\" successfully updated",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "deleteTransactionSuccessMsg": "Transaction \"{{transactionName}}\" deleted successfully",
+    "noHistoricMsg": "Historic No data found",
+    "includeCallErrorMsg": "Unable to include / exclude the transaction",
+    "createTransactionErrorMsg": "There is a problem saving the transaction. Get support from our team using the chat bubble.",
+    "deleteTransactionErrorMsg": "Unable to delete transaction"
 }
