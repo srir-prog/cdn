@@ -331,5 +331,6 @@
     "payoutPending": "भुगतान लंबित",
     "payoutSent": "पेआउट भेजा गया",
     "postingFailed":"पोस्टिंग विफल",
-    "postingInProgress":"पोस्टिंग जारी है"
+    "postingInProgress":"पोस्टिंग जारी है",
+    "InvoiceUpdateExpectedDateChange": "चालान {{invoiceNumber}} अपडेट कर दिया गया है",
 }
