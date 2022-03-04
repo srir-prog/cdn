@@ -54,5 +54,6 @@
     "inValidPassport": "Invalid Passport",
     "inValidVISA": "Invalid VISA",
     "inValidIDNumber": "Invalid ID Number",
-    "supplierCentimeCardPrimaryCardDetailsError": "Error in saving details as Primary contact details are not available for the supplier"
+    "supplierCentimeCardPrimaryCardDetailsError": "Error in saving details as Primary contact details are not available for the supplier",
+    "restrictedTransactionKeywords": "Invalid transaction name. Please try a different name"
 }
