@@ -132,6 +132,8 @@
     "ErrorMsg187": "An answer to a security question was incorrect. Please try to add your account again.",
     "ErrorMsg936": "Your language preference is not set to English at your financial institution. Please log into your financial institution and change your language to English to connect.",
     "CommonErrorMsg": "There is a problem with your bank connection. Get support from our team using the chat bubble.",
+    "AccountNotSynced": "Account is not synced",
+    "bankAccountsNotSynced": "The amount under Balance may be outdated. Please review account connection status in ‘Settings’.",
     "AccountTypeBankingTable": "Account type banking table",
     "AccountTypeBankingTableAccordion": "Account type banking table accordion",
     "AccountTypeCreditAndLoanTable": "Account type credit and loan table",
@@ -199,7 +201,7 @@
     "inflows": "Inflows",
     "historicalChartTitle": "Historical and future cash flows",
     "forecastTotal": "Forecast total",
-    "manageGroup": "Manage group",
+    "manageGroup": "Manage groups",
     "+showMore": "+ Show more",
     "-showLess": "- Show less",
     "OPERATING": "Cash flow from operations",
@@ -240,5 +242,6 @@
     "overdueNotIncluded": "{{overdueAmount}} overdue and not included in forecast",
     "invoiceNumber": "Invoice",
     "paymentAmount": "Payment amount",
-    "paymentDate": "Payment date"
+    "paymentDate": "Payment date",
+    "updateTransactionDetails": "Update transaction"
 }
