@@ -201,7 +201,7 @@
     "inflows": "Inflows",
     "historicalChartTitle": "Historical and future cash flows",
     "forecastTotal": "Forecast total",
-    "manageGroup": "Manage group",
+    "manageGroup": "Manage groups",
     "+showMore": "+ Show more",
     "-showLess": "- Show less",
     "OPERATING": "Cash flow from operations",
@@ -242,5 +242,6 @@
     "overdueNotIncluded": "{{overdueAmount}} overdue and not included in forecast",
     "invoiceNumber": "Invoice",
     "paymentAmount": "Payment amount",
-    "paymentDate": "Payment date"
+    "paymentDate": "Payment date",
+    "updateTransactionDetails": "Update transaction"
 }
