@@ -341,4 +341,5 @@
     "payoutSent": "Payout sent",
     "postingFailed":"Posting failed",
     "postingInProgress":"Posting in progress",
-    "InvoiceUpdateExpectedDateChange": "Invoice {{invoiceNumber}} has been updated";
+    "InvoiceUpdateExpectedDateChange": "Invoice {{invoiceNumber}} has been updated"
+}
