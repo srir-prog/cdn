@@ -214,5 +214,9 @@
     "supplierCommonError": "आपूर्तिकर्ता विवरण अपडेट करने में त्रुटि हुई है। कृपया केंद्र सहायता से संपर्क करें",
     "supplierCentimeCardPrimaryCardDetailsError": "विवरण सहेजने में त्रुटि क्योंकि आपूर्तिकर्ता के लिए प्राथमिक संपर्क विवरण उपलब्ध नहीं है",
     "ExchangeRate2": "विनिमय दर",
-    "payFrom": "{{account}} से भुगतान किया"
+    "payFrom": "{{account}} से भुगतान किया",
+    "fees": "फीस",
+    "confirm": "पुष्टि करना",
+    "centimeCardDetailsGeneratedError": "सेंटीम कार्ड वीसीएन विवरण जनरेट करने में त्रुटि",
+    "centimeCardDetailsRetrieveError": "सेंटीम कार्ड वीसीएन विवरण प्राप्त करने में त्रुटि"
 }

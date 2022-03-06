@@ -208,5 +208,9 @@
     "supplierCommonError": "There's an error updating supplier details. Please contact Centime support",
     "supplierCentimeCardPrimaryCardDetailsError": "Error in saving details as Primary contact details are not available for the supplier",
     "ExchangeRate2": "Exchange rate",
-    "payFrom": "Paid from {{account}}"
+    "payFrom": "Paid from {{account}}",
+    "fees": "fees",
+    "confirm": "confirm",
+    "centimeCardDetailsGeneratedError": "Error generating centime card vcn details",
+    "centimeCardDetailsRetrieveError": "Error retrieving centime card vcn details"
 }
