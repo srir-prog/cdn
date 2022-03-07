@@ -125,7 +125,9 @@
     "HistoryActionSupplierCheckPayment":"Check payment setting updated",
     "HistoryActionDefaultPaymentMethodUpdated": "Default payment method updated",
     "PaymentMethodUpdateSuccess": "Payment method successfully updated",
+    "PaymentCreditsAppliedSuccess": "Credits successfully applied to invoice {{billId}}",
     "PaymentMethodUpdateFailure": "There was an issue encountered in updating payment method for invoice. Please try again",
+    "PaymentCreditsUpdateFailure": "There was an issue encountered in applying the credits for invoice. Please try again",
     "PaymentDetailsUpdateFailure": "There was an issue encountered in updating payment details for invoice. Please try again",
     "ExpirationDate": "Expiration Date",
     "SupplierWebsite": "Supplier Website",
@@ -208,5 +210,11 @@
     "supplierCommonError": "There's an error updating supplier details. Please contact Centime support",
     "supplierCentimeCardPrimaryCardDetailsError": "Error in saving details as Primary contact details are not available for the supplier",
     "ExchangeRate2": "Exchange rate",
-    "payFrom": "Paid from {{account}}"
+    "payFrom": "Paid from {{account}}",
+    "fees": "fees",
+    "confirm": "confirm",
+    "centimeCardDetailsGeneratedError": "Error generating centime card vcn details",
+    "centimeCardDetailsRetrieveError": "Error retrieving centime card vcn details",
+    "creditsAvailable": "Credits Available",
+    "creditsApplied": "Credits Applied"
 }
