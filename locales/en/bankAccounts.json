@@ -252,5 +252,8 @@
     "noHistoricMsg": "Historic No data found",
     "includeCallErrorMsg": "Unable to include / exclude the transaction",
     "createTransactionErrorMsg": "There is a problem saving the transaction. Get support from our team using the chat bubble.",
-    "deleteTransactionErrorMsg": "Unable to delete transaction"
+    "deleteTransactionErrorMsg": "Unable to delete transaction",
+    "predictedTitle": "Predicted",
+    "predictedAmount": "Predicted amount",
+    "predictedDate": "Predicted date"
 }
