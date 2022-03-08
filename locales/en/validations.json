@@ -57,5 +57,6 @@
     "supplierCentimeCardPrimaryCardDetailsError": "Error in saving details as Primary contact details are not available for the supplier",
     "inValidAccountNumber": "Invalid account number",
     "inValidRoutingNumber": "Invalid routing number",
-    "restrictedTransactionKeywords": "Invalid transaction name. Please try a different name"
+    "restrictedTransactionKeywords": "Invalid transaction name. Please try a different name",
+    "exceedsAvailableCredits": "Exceeds available credits"
 }

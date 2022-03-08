@@ -216,5 +216,6 @@
     "centimeCardDetailsGeneratedError": "सेंटीम कार्ड वीसीएन विवरण जनरेट करने में त्रुटि",
     "centimeCardDetailsRetrieveError": "सेंटीम कार्ड वीसीएन विवरण प्राप्त करने में त्रुटि",
     "creditsAvailable": "क्रेडिट उपलब्ध",
-    "creditsApplied": "क्रेडिट एप्लाइड"
+    "creditsApplied": "क्रेडिट एप्लाइड",
+    "remittanceNotes": "रेमिटेंस नोट्स"
 }

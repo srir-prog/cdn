@@ -57,5 +57,6 @@
     "supplierCentimeCardPrimaryCardDetailsError": "विवरण सहेजने में त्रुटि क्योंकि आपूर्तिकर्ता के लिए प्राथमिक संपर्क विवरण उपलब्ध नहीं है",
     "inValidAccountNumber": "अमान्य खाता संख्या",
     "inValidRoutingNumber": "अमान्य रूटिंग नंबर",
-    "restrictedTransactionKeywords": "अमान्य लेन-देन का नाम. कृपया कोई दूसरा नाम आज़माएं"
+    "restrictedTransactionKeywords": "अमान्य लेन-देन का नाम. कृपया कोई दूसरा नाम आज़माएं",
+    "exceedsAvailableCredits": "उपलब्ध क्रेडिट से अधिक है"
 }
