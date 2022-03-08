@@ -125,6 +125,8 @@
     "OtherPaymentsToolTip": "भुगतान सांटीम के बाहर किया जाता है। भुगतान किए जाने के बाद, आप Centime में भुगतान विवरण रिकॉर्ड कर सकते हैं और सामान्य लेज़र को भुगतान पोस्ट कर सकते हैं ",
     "CardIsNotActive": "कार्ड सक्रिय नहीं है। इसे सक्रिय करने के लिए बटन पर क्लिक करें",
     "CardNotActiveNote": "एक बार सक्रिय होने पर कार्ड {{validityPeriod}} {{validityPeriodTime}} के लिए मान्य होगा",
+    "HistoryActionRemittanceNotesAdded": "रेमिटेंस नोट जोड़ा गया",
+    "HistoryActionPaymentCreditsApplied": "क्रेडिट लागू",
     "CardWillRemainActiveUntil": "सुरक्षा कारणों से, कार्ड केवल {{validUntil}} तक सक्रिय रहेगा",
     "NoActivePaymentMethods": "जारी रखने के लिए, आपको भुगतान विधियों को सक्रिय करना होगा। कृपया उन्हें सेट करने में सहायता प्राप्त करने के लिए चैट बबल का उपयोग करें।",
     "checkPrintingInProcess": "प्रक्रिया में मुद्रण की जाँच करें",
