@@ -216,5 +216,6 @@
     "centimeCardDetailsGeneratedError": "Error generating centime card vcn details",
     "centimeCardDetailsRetrieveError": "Error retrieving centime card vcn details",
     "creditsAvailable": "Credits Available",
-    "creditsApplied": "Credits Applied"
+    "creditsApplied": "Credits Applied",
+    "remittanceNotes": "Remittance notes"
 }
