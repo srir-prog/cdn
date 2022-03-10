@@ -26,6 +26,6 @@
   "NetSuiteNonAdminConnectInfo1": "Connecting your Netsuite instance to Centime can only be performed by your Account Administrator. Please ask your Netsuite Account Administrator to sign up and connect your Netsuite instance to Centime.",
   "NetSuiteNonAdminConnectHeader": "Not authorised to connect !",
   "NetsuiteConnectRetryHeader": "Please retry the connect",
-  "NetsuiteConnectRetryInfo": "There is some unexpected error, please try again by clicking on the 'Connect' and then 'Open' in the Netsuite Centime menu.",
+  "NetsuiteConnectRetryInfo": "There is some unexpected error, please try again by clicking on the 'Connect Entity' and then 'Open' in the Netsuite Centime menu.",
   "WrongSubDomain": "Please try logging through your other subdomain."
 }
