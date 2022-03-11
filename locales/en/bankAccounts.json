@@ -255,5 +255,10 @@
     "deleteTransactionErrorMsg": "Unable to delete transaction",
     "predictedTitle": "Predicted",
     "predictedAmount": "Predicted amount",
-    "predictedDate": "Predicted date"
+    "predictedDate": "Predicted date",
+    "updateSupplierSuccessMsg": "Supplier: {{buyerName}}, successfully updated",
+    "updateCustomerSuccessMsg": "Customer: {{buyerName}}, successfully updated",
+    "updateSupplierErrorMsg": "Unable to update supplier {{buyerName}}",
+    "updateCustomerErrorMsg": "Unable to update customer {{buyerName}}",
+    "getCompanyDetailsErrorMsg": "Unable to fetch details for {{sourceName}}"
 }
