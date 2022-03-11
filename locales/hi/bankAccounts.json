@@ -216,5 +216,10 @@
     "totals": "योग",
     "weekCount": "{{timePeriod}} हफ्तों",
     "cashflowSuccessfullyAdded":"नकदी प्रवाह \"{{sourceName}}\" सफलतापूर्वक शामिल",
-    "removeSourceConfirmContent": "क्या आप वाकई नकदी प्रवाह को हटाना चाहते हैं \"{{sourceName}}\"? कैशफ़्लो को हटाने से जोड़े गए लेन-देन भी हट जाएंगे"
+    "removeSourceConfirmContent": "क्या आप वाकई नकदी प्रवाह को हटाना चाहते हैं \"{{sourceName}}\"? कैशफ़्लो को हटाने से जोड़े गए लेन-देन भी हट जाएंगे",
+    "updateSupplierSuccessMsg": "आपूर्तिकर्ता: {{buyerName}}, सफलतापूर्वक अपडेट किया गया",
+    "updateCustomerSuccessMsg": "ग्राहक: {{buyerName}}, सफलतापूर्वक अपडेट किया गया",
+    "updateSupplierErrorMsg": "{{buyerName}} आपूर्तिकर्ता को अपडेट करने में असमर्थ",
+    "updateCustomerErrorMsg": "{{buyerName}} ग्राहक को अपडेट करने में असमर्थ",
+    "getCompanyDetailsErrorMsg": "{{sourceName}} के लिए विवरण प्राप्त करने में असमर्थ"    
 }
