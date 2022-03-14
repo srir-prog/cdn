@@ -261,5 +261,6 @@
     "updateCustomerSuccessMsg": "Customer: {{buyerName}}, successfully updated",
     "updateSupplierErrorMsg": "Unable to update supplier {{buyerName}}",
     "updateCustomerErrorMsg": "Unable to update customer {{buyerName}}",
-    "getCompanyDetailsErrorMsg": "Unable to fetch details for {{sourceName}}"
+    "getCompanyDetailsErrorMsg": "Unable to fetch details for {{sourceName}}",
+    "loadingCFFDataMsg": "Forecast generation is in progress. Please wait until the forecast creation process is complete."
 }
