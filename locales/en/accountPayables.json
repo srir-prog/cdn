@@ -221,5 +221,7 @@
     "centimeCardDetailsRetrieveError": "Error retrieving centime card vcn details",
     "creditsAvailable": "Credits Available",
     "creditsApplied": "Credits Applied",
-    "remittanceNotes": "Remittance notes"
+    "remittanceNotes": "Remittance notes",
+    "discountToolTip": "Discount amount: {{discountAmount}} <br> Expiry date: {{expiryDate}}",
+    "postToGLAccount": "Post to GL account"
 }
