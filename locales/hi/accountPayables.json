@@ -219,5 +219,7 @@
     "centimeCardDetailsRetrieveError": "सेंटीम कार्ड वीसीएन विवरण प्राप्त करने में त्रुटि",
     "creditsAvailable": "क्रेडिट उपलब्ध",
     "creditsApplied": "क्रेडिट एप्लाइड",
-    "remittanceNotes": "रेमिटेंस नोट्स"
+    "remittanceNotes": "रेमिटेंस नोट्स",
+    "discountToolTip": "छूट राशि: {{discountAmount}} <br> समाप्ति तिथि: {{expiryDate}}",
+    "postToGLAccount": "जीएल खाते में पोस्ट करें"
 }
