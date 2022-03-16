@@ -75,7 +75,7 @@
     "Card": "Card",
     "ACH": "ACH",
     "Check": "Check",
-    "FXPayment": "FX Payment",
+    "FXPayment": "FX payment",
     "Other": "Other",
     "OfflinePayment": "Offline payment",
     "PostToGLAccount": "Post to GL account",
