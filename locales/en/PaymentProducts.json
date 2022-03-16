@@ -70,7 +70,7 @@
   "CENTIME_PAY": "Centime Pay",
   "ACTIVE": "Active",
   "INACTIVE": "Not applied",
-  "INPROGRESS": "Application in process",
+  "IN_PROGRESS": "Application in process",
   "AVAILABLE": "Available",
   "applicationHelperText": "If you need help with your application, please contact the team via the chat bubble or on cs@centime.com",
   "viewDocument": "View Document",
