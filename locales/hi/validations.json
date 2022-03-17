@@ -58,5 +58,6 @@
     "inValidAccountNumber": "अमान्य खाता संख्या",
     "inValidRoutingNumber": "अमान्य रूटिंग नंबर",
     "restrictedTransactionKeywords": "अमान्य लेन-देन का नाम. कृपया कोई दूसरा नाम आज़माएं",
-    "exceedsAvailableCredits": "उपलब्ध क्रेडिट से अधिक है"
+    "exceedsAvailableCredits": "उपलब्ध क्रेडिट से अधिक है",
+    "selectACountry":"एक देश चुनें"
 }
