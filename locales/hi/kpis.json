@@ -149,5 +149,10 @@
     "TrendingUp": "रुझान ऊपर",
     "TrendingDown": "नीचे रुझान",
     "transactionsTableDefaultHeaderPrefix": "से सभी लेनदेन",
-    "invoicesTableDefaultHeaderPrefix": "के बीच सभी चालान"
+    "invoicesTableDefaultHeaderPrefix": "के बीच सभी चालान",
+    "GroupNames": "समूह",
+    "CashFlowCategory": "नकदी प्रवाह प्रकार",
+    "cashFlowGrossBurnRate": "सकल जलने की दर",
+    "operatingCashFlow": "नकद प्रवाह का संचालन",
+    "netBurnRate": "शुद्ध जलने की दर"
 }
