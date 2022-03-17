@@ -127,8 +127,10 @@
     "BusinessCategory": "Business Category",
     "GLAccount": "GL Account",
     "TransactionType": "Transaction type",
-    "CashFlowType": "Cash flow type",
+    "CashFlowType": "Inflow/Outflow",
     "Description": "Description",
+    "cashFlowTypeText": "Cash flow type",
+    "transactionId": "Transaction Id",
     "Payer": "Payer",
     "Payee": "Payee",
     "inflow": "Inflow",
@@ -142,5 +144,10 @@
     "daysWithCount_plural": "{{count}} days",
     "ratePerMonth": "{{rate}} per month",
     "TrendingUp": "Trending Up",
-    "TrendingDown": "Trending Down"
+    "TrendingDown": "Trending Down",
+    "GroupNames": "Group",
+    "CashFlowCategory": "Cash flow type",
+    "cashFlowGrossBurnRate": "Gross burn rate",
+    "operatingCashFlow": "Operating cash flow",
+    "netBurnRate": "Net burn rate"
 }
