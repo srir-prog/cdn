@@ -145,6 +145,7 @@
     "firstApprovalPending": "पहली स्वीकृति लंबित",
     "secondApprovalPending": "दूसरी स्वीकृति लंबित",
     "thirdApprovalPending": "तीसरी स्वीकृति लंबित",
+    "paymentFailed": "भुगतान विफल",
     "unknown": "अनजान",
     "systemFailure": "प्रणाली की विफलता",
     "paymentAmountShouldBeTill2DecimalPlaces": "भुगतान राशि 2 दशमलव स्थानों तक होनी चाहिए",
