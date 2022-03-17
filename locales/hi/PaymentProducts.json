@@ -70,7 +70,7 @@
   "CENTIME_PAY": "सेन्टीम पे",
   "ACTIVE": "सक्रिय",
   "INACTIVE": "लागू नहीं",
-  "INPROGRESS": "आवेदन प्रक्रिया में",
+  "IN_PROGRESS": "आवेदन प्रक्रिया में",
   "AVAILABLE": "उपलब्ध",
   "applicationHelperText": "यदि आपको अपने आवेदन में सहायता की आवश्यकता है, तो कृपया चैट बबल के माध्यम से या cs@centtime.com . पर टीम से संपर्क करें",
   "viewDocument": "दस्तावेज़ देखें",
