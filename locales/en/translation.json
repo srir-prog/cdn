@@ -176,5 +176,20 @@
     "unsupportedAccountType": "Unsupported account type while activating check payment for bank account.",
     "generalLedgerAccount": "General Ledger account is not linked for the bank account",
     "cannotActivateMoreThanOne": "Cannot activate more than one Centime card for a client",
-    "noBankID": "No bank id information available in bank database for provided bank account Id"
+    "noBankID": "No bank id information available in bank database for provided bank account Id",
+    "errorConnectingData": "Error connecting Data Request Pipeline service",
+    "errorConnectingBank": "Error connecting Bank Data service while getting centime card bank account details",
+    "accountCreationFailed": "Bank account creation failed for centime card",
+    "errorConnectingCoreService": "Error while connecting to core data service",
+    "noBeneficialOwners": "No beneficial owners found",
+    "noControllingOfficers": "No controlling officers found",
+    "noSignatoryOwners": "No signatory owners found",
+    "errorConnectingCommonService": "Error while connecting to common service",
+    "invalidPaymentId": "Invalid Payment method Id is provided",
+    "docusignDetailsNotFound": "Docusign application details not found for specified clientId and PaymentMethodId",
+    "errorInBillDetails.": "Error in connecting liability data service to get bill details.",
+    "invalidCurrencyCode": "Invalid Currency code provided or received from bank account data service",
+    "currencyCodeNotMatching": "Provided currency code not matching with bank account currency code",
+    "noACHDetailsFound": "No ACH settlement account details found for the this client",
+    "ACHDetailsAlreadyConfigured": "ACH settlement account details are already configured for this client"
 }
