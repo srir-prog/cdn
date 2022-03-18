@@ -215,5 +215,6 @@
     "noCardOnFile": "You need a valid card-on-file in order to make payments. Please <ourLink>ClickHere</ourLink> to securely update your credit card.",
     "ClickHere": "Click here",
     "sameAsCompanyAddress": "Same as company address",
-    "securityPolicy": "Our Security Policy"
+    "securityPolicy": "Our Security Policy",
+    "cardName": "Name on card"
 }
