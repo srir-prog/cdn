@@ -58,5 +58,6 @@
     "inValidAccountNumber": "Invalid account number",
     "inValidRoutingNumber": "Invalid routing number",
     "restrictedTransactionKeywords": "Invalid transaction name. Please try a different name",
-    "exceedsAvailableCredits": "Exceeds available credits"
+    "exceedsAvailableCredits": "Exceeds available credits",
+    "selectACountry":"Select a country"
 }
