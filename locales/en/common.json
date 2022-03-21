@@ -220,5 +220,9 @@
     "chargifyCardCapture": "Chargify Card Capture",
     "successfullyCardSubmitted": "Successfully Card Submitted",
     "FilterModal": "Info Modal on Screen",
-    "enterCreditCardDetails": "Enter Credit Card Details"
+    "enterCreditCardDetails": "Enter Credit Card Details",
+    "billingAddress": "Billing Address",
+    "packageUpdateSuccessful":"Package update successful",
+    "popupClosingMessage":"You can now close this window and go back to Centime to continue working",
+    "backToCentime":"BACK TO CENTIME"
 }
