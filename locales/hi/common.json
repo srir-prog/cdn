@@ -220,5 +220,9 @@
     "chargifyCardCapture": "कार्ड कैप्चर चार्ज करें",
     "successfullyCardSubmitted": "सफलतापूर्वक कार्ड सबमिट किया गया",
     "FilterModal": "जानकारी मॉडल स्क्रीन पर",
-    "enterCreditCardDetails": "क्रेडिट कार्ड विवरण दर्ज करें"
+    "enterCreditCardDetails": "क्रेडिट कार्ड विवरण दर्ज करें",
+    "billingAddress": "बिलिंग पता",
+    "packageUpdateSuccessful": "पैकेज अपडेट सफल रहा",
+    "popupClosingMessage": "अब आप इस विंडो को बंद कर सकते हैं और काम करना जारी रखने के लिए सेंटिम पर वापस जा सकते हैं",
+    "backToCentime": "सेंटिम पर वापस जाएं"
 }
