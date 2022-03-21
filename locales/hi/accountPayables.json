@@ -222,5 +222,8 @@
     "creditsApplied": "क्रेडिट एप्लाइड",
     "remittanceNotes": "रेमिटेंस नोट्स",
     "discountToolTip": "छूट राशि: {{discountAmount}} <br> समाप्ति तिथि: {{expiryDate}}",
-    "postToGLAccount": "जीएल खाते में पोस्ट करें"
+    "postToGLAccount": "जीएल खाते में पोस्ट करें",
+    "//": "duplicate properties as noCardonFIle is getting translated in AP Dashboard with other msg pros which uses ap tns file",
+    "noCardOnFile": "भुगतान करने के लिए आपको एक वैध कार्ड-ऑन-फाइल की आवश्यकता है। अपने क्रेडिट कार्ड को सुरक्षित रूप से अपडेट करने के लिए कृपया <ourLink>यहां क्लिक करें</ourLink>।",
+    "ClickHere": "यहां क्लिक करें"
 }
