@@ -191,5 +191,8 @@
     "invalidCurrencyCode": "Invalid Currency code provided or received from bank account data service",
     "currencyCodeNotMatching": "Provided currency code not matching with bank account currency code",
     "noACHDetailsFound": "No ACH settlement account details found for the this client",
-    "ACHDetailsAlreadyConfigured": "ACH settlement account details are already configured for this client"
+    "ACHDetailsAlreadyConfigured": "ACH settlement account details are already configured for this client",
+    "month": "Month",
+    "year": "Year",
+    "day": "Day"
 }
