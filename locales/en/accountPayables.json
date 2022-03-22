@@ -225,5 +225,6 @@
     "postToGLAccount": "Post to GL account",
     "//": "duplicate properties as noCardonFIle is getting translated in AP Dashboard with other msg pros which uses ap tns file",
     "noCardOnFile": "You need a valid card-on-file in order to make payments. Please <ourLink>ClickHere</ourLink> to securely update your credit card.",
-    "ClickHere": "Click here"
+    "ClickHere": "Click here",
+    "notStarted": "Not started"
 }
