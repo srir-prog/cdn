@@ -72,6 +72,7 @@
   "INACTIVE": "Not applied",
   "IN_PROGRESS": "Application in process",
   "AVAILABLE": "Available",
+  "ERROR": "Application failed",
   "applicationHelperText": "If you need help with your application, please contact the team via the chat bubble or on cs@centime.com",
   "viewDocument": "View Document",
   "BFORequired": "We are required by law to collect Beneficial Owner information. Please add the Ownership information once to make your applications smoother.",
