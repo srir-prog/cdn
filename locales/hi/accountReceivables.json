@@ -333,4 +333,6 @@
     "postingFailed":"पोस्टिंग विफल",
     "postingInProgress":"पोस्टिंग जारी है",
     "InvoiceUpdateExpectedDateChange": "चालान {{invoiceNumber}} अपडेट कर दिया गया है",
+    "postingToGLSuccess": "इनवॉइस सफलतापूर्वक GL को पोस्ट कर दिए गए हैं",
+    "postingToGLError": "GL . पर पोस्ट करने में एक समस्या थी"
 }

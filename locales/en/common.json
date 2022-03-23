@@ -211,5 +211,18 @@
     "routingNumber": "Routing number",
     "bank": "Bank",
     "achPaymentsNotActive": "ACH payments have not been activated. For help setting them up, please use the chat bubble",
-    "address":"Address"
+    "address":"Address",
+    "noCardOnFile": "You need a valid card-on-file in order to make payments. Please <ourLink>ClickHere</ourLink> to securely update your credit card.",
+    "ClickHere": "Click here",
+    "sameAsCompanyAddress": "Same as company address",
+    "securityPolicy": "Our Security Policy",
+    "cardName": "Name on card",
+    "chargifyCardCapture": "Chargify Card Capture",
+    "successfullyCardSubmitted": "Successfully Card Submitted",
+    "FilterModal": "Info Modal on Screen",
+    "enterCreditCardDetails": "Enter Credit Card Details",
+    "billingAddress": "Billing Address",
+    "packageUpdateSuccessful":"Package update successful",
+    "popupClosingMessage":"You can now close this window and go back to Centime to continue working",
+    "backToCentime":"BACK TO CENTIME"
 }
