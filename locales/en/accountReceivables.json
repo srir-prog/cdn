@@ -342,6 +342,7 @@
     "postingFailed":"Posting failed",
     "postingInProgress":"Posting in progress",
     "InvoiceUpdateExpectedDateChange": "Invoice {{invoiceNumber}} has been updated",
-    "postingToGLSuccess": "Invoices are posted to GL successfully",
-    "postingToGLError": "There was a problem in posting to GL"
+    "postingToGLSuccess": "Payment(s) successfully posted for the {{total}} invoice(s)",
+    "postingToGLPartialSuccess": "Payment(s) successfully posted for {{total}} invoice(s). Please reach out to our support team via the chat bubble for the remaining invoices.",
+    "postingToGLError": "Payment(s) posting to the General Ledger failed. Please reach out to our support team via the chat bubble."
 }
