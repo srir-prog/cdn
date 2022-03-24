@@ -292,6 +292,7 @@
     "deleteCffGroupWithGroups":"Are you sure you want to delete the group {{groupName}}? Cashflows in this group will get reassigned to group 'Other'",
     "cashFlowGroupDelete":"Cash flow group {{groupName}} has  been  deleted",
     "cashFlowGroupsFailure":"{{groupName}} could not be deleted. Get support from our team using the chat bubble.",
+    "fetchCashFlowGroupsFailure":"Unable to fetch details for cash flow groups. Get support from our team using the chat bubble.",
     "groupsDropDown":"groups drop down",
     "choose":"Choose",
     "selectGroup":"select group",
