@@ -374,7 +374,7 @@
     "viewPastInvoices": "View Past Invoices",
     "Active": "Active",
     "trialEndedSubscriptionIsInactive": "Trial ended: subscription is inactive",
-    "pastDue": "Past Due",
+    "pastDue": "Past due: no valid credit card-on-file.  Please add a credit card.",
     "Expired": "Expired",
     "changeSubscriptionPackage": "Change Subscription Package",
     "noPackageSelected": "No package selected",
@@ -414,5 +414,8 @@
     "calculateTheValue": "Calculate The Value",
     "knowMore": "Know more",
     "ManageBillingPage": "Manage billing",
-    "noCardOnFileFooter":"As you are within your Trial period, you will need a valid credit card-on-file in order to make or receive payments"
+    "noCardOnFileFooter":"As you are within your Trial period, you will need a valid credit card-on-file in order to make or receive payments",
+    "withOneUserIncluded": " with 1 User included",
+    "billingPageErrorNotification": "Error in fetching subscription information. Try in sometime or contact customer support",
+    "selectSubscriptionPackage": "Select Subscription Package"
 }
