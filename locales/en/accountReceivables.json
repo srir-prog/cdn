@@ -324,7 +324,7 @@
     "glPostStatus" : "general ledger post status",
     "payoutAmount" : "Payout Amount",
     "payoutStatus": "Payout Status",
-    "postInvoicesToGL": "Post invoices to General Ledger",
+    "postInvoicesToGL": "Post payments to general ledger",
     "sendPaymentReceipt": "Send payment receipt",
     "HeaderLabelFees" : "Fees",
     "paymentAmountPlaceholder": "<payment.amount>",
@@ -341,5 +341,8 @@
     "payoutSent": "Payout sent",
     "postingFailed":"Posting failed",
     "postingInProgress":"Posting in progress",
-    "InvoiceUpdateExpectedDateChange": "Invoice {{invoiceNumber}} has been updated"
+    "InvoiceUpdateExpectedDateChange": "Invoice {{invoiceNumber}} has been updated",
+    "postingToGLSuccess": "Payment(s) successfully posted for the {{total}} invoice(s)",
+    "postingToGLPartialSuccess": "Payment(s) successfully posted for {{total}} invoice(s). Please reach out to our support team via the chat bubble for the remaining invoices.",
+    "postingToGLError": "Payment(s) posting to the General Ledger failed. Please reach out to our support team via the chat bubble."
 }

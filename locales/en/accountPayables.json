@@ -159,6 +159,7 @@
     "firstApprovalPending": "First approval pending",
     "secondApprovalPending": "Second approval pending",
     "thirdApprovalPending": "Third approval pending",
+    "paymentFailed": "Payment failed",
     "unknown": "Unknown",
     "systemFailure": "System failure",
     "paymentAmountShouldBeTill2DecimalPlaces": "Payment amount should be till 2 decimal places",
@@ -225,5 +226,6 @@
     "//": "duplicate properties as noCardonFIle is getting translated in AP Dashboard with other msg pros which uses ap tns file",
     "noCardOnFile": "You need a valid card-on-file in order to make payments. Please <ourLink>ClickHere</ourLink> to securely update your credit card.",
     "ClickHere": "Click here",
-    "askAdminToAddCard": "You need a valid card-on-file in order to make payments. Please ask your admin to securely update your credit card."
+    "askAdminToAddCard": "You need a valid card-on-file in order to make payments. Please ask your admin to securely update your credit card.",
+    "notStarted": "Not started"
 }

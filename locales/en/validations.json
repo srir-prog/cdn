@@ -48,7 +48,7 @@
     "groupNameCantBeBlank": "Group can't be blank",
     "isEqualLength": "Value should be a number with {{charLength}} digits",
     "isInt": "Value should be a number",
-    "inValidOwnershipPercentage": "Invalid Ownership Percentage",
+    "inValidOwnershipPercentage": "Add individuals who own 25% or more of the business",
     "inValidSSN": "Invalid SSN",
     "inValidDrivingLicense": "Invalid Driving License",
     "inValidPassport": "Invalid Passport",
@@ -58,5 +58,6 @@
     "inValidAccountNumber": "Invalid account number",
     "inValidRoutingNumber": "Invalid routing number",
     "restrictedTransactionKeywords": "Invalid transaction name. Please try a different name",
-    "exceedsAvailableCredits": "Exceeds available credits"
+    "exceedsAvailableCredits": "Exceeds available credits",
+    "selectACountry":"Select a country"
 }
