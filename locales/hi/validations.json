@@ -48,7 +48,7 @@
     "groupNameCantBeBlank": "समूह खाली नहीं हो सकता",
     "isEqualLength": "मान {{charLength}} अंकों वाली एक संख्या होनी चाहिए",
     "isInt": "मान एक संख्या होना चाहिए",
-    "inValidOwnershipPercentage": "अमान्य स्वामित्व प्रतिशत",
+    "inValidOwnershipPercentage": "ऐसे व्यक्तियों को जोड़ें जिनके पास व्यवसाय का 25% या अधिक हिस्सा है",
     "inValidSSN": "अमान्य एसएसएन",
     "inValidDrivingLicense": "अमान्य ड्राइविंग लाइसेंस",
     "inValidPassport": "अमान्य पासपोर्ट",
