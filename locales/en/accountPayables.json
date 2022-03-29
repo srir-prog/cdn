@@ -227,5 +227,10 @@
     "noCardOnFile": "You need a valid card-on-file in order to make payments. Please <ourLink>ClickHere</ourLink> to securely update your credit card.",
     "ClickHere": "Click here",
     "askAdminToAddCard": "You need a valid card-on-file in order to make payments. Please ask your admin to securely update your credit card.",
-    "notStarted": "Not started"
+    "notStarted": "Not started",
+    "voidedManually": "Voided manually",
+    "checkAtLocalPostOffice": "Check at local post office",
+    "checkAtRecipientPostOffice": "Check at recipient post office",
+    "checkOutForDelivery": "Check out for delivery",
+    "checkDelivered": "Check delivered"
 }
