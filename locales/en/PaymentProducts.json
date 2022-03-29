@@ -75,8 +75,8 @@
   "ERROR": "Application failed",
   "applicationHelperText": "If you need help with your application, please contact the team via the chat bubble or on cs@centime.com",
   "viewDocument": "View Document",
-  "BFORequired": "We are required by law to collect Beneficial Owner information. Please add the Ownership information once to make your applications smoother.",
-  "addBFO": "Add Beneficial Owners info",
+  "BFORequired": "We are required by law to provide ownership/control information. Please add the information to apply for the products.",
+  "addBFO": "Add ownership/control info",
   "ACHPayment": "This account is not eligible for ACH payment",
   "applicationFailed": "Application failed",
   "centimeCash": "Your CentimeCash line of credit will be available soon. We will notify you once it is ready to be used"
