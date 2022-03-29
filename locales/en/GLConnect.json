@@ -30,7 +30,7 @@
     "QBDUnsupported": "Your version of QuickBooks Desktop is not currently supported. However, we would like to help you use Centime.",
     "CCWillReachOut": "Our customer success team will contact you to advise on options for upgrading to a supported version of QuickBooks.",
     "ConnectToNetsuiteHeader": "Connect Netsuite using Centime SuiteApp",
-    "ConnectToNetsuiteBody": "Centime SuiteApp allows you to access the application with Netsuite. You can connect to Centime by installing the Centime SuiteApp and connecting your Netsuite subsidiary. Install the Centime SuiteApp by <clickLink>clickingHere</clickLink>, searching for ‘Centime’ Suite bundle and installing.",
+    "ConnectToNetsuiteBody": "Centime SuiteApp allows you to access the application within Netsuite. <newLine/> You can connect to Centime by installing the Centime SuiteApp and connecting your Netsuite subsidiary. <newLine/> Install the Centime SuiteApp by <clickLink>clickingHere</clickLink>, searching for ‘Centime’ Suite bundle and installing.",
     "clickingHere": "clicking here",
     "---PHONE VERIFICATION----": "---------PHONE VERIFICATION----------------",
     "VerifyPhone": "Verify phone number",
