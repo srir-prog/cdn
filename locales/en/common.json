@@ -224,5 +224,6 @@
     "billingAddress": "Billing Address",
     "packageUpdateSuccessful":"Package update successful",
     "popupClosingMessage":"You can now close this window and go back to Centime to continue working",
-    "backToCentime":"BACK TO CENTIME"
+    "backToCentime":"BACK TO CENTIME",
+    "askAdminToAddCard": "You need a valid card-on-file in order to make payments. Please ask your admin to securely update your credit card."
 }
