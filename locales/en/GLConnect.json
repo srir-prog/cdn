@@ -133,7 +133,7 @@
     "EnterCredentials": "Enter credentials",
     "CheckAccess": "Establish connection",
     "ConfirmAccessTitle": "You will need either of the following admin privileges in order to connect Centime with your {{GLType}}",
-    "ConfirmAccessTitleQBD": "You will need either of the following admin privileges in order to connect Centime with your QuickBooks Desktop",
+    "ConfirmAccessTitleQBD": "You will need Administrative privileges in order to connect Centime with your QuickBooks Desktop",
     "ConfirmAccessPage": "Confirm admin privileges",
     "CAPList1": "Master admin access privileges",
     "CAPList2": "Company admin access privileges",

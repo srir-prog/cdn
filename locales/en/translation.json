@@ -201,5 +201,6 @@
     "errorCentimeCredit": "Error occurred while onboard of Centime Credit application at payment processing service",
     "month": "Month",
     "year": "Year",
-    "day": "Day"
+    "day": "Day",
+    "Document": "Document"
 }
