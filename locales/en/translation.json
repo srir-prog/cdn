@@ -202,5 +202,6 @@
     "month": "Month",
     "year": "Year",
     "day": "Day",
-    "Document": "Document"
+    "Document": "Document",
+    "Upload": "Upload"
 }

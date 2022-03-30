@@ -225,5 +225,11 @@
     "packageUpdateSuccessful":"Package update successful",
     "popupClosingMessage":"You can now close this window and go back to Centime to continue working",
     "backToCentime":"BACK TO CENTIME",
-    "askAdminToAddCard": "You need a valid card-on-file in order to make payments. Please ask your admin to securely update your credit card."
+    "askAdminToAddCard": "You need a valid card-on-file in order to make payments. Please ask your admin to securely update your credit card.",
+    "fileUpload": "Drag and drop or <ourLabel><ourLink></ourLink></ourLabel> your files",
+    "browse": "browse",
+    "uploadFrontSide": "UPLOAD FRONT SIDE",
+    "allowedFormats": "Allowed formats: {{allowedFormatsMessage}}",
+    "minAllowedSize": "Minimum allowed size: 1 KB for PDF, 100 KB for other formats",
+    "maxAllowedSize": "Maximum allowed size: {{maxFileSize}} MB"
 }
