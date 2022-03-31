@@ -236,11 +236,16 @@
     "checkOutForDelivery": "Check out for delivery",
     "checkDelivered": "Check delivered",
     "notStarted": "Not started",
-    "enrolmentPopup": "Enrolment for credit card payment",
+    "enrolmentPopup": "Enrollment for credit card payment",
     "inputEnrolmentLabel": "Please input details of Supplier contact person responsible for enrolment",
     "contactName": "Contact name",
     "contactEmail": "Contact email",
-    "enrolmentStatus": "Enrolment status",
+    "enrolmentStatus": "Enrollment status",
     "initiatedBy": "Initiated By",
-    "stopEnrolment": "Stop Enrolment"
+    "stopEnrolment": "Stop Enrollment",
+    "enrolmentSuccessLabel": "Supplier is willing to accept credit card payment",
+    "enrolmentStoppedLabel": "Supplier does not accept credit card payment",
+    "completed": "Completed",
+    "SupplierStatus": "Enrollment Status",
+    "enrolmentStarted": "Enrollment started"
 }
