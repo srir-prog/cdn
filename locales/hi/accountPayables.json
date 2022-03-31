@@ -242,5 +242,10 @@
     "contactEmail": "ईमेल से संपर्क करें",
     "enrolmentStatus": "नामांकन स्थिति",
     "initiatedBy": "द्वारा शुरू किया गया",
-    "stopEnrolment": "नामांकन बंद करो"
+    "stopEnrolment": "नामांकन बंद करो",
+    "enrolmentSuccessLabel": "आपूर्तिकर्ता क्रेडिट कार्ड से भुगतान स्वीकार करने को तैयार है",
+    "enrolmentStoppedLabel": "आपूर्तिकर्ता क्रेडिट कार्ड से भुगतान स्वीकार नहीं करता",
+    "completed": "पूर्ण",
+    "SupplierStatus": "नामांकन स्थिति",
+    "enrolmentStarted": "नामांकन प्रारंभ"
 }
