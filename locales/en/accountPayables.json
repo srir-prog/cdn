@@ -247,5 +247,6 @@
     "enrolmentStoppedLabel": "Supplier does not accept credit card payment",
     "completed": "Completed",
     "SupplierStatus": "Enrollment Status",
-    "enrolmentStarted": "Enrollment started"
+    "enrolmentStarted": "Enrollment started",
+    "enrollmentStopped": "Enrollment stopped"
 }

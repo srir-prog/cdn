@@ -247,5 +247,6 @@
     "enrolmentStoppedLabel": "आपूर्तिकर्ता क्रेडिट कार्ड से भुगतान स्वीकार नहीं करता",
     "completed": "पूर्ण",
     "SupplierStatus": "नामांकन स्थिति",
-    "enrolmentStarted": "नामांकन प्रारंभ"
+    "enrolmentStarted": "नामांकन प्रारंभ",
+    "enrollmentStopped": "नामांकन रुक गया"
 }
