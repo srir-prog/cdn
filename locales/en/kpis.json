@@ -39,6 +39,7 @@
     "cashFlowOverTime": "Cash flow over time",
     "cashFlowStatement": "Cash flow statement",
     "cashFlowByCategories": "Cash flow by categories",
+    "cashFlowByGroups": "Cash flow by groups",
     "impactInfo": "Impact is a measure of the negative effect on cash flows due to delayed collection (uncollected and collected late) from customers\nImpact for Customer A = (Collected Late + Uncollected amount from Customer A)/(Total Collected Late + Uncollected amount).",
     "delayInfo": "Delay is the weighted average of payment delays calculated using corresponding invoice amounts of all payments received post due date from a customer.",
     "invoiceAmount": "Invoice amount",

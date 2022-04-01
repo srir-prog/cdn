@@ -59,5 +59,9 @@
     "inValidRoutingNumber": "अमान्य रूटिंग नंबर",
     "restrictedTransactionKeywords": "अमान्य लेन-देन का नाम. कृपया कोई दूसरा नाम आज़माएं",
     "exceedsAvailableCredits": "उपलब्ध क्रेडिट से अधिक है",
-    "selectACountry":"एक देश चुनें"
+    "selectACountry":"एक देश चुनें",
+    "MultipleFileDropError": "एकाधिक फ़ाइलों की अनुमति नहीं है",
+    "MinFileSizeError": "फ़ाइल का आकार न्यूनतम अनुमत सीमा से कम है",
+    "MaxFileSizeExceededError": "फ़ाइल का आकार {{maxFileSize}} MB की अधिकतम अनुमत सीमा को पार कर गया है",
+    "UnsupportedFileTypeError": "फ़ाइल प्रकार समर्थित नहीं है"
 }
