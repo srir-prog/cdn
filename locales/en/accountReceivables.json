@@ -338,6 +338,7 @@
     "posted": "Posted",
     "postedManually":"Posted manually",
     "payoutPending": "Payout pending",
+    "payoutFailed": "Payout failed",
     "payoutSent": "Payout sent",
     "postingFailed":"Posting failed",
     "postingInProgress":"Posting in progress",
