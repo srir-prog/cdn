@@ -11,6 +11,7 @@
     "Status" : "Status",
     "InvitationSent" : "An invitation to join the team has been resent to <0>{{fullName}}</0>",
     "AddUserError" : "User not found. Please try again.",
+    "UserAlreadyExists": "User already exists.",
     "DeleteModalTitle" : "Are you sure you want to delete <b>{{fullName}}'s</b> profile?",
     "DeleteModal" : "Delete User Modal",
     "SyncNow" : "Sync now",

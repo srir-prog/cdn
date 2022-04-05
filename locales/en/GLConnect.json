@@ -17,7 +17,7 @@
     "---SELET GL PAGE----": "---------------SELET GL PAGE--------------------",
     "SelectGL": "Select General Ledger",
     "WhatsTheNeed": "Why do I need to connect my General Ledger?",
-    "SelectGLTitle": "Select the General Ledger application used by {{entity}}",
+    "SelectGLTitle": "Select the General Ledger application",
     "DontSeeApp": "Don't see your application listed?",
     "AddHere": "Click here",
     "AddingSupport": "We are always adding support for General Ledger applications. Please let us know which one you use.",
