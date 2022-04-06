@@ -249,5 +249,8 @@
     "SupplierStatus": "नामांकन स्थिति",
     "enrolmentStarted": "नामांकन प्रारंभ",
     "enrollmentStopped": "नामांकन रुक गया",
-    "stopped": "रोका हुआ"
+    "enrolmentSuccessful": "नामांकन सफल",
+    "enrolmentUnsuccessful": "नामांकन असफल",
+    "stopped": "रोका",
+    "stoppedBy": "स्टॉप बाय"
 }
