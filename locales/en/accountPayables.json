@@ -248,5 +248,9 @@
     "completed": "Completed",
     "SupplierStatus": "Enrollment Status",
     "enrolmentStarted": "Enrollment started",
-    "enrollmentStopped": "Enrollment stopped"
+    "enrollmentStopped": "Enrollment stopped",
+    "enrolmentSuccessful": "Enrollment Successful",
+    "enrolmentUnsuccessful": "Enrollment Unsuccessful",
+    "stopped": "Stopped",
+    "stoppedBy": "Stopped By"
 }
