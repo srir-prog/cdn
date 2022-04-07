@@ -208,7 +208,7 @@
     "paidInGeneralLedger": "Paid in General Ledger",
     "userActionNeeded": "User action needed",
     "inProcess": "In process",
-    "supplierInProcess": "In process",
+    "inProcessSupplier": "In process",
     "invoicePostingFailed": "Invoice posting failed",
     "exchangeRate": "Exchange Rate",
     "activateCard": "Activate card",
@@ -249,5 +249,9 @@
     "SupplierStatus": "Enrollment Status",
     "enrolmentStarted": "Enrollment started",
     "enrollmentStopped": "Enrollment stopped",
-    "stopped": "Stopped"
+    "enrolmentSuccessful": "Enrollment Successful",
+    "enrolmentUnsuccessful": "Enrollment Unsuccessful",
+    "stopped": "Stopped",
+    "stoppedBy": "Stopped By",
+    "creditCardToolTip": "Supplier may accept payments via Credit Card"
 }

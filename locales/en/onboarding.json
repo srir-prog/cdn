@@ -68,6 +68,7 @@
     "StayLoggedIn": "Stay logged in",
     "ContactAdmin": "Please check with administrator for valid invite",
     "SessionLogoutMsg": "You have been logged out due to inactivity",
+    "ExpiredSessionLogoutMsg": "You have been logged out due to expired session",
     "ConfirmText": "By pressing the back button of the browser, your session will be invalid and all unsaved data will be lost. Are you sure you want to continue?",
     "VerifyYourAccount": "Please verify your account",
     "EmailSentToEmailId": "We have sent a verification email to {{emailId}}.<br>Please click the link to verify your account.",
