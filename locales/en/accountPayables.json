@@ -208,7 +208,7 @@
     "paidInGeneralLedger": "Paid in General Ledger",
     "userActionNeeded": "User action needed",
     "inProcess": "In process",
-    "supplierInProcess": "In process",
+    "inProcessSupplier": "In process",
     "invoicePostingFailed": "Invoice posting failed",
     "exchangeRate": "Exchange Rate",
     "activateCard": "Activate card",
