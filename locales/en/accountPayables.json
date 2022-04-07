@@ -252,5 +252,6 @@
     "enrolmentSuccessful": "Enrollment Successful",
     "enrolmentUnsuccessful": "Enrollment Unsuccessful",
     "stopped": "Stopped",
-    "stoppedBy": "Stopped By"
+    "stoppedBy": "Stopped By",
+    "creditCardToolTip": "Supplier may accept payments via Credit Card"
 }

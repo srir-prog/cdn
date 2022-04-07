@@ -252,5 +252,6 @@
     "enrolmentSuccessful": "नामांकन सफल",
     "enrolmentUnsuccessful": "नामांकन असफल",
     "stopped": "रोका",
-    "stoppedBy": "स्टॉप बाय"
+    "stoppedBy": "स्टॉप बाय",
+    "creditCardToolTip": "आपूर्तिकर्ता क्रेडिट कार्ड के माध्यम से भुगतान स्वीकार कर सकता है"
 }
