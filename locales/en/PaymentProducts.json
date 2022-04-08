@@ -44,7 +44,7 @@
   "clickHere": "Click here",
   "activeCount": "{{active}}/{{total}} active",
   "checkActivation": "<ourLink></ourLink> to learn more about sending check payments with Centime",
-  "noCheckPayment": "This account is not eligible for {{paymentType}} payment",
+  "noCheckPayment": "This account is not eligible for {{paymentType}} payments",
   "credit-card": "Credit card",
   "creditCardPayments": "Enter credit card details",
   "cardName": "Name on card",
