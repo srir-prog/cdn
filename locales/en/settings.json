@@ -426,5 +426,6 @@
     "noCardOnFileFooter":"As you are within your Trial period, you will need a valid credit card-on-file in order to make or receive payments",
     "withOneUserIncluded": " with 1 User included",
     "billingPageErrorNotification": "Error in fetching subscription information. Try in sometime or contact customer support",
-    "selectSubscriptionPackage": "Select Subscription Package"
+    "selectSubscriptionPackage": "Select Subscription Package",
+    "incorrectAddressEntered":"Incorrect address entered"
 }
