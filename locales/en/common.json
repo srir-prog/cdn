@@ -232,6 +232,5 @@
     "allowedFormats": "Allowed formats: {{allowedFormatsMessage}}",
     "allowedFormatsWithPDF": "Allowed formats: {{allowedFormatsMessage}} (max. {{maxPDFPages}} pages)",
     "minAllowedSize": "Minimum allowed size: 1 KB for PDF, 100 KB for other formats",
-    "maxAllowedSize": "Maximum allowed size: {{maxFileSize}} MB",
-    "incorrectAddressEntered":" Incorrect address entered"
+    "maxAllowedSize": "Maximum allowed size: {{maxFileSize}} MB"
 }

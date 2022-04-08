@@ -232,6 +232,5 @@
     "allowedFormats": "स्वीकृत प्रारूप: {{allowedFormatsMessage}}",
     "allowedFormatsWithPDF": "स्वीकृत प्रारूप: {{allowedFormatsMessage}} (अधिकतम {{maxPDFPages}} पृष्ठ)",
     "minAllowedSize": "न्यूनतम अनुमत आकार: पीडीएफ के लिए 1 केबी, अन्य प्रारूपों के लिए 100 केबी",
-    "maxAllowedSize": "अधिकतम अनुमत आकार: {{maxFileSize}} एमबी",
-    "incorrectAddressEntered":"गलत पता दर्ज किया गया"
+    "maxAllowedSize": "अधिकतम अनुमत आकार: {{maxFileSize}} एमबी"
 }
