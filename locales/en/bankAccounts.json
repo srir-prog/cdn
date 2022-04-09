@@ -266,5 +266,5 @@
     "loadingCFFDataMsg": "Forecast generation is in progress. Please wait until the forecast creation process is complete.",
     "userStartDateInPastErrorMsg": "There is a problem saving the transaction since the start date is in the past. Select a future date.",
     "invoices": "Invoices",
-    "backToCashFlowTable":"backToCashFlowTable"
+    "backToCashFlowTable":"Back to cash flow table"
 }
