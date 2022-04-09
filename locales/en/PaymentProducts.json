@@ -27,7 +27,7 @@
   "tableForPaymentProducts": "Table for payments",
   "noAccounts": "Please connect accounts by navigating to settings > Financial Institutions",
   "CHECK": "Checks",
-  "uniqueAccountNumber": "Account number should be unique",
+  "uniqueAccountNumber": "Account number must be unique",
   "deactivate": "Deactivate",
   "active": "Active",
   "inactive": "Inactive",
