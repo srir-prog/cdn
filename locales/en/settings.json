@@ -138,7 +138,7 @@
     "RemovingAdminError" : "You are the only Centime user with admin privileges, please add admin privileges to somebody else before you remove yourself",
     "CompanySettings":"Company profile",
     "CompanyInformation":"Company information",
-    "UserManagement":"Team management",
+    "UserManagement":"Users",
     "PersonalDetails":"Personal details",
     "JobTitle":"Job title",
     "PhoneNumberMgmt":"Edit phone number",
