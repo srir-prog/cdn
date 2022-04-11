@@ -145,7 +145,7 @@
     "RemovingAdminError" : "You are the only Centime user with admin privileges, please add admin privileges to somebody else before you remove yourself.",
     "CompanySettings":"कंपनी सेटिंग्स",
     "CompanyInformation":"कंपनी की जानकारी",
-    "UserManagement":"उपयोगकर्ता प्रबंधन",
+    "UserManagement":"उपयोगकर्ताओं",
     "PhoneNumberMgmt":"फोन नंबर प्रबंधन",
     "PhoneNumber":"फ़ोन नंबर",
     "PasswordManagement":"पासवर्ड प्रबंधन",
