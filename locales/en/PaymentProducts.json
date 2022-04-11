@@ -28,7 +28,7 @@
   "noAccounts": "Please connect accounts by navigating to settings > Financial Institutions",
   "CHECK": "Checks",
   "uniqueAccountNumber": "Account number should be unique",
-  "deactivate": "Deactivate",
+  "deactivate": "Unregister",
   "active": "Active",
   "inactive": "Inactive",
   "details": "Details",
