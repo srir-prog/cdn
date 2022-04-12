@@ -165,7 +165,7 @@
     "paymentFailed": "Payment failed",
     "unknown": "Unknown",
     "systemFailure": "System failure",
-    "paymentAmountShouldBeTill2DecimalPlaces": "Payment amount cannot have more than 2 decimal points",
+    "paymentAmountShouldBeTill2DecimalPlaces": "Payment amount cannot have more than 2 decimal places",
     "invalidPaymentCurrency": "Invalid payment currency",
     "invalidPaymentDate": "Invalid payment date",
     "issueInActivatingPaymentProduct": "Issue in activating payment product",
