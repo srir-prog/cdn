@@ -1,5 +1,5 @@
 {
-  "headerLabelCustomer": "Client Name",
-  "headerLabelApplication": "Application Ref",
-  "headerLabelAction": "Action"
+  "headerLabelCustomer": "ग्राहक का नाम",
+  "headerLabelApplication": "आवेदन संदर्भ",
+  "headerLabelAction": "गतिविधि"
 }
