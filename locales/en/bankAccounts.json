@@ -266,5 +266,8 @@
     "loadingCFFDataMsg": "Centime is generating your cash flow forecast. Please check back in a few minutes.",
     "userStartDateInPastErrorMsg": "Selected start date is in the past. Please select a future date.",
     "invoices": "Invoices",
-    "backToCashFlowTable":"Back to cash flow table"
+    "backToCashFlowTable":"Back to cash flow table",
+    "noAccountConnected": "No accounts connected",
+    "noAccountConnectedMsg": "You have not connected to any financial institution or account so far. click below to connect one",
+    "ConnectABank": "CONNECT A BANK ACCOUNT"
 }
