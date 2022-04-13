@@ -123,7 +123,7 @@
     "history": "History",
     "notes": "Notes",
     "riskReputation": "Risk and Reputation",
-    "profile": "Profile",
+    "supplierProfile": "Profile",
     "supplierPanelTitle": "Supplier profile - {{buyerName}}",
     "myProfile": "My profile",
     "taxType": "Tax type",
