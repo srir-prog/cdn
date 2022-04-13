@@ -15,5 +15,7 @@
   "reactWithCount_plural": "नमस्कार <b> {{name}} </ b>, आपके पास {{count}} अपठित संदेश हैं। <ourLink></ ourLink>।",
   "GoTo": "संदेश पर जाएं ",
   "GoTo_plural": "संदेशों पर जाएं",
-  "multipleLines": "स्वागत <b>{{name}}</b>, {{count}} संदेशों का कई टैग के साथ कई पंक्तियों में अनुवाद करना।<nl/> यह दूसरी पंक्ति है जो [नई] पंक्ति में आनी चाहिए।"
+  "multipleLines": "स्वागत <b>{{name}}</b>, {{count}} संदेशों का कई टैग के साथ कई पंक्तियों में अनुवाद करना।<nl/> यह दूसरी पंक्ति है जो [नई] पंक्ति में आनी चाहिए।",
+  "SelectFruits":"Select Multiple sweet fruits",
+  "PickFruit": "Pick up a fruit"
 }
