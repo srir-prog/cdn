@@ -238,7 +238,7 @@
     "checkDelivered": "Check delivered",
     "notStarted": "Not started",
     "enrolmentPopup": "Enrollment for credit card payments",
-    "inputEnrolmentLabel": "Specify supplier contact responsible for payment decisions",
+    "inputEnrolmentLabel": "Specify the best contact at your supplier to approach for credit card payments",
     "contactName": "Enrollment contact name",
     "contactEmail": "Enrollment contact email",
     "enrolmentStatus": "Enrollment status",
