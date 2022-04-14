@@ -101,7 +101,7 @@
     "NotifyPayments": "Notify when payment has been approved",
     "NotifyRemittance": "Send remittance after payment has been initiated",
     "SendEmailToDiffContacts": "Send emails to a contact different from the primary contact",
-    "EnableElectronicPayment": "Enable electronic payment enrolment",
+    "EnableElectronicPayment": "Credit card enrollment",
     "PaymentMethods": "Payment methods",
     "CentimePortal": "Share on Centime Payment Portal",
     "PayDirect": "Pay directly on supplier website",
