@@ -254,5 +254,7 @@
     "enrolmentUnsuccessful": "Enrollment unsuccessful",
     "stopped": "Stopped",
     "stoppedBy": "Stopped by",
-    "creditCardToolTip": "Supplier likely accepts credit card payments"
+    "creditCardToolTip": "Supplier likely accepts credit card payments",
+    "accountName": "Account Name",
+    "paymentType": "Payment Type"
 }
