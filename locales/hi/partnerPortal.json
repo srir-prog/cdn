@@ -20,5 +20,8 @@
   "centimeCard":"Centime Card",
   "achSuccessNotification": "ग्राहक के लिए एसीएच खाता {{name}}सक्रिय होता है",
   "achErrorNotification": "ग्राहक के लिए एसीएच खाता {{name}}सक्रिय नहीं है",
-  "partnerPortalModuleHeader": "Centime Partner Portal में आपका स्वागत है"
+  "partnerPortalModuleHeader": "Centime Partner Portal में आपका स्वागत है",
+  "activate": "सक्रिय",
+  "change": "बदलना",
+  "confirm": "पुष्टि करना"
 }

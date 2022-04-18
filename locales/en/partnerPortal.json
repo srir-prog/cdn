@@ -20,5 +20,8 @@
   "centimeCard":"Centime Card",
   "achSuccessNotification": "Ach account for client {{name}} is activated",
   "achErrorNotification": "Ach account for client {{name}} is not activated",
-  "partnerPortalModuleHeader": "Welcome to Centime Partner Portal"
+  "partnerPortalModuleHeader": "Welcome to Centime Partner Portal",
+  "activate": "Activate",
+  "change": "Change",
+  "confirm": "Confirm"
 }
