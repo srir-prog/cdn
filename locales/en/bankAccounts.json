@@ -269,5 +269,9 @@
     "backToCashFlowTable":"Back to cash flow table",
     "noAccountConnected": "No accounts connected",
     "noAccountConnectedMsg": "You have not connected to any financial institution or account so far. click below to connect one",
-    "ConnectABank": "CONNECT A BANK ACCOUNT"
+    "ConnectABank": "CONNECT A BANK ACCOUNT",
+    "userActualAmount": "Actual Amount",
+    "userActualDate": "Actual Date",
+    "updatePredictedListSuccessMsg": "Predicted list updated successfully",
+    "updatePredictedListErrorMsg": "Unable to update predicted list"
 }

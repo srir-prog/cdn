@@ -222,5 +222,9 @@
     "updateCustomerSuccessMsg": "ग्राहक: {{buyerName}}, सफलतापूर्वक अपडेट किया गया",
     "updateSupplierErrorMsg": "{{buyerName}} आपूर्तिकर्ता को अपडेट करने में असमर्थ",
     "updateCustomerErrorMsg": "{{buyerName}} ग्राहक को अपडेट करने में असमर्थ",
-    "getCompanyDetailsErrorMsg": "{{sourceName}} के लिए विवरण प्राप्त करने में असमर्थ"    
+    "getCompanyDetailsErrorMsg": "{{sourceName}} के लिए विवरण प्राप्त करने में असमर्थ",
+    "userActualAmount": "वास्तविक राशि",
+    "userActualDate": "वास्तविक तिथि",
+    "updatePredictedListSuccessMsg": "पूर्वानुमानित सूची सफलतापूर्वक अपडेट की गई",
+    "updatePredictedListErrorMsg": "अनुमानित सूची को अपडेट करने में असमर्थ"    
 }
