@@ -165,5 +165,10 @@
     "day": "Day",
     "Document": "Document",
     "Upload": "Upload",
-    "Info": "Info"
+    "Info": "Info",
+    "megaMenu": "Mega Menu",
+    "monitorCashFlows": "Monitor cash and forecast cash flows",
+    "managePayables": "Manage Payables",
+    "manageReceivables": "Manage Receivables",
+    "monitorKPIs": "Monitor KPIs"
 }

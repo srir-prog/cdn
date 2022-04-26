@@ -75,5 +75,6 @@
   "viewDocument": "View application",
   "BFORequired": "Centime is required by law to collect ownership and control information for your company. You will be able to apply for Centime's payment and credit solutions once you submit this information.",
   "addBFO": "Add ownership and control info",
-  "applicationFailed": "Application failed"
+  "applicationFailed": "Application failed",
+  "SUBMITTED": "Application submitted"
 }
