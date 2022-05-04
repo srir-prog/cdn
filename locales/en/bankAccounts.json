@@ -270,8 +270,8 @@
     "noAccountConnected": "You currently do not have any financial institutions connected",
     "noAccountConnectedMsg": "To connect, click below: ",
     "ConnectABank": "CONNECT A BANK ACCOUNT",
-    "userActualAmount": "Actual Amount",
-    "userActualDate": "Actual Date",
+    "userActualAmount": "Actual amount",
+    "userActualDate": "Actual date",
     "updatePredictedListSuccessMsg": "Predicted list updated successfully",
     "updatePredictedListErrorMsg": "Unable to update predicted list"
 }
