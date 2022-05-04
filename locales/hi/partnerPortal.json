@@ -28,5 +28,9 @@
   "nameOnCard": "कार्ड पर नाम",
   "panLastFourDigits": "पैन अंतिम चार अंक",
   "centimeCardDetails": "कृपया के लिए सेनटाइम कार्ड विवरण दर्ज करें {{name}}",
-  "pleaseVerify": "कृपया दर्ज किए गए विवरणों को सत्यापित करें {{name}}"
+  "pleaseVerify": "कृपया दर्ज किए गए विवरणों को सत्यापित करें {{name}}",
+  "viewApp":"आवेदन देखें",
+  "onboarded": "ऑनबोर्ड आवेदन",
+  "headerLabelPaymentMethod": "भुगतान का तरीका",
+  "allRequired": "कार्ड विवरण अनिवार्य हैं"
 }

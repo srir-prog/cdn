@@ -28,5 +28,9 @@
   "nameOnCard": "Name on card",
   "panLastFourDigits": "PAN last four digits",
   "centimeCardDetails": "Please enter centime card details for {{name}}",
-  "pleaseVerify": "Please verify the entered details for {{name}}"
+  "pleaseVerify": "Please verify the entered details for {{name}}",
+  "viewApp":"View Application",
+  "onboarded": "Onboarded Applications",
+  "headerLabelPaymentMethod": "Payment Method",
+  "allRequired": "Card details are mandatory"
 }
