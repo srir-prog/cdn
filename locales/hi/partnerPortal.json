@@ -32,5 +32,6 @@
   "viewApp":"आवेदन देखें",
   "onboarded": "ऑनबोर्ड आवेदन",
   "headerLabelPaymentMethod": "भुगतान का तरीका",
-  "allRequired": "कार्ड विवरण अनिवार्य हैं"
+  "allRequired": "कार्ड विवरण अनिवार्य हैं",
+  "permissionWarn": "यदि कोई डेटा नहीं मिला तो अनुमतियाँ समस्या हो सकती हैं"
 }
