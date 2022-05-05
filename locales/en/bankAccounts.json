@@ -275,5 +275,9 @@
     "bankAccountsNotSyncedUserActionMsg": "Account connection issue. <clickHere></clickHere> to take action.",
     "clickHere": "Click here",
     "AccountNotSynced": "Account disconnected <br></br>Last successful sync: {{date}}",
-    "AccountNotSyncedNoUserActionRequired": "Account disconnected. Working on resolving, no action required.<br></br> Last successful sync: {{date}}"
+    "AccountNotSyncedNoUserActionRequired": "Account disconnected. Working on resolving, no action required.<br></br> Last successful sync: {{date}}",
+    "userActualAmount": "Actual amount",
+    "userActualDate": "Actual date",
+    "updatePredictedListSuccessMsg": "Predicted list updated successfully",
+    "updatePredictedListErrorMsg": "Unable to update predicted list"
 }

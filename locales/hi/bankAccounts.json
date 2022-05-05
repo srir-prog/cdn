@@ -221,7 +221,6 @@
     "updateCustomerSuccessMsg": "ग्राहक: {{buyerName}}, सफलतापूर्वक अपडेट किया गया",
     "updateSupplierErrorMsg": "{{buyerName}} आपूर्तिकर्ता को अपडेट करने में असमर्थ",
     "updateCustomerErrorMsg": "{{buyerName}} ग्राहक को अपडेट करने में असमर्थ",
-    "getCompanyDetailsErrorMsg": "{{sourceName}} के लिए विवरण प्राप्त करने में असमर्थ",
     "IN SYNC": "सिंक में खाते",
     "IN PROGRESS": "समन्वयन प्रगति पर है",
     "ERROR": "खाता समन्वयन समस्या",
@@ -229,6 +228,10 @@
     "bankAccountsNotSyncedUserActionMsg": "खाता कनेक्शन समस्या। <clickHere></clickHere> कदम उठाने।",
     "clickHere": "यहां क्लिक करें",
     "AccountNotSynced": "खाता काट दिया गया <br></br>अंतिम सफल समन्वयन: {{date}}",
-    "AccountNotSyncedNoUserActionRequired": "खाता काट दिया गया समाधान पर काम कर रहा है, किसी कार्रवाई की आवश्यकता नहीं है।<br></br> अंतिम सफल समन्वयन: {{date}}"
-  
+    "AccountNotSyncedNoUserActionRequired": "खाता काट दिया गया समाधान पर काम कर रहा है, किसी कार्रवाई की आवश्यकता नहीं है।<br></br> अंतिम सफल समन्वयन: {{date}}",
+    "getCompanyDetailsErrorMsg": "{{sourceName}} के लिए विवरण प्राप्त करने में असमर्थ",
+    "userActualAmount": "वास्तविक राशि",
+    "userActualDate": "वास्तविक तिथि",
+    "updatePredictedListSuccessMsg": "पूर्वानुमानित सूची सफलतापूर्वक अपडेट की गई",
+    "updatePredictedListErrorMsg": "अनुमानित सूची को अपडेट करने में असमर्थ"   
 }
