@@ -32,5 +32,6 @@
   "viewApp":"View Application",
   "onboarded": "Onboarded Applications",
   "headerLabelPaymentMethod": "Payment Method",
-  "allRequired": "Card details are mandatory"
+  "allRequired": "Card details are mandatory",
+  "permissionWarn": "If no data found permissions might be the issue"
 }
