@@ -236,5 +236,10 @@
     "allowedFormatsWithPDF": "Allowed formats: {{allowedFormatsMessage}} (max. {{maxPDFPages}} pages)",
     "minAllowedSize": "Minimum allowed size: 1 KB for PDF, 100 KB for other formats",
     "maxAllowedSize": "Maximum allowed size: {{maxFileSize}} MB",
-    "getHelp": "Get help"
+    "getHelp": "Get help",
+    "----For Mega Menu -----" : "--------------------------",
+    "monitorCashAndForecast": "Monitor cash and forecast cash flows",
+    "monitorKPIs": "Monitor KPIs",
+    "manageReceivables": "Manage Receivables",
+    "managePayables": "Manage Payables"
 }
