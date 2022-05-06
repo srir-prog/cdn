@@ -238,7 +238,7 @@
     "checkDelivered": "Check delivered",
     "notStarted": "Not started",
     "enrolmentPopup": "Enrollment for credit card payments",
-    "inputEnrolmentLabel": "Specify supplier contact responsible for payment decisions",
+    "inputEnrolmentLabel": "Specify the best contact at your supplier to approach for credit card payments",
     "contactName": "Enrollment contact name",
     "contactEmail": "Enrollment contact email",
     "enrolmentStatus": "Enrollment status",
@@ -254,5 +254,9 @@
     "enrolmentUnsuccessful": "Enrollment unsuccessful",
     "stopped": "Stopped",
     "stoppedBy": "Stopped by",
-    "creditCardToolTip": "Supplier likely accepts credit card payments"
+    "creditCardToolTip": "Supplier likely accepts credit card payments",
+    "accountName": "Account Name",
+    "paymentType":"Payment Type",
+    "creditCardsNotActivated": "Credit Cards are not activated for you",
+    "creditCardsNotActivatedSubText": "Please go to payment products page to activate before enrolling suppliers"
 }
