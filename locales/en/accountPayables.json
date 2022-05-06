@@ -258,5 +258,7 @@
     "accountName": "Account Name",
     "paymentType":"Payment Type",
     "creditCardsNotActivated": "Credit Cards are not activated for you",
-    "creditCardsNotActivatedSubText": "Please go to payment products page to activate before enrolling suppliers"
+    "creditCardsNotActivatedSubText": "Please go to payment products page to activate before enrolling suppliers",
+    "activateCreditCards": "You need to activate credit cards to enroll Suppliers",
+    "activateCreditCardsSubText": "Please activate credit cards from payment and credit solutions page. Or <ourLink>ClickHere</ourLink> for help."
 }
