@@ -34,5 +34,4 @@
   "headerLabelPaymentMethod": "Payment Method",
   "allRequired": "Card details are mandatory",
   "permissionWarn": "If no data found permissions might be the issue",
-  "appError": "Technical Issue please try again later."
 }
