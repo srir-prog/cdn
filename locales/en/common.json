@@ -241,5 +241,7 @@
     "monitorCashAndForecast": "Monitor cash and forecast cash flows",
     "monitorKPIs": "Monitor KPIs",
     "manageReceivables": "Manage Receivables",
-    "managePayables": "Manage Payables"
+    "managePayables": "Manage Payables",
+    "AgingGraph":  "Invoices Aging Graph",
+    "CashFlowGraph": "Cash Flow Graph"
 }
