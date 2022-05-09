@@ -69,6 +69,7 @@
   "ACTIVE": "Active",
   "INACTIVE": "Not applied",
   "IN_PROGRESS": "Application in process",
+  "SUBMITTED":"Application submitted",
   "AVAILABLE": "Available",
   "ERROR": "Application failed",
   "applicationHelperText": "If you need help with your application, please contact our Customer Success team",
