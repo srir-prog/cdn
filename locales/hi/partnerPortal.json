@@ -19,14 +19,19 @@
   "ACH": "ACH",
   "centimeCard":"Centime कार्ड",
   "successNotification": "के लिए ऑनबोर्डिंग {{name}} सफलतापूर्वक पूरा किया गया",
-  "errorNotification": "के लिए विवरण सहेजने में असमर्थ {{name}}. कृपया कुछ देर में पुन: प्रयास करें.",
+  "errorNotification": "के लिए विवरण सहेजने में असमर्थ {{name}}. कृपया पुन: प्रयास करें या सहायता के लिए ईमेल या चैट के माध्यम से हमसे संपर्क करें।",
   "partnerPortalModuleHeader": "भुगतान और क्रेडिट समाधान ऑनबोर्डिंग",
   "activate": "सक्रिय",
   "bankCompanyId": "बैंक कंपनी आईडी",
   "clientBusinessId": "ग्राहक व्यवसाय आईडी",
   "fnboCardId": "एफएनबीओ कार्ड आईडी",
   "nameOnCard": "कार्ड पर नाम",
-  "panLastFourDigits": "पैन अंतिम चार अंक",
+  "panLastFourDigits": "अंतिम चार अंक",
   "centimeCardDetails": "कृपया के लिए सेनटाइम कार्ड विवरण दर्ज करें {{name}}",
-  "pleaseVerify": "कृपया दर्ज किए गए विवरणों को सत्यापित करें {{name}}"
+  "pleaseVerify": "कृपया दर्ज किए गए विवरणों को सत्यापित करें {{name}}",
+  "viewApp":"आवेदन देखें",
+  "onboarded": "पुरा होना।",
+  "headerLabelPaymentMethod": "भुगतान का तरीका",
+  "allRequired": "कार्ड विवरण अनिवार्य हैं",
+  "permissionWarn": "आपके पास इस पृष्ठ तक पहुँचने के लिए आवश्यक अनुमतियाँ नहीं हैं"
 }

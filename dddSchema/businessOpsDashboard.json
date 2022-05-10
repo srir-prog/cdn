@@ -1,0 +1,24 @@
+{
+   "componentType":"table",
+   "title":"Transaction details",
+   "headersInfo":[
+      {
+         "title":"Payment Id",
+         "valueMap":"paymentId",
+         "renderType":"link",
+         "action":{
+            "type":"drillDown",
+            "url":"/paymentInfo",
+            "paramObjMap":{
+               
+            },
+            "bodyObjMap":{
+               "uid":"uid",
+               "transactionStatus":"transactionStatus",
+               "paymentId":"paymentId",
+               "paymentProcessorType":"paymentProcessorType"
+            }
+         }
+      }
+   ]
+}

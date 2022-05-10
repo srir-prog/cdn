@@ -1,0 +1,50 @@
+{
+   "componentType":"table",
+   "title":"Payments list",
+   "headersInfo":[
+      {
+        "title":"Payment Id",
+        "valueMap":"paymentId",
+        "renderType":"link",
+         "action":{
+            "type":"drillDown",
+            "pathList": ["1.0", "aggregate","transactions"],
+            "paramObjMap":{
+               "paymentId": "paymentId"
+            }
+         }
+      },
+      {
+        "title":"Payment method",
+        "valueMap":"paymentMethod"
+      },
+      {
+        "title":"Payment status",
+        "valueMap":"paymentStatus"
+      },
+      {
+        "title":"Payer Payment Account Id",
+        "valueMap":"payerPaymentAccountId",
+        "renderType":"link",
+        "action":{
+            "type":"drillDown",
+            "pathList": ["1.0", "aggregate","payerDetails"],
+            "paramObjMap":{
+               "payerPaymentAccountId": "payerPaymentAccountId"
+            }
+         }
+      },
+      {
+        "title":"Payee Payment Account Id",
+        "valueMap":"payeePaymentAccountId",
+        "renderType":"link",
+        "action":{
+            "type":"drillDown",
+            "pathList": ["1.0", "aggregate","payeeDetails"],
+            "paramObjMap":{
+               "payeePaymentAccountId": "payeePaymentAccountId"
+            }
+         }
+      }
+   ]
+}
