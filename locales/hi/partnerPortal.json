@@ -2,6 +2,7 @@
   "headerLabelCustomer": "ग्राहक का नाम",
   "headerLabelApplication": "आवेदन संदर्भ",
   "headerLabelAction": "गतिविधि",
+  "headerLabelAudit": "लेखापरीक्षा विवरण",
   "onboard": "सवार",
   "accountName": "खाता नाम",
   "accountType": "Account type",
@@ -33,5 +34,12 @@
   "onboarded": "पुरा होना।",
   "headerLabelPaymentMethod": "भुगतान का तरीका",
   "allRequired": "कार्ड विवरण अनिवार्य हैं",
-  "permissionWarn": "आपके पास इस पृष्ठ तक पहुँचने के लिए आवश्यक अनुमतियाँ नहीं हैं"
+  "permissionWarn": "आपके पास इस पृष्ठ तक पहुँचने के लिए आवश्यक अनुमतियाँ नहीं हैं",
+  "details": "द्वारा ऑनबोर्ड किया गया {{name}} <br/> पर {{date}}",
+  "submittedDate": "पर प्रस्तुत की",
+  "AdminDesc" : "ACH और Centime कार्ड में सवार होने पर",
+  "bankCompanyIdTooltip":"सीडीएस कंपनी आईडी जिसे ग्राहक के कार्ड खाते में मैप किया गया है",
+  "clientBusinessIdTooltip":"मास्टरकार्ड आईसीसीपी के साथ पंजीकृत आरसीएन उपनाम",
+  "fnboCardIdTooltip":"64 अंकों का ई-टोकन जो कार्ड खाते में मैप करता है",
+  "companyIdTooltip" :"ACH कंपनी आईडी को ग्राहक के निपटान खाते में मैप किया गया"
 }
