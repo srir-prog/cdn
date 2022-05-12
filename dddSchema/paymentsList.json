@@ -8,7 +8,10 @@
         "renderType":"link",
          "action":{
             "type":"drillDown",
-            "pathList": ["1.0", "aggregate","transactions"],
+            "pathList": ["1.0", "aggregate"],
+            "paramObj": {
+               "templateId": "transactions"
+            },
             "paramObjMap":{
                "paymentId": "paymentId"
             }
@@ -25,10 +28,13 @@
       {
         "title":"Payer Payment Account Id",
         "valueMap":"payerPaymentAccountId",
-        "renderType":"link",
+        "renderType":"button",
         "action":{
             "type":"drillDown",
-            "pathList": ["1.0", "aggregate","payerDetails"],
+            "pathList": ["1.0", "aggregate"],
+            "paramObj": {
+               "templateId": "payerDetails"
+            },
             "paramObjMap":{
                "payerPaymentAccountId": "payerPaymentAccountId"
             }
@@ -40,7 +46,10 @@
         "renderType":"link",
         "action":{
             "type":"drillDown",
-            "pathList": ["1.0", "aggregate","payeeDetails"],
+            "pathList": ["1.0", "aggregate"],
+            "paramObj": {
+               "templateId": "payeeDetails"
+            },
             "paramObjMap":{
                "payeePaymentAccountId": "payeePaymentAccountId"
             }

@@ -1,20 +1,24 @@
 {
-   "componentType":"table",
+   "componentType": "table",
    "title":"List of Active Clients",
    "headersInfo":[
       {
-         "title":"Client id",
+         "title":"Client id Test",
          "valueMap":"clientId",
          "renderType":"text",
-         "width": "10%"
+         "width": "10%",
+         "enableSort": true
       },
        {
          "title":"Client Name",
          "valueMap":"clientName",
-         "renderType":"link",
+         "renderType":"button",
          "action":{
             "type":"drillDown",
-            "pathList": ["1.0", "aggregate", "ClientDetail"],
+            "pathList": ["1.0", "aggregate"],
+            "paramObj": {
+               "templateId": "ClientDetail"
+            },
             "paramObjMap": {
                 "clientId": "clientId"
             }
@@ -26,8 +30,11 @@
          "valueMap": "glConnectionStatus"
       },
       {
-         "title":"Email",
+         "title":"Client Email address",
          "valueMap": "email"
       }
-   ]
+   ],
+   "additionalProperties": {
+      "paginationNeeded": false
+   }
 }
