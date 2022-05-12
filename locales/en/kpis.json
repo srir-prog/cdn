@@ -178,5 +178,6 @@
     "percentagePaidEarlyTooltipInfo": "Invoices paid before the due date vs total invoices available for payment",
     "percentagePaidLateTooltipInfo": "Invoices paid after the due date vs total invoices available for payment",
     "payablesTurnOverRatioTooltipInfo":"Measures the number of times a company pays off its accounts payable in a given period",
-    "payablesTurnOverRatio": "Turnover ratio"
+    "payablesTurnOverRatio": "Turnover ratio",
+    "supplierInvoiceTableLabel": "Supplier Invoice Table"
 }
