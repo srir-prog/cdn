@@ -431,6 +431,6 @@
     "withOneUserIncluded": " with 1 user included",
     "billingPageErrorNotification": "Error in fetching subscription information. Try again or contact us if the problem persists.",
     "selectSubscriptionPackage": "Select Subscription Package",
-    "incorrectAddressEntered":"Incorrect address entered"
-
+    "incorrectAddressEntered":"Incorrect address entered",
+    "surchargeAccount":"Surcharge account"
 }
