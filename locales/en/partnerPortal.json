@@ -41,5 +41,6 @@
   "bankCompanyIdTooltip":"CDS company id that is mapped to the client's card account",
   "clientBusinessIdTooltip":"The RCN Alias as registered with MasterCard ICCP",
   "fnboCardIdTooltip":"The 64 digit e-token that maps to a card account",
-  "companyIdTooltip" :"ACH company id mapped to client's settlement account"
+  "companyIdTooltip" :"ACH company id mapped to client's settlement account",
+  "partnerPortalDashboard": "Partner portal"
 }
