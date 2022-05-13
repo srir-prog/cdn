@@ -36,7 +36,6 @@
   "headerLabelPaymentMethod": "Product",
   "allRequired": "Card details are required",
   "permissionWarn": "You don't have the required permissions to access this page",
-  "details": "Onboarded by {{name}} <br/> on {{date}}",
   "AdminDesc" : "on boarding ACH and Centime card",
   "bankCompanyIdTooltip":"CDS company id that is mapped to the client's card account",
   "clientBusinessIdTooltip":"The RCN Alias as registered with MasterCard ICCP",
