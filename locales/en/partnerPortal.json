@@ -2,7 +2,7 @@
   "headerLabelCustomer": "Client name",
   "headerLabelApplication": "Application reference",
   "headerLabelAction": "Action",
-  "headerLabelUser": "User",
+  "headerLabelUser": "Onboarded by",
   "headerLabelSubmittedDate": "Submitted on",
   "onboard": "onboard",
   "accountName": "Account name",
