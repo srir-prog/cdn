@@ -2,6 +2,7 @@
   "headerLabelCustomer": "ग्राहक का नाम",
   "headerLabelApplication": "आवेदन संदर्भ",
   "headerLabelAction": "गतिविधि",
+  "headerLabelAudit": "लेखापरीक्षा विवरण",
   "onboard": "सवार",
   "accountName": "खाता नाम",
   "accountType": "Account type",
@@ -11,7 +12,7 @@
   "currencyCode": "मुद्रा कोड",
   "ownerFirstName": "मालिक का पहला नाम",
   "ownerLastName": "स्वामी अंतिम नाम",
-  "achAccountDetails": "कृपया इसके लिए ACH खाता विवरण दर्ज करें {{name}}",
+  "achAccountDetails": "कृपया इसके लिए ACH खाता विवरण दर्ज करें <br/> {{name}}",
   "companyId": "कंपनी का पहचान पत्र",
   "acTitle": "स्वागत",
   "CHECKING": "चेकिंग",
@@ -25,13 +26,22 @@
   "bankCompanyId": "बैंक कंपनी आईडी",
   "clientBusinessId": "ग्राहक व्यवसाय आईडी",
   "fnboCardId": "एफएनबीओ कार्ड आईडी",
-  "nameOnCard": "कार्ड पर नाम",
+  "nameOnCard": "कार्ड पर नाम",`
   "panLastFourDigits": "अंतिम चार अंक",
-  "centimeCardDetails": "कृपया के लिए सेनटाइम कार्ड विवरण दर्ज करें {{name}}",
+  "centimeCardDetails": "कृपया के लिए सेनटाइम कार्ड विवरण दर्ज करें <br/> {{name}}",
   "pleaseVerify": "कृपया दर्ज किए गए विवरणों को सत्यापित करें {{name}}",
   "viewApp":"आवेदन देखें",
   "onboarded": "पुरा होना।",
   "headerLabelPaymentMethod": "भुगतान का तरीका",
   "allRequired": "कार्ड विवरण अनिवार्य हैं",
-  "permissionWarn": "आपके पास इस पृष्ठ तक पहुँचने के लिए आवश्यक अनुमतियाँ नहीं हैं"
+  "permissionWarn": "आपके पास इस पृष्ठ तक पहुँचने के लिए आवश्यक अनुमतियाँ नहीं हैं",
+  "details": "द्वारा ऑनबोर्ड किया गया {{name}} <br/> पर {{date}}",
+  "submittedDate": "पर प्रस्तुत की",
+  "AdminDesc" : "ACH और Centime कार्ड में सवार होने पर",
+  "bankCompanyIdTooltip":"सीडीएस कंपनी आईडी जिसे ग्राहक के कार्ड खाते में मैप किया गया है",
+  "clientBusinessIdTooltip":"मास्टरकार्ड आईसीसीपी के साथ पंजीकृत आरसीएन उपनाम",
+  "fnboCardIdTooltip":"64 अंकों का ई-टोकन जो कार्ड खाते में मैप करता है",
+  "companyIdTooltip" :"ACH कंपनी आईडी को ग्राहक के निपटान खाते में मैप किया गया",
+  "partnerPortalDashboard":"पार्टनर पोर्टल"
+
 }
