@@ -260,5 +260,7 @@
     "creditCardsNotActivated": "क्रेडिट कार्ड आपके लिए सक्रिय नहीं हैं",
     "creditCardsNotActivatedSubText": "कृपया आपूर्तिकर्ताओं को नामांकित करने से पहले सक्रिय करने के लिए भुगतान उत्पाद पृष्ठ पर जाएं",
     "activateCreditCards": "आपको आपूर्तिकर्ताओं को नामांकित करने के लिए क्रेडिट कार्ड सक्रिय करने की आवश्यकता है",
-    "activateCreditCardsSubText": "कृपया भुगतान और क्रेडिट समाधान पृष्ठ से क्रेडिट कार्ड सक्रिय करें। या सहायता के लिए <ourLink>यहां क्लिक करें</ourLink>"
+    "activateCreditCardsSubText": "कृपया भुगतान और क्रेडिट समाधान पृष्ठ से क्रेडिट कार्ड सक्रिय करें। या सहायता के लिए <ourLink>यहां क्लिक करें</ourLink>",
+    "surcharge":"अधिभार",
+    "percentBasedSurcharge":"के अधिभार के आधार पर {{surchargePercent}}"
 }
