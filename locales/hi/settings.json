@@ -432,5 +432,7 @@
     "withOneUserIncluded": "1 उपयोगकर्ता शामिल के साथ",
     "billingPageErrorNotification": "सदस्यता जानकारी प्राप्त करने में त्रुटि। कुछ समय में प्रयास करें या ग्राहक सहायता से संपर्क करें",
     "selectSubscriptionPackage": "सदस्यता पैकेज चुनें",
-    "incorrectAddressEntered":"गलत पता दर्ज किया गया"
+    "incorrectAddressEntered":"गलत पता दर्ज किया गया",
+    "adminPartnerDesc": "ऑनबोर्डिंग, कंपनी की जानकारी और उपयोगकर्ता प्रबंधन के लिए अनुमतियां संपादित करें",
+    "surchargeAccount":"सरचार्ज खाता"
 }
