@@ -347,5 +347,7 @@
     "postingToGLPartialSuccess": "Payment(s) successfully posted for {{total}} invoice(s). Try again with the 'post' action or contact us if the problem persists.",
     "postingToGLError": "Payment(s) posting to the General Ledger failed. Try again with the 'post' action or contact us if the problem persists.",
     "generateLinkCardOnFileAR": "You need a valid card-on-file in order to generate payment links and get paid via CentimePay",
-    "pleaseActivateCentimePay": "Please activate your CentimePay merchant account to send payment links and get paid faster"
+    "pleaseActivateCentimePay": "Please activate your CentimePay merchant account to send payment links and get paid faster",
+    "cashFlowInfo": "Set a future expected date to include overdue invoices in the cash flow forecast",
+    "AgingGraph":  "AR Aging Graph"
 }
