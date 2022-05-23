@@ -434,5 +434,12 @@
     "selectSubscriptionPackage": "सदस्यता पैकेज चुनें",
     "incorrectAddressEntered":"गलत पता दर्ज किया गया",
     "adminPartnerDesc": "ऑनबोर्डिंग, कंपनी की जानकारी और उपयोगकर्ता प्रबंधन के लिए अनुमतियां संपादित करें",
-    "surchargeAccount":"सरचार्ज खाता"
+    "surchargeAccount":"सरचार्ज खाता",
+    "partnership": "साझेदारी",
+    "limitedLiabilityCompany": "सीमित देयता कंपनी (एलएलसी)",
+    "corporation": "निगम (कॉर्प)",
+    "charityOrNonprofit": "दान / गैर लाभ",
+    "governmentEntity": "सरकारी संस्था",
+    "others": "अन्य",
+    "isSubsidiaryOf": "की सहायक है"
 }

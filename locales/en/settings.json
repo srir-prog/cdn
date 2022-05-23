@@ -433,5 +433,12 @@
     "selectSubscriptionPackage": "Select Subscription Package",
     "incorrectAddressEntered":"Incorrect address entered",
     "adminPartnerDesc": "Edit permissions for onboarding, company information and user management",
-    "surchargeAccount":"Surcharge account"
+    "surchargeAccount":"Surcharge account",
+    "partnership": "Partnership",
+    "limitedLiabilityCompany": "Limited Liability Company (LLC)",
+    "corporation": "Corporation (CORP)",
+    "charityOrNonprofit": "Charity / Non profit",
+    "governmentEntity": "Government Entity",
+    "others": "Others",
+    "isSubsidiaryOf": "is subsidiary of"
 }
