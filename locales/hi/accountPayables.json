@@ -169,6 +169,7 @@
     "supplierDeclinedPayment": "आपूर्तिकर्ता ने भुगतान अस्वीकार कर दिया",
     "inactiveSupplierAccount": "निष्क्रिय आपूर्तिकर्ता खाता",
     "supplierBankCouldNotSettleThePayment": "आपूर्तिकर्ता बैंक भुगतान का निपटान नहीं कर सका",
+    "inactivePayFromAccount": "खाते से निष्क्रिय वेतन",
     "creditsNotApplied": "क्रेडिट लागू नहीं किया गया",
     "discountsNotApplied": "छूट लागू नहीं",
     "discountHasExpired": "छूट समाप्त हो गई है",
