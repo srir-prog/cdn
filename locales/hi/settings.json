@@ -441,5 +441,14 @@
     "charityOrNonprofit": "दान / गैर लाभ",
     "governmentEntity": "सरकारी संस्था",
     "others": "अन्य",
-    "isSubsidiaryOf": "की सहायक है"
+    "isSubsidiaryOf": "की सहायक है",
+    "notVerified": "प्रमाणित नहीं है",
+    "verificationSuccessful": "सत्यापन सफल",
+    "verificationFailed": "सत्यापन में विफल रहा",
+    "contactAdmin": "कृपया अपने सिस्टम व्यवस्थापक से संपर्क करें",
+    "provideMissingInfo": "कृपया अनुपलब्ध जानकारी प्रदान करें और सुनिश्चित करें कि यह सही है",
+    "notVerifiedDescription": "हमारी पारस्परिक सुरक्षा के लिए, किसी भी भुगतान समाधान का उपयोग करने के लिए आगे बढ़ने से पहले आपको अपनी कंपनी को सत्यापित करना होगा जो Centime उत्पाद का हिस्सा है",
+    "verificationFailedDescription": "हम आपके द्वारा प्रदान की गई जानकारी को सत्यापित करने में असमर्थ हैं। कृपया सही जानकारी दर्ज करें और फिर से सत्यापित करें",
+    "verificationStatus": "सत्यापन स्थिति",
+    "verifyCompanyDetails": "कंपनी विवरण सत्यापित करें"
 }
