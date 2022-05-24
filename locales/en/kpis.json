@@ -167,6 +167,7 @@
     "unpaid": "Unpaid",
     "totalUnpaid": "Unpaid",
     "noOfSuppliers": "suppliers",
+    "noOfCustomers": "Customers",
     "noOfInvoices": "invoices",
     "payablesByTime": "Payables by time",
     "payablesBySupplier": "Payables by supplier",
@@ -179,5 +180,7 @@
     "percentagePaidLateTooltipInfo": "Invoices paid after the due date vs total invoices available for payment",
     "payablesTurnOverRatioTooltipInfo":"Measures the number of times a company pays off its accounts payable in a given period",
     "payablesTurnOverRatio": "Turnover ratio",
-    "supplierInvoiceTableLabel": "Supplier Invoice Table"
+    "supplierInvoiceTableLabel": "Supplier Invoice Table",
+    "DaysToPay": "Days to pay",
+    "PaymentStatus": "Payment status"
 }
