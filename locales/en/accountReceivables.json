@@ -351,7 +351,6 @@
     "cashFlowInfo": "Set a future expected date to include overdue invoices in the cash flow forecast",
     "AgingGraph":  "AR Aging Graph",
     "totalReceivables" : "Expected Amount",
-    "adjustedCashBalance" : "Previous Cash Balance",
     "closingCashBalance" : "Cash Balance",
     "cashImpact": "Cash Impact"
 }
