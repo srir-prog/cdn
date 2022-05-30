@@ -20,7 +20,7 @@
     "averageDaysPastDue": "Average days past due",
     "turnOverRatio": "Turnover ratio",
     "unCollected": "Uncollected",
-    "collectionsExpected": "Due",
+    "collectionsExpected": "Collections due",
     "collectionsExpectedMetric": "Collections due",
     "collectedOnTime": "Collected on time",
     "collectedLate": "Collected late",
