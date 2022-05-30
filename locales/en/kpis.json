@@ -128,7 +128,7 @@
     "BusinessCategory": "Business Category",
     "GLAccount": "GL Account",
     "TransactionType": "Transaction type",
-    "CashFlowType": "Inflow/Outflow",
+    "CashFlowType": "Cash in/Cash out",
     "Description": "Description",
     "cashFlowTypeText": "Cash flow type",
     "transactionId": "Transaction Id",
