@@ -131,7 +131,7 @@
     "BusinessCategory": "व्यापार वर्ग",
     "GLAccount": "जीएल खाता",
     "TransactionType": "सौदे का प्रकार",
-    "CashFlowType": "अंतर्वाह / बहिर्वाह",
+    "CashFlowType": "नकद में / नकदी निकलना",
     "Description": "विवरण",
     "cashFlowTypeText": "नकदी प्रवाह प्रकार",
     "transactionId": "लेन-देन आईडी",
