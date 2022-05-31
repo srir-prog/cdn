@@ -491,5 +491,6 @@
     "confirmDetails": "Confirm Details",
     "errorFromBusinessFacts": "Error from Business Facts",
     "errorFromTINCheck": "Error from TIN Check",
-    "address": "Address"
+    "address": "Address",
+    "viewRiskProfile": "View Risk Profile"
 }

@@ -492,5 +492,6 @@
     "confirmDetails": "विवरण की पुष्टि करें",
     "errorFromBusinessFacts": "व्यावसायिक तथ्यों से त्रुटि",
     "errorFromTINCheck": "टिन जाँच से त्रुटि",
-    "address": "पता"
+    "address": "पता",
+    "viewRiskProfile": "जोखिम प्रोफ़ाइल देखें"
 }
