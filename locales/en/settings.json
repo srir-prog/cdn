@@ -476,5 +476,21 @@
     "artsEntertainmentAndRecreation": "Arts, Entertainment, and Recreation",
     "accommodationAndFoodServices": "Accommodation and Food Services",
     "otherServicesExceptPublicAdministration": "Other Services (except Public Administration)",
-    "publicAdministration": "Public Administration"
+    "publicAdministration": "Public Administration",
+    "checkCorrectInformation": "Please make sure the information you provided is correct",
+    "noPublicInfoAvailable": "We did not find any public information about the company you are verifying",
+    "verifyFromProvidedInfo": "We will still attempt to verify company based on the information you have provided below",
+    "verificationResults": "Verification results",
+    "verifiedSuccessfully": "The following information is verified successfully",
+    "acceptAndConfirm" : "Accept and confirm",
+    "updateProfileAndTryAgain": "Update Profile and try again",
+    "selectTheBestMatch": "Matches the following. Please select the best match and confirm",
+    "confirm": "Confirm",
+    "reject": "Reject",
+    "next": "Next",
+    "confirmDetails": "Confirm Details",
+    "errorFromBusinessFacts": "Error from Business Facts",
+    "errorFromTINCheck": "Error from TIN Check",
+    "address": "Address",
+    "viewRiskProfile": "View Risk Profile"
 }
