@@ -493,5 +493,6 @@
     "errorFromBusinessFacts": "व्यावसायिक तथ्यों से त्रुटि",
     "errorFromTINCheck": "टिन जाँच से त्रुटि",
     "address": "पता",
-    "viewRiskProfile": "जोखिम प्रोफ़ाइल देखें"
+    "viewRiskProfile": "जोखिम प्रोफ़ाइल देखें",
+    "businessSearchTable": "व्यापार खोज तालिका"
 }
