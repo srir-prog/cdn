@@ -477,5 +477,20 @@
     "artsEntertainmentAndRecreation": "कला, मनोरंजन और मनोरंजन",
     "accommodationAndFoodServices": "आवास और खाद्य सेवाएं",
     "otherServicesExceptPublicAdministration": "अन्य सेवाएं (लोक प्रशासन को छोड़कर)",
-    "publicAdministration": "सार्वजनिक प्रशासन"
+    "publicAdministration": "सार्वजनिक प्रशासन",
+    "checkCorrectInformation": "कृपया सुनिश्चित करें कि आपके द्वारा प्रदान की गई जानकारी सही है",
+    "noPublicInfoAvailable": "आप जिस कंपनी का सत्यापन कर रहे हैं, उसके बारे में हमें कोई सार्वजनिक जानकारी नहीं मिली",
+    "verifyFromProvidedInfo": "आपके द्वारा नीचे दी गई जानकारी के आधार पर हम अभी भी कंपनी को सत्यापित करने का प्रयास करेंगे",
+    "verificationResults": "सत्यापन परिणाम",
+    "verifiedSuccessfully": "निम्नलिखित जानकारी सफलतापूर्वक सत्यापित है",
+    "acceptAndConfirm" : "स्वीकार करें और पुष्टि करें",
+    "updateProfileAndTryAgain": "प्रोफ़ाइल अपडेट करें और पुनः प्रयास करें",
+    "selectTheBestMatch": "निम्नलिखित से मेल खाता है। कृपया सर्वश्रेष्ठ मैच का चयन करें और पुष्टि करें",
+    "confirm": "पुष्टि करें",
+    "reject": "अस्वीकार",
+    "next": "अगला",
+    "confirmDetails": "विवरण की पुष्टि करें",
+    "errorFromBusinessFacts": "व्यावसायिक तथ्यों से त्रुटि",
+    "errorFromTINCheck": "टिन जाँच से त्रुटि",
+    "address": "पता"
 }
