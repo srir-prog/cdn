@@ -169,6 +169,7 @@
     "supplierDeclinedPayment": "आपूर्तिकर्ता ने भुगतान अस्वीकार कर दिया",
     "inactiveSupplierAccount": "निष्क्रिय आपूर्तिकर्ता खाता",
     "supplierBankCouldNotSettleThePayment": "आपूर्तिकर्ता बैंक भुगतान का निपटान नहीं कर सका",
+    "inactivePayFromAccount": "खाते से निष्क्रिय वेतन",
     "creditsNotApplied": "क्रेडिट लागू नहीं किया गया",
     "discountsNotApplied": "छूट लागू नहीं",
     "discountHasExpired": "छूट समाप्त हो गई है",
@@ -263,5 +264,5 @@
     "activateCreditCards": "आपको आपूर्तिकर्ताओं को नामांकित करने के लिए क्रेडिट कार्ड सक्रिय करने की आवश्यकता है",
     "activateCreditCardsSubText": "कृपया भुगतान और क्रेडिट समाधान पृष्ठ से क्रेडिट कार्ड सक्रिय करें। या सहायता के लिए <ourLink>यहां क्लिक करें</ourLink>",
     "surcharge":"अधिभार",
-    "percentBasedSurcharge":"के अधिभार के आधार पर {{surchargePercent}}"
+    "percentBasedSurcharge":"के अधिभार के आधार पर {{surcharge}}"
 }

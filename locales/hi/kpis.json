@@ -184,5 +184,8 @@
     "percentagePaidLateTooltipInfo": "देय तिथि के बाद भुगतान किए गए चालान बनाम भुगतान के लिए उपलब्ध कुल चालान",
     "payablesTurnOverRatioTooltipInfo":"एक निश्चित अवधि में देय किसी कंपनी द्वारा अपने खातों का भुगतान करने की संख्या को मापता है",
     "payablesTurnOverRatio": "कारोबार अनुपात",
-    "supplierInvoiceTableLabel": "आपूर्तिकर्ता चालान तालिका"
+    "supplierInvoiceTableLabel": "आपूर्तिकर्ता चालान तालिका",
+    "DaysToPay": "भुगतान करने के लिए दिन",
+    "PaymentStatus": "भुगतान की स्थिति",
+    "noOfCustomers": "ग्राहकों"
 }
