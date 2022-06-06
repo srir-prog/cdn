@@ -493,5 +493,7 @@
     "errorFromTINCheck": "Error from TIN Check",
     "address": "Address",
     "viewRiskProfile": "View Risk Profile",
-    "businessSearchTable": "Business search table"
+    "businessSearchTable": "Business search table",
+    "verificationDetailsFailure": "Error updating verification status and details",
+    "verificationDetailsSuccess": "Successfully updated verification status and details"
 }

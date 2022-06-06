@@ -494,5 +494,7 @@
     "errorFromTINCheck": "टिन जाँच से त्रुटि",
     "address": "पता",
     "viewRiskProfile": "जोखिम प्रोफ़ाइल देखें",
-    "businessSearchTable": "व्यापार खोज तालिका"
+    "businessSearchTable": "व्यापार खोज तालिका",
+    "verificationDetailsFailure": "सत्यापन स्थिति और विवरण अपडेट करने में त्रुटि",
+    "verificationDetailsSuccess": "सत्यापन स्थिति और विवरण को सफलतापूर्वक अपडेट किया गया"
 }
