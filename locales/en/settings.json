@@ -494,6 +494,6 @@
     "address": "Address",
     "viewRiskProfile": "View Risk Profile",
     "businessSearchTable": "Business search table",
-    "verificationDetailsFailure": "Successfully updated verification status and details",
-    "verificationDetailsSuccess": "Error updating verification status and details"
+    "verificationDetailsFailure": "Error updating verification status and details",
+    "verificationDetailsSuccess": "Successfully updated verification status and details"
 }
