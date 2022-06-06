@@ -165,5 +165,7 @@
     "day": "Day",
     "Document": "Document",
     "Upload": "Upload",
-    "Info": "Info"
+    "Info": "Info",
+    "MegaMenu" : "Easy Access",
+    "SelectAll": "Select All"
 }

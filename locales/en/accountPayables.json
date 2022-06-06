@@ -1,6 +1,7 @@
 {
     "Payables": "Payables",
     "PayablesPanel": "Payables",
+    "PayablesAging": "Payables aging",
     "Suppliers": "Suppliers",
     "UnpaidInvoices": "Unpaid Invoices",
     "PaidInvoices": "Paid Invoices",
@@ -181,6 +182,7 @@
     "supplierDeclinedPayment": "Supplier declined payment",
     "inactiveSupplierAccount": "Inactive supplier account",
     "supplierBankCouldNotSettleThePayment": "Supplier bank could not settle the payment",
+    "inactivePayFromAccount": "Inactive pay from account",
     "creditsNotApplied": "Credits not applied",
     "discountsNotApplied": "Discounts not applied",
     "discountHasExpired": "Discount has expired",
@@ -236,6 +238,9 @@
     "checkAtRecipientPostOffice": "Check at recipient post office",
     "checkOutForDelivery": "Check out for delivery",
     "checkDelivered": "Check delivered",
+    "creditCardDebitInitiated": "Credit card debit initiated",
+    "bankAccountDebitInitiated": "Bank account debit initiated",
+    "fundTransferToSupplierInitiated": "Fund transfer to supplier initiated",
     "notStarted": "Not started",
     "enrolmentPopup": "Enrollment for credit card payments",
     "inputEnrolmentLabel": "Specify the best contact at your supplier to approach for credit card payments",
@@ -258,5 +263,10 @@
     "accountName": "Account Name",
     "paymentType":"Payment Type",
     "creditCardsNotActivated": "Credit Cards are not activated for you",
-    "creditCardsNotActivatedSubText": "Please go to payment products page to activate before enrolling suppliers"
+    "creditCardsNotActivatedSubText": "Please go to payment products page to activate before enrolling suppliers",
+    "activateCreditCards": "You need to activate credit cards to enroll Suppliers",
+    "activateCreditCardsSubText": "Please activate credit cards from payment and credit solutions page. Or <ourLink>ClickHere</ourLink> for help.",
+    "surcharge":"Surcharge",
+    "percentBasedSurcharge":"Based on surcharge of {{surcharge}}",
+    "cardAmount":"CARD AMOUNT"
 }
