@@ -501,5 +501,7 @@
     "disabled":"अक्षम",
     "centimeAgentToken":"सेंटिम एजेंट टोकन",
     "token":"टोकन",
-    "contactYourAdmin":"अपने व्यवस्थापक से संपर्क करें"
+    "contactYourAdmin":"अपने व्यवस्थापक से संपर्क करें",
+    "syncSettings":"सिंक सेटिंग्स",
+    "enabled":"सक्रिय"
 }

@@ -500,5 +500,7 @@
     "disabled":"Disabled",
     "centimeAgentToken":"Centime Agent Token",
     "token":"Token",
-    "contactYourAdmin":"Contact your admin"
+    "contactYourAdmin":"Contact your admin",
+    "syncSettings":"Sync settings",
+    "enabled":"Enabled"
 }
