@@ -495,5 +495,10 @@
     "viewRiskProfile": "View Risk Profile",
     "businessSearchTable": "Business search table",
     "verificationDetailsFailure": "Error updating verification status and details",
-    "verificationDetailsSuccess": "Successfully updated verification status and details"
+    "verificationDetailsSuccess": "Successfully updated verification status and details",
+    "autoSync":"Auto Sync",
+    "disabled":"Disabled",
+    "centimeAgentToken":"Centime Agent Token",
+    "token":"Token",
+    "contactYourAdmin":"Contact your admin"
 }

@@ -242,5 +242,6 @@
     "monitorKPIs": "Monitor KPIs",
     "manageReceivables": "Manage Receivables",
     "managePayables": "Manage Payables",
-    "CashFlowGraph": "Cash Flow Graph"
+    "CashFlowGraph": "Cash Flow Graph",
+    "multipleEmailsInputPlaceHolder":"Enter emails (comma separated)"
 }
