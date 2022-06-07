@@ -501,5 +501,6 @@
     "centimeAgentToken":"Centime Agent Token",
     "token":"Token",
     "contactYourAdmin":"Contact your admin",
-    "syncSettings":"Sync settings"
+    "syncSettings":"Sync settings",
+    "enabled":"Enabled"
 }
