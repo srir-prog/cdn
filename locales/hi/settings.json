@@ -496,5 +496,10 @@
     "viewRiskProfile": "जोखिम प्रोफ़ाइल देखें",
     "businessSearchTable": "व्यापार खोज तालिका",
     "verificationDetailsFailure": "सत्यापन स्थिति और विवरण अपडेट करने में त्रुटि",
-    "verificationDetailsSuccess": "सत्यापन स्थिति और विवरण को सफलतापूर्वक अपडेट किया गया"
+    "verificationDetailsSuccess": "सत्यापन स्थिति और विवरण को सफलतापूर्वक अपडेट किया गया",
+    "autoSync":"स्वतः सिंक",
+    "disabled":"अक्षम",
+    "centimeAgentToken":"सेंटिम एजेंट टोकन",
+    "token":"टोकन",
+    "contactYourAdmin":"अपने व्यवस्थापक से संपर्क करें"
 }
