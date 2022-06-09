@@ -72,7 +72,7 @@
     "EmailServiceDown": "There is an email outage. All impacted campaigns and customer communications would resume once the email service is up",
     "CampaignNotificationsNotWorking": "Internal notifications for Campaign {{campaign_name}} could not be sent to the recipient",
     "AutofySyncLost": "There is a sync error as connection to the Centime {{agent_name}} agent is lost.",
-    "Reinstate": "Reinstate the connection",
+    "Reinstate": "Restart Centime agent",
     "CheckSync": "Check sync details",
     "GLReconnectSuccess": "Successfully reconnected to {gl_name}. Initiated sync to update your data in Centime.",
     "GLConnectionSuccess": "Connection to {{gl_name}} is successful. The initial sync has started.",
