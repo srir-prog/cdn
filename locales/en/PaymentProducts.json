@@ -77,5 +77,9 @@
   "BFORequired": "Centime is required by law to collect ownership and control information for your company. You will be able to apply for Centime's payment and credit solutions once you submit this information.",
   "addBFO": "Add ownership and control info",
   "applicationFailed": "Application failed",
-  "signedBy":"Signer: {{clientName}}"
+  "signedBy":"Signer: {{clientName}}",
+  "companyVerified": "Company verified",
+  "completeVerificationToActivatePP": "Complete your company verification to activate payment products",
+  "verifyNow": "Verify now",
+  "verifyBeforeActivation": "Company verification required before activation"
 }
