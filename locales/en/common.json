@@ -243,5 +243,7 @@
     "manageReceivables": "Manage Receivables",
     "managePayables": "Manage Payables",
     "CashFlowGraph": "Cash Flow Graph",
+    "updateSupplierSuccessMsg": "Supplier: {{buyerName}}, successfully updated",
+    "updateSupplierErrorMsg": "Unable to update supplier {{buyerName}}",
     "multipleEmailsInputPlaceHolder":"Enter emails (comma separated)"
 }
