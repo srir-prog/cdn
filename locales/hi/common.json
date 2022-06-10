@@ -242,5 +242,7 @@
     "monitorKPIs": "KPI की निगरानी करें",
     "manageReceivables": "प्राप्य प्रबंधित करें",
     "managePayables": "देनदारियों का प्रबंधन करें",
-    "CashFlowGraph": "कैश फ्लो ग्राफ"
+    "CashFlowGraph": "कैश फ्लो ग्राफ",
+    "updateSupplierSuccessMsg": "आपूर्तिकर्ता: {{buyerName}}, सफलतापूर्वक अपडेट किया गया",
+    "updateSupplierErrorMsg": "{{buyerName}} आपूर्तिकर्ता को अपडेट करने में असमर्थ"
 }

@@ -62,6 +62,7 @@
     "paymentTerms": "Payment Terms",
     "description": "Description",
     "invoices": "Invoices",
+    "supplier": "Supplier",
     "businessCategory": "Business Category",
     "payeeOrPayer": "Payee / Payer",
     "type": "Type",
