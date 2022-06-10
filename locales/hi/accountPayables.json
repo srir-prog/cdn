@@ -238,6 +238,9 @@
     "checkAtRecipientPostOffice": "प्राप्तकर्ता डाकघर में जाँच करें",
     "checkOutForDelivery": "डिलीवरी के लिए देखें",
     "checkDelivered": "चेक दिया गया",
+    "creditCardDebitInitiated": "क्रेडिट कार्ड डेबिट शुरू किया गया",
+    "bankAccountDebitInitiated": "बैंक खाता डेबिट प्रारंभ",
+    "fundTransferToSupplierInitiated": "आपूर्तिकर्ता को फंड ट्रांसफर शुरू किया गया",
     "notStarted": "शुरू नहीं हुआ",
     "enrolmentPopup": "क्रेडिट कार्ड भुगतान के लिए नामांकन",
     "inputEnrolmentLabel": "कृपया नामांकन के लिए जिम्मेदार आपूर्तिकर्ता संपर्क व्यक्ति का विवरण दर्ज करें",
@@ -264,5 +267,5 @@
     "activateCreditCards": "आपको आपूर्तिकर्ताओं को नामांकित करने के लिए क्रेडिट कार्ड सक्रिय करने की आवश्यकता है",
     "activateCreditCardsSubText": "कृपया भुगतान और क्रेडिट समाधान पृष्ठ से क्रेडिट कार्ड सक्रिय करें। या सहायता के लिए <ourLink>यहां क्लिक करें</ourLink>",
     "surcharge":"अधिभार",
-    "percentBasedSurcharge":"के अधिभार के आधार पर {{surchargePercent}}"
+    "percentBasedSurcharge":"के अधिभार के आधार पर {{surcharge}}"
 }
