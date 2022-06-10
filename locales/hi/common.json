@@ -247,7 +247,7 @@
     "lowCash": "कम नकद",
     "closingCashBalance" : "नकदी शेष",
     "cashImpact": "नकद प्रभाव",
-    "closingBalanceLabel": "जमा शेष"
+    "closingBalanceLabel": "जमा शेष",
     "verifyToMakePayments": "भुगतान करने के लिए कृपया कानूनी कंपनी विवरण सत्यापित करें",
     "verifyToMakePaymentsWithLink": "भुगतान करने के लिए कृपया कानूनी कंपनी विवरण सत्यापित करें। <ourLink></ourLink>",
     "verifyToAcceptPayments": "भुगतान स्वीकार करने के लिए कृपया कानूनी कंपनी विवरण सत्यापित करें",
@@ -301,5 +301,7 @@
     "naicsCode": "नईसीएस कोड",
     "sales": "बिक्री",
     "url": "यूआरएल",
-    "sanctionMatchList": "प्रतिबंध मैच सूची"
+    "sanctionMatchList": "प्रतिबंध मैच सूची",
+    "updateSupplierSuccessMsg": "आपूर्तिकर्ता: {{buyerName}}, सफलतापूर्वक अपडेट किया गया",
+    "updateSupplierErrorMsg": "{{buyerName}} आपूर्तिकर्ता को अपडेट करने में असमर्थ"
 }
