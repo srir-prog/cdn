@@ -349,5 +349,9 @@
     "generateLinkCardOnFileAR": "You need a valid card-on-file in order to generate payment links and get paid via CentimePay",
     "pleaseActivateCentimePay": "Please activate your CentimePay merchant account to send payment links and get paid faster",
     "cashFlowInfo": "Set a future expected date to include overdue invoices in the cash flow forecast",
-    "AgingGraph":  "AR Aging Graph"
+    "AgingGraph":  "AR Aging Graph",
+    "totalReceivables" : "Expected Amount",
+    "adjustedCashBalance" : "Previous Cash Balance",
+    "closingCashBalance" : "Cash Balance",
+    "cashImpact": "Cash Impact"
 }
