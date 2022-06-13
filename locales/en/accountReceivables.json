@@ -353,5 +353,6 @@
     "totalReceivables" : "Expected Amount",
     "adjustedCashBalance" : "Previous Cash Balance",
     "closingCashBalance" : "Cash Balance",
-    "cashImpact": "Cash Impact"
+    "cashImpact": "Cash Impact",
+    "cashFlowInfo": "Set a future expected date to include overdue invoices in the cash flow forecast"
 }
