@@ -81,5 +81,12 @@
   "companyVerified": "कंपनी सत्यापित",
   "completeVerificationToActivatePP": "भुगतान उत्पादों को सक्रिय करने के लिए अपना कंपनी सत्यापन पूरा करें",
   "verifyNow": "अभी सत्यापित करें",
-  "verifyBeforeActivation": "सक्रियण से पहले कंपनी सत्यापन आवश्यक"
+  "verifyBeforeActivation": "भुगतान उत्पादों को सक्रिय करने से पहले कंपनी सत्यापन आवश्यक",
+  "verifyAfterActivation": "भुगतान उत्पादों का उपयोग जारी रखने के लिए कंपनी सत्यापन आवश्यक है",
+  "paymentProductsNotClientVerifiedActivate": "भुगतान उत्पादों को सक्रिय करने के लिए अपना कंपनी सत्यापन अभी पूरा करें",
+  "paymentProductsNotClientVerifiedContinue": "भुगतान उत्पादों का उपयोग जारी रखने के लिए अपना कंपनी सत्यापन अभी पूरा करें",
+  "paymentProductsNotClientVerifiedActivateWithLink": "भुगतान उत्पादों को सक्रिय करने के लिए अपना कंपनी सत्यापन अभी पूरा करें। <ourLink></ourLink> ",
+  "paymentProductsNotClientVerifiedContinueWithLink": "भुगतान उत्पादों का उपयोग जारी रखने के लिए अपना कंपनी सत्यापन अभी पूरा करें। <ourLink></ourLink>",
+  "verifyFewMoreDetailsContinue": "भुगतानों का उपयोग जारी रखने के लिए हमें कुछ और विवरणों को सत्यापित करने की आवश्यकता है और शीघ्र ही संपर्क में रहेंगे",
+  "verifyFewMoreDetailsActivate": "भुगतान करने से पहले हमें कुछ और विवरणों को सत्यापित करने की आवश्यकता है और शीघ्र ही संपर्क में रहेंगे"
 }
