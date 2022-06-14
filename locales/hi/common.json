@@ -245,5 +245,6 @@
     "CashFlowGraph": "कैश फ्लो ग्राफ",
     "updateSupplierSuccessMsg": "आपूर्तिकर्ता: {{buyerName}}, सफलतापूर्वक अपडेट किया गया",
     "updateSupplierErrorMsg": "{{buyerName}} आपूर्तिकर्ता को अपडेट करने में असमर्थ",
-    "multipleEmailsInputPlaceHolder":"ईमेल दर्ज करें (अल्पविराम से अलग)"
+    "multipleEmailsInputPlaceHolder":"ईमेल दर्ज करें (अल्पविराम से अलग)",
+    "limitOutOfChartDataRange": "सीमा मान चार्ट डेटा श्रेणी से बाहर है"
 }
