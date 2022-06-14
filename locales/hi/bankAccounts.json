@@ -247,5 +247,9 @@
     "CashFlowCategory": "नकदी प्रवाह प्रकार",
     "GLAccount": "जीएल खाता",
     "glAccount": "जीएल खाता",
-    "InvoiceDueDate": "बिल की देय तिथि"  
+    "InvoiceDueDate": "बिल की देय तिथि",
+    "CloseTransactionDetailView": "बंद नकदी प्रवाह पूर्वानुमानित लेनदेन विवरण दृश्य",
+    "ViewTransactionDetail": "नकदी प्रवाह पूर्वानुमानित लेनदेन विवरण देखें",
+    "CashflowDrillDownTransactionsTable": "कैश फ्लो पूर्वानुमानित लेनदेन ड्रिल डाउन टेबल",
+    "CashflowDrillDownTransactionsTableAccordion": "कैश फ्लो पूर्वानुमानित लेन-देन ड्रिल डाउन टेबल अकॉर्डियन"
 }

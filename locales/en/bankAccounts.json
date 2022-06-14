@@ -293,5 +293,9 @@
     "CashFlowCategory": "Cash Flow Type",
     "GLAccount": "GL Account",
     "glAccount": "GL Account",
-    "InvoiceDueDate": "Invoice due date"
+    "InvoiceDueDate": "Invoice due date",
+    "CloseTransactionDetailView": "Close cash flow forecasted transaction details view",
+    "ViewTransactionDetail": "View cash flow forecasted transaction details",
+    "CashflowDrillDownTransactionsTable": "Cash flow forecasted transactions drilldown table",
+    "CashflowDrillDownTransactionsTableAccordion": "Cash flow forecasted transactions drilldown table accordion"
 }
