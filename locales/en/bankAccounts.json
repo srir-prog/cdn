@@ -279,5 +279,19 @@
     "userActualAmount": "Actual amount",
     "userActualDate": "Actual date",
     "updatePredictedListSuccessMsg": "Predicted list updated successfully",
-    "updatePredictedListErrorMsg": "Unable to update predicted list"
+    "updatePredictedListErrorMsg": "Unable to update predicted list",
+    "cashFlowType": "Cash in/Cash out",
+    "CashFlowType": "Cash in/Cash out",
+    "cashFlowTypeText": "Cash flow type",
+    "payeeOrPayer": "Payee/Payer",
+    "GLACCOUNT": "GL ACCOUNT",
+    "PaymentDate": "Payment date",
+    "transactions": "Transactions",
+    "backToCashflowWaterfall": "BACK TO CASH FLOW WATERFALL",
+    "PaymentAmount": "Payment Amount",
+    "GroupNames": "Group",
+    "CashFlowCategory": "Cash Flow Type",
+    "GLAccount": "GL Account",
+    "glAccount": "GL Account",
+    "InvoiceDueDate": "Invoice due date"
 }
