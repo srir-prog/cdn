@@ -166,5 +166,6 @@
     "Document": "Document",
     "Upload": "Upload",
     "Info": "Info",
-    "MegaMenu" : "Easy Access"
+    "MegaMenu" : "Easy Access",
+    "SelectAll": "Select All"
 }
