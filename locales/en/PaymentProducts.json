@@ -80,13 +80,10 @@
   "signedBy":"Signer: {{clientName}}",
   "companyVerified": "Company verified",
   "completeVerificationToActivatePP": "Complete your company verification to activate payment products",
-  "verifyNow": "Verify now",
   "verifyBeforeActivation": "Company verification required before activating payment products",
   "verifyAfterActivation": "Company verification required to continue using payment products",
   "paymentProductsNotClientVerifiedActivate": "Complete your company verification now to activate payment products",
   "paymentProductsNotClientVerifiedContinue": "Complete your company verification now to continue using payment products",
   "paymentProductsNotClientVerifiedActivateWithLink": "Complete your company verification now to activate payment products. <ourLink></ourLink> ",
-  "paymentProductsNotClientVerifiedContinueWithLink": "Complete your company verification now to continue using payment products. <ourLink></ourLink>",
-  "verifyFewMoreDetailsContinue": "We need to verify a few more details to continue using payments and will be in touch shortly",
-  "verifyFewMoreDetailsActivate": "We need to verify a few more details before making payments and will be in touch shortly"
+  "paymentProductsNotClientVerifiedContinueWithLink": "Complete your company verification now to continue using payment products. <ourLink></ourLink>"
 }
