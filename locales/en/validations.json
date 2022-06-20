@@ -63,5 +63,6 @@
     "MultipleFileDropError": "Multiple files not allowed",
     "MinFileSizeError": "File size is below min permitted limit",
     "MaxFileSizeExceededError": "File size exceeded max permitted limit of {{maxFileSize}} MB",
-    "UnsupportedFileTypeError": "File type not supported"
+    "UnsupportedFileTypeError": "File type not supported",
+    "isValidMultipleEmails":"Invalid Email - {{emailList}}"
 }
