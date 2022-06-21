@@ -490,6 +490,7 @@
     "reject": "अस्वीकार",
     "next": "अगला",
     "confirmDetails": "विवरण की पुष्टि करें",
+    "errorFromBusinessSearch": "व्यवसाय खोज से त्रुटि",
     "errorFromBusinessFacts": "व्यावसायिक तथ्यों से त्रुटि",
     "errorFromTINCheck": "टिन जाँच से त्रुटि",
     "address": "पता",
