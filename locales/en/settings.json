@@ -503,5 +503,6 @@
     "token":"Token",
     "contactYourAdmin":"Contact your admin",
     "syncSettings":"Sync settings",
-    "enabled":"Enabled"
+    "enabled":"Enabled",
+    "syncError":"Unable to enable / disable Auto Sync as you do not have the required permissions. Please contact your administrator"
 }
