@@ -242,5 +242,14 @@
     "monitorKPIs": "KPI की निगरानी करें",
     "manageReceivables": "प्राप्य प्रबंधित करें",
     "managePayables": "देनदारियों का प्रबंधन करें",
-    "CashFlowGraph": "कैश फ्लो ग्राफ"
+    "CashFlowGraph": "कैश फ्लो ग्राफ",
+    "verifyToMakePayments": "भुगतान करने के लिए कृपया कानूनी कंपनी विवरण सत्यापित करें",
+    "verifyToMakePaymentsWithLink": "भुगतान करने के लिए कृपया कानूनी कंपनी विवरण सत्यापित करें। <ourLink></ourLink>",
+    "verifyToAcceptPayments": "भुगतान स्वीकार करने के लिए कृपया कानूनी कंपनी विवरण सत्यापित करें",
+    "verifyToAcceptPaymentsWithLink": "भुगतान स्वीकार करने के लिए कृपया कानूनी कंपनी विवरण सत्यापित करें। <ourLink></ourLink>",
+    "verifyNow": "अभी सत्यापित करें",
+    "verifyFewMoreDetailsContinueMake": "भुगतानों का उपयोग जारी रखने के लिए हमें कुछ और विवरणों को सत्यापित करने की आवश्यकता है और शीघ्र ही संपर्क में रहेंगे",
+    "verifyFewMoreDetailsActivateMake": "भुगतान करने से पहले हमें कुछ और विवरणों को सत्यापित करने की आवश्यकता है और शीघ्र ही संपर्क में रहेंगे",
+    "verifyFewMoreDetailsContinueReceive": "भुगतान स्वीकार करना जारी रखने के लिए हमें कुछ और विवरणों को सत्यापित करने की आवश्यकता है और शीघ्र ही संपर्क में रहेंगे",
+    "verifyFewMoreDetailsActivateReceive": "भुगतान स्वीकार करने से पहले हमें कुछ और विवरणों को सत्यापित करने की आवश्यकता है और शीघ्र ही संपर्क में रहेंगे"
 }
