@@ -489,6 +489,7 @@
     "reject": "Reject",
     "next": "Next",
     "confirmDetails": "Confirm Details",
+    "errorFromBusinessSearch": "Error from Business Search",
     "errorFromBusinessFacts": "Error from Business Facts",
     "errorFromTINCheck": "Error from TIN Check",
     "address": "Address",
