@@ -268,5 +268,13 @@
     "activateCreditCardsSubText": "कृपया भुगतान और क्रेडिट समाधान पृष्ठ से क्रेडिट कार्ड सक्रिय करें। या सहायता के लिए <ourLink>यहां क्लिक करें</ourLink>",
     "surcharge":"अधिभार",
     "percentBasedSurcharge":"के अधिभार के आधार पर {{surcharge}}",
-    "surchargeAmount": "का अधिभार शामिल है {{surcharge}}"
+    "surchargeAmount": "का अधिभार शामिल है {{surcharge}}",
+    "cardAmount":"कार्ड राशि",
+    "AgingGraph":  "एपी एजिंग",
+    "cashImpact": "कैश इम्पैक्ट",
+    "closingCashBalance": "कैश बैलेंस",
+    "totalPayables": "भुगतान राशि",
+    "CashFlowGraph": "कैश फ्लो ग्राफ",
+    "LowCash":"लो कैश",
+    "TargetCash":"लक्षित कैश"
 }
