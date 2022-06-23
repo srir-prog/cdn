@@ -351,7 +351,6 @@
     "cashFlowInfo": "नकदी प्रवाह पूर्वानुमान में अतिदेय चालानों को शामिल करने के लिए भविष्य की अपेक्षित तिथि निर्धारित करें",
     "AgingGraph":  "एआर एजिंग ग्राफ",
     "totalReceivables" : "अपेक्षित राशि",
-    "adjustedCashBalance" : "पिछला नकद शेष",
     "closingCashBalance" : "नकदी शेष",
     "cashImpact": "नकद प्रभाव"
 }
