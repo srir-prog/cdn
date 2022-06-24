@@ -72,7 +72,7 @@
     "EmailServiceDown": "There is an email outage. All impacted campaigns and customer communications would resume once the email service is up",
     "CampaignNotificationsNotWorking": "Internal notifications for Campaign {{campaign_name}} could not be sent to the recipient",
     "AutofySyncLost": "There is a sync error as connection to the Centime {{agent_name}} agent is lost.",
-    "Reinstate": "Reinstate the connection",
+    "Reinstate": "Restart Centime agent",
     "CheckSync": "Check sync details",
     "GLReconnectSuccess": "Successfully reconnected to {gl_name}. Initiated sync to update your data in Centime.",
     "GLConnectionSuccess": "Connection to {{gl_name}} is successful. The initial sync has started.",
@@ -244,5 +244,14 @@
     "managePayables": "Manage Payables",
     "CashFlowGraph": "Cash Flow Graph",
     "updateSupplierSuccessMsg": "Supplier: {{buyerName}}, successfully updated",
-    "updateSupplierErrorMsg": "Unable to update supplier {{buyerName}}"
+    "updateSupplierErrorMsg": "Unable to update supplier {{buyerName}}",
+    "verifyToMakePayments": "Please verify legal company details in order to make payments",
+    "verifyToMakePaymentsWithLink": "Please verify legal company details in order to make payments. <ourLink></ourLink>",
+    "verifyToAcceptPayments": "Please verify legal company details in order to accept payments",
+    "verifyToAcceptPaymentsWithLink": "Please verify legal company details in order to accept payments. <ourLink></ourLink>",
+    "verifyNow": "Verify now",
+    "verifyFewMoreDetailsContinueMake": "We need to verify a few more details to continue using payments and will be in touch shortly",
+    "verifyFewMoreDetailsActivateMake": "We need to verify a few more details before making payments and will be in touch shortly",
+    "verifyFewMoreDetailsContinueReceive": "We need to verify a few more details to continue accepting payments and will be in touch shortly",
+    "verifyFewMoreDetailsActivateReceive": "We need to verify a few more details before accepting payments and will be in touch shortly"
 }

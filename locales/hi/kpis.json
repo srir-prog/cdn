@@ -55,7 +55,7 @@
     "partiallyPaid": "आंशिक रूप से भुगतान किया",
     "onTime": "समय पर",
     "impact": "प्रभाव",
-    "collectionsExpected": "देय",
+    "collectionsExpected": "संग्रह बकाया",
     "collectedLately": "विलंब से",
     "unCollected": "खोलना",
     "transactions": "लेन-देन",
@@ -132,7 +132,7 @@
     "BusinessCategory": "व्यापार वर्ग",
     "GLAccount": "जीएल खाता",
     "TransactionType": "सौदे का प्रकार",
-    "CashFlowType": "अंतर्वाह / बहिर्वाह",
+    "CashFlowType": "नकद में / नकदी निकलना",
     "Description": "विवरण",
     "cashFlowTypeText": "नकदी प्रवाह प्रकार",
     "transactionId": "लेन-देन आईडी",
@@ -185,5 +185,8 @@
     "percentagePaidLateTooltipInfo": "देय तिथि के बाद भुगतान किए गए चालान बनाम भुगतान के लिए उपलब्ध कुल चालान",
     "payablesTurnOverRatioTooltipInfo":"एक निश्चित अवधि में देय किसी कंपनी द्वारा अपने खातों का भुगतान करने की संख्या को मापता है",
     "payablesTurnOverRatio": "कारोबार अनुपात",
-    "supplierInvoiceTableLabel": "आपूर्तिकर्ता चालान तालिका"
+    "supplierInvoiceTableLabel": "आपूर्तिकर्ता चालान तालिका",
+    "DaysToPay": "भुगतान करने के लिए दिन",
+    "PaymentStatus": "भुगतान की स्थिति",
+    "noOfCustomers": "ग्राहकों"
 }
