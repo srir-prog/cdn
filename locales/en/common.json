@@ -243,6 +243,8 @@
     "manageReceivables": "Manage Receivables",
     "managePayables": "Manage Payables",
     "CashFlowGraph": "Cash Flow Graph",
+    "updateSupplierSuccessMsg": "Supplier: {{buyerName}}, successfully updated",
+    "updateSupplierErrorMsg": "Unable to update supplier {{buyerName}}",
     "verifyToMakePayments": "Please verify legal company details in order to make payments",
     "verifyToMakePaymentsWithLink": "Please verify legal company details in order to make payments. <ourLink></ourLink>",
     "verifyToAcceptPayments": "Please verify legal company details in order to accept payments",

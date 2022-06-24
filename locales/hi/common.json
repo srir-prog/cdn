@@ -243,6 +243,8 @@
     "manageReceivables": "प्राप्य प्रबंधित करें",
     "managePayables": "देनदारियों का प्रबंधन करें",
     "CashFlowGraph": "कैश फ्लो ग्राफ",
+    "updateSupplierSuccessMsg": "आपूर्तिकर्ता: {{buyerName}}, सफलतापूर्वक अपडेट किया गया",
+    "updateSupplierErrorMsg": "{{buyerName}} आपूर्तिकर्ता को अपडेट करने में असमर्थ",
     "verifyToMakePayments": "भुगतान करने के लिए कृपया कानूनी कंपनी विवरण सत्यापित करें",
     "verifyToMakePaymentsWithLink": "भुगतान करने के लिए कृपया कानूनी कंपनी विवरण सत्यापित करें। <ourLink></ourLink>",
     "verifyToAcceptPayments": "भुगतान स्वीकार करने के लिए कृपया कानूनी कंपनी विवरण सत्यापित करें",
