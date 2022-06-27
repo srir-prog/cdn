@@ -242,5 +242,14 @@
     "monitorKPIs": "Monitor KPIs",
     "manageReceivables": "Manage Receivables",
     "managePayables": "Manage Payables",
-    "CashFlowGraph": "Cash Flow Graph"
+    "CashFlowGraph": "Cash Flow Graph",
+    "verifyToMakePayments": "Please verify legal company details in order to make payments",
+    "verifyToMakePaymentsWithLink": "Please verify legal company details in order to make payments. <ourLink></ourLink>",
+    "verifyToAcceptPayments": "Please verify legal company details in order to accept payments",
+    "verifyToAcceptPaymentsWithLink": "Please verify legal company details in order to accept payments. <ourLink></ourLink>",
+    "verifyNow": "Verify now",
+    "verifyFewMoreDetailsContinueMake": "We need to verify a few more details to continue using payments and will be in touch shortly",
+    "verifyFewMoreDetailsActivateMake": "We need to verify a few more details before making payments and will be in touch shortly",
+    "verifyFewMoreDetailsContinueReceive": "We need to verify a few more details to continue accepting payments and will be in touch shortly",
+    "verifyFewMoreDetailsActivateReceive": "We need to verify a few more details before accepting payments and will be in touch shortly"
 }
