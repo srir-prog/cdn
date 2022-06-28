@@ -497,5 +497,10 @@
     "viewRiskProfile": "जोखिम प्रोफ़ाइल देखें",
     "businessSearchTable": "व्यापार खोज तालिका",
     "verificationDetailsFailure": "सत्यापन स्थिति और विवरण अपडेट करने में त्रुटि",
-    "verificationDetailsSuccess": "सत्यापन स्थिति और विवरण को सफलतापूर्वक अपडेट किया गया"
+    "verificationDetailsSuccess": "सत्यापन स्थिति और विवरण को सफलतापूर्वक अपडेट किया गया",
+    "continueVerification": "सत्यापन जारी रखें",
+    "errorContinuingWithVerification": "सत्यापन प्रक्रिया जारी रखने में त्रुटि। कृपया फिर से शुरू करें।",
+    "warnVerificationIdentifierChange": "सत्यापन पहचानकर्ता परिवर्तन के बारे में चेतावनी",
+    "affectsClientVerificationStatus":"वर्तमान सत्यापन स्थिति को प्रभावित करता है",
+    "changeVerificationIdentifierSideEffect" : "टैक्स आईडी या कानूनी नाम बदलने से मौजूदा भुगतान उत्पादों को तब तक निष्क्रिय किया जाता है जब तक कि आप सत्यापन प्रक्रिया को फिर से पूरा नहीं कर लेते"
 }
