@@ -511,5 +511,5 @@
     "enabled":"Enabled",
     "copiedToClipboard":"Copied to clipboard",
     "syncError":"Unable to enable / disable Auto Sync as you do not have the required permissions. Please contact your administrator",
-    "syncErroGeneral":"Error in updating Auto Sync.Try again or contact us if the problem persists."
+    "syncErrorGeneral":"Error in updating Auto Sync.Try again or contact us if the problem persists."
 }
