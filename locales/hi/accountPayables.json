@@ -275,5 +275,6 @@
     "totalPayables": "भुगतान राशि",
     "CashFlowGraph": "कैश फ्लो ग्राफ",
     "LowCash":"लो कैश",
-    "TargetCash":"लक्षित कैश"
+    "TargetCash":"लक्षित कैश",
+    "surchargeAmount": "का अधिभार शामिल है {{surcharge}}"
 }

@@ -275,5 +275,6 @@
     "totalPayables": "Payment Amount",
     "CashFlowGraph": "Cash Flow Graph",
     "LowCash":"Low Cash",
-    "TargetCash":"Target Cash"
+    "TargetCash":"Target Cash",
+    "surchargeAmount": "Includes surcharge of {{surcharge}}"
 }
