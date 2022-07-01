@@ -270,11 +270,12 @@
     "percentBasedSurcharge":"Based on surcharge of {{surcharge}}",
     "cardAmount":"CARD AMOUNT",
     "surchargeAmount": "Includes surcharge of {{surcharge}}",
-    "AgingGraph":  "AP Aging",
+    "AgingGraph":  "AP Aging graph",
     "cashImpact": "Cash Impact",
     "closingCashBalance": "Cash Balance",
     "totalPayables": "Payment Amount",
     "CashFlowGraph": "Cash Flow Graph",
     "LowCash":"Low Cash",
-    "TargetCash":"Target Cash"
+    "TargetCash":"Target Cash",
+    "apCashFlowInfo":"Schedule payments to include overdue invoices in the cash flow forecast"
 }

@@ -270,11 +270,12 @@
     "percentBasedSurcharge":"के अधिभार के आधार पर {{surcharge}}",
     "surchargeAmount": "का अधिभार शामिल है {{surcharge}}",
     "cardAmount":"कार्ड राशि",
-    "AgingGraph":  "एपी एजिंग",
+    "AgingGraph":  "एपी एजिंग ग्राफ़",
     "cashImpact": "कैश इम्पैक्ट",
     "closingCashBalance": "कैश बैलेंस",
     "totalPayables": "भुगतान राशि",
     "CashFlowGraph": "कैश फ्लो ग्राफ",
     "LowCash":"लो कैश",
-    "TargetCash":"लक्षित कैश"
+    "TargetCash":"लक्षित कैश",
+    "apCashFlowInfo":"नकदी प्रवाह पूर्वानुमान में अतिदेय चालानों को शामिल करने के लिए भुगतान शेड्यूल करें"
 }
