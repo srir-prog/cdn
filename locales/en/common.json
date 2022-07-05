@@ -242,5 +242,10 @@
     "monitorKPIs": "Monitor KPIs",
     "manageReceivables": "Manage Receivables",
     "managePayables": "Manage Payables",
-    "CashFlowGraph": "Cash Flow Graph"
+    "cashFlowGraph": "Cash Flow Graph",
+    "targetCash": "Target cash",
+    "lowCash": "Low cash",
+    "closingCashBalance" : "Cash Balance",
+    "cashImpact": "Cash Impact",
+    "closingBalanceLabel": "Closing balance"
 }
