@@ -268,5 +268,11 @@
     "activateCreditCardsSubText": "Please activate credit cards from payment and credit solutions page. Or <ourLink>ClickHere</ourLink> for help.",
     "surcharge":"Surcharge",
     "percentBasedSurcharge":"Based on surcharge of {{surcharge}}",
-    "cardAmount":"CARD AMOUNT"
+    "cardAmount":"CARD AMOUNT",
+    "surchargeAmount": "Includes surcharge of {{surcharge}}",
+    "agingGraph":"AP Aging Graph",
+    "cashImpact": "Cash Impact",
+    "closingCashBalance": "Cash Balance",
+    "totalPayables": "Payment Amount",
+    "apCashFlowInfo":"Schedule payments to include overdue invoices in the cash flow forecast"
 }
