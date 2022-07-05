@@ -242,7 +242,7 @@
     "monitorKPIs": "KPI की निगरानी करें",
     "manageReceivables": "प्राप्य प्रबंधित करें",
     "managePayables": "देनदारियों का प्रबंधन करें",
-    "CashFlowGraph": "कैश फ्लो ग्राफ",
+    "cashFlowGraph": "कैश फ्लो ग्राफ",
     "verifyToMakePayments": "भुगतान करने के लिए कृपया कानूनी कंपनी विवरण सत्यापित करें",
     "verifyToMakePaymentsWithLink": "भुगतान करने के लिए कृपया कानूनी कंपनी विवरण सत्यापित करें। <ourLink></ourLink>",
     "verifyToAcceptPayments": "भुगतान स्वीकार करने के लिए कृपया कानूनी कंपनी विवरण सत्यापित करें",
