@@ -60,7 +60,7 @@
     "SetFilter": "Click to set filter",
     "UnsetFilter": "Click to unset filter",
     "ARAging": "Receivables aging",
-    "totalAR": "Total receivables",
+    "totalAR": "Total AR",
     "totalOutstanding": "Total outstanding",
     "totalOverdue": "Total overdue",
     "totalCustomers": "Total customers",
@@ -349,9 +349,8 @@
     "generateLinkCardOnFileAR": "You need a valid card-on-file in order to generate payment links and get paid via CentimePay",
     "pleaseActivateCentimePay": "Please activate your CentimePay merchant account to send payment links and get paid faster",
     "cashFlowInfo": "Set a future expected date to include overdue invoices in the cash flow forecast",
-    "AgingGraph":  "AR Aging Graph",
+    "agingGraph":  "AR Aging Graph",
     "totalReceivables" : "Expected Amount",
-    "adjustedCashBalance" : "Previous Cash Balance",
     "closingCashBalance" : "Cash Balance",
     "cashImpact": "Cash Impact"
 }
