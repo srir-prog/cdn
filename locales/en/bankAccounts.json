@@ -298,5 +298,6 @@
     "ViewTransactionDetail": "View cash flow forecasted transaction details",
     "CashflowDrillDownTransactionsTable": "Cash flow forecasted transactions drilldown table",
     "CashflowDrillDownTransactionsTableAccordion": "Cash flow forecasted transactions drilldown table accordion",
-    "AccountCategory": "Account Category"
+    "AccountCategory": "Account Category",
+    "historicTransactionDrilldownNotificationMsg": "Drilldown on historic transactions is not allowed"
 }
