@@ -247,7 +247,7 @@
     "lowCash": "Low cash",
     "closingCashBalance" : "Cash Balance",
     "cashImpact": "Cash Impact",
-    "closingBalanceLabel": "Closing balance"
+    "closingBalanceLabel": "Closing balance",
     "verifyToMakePayments": "Please verify legal company details in order to make payments",
     "verifyToMakePaymentsWithLink": "Please verify legal company details in order to make payments. <ourLink></ourLink>",
     "verifyToAcceptPayments": "Please verify legal company details in order to accept payments",
