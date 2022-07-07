@@ -47,5 +47,12 @@
   "PLCardDetailsSuccessMessage": "Private Label  card created successfully",
   "DebitCardDetailsSuccessMessage": "Debit card account created successfully",
   "ACHDetailsSuccessMessage": "ACH account created successfully",
-  "CentimeCashFinalOnBoardMessage": "Centime cash onboarded successfully"
+  "CentimeCashFinalOnBoardMessage": "Centime cash onboarded successfully",
+  "PLCardDetailsErrorMessage": "Error while creating PL card. Enter the details and try again",
+  "DebitCardDetailErrorMessage": "Error while creating debit card. Enter the details and try again",
+  "ACHDetailsErrorMessage": "Error while creating debit card. Enter the details and try again",
+  "CentimeCashFinalOnBoardErrorMessage": "Error in final on-boarding. Please try again",
+"centimeCash": "Centime cash",
+  "centimeCard": "Centime card",
+  "FinalCashOnBoardSuccessMessage": "Centime cash on boarded successfully"
 }
