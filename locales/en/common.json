@@ -300,5 +300,7 @@
     "naicsCode": "NAICS code",
     "sales": "Sales",
     "url": "URL",
-    "sanctionMatchList": "Sanction Match List"
+    "sanctionMatchList": "Sanction Match List",
+    "updateSupplierSuccessMsg": "Supplier: {{buyerName}}, successfully updated",
+    "updateSupplierErrorMsg": "Unable to update supplier {{buyerName}}"
 }
