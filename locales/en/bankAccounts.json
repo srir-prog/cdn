@@ -280,6 +280,7 @@
     "userActualDate": "Actual date",
     "updatePredictedListSuccessMsg": "Predicted list updated successfully",
     "updatePredictedListErrorMsg": "Unable to update predicted list",
+    "AccountCategory": "Account Category",
     "cashFlowType": "Cash in/Cash out",
     "CashFlowType": "Cash in/Cash out",
     "cashFlowTypeText": "Cash flow type",
@@ -298,6 +299,6 @@
     "ViewTransactionDetail": "View cash flow forecasted transaction details",
     "CashflowDrillDownTransactionsTable": "Cash flow forecasted transactions drilldown table",
     "CashflowDrillDownTransactionsTableAccordion": "Cash flow forecasted transactions drilldown table accordion",
-    "AccountCategory": "Account Category",
-    "historicTransactionDrilldownNotificationMsg": "Drilldown on historic transactions is not allowed"
+    "historicTransactionDrilldownNotificationMsg": "Drilldown on historic transactions is not allowed",
+    "backToCashflowBars": "BACK TO CASH FLOW BARS"
 }
