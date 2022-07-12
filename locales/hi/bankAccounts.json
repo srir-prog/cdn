@@ -234,6 +234,7 @@
     "userActualDate": "वास्तविक तिथि",
     "updatePredictedListSuccessMsg": "पूर्वानुमानित सूची सफलतापूर्वक अपडेट की गई",
     "updatePredictedListErrorMsg": "अनुमानित सूची को अपडेट करने में असमर्थ",
+    "AccountCategory": "खाता श्रेणी",
     "cashFlowType": "कैश इन/कैश आउट",
     "CashFlowType": "कैश इन/कैश आउट",
     "cashFlowTypeText": "नकदी प्रवाह प्रकार",
@@ -252,6 +253,6 @@
     "ViewTransactionDetail": "नकदी प्रवाह पूर्वानुमानित लेनदेन विवरण देखें",
     "CashflowDrillDownTransactionsTable": "कैश फ्लो पूर्वानुमानित लेनदेन ड्रिल डाउन टेबल",
     "CashflowDrillDownTransactionsTableAccordion": "कैश फ्लो पूर्वानुमानित लेन-देन ड्रिल डाउन टेबल अकॉर्डियन",
-    "AccountCategory": "खाता श्रेणी",
-    "historicTransactionDrilldownNotificationMsg": "ऐतिहासिक लेनदेन पर ड्रिलडाउन की अनुमति नहीं है"
+    "historicTransactionDrilldownNotificationMsg": "ऐतिहासिक लेनदेन पर ड्रिलडाउन की अनुमति नहीं है",
+    "backToCashflowBars": "कैश फ्लो बार पर वापस जाएं"
 }

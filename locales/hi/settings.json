@@ -498,6 +498,11 @@
     "businessSearchTable": "व्यापार खोज तालिका",
     "verificationDetailsFailure": "सत्यापन स्थिति और विवरण अपडेट करने में त्रुटि",
     "verificationDetailsSuccess": "सत्यापन स्थिति और विवरण को सफलतापूर्वक अपडेट किया गया",
+    "continueVerification": "सत्यापन जारी रखें",
+    "errorContinuingWithVerification": "सत्यापन प्रक्रिया जारी रखने में त्रुटि। कृपया फिर से शुरू करें।",
+    "warnVerificationIdentifierChange": "सत्यापन पहचानकर्ता परिवर्तन के बारे में चेतावनी",
+    "affectsClientVerificationStatus":"वर्तमान सत्यापन स्थिति को प्रभावित करता है",
+    "changeVerificationIdentifierSideEffect" : "टैक्स आईडी या कानूनी नाम बदलने से मौजूदा भुगतान उत्पादों को तब तक निष्क्रिय किया जाता है जब तक कि आप सत्यापन प्रक्रिया को फिर से पूरा नहीं कर लेते",
     "autoSync":"स्वतः सिंक",
     "disabled":"अक्षम",
     "centimeAgentToken":"सेंटिम एजेंट टोकन",
@@ -506,11 +511,6 @@
     "syncSettings":"सिंक सेटिंग्स",
     "enabled":"सक्रिय",
     "syncError":"ऑटो सिंक को सक्षम / अक्षम करने में असमर्थ क्योंकि आपके पास आवश्यक अनुमतियां नहीं हैं। कृपया अपने व्यवस्थापक से संपर्क करें",
-    "syncSettingsSave":"ऑटो सिंक को सफलतापूर्वक अपडेट किया गया",
     "syncErrorGeneral":"ऑटो सिंक को अपडेट करने में त्रुटि। पुनः प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें",
-    "continueVerification": "सत्यापन जारी रखें",
-    "errorContinuingWithVerification": "सत्यापन प्रक्रिया जारी रखने में त्रुटि। कृपया फिर से शुरू करें।",
-    "warnVerificationIdentifierChange": "सत्यापन पहचानकर्ता परिवर्तन के बारे में चेतावनी",
-    "affectsClientVerificationStatus":"वर्तमान सत्यापन स्थिति को प्रभावित करता है",
-    "changeVerificationIdentifierSideEffect" : "टैक्स आईडी या कानूनी नाम बदलने से मौजूदा भुगतान उत्पादों को तब तक निष्क्रिय किया जाता है जब तक कि आप सत्यापन प्रक्रिया को फिर से पूरा नहीं कर लेते"
+    "syncSettingsSave":"ऑटो सिंक को सफलतापूर्वक अपडेट किया गया"
 }

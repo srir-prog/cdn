@@ -497,6 +497,11 @@
     "businessSearchTable": "Business search table",
     "verificationDetailsFailure": "Error updating verification status and details",
     "verificationDetailsSuccess": "Successfully updated verification status and details",
+    "continueVerification": "Continue verification",
+    "errorContinuingWithVerification": "Error continuing with verification process. Please start again.",
+    "warnVerificationIdentifierChange": "Warning about verification identifier change",
+    "affectsClientVerificationStatus":"Affects current verification status",
+    "changeVerificationIdentifierSideEffect" : "Changing Tax Id or Legal name results in deactivating existing payment products until you complete the verification process again",
     "autoSync":"Auto Sync",
     "disabled":"Disabled",
     "centimeAgentToken":"Centime Agent Token",
@@ -506,11 +511,6 @@
     "enabled":"Enabled",
     "copiedToClipboard":"Copied to clipboard",
     "syncError":"Unable to enable / disable Auto Sync as you do not have the required permissions. Please contact your administrator",
-    "syncSettingsSave":"Successfully updated Auto Sync",
     "syncErrorGeneral":"Error in updating Auto Sync.Try again or contact us if the problem persists",
-    "continueVerification": "Continue verification",
-    "errorContinuingWithVerification": "Error continuing with verification process. Please start again.",
-    "warnVerificationIdentifierChange": "Warning about verification identifier change",
-    "affectsClientVerificationStatus":"Affects current verification status",
-    "changeVerificationIdentifierSideEffect" : "Changing Tax Id or Legal name results in deactivating existing payment products until you complete the verification process again"
+    "syncSettingsSave":"Successfully updated Auto Sync"
 }
