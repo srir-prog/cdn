@@ -303,5 +303,6 @@
     "url": "यूआरएल",
     "sanctionMatchList": "प्रतिबंध मैच सूची",
     "updateSupplierSuccessMsg": "आपूर्तिकर्ता: {{buyerName}}, सफलतापूर्वक अपडेट किया गया",
-    "updateSupplierErrorMsg": "{{buyerName}} आपूर्तिकर्ता को अपडेट करने में असमर्थ"
+    "updateSupplierErrorMsg": "{{buyerName}} आपूर्तिकर्ता को अपडेट करने में असमर्थ",
+    "profile": "प्रोफ़ाइल"
 }
