@@ -43,7 +43,7 @@
     "Error": "Error",
     "SyncError": "Sync Error",
     "InProgress": "In Progress",
-    "InSync": "In Sync",
+    "InSync": "SYNCED",
     "SyncStatus": "Sync status",
     "SyncedRecords": "Synced records",
     "NextSync": "Next Sync",
@@ -168,5 +168,7 @@
     "Info": "Info",
     "MegaMenu" : "Easy Access",
     "SelectAll": "Select All",
-    "footerText":"Centime helps businesses control and manage cash flow"
+    "footerText":"Centime helps businesses control and manage cash flow",
+    "stopSync":"Stop sync",
+    "syncNow":"Sync now"
 }
