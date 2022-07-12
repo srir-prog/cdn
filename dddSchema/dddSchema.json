@@ -446,11 +446,13 @@
             },
             {
                 "title": "Start Date",
-                "valueMap": "transactionStartDate"
+                "valueMap": "transactionStartDate",
+                "formatType": "date"
             },
             {
                 "title": "End Date",
-                "valueMap": "transactionEndDate"
+                "valueMap": "transactionEndDate",
+                "formatType": "date"
             }
         ],
         "additionalProperties": {
@@ -536,11 +538,13 @@
             },
             {
                 "label": "Start Date",
-                "valueMap": "transactionStartDate"
+                "valueMap": "transactionStartDate",
+                "formatType": "date"
             },
             {
                 "label": "End Date",
-                "valueMap": "transactionEndDate"
+                "valueMap": "transactionEndDate",
+                "formatType": "date"
             },
             {
                 "label": "Transaction Details",
@@ -591,15 +595,18 @@
             },
             {
                 "label": "Payment Start Date",
-                "valueMap": "paymentStartDate"
+                "valueMap": "paymentStartDate",
+                "formatType": "date"
             },
             {
                 "label": "Payment Capture Date",
-                "valueMap": "paymentCaptureDate"
+                "valueMap": "paymentCaptureDate",
+                "formatType": "date"
             },
             {
                 "label": "Payment Completion Date",
-                "valueMap": "paymentEndDate"
+                "valueMap": "paymentEndDate",
+                "formatType": "date"
             },
             {
                 "label": "Payment Sub Status",
@@ -618,7 +625,8 @@
                                     },
                                     {
                                         "title": "Change Time",
-                                        "valueMap": "subStatusChangeTime"
+                                        "valueMap": "subStatusChangeTime",
+                                        "formatType": "date"
                                     }
                                 ]
                             }
