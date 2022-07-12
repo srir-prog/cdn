@@ -1,5 +1,7 @@
 {
+    "businessOperations": "Business Operations",
     "Payments": "Payments",
+    "All": "All",
     "Clients": "Clients",
     "Period": "period",
     "Status": "status",
