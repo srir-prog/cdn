@@ -129,6 +129,7 @@
     "HistoryActionDefaultPaymentMethodUpdated": "Default payment method updated",
     "HistoryActionRemittanceNotesAdded": "Remittance note added",
     "HistoryActionPaymentCreditsApplied": "Credits applied",
+    "HistoryActionPaymentStatusUpdated": "Payment status updated",
     "PaymentMethodUpdateSuccess": "Payment method successfully updated",
     "PaymentCreditsAppliedSuccess": "Credits successfully applied to invoice {{billId}}",
     "PaymentMethodUpdateFailure": "There was an issue encountered in updating payment method for invoice. Please try again",
