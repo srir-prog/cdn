@@ -275,5 +275,8 @@
     "cashImpact": "Cash Impact",
     "closingCashBalance": "Cash Balance",
     "totalPayables": "Payment Amount",
-    "apCashFlowInfo":"Schedule payments to include overdue invoices in the cash flow forecast"
+    "apCashFlowInfo":"Schedule payments to include overdue invoices in the cash flow forecast",
+    "creditCardAcceptance":"Credit card acceptance",
+    "creditCardPayments":"Suppliers that are likely to accept credit card payments",
+    "nonCreditCardPayments":"Suppliers that have not been found in the credit card acceptance database"
 }
