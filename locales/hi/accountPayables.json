@@ -130,6 +130,7 @@
     "CardNotActiveNote": "एक बार सक्रिय होने पर कार्ड {{validityPeriod}} {{validityPeriodTime}} के लिए मान्य होगा",
     "HistoryActionRemittanceNotesAdded": "रेमिटेंस नोट जोड़ा गया",
     "HistoryActionPaymentCreditsApplied": "क्रेडिट लागू",
+    "HistoryActionPaymentStatusUpdated": "भुगतान की स्थिति अपडेट की गई",
     "CardWillRemainActiveUntil": "सुरक्षा कारणों से, कार्ड केवल {{validUntil}} तक सक्रिय रहेगा",
     "NoActivePaymentMethods": "भुगतान और क्रेडिट समाधान पृष्ठ में भुगतान विधियों को सक्रिय करने के बाद आप चालान भुगतान कर सकते हैं. <ourLink></ourLink>",
     "NoApprovalPolicyDefined": "भुगतान करने के लिए आपको अनुमोदन अनुमति और परिभाषित अनुमोदन नीति वाले कम से कम एक उपयोगकर्ता की आवश्यकता है. <ourLink></ourLink>",
