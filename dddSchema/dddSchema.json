@@ -348,7 +348,8 @@
             {
                 "title": "Client Name",
                 "valueMap": "clientName",
-                "enableSort": true
+                "enableSort": true,
+                "width":"20%"
             },
             {
                 "title": "Supplier Id",
@@ -364,7 +365,8 @@
                 "title": "Amount",
                 "valueMap": "amount",
                 "align": "right",
-                "enableSort": true
+                "enableSort": true,
+                "width":"15%"
             },
             {
                 "title": "Currency",
@@ -390,7 +392,7 @@
             }
         ],
         "ignoreKeys": [
-            "clientId"
+            "clientId","paymentCaptureDate"
         ],
         "additionalProperties": {
             "defaultSortingOrder": "desc",
@@ -876,9 +878,10 @@
                             "label": "Self Approval",
                             "valueMap": "selfApproval"
                         }
-                    ]
-                },
-                "detailsListFullWidth": true
+                    ],
+                    "detailsListFullWidth": true
+                }
+                
             },
             {
                 "label": "GL Account Id",
