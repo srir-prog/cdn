@@ -512,5 +512,6 @@
     "errorContinuingWithVerification": "Error continuing with verification process. Please start again.",
     "warnVerificationIdentifierChange": "Warning about verification identifier change",
     "affectsClientVerificationStatus":"Affects current verification status",
-    "changeVerificationIdentifierSideEffect" : "Changing Tax Id or Legal name results in deactivating existing payment products until you complete the verification process again"
+    "changeVerificationIdentifierSideEffect" : "Changing Tax Id or Legal name results in deactivating existing payment products until you complete the verification process again",
+    "isDoingBusinessOnBehalfOf": "is doing business on behalf of"
 }
