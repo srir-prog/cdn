@@ -65,5 +65,6 @@
     "MaxFileSizeExceededError": "फ़ाइल का आकार {{maxFileSize}} MB की अधिकतम अनुमत सीमा को पार कर गया है",
     "UnsupportedFileTypeError": "फ़ाइल प्रकार समर्थित नहीं है",
     "invalidSurchargePercent": "अमान्य अधिभार प्रतिशत",
-    "isValidMultipleEmails": "अवैध ईमेल: {{emailList}}"
+    "isValidMultipleEmails": "अवैध ईमेल: {{emailList}}",
+    "isMultipleEmailsLimitExceeded": "अधिकतम 15 ईमेल की अनुमति है"
 }
