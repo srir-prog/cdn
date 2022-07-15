@@ -11,33 +11,27 @@
                 "elementsInfo": [
                     {
                         "type": "Dropdown",
-                        "title": "Package Name",
+                        "title": "GL Type",
                         "options": {
-                            "today": "today",
-                            "week": "this week",
-                            "month": "this month"
+                            "2": "QuickBooks Online ",
+                            "3": "Oracle NetSuite",
+                            "4": "QuickBooks Desktop"
                         },
-                        "queryName": "period"
+                        "multiple": true,
+                        "queryName": "glType"
                     },
                     {
                         "type": "Dropdown",
                         "title": "Status",
                         "options": {
-                            "CANCELLED": "CANCELLED",
-                            "COMPLETED": "COMPLETED",
-                            "FAILED": "FAILED",
-                            "INITIATED": "INITIATED",
-                            "PROCESSING": "PROCESSING",
-                            "SCHEDULED": "SCHEDULED",
-                            "UNKNOWN": "UNKNOWN"
+                            "1": "Not-Activated",
+                            "2": "Active",
+                            "3": "Suspended",
+                            "4": "Closed",
+                            "5": "Invited"
                         },
                         "multiple": true,
-                        "queryName": "status"
-                    },
-                    {
-                        "type": "Search",
-                        "title": "Client Id",
-                        "queryName": "clientId"
+                        "queryName": "activeStatus"
                     }
                 ]
             }
@@ -46,7 +40,7 @@
             {
                 "renderType": "Button",
                 "renderProps": {
-                    "label": "List Payments"
+                    "label": "List Clients"
                 },
                 "renderPosition": "bottom",
                 "action": {
@@ -56,20 +50,16 @@
                         "aggregate"
                     ],
                     "paramObj": {
-                        "templateId": "PaymentListWithName"
+                        "templateId": "ClientList"
                     },
                     "paramObjMap": {
-                        "period": {
+                        "glType": {
                             "type": "queryBuilder",
-                            "value": "period"
+                            "value": "glType"
                         },
-                        "status": {
+                        "activeStatus": {
                             "type": "queryBuilder",
-                            "value": "status"
-                        },
-                        "clientId": {
-                            "type": "queryBuilder",
-                            "value": "clientId"
+                            "value": "activeStatus"
                         }
                     }
                 }

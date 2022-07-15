@@ -300,5 +300,9 @@
     "CashflowDrillDownTransactionsTable": "Cash flow forecasted transactions drilldown table",
     "CashflowDrillDownTransactionsTableAccordion": "Cash flow forecasted transactions drilldown table accordion",
     "historicTransactionDrilldownNotificationMsg": "Drilldown on historic transactions is not allowed",
-    "backToCashflowBars": "BACK TO CASH FLOW BARS"
+    "backToCashflowBars": "BACK TO CASH FLOW BARS",
+    "toAccount": "To account",
+    "centimeCashAvailableBalance": "Available balance - {{availableBalance}}",
+    "centimeCash": "Centime cash",
+    "transfer": "Transfer"
 }
