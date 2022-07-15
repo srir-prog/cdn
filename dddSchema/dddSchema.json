@@ -210,6 +210,12 @@
                         "value": 7
                     }
                 ]
+            },
+            {
+                "title": "Status",
+                "valueMap": "activeStatus",
+                "renderType": "text",
+                "enableSort": true
             }
         ],
         "additionalProperties": {
