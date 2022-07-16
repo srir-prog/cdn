@@ -65,5 +65,6 @@
     "MaxFileSizeExceededError": "File size exceeded max permitted limit of {{maxFileSize}} MB",
     "UnsupportedFileTypeError": "File type not supported",
     "invalidSurchargePercent": "Invalid surcharge percentage",
-    "isValidMultipleEmails": "Invalid Email: {{emailList}}"
+    "isValidMultipleEmails": "Invalid Email: {{emailList}}",
+    "isMultipleEmailsLimitExceeded": "Maximum of 15 emails are allowed"
 }
