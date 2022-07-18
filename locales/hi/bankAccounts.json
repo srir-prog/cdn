@@ -233,5 +233,6 @@
     "userActualAmount": "वास्तविक राशि",
     "userActualDate": "वास्तविक तिथि",
     "updatePredictedListSuccessMsg": "पूर्वानुमानित सूची सफलतापूर्वक अपडेट की गई",
-    "updatePredictedListErrorMsg": "अनुमानित सूची को अपडेट करने में असमर्थ"   
+    "updatePredictedListErrorMsg": "अनुमानित सूची को अपडेट करने में असमर्थ",
+    "AccountCategory": "खाता श्रेणी"
 }
