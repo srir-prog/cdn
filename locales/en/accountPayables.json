@@ -129,6 +129,7 @@
     "HistoryActionDefaultPaymentMethodUpdated": "Default payment method updated",
     "HistoryActionRemittanceNotesAdded": "Remittance note added",
     "HistoryActionPaymentCreditsApplied": "Credits applied",
+    "HistoryActionPaymentStatusUpdated": "Payment status updated",
     "PaymentMethodUpdateSuccess": "Payment method successfully updated",
     "PaymentCreditsAppliedSuccess": "Credits successfully applied to invoice {{billId}}",
     "PaymentMethodUpdateFailure": "There was an issue encountered in updating payment method for invoice. Please try again",
@@ -269,13 +270,17 @@
     "surcharge":"Surcharge",
     "percentBasedSurcharge":"Based on surcharge of {{surcharge}}",
     "cardAmount":"CARD AMOUNT",
-    "AgingGraph":  "AP Aging graph",
-    "cashImpact": "Cash Impact",
+    "AgingGraph":  "AP Aging",
     "closingCashBalance": "Cash Balance",
     "totalPayables": "Payment Amount",
     "CashFlowGraph": "Cash Flow Graph",
     "LowCash":"Low Cash",
     "TargetCash":"Target Cash",
     "surchargeAmount": "Includes surcharge of {{surcharge}}",
-    "apCashFlowInfo":"Schedule payments to include overdue invoices in the cash flow forecast"
+    "agingGraph":"AP Aging Graph",
+    "cashImpact": "Cash Impact",
+    "apCashFlowInfo":"Schedule payments to include overdue invoices in the cash flow forecast",
+    "creditCardAcceptance":"Credit card acceptance",
+    "creditCardPayments":"Suppliers that are likely to accept credit card payments",
+    "nonCreditCardPayments":"Suppliers that have not been found in the credit card acceptance database"
 }

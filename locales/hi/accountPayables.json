@@ -130,6 +130,7 @@
     "CardNotActiveNote": "एक बार सक्रिय होने पर कार्ड {{validityPeriod}} {{validityPeriodTime}} के लिए मान्य होगा",
     "HistoryActionRemittanceNotesAdded": "रेमिटेंस नोट जोड़ा गया",
     "HistoryActionPaymentCreditsApplied": "क्रेडिट लागू",
+    "HistoryActionPaymentStatusUpdated": "भुगतान की स्थिति अपडेट की गई",
     "CardWillRemainActiveUntil": "सुरक्षा कारणों से, कार्ड केवल {{validUntil}} तक सक्रिय रहेगा",
     "NoActivePaymentMethods": "भुगतान और क्रेडिट समाधान पृष्ठ में भुगतान विधियों को सक्रिय करने के बाद आप चालान भुगतान कर सकते हैं. <ourLink></ourLink>",
     "NoApprovalPolicyDefined": "भुगतान करने के लिए आपको अनुमोदन अनुमति और परिभाषित अनुमोदन नीति वाले कम से कम एक उपयोगकर्ता की आवश्यकता है. <ourLink></ourLink>",
@@ -269,13 +270,17 @@
     "surcharge":"अधिभार",
     "percentBasedSurcharge":"के अधिभार के आधार पर {{surcharge}}",
     "cardAmount":"कार्ड राशि",
-    "AgingGraph":  "एपी एजिंग ग्राफ़",
+    "AgingGraph":  "एपी एजिंग",
     "cashImpact": "कैश इम्पैक्ट",
     "closingCashBalance": "कैश बैलेंस",
     "totalPayables": "भुगतान राशि",
     "CashFlowGraph": "कैश फ्लो ग्राफ",
     "LowCash":"लो कैश",
     "TargetCash":"लक्षित कैश",
+    "agingGraph":  "एपी एजिंग ग्राफ़",
     "surchargeAmount": "का अधिभार शामिल है {{surcharge}}",
-    "apCashFlowInfo":"नकदी प्रवाह पूर्वानुमान में अतिदेय चालानों को शामिल करने के लिए भुगतान शेड्यूल करें"
+    "apCashFlowInfo":"नकदी प्रवाह पूर्वानुमान में अतिदेय चालानों को शामिल करने के लिए भुगतान शेड्यूल करें",
+    "creditCardAcceptance":"क्रेडिट कार्ड स्वीकृति",
+    "creditCardPayments":"वे आपूर्तिकर्ता जिनके क्रेडिट कार्ड से भुगतान स्वीकार करने की संभावना है",
+    "nonCreditCardPayments":"आपूर्तिकर्ता जो क्रेडिट कार्ड स्वीकृति डेटाबेस में नहीं मिले हैं"
 }

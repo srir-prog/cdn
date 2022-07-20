@@ -242,6 +242,11 @@
     "monitorKPIs": "Monitor KPIs",
     "manageReceivables": "Manage Receivables",
     "managePayables": "Manage Payables",
+    "CashFlowGraph": "Cash Flow Graph",
+    "updateSupplierSuccessMsg": "Supplier: {{buyerName}}, successfully updated",
+    "updateSupplierErrorMsg": "Unable to update supplier {{buyerName}}",
+    "multipleEmailsInputPlaceHolder":"Enter emails (comma separated)",
+    "limitOutOfChartDataRange": "Limit value is out of chart data range",
     "cashFlowGraph": "Cash Flow Graph",
     "targetCash": "Target cash",
     "lowCash": "Low cash",
@@ -301,7 +306,5 @@
     "sales": "Sales",
     "url": "URL",
     "sanctionMatchList": "Sanction Match List",
-    "updateSupplierSuccessMsg": "Supplier: {{buyerName}}, successfully updated",
-    "updateSupplierErrorMsg": "Unable to update supplier {{buyerName}}",
     "profile": "Profile"
 }
