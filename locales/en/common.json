@@ -300,5 +300,7 @@
     "naicsCode": "NAICS code",
     "sales": "Sales",
     "url": "URL",
-    "sanctionMatchList": "Sanction Match List"
+    "sanctionMatchList": "Sanction Match List",
+    "lowCash": "Low cash",
+    "targetCash": "Target cash"
 }

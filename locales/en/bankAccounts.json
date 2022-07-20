@@ -304,5 +304,6 @@
     "toAccount": "To account",
     "centimeCashAvailableBalance": "Available balance - {{availableBalance}}",
     "centimeCash": "Centime cash",
-    "transfer": "Transfer"
+    "transfer": "Transfer",
+    "cffCashTargetSuccessfullyUpdated": "Successfully updated low/target cash value. Low ${{low}}, Target ${{target}}"
 }
