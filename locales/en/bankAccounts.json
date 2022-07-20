@@ -300,5 +300,6 @@
     "CashflowDrillDownTransactionsTableAccordion": "Cash flow forecasted transactions drilldown table accordion",
     "AccountCategory": "Account Category",
     "historicTransactionDrilldownNotificationMsg": "Drilldown on historic transactions is not allowed",
-    "backToCashflowBars": "BACK TO CASH FLOW BARS"
+    "backToCashflowBars": "BACK TO CASH FLOW BARS",
+    "cffCashTargetSuccessfullyUpdated": "Successfully updated low/target cash value. Low ${{low}}, Target ${{target}}"
 }

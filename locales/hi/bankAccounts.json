@@ -254,5 +254,6 @@
     "CashflowDrillDownTransactionsTableAccordion": "कैश फ्लो पूर्वानुमानित लेन-देन ड्रिल डाउन टेबल अकॉर्डियन",
     "AccountCategory": "खाता श्रेणी",
     "historicTransactionDrilldownNotificationMsg": "ऐतिहासिक लेनदेन पर ड्रिलडाउन की अनुमति नहीं है",
-    "backToCashflowBars": "कैश फ्लो बार पर वापस जाएं"
+    "backToCashflowBars": "कैश फ्लो बार पर वापस जाएं",
+    "cffCashTargetSuccessfullyUpdated": "कम/लक्षित नकद मूल्य सफलतापूर्वक अपडेट किया गया। कम ${{low}}, लक्ष्य ${{target}}"
 }
