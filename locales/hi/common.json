@@ -301,5 +301,7 @@
     "naicsCode": "नईसीएस कोड",
     "sales": "बिक्री",
     "url": "यूआरएल",
-    "sanctionMatchList": "प्रतिबंध मैच सूची"
+    "sanctionMatchList": "प्रतिबंध मैच सूची",
+    "lowCash": "कम नकद",
+    "targetCash": "लक्ष्य नकद"
 }
