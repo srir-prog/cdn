@@ -36,6 +36,7 @@
     "paymentTerms": "भुगतान की शर्तें",
     "description": "विवरण",
     "invoices": "चालान",
+    "supplier": "प्रदायक",
     "businessCategory": "व्यापार वर्ग",
     "payeeOrPayer": "आदाता / भुगतानकर्ता",
     "type": "प्रकार",
