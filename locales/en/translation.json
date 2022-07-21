@@ -169,5 +169,6 @@
     "MegaMenu" : "Easy Access",
     "SelectAll": "Select All",
     "stopSync":"Stop sync",
-    "syncNow":"Sync now"
+    "syncNow":"Sync now",
+    "stopping":"Stopping sync"
 }
