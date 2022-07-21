@@ -43,7 +43,7 @@
     "Error": "Error",
     "SyncError": "Sync Error",
     "InProgress": "In Progress",
-    "InSync": "In Sync",
+    "InSync": "SYNCED",
     "SyncStatus": "Sync status",
     "SyncedRecords": "Synced records",
     "NextSync": "Next Sync",
@@ -167,5 +167,7 @@
     "Upload": "Upload",
     "Info": "Info",
     "MegaMenu" : "Easy Access",
-    "SelectAll": "Select All"
+    "SelectAll": "Select All",
+    "stopSync":"Stop sync",
+    "syncNow":"Sync now"
 }
