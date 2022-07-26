@@ -77,6 +77,7 @@
     "GLReconnectSuccess": "Successfully reconnected to {gl_name}. Initiated sync to update your data in Centime.",
     "GLConnectionSuccess": "Connection to {{gl_name}} is successful. The initial sync has started.",
     "InvalidEmailProvideNew": "Email address is invalid. Please correct the email address to enable campaigns and other communications with the customer.",
+    "invalidEmail": "Please review and correct email addresses",
     "IncrementalSyncFailed": "Incremental sync with {{gl_name}} has failed",
     "Login": "Login",
     "SignUp": "Sign up",
