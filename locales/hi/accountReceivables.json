@@ -350,5 +350,8 @@
     "pleaseActivateCentimePay": "कृपया भुगतान लिंक भेजने और तेजी से भुगतान प्राप्त करने के लिए अपने CentimePay व्यापारी खाते को सक्रिय करें",
     "cashFlowInfo": "नकदी प्रवाह पूर्वानुमान में अतिदेय चालानों को शामिल करने के लिए भविष्य की अपेक्षित तिथि निर्धारित करें",
     "agingGraph":  "एआर एजिंग ग्राफ",
-    "totalReceivables" : "अपेक्षित राशि"
+    "totalReceivables" : "अपेक्षित राशि",
+    "adjustedCashBalance" : "पिछला नकद शेष",
+    "closingCashBalance" : "नकदी शेष",
+    "cashImpact": "नकद प्रभाव"
 }
