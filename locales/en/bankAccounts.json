@@ -334,5 +334,6 @@
     "totalCreditLineInfoText": "Total credit line for CentimeCard and CentimeCash",
     "availableBalanceInfoText": "Available balance takes into account centime card utilization",
     "totalRepayments": "Total repayments",
-    "openTransactions": "Open transactions"
+    "openTransactions": "Open transactions",
+    "cffCashTargetSuccessfullyUpdated": "Successfully updated low/target cash value. Low ${{low}}, Target ${{target}}"
 }
