@@ -306,5 +306,7 @@
     "sales": "Sales",
     "url": "URL",
     "sanctionMatchList": "Sanction Match List",
-    "profile": "Profile"
+    "profile": "Profile",
+    "ConfirmingDataRefresh": "Confirming Data Refresh",
+    "ConfirmRefreshedData": "We've just received some new data, please confirm refreshing the existing data."
 }
