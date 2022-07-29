@@ -286,5 +286,9 @@
     "surchargePostStatus": "अधिभार पद की स्थिति",
     "unKnownError": "अज्ञात त्रुटि",
     "technicalError": "तकनीकी त्रुटि",
-    "viewCheck": "चेक देखें"
+    "viewCheck": "चेक देखें",
+    "glAccountForSurchargeTitle":"अधिभार पोस्ट करने के लिए एक सामान्य लेजर खाते का चयन करें",
+    "glAccountForSurchargeDescription":"इन आपूर्तिकर्ताओं द्वारा क्रेडिट कार्ड के माध्यम से चालान भुगतान पर अधिभार लिया जाता है। निम्नलिखित चालानों के लिए भुगतान शेड्यूलिंग जारी रखने के लिए, एक अधिभार खाता निर्दिष्ट करें",
+    "surchargeDropDownPlaceHolder":"अधिभार खाता चुनें",
+    "errorOnSurchargeAccountUpdate":"अधिभार खाता सेट करने में एक समस्या का सामना करना पड़ा। कृपया पुन: प्रयास करें"
 }
