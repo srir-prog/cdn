@@ -299,7 +299,7 @@
     "ViewTransactionDetail": "View cash flow forecasted transaction details",
     "CashflowDrillDownTransactionsTable": "Cash flow forecasted transactions drilldown table",
     "CashflowDrillDownTransactionsTableAccordion": "Cash flow forecasted transactions drilldown table accordion",
-    "historicTransactionDrilldownNotificationMsg": "Drilldown on historic transactions is not allowed",
+    "historicTransactionDrilldownNotificationMsg": "Historical transactions can only be viewed in ‘Monitor KPIS’",
     "backToCashflowBars": "BACK TO CASH FLOW BARS",
     "toAccount": "To account",
     "centimeCashAvailableBalance": "Available balance - {{availableBalance}}",
