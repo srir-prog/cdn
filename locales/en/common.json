@@ -77,6 +77,8 @@
     "GLReconnectSuccess": "Successfully reconnected to {gl_name}. Initiated sync to update your data in Centime.",
     "GLConnectionSuccess": "Connection to {{gl_name}} is successful. The initial sync has started.",
     "InvalidEmailProvideNew": "Email address is invalid. Please correct the email address to enable campaigns and other communications with the customer.",
+    "invalidEmail": "Please review and correct email addresses",
+    "multipleEmailsInputPlaceHolder":"Enter emails (comma separated)",
     "IncrementalSyncFailed": "Incremental sync with {{gl_name}} has failed",
     "Login": "Login",
     "SignUp": "Sign up",
@@ -245,9 +247,13 @@
     "CashFlowGraph": "Cash Flow Graph",
     "updateSupplierSuccessMsg": "Supplier: {{buyerName}}, successfully updated",
     "updateSupplierErrorMsg": "Unable to update supplier {{buyerName}}",
-    "multipleEmailsInputPlaceHolder":"Enter emails (comma separated)",
     "limitOutOfChartDataRange": "Limit value is out of chart data range",
     "cashFlowGraph": "Cash Flow Graph",
+    "targetCash": "Target cash",
+    "lowCash": "Low cash",
+    "closingCashBalance" : "Cash Balance",
+    "cashImpact": "Cash Impact",
+    "closingBalanceLabel": "Closing balance",
     "verifyToMakePayments": "Please verify legal company details in order to make payments",
     "verifyToMakePaymentsWithLink": "Please verify legal company details in order to make payments. <ourLink></ourLink>",
     "verifyToAcceptPayments": "Please verify legal company details in order to accept payments",
@@ -298,6 +304,5 @@
     "sales": "Sales",
     "url": "URL",
     "sanctionMatchList": "Sanction Match List",
-    "lowCash": "Low cash",
-    "targetCash": "Target cash"
+    "profile": "Profile"
 }

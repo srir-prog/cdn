@@ -182,32 +182,16 @@
                         "value": 0
                     },
                     {
-                        "label": "Client",
-                        "value": 1
-                    },
-                    {
-                        "label": "Partner",
+                        "label": "QuickBooks Online",
                         "value": 2
                     },
                     {
-                        "label": "Buyer",
+                        "label": "Oracle NetSuite",
                         "value": 3
                     },
                     {
-                        "label": "Supplier",
+                        "label": "QuickBooks Desktop",
                         "value": 4
-                    },
-                    {
-                        "label": "Consultant",
-                        "value": 5
-                    },
-                    {
-                        "label": "Group",
-                        "value": 6
-                    },
-                    {
-                        "label": "BusinessOps",
-                        "value": 7
                     }
                 ]
             },
@@ -245,10 +229,9 @@
                             "week": "this week",
                             "month": "this month"
                         },
+                        "multiple": false,
                         "queryName": "period",
-                        "default": [
-                            "week"
-                        ]
+                        "default": "week"
                     },
                     {
                         "type": "Dropdown",
@@ -1530,32 +1513,16 @@
                         "value": 0
                     },
                     {
-                        "label": "Client",
-                        "value": 1
-                    },
-                    {
-                        "label": "Partner",
+                        "label": "QuickBooks Online",
                         "value": 2
                     },
                     {
-                        "label": "Buyer",
+                        "label": "Oracle NetSuite",
                         "value": 3
                     },
                     {
-                        "label": "Supplier",
+                        "label": "QuickBooks Desktop",
                         "value": 4
-                    },
-                    {
-                        "label": "Consultant",
-                        "value": 5
-                    },
-                    {
-                        "label": "Group",
-                        "value": 6
-                    },
-                    {
-                        "label": "BusinessOps",
-                        "value": 7
                     }
                 ]
             }
