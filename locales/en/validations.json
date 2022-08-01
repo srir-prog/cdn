@@ -65,5 +65,8 @@
     "MaxFileSizeExceededError": "File size exceeded max permitted limit of {{maxFileSize}} MB",
     "UnsupportedFileTypeError": "File type not supported",
     "invalidSurchargePercent": "Invalid surcharge percentage",
-    "isValidMultipleEmails": "Invalid Email: {{emailList}}"
+    "isValidMultipleEmails": "Invalid Email: {{emailList}}",
+    "pleaseSelectAccount": "Please select an account",
+    "amountShouldBeMoreThanZero": "Amount should be more than zero",
+    "amountShouldBeLessThanAvailableBalanceMsg": "Amount should be less than avaialble balance"
 }
