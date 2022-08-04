@@ -76,5 +76,9 @@
     "ResendNow": "Resend now",
     "CouldNotDeliverEmail": "We could not deliver your email right now",
     "PasswordInCognitoError": "Password has expired due to security reasons. Please click on forgot password to create a new password.",
-    "tooManyOTPRequests": "Too many requests, please try again after 15 min"
+    "tooManyOTPRequests": "Too many requests, please try again after 15 min",
+    "accountTemporarilyLocked":"Your account has been temporarily locked for security reasons. Please try again after {{timeout}} minutes",
+    "accountTemporarilyLockedFor30Min": "Incorrect password. You account is temporarily locked for security reasons. Please try again after 30 minutes",
+    "wrongPasswordRetryLeft": "Incorrect password. You have {{retriesLeft}} more attempts before you are locked out",
+    "pwCannotBeSameAsPrevious": "Invalid password : New password cannot be the same as one of the earlier passwords you used"
 }
