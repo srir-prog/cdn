@@ -4,7 +4,7 @@
     "All": "All",
     "Clients": "Clients",
     "Period": "period",
-    "Status": "status",
+    "Status": "Status",
     "List Payments": "List Payments",
     "Payments List": "Payments List",
     "Transactions List": "Transactions List",
@@ -12,5 +12,10 @@
     "Bill Details": "Bill Details",
     "Transaction Details": "Transaction Details",
     "Client List": "Client List",
-    "Client Details": "Client Details"
+    "Client Details": "Client Details",
+    "Web Url" : "Web Url",
+    "webUrl": "Web Url",
+    "notes": "Notes",
+    "byUserName": "By User",
+    "glAccountId": "GL Account Id"
 }

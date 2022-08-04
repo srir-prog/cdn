@@ -344,6 +344,7 @@
                 "title": "Amount",
                 "valueMap": "amount",
                 "align": "right",
+                "formatType": "currency",
                 "enableSort": true,
                 "width":"15%"
             },
@@ -467,7 +468,8 @@
             },
             {
                 "label": "Amount",
-                "valueMap": "amount"
+                "valueMap": "amount",
+                "formatType": "currency"
             },
             {
                 "label": "Currency",
@@ -544,7 +546,8 @@
             },
             {
                 "label": "Amount",
-                "valueMap": "amount"
+                "valueMap": "amount",
+                "formatType": "currency"
             },
             {
                 "label": "Currency",
@@ -678,11 +681,13 @@
             },
             {
                 "label": "Due Date",
-                "valueMap": "dueDate"
+                "valueMap": "dueDate",
+                "formatType": "datetime"
             },
             {
                 "label": "Trasaction Total Amount",
-                "valueMap": "txnTotalAmount"
+                "valueMap": "txnTotalAmount",
+                "formatType": "currency"
             },
             {
                 "label": "Transaction Balance",
@@ -690,7 +695,8 @@
             },
             {
                 "label": "Home Total Amount",
-                "valueMap": "homeTotalAmount"
+                "valueMap": "homeTotalAmount",
+                "formatType": "currency"
             },
             {
                 "label": "Home Balance",
@@ -726,11 +732,13 @@
             },
             {
                 "label": "Payment Amount",
-                "valueMap": "paymentAmount"
+                "valueMap": "paymentAmount",
+                "formatType": "currency"
             },
             {
                 "label": "Surcharge Amount",
-                "valueMap": "surchargeAmount"
+                "valueMap": "surchargeAmount",
+                "formatType": "currency"
             },
             {
                 "label": "Credit Applied",
@@ -738,7 +746,8 @@
             },
             {
                 "label": "Payment Date",
-                "valueMap": "paymentDate"
+                "valueMap": "paymentDate",
+                "formatType": "date"
             },
             {
                 "label": "Payment Status",
@@ -780,7 +789,8 @@
                         },
                         {
                             "label": "Chargify Date",
-                            "valueMap": "billedInChargifyDate"
+                            "valueMap": "billedInChargifyDate",
+                            "formatType": "datetime"
                         },
                         {
                             "label": "Billed In Chargify",
@@ -814,7 +824,8 @@
                         },
                         {
                             "label": "Date",
-                            "valueMap": "dateTimeStamp"
+                            "valueMap": "dateTimeStamp",
+                            "formatType": "datetime"
                         },
                         {
                             "label": "Self Approval",
@@ -851,7 +862,8 @@
                         },
                         {
                             "label": "Date",
-                            "valueMap": "dateTimeStamp"
+                            "valueMap": "dateTimeStamp",
+                            "formatType": "datetime"
                         },
                         {
                             "label": "Self Approval",
@@ -880,7 +892,8 @@
             },
             {
                 "label": "Remittance Sent Date",
-                "valueMap": "remittanceSentDate"
+                "valueMap": "remittanceSentDate",
+                "formatType": "date"
             },
             {
                 "label": "Approval Email Sent",
@@ -896,11 +909,13 @@
             },
             {
                 "label": "Transaction Date",
-                "valueMap": "txnDate"
+                "valueMap": "txnDate",
+                "formatType": "date"
             },
             {
                 "label": "Transaction Amount",
-                "valueMap": "txnAmount"
+                "valueMap": "txnAmount",
+                "formatType": "currency"
             },
             {
                 "label": "Bill Active Status",
@@ -916,7 +931,8 @@
             },
             {
                 "label": "Updated Time",
-                "valueMap": "updatedTime"
+                "valueMap": "updatedTime",
+                "formatType": "datetime"
             },
             {
                 "label": "History",
@@ -940,7 +956,8 @@
                         },
                         {
                             "title": "Date",
-                            "valueMap": "dateTimeStamp"
+                            "valueMap": "dateTimeStamp",
+                            "formatType": "datetime"
                         }
                     ],
                     "ignoreKeys": [
@@ -1094,11 +1111,13 @@
             {
                 "title": "Payment Date",
                 "valueMap": "paymentDate",
+                "formatType": "date",
                 "enableSort": true
             },
             {
                 "title": "Payment Amount",
                 "valueMap": "paymentAmount",
+                "formatType": "currency",
                 "enableSort": true
             },
             {
@@ -1136,7 +1155,8 @@
                         },
                         {
                             "label": "Date",
-                            "valueMap": "dateTimeStamp"
+                            "valueMap": "dateTimeStamp",
+                            "formatType": "datetime"
                         },
                         {
                             "label": "Self Approval",
@@ -1203,7 +1223,8 @@
                         },
                         {
                             "label": "Date",
-                            "valueMap": "dateTimeStamp"
+                            "valueMap": "dateTimeStamp",
+                            "formatType": "datetime"
                         },
                         {
                             "label": "Self Approval",
@@ -1507,6 +1528,7 @@
             {
                 "label": "GL Type",
                 "valueMap": "glType",
+                "align": "left",
                 "displayValueEnum": [
                     {
                         "label": "Sandbox",
