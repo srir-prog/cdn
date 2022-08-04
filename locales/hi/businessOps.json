@@ -12,5 +12,10 @@
     "Bill Details": "बिल विवरण",
     "Transaction Details": "लेनदेन का विवरण",
     "Client List": "ग्राहक सूची",
-    "Client Details": "ग्राहक विवरण"
+    "Client Details": "ग्राहक विवरण",
+    "Web Url" : "Web Url",
+    "webUrl": "Web Url",
+    "notes": "Notes",
+    "byUserName": "By User",
+    "glAccountId": "GL Account Id"
 }
