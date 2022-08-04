@@ -304,5 +304,10 @@
     "sales": "Sales",
     "url": "URL",
     "sanctionMatchList": "Sanction Match List",
-    "profile": "Profile"
+    "profile": "Profile",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "pageScaleOptions": "Page scale options",
+    "download": "Download",
+    "print": "Print"
 }

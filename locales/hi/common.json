@@ -304,5 +304,10 @@
     "sales": "बिक्री",
     "url": "यूआरएल",
     "sanctionMatchList": "प्रतिबंध मैच सूची",
-    "profile": "प्रोफ़ाइल"
+    "profile": "प्रोफ़ाइल",
+    "zoomIn": "ज़ूम इन",
+    "zoomOut": "ज़ूम आउट",
+    "pageScaleOptions": "पेज स्केल विकल्प",
+    "download": "डाउनलोड",
+    "print": "छाप"
 }
