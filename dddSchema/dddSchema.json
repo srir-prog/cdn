@@ -74,7 +74,7 @@
                 "title": "Client Id",
                 "valueMap": "clientId",
                 "renderType": "text",
-                "width": "10%",
+                "width": "12%",
                 "enableSort": true
             },
             {
@@ -94,7 +94,7 @@
                         "clientId": "clientId"
                     }
                 },
-                "width": "40%",
+                "width": "38%",
                 "enableSort": true
             },
             {
@@ -176,6 +176,7 @@
             {
                 "title": "GL Type",
                 "valueMap": "glType",
+                "width": "15%",
                 "displayValueEnum": [
                     {
                         "label": "Sandbox",
@@ -199,7 +200,8 @@
                 "title": "Status",
                 "valueMap": "clientStatus",
                 "renderType": "text",
-                "enableSort": true
+                "enableSort": true,
+                "width": "10%"
             }
         ],
         "additionalProperties": {
@@ -317,7 +319,8 @@
                         "paymentId": "paymentId"
                     }
                 },
-                "enableSort": true
+                "enableSort": true,
+                "width": "15%"
             },
             {
                 "title": "Client Id",
@@ -333,12 +336,15 @@
             {
                 "title": "Supplier Id",
                 "valueMap": "payeeReferenceId",
-                "enableSort": true
+                "enableSort": true,
+                "width": "13%",
+                "align": "left"
             },
             {
-                "title": "Payment Method",
+                "title": "Method",
                 "valueMap": "paymentMethod",
-                "enableSort": true
+                "enableSort": true,
+                "width": "12%"
             },
             {
                 "title": "Amount",
@@ -346,7 +352,7 @@
                 "align": "right",
                 "formatType": "currency",
                 "enableSort": true,
-                "width":"15%"
+                "width":"10%"
             },
             {
                 "title": "Currency",
@@ -362,7 +368,8 @@
                 "title": "Scheduled Date",
                 "valueMap": "paymentStartDate",
                 "formatType": "date",
-                "enableSort": true
+                "enableSort": true,
+                "width": "15%"
             },
             {
                 "title": "Created Date",
@@ -407,15 +414,15 @@
                 }
             },
             {
-                "title": "Processor Transaction Id",
+                "title": "Txn Id",
                 "valueMap": "processorTxnId"
             },
             {
-                "title": "Transaction Type",
+                "title": "Txn Type",
                 "valueMap": "transactionType"
             },
             {
-                "title": "Processor Type",
+                "title": "Type",
                 "valueMap": "paymentProcessorType"
             },
             {
@@ -435,6 +442,10 @@
                 "title": "End Date",
                 "valueMap": "transactionEndDate",
                 "formatType": "date"
+            },
+            {
+                "title": "Failure Error Code",
+                "valueMap": "failureErrorCode"
             }
         ],
         "additionalProperties": {
