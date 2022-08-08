@@ -213,7 +213,7 @@
     "userActionNeeded": "User action needed",
     "inProcess": "In process",
     "inProcessSupplier": "In process",
-    "invoicePostingFailed": "Invoice posting failed",
+    "invoicePostingFailed": "Posting error",
     "exchangeRate": "Exchange rate",
     "activateCard": "Activate card",
     "processThePaymentAndMarkAsPaid": "Process the payment and mark the invoice as Paid to post payment details to General Ledger",
@@ -284,11 +284,12 @@
     "creditCardPayments": "Suppliers that are likely to accept credit card payments",
     "nonCreditCardPayments": "Suppliers that have not been found in the credit card acceptance database",
     "surchargePostStatus": "Surcharge post status",
-    "unKnownError": "Unknown error",
-    "technicalError": "Technical error",
+    "unKnownError": "System failure",
+    "technicalError": "System failure",
     "viewCheck": "View Check",
     "glAccountForSurchargeTitle":"Select a General Ledger account to post surcharge",
     "glAccountForSurchargeDescription":"Surcharge is charged by these Suppliers on invoice payments via credit card. To continue scheduling payments for the following invoices, specify a surcharge account",
     "surchargeDropDownPlaceHolder":"Select surcharge account",
-    "errorOnSurchargeAccountUpdate":"There was an issue encountered in setting surcharge account. Please try again"
+    "errorOnSurchargeAccountUpdate":"There was an issue encountered in setting surcharge account. Please try again",
+    "surchargeUpdated":"Surcharge is updated"
 }
