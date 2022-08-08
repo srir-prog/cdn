@@ -317,5 +317,19 @@
     "zoomOut": "ज़ूम आउट",
     "pageScaleOptions": "पेज स्केल विकल्प",
     "download": "डाउनलोड",
-    "print": "छाप"
+    "print": "छाप",
+    "uploadFile": "<ourLink></ourLink>",
+    "addInvoice": "चालान जोड़ें",
+    "addInvoicesOrCreditNote": "चालान या क्रेडिट नोट जोड़ें",
+    "uploadInvoice": "चालान अपलोड करें",
+    "uploadInvoicesOrCreditNote": "चालान या क्रेडिट नोट अपलोड करें",
+    "orSendAnEmailTo": "या को एक ईमेल भेजें",
+    "orDragAndDropFilesHere": "या फ़ाइलें यहां खींचें और छोड़ें",
+    "onlyJpegPngAndPdfFilesAreAccepted": "केवल जेपीईजी, पीएनजी और पीडीएफ फाइलें स्वीकार की जाती हैं",
+    "uploadAgain": "फिर से अपलोड करें",
+    "failedToUpload": "अपलोड करने में विफल",
+    "document": "दस्तावेज़",
+    "remove": "हटाना",
+    "error": "गलती",
+    "upload": "डालना"
 }
