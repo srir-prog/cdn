@@ -311,5 +311,11 @@
     "account": "खाता",
     "selectAnAccount": "एक खाता चुनें",
     "salesTax": "बिक्री कर",
-    "total": "कुल"
+    "total": "कुल",
+    "documents": "दस्तावेज़",
+    "delete": "मिटाना",
+    "backToDocuments": "दस्तावेज़ों पर वापस जाएं",
+    "add": "जोड़ें",
+    "noValueAvailable": "कोई मूल्य उपलब्ध नहीं"
+
 }

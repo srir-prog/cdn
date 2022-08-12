@@ -311,5 +311,10 @@
     "account": "Account",
     "selectAnAccount": "Select an account",
     "salesTax": "Sales tax",
-    "total": "Total"
+    "total": "Total",
+    "documents": "Documents",
+    "delete": "Delete",
+    "backToDocuments": "Back To Documents",
+    "add": "Add",
+    "noValueAvailable": "No value available"
 }
