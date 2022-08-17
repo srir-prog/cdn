@@ -74,7 +74,7 @@
                 "title": "Client Id",
                 "valueMap": "clientId",
                 "renderType": "text",
-                "width": "10%",
+                "width": "12%",
                 "enableSort": true
             },
             {
@@ -94,7 +94,7 @@
                         "clientId": "clientId"
                     }
                 },
-                "width": "40%",
+                "width": "38%",
                 "enableSort": true
             },
             {
@@ -176,6 +176,7 @@
             {
                 "title": "GL Type",
                 "valueMap": "glType",
+                "width": "15%",
                 "displayValueEnum": [
                     {
                         "label": "Sandbox",
@@ -199,7 +200,8 @@
                 "title": "Status",
                 "valueMap": "clientStatus",
                 "renderType": "text",
-                "enableSort": true
+                "enableSort": true,
+                "width": "10%"
             }
         ],
         "additionalProperties": {
@@ -317,7 +319,8 @@
                         "paymentId": "paymentId"
                     }
                 },
-                "enableSort": true
+                "enableSort": true,
+                "width": "15%"
             },
             {
                 "title": "Client Id",
@@ -333,19 +336,23 @@
             {
                 "title": "Supplier Id",
                 "valueMap": "payeeReferenceId",
-                "enableSort": true
+                "enableSort": true,
+                "width": "13%",
+                "align": "left"
             },
             {
-                "title": "Payment Method",
+                "title": "Method",
                 "valueMap": "paymentMethod",
-                "enableSort": true
+                "enableSort": true,
+                "width": "12%"
             },
             {
                 "title": "Amount",
                 "valueMap": "amount",
                 "align": "right",
+                "formatType": "currency",
                 "enableSort": true,
-                "width":"15%"
+                "width":"10%"
             },
             {
                 "title": "Currency",
@@ -361,7 +368,8 @@
                 "title": "Scheduled Date",
                 "valueMap": "paymentStartDate",
                 "formatType": "date",
-                "enableSort": true
+                "enableSort": true,
+                "width": "15%"
             },
             {
                 "title": "Created Date",
@@ -406,15 +414,15 @@
                 }
             },
             {
-                "title": "Processor Transaction Id",
+                "title": "Txn Id",
                 "valueMap": "processorTxnId"
             },
             {
-                "title": "Transaction Type",
+                "title": "Txn Type",
                 "valueMap": "transactionType"
             },
             {
-                "title": "Processor Type",
+                "title": "Type",
                 "valueMap": "paymentProcessorType"
             },
             {
@@ -434,6 +442,10 @@
                 "title": "End Date",
                 "valueMap": "transactionEndDate",
                 "formatType": "date"
+            },
+            {
+                "title": "Failure Error Code",
+                "valueMap": "failureErrorCode"
             }
         ],
         "additionalProperties": {
@@ -467,7 +479,8 @@
             },
             {
                 "label": "Amount",
-                "valueMap": "amount"
+                "valueMap": "amount",
+                "formatType": "currency"
             },
             {
                 "label": "Currency",
@@ -544,7 +557,8 @@
             },
             {
                 "label": "Amount",
-                "valueMap": "amount"
+                "valueMap": "amount",
+                "formatType": "currency"
             },
             {
                 "label": "Currency",
@@ -678,11 +692,13 @@
             },
             {
                 "label": "Due Date",
-                "valueMap": "dueDate"
+                "valueMap": "dueDate",
+                "formatType": "datetime"
             },
             {
                 "label": "Trasaction Total Amount",
-                "valueMap": "txnTotalAmount"
+                "valueMap": "txnTotalAmount",
+                "formatType": "currency"
             },
             {
                 "label": "Transaction Balance",
@@ -690,7 +706,8 @@
             },
             {
                 "label": "Home Total Amount",
-                "valueMap": "homeTotalAmount"
+                "valueMap": "homeTotalAmount",
+                "formatType": "currency"
             },
             {
                 "label": "Home Balance",
@@ -726,11 +743,13 @@
             },
             {
                 "label": "Payment Amount",
-                "valueMap": "paymentAmount"
+                "valueMap": "paymentAmount",
+                "formatType": "currency"
             },
             {
                 "label": "Surcharge Amount",
-                "valueMap": "surchargeAmount"
+                "valueMap": "surchargeAmount",
+                "formatType": "currency"
             },
             {
                 "label": "Credit Applied",
@@ -738,7 +757,8 @@
             },
             {
                 "label": "Payment Date",
-                "valueMap": "paymentDate"
+                "valueMap": "paymentDate",
+                "formatType": "date"
             },
             {
                 "label": "Payment Status",
@@ -780,7 +800,8 @@
                         },
                         {
                             "label": "Chargify Date",
-                            "valueMap": "billedInChargifyDate"
+                            "valueMap": "billedInChargifyDate",
+                            "formatType": "datetime"
                         },
                         {
                             "label": "Billed In Chargify",
@@ -814,7 +835,8 @@
                         },
                         {
                             "label": "Date",
-                            "valueMap": "dateTimeStamp"
+                            "valueMap": "dateTimeStamp",
+                            "formatType": "datetime"
                         },
                         {
                             "label": "Self Approval",
@@ -851,7 +873,8 @@
                         },
                         {
                             "label": "Date",
-                            "valueMap": "dateTimeStamp"
+                            "valueMap": "dateTimeStamp",
+                            "formatType": "datetime"
                         },
                         {
                             "label": "Self Approval",
@@ -880,7 +903,8 @@
             },
             {
                 "label": "Remittance Sent Date",
-                "valueMap": "remittanceSentDate"
+                "valueMap": "remittanceSentDate",
+                "formatType": "date"
             },
             {
                 "label": "Approval Email Sent",
@@ -896,11 +920,13 @@
             },
             {
                 "label": "Transaction Date",
-                "valueMap": "txnDate"
+                "valueMap": "txnDate",
+                "formatType": "date"
             },
             {
                 "label": "Transaction Amount",
-                "valueMap": "txnAmount"
+                "valueMap": "txnAmount",
+                "formatType": "currency"
             },
             {
                 "label": "Bill Active Status",
@@ -916,7 +942,8 @@
             },
             {
                 "label": "Updated Time",
-                "valueMap": "updatedTime"
+                "valueMap": "updatedTime",
+                "formatType": "datetime"
             },
             {
                 "label": "History",
@@ -940,7 +967,8 @@
                         },
                         {
                             "title": "Date",
-                            "valueMap": "dateTimeStamp"
+                            "valueMap": "dateTimeStamp",
+                            "formatType": "datetime"
                         }
                     ],
                     "ignoreKeys": [
@@ -1094,11 +1122,13 @@
             {
                 "title": "Payment Date",
                 "valueMap": "paymentDate",
+                "formatType": "date",
                 "enableSort": true
             },
             {
                 "title": "Payment Amount",
                 "valueMap": "paymentAmount",
+                "formatType": "currency",
                 "enableSort": true
             },
             {
@@ -1136,7 +1166,8 @@
                         },
                         {
                             "label": "Date",
-                            "valueMap": "dateTimeStamp"
+                            "valueMap": "dateTimeStamp",
+                            "formatType": "datetime"
                         },
                         {
                             "label": "Self Approval",
@@ -1203,7 +1234,8 @@
                         },
                         {
                             "label": "Date",
-                            "valueMap": "dateTimeStamp"
+                            "valueMap": "dateTimeStamp",
+                            "formatType": "datetime"
                         },
                         {
                             "label": "Self Approval",
@@ -1507,6 +1539,7 @@
             {
                 "label": "GL Type",
                 "valueMap": "glType",
+                "align": "left",
                 "displayValueEnum": [
                     {
                         "label": "Sandbox",
