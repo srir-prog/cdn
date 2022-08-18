@@ -515,5 +515,10 @@
     "syncSettingsSave":"Successfully updated Auto Sync",
     "isDoingBusinessOnBehalfOf": "is doing business on behalf of",
     "verifyNow": "Verify now",
-    "proceedWithOriginalDetails": "Proceed with original details"
+    "proceedWithOriginalDetails": "Proceed with original details",
+    "cashFlowSettings":"Cashflow settings",
+    "selectPayrollGLs":"Select general ledger accounts for payroll",
+    "accounts":"Accounts",
+    "defaultFetchError": "Error while fetching settings",
+    "defaultUpdateError": "Error while updating settings"
 }
