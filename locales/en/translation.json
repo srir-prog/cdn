@@ -170,5 +170,6 @@
     "SelectAll": "Select All",
     "footerText":"Centime helps businesses control and manage cash flow",
     "stopSync":"Stop sync",
-    "syncNow":"Sync now"
+    "syncNow":"Sync now",
+    "stopping":"Stopping sync"
 }
