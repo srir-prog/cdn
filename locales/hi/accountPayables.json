@@ -316,6 +316,6 @@
     "delete": "मिटाना",
     "backToDocuments": "दस्तावेज़ों पर वापस जाएं",
     "add": "जोड़ें",
-    "noValueAvailable": "कोई मूल्य उपलब्ध नहीं"
-
+    "noValueAvailable": "कोई मूल्य उपलब्ध नहीं",
+    "defaultThisAccountForAllInvoicesOfSupplier": "इस आपूर्तिकर्ता के चालान के लिए हमेशा इस खाते का उपयोग करें"
 }

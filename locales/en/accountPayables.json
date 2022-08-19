@@ -316,5 +316,6 @@
     "delete": "Delete",
     "backToDocuments": "Back To Documents",
     "add": "Add",
-    "noValueAvailable": "No value available"
+    "noValueAvailable": "No value available",
+    "defaultThisAccountForAllInvoicesOfSupplier": "Always use this account for invoices from this supplier"
 }

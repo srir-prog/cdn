@@ -331,5 +331,6 @@
     "document": "Document",
     "remove": "Remove",
     "error": "Error",
-    "upload": "Upload"
+    "upload": "Upload",
+    "clickHereToTryAgain": "Click here to try again"
 }
