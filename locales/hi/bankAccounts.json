@@ -155,6 +155,8 @@
     "newTransaction": "नया लेनदेन",
     "supplierName": "आपूर्तिकर्ता का नाम",
     "transactionDate": "कार्यवाही की तिथि",
+    "settlementDate": "समझौता तिथि",
+    "confirmPaymentModalLabel": "भुगतान की पुष्टि करें",
     "startAndEndDate": "प्रारंभ और समाप्ति तिथि",
     "frequency": "आवृत्ति",
     "notes": "टिप्पणियाँ",
