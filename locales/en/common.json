@@ -87,7 +87,7 @@
     "InvalidEmailProvideNew": "Email address is invalid. Please correct the email address to enable campaigns and other communications with the customer.",
     "invalidEmail": "Please review and correct email addresses",
     "multipleEmailsInputPlaceHolder":"Enter emails (comma separated)",
-    "IncrementalSyncFailed": "Incremental sync with {{gl_name}} has failed",
+    "IncrementalSyncFailed": "Incremental sync with {{gl_name}} has failed.",
     "Login": "Login",
     "SignUp": "Sign up",
     "EmailSent": "Email sent",
