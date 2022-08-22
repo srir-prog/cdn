@@ -362,7 +362,49 @@
             {
                 "title": "Status",
                 "valueMap": "paymentStatus",
-                "enableSort": true
+                "enableSort": true,
+                "displayValueEnum": [
+                    {
+                        "label": "ReadyToPay",
+                        "value": 0
+                    },
+                    {
+                        "label": "AwaitingForApproval",
+                        "value": 1
+                    },
+                    {
+                        "label": "Rejected",
+                        "value": 2
+                    },
+                    {
+                        "label": "Scheduled",
+                        "value": 3
+                    },
+                    {
+                        "label": "Failed",
+                        "value": 4
+                    },
+                    {
+                        "label": "Paid",
+                        "value": 5
+                    },
+                    {
+                        "label": "markedPaid",
+                        "value": 6
+                    },
+                    {
+                        "label": "paidInGeneralLedger",
+                        "value": 7
+                    },
+                    {
+                        "label": "userActionNeeded",
+                        "value": 8
+                    },
+                    {
+                        "label": "inProcess",
+                        "value": 9
+                    }
+                ]
             },
             {
                 "title": "Scheduled Date",
@@ -566,7 +608,49 @@
             },
             {
                 "label": "Status",
-                "valueMap": "paymentStatus"
+                "valueMap": "paymentStatus",
+                "displayValueEnum": [
+                    {
+                        "label": "ReadyToPay",
+                        "value": 0
+                    },
+                    {
+                        "label": "AwaitingForApproval",
+                        "value": 1
+                    },
+                    {
+                        "label": "Rejected",
+                        "value": 2
+                    },
+                    {
+                        "label": "Scheduled",
+                        "value": 3
+                    },
+                    {
+                        "label": "Failed",
+                        "value": 4
+                    },
+                    {
+                        "label": "Paid",
+                        "value": 5
+                    },
+                    {
+                        "label": "markedPaid",
+                        "value": 6
+                    },
+                    {
+                        "label": "paidInGeneralLedger",
+                        "value": 7
+                    },
+                    {
+                        "label": "userActionNeeded",
+                        "value": 8
+                    },
+                    {
+                        "label": "inProcess",
+                        "value": 9
+                    }
+                ]
             },
             {
                 "label": "Payer Reference Id",
@@ -762,7 +846,49 @@
             },
             {
                 "label": "Payment Status",
-                "valueMap": "paymentStatus"
+                "valueMap": "paymentStatus",
+                "displayValueEnum": [
+                    {
+                        "label": "ReadyToPay",
+                        "value": 0
+                    },
+                    {
+                        "label": "AwaitingForApproval",
+                        "value": 1
+                    },
+                    {
+                        "label": "Rejected",
+                        "value": 2
+                    },
+                    {
+                        "label": "Scheduled",
+                        "value": 3
+                    },
+                    {
+                        "label": "Failed",
+                        "value": 4
+                    },
+                    {
+                        "label": "Paid",
+                        "value": 5
+                    },
+                    {
+                        "label": "markedPaid",
+                        "value": 6
+                    },
+                    {
+                        "label": "paidInGeneralLedger",
+                        "value": 7
+                    },
+                    {
+                        "label": "userActionNeeded",
+                        "value": 8
+                    },
+                    {
+                        "label": "inProcess",
+                        "value": 9
+                    }
+                ]
             },
             {
                 "label": "Description",
@@ -819,11 +945,114 @@
                     "listInfo": [
                         {
                             "label": "Status",
-                            "valueMap": "status"
+                            "valueMap": "status",
+                            "valueTNS": "accountPayables",
+                            "displayValueEnum": [
+                                {
+                                    "label": "checkPrintingInProcess",
+                                    "value": 0
+                                },
+                                {
+                                    "label": "cardInformationSent",
+                                    "value": 1
+                                },
+                                {
+                                    "label": "checkMailed",
+                                    "value": 2
+                                },
+                                {
+                                    "label": "Scheduled",
+                                    "value": 3
+                                },
+                                {
+                                    "label": "`checkProcessed`",
+                                    "value": 4
+                                },
+                                {
+                                    "label": "cardProcessed",
+                                    "value": 5
+                                },
+                                {
+                                    "label": "cardNotProcessed",
+                                    "value": 6
+                                },
+                                {
+                                    "label": "returned",
+                                    "value": 7
+                                },
+                                {
+                                    "label": "reissued",
+                                    "value": 8
+                                },
+                                {
+                                    "label": "cancelled",
+                                    "value": 9
+                                },
+                                {
+                                    "label": "initiated",
+                                    "value": 10
+                                },
+                                {
+                                    "label": "achSubmitted",
+                                    "value": 11
+                                },
+                                {
+                                    "label": "postedInGeneralLedger",
+                                    "value": 12
+                                },
+                                {
+                                    "label": "firstApprovalPending",
+                                    "value": 13
+                                },
+                                {
+                                    "label": "secondApprovalPending",
+                                    "value": 14
+                                },
+                                {
+                                    "label": "thirdApprovalPending",
+                                    "value": 15
+                                },
+                                {
+                                    "label": "paymentFailed",
+                                    "value": 16
+                                },
+                                {
+                                    "label": "voidedManually",
+                                    "value": 17
+                                },
+                                {
+                                    "label": "checkAtLocalPostOffice",
+                                    "value": 18
+                                },
+                                {
+                                    "label": "checkAtRecipientPostOffice",
+                                    "value": 19
+                                },
+                                {
+                                    "label": "checkOutForDelivery",
+                                    "value": 20
+                                },
+                                {
+                                    "label": "checkDelivered",
+                                    "value": 21
+                                },
+                                {
+                                    "label": "creditCardDebitInitiated",
+                                    "value": 22
+                                },
+                                {
+                                    "label": "bankAccountDebitInitiated",
+                                    "value": 23
+                                },
+                                {
+                                    "label": "fundTransferToSupplierInitiated",
+                                    "value": 24
+                                }
+                            ]
                         },
                         {
                             "label": "Failure Response Id",
-                            "valueMap": "failuseResponseId"
+                            "valueMap": "failureResponseId"
                         },
                         {
                             "label": "User",
