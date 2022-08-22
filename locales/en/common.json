@@ -332,5 +332,9 @@
     "remove": "Remove",
     "error": "Error",
     "upload": "Upload",
-    "clickHereToTryAgain": "Click here to try again"
+    "clickHereToTryAgain": "Click here to try again",
+    "uploadProgress": "Uploading...",
+    "uploadError": "Failed to upload",
+    "uploadSuccess": "Uploaded successfully",
+    "exceededFileSizeLimit": "File exceeded limit of {{fileSizeLimit}} MB"
 }

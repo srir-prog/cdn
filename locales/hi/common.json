@@ -332,5 +332,9 @@
     "remove": "हटाना",
     "error": "गलती",
     "upload": "डालना",
-    "clickHereToTryAgain": "पुनः प्रयास करने के लिए यहां पर क्लिक करें"
+    "clickHereToTryAgain": "पुनः प्रयास करने के लिए यहां पर क्लिक करें",
+    "uploadProgress": "अपलोड हो रहा है...",
+    "uploadError": "अपलोड करने में विफल",
+    "uploadSuccess": "सफलतापूर्वक अपलोड किया गया",
+    "exceededFileSizeLimit": "फ़ाइल {{fileSizeLimit}} एमबी की सीमा पार कर गई है"
 }
