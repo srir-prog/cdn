@@ -515,5 +515,10 @@
     "syncSettingsSave":"ऑटो सिंक को सफलतापूर्वक अपडेट किया गया",
     "isDoingBusinessOnBehalfOf": "की ओर से व्यापार कर रहा है",
     "verifyNow": "अभी सत्यापित करें",
-    "proceedWithOriginalDetails": "मूल विवरण के साथ आगे बढ़ें"
+    "proceedWithOriginalDetails": "मूल विवरण के साथ आगे बढ़ें",
+    "cashFlowSettings":"कैशफ़्लो सेटिंग",
+    "selectPayrollGLs":"पेरोल के लिए सामान्य खाता बही चुनें",
+    "accounts":"हिसाब किताब",
+    "defaultFetchError": "सेटिंग लाने में त्रुटि",
+    "defaultUpdateError": "सेटिंग अपडेट करते समय त्रुटि"
 }
