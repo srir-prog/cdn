@@ -519,6 +519,7 @@
     "cashFlowSettings":"Cashflow settings",
     "selectPayrollGLs":"Select general ledger accounts for payroll",
     "accounts":"Accounts",
-    "defaultFetchError": "Error while fetching settings",
-    "defaultUpdateError": "Error while updating settings"
+    "defaultFetchError": "General ledger accounts for payroll could not be fetched. Get support from our team using the chat bubble.",
+    "defaultUpdateError": "General ledger accounts for payroll could not be saved. Get support from our team using the chat bubble.",
+    "defaultUpdateSuccess":"General ledger accounts for payroll successfully saved"
 }
