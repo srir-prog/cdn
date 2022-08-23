@@ -296,7 +296,7 @@
     "number": "संख्या",
     "document": "दस्तावेज़",
     "amount": "राशि",
-    "GLAccount":"जीएल खाता",
+    "glAccount":"जीएल खाता",
     "addedDate": "जोड़ी गई तिथि",
     "action": "गतिविधि",
     "needsReview": "समीक्षा की जरूरत है",
@@ -319,5 +319,7 @@
     "noValueAvailable": "कोई मूल्य उपलब्ध नहीं",
     "defaultThisAccountForAllInvoicesOfSupplier": "इस आपूर्तिकर्ता के चालान के लिए हमेशा इस खाते का उपयोग करें",
     "errorSavingDocumentInvoiceDetails": "दस्तावेज़ विवरण सहेजते समय समस्या। कृपया पुनः प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें",
-    "successfullySavedDocumentInvoiceDetails": "दस्तावेज़ विवरण सफलतापूर्वक सहेजा गया"
+    "successfullySavedDocumentInvoiceDetails": "दस्तावेज़ विवरण सफलतापूर्वक सहेजा गया",
+    "errorFetchingDocument": "दस्तावेज़ लाते समय समस्या। कृपया पुनः प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें",
+    "selectAPaymentTerm": "भुगतान अवधि चुनें"
 }
