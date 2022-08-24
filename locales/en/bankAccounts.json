@@ -344,5 +344,6 @@
     "ADVANCE": "Advance",
     "AUTO_PAYBACK": "Auto payback",
     "MANUAL_PAYBACK": "Manual payback",
-    "COMPLETED": "Completed"
+    "COMPLETED": "Completed",
+    "WITHDRAWAL": "Withdrawal"
 }

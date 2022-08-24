@@ -264,5 +264,6 @@
     "ADVANCE": "अग्रिम",
     "AUTO_PAYBACK": "ऑटो पेबैक",
     "MANUAL_PAYBACK": "मैनुअल पेबैक",
-    "COMPLETED": "पूरा हुआ"
+    "COMPLETED": "पूरा हुआ",
+    "WITHDRAWAL": "निकासी"
 }
