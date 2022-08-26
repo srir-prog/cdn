@@ -345,5 +345,8 @@
     "AUTO_PAYBACK": "Auto payback",
     "MANUAL_PAYBACK": "Manual payback",
     "COMPLETED": "Completed",
-    "WITHDRAWAL": "Withdrawal"
+    "WITHDRAWAL": "Withdrawal",
+    "centimeCashTransactionNotificationError": "No data found for the date range selected",
+    "centimeCashOpenTransactionNotificationError": "No data found",
+    "SearchText": "Search text"
 }
