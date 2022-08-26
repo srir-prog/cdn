@@ -265,5 +265,8 @@
     "AUTO_PAYBACK": "ऑटो पेबैक",
     "MANUAL_PAYBACK": "मैनुअल पेबैक",
     "COMPLETED": "पूरा हुआ",
-    "WITHDRAWAL": "निकासी"
+    "WITHDRAWAL": "निकासी",
+    "centimeCashTransactionNotificationError": "चयनित दिनांक सीमा के लिए कोई डेटा नहीं मिला",
+    "centimeCashOpenTransactionNotificationError": "कोई डेटा नहीं मिला",
+    "SearchText": "टेक्स्ट खोजें"
 }
