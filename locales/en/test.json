@@ -8,12 +8,14 @@
   "key4": "{{count}} item",
   "key4_plural": "{{count}} items",
   "key4_interval": "(1){one item};(2-7){a few items};(7-inf){a lot of items};",
-  "key5":"<0>Hello <1>User</1>, Welcome to <3>Centime</3></0>",  
+  "key5":"<0>Hello <1>User</1>, Welcome to <3>Centime</3></0>",
   "key6" : "Hi {{fullName}}",
   "multipleTags" : "I have <bold>Multiple</bold> tags, can you <italic>really</italic> honestly <bold>translate ?</bold>",
-  "reactWithCount": "Hello <b>{{name}}</b>, you have {{count}} unread message.<ourLink></ourLink>.",
-  "reactWithCount_plural": "Hello <b>{{name}}</b>, you have {{count}} unread messages.<ourLink></ourLink>.",
+  "reactWithCount": "Hello <b>{{name}}</b>, you have {{count}} unread message : <ourLink></ourLink>.",
+  "reactWithCount_plural": "Hello <b>{{name}}</b>, you have {{count}} unread messages : <ourLink></ourLink>.",
   "GoTo": "Go to message",
   "GoTo_plural": "Go to messages",
-  "multipleLines": "Welcome <b>{{name}}</b>, Translating {{count}} messages with multiple tags in multiple lines.<nl/> This is the second line that [should] come in new line."
+  "multipleLines": "Welcome <b>{{name}}</b>, Translating {{count}} messages with multiple tags in multiple lines.<nl/> This is the second line that [should] come in new line.",
+  "SelectFruits":"Select Multiple sweet fruits",
+  "PickFruit": "Pick up a fruit"
 }
