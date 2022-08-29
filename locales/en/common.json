@@ -324,8 +324,8 @@
     "uploadInvoice": "Upload invoice",
     "uploadInvoicesOrCreditNote": "Upload invoices or credit note",
     "orSendAnEmailTo": "or send an email to",
-    "orDragAndDropFilesHere": "Or drag and drop files here",
-    "onlyJpegPngAndPdfFilesAreAccepted": "only jpeg, png and pdf files are accepted",
+    "orDragAndDropFilesHere": "or drag and drop files here",
+    "onlyJpegPngAndPdfFilesAreAccepted": "Only jpeg, png and pdf files are accepted",
     "uploadAgain": "Upload again",
     "failedToUpload": "Failed to upload",
     "document": "Document",
@@ -336,7 +336,7 @@
     "uploadProgress": "Uploading...",
     "uploadError": "Failed to upload",
     "uploadSuccess": "Uploaded successfully",
-    "exceededFileSizeLimit": "File exceeded limit of {{fileSizeLimit}} MB",
+    "exceededFileSizeLimit": "File size should be less than {{fileSizeLimit}} MB",
     "number": "Number",
     "amount": "Amount",
     "glAccount":"GL Account",
@@ -364,5 +364,7 @@
     "errorSavingDocumentInvoiceDetails": "Issue while saving document details. Please try again or contact us if the issue persists",
     "successfullySavedDocumentInvoiceDetails": "Document details saved successfully",
     "errorFetchingDocument": "Issue while fetching document. Please try again or contact us if the issue persists",
-    "selectAPaymentTerm": "Select a payment term"
+    "selectAPaymentTerm": "Select a payment term",
+    "documentSupportedFileFormat": "File format should be png, jpeg or pdf",
+    "errorUploadingDocument": "Error in uploading the document"
 }
