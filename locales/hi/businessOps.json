@@ -17,5 +17,8 @@
     "webUrl": "Web Url",
     "notes": "Notes",
     "byUserName": "By User",
-    "glAccountId": "GL Account Id"
+    "glAccountId": "GL Account Id",
+    "errorCode": "Error Code",
+    "subPaymentMethod": "Sub Payment Method",
+    "paymentType": "Payment Type"
 }

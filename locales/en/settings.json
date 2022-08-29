@@ -515,5 +515,11 @@
     "syncSettingsSave":"Successfully updated Auto Sync",
     "isDoingBusinessOnBehalfOf": "is doing business on behalf of",
     "verifyNow": "Verify now",
-    "proceedWithOriginalDetails": "Proceed with original details"
+    "proceedWithOriginalDetails": "Proceed with original details",
+    "cashFlowSettings":"Cashflow settings",
+    "selectPayrollGLs":"Select general ledger accounts for payroll",
+    "accounts":"Accounts",
+    "defaultFetchError": "General ledger accounts for payroll could not be fetched. Get support from our team using the chat bubble.",
+    "defaultUpdateError": "General ledger accounts for payroll could not be saved. Get support from our team using the chat bubble.",
+    "defaultUpdateSuccess":"General ledger accounts for payroll successfully saved"
 }
