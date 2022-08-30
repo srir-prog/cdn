@@ -520,5 +520,7 @@
     "selectPayrollGLs":"Select general ledger accounts for payroll",
     "accounts":"Accounts",
     "defaultFetchError": "Error while fetching settings",
-    "defaultUpdateError": "Error while updating settings"
+    "defaultUpdateError": "Error while updating settings",
+    "ErrorInRefreshSandbox": "Error in initiating refresh of sandbox. Please try again a little later.",
+    "RefreshSandboxSuccess":"Sandbox has been successfully refreshed."
 }

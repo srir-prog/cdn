@@ -320,25 +320,19 @@
                     }
                 },
                 "enableSort": true,
-                "width": "15%"
+                "width": "10%"
             },
             {
                 "title": "Client Id",
                 "valueMap": "payerReferenceId",
-                "enableSort": true
+                "enableSort": true,
+                "width": "8%"
             },
             {
                 "title": "Client Name",
                 "valueMap": "clientName",
                 "enableSort": true,
                 "width":"20%"
-            },
-            {
-                "title": "Supplier Id",
-                "valueMap": "payeeReferenceId",
-                "enableSort": true,
-                "width": "13%",
-                "align": "left"
             },
             {
                 "title": "Method",
@@ -355,9 +349,10 @@
                 "width":"10%"
             },
             {
-                "title": "Currency",
+                "title": " ",
                 "valueMap": "currencyCode",
-                "enableSort": true
+                "enableSort": true,
+                "width": "3%"
             },
             {
                 "title": "Status",
@@ -407,11 +402,11 @@
                 ]
             },
             {
-                "title": "Scheduled Date",
+                "title": "Initiated Date",
                 "valueMap": "paymentStartDate",
                 "formatType": "date",
                 "enableSort": true,
-                "width": "15%"
+                "width": "11%"
             },
             {
                 "title": "Created Date",
@@ -537,7 +532,7 @@
                 "valueMap": "transactionType"
             },
             {
-                "label": "Payer Reference Id",
+                "label": "Client Id",
                 "valueMap": "payerReferenceId"
             },
             {
@@ -549,7 +544,7 @@
                 "valueMap": "sourcePaymentAccountId"
             },
             {
-                "label": "Payee Reference Id",
+                "label": "Supplier Id",
                 "valueMap": "payeeReferenceId"
             },
             {
@@ -607,6 +602,10 @@
                 "valueMap": "currencyCode"
             },
             {
+                "label": "Payment Method",
+                "valueMap": "paymentMethod"
+            },
+            {
                 "label": "Status",
                 "valueMap": "paymentStatus",
                 "displayValueEnum": [
@@ -653,24 +652,20 @@
                 ]
             },
             {
-                "label": "Payer Reference Id",
+                "label": "Client Id",
                 "valueMap": "payerReferenceId"
             },
             {
-                "label": "Payer Account Id",
+                "label": "From Account Id",
                 "valueMap": "payerPaymentAccountId"
             },
             {
-                "label": "Payee Reference Id",
+                "label": "Supplier Id",
                 "valueMap": "payeeReferenceId"
             },
             {
-                "label": "Payee Account Id",
+                "label": "To Account Id",
                 "valueMap": "payeePaymentAccountId"
-            },
-            {
-                "label": "Payment Method",
-                "valueMap": "paymentMethod"
             },
             {
                 "label": "Payment Start Date",
@@ -899,7 +894,7 @@
                 "valueMap": "virtualCardId"
             },
             {
-                "label": "Payer Account Id",
+                "label": "From Account Id",
                 "valueMap": "payerPaymentAccountId"
             },
             {
@@ -907,7 +902,7 @@
                 "valueMap": "payerPaymentAccountName"
             },
             {
-                "label": "Payee Account Id",
+                "label": "To Account Id",
                 "valueMap": "payeePaymentAccountId"
             },
             {
