@@ -257,5 +257,16 @@
     "CashflowDrillDownTransactionsTableAccordion": "कैश फ्लो पूर्वानुमानित लेन-देन ड्रिल डाउन टेबल अकॉर्डियन",
     "historicTransactionDrilldownNotificationMsg": "ऐतिहासिक लेन-देन केवल 'मॉनीटर केपीआईएस' में देखे जा सकते हैं",
     "backToCashflowBars": "कैश फ्लो बार पर वापस जाएं",
-    "cffCashTargetSuccessfullyUpdated": "कम/लक्षित नकद मूल्य सफलतापूर्वक अपडेट किया गया। कम ${{low}}, लक्ष्य ${{target}}"
+    "cffCashTargetSuccessfullyUpdated": "कम/लक्षित नकद मूल्य सफलतापूर्वक अपडेट किया गया। कम ${{low}}, लक्ष्य ${{target}}",
+    "OPEN": "खुला हुआ",
+    "IN_PROCESS": "इस प्रक्रिया में",
+    "PAYMENT": "भुगतान",
+    "ADVANCE": "अग्रिम",
+    "AUTO_PAYBACK": "ऑटो पेबैक",
+    "MANUAL_PAYBACK": "मैनुअल पेबैक",
+    "COMPLETED": "पूरा हुआ",
+    "WITHDRAWAL": "निकासी",
+    "centimeCashTransactionNotificationError": "चयनित दिनांक सीमा के लिए कोई डेटा नहीं मिला",
+    "centimeCashOpenTransactionNotificationError": "कोई डेटा नहीं मिला",
+    "SearchText": "टेक्स्ट खोजें"
 }

@@ -519,6 +519,7 @@
     "cashFlowSettings":"Cashflow settings",
     "selectPayrollGLs":"Select general ledger accounts for payroll",
     "accounts":"Accounts",
+    "defaultUpdateSuccess":"General ledger accounts for payroll successfully saved",
     "defaultFetchError": "Error while fetching settings",
     "defaultUpdateError": "Error while updating settings",
     "ErrorInRefreshSandbox": "Error in initiating refresh of sandbox. Please try again a little later.",

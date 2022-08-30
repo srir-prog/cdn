@@ -337,5 +337,16 @@
     "availableBalanceInfoText": "Available balance takes into account centime card utilization",
     "totalRepayments": "Total repayments",
     "openTransactions": "Open transactions",
-    "cffCashTargetSuccessfullyUpdated": "Successfully updated low/target cash value. Low ${{low}}, Target ${{target}}"
+    "cffCashTargetSuccessfullyUpdated": "Successfully updated low/target cash value. Low ${{low}}, Target ${{target}}",
+    "OPEN": "Open",
+    "IN_PROCESS": "In process",
+    "PAYMENT": "Payment",
+    "ADVANCE": "Advance",
+    "AUTO_PAYBACK": "Auto payback",
+    "MANUAL_PAYBACK": "Manual payback",
+    "COMPLETED": "Completed",
+    "WITHDRAWAL": "Withdrawal",
+    "centimeCashTransactionNotificationError": "No data found for the date range selected",
+    "centimeCashOpenTransactionNotificationError": "No data found",
+    "SearchText": "Search text"
 }
