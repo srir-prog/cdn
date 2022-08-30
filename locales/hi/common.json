@@ -366,5 +366,6 @@
     "errorFetchingDocument": "दस्तावेज़ लाते समय समस्या। कृपया पुनः प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें",
     "selectAPaymentTerm": "भुगतान अवधि चुनें",
     "documentSupportedFileFormat": "फ़ाइल प्रारूप पीएनजी, जेपीईजी या पीडीएफ होना चाहिए",
-    "errorUploadingDocument": "दस्तावेज़ अपलोड करने में त्रुटि"
+    "errorUploadingDocument": "दस्तावेज़ अपलोड करने में त्रुटि",
+    "AccordionViewInvoiceHistory": "चालान इतिहास देखें"
 }

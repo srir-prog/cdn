@@ -366,5 +366,6 @@
     "errorFetchingDocument": "Issue while fetching document. Please try again or contact us if the issue persists",
     "selectAPaymentTerm": "Select a payment term",
     "documentSupportedFileFormat": "File format should be png, jpeg or pdf",
-    "errorUploadingDocument": "Error in uploading the document"
+    "errorUploadingDocument": "Error in uploading the document",
+    "AccordionViewInvoiceHistory": "View Invoice History"
 }
