@@ -367,5 +367,7 @@
     "selectAPaymentTerm": "भुगतान अवधि चुनें",
     "documentSupportedFileFormat": "फ़ाइल प्रारूप पीएनजी, जेपीईजी या पीडीएफ होना चाहिए",
     "errorUploadingDocument": "दस्तावेज़ अपलोड करने में त्रुटि",
-    "AccordionViewInvoiceHistory": "चालान इतिहास देखें"
+    "AccordionViewInvoiceHistory": "चालान इतिहास देखें",
+    "percentBasedSurcharge": "{{surcharge}} के सरचार्ज के आधार पर",
+    "accountName": "खाता का नाम"
 }

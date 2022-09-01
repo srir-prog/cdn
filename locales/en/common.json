@@ -367,5 +367,7 @@
     "selectAPaymentTerm": "Select a payment term",
     "documentSupportedFileFormat": "File format should be png, jpeg or pdf",
     "errorUploadingDocument": "Error in uploading the document",
-    "AccordionViewInvoiceHistory": "View Invoice History"
+    "AccordionViewInvoiceHistory": "View Invoice History",
+    "percentBasedSurcharge": "Based on surcharge of {{surcharge}}",
+    "accountName": "Account Name"
 }
