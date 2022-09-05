@@ -369,5 +369,6 @@
     "errorUploadingDocument": "दस्तावेज़ अपलोड करने में त्रुटि",
     "AccordionViewInvoiceHistory": "चालान इतिहास देखें",
     "percentBasedSurcharge": "{{surcharge}} के सरचार्ज के आधार पर",
-    "accountName": "खाता का नाम"
+    "accountName": "खाता का नाम",
+    "supplierSystemMatch": "इस आपूर्तिकर्ता को दस्तावेज़ और सामान्य लेजर में उपलब्ध डेटा के आधार पर सिस्टम द्वारा मैप किया गया है। कृपया समीक्षा करें और यदि आवश्यक हो तो परिवर्तन करें"
 }
