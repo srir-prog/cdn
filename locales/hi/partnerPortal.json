@@ -41,5 +41,19 @@
   "clientBusinessIdTooltip":"मास्टरकार्ड आईसीसीपी के साथ पंजीकृत आरसीएन उपनाम",
   "fnboCardIdTooltip":"64 अंकों का ई-टोकन जो कार्ड खाते में मैप करता है",
   "companyIdTooltip" :"ACH कंपनी आईडी को ग्राहक के निपटान खाते में मैप किया गया",
-  "partnerPortalDashboard":"पार्टनर पोर्टल"
+  "partnerPortalDashboard":"पार्टनर पोर्टल",
+  "debitCardAccountDetails": "कृपया {{name}} के लिए डेबिट कार्ड खाता विवरण दर्ज करें",
+  "PLCardDetails": "कृपया {{name}} के लिए PL कार्ड विवरण दर्ज करें",
+  "ACHDetailsSuccessMessage": "एसीएच जहाज पर सफल",
+  "PLCardDetailsSuccessMessage": "पीएल कार्ड ऑनबोर्ड सफल",
+  "DebitCardDetailsSuccessMessage":"डेबिट कार्ड ऑनबोर्ड सफल रहा",
+  "FinalCashOnBoardSuccessMessage": "सेंटटाइम कैश ऑनबोर्ड सफल",
+  "ACHDetailsErrorMessage":"ACH ऑनबोर्ड में त्रुटि। कृपया पुन: प्रयास करें।",
+  "PLCardDetailsErrorMessage": "पीएल कार्ड ऑनबोर्ड में त्रुटि। कृपया पुन: प्रयास करें।",
+  "DebitCardDetailErrorMessage":"डेबिट कार्ड ऑनबोर्ड में त्रुटि। कृपया पुनः प्रयास करें।",
+  "CentimeCashFinalOnBoardErrorMessage":"अंतिम ऑनबोर्ड में त्रुटि। कृपया पुन: प्रयास करें।",
+  "centimeCash": "सेन्टीम कैश",
+  "centimeCard": "केंद्र कार्ड",
+  "TBSCompanyId": "टीबीएस कंपनी आईडी",
+  "TBSCompanyIdTooltip": "बीएस कंपनी ने आईडी की मैपिंग की"
 }
