@@ -268,5 +268,6 @@
     "WITHDRAWAL": "निकासी",
     "centimeCashTransactionNotificationError": "चयनित दिनांक सीमा के लिए कोई डेटा नहीं मिला",
     "centimeCashOpenTransactionNotificationError": "कोई डेटा नहीं मिला",
-    "SearchText": "टेक्स्ट खोजें"
+    "SearchText": "टेक्स्ट खोजें",
+    "clearingAccount": "समाशोधन खाता"
 }
