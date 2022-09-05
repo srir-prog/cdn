@@ -367,5 +367,8 @@
     "selectAPaymentTerm": "Select a payment term",
     "documentSupportedFileFormat": "File format should be png, jpeg or pdf",
     "errorUploadingDocument": "Error in uploading the document",
-    "AccordionViewInvoiceHistory": "View Invoice History"
+    "AccordionViewInvoiceHistory": "View Invoice History",
+    "percentBasedSurcharge": "Based on surcharge of {{surcharge}}",
+    "accountName": "Account Name",
+    "supplierSystemMatch": "This supplier is mapped by the system based on the data available in the document and General Ledger. Please review and make changes if required"
 }

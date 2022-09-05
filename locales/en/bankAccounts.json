@@ -349,5 +349,7 @@
     "centimeCashTransactionNotificationError": "No data found for the date range selected",
     "centimeCashOpenTransactionNotificationError": "No data found",
     "SearchText": "Search text",
+    "transactionStatus": "Transaction status",
+    "generalLedgerPostStatus": "general ledger post status",
     "clearingAccount": "Clearing Account"
 }
