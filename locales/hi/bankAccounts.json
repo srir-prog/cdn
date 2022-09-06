@@ -271,5 +271,6 @@
     "centimeCashForeCastDataNotificationError": "नकदी प्रवाह पूर्वानुमान डेटा लाने में त्रुटि",
     "SearchText": "टेक्स्ट खोजें",
     "transactionStatus": "लेन-देन की स्थिति",
-    "generalLedgerPostStatus": "सामान्य खाता बही की स्थिति"
+    "generalLedgerPostStatus": "सामान्य खाता बही की स्थिति",
+    "PaymentDateHasPassed": "भुगतान दिनांक बीत चुका है"
 }

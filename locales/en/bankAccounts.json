@@ -351,5 +351,6 @@
     "centimeCashForeCastDataNotificationError": "Error in fetching cash flow forecast data",
     "SearchText": "Search text",
     "transactionStatus": "Transaction status",
-    "generalLedgerPostStatus": "general ledger post status"
+    "generalLedgerPostStatus": "general ledger post status",
+    "PaymentDateHasPassed": "Payment date has passed"
 }
