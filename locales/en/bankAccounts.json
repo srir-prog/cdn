@@ -352,5 +352,7 @@
     "SearchText": "Search text",
     "transactionStatus": "Transaction status",
     "generalLedgerPostStatus": "general ledger post status",
-    "PaymentDateHasPassed": "Payment date has passed"
+    "PaymentDateHasPassed": "Payment date has passed",
+    "clearingAccount": "Clearing Account",
+    "noClearingAccount": "Please connect a clearing account with this Financial Institution."
 }

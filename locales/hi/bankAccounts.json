@@ -272,5 +272,7 @@
     "SearchText": "टेक्स्ट खोजें",
     "transactionStatus": "लेन-देन की स्थिति",
     "generalLedgerPostStatus": "सामान्य खाता बही की स्थिति",
-    "PaymentDateHasPassed": "भुगतान दिनांक बीत चुका है"
+    "PaymentDateHasPassed": "भुगतान दिनांक बीत चुका है",
+    "clearingAccount": "समाशोधन खाता",
+    "noClearingAccount": "कृपया इस वित्तीय संस्थान के साथ एक समाशोधन खाता कनेक्ट करें।"
 }
