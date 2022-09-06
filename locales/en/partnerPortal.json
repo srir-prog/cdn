@@ -47,13 +47,13 @@
   "ACHDetailsSuccessMessage": "ACH created successfully",
   "PLCardDetailsSuccessMessage": "Private Label card created successfully",
   "DebitCardDetailsSuccessMessage":"Debit card account created successfully",
-  "FinalCashOnBoardSuccessMessage": "Centime cash onboard successful",
-  "ACHDetailsErrorMessage":"Error in ACH onboard. Please try again.",
-  "PLCardDetailsErrorMessage": "Error in PL card onboard. Please try again.",
-  "DebitCardDetailErrorMessage":"Error in debit card onboard. Please try again.",
-  "CentimeCashFinalOnBoardErrorMessage":"Error in final onboard. Please try again.",
-  "centimeCash": "Centime cash",
-  "centimeCard": "Centime card",
-  "TBSCompanyId": "TBS Company id",
-  "TBSCompanyIdTooltip": "TBS company mapped Id"
+  "FinalCashOnBoardSuccessMessage": "On boarding of CentimeCash successful",
+  "ACHDetailsErrorMessage":"Error while saving ACH details. Try again or contact us if the problem persists.",
+  "PLCardDetailsErrorMessage": "Error while saving PL card details. Try again or contact us if the problem persists.",
+  "DebitCardDetailErrorMessage":"Error while saving debit card details. Try again or contact us if the problem persists.",
+  "CentimeCashFinalOnBoardErrorMessage":"Error while on boarding CentimeCash. Try again or contact us if the problem persists.",
+  "centimeCash": "CentimeCash",
+  "centimeCard": "CentimeCard",
+  "TBSCompanyId": "TBS Company Id",
+  "TBSCompanyIdTooltip": "TBS company ID needed for repayment"
 }
