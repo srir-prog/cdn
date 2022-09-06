@@ -351,5 +351,6 @@
     "SearchText": "Search text",
     "transactionStatus": "Transaction status",
     "generalLedgerPostStatus": "general ledger post status",
-    "clearingAccount": "Clearing Account"
+    "clearingAccount": "Clearing Account",
+    "noClearingAccount": "Please connect a clearing account with this Financial Institution."
 }
