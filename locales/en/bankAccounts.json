@@ -348,9 +348,11 @@
     "WITHDRAWAL": "Withdrawal",
     "centimeCashTransactionNotificationError": "No data found for the date range selected",
     "centimeCashOpenTransactionNotificationError": "No data found",
+    "centimeCashForeCastDataNotificationError": "Error in fetching cash flow forecast data",
     "SearchText": "Search text",
     "transactionStatus": "Transaction status",
     "generalLedgerPostStatus": "general ledger post status",
+    "PaymentDateHasPassed": "Payment date has passed",
     "clearingAccount": "Clearing Account",
     "noClearingAccount": "Please connect a clearing account with this Financial Institution."
 }
