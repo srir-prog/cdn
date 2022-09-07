@@ -752,6 +752,7 @@
     },
     "supplierDetails": {
         "componentType": "detailsList",
+        "title": "Supplier Details",
         "listInfo": [
             {
                 "label": "Supplier Name",
@@ -770,6 +771,10 @@
                         {
                             "label": "Payee Payment Account Id",
                             "valueMap": "payeePaymentAccountId"
+                        },
+                        {
+                            "label": "Default Funding Account Id",
+                            "valueMap": "defaultFundingAccountPaymentId"
                         },
                         {
                             "label": "Mailing Address",
@@ -837,6 +842,28 @@
                         "paymentId": "paymentId"
                     }
                 }
+            }
+        ]
+    },
+    "bankAccountDetails": {
+        "componentType": "detailsList",
+        "title": "Bank Account Details",
+        "listInfo": [
+            {
+                "label": "Modified Account Name",
+                "valueMap": "modifiedAccountName"
+            },
+            {
+                "label": "Account Name",
+                "valueMap": "accountName"
+            },
+            {
+                "label": "Account Type",
+                "valueMap": "accountType"
+            },
+            {
+                "label": "Account Number",
+                "valueMap": "accountNumber"
             }
         ]
     },
