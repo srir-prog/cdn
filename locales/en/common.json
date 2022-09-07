@@ -374,5 +374,9 @@
     "invoiceConfirmationPopup": "Invoice confirmation modal",
     "documentsPostTitle": "Post documents to the General Ledger",
     "documentsPostSubHeading": "Upon successful posting, invoices will move into the Unpaid invoices tab and credit notes will be ready to use",
-    "documentsDeleteTitle": "Delete documents"
+    "documentsDeleteTitle": "Delete documents",
+    "errorPostingDocumentInvoiceDetails": "Issue while initiating Posting to General Ledger. Please try again or contact us if the issue persists",
+    "successfullyPostingDocumentInvoiceDetails": "Posting to General Ledger is initiated for the documents",
+    "errorDeletingDocumentInvoiceDetails": "Issue while deleting documents. Please try again or contact us if the issue persists",
+    "successfullyDeletedDocumentInvoiceDetails": "Documents successfully deleted"
 }
