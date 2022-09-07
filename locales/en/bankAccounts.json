@@ -354,6 +354,8 @@
     "transactionStatus": "Transaction status",
     "generalLedgerPostStatus": "general ledger post status",
     "PaymentDateHasPassed": "Payment date has passed",
+    "clearingAccount": "Clearing Account",
+    "noClearingAccount": "Please connect a clearing account with this Financial Institution."
     "effectivePeriod": "Effective period",
     "outStandingAmount": "Outstanding amount",
     "daysAccrued": "Days accrued",
