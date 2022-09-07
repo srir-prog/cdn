@@ -377,6 +377,6 @@
     "documentsDeleteTitle": "Delete documents",
     "errorPostingDocumentInvoiceDetails": "Issue while initiating Posting to General Ledger. Please try again or contact us if the issue persists",
     "successfullyPostingDocumentInvoiceDetails": "Posting to General Ledger is initiated for the documents",
-    "errorDeletingDocumentInvoiceDetails": "Documents successfully deleted",
-    "successfullyDeletedDocumentInvoiceDetails": "Issue while deleting documents. Please try again or contact us if the issue persists"
+    "errorDeletingDocumentInvoiceDetails": "Issue while deleting documents. Please try again or contact us if the issue persists",
+    "successfullyDeletedDocumentInvoiceDetails": "Documents successfully deleted"
 }
