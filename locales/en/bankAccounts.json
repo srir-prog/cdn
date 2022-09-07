@@ -349,8 +349,14 @@
     "centimeCashTransactionNotificationError": "No data found for the date range selected",
     "centimeCashOpenTransactionNotificationError": "No data found",
     "centimeCashForeCastDataNotificationError": "Error in fetching cash flow forecast data",
+    "centimeCashAccruedFeeNotificationError": "Error in fetching accrued fee statement data",
     "SearchText": "Search text",
     "transactionStatus": "Transaction status",
     "generalLedgerPostStatus": "general ledger post status",
-    "PaymentDateHasPassed": "Payment date has passed"
+    "PaymentDateHasPassed": "Payment date has passed",
+    "effectivePeriod": "Effective period",
+    "outStandingAmount": "Outstanding amount",
+    "daysAccrued": "Days accrued",
+    "accruedFees": "Accrued fees",
+    "accruedFeeStatement": "Accrued fee statement"
 }
