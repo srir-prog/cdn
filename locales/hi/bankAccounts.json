@@ -269,10 +269,16 @@
     "centimeCashTransactionNotificationError": "चयनित दिनांक सीमा के लिए कोई डेटा नहीं मिला",
     "centimeCashOpenTransactionNotificationError": "कोई डेटा नहीं मिला",
     "centimeCashForeCastDataNotificationError": "नकदी प्रवाह पूर्वानुमान डेटा लाने में त्रुटि",
+    "centimeCashAccruedFeeNotificationError": "अर्जित शुल्क विवरण डेटा लाने में त्रुटि",
     "SearchText": "टेक्स्ट खोजें",
     "transactionStatus": "लेन-देन की स्थिति",
     "generalLedgerPostStatus": "सामान्य खाता बही की स्थिति",
     "PaymentDateHasPassed": "भुगतान दिनांक बीत चुका है",
     "clearingAccount": "समाशोधन खाता",
-    "noClearingAccount": "कृपया इस वित्तीय संस्थान के साथ एक समाशोधन खाता कनेक्ट करें।"
+    "noClearingAccount": "कृपया इस वित्तीय संस्थान के साथ एक समाशोधन खाता कनेक्ट करें।",
+    "effectivePeriod": "प्रभावी अवधि",
+    "outStandingAmount": "बकाया राशि",
+    "daysAccrued": "अर्जित दिन",
+    "accruedFees": "उपार्जित शुल्क",
+    "accruedFeeStatement": "उपार्जित शुल्क विवरण"
 }
