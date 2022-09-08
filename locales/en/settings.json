@@ -519,7 +519,9 @@
     "cashFlowSettings":"Cashflow settings",
     "selectPayrollGLs":"Select general ledger accounts for payroll",
     "accounts":"Accounts",
-    "defaultFetchError": "General ledger accounts for payroll could not be fetched. Get support from our team using the chat bubble.",
-    "defaultUpdateError": "General ledger accounts for payroll could not be saved. Get support from our team using the chat bubble.",
-    "defaultUpdateSuccess":"General ledger accounts for payroll successfully saved"
+    "defaultUpdateSuccess":"General ledger accounts for payroll successfully saved",
+    "defaultFetchError": "Error while fetching settings",
+    "defaultUpdateError": "Error while updating settings",
+    "ErrorInRefreshSandbox": "Error in initiating refresh of sandbox. Please try again a little later.",
+    "RefreshSandboxSuccess":"Sandbox has been successfully refreshed."
 }

@@ -285,6 +285,7 @@
     "FormFieldSenderSignature": "Sender signature",
     "FormFieldRecipientName": "Recipient name for internal notifications",
     "FormFieldRecipientEmail": "Recipient email for internal notifications",
+    "FormFieldRecipientEmails": "Recipient emails for internal notifications",
     "OverrideTemplatePrompt": "The action you are trying to add already exists for the selected date. Are you sure you want to overwrite the existing template?",
     "EmailOptionOurCompanyName": "<our company name>",
     "EmailOptionCustomerName": "<customer name>",
