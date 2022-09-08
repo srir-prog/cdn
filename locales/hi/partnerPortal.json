@@ -41,5 +41,19 @@
   "clientBusinessIdTooltip":"मास्टरकार्ड आईसीसीपी के साथ पंजीकृत आरसीएन उपनाम",
   "fnboCardIdTooltip":"64 अंकों का ई-टोकन जो कार्ड खाते में मैप करता है",
   "companyIdTooltip" :"ACH कंपनी आईडी को ग्राहक के निपटान खाते में मैप किया गया",
-  "partnerPortalDashboard":"पार्टनर पोर्टल"
+  "partnerPortalDashboard":"पार्टनर पोर्टल",
+  "debitCardAccountDetails": "कृपया {{name}} के लिए डेबिट कार्ड खाता विवरण दर्ज करें",
+  "PLCardDetails": "कृपया {{name}} के लिए PL कार्ड विवरण दर्ज करें",
+  "ACHDetailsSuccessMessage": "एसीएच सफलतापूर्वक बनाया गया",
+  "PLCardDetailsSuccessMessage": "निजी लेबल कार्ड सफलतापूर्वक बनाया गया",
+  "DebitCardDetailsSuccessMessage":"डेबिट कार्ड खाता सफलतापूर्वक बनाया गया",
+  "FinalCashOnBoardSuccessMessage": "सेंटटाइम कैश ऑनबोर्ड सफल",
+  "ACHDetailsErrorMessage":"ACH विवरण सहेजते समय त्रुटि। पुन: प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें।",
+  "PLCardDetailsErrorMessage": "PL कार्ड विवरण सहेजते समय त्रुटि. पुन: प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें।",
+  "DebitCardDetailErrorMessage":"डेबिट कार्ड विवरण सहेजते समय त्रुटि। पुन: प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें।",
+  "CentimeCashFinalOnBoardErrorMessage":"सेंटटाइम कैश में सवार होते समय त्रुटि। पुन: प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें।",
+  "centimeCash": "सेन्टीम कैश",
+  "centimeCard": "केंद्र कार्ड",
+  "TBSCompanyId": "टीबीएस कंपनी आईडी",
+  "TBSCompanyIdTooltip": "पुनर्भुगतान के लिए आवश्यक टीबीएस कंपनी आईडी"
 }

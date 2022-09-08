@@ -41,5 +41,19 @@
   "clientBusinessIdTooltip":"The RCN Alias as registered with MasterCard ICCP",
   "fnboCardIdTooltip":"The 64 digit e-token that maps to a card account",
   "companyIdTooltip" :"ACH company id mapped to client's settlement account",
-  "partnerPortalDashboard": "Partner portal"
+  "partnerPortalDashboard": "Partner portal",
+  "debitCardAccountDetails": "Please enter debit card account details for {{name}}",
+  "PLCardDetails": "Please enter PL card details for {{name}}",
+  "ACHDetailsSuccessMessage": "ACH created successfully",
+  "PLCardDetailsSuccessMessage": "Private Label card created successfully",
+  "DebitCardDetailsSuccessMessage":"Debit card account created successfully",
+  "FinalCashOnBoardSuccessMessage": "On boarding of CentimeCash successful",
+  "ACHDetailsErrorMessage":"Error while saving ACH details. Try again or contact us if the problem persists.",
+  "PLCardDetailsErrorMessage": "Error while saving PL card details. Try again or contact us if the problem persists.",
+  "DebitCardDetailErrorMessage":"Error while saving debit card details. Try again or contact us if the problem persists.",
+  "CentimeCashFinalOnBoardErrorMessage":"Error while on boarding CentimeCash. Try again or contact us if the problem persists.",
+  "centimeCash": "CentimeCash",
+  "centimeCard": "CentimeCard",
+  "TBSCompanyId": "TBS Company Id",
+  "TBSCompanyIdTooltip": "TBS company ID needed for repayment"
 }
