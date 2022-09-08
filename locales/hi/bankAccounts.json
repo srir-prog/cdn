@@ -284,5 +284,8 @@
     "totalCreditLineInfoText": "CentimeCard और CentimeCash के लिए कुल क्रेडिट लाइन",
     "availableBalanceInfoText": "उपलब्ध शेष राशि को CentimeCard के उपयोग को भी ध्यान में रखा जाता है",
     "centimeCash": "सेंटिम कैश",
-    "centimeCashOpenTransactionTable": "CentimeCash खुली लेनदेन तालिका"
+    "centimeCashOpenTransactionTable": "CentimeCash खुली लेनदेन तालिका",
+    "currentPeriod": "वर्तमान अवधि",
+    "currentAccruedFee": "वर्तमान अर्जित शुल्क",
+    "feePaymentDate": "शुल्क भुगतान दिनांक"
 }

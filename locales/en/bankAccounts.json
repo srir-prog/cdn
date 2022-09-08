@@ -359,5 +359,8 @@
     "outStandingAmount": "Outstanding amount",
     "daysAccrued": "Days accrued",
     "accruedFees": "Accrued fees",
-    "accruedFeeStatement": "Accrued fee statement"
+    "accruedFeeStatement": "Accrued fee statement",
+    "currentPeriod": "Current period",
+    "currentAccruedFee": "Current accrued fee",
+    "feePaymentDate": "Fee payment date"
 }
