@@ -362,5 +362,11 @@
     "accruedFeeStatement": "Accrued fee statement",
     "currentPeriod": "Current period",
     "currentAccruedFee": "Current accrued fee",
-    "feePaymentDate": "Fee payment date"
+    "feePaymentDate": "Fee payment date",
+    "day": "Time (Daily)",
+    "week": "Time (Week ending)",
+    "month": "Time (Month ending)",
+    "Daily": "Daily",
+    "Weekly": "Weekly",
+    "Montly": "Monthly"
 }

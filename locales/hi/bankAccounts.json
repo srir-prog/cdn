@@ -287,5 +287,11 @@
     "centimeCashOpenTransactionTable": "CentimeCash खुली लेनदेन तालिका",
     "currentPeriod": "वर्तमान अवधि",
     "currentAccruedFee": "वर्तमान अर्जित शुल्क",
-    "feePaymentDate": "शुल्क भुगतान दिनांक"
+    "feePaymentDate": "शुल्क भुगतान दिनांक",
+    "day": "समय (दैनिक)",
+    "week": "समय (सप्ताह समाप्त)",
+    "month": "समय (माह समाप्त होने वाला)",
+    "Daily": "रोज",
+    "Weekly": "साप्ताहिक",
+    "Montly": "महीने के"
 }
