@@ -378,5 +378,7 @@
     "errorPostingDocumentInvoiceDetails": "Issue while initiating Posting to General Ledger. Please try again or contact us if the issue persists",
     "successfullyPostingDocumentInvoiceDetails": "Posting to General Ledger is initiated for the documents",
     "errorDeletingDocumentInvoiceDetails": "Issue while deleting documents. Please try again or contact us if the issue persists",
-    "successfullyDeletedDocumentInvoiceDetails": "Documents successfully deleted"
+    "successfullyDeletedDocumentInvoiceDetails": "Documents successfully deleted",
+    "selectADate": "Select a date",
+    "selectAnOption": "Select an option"
 }
