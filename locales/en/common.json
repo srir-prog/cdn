@@ -380,5 +380,11 @@
     "errorDeletingDocumentInvoiceDetails": "Issue while deleting documents. Please try again or contact us if the issue persists",
     "successfullyDeletedDocumentInvoiceDetails": "Documents successfully deleted",
     "selectADate": "Select a date",
-    "selectAnOption": "Select an option"
+    "selectAnOption": "Select an option",
+    "day": "Time (Daily)",
+    "week": "Time (Week ending)",
+    "month": "Time (Month ending)",
+    "Daily": "Daily",
+    "Weekly": "Weekly",
+    "Montly": "Monthly"
 }
