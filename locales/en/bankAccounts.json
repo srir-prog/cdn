@@ -339,6 +339,7 @@
     "cffCashTargetSuccessfullyUpdated": "Successfully updated low/target cash value. Low ${{low}}, Target ${{target}}",
     "OPEN": "Open",
     "IN_PROCESS": "In process",
+    "FAILED": "Failed",
     "PAYMENT": "Payment",
     "ADVANCE": "Advance",
     "AUTO_PAYBACK": "Auto payback",
