@@ -380,5 +380,11 @@
     "errorDeletingDocumentInvoiceDetails": "दस्तावेज़ हटाते समय समस्या। कृपया पुनः प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें",
     "successfullyDeletedDocumentInvoiceDetails": "दस्तावेज़ सफलतापूर्वक हटा दिए गए",
     "selectADate": "एक तारीख चुनें",
-    "selectAnOption": "कोई विकल्प चुनें"
+    "selectAnOption": "कोई विकल्प चुनें",
+    "day": "समय (दैनिक)",
+    "week": "समय (सप्ताह समाप्त)",
+    "month": "समय (माह समाप्त होने वाला)",
+    "Daily": "रोज",
+    "Weekly": "साप्ताहिक",
+    "Montly": "महीने के"
 }
