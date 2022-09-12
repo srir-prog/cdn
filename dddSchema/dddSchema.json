@@ -748,6 +748,29 @@
             "paymentMetadata",
             "paymentDescription",
             "remittanceData"
+        ],
+        "additionalContent": [
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Bill Details"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "BillDetailsWithSupplierName"
+                    },
+                    "paramObjMap": {
+                        "clientId": "payerReferenceId",
+                        "paymentId": "paymentId"
+                    }
+                }
+            }
         ]
     },
     "supplierDetails": {
@@ -820,29 +843,6 @@
         ],
         "ignoreKeys": [
             "clientId"
-        ],
-        "additionalContent": [
-            {
-                "renderType": "Button",
-                "renderProps": {
-                    "label": "Bill Details"
-                },
-                "renderPosition": "bottom",
-                "action": {
-                    "type": "drillDown",
-                    "pathList": [
-                        "1.0",
-                        "aggregate"
-                    ],
-                    "paramObj": {
-                        "templateId": "BillDetailsWithSupplierName"
-                    },
-                    "paramObjMap": {
-                        "clientId": "payerReferenceId",
-                        "paymentId": "paymentId"
-                    }
-                }
-            }
         ]
     },
     "bankAccountDetails": {
