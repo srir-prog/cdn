@@ -303,7 +303,7 @@
     "historicTransactionDrilldownNotificationMsg": "Drilldown on historic transactions is not allowed",
     "backToCashflowBars": "BACK TO CASH FLOW BARS",
     "toAccount": "To account",
-    "centimeCashAvailableBalance": "Available balance- {{availableBalance}}",
+    "centimeCashAvailableBalance": "Available balance: {{availableBalance}}",
     "centimeCash": "CentimeCash",
     "transfer": "Transfer",
     "postingDate": "Posting date",
@@ -363,5 +363,9 @@
     "accruedFeeStatement": "Accrued fee statement",
     "currentPeriod": "Current period",
     "currentAccruedFee": "Current accrued fee",
-    "feePaymentDate": "Fee payment date"
+    "feePaymentDate": "Fee payment date",
+    "centimeCashWithDrawModalHeader":"Draw from CentimeCash",
+    "enterAmount": "Enter amount",
+    "estimatedCost": "Estimated cost",
+    "CentimeCashWithdrawalPopup": "Draw from CentimeCash popup"
 }
