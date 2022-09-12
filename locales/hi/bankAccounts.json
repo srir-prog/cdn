@@ -280,5 +280,13 @@
     "outStandingAmount": "बकाया राशि",
     "daysAccrued": "अर्जित दिन",
     "accruedFees": "उपार्जित शुल्क",
-    "accruedFeeStatement": "उपार्जित शुल्क विवरण"
+    "accruedFeeStatement": "उपार्जित शुल्क विवरण",
+    "totalCreditLineInfoText": "CentimeCard और CentimeCash के लिए कुल क्रेडिट लाइन",
+    "availableBalanceInfoText": "उपलब्ध शेष राशि को CentimeCard के उपयोग को भी ध्यान में रखा जाता है",
+    "centimeCash": "सेंटिम कैश",
+    "centimeCashOpenTransactionTable": "CentimeCash खुली लेनदेन तालिका",
+    "currentPeriod": "वर्तमान अवधि",
+    "currentAccruedFee": "वर्तमान अर्जित शुल्क",
+    "feePaymentDate": "शुल्क भुगतान दिनांक",
+    "FAILED": "असफल"
 }
