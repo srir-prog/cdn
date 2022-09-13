@@ -368,6 +368,6 @@
     "enterAmount": "Enter amount",
     "estimatedCost": "Estimated cost",
     "CentimeCashWithdrawalPopup": "Draw from CentimeCash popup",
-    "CentimeCashWithdrawSuccessMsg": "CentimeCash withdraw successful",
-    "CentimeCashWithdrawFailureMsg": "Error in CentimeCash withdrawal"
+    "CentimeCashWithdrawSuccessMsg": "Request for withdrawal for the amount of {{amount}} is successful.",
+    "CentimeCashWithdrawFailureMsg": "Request for withdrawal for the amount of {{amount}} failed. Please try again later."
 }

@@ -293,6 +293,7 @@
     "enterAmount": "राशि डालें",
     "estimatedCost": "अनुमानित लागत",
     "CentimeCashWithdrawalPopup": "CentimeCash पॉपअप से ड्रा करें",
-    "CentimeCashWithdrawSuccessMsg": "CentimeCash सफल रहा",
-    "CentimeCashWithdrawFailureMsg": "CentimeCash निकासी में त्रुटि"
+    "CentimeCashWithdrawSuccessMsg": "{{amount}} की राशि निकालने का अनुरोध सफल रहा।",
+    "CentimeCashWithdrawFailureMsg": "{{amount}} की राशि निकालने का अनुरोध विफल हुआ। कृपया बाद में पुन: प्रयास करें।",
+    "centimeCashAvailableBalance": "उपलब्ध शेष राशि: {{availableBalance}}"
 }
