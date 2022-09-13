@@ -367,5 +367,7 @@
     "centimeCashWithDrawModalHeader":"Draw from CentimeCash",
     "enterAmount": "Enter amount",
     "estimatedCost": "Estimated cost",
-    "CentimeCashWithdrawalPopup": "Draw from CentimeCash popup"
+    "CentimeCashWithdrawalPopup": "Draw from CentimeCash popup",
+    "CentimeCashWithdrawSuccessMsg": "CentimeCash withdraw successful",
+    "CentimeCashWithdrawFailureMsg": "Error in CentimeCash withdrawal"
 }
