@@ -296,6 +296,5 @@
     "CentimeCashWithdrawSuccessMsg": "{{amount}} की राशि निकालने का अनुरोध सफल रहा।",
     "CentimeCashWithdrawFailureMsg": "{{amount}} की राशि निकालने का अनुरोध विफल हुआ। कृपया बाद में पुन: प्रयास करें।",
     "centimeCashAvailableBalance": "उपलब्ध शेष राशि: {{availableBalance}}",
-    "centimeCashInActiveTooltip": "कृपया इस वित्तीय संस्थान के साथ एक समाशोधन खाता कनेक्ट करें।",
-    "paybackDaysCountShouldBeLessThan90": "लौटाने की संख्या 90. से कम होनी चाहिए"
+    "centimeCashInActiveTooltip": "कृपया इस वित्तीय संस्थान के साथ एक समाशोधन खाता कनेक्ट करें।"
 }

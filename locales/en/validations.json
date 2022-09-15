@@ -69,5 +69,6 @@
     "isMultipleEmailsLimitExceeded": "Maximum of 15 emails are allowed",
     "pleaseSelectAccount": "Please select an account",
     "amountShouldBeMoreThanZero": "Amount should be more than zero",
-    "amountShouldBeLessThanAvailableBalanceMsg": "Amount should be less than available balance"
+    "amountShouldBeLessThanAvailableBalanceMsg": "Amount should be less than available balance",
+    "paybackDaysCountShouldBeLessThan90": "Payback count should be less than 90"
 }
