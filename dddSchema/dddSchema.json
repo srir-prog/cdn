@@ -320,12 +320,13 @@
                     }
                 },
                 "enableSort": true,
-                "width": "15%"
+                "width": "12%"
             },
             {
                 "title": "Client Id",
                 "valueMap": "payerReferenceId",
-                "enableSort": true
+                "enableSort": true,
+                "width": "10%"
             },
             {
                 "title": "Client Name",
@@ -334,17 +335,10 @@
                 "width":"20%"
             },
             {
-                "title": "Supplier Id",
-                "valueMap": "payeeReferenceId",
-                "enableSort": true,
-                "width": "13%",
-                "align": "left"
-            },
-            {
                 "title": "Method",
                 "valueMap": "paymentMethod",
                 "enableSort": true,
-                "width": "12%"
+                "width": "15%"
             },
             {
                 "title": "Amount",
@@ -355,9 +349,10 @@
                 "width":"10%"
             },
             {
-                "title": "Currency",
+                "title": " ",
                 "valueMap": "currencyCode",
-                "enableSort": true
+                "enableSort": false,
+                "width": "5%"
             },
             {
                 "title": "Status",
@@ -407,7 +402,7 @@
                 ]
             },
             {
-                "title": "Scheduled Date",
+                "title": "Initiated Date",
                 "valueMap": "paymentStartDate",
                 "formatType": "date",
                 "enableSort": true,
@@ -486,8 +481,12 @@
                 "formatType": "date"
             },
             {
-                "title": "Failure Error Code",
+                "title": "Failure Error",
                 "valueMap": "failureErrorCode"
+            },
+            {
+                "title": "Failure Details",
+                "valueMap": "processorFailureResponse"
             }
         ],
         "additionalProperties": {
@@ -537,7 +536,7 @@
                 "valueMap": "transactionType"
             },
             {
-                "label": "Payer Reference Id",
+                "label": "Client Id",
                 "valueMap": "payerReferenceId"
             },
             {
@@ -549,16 +548,24 @@
                 "valueMap": "sourcePaymentAccountId"
             },
             {
-                "label": "Payee Reference Id",
+                "label": "Source Account Type",
+                "valueMap": "sourcePaymentAccountType"
+            },
+            {
+                "label": "Supplier Id",
                 "valueMap": "payeeReferenceId"
             },
             {
-                "label": "Payee Client Type",
+                "label": "Supplier Client Type",
                 "valueMap": "payeeClientType"
             },
             {
                 "label": "Destination Account Id",
-                "valueMap": "clientPaymentAccountId"
+                "valueMap": "destinationPaymentAccountId"
+            },
+            {
+                "label": "Destination Payment Account Type",
+                "valueMap": "destinationPaymentAccountType"
             },
             {
                 "label": "Processor Transaction Id",
@@ -585,6 +592,14 @@
             {
                 "label": "Transaction Details",
                 "valueMap": "transactionDetails"
+            },
+            {
+                "label": "Failure error code",
+                "valueMap": "failureErrorCode"
+            },
+            {
+                "label": "Failure Response",
+                "valueMap": "processorFailureResponse"
             }
         ],
         "ignoreKeys": []
@@ -598,6 +613,10 @@
                 "valueMap": "paymentId"
             },
             {
+                "label": "Reference Id",
+                "valueMap": "referenceId"
+            },
+            {
                 "label": "Amount",
                 "valueMap": "amount",
                 "formatType": "currency"
@@ -605,6 +624,10 @@
             {
                 "label": "Currency",
                 "valueMap": "currencyCode"
+            },
+            {
+                "label": "Payment Method",
+                "valueMap": "paymentMethod"
             },
             {
                 "label": "Status",
@@ -653,24 +676,20 @@
                 ]
             },
             {
-                "label": "Payer Reference Id",
+                "label": "Client Id",
                 "valueMap": "payerReferenceId"
             },
             {
-                "label": "Payer Account Id",
+                "label": "From Account Id",
                 "valueMap": "payerPaymentAccountId"
             },
             {
-                "label": "Payee Reference Id",
+                "label": "Supplier Id",
                 "valueMap": "payeeReferenceId"
             },
             {
-                "label": "Payee Account Id",
+                "label": "To Account Id",
                 "valueMap": "payeePaymentAccountId"
-            },
-            {
-                "label": "Payment Method",
-                "valueMap": "paymentMethod"
             },
             {
                 "label": "Payment Start Date",
@@ -693,14 +712,14 @@
                 "renderProps": {
                     "listInfo": [
                         {
-                            "label": "Payment Sub Status Details",
                             "valueMap": "paymentSubStatusDetailsStack",
                             "renderType": "table",
                             "renderProps": {
                                 "headersInfo": [
                                     {
                                         "title": "Sub Status",
-                                        "valueMap": "subStatus"
+                                        "valueMap": "subStatus",
+                                        "width": "80%"
                                     },
                                     {
                                         "title": "Change Time",
@@ -720,6 +739,87 @@
                     }
                 }
             }
+        ],
+        "ignoreKeys": [
+            "payerClientType",
+            "payeeClientType",
+            "payerPaymentAccountType",
+            "payeePaymentAccountType",
+            "paymentMetadata",
+            "paymentDescription",
+            "remittanceData"
+        ]
+    },
+    "supplierDetails": {
+        "componentType": "detailsList",
+        "title": "Supplier Details",
+        "listInfo": [
+            {
+                "label": "Supplier Name",
+                "valueMap": "companyName"
+            },
+            {
+                "label": "Payment Account config",
+                "valueMap": "paymentAccountConfiguration",
+                "componentType": "detailsList",
+                "renderProps": {
+                    "listInfo": [
+                        {
+                            "label": "Name On Check",
+                            "valueMap": "nameOnCheck"
+                        },
+                        {
+                            "label": "Payee Payment Account Id",
+                            "valueMap": "payeePaymentAccountId"
+                        },
+                        {
+                            "label": "Default Funding Account Id",
+                            "valueMap": "defaultFundingAccountPaymentId"
+                        },
+                        {
+                            "label": "Mailing Address",
+                            "valueMap": "checkMailingAddress"
+                        },
+                        {
+                            "label": "Alternate Mailing Address Enabled",
+                            "valueMap": "alternateMailingAddressEnabled",
+                            "formatType": "boolean"
+                        },
+                        {
+                            "label": "Share on Centime Payment Portal",
+                            "valueMap": "shareOnCentimePaymentPortal",
+                            "formatType": "boolean"
+                        },
+                        {
+                            "label": "Pay directly on supplier website",
+                            "valueMap": "payDirectlyOnSupplierWebsite",
+                            "formatType": "boolean"
+                        },
+                        {
+                            "label": "Default option available",
+                            "valueMap": "defaultOption",
+                            "formatType": "boolean"
+                        },
+                        {
+                            "label": "Name on Check edited by user",
+                            "valueMap": "checkNameEditedByUser",
+                            "formatType": "boolean"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "clientIdWithName": {
+        "componentType": "detailsList",
+        "listInfo": [
+            {
+                "label": "Client Name",
+                "valueMap": "clientName"
+            }
+        ],
+        "ignoreKeys": [
+            "clientId"
         ],
         "additionalContent": [
             {
@@ -743,15 +843,28 @@
                     }
                 }
             }
-        ],
-        "ignoreKeys": [
-            "payerClientType",
-            "payeeClientType",
-            "payerPaymentAccountType",
-            "payeePaymentAccountType",
-            "paymentMetadata",
-            "paymentDescription",
-            "remittanceData"
+        ]
+    },
+    "bankAccountDetails": {
+        "componentType": "detailsList",
+        "title": "Bank Account Details",
+        "listInfo": [
+            {
+                "label": "Modified Account Name",
+                "valueMap": "modifiedAccountName"
+            },
+            {
+                "label": "Account Name",
+                "valueMap": "accountName"
+            },
+            {
+                "label": "Account Type",
+                "valueMap": "accountType"
+            },
+            {
+                "label": "Account Number",
+                "valueMap": "accountNumber"
+            }
         ]
     },
     "Bill Details": {
@@ -899,7 +1012,7 @@
                 "valueMap": "virtualCardId"
             },
             {
-                "label": "Payer Account Id",
+                "label": "From Account Id",
                 "valueMap": "payerPaymentAccountId"
             },
             {
@@ -907,7 +1020,7 @@
                 "valueMap": "payerPaymentAccountName"
             },
             {
-                "label": "Payee Account Id",
+                "label": "To Account Id",
                 "valueMap": "payeePaymentAccountId"
             },
             {
@@ -1479,10 +1592,6 @@
                 }
             }
         ]
-    },
-    "SupplierDetails": {
-        "componentType": "detailsList",
-        "title": "Supplier Details"
     },
     "clientDetail": {
         "componentType": "detailsList",
