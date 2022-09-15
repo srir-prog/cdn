@@ -67,5 +67,5 @@
     "invalidSurchargePercent": "अमान्य अधिभार प्रतिशत",
     "isValidMultipleEmails": "अवैध ईमेल: {{emailList}}",
     "isMultipleEmailsLimitExceeded": "अधिकतम 15 ईमेल की अनुमति है",
-    "paybackDaysCountShouldBeLessThan90": "लौटाने की संख्या 90. से कम होनी चाहिए"
+    "paybackDaysCountShouldBeLessThan90": "पेबैक अवधि 90 दिनों से कम होनी चाहिए"
 }

@@ -70,5 +70,5 @@
     "pleaseSelectAccount": "Please select an account",
     "amountShouldBeMoreThanZero": "Amount should be more than zero",
     "amountShouldBeLessThanAvailableBalanceMsg": "Amount should be less than available balance",
-    "paybackDaysCountShouldBeLessThan90": "Payback count should be less than 90"
+    "paybackDaysCountShouldBeLessThan90": "Payback period should be less than 90 days"
 }
