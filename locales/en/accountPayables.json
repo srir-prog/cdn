@@ -204,7 +204,7 @@
     "remittance": "Remittance",
     "checkNumber": "Check Number",
     "posted": "Posted",
-    "remittanceEmail": "Sent to {{email}}",
+    "remittanceEmail": "Sent to <listOverFlow/>",
     "voidingInProcess": "Voiding in process",
     "postingInProcess": "Posting in process",
     "markedPaid": "Marked paid",
