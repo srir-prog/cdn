@@ -277,7 +277,7 @@
     "TargetCash": "Target Cash",
     "surchargeAmount": "Includes surcharge of {{surcharge}}",
     "agingGraph": "AP Aging Graph",
-    "cashImpact": "Cash Impact",
+    "cashImpact": "Payables cash impact",
     "apCashFlowInfo": "Schedule payments to include overdue invoices in the cash flow forecast",
     "creditCardAcceptance": "Credit card acceptance",
     "creditCardPayments": "Suppliers that are likely to accept credit card payments",
