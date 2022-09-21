@@ -32,6 +32,11 @@
                         },
                         "multiple": true,
                         "queryName": "activeStatus"
+                    },
+                    {
+                        "type": "Search",
+                        "title": "Client Id",
+                        "queryName": "clientId"
                     }
                 ]
             }
@@ -60,6 +65,10 @@
                         "activeStatus": {
                             "type": "queryBuilder",
                             "value": "activeStatus"
+                        },
+                        "clientId": {
+                            "type": "queryBuilder",
+                            "value": "clientId"
                         }
                     }
                 }
@@ -264,6 +273,7 @@
                 ]
             }
         },
+        "ignoreKeys": ["clientName","paymentId", "clientId"],
         "additionalContent": [
             {
                 "renderType": "Button",
@@ -316,8 +326,10 @@
                         "templateId": "PaymentDetails"
                     },
                     "paramObjMap": {
-                        "paymentId": "paymentId"
-                    }
+                        "paymentId": "paymentId",
+                        "clientName": "clientName"
+                    },
+                    "pageQueryParams": ["paymentId","clientName"]
                 },
                 "enableSort": true,
                 "width": "12%"
@@ -432,7 +444,7 @@
                 "valueMap": "uid",
                 "renderType": "Link",
                 "action": {
-                    "type": "drillDown",
+                    "type": "sidePanelData",
                     "pathList": [
                         "1.0",
                         "aggregate"
@@ -476,7 +488,7 @@
                 "formatType": "date"
             },
             {
-                "title": "Failure Error",
+                "title": "Error Code",
                 "valueMap": "failureErrorCode"
             },
             {
@@ -676,25 +688,61 @@
                 "valueMap": "payerReferenceId"
             },
             {
-                "label": "From Account Id",
-                "valueMap": "payerPaymentAccountId"
+                "label": "Client Name",
+                "valueMap": "clientName"
             },
             {
                 "label": "Supplier Id",
-                "valueMap": "payeeReferenceId"
+                "valueMap": "payeeReferenceId",
+                "renderType": "Link",
+                "action": {
+                    "type": "sidePanelData",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "SupplierDetails"
+                    },
+                    "paramObjMap": {
+                        "clientId": "payerReferenceId",
+                        "supplierId": "payeeReferenceId",
+                        "paymentMethod": "paymentMethod"
+                    }
+                }
+            },
+            {
+                "label": "From Account Id",
+                "valueMap": "payerPaymentAccountId",
+                "renderType": "Link",
+                "action": {
+                    "type": "sidePanelData",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "BankAccountDetails"
+                    },
+                    "paramObjMap": {
+                        "clientId": "payerReferenceId",
+                        "payerPaymentAccountId": "payerPaymentAccountId",
+                        "paymentMethod": "paymentMethod"
+                    }
+                }
             },
             {
                 "label": "To Account Id",
                 "valueMap": "payeePaymentAccountId"
             },
             {
-                "label": "Payment Start Date",
-                "valueMap": "paymentStartDate",
+                "label": "Payment Capture Date",
+                "valueMap": "paymentCaptureDate",
                 "formatType": "date"
             },
             {
-                "label": "Payment Capture Date",
-                "valueMap": "paymentCaptureDate",
+                "label": "Payment Start Date",
+                "valueMap": "paymentStartDate",
                 "formatType": "date"
             },
             {
@@ -743,7 +791,8 @@
             "payeePaymentAccountType",
             "paymentMetadata",
             "paymentDescription",
-            "remittanceData"
+            "remittanceData",
+            "clientId"
         ],
         "additionalContent": [
             {
@@ -764,7 +813,8 @@
                     "paramObjMap": {
                         "clientId": "payerReferenceId",
                         "paymentId": "paymentId"
-                    }
+                    },
+                    "pageQueryParams": ["clientId"]
                 }
             }
         ]
@@ -778,7 +828,7 @@
                 "valueMap": "companyName"
             },
             {
-                "label": "Payment Account config",
+                "label": "To Account Details",
                 "valueMap": "paymentAccountConfiguration",
                 "componentType": "detailsList",
                 "renderProps": {
@@ -836,7 +886,8 @@
                             "label": "Bank Name",
                             "valueMap": "bankName"
                         }
-                    ]
+                    ],
+                    "ignoreKeys": ["defaultFundingAccountPaymentId","payeePaymentAccountId"]
                 }
             }
         ]
@@ -855,7 +906,7 @@
     },
     "bankAccountDetails": {
         "componentType": "detailsList",
-        "title": "Bank Account Details",
+        "title": "From Bank Account Details",
         "listInfo": [
             {
                 "label": "Modified Account Name",
@@ -885,7 +936,8 @@
                 "label": "Account Number",
                 "valueMap": "accountNumber"
             }
-        ]
+        ],
+        "ignoreKeys": ["clientName","paymentId"]
     },
     "Bill Details": {
         "componentType": "detailsList",
@@ -904,51 +956,46 @@
                 "valueMap": "billNumber"
             },
             {
-                "label": "Company Name",
-                "valueMap": "companyName"
-            },
-            {
-                "label": "Due Date",
-                "valueMap": "dueDate",
-                "formatType": "datetime"
-            },
-            {
-                "label": "Transaction Total Amount",
-                "valueMap": "txnTotalAmount",
-                "formatType": "currency"
-            },
-            {
-                "label": "Transaction Balance",
-                "valueMap": "txnBalance"
-            },
-            {
-                "label": "Home Total Amount",
-                "valueMap": "homeTotalAmount",
-                "formatType": "currency"
-            },
-            {
-                "label": "Home Balance",
-                "valueMap": "homeBalance"
-            },
-            {
-                "label": "Currency",
-                "valueMap": "currencyCode"
-            },
-            {
-                "label": "Exchange Rate",
-                "valueMap": "exchangeRate"
-            },
-            {
-                "label": "Term Name",
-                "valueMap": "termName"
-            },
-            {
                 "label": "Payment Id",
                 "valueMap": "paymentId"
             },
             {
                 "label": "Payment Method",
-                "valueMap": "paymentMethod"
+                "valueMap": "paymentMethod",
+                "displayValueEnum": [
+                    {
+                        "label": "CHECK",
+                        "value": 1
+                    },
+                    {
+                        "label": "ACH",
+                        "value": 2
+                    },
+                    {
+                        "label": "CENTIME_CARD",
+                        "value": 3
+                    },
+                    {
+                        "label": "CREDIT_CARD",
+                        "value": 4
+                    },
+                    {
+                        "label": "OTHER",
+                        "value": 5
+                    },
+                    {
+                        "label": "FX_PAYMENT",
+                        "value": 6
+                    },
+                    {
+                        "label": "CENTIME_PAY",
+                        "value": 7
+                    },
+                    {
+                        "label": "CENTIME_CASH",
+                        "value": 8
+                    }
+                ]
             },
             {
                 "label": "Payment Type",
@@ -962,15 +1009,6 @@
                 "label": "Payment Amount",
                 "valueMap": "paymentAmount",
                 "formatType": "currency"
-            },
-            {
-                "label": "Surcharge Amount",
-                "valueMap": "surchargeAmount",
-                "formatType": "currency"
-            },
-            {
-                "label": "Credit Applied",
-                "valueMap": "creditApplied"
             },
             {
                 "label": "Payment Date",
@@ -1024,6 +1062,54 @@
                 ]
             },
             {
+                "label": "Company Name",
+                "valueMap": "companyName"
+            },
+            {
+                "label": "Due Date",
+                "valueMap": "dueDate",
+                "formatType": "datetime"
+            },
+            {
+                "label": "Transaction Total Amount",
+                "valueMap": "txnTotalAmount",
+                "formatType": "currency"
+            },
+            {
+                "label": "Transaction Balance",
+                "valueMap": "txnBalance"
+            },
+            {
+                "label": "Home Total Amount",
+                "valueMap": "homeTotalAmount",
+                "formatType": "currency"
+            },
+            {
+                "label": "Home Balance",
+                "valueMap": "homeBalance"
+            },
+            {
+                "label": "Currency",
+                "valueMap": "currencyCode"
+            },
+            {
+                "label": "Exchange Rate",
+                "valueMap": "exchangeRate"
+            },
+            {
+                "label": "Term Name",
+                "valueMap": "termName"
+            },
+            {
+                "label": "Surcharge Amount",
+                "valueMap": "surchargeAmount",
+                "formatType": "currency"
+            },
+            {
+                "label": "Credit Applied",
+                "valueMap": "creditApplied"
+            },
+            {
                 "label": "Description",
                 "valueMap": "description"
             },
@@ -1033,7 +1119,22 @@
             },
             {
                 "label": "From Account Id",
-                "valueMap": "payerPaymentAccountId"
+                "valueMap": "payerPaymentAccountId",
+                "renderType": "Link",
+                "action": {
+                    "type": "sidePanelData",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "BankAccountDetailsByAccountId"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId",
+                        "accountId": "payerPaymentAccountId"
+                    }
+                }
             },
             {
                 "label": "Payer Account Name",
@@ -1207,6 +1308,97 @@
                         {
                             "label": "Approval Info",
                             "valueMap": "approvalInfo"
+                        },
+                        {
+                            "label": "Reason",
+                            "valueMap": "reason",
+                            "valueTNS": "accountPayables",
+                            "displayValueEnum": [
+                                {
+                                    "label": "unknown",
+                                    "value": "0"
+                                },
+                                {
+                                    "label": "systemFailure",
+                                    "value": "1"
+                                },
+                                {
+                                    "label": "paymentAmountShouldBeTill2DecimalPlaces",
+                                    "value": "2"
+                                },
+                                {
+                                    "label": "invalidPaymentCurrency",
+                                    "value": "3"
+                                },
+                                {
+                                    "label": "invalidPaymentDate",
+                                    "value": "4"
+                                },
+                                {
+                                    "label": "issueInActivatingPaymentProduct",
+                                    "value": "5"
+                                },
+                                {
+                                    "label": "invalidAccountDetails",
+                                    "value": "6"
+                                },
+                                {
+                                    "label": "limitForMaximumPaymentAmountExceeded",
+                                    "value": "7"
+                                },
+                                {
+                                    "label": "supplierAccountShouldBeDifferentFromFundingAccount",
+                                    "value": "8"
+                                },
+                                {
+                                    "label": "issuesInGeneratingCardDetails",
+                                    "value": "9"
+                                },
+                                {
+                                    "label": "issueInOnboardingCentimeCard",
+                                    "value": "10"
+                                },
+                                {
+                                    "label": "insufficientBalance",
+                                    "value": "11"
+                                },
+                                {
+                                    "label": "invalidPaymentMethod",
+                                    "value": "12"
+                                },
+                                {
+                                    "label": "issueInOnboardingACHPayments",
+                                    "value": "13"
+                                },
+                                {
+                                    "label": "invalidAccountDetails",
+                                    "value": "14"
+                                },
+                                {
+                                    "label": "paymentNetworkFailure",
+                                    "value": "15"
+                                },
+                                {
+                                    "label": "supplierDeclinedPayment",
+                                    "value": "16"
+                                },
+                                {
+                                    "label": "inactiveSupplierAccount",
+                                    "value": "17"
+                                },
+                                {
+                                    "label": "supplierBankCouldNotSettleThePayment",
+                                    "value": "18"
+                                },
+                                {
+                                    "label": "inactivePayFromAccount",
+                                    "value": "19"
+                                },
+                                {
+                                    "label": "surchargeUpdated",
+                                    "value": "20"
+                                }
+                            ]
                         }
                     ],
                     "detailsListFullWidth": true,
@@ -1227,7 +1419,22 @@
                         },
                         {
                             "label": "Status",
-                            "valueMap": "status"
+                            "valueMap": "status",
+                            "valueTNS": "accountPayables",
+                            "displayValueEnum": [
+                                {
+                                    "label": "scheduled",
+                                    "value": 0
+                                },
+                                {
+                                    "label": "failed",
+                                    "value": 1
+                                },
+                                {
+                                    "label": "success",
+                                    "value": 2
+                                }
+                            ]
                         },
                         {
                             "label": "By User",
@@ -1379,7 +1586,8 @@
             "approvalLevel",
             "creditDetails",
             "paymentNotes",
-            "glVoidStatus"
+            "glVoidStatus",
+            "clientId"
         ]
     },
     "destinationBankAccountDetails": {
