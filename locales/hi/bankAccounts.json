@@ -296,5 +296,7 @@
     "CentimeCashWithdrawSuccessMsg": "{{amount}} की राशि निकालने का अनुरोध सफल रहा।",
     "CentimeCashWithdrawFailureMsg": "{{amount}} की राशि निकालने का अनुरोध विफल हुआ। कृपया बाद में पुन: प्रयास करें।",
     "centimeCashAvailableBalance": "उपलब्ध शेष राशि: {{availableBalance}}",
+    "CentimeCashManualRepayDataSuccessMsg": "{{amount}} राशि का पुनर्भुगतान सफलतापूर्वक शुरू कर दिया गया है।",
+    "CentimeCashManualRepayDataErrorMsg": "राशि {{amount}} का पुनर्भुगतान विफल हो गया है। बाद में पुन: प्रयास करें।",
     "centimeCashInActiveTooltip": "कृपया इस वित्तीय संस्थान के साथ एक समाशोधन खाता कनेक्ट करें।"
 }
