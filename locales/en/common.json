@@ -386,5 +386,6 @@
     "month": "Time (Month ending)",
     "Daily": "Daily",
     "Weekly": "Weekly",
-    "Montly": "Monthly"
+    "Montly": "Monthly",
+    "accordionInvoiceNumberHistory": "View Document History"
 }
