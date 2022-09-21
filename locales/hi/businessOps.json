@@ -19,6 +19,14 @@
     "byUserName": "By User",
     "glAccountId": "GL Account Id",
     "errorCode": "Error Code",
-    "subPaymentMethod": "Sub Payment Method",
-    "paymentType": "Payment Type"
+    "subPaymentMethod ": "Sub Payment Method",
+    "paymentType ": "Payment Type",
+    "clientName": "Client Name",
+    "clientId": "Client Id",
+    "paymentId": "Payment Id",
+    "addressLine": "Address Line",
+    "city": "City",
+    "state": "State",
+    "country": "Country",
+    "zipCode": "Zip Code"
 }

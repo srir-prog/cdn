@@ -2,6 +2,7 @@
     "clientsListQueryBuilder": {
         "componentType": "detailsList",
         "title": "Clients",
+        "ignoreKeys": ["clientName","paymentId", "clientId"],
         "additionalProperties": {
             "showQueryBuilder": true,
             "queryBuilderPosition": "bottom",
@@ -937,7 +938,7 @@
                 "valueMap": "accountNumber"
             }
         ],
-        "ignoreKeys": ["clientName","paymentId"]
+        "ignoreKeys": ["clientName","paymentId", "clientId"]
     },
     "Bill Details": {
         "componentType": "detailsList",
