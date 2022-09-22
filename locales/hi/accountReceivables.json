@@ -354,5 +354,6 @@
     "totalReceivables" : "अपेक्षित राशि",
     "adjustedCashBalance" : "पिछला नकद शेष",
     "closingCashBalance" : "नकदी शेष",
-    "cashImpact": "नकद प्रभाव"
+    "cashImpact": "नकद प्रभाव",
+    "cashFlowGraph": "प्राप्य नकद प्रभाव"
 }
