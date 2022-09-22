@@ -272,7 +272,7 @@
     "AgingGraph": "AP Aging",
     "closingCashBalance": "Cash Balance",
     "totalPayables": "Payment Amount",
-    "CashFlowGraph": "Cash Flow Graph",
+    "cashFlowGraph": "Payables cash impact",
     "LowCash": "Low Cash",
     "TargetCash": "Target Cash",
     "surchargeAmount": "Includes surcharge of {{surcharge}}",
