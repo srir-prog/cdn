@@ -387,5 +387,12 @@
     "Daily": "Daily",
     "Weekly": "Weekly",
     "Montly": "Monthly",
-    "accordionInvoiceNumberHistory": "View Document History"
+    "accordionInvoiceNumberHistory": "View Document History",
+    "uploaded": "Uploaded",
+    "emailReceived": "Email Received",
+    "posting":"Posting",
+    "documentDetailsMissing": "Document details missing",
+    "initiatedBy":"Initiated by {{initiator}}",
+    "byUser": "by {{byUserName}}",
+    "fromInitiator": "from {{initiatorName}}"
 }
