@@ -372,5 +372,7 @@
     "CentimeCashWithdrawFailureMsg": "Request for withdrawal for the amount of {{amount}} failed. Please try again later.",
     "CentimeCashManualRepayDataSuccessMsg": "Repayment of the amount {{amount}} is successfully initiated.",
     "CentimeCashManualRepayDataErrorMsg": "Repayment of the amount {{amount}} has failed. Please try again later.",
-    "CentimeCashInActiveTooltip": "Please connect a clearing account with this Financial Institution."
+    "CentimeCashInActiveTooltip": "Please connect a clearing account with this Financial Institution.",
+    "CentimeCashManualGLPostSuccessMsg": "Transaction successfully posted",
+    "CentimeCashManualGLPostErrorMsg": "Transaction posting to the general ledger failed"
 }
