@@ -300,5 +300,9 @@
     "CentimeCashManualRepayDataErrorMsg": "राशि {{amount}} का पुनर्भुगतान विफल हो गया है। बाद में पुन: प्रयास करें।",
     "CentimeCashInActiveTooltip": "कृपया इस वित्तीय संस्थान के साथ एक समाशोधन खाता कनेक्ट करें।",
     "CentimeCashManualGLPostSuccessMsg": "लेन-देन सफलतापूर्वक पोस्ट किया गया",
-    "CentimeCashManualGLPostErrorMsg": "सामान्य लेज़र में लेन-देन पोस्टिंग विफल"
+    "CentimeCashManualGLPostErrorMsg": "सामान्य लेज़र में लेन-देन पोस्टिंग विफल",
+    "GlPostInPayablesToolTipMsg":"पोस्टिंग विफल. यह लेन-देन देनदारियों में पोस्ट किया जा सकता है",
+    "centimeCashTransactions":"सेंटीम नकद लेनदेन",
+    "postingFailed": "पोस्टिंग विफल",
+    "postingInProgress": "पोस्टिंग चल रही है"
 }
