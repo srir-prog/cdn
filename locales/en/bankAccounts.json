@@ -375,7 +375,7 @@
     "CentimeCashInActiveTooltip": "Please connect a clearing account with this Financial Institution.",
     "CentimeCashManualGLPostSuccessMsg": "Transaction successfully posted",
     "CentimeCashManualGLPostErrorMsg": "Transaction posting to the general ledger failed",
-    "GlPostInPayablesToolTipMsg": "Posting failed. This transaction can be posted in payables",
+    "glPostInPayablesToolTipMsg": "Posting failed. This transaction can be posted in payables",
     "postingFailed": "Posting failed",
     "postingInProgress": "Posting In progress",
     "centimeCashTransactions": "Centime cash transactions"
