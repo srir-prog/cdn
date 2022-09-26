@@ -295,5 +295,14 @@
     "CentimeCashWithdrawalPopup": "CentimeCash पॉपअप से ड्रा करें",
     "CentimeCashWithdrawSuccessMsg": "{{amount}} की राशि निकालने का अनुरोध सफल रहा।",
     "CentimeCashWithdrawFailureMsg": "{{amount}} की राशि निकालने का अनुरोध विफल हुआ। कृपया बाद में पुन: प्रयास करें।",
-    "centimeCashAvailableBalance": "उपलब्ध शेष राशि: {{availableBalance}}"
+    "centimeCashAvailableBalance": "उपलब्ध शेष राशि: {{availableBalance}}",
+    "CentimeCashManualRepayDataSuccessMsg": "{{amount}} राशि का पुनर्भुगतान सफलतापूर्वक शुरू कर दिया गया है।",
+    "CentimeCashManualRepayDataErrorMsg": "राशि {{amount}} का पुनर्भुगतान विफल हो गया है। बाद में पुन: प्रयास करें।",
+    "CentimeCashInActiveTooltip": "कृपया इस वित्तीय संस्थान के साथ एक समाशोधन खाता कनेक्ट करें।",
+    "centimeCashManualGLPostSuccessMsg": "लेन-देन सफलतापूर्वक पोस्ट किया गया",
+    "centimeCashManualGLPostErrorMsg": "सामान्य लेज़र में लेन-देन पोस्टिंग विफल",
+    "glPostInPayablesToolTipMsg":"पोस्टिंग विफल. यह लेन-देन देनदारियों में पोस्ट किया जा सकता है",
+    "centimeCashTransactions":"सेंटीम नकद लेनदेन",
+    "postingFailed": "पोस्टिंग विफल",
+    "postingInProgress": "पोस्टिंग चल रही है"
 }
