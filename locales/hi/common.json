@@ -17,7 +17,7 @@
     "HistoryActionCampaignPaused2": "अभियान रोका गया",
     "HistoryActionCampaignResumed2": "अभियान फिर से शुरू हुआ",
     "EmailTrackFetchFailed": "ईमेल संदेश पुनर्प्राप्त नहीं किया जा सका। कृपया सेंटिम सपोर्ट से संपर्क करें",
-    "ByUserName": "द्वारा {{userName}}",
+    "ByUserName": "{{userName}} द्वारा",
     "CustomerSummaryNotificationSuccess": "ग्राहक {{buyerName}} सहेजने गया",
     "CustomerSummaryNotificationError": "ग्राहक के विवरण को सहेजने में समस्या थी {{buyerName}}. कृपया सेंटिम सपोर्ट से संपर्क करें",
     "Summary": "सारांश",
@@ -392,7 +392,6 @@
     "posting":"प्रविष्टि",
     "documentDetailsMissing": "दस्तावेज़ विवरण अनुपलब्ध",
     "initiatedBy": "{{initiator}} द्वारा शुरू किया गया ",
-    "byUser": "{{byUserName}} द्वारा",
     "fromInitiator": "{{initiatorName}} से"
     
 }

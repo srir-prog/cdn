@@ -392,6 +392,5 @@
     "posting":"Posting",
     "documentDetailsMissing": "Document details missing",
     "initiatedBy":"Initiated by {{initiator}}",
-    "byUser": "by {{byUserName}}",
     "fromInitiator": "from {{initiatorName}}"
 }
