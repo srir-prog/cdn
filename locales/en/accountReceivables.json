@@ -74,7 +74,7 @@
     "HeaderLabelAverageDelay": "Average delay",
     "HeaderLabelDelay": "Delay",
     "HeaderLabelInvoices": "Invoices",
-    "HeaderLabelInvoiceNumber": "Invoice number",
+    "HeaderLabelInvoiceNumber": "Invoice",
     "HeaderLabelAge": "Age",
     "HeaderLabelStatus": "Status",
     "HeaderLabelPaymentExpected": "Payment expected",
@@ -355,5 +355,6 @@
     "adjustedCashBalance": "Previous Cash Balance",
     "closingCashBalance": "Cash Balance",
     "cashImpact": "Cash Impact",
-    "cashFlowGraph": "Receivables cash impact"
+    "cashFlowGraph": "Receivables cash impact",
+    "HeaderLabelDaysPastDue": "Days past due"
 }

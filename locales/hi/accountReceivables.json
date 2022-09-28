@@ -74,7 +74,7 @@
     "HeaderLabelAverageDelay": "औसत देरी",
     "HeaderLabelDelay": "विलंब",
     "HeaderLabelInvoices": "चालान",
-    "HeaderLabelInvoiceNumber": "बीजक संख्या",
+    "HeaderLabelInvoiceNumber": "चालान",
     "HeaderLabelAge": "उम्र",
     "HeaderLabelStatus": "स्थिति",
     "HeaderLabelPaymentExpected": "भुगतान अपेक्षित है",
@@ -355,5 +355,6 @@
     "adjustedCashBalance": "पिछला नकद शेष",
     "closingCashBalance": "नकदी शेष",
     "cashImpact": "नकद प्रभाव",
-    "cashFlowGraph": "प्राप्य नकद प्रभाव"
+    "cashFlowGraph": "प्राप्य नकद प्रभाव",
+    "HeaderLabelDaysPastDue": "पिछले दिनों देय"
 }
