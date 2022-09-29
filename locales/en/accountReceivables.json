@@ -354,5 +354,6 @@
     "totalReceivables" : "Expected Amount",
     "adjustedCashBalance" : "Previous Cash Balance",
     "closingCashBalance" : "Cash Balance",
-    "cashImpact": "Cash Impact"
+    "cashImpact": "Cash Impact",
+    "cashFlowGraph": "Receivables cash impact"
 }
