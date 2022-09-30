@@ -523,5 +523,6 @@
     "defaultFetchError": "Error while fetching settings",
     "defaultUpdateError": "Error while updating settings",
     "ErrorInRefreshSandbox": "Error in initiating refresh of sandbox. Please try again a little later.",
-    "RefreshSandboxSuccess":"Sandbox has been successfully refreshed."
+    "RefreshSandboxSuccess":"Sandbox has been successfully refreshed.",
+    "selectPayrollGLsInfo": "Cash flows associated with the selected accounts will be grouped under the 'Payroll' label in the Cash Flow table"
 }
