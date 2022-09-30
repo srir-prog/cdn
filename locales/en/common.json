@@ -392,5 +392,6 @@
     "posting":"Posting",
     "documentDetailsMissing": "Document details missing",
     "initiatedBy":"Initiated by {{initiator}}",
-    "fromInitiator": "from {{initiatorName}}"
+    "fromInitiator": "from {{initiatorName}}",
+    "selectFileToUpload": "Select a file to upload"
 }
