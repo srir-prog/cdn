@@ -392,6 +392,6 @@
     "posting":"प्रविष्टि",
     "documentDetailsMissing": "दस्तावेज़ विवरण अनुपलब्ध",
     "initiatedBy": "{{initiator}} द्वारा शुरू किया गया ",
-    "fromInitiator": "{{initiatorName}} से"
-    
+    "fromInitiator": "{{initiatorName}} से",
+    "selectFileToUpload": "अपलोड करने के लिए फ़ाइल का चयन करें"
 }
