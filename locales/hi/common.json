@@ -393,6 +393,6 @@
     "documentDetailsMissing": "दस्तावेज़ विवरण अनुपलब्ध",
     "initiatedBy": "{{initiator}} द्वारा शुरू किया गया ",
     "fromInitiator": "{{initiatorName}} से",
-    "needsReviewStatusHeader": "समीक्षा की आवश्यकता: दस्तावेज़ विवरण अनुपलब्ध"
-    
+    "needsReviewStatusHeader": "समीक्षा की आवश्यकता: दस्तावेज़ विवरण अनुपलब्ध",
+    "selectFileToUpload": "अपलोड करने के लिए फ़ाइल का चयन करें"
 }
