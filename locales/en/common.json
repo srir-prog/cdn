@@ -386,5 +386,12 @@
     "Weekly": "Weekly",
     "Montly": "Monthly",
     "accordionInvoiceNumberHistory": "View Document History",
-    "viewInvoice": "View invoice"
+    "viewInvoice": "View invoice",
+    "uploaded": "Uploaded",
+    "emailReceived": "Email received",
+    "posting":"Posting",
+    "documentDetailsMissing": "Document details missing",
+    "initiatedBy":"Initiated by {{initiator}}",
+    "fromInitiator": "from {{initiatorName}}",
+    "selectFileToUpload": "Select a file to upload"
 }
