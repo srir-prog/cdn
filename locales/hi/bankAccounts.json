@@ -308,6 +308,6 @@
     "paybackDateInfoTooltipText": "अनुमानित निपटान तिथि और पेबैक अवधि के आधार पर परिकलित",
     "estimatedSettlementDateToolTip": "चयनित खाते में राशि जमा होने में लगभग तीन दिन लगते हैं",
     "estimatedCostToolTipText": "पेबैक अवधि * निकाली गई राशि * प्रति दिन शुल्क",
-    "SUCCESS": "की तैनाती",
+    "SUCCESS": "सफलता",
     "SCHEDULED": "अनुसूचित"
 }
