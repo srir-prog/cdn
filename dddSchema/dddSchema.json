@@ -12,30 +12,36 @@
                     {
                         "type": "Dropdown",
                         "title": "Period",
-                        "options": {
-                            "": "All",
-                            "today": "today",
-                            "yesterday": "yesterday",
-                            "week": "this week",
-                            "month": "this month"
+                        "componentProps": {
+                            "options": {
+                                "": "All",
+                                "today": "today",
+                                "yesterday": "yesterday",
+                                "week": "this week",
+                                "month": "this month"
+                            },
+                            "multiple": false,
+                            "tnsForOptions": false
                         },
-                        "multiple": false,
                         "queryName": "period",
                         "default": "week"
                     },
                     {
                         "type": "Dropdown",
                         "title": "Status",
-                        "options": {
-                            "CANCELLED": "CANCELLED",
-                            "COMPLETED": "COMPLETED",
-                            "FAILED": "FAILED",
-                            "INITIATED": "INITIATED",
-                            "PROCESSING": "PROCESSING",
-                            "SCHEDULED": "SCHEDULED",
-                            "UNKNOWN": "UNKNOWN"
+                        "componentProps": {
+                            "options": {
+                                "CANCELLED": "CANCELLED",
+                                "COMPLETED": "COMPLETED",
+                                "FAILED": "FAILED",
+                                "INITIATED": "INITIATED",
+                                "PROCESSING": "PROCESSING",
+                                "SCHEDULED": "SCHEDULED",
+                                "UNKNOWN": "UNKNOWN"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
                         },
-                        "multiple": true,
                         "queryName": "status",
                         "default": [
                             "FAILED",
@@ -45,7 +51,11 @@
                         ]
                     },
                     {
-                        "type": "Search",
+                        "type": "Input",
+                        "componentProps": {
+                            "fullWidth": true,
+                            "placeholder": "All"
+                        },
                         "title": "Client Id",
                         "queryName": "clientId"
                     }
@@ -101,29 +111,39 @@
                     {
                         "type": "Dropdown",
                         "title": "GL Type",
-                        "options": {
-                            "2": "QuickBooks Online ",
-                            "3": "Oracle NetSuite",
-                            "4": "QuickBooks Desktop"
+                        "componentProps": {
+                            "options": {
+                                "2": "QuickBooks Online ",
+                                "3": "Oracle NetSuite",
+                                "4": "QuickBooks Desktop"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
                         },
-                        "multiple": true,
                         "queryName": "glType"
                     },
                     {
                         "type": "Dropdown",
                         "title": "Status",
-                        "options": {
-                            "1": "Not-Activated",
-                            "2": "Active",
-                            "3": "Suspended",
-                            "4": "Closed",
-                            "5": "Invited"
+                        "componentProps": {
+                            "options": {
+                                "1": "Not-Activated",
+                                "2": "Active",
+                                "3": "Suspended",
+                                "4": "Closed",
+                                "5": "Invited"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
                         },
-                        "multiple": true,
                         "queryName": "activeStatus"
                     },
                     {
-                        "type": "Search",
+                        "type": "Input",
+                        "componentProps": {
+                            "fullWidth":  true,
+                            "placeholder": "All"
+                        },
                         "title": "Client Id",
                         "queryName": "clientId"
                     }
@@ -176,10 +196,13 @@
                 "showChooseFilterInQueryBuilder": false,
                 "elementsInfo": [
                     {
-                        "type": "Search",
+                        "type": "Input",
+                        "componentProps": {
+                            "fullWidth":  true,
+                            "placeholder": "User's Email address"
+                        },
                         "queryName": "loginId",
-                        "gridSize": 3,
-                        "placeholder": "User's Email address"
+                        "gridSize": 3
                     }
                 ]
             }
@@ -2383,6 +2406,7 @@
                 },
                 "paramObjMap": {
                     "clientId": "clientId",
+                    "loginId": "loginId",
                     "userStatus": "userStatus",
                     "loginAttemptLeft": "loginAttemptLeft"
                 },
@@ -2418,6 +2442,30 @@
                 "editable": true
             }
         ],
+        "additionalContent": [
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Sync now",
+                    "className": "mb-5"
+                },
+                "renderPosition": "top",
+                "action": {
+                    "type": "updateCall",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "SyncNow"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId",
+                        "sourceName": "sourceName"
+                    }
+                }
+            }
+        ],
         "additionalProperties": {
             "editableForm": true,
             "onSaveAction": {
@@ -2442,13 +2490,13 @@
     },
     "dataSyncTrack": {
         "componentType": "table",
-        "title": "Data Entity List",
+        "title": "Data Sync Track",
         "headersInfo": [
             {
                 "title": "Client Id",
                 "valueMap": "clientId",
                 "renderType": "text",
-                "width": "12%"
+                "width": "8%"
             },
             {
                 "title": "GL Type",
@@ -2466,7 +2514,7 @@
                 "title": "Entity Sync Status",
                 "valueMap": "entitySyncStatus",
                 "renderType": "text",
-                "editable": "Input",
+                "editable": "Dropdown",
                 "componentProps": {
                     "options": {
                         "IN SYNC" : "IN SYNC",
@@ -2475,7 +2523,7 @@
                         "DISCONNECTED": "DISCONNECTED"
                     }
                 },
-                "width": "12%"
+                "width": "16%"
             },
             {
                 "title": "Last Sync",
@@ -2483,20 +2531,19 @@
                 "formatType": "date",
                 "editable": "DatesSelector",
                 "componentProps": {
-                    "type": "singleDate"
+                    "onlySingleDate": true
                 },
-                "width": "12%"
+                "width": "15%"
             },
             {
                 "title": "Batch Id",
                 "valueMap": "batchId",
                 "renderType": "text",
-                "width": "20%"
+                "width": "15%"
             }
         ],
         "additionalProperties": {
             "editableForm": true,
-            "deletableForm": true,
             "onSaveAction": {
                 "type": "updateCall",
                 "url": "fs/business-ops-service",
@@ -2513,7 +2560,8 @@
                     "sourceName": "sourceName",
                     "entityName": "entityName",
                     "lastSyncTime": "lastSyncTime",
-                    "entitySyncStatus": "entitySyncStatus"
+                    "entitySyncStatus": "entitySyncStatus",
+                    "batchId": "batchId"
                 },
                 "bodyObjMap": {}
             }
