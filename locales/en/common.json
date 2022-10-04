@@ -393,5 +393,6 @@
     "documentDetailsMissing": "Document details missing",
     "initiatedBy":"Initiated by {{initiator}}",
     "fromInitiator": "from {{initiatorName}}",
+    "needsReviewStatusHeader": "Needs review: Document details missing",
     "selectFileToUpload": "Select a file to upload"
 }
