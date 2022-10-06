@@ -2181,7 +2181,37 @@
             },
             {
                 "label": "GL status",
-                "valueMap": "glConnectionStatus"
+                "valueMap": "glConnectionStatus",
+                "editable": true,
+                "editType": "select",
+                "displayValueEnum": [
+                    {
+                        "label": "GL Connection Pending",
+                        "value": "GL Connection Pending"
+                    },
+                    {
+                        "label": "Connected",
+                        "value": "Connected"
+                    },
+                    {
+                        "label": "Disconnected",
+                        "value": "Disconnected"
+                    }
+                ],
+                "enum": [
+                    {
+                        "label": "GL Connection Pending",
+                        "value": "GL Connection Pending"
+                    },
+                    {
+                        "label": "Connected",
+                        "value": "Connected"
+                    },
+                    {
+                        "label": "Disconnected",
+                        "value": "Disconnected"
+                    }
+                ]
             },
             {
                 "label": "Tax Number",
@@ -2256,7 +2286,8 @@
                 "paramObjMap": {
                     "clientId": "clientId",
                     "clientKycStatus": "clientKycStatus",
-                    "clientVerificationStatus": "clientVerificationStatus"
+                    "clientVerificationStatus": "clientVerificationStatus",
+                    "glConnectionStatus": "glConnectionStatus"
                 },
                 "bodyObjMap": {}
             }
