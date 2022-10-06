@@ -273,7 +273,7 @@
     "cashImpact": "कैश इम्पैक्ट",
     "closingCashBalance": "कैश बैलेंस",
     "totalPayables": "भुगतान राशि",
-    "CashFlowGraph": "कैश फ्लो ग्राफ",
+    "cashFlowGraph": "देय नकद प्रभाव",
     "LowCash": "लो कैश",
     "TargetCash": "लक्षित कैश",
     "agingGraph": "एपी एजिंग ग्राफ़",
