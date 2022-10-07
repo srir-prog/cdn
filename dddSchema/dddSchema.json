@@ -100,7 +100,6 @@
     "clientsListQueryBuilder": {
         "componentType": "detailsList",
         "title": "Clients",
-        "ignoreKeys": ["clientName","paymentId", "clientId"],
         "additionalProperties": {
             "showQueryBuilder": true,
             "queryBuilderPosition": "bottom",
@@ -317,6 +316,134 @@
             }
         ]
     },
+    "transientClientsListQueryBuilder":{
+        "componentType": "detailsList",
+        "title": "Transient Clients",
+        "ignoreKeys": ["clientName","paymentId", "clientId","glType"],
+        "additionalProperties": {
+            "showQueryBuilder": true,
+            "queryBuilderPosition": "bottom",
+            "queryBuilderParams": {
+                "orientation": "row",
+                "showChooseFilterInQueryBuilder": false,
+                "elementsInfo": [
+                    {
+                        "type": "Dropdown",
+                        "title": "GL Type",
+                        "componentProps": {
+                            "options": {
+                                "2": "QuickBooks Online ",
+                                "3": "Oracle NetSuite",
+                                "4": "QuickBooks Desktop"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
+                        },
+                        "gridSize":4,
+                        "queryName": "glType"
+                    }
+                ]
+            }
+        },
+        "additionalContent": [
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "List clients"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "TotalTransientClientList"
+                    },
+                    "paramObjMap": {
+                        "glType": {
+                            "type": "queryBuilder",
+                            "value": "glType"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "totalTransientClientsList":{
+        "componentType": "table",
+        "title": "Transient  client list",
+        "headersInfo":[
+            {
+                "title": "Client Id",
+                "valueMap": "clientId",
+                "renderType": "text",
+                "align":"left",
+                "width": "15%",
+                "enableSort": true
+            },
+            {
+                "title": "Name",
+                "valueMap": "clientName",
+                "renderType": "text",
+                "width": "25%",
+                "enableSort": true
+            },
+            {
+                "title": "GL Type",
+                "valueMap": "glType",
+                "width": "30%",
+                "renderType": "text",
+                "displayValueEnum": [
+                    {
+                        "label": "Sandbox",
+                        "value": 0
+                    },
+                    {
+                        "label": "QuickBooks Online",
+                        "value": 2
+                    },
+                    {
+                        "label": "Oracle NetSuite",
+                        "value": 3
+                    },
+                    {
+                        "label": "QuickBooks Desktop",
+                        "value": 4
+                    }
+                ]
+            },
+            {
+                "title": "Users",
+                "valueMap": "users",
+                "renderType": "text",
+                "width": "30%",
+                "enableSort": true
+            }
+        ],
+        "additionalProperties": {
+            "deletableForm": true,
+            "editableForm":false,
+            "enableSearch": true,
+            "paginationNeeded": true,
+            "onDeleteAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "DeleteTransientClient"
+                },
+                "paramObjMap": {
+                    "clientTransientId": "clientId"
+                }
+            }
+        }
+    },
     "cfValidation":{
         "componentType": "table",
         "title": "Cf Validation List",
@@ -354,7 +481,6 @@
                 "width":"26.6%"
             }
         ],
-        "ignoreKeys": [],
         "additionalProperties": {
             "defaultSortingOrder": "desc",
             "defaultColumnToSort": 8,
@@ -2402,15 +2528,15 @@
                 },
                 "renderPosition": "bottom",
                 "action": {
-                  "type": "drillDownNewPage",
-                  "data": {
-                    "cfValidationQueryBuilder": {}
-                  },
-                  "paramObjMap": {
-                    "clientId": "clientId",
-                    "glType":"glType"
-                },
-                  "pageQueryParams":["clientId","glType"]
+                    "type": "drillDownNewPage",
+                    "data": {
+                        "cfValidationQueryBuilder": {}
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId",
+                        "glType":"glType"
+                    },
+                    "pageQueryParams":["clientId","glType"]
                 }
             }
         ],
