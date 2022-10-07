@@ -332,7 +332,7 @@
                         "title": "GL Type",
                         "componentProps": {
                             "options": {
-                                "2": "QuickBooks Online ",
+                                "2": "QuickBooks Online",
                                 "3": "Oracle NetSuite",
                                 "4": "QuickBooks Desktop"
                             },
