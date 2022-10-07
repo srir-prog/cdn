@@ -233,6 +233,138 @@
             }
         ]
     },
+    "cfValidationQueryBuilder":{
+        "componentType": "detailsList",
+        "title": "CF Selection",
+        "additionalProperties": {
+            "showQueryBuilder": true,
+            "queryBuilderPosition": "bottom",
+            "queryBuilderParams": {
+                "orientation": "row",
+                "showChooseFilterInQueryBuilder": false,
+                "elementsInfo": [
+                    {
+                        "type": "DatesSelector",
+                        "componentProps": {
+                            "onlySingleDate": true,
+                            "inputProps":{
+                                "label":"Start Date",
+                                "placeholder":"Start Date",
+                                "size":"extraLarge44",
+                                "fullWidth": true
+                            }
+                        },
+                        "queryName": "startDate"
+                    },
+                    {
+                        "type": "DatesSelector",
+                        "componentProps": {
+                            "onlySingleDate": true,
+                            "inputProps":{
+                                "label":"End Date",
+                                "placeholder":"End Date",
+                                "size":"extraLarge44",
+                                "fullWidth": true
+                            }
+                        },
+                        "queryName": "endDate"
+                    },
+                    {
+                        "type": "Input",
+                        "componentProps": {
+                            "fullWidth": true,
+                            "placeholder": "Total sync duration"
+                        },
+                        "title": "Total sync duration",
+                        "queryName": "totalSyncDuration"
+                    }
+                ]
+            }
+        },
+        "additionalContent": [
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "List CF"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "CfValidation"
+                    },
+                    "paramObjMap": {
+                        "startDate":{
+                            "type": "queryBuilder",
+                            "value": "startDate"
+                        },
+                        "endDate":{
+                            "type": "queryBuilder",
+                            "value": "endDate"
+                        },
+                        "totalSyncDuration":{
+                            "type": "queryBuilder",
+                            "value": "totalSyncDuration"
+                        },
+                        "clientId":"clientId",
+                        "glType":"glType"
+                    }
+                }
+            }
+        ]
+    },
+    "cfValidation":{
+        "componentType": "table",
+        "title": "Cf Validation List",
+        "headersInfo":[
+            {
+                "title": "Start Date",
+                "valueMap": "startDate",
+                "formatType": "date",
+                "enableSort": true,
+                "width": "10%"
+            },
+            {
+                "title": "End Date",
+                "valueMap": "endDate",
+                "formatType": "date",
+                "enableSort": true,
+                "width":"10%"
+            },
+            {
+                "title": "Opening Balance",
+                "valueMap": "OpeningBalance",
+                "enableSort": true,
+                "width":"26.6%"
+            },
+            {
+                "title": "Net Cash Increase",
+                "valueMap": "NetCashIncrease",
+                "enableSort": true,
+                "width":"26.6%"
+            },
+            {
+                "title": "Closing Balance",
+                "valueMap": "ClosingBalance",
+                "enableSort": true,
+                "width":"26.6%"
+            }
+        ],
+        "ignoreKeys": [],
+        "additionalProperties": {
+            "defaultSortingOrder": "desc",
+            "defaultColumnToSort": 8,
+            "enableSearch": true,
+            "paginationNeeded": true,
+            "rowsPerPageOptions": [
+                20
+            ]
+        }
+    },
     "PaymentListWithName": {
         "componentType": "table",
         "title": "Payments List",
@@ -1904,7 +2036,8 @@
             "paginationNeeded": true
         },
         "ignoreKeys": [],
-        "additionalContent": []
+        "additionalContent": [
+        ]
     },
     "clientDetail": {
         "componentType": "detailsList",
@@ -2181,7 +2314,37 @@
             },
             {
                 "label": "GL status",
-                "valueMap": "glConnectionStatus"
+                "valueMap": "glConnectionStatus",
+                "editable": true,
+                "editType": "select",
+                "displayValueEnum": [
+                    {
+                        "label": "GL Connection Pending",
+                        "value": "GL Connection Pending"
+                    },
+                    {
+                        "label": "Connected",
+                        "value": "Connected"
+                    },
+                    {
+                        "label": "Disconnected",
+                        "value": "Disconnected"
+                    }
+                ],
+                "enum": [
+                    {
+                        "label": "GL Connection Pending",
+                        "value": "GL Connection Pending"
+                    },
+                    {
+                        "label": "Connected",
+                        "value": "Connected"
+                    },
+                    {
+                        "label": "Disconnected",
+                        "value": "Disconnected"
+                    }
+                ]
             },
             {
                 "label": "Tax Number",
@@ -2231,6 +2394,24 @@
                         "clientId": "clientId"
                     }
                 }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                  "label": "Show CF Page"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                  "type": "drillDownNewPage",
+                  "data": {
+                    "cfValidationQueryBuilder": {}
+                  },
+                  "paramObjMap": {
+                    "clientId": "clientId",
+                    "glType":"glType"
+                },
+                  "pageQueryParams":["clientId","glType"]
+                }
             }
         ],
         "ignoreKeys": [],
@@ -2256,7 +2437,8 @@
                 "paramObjMap": {
                     "clientId": "clientId",
                     "clientKycStatus": "clientKycStatus",
-                    "clientVerificationStatus": "clientVerificationStatus"
+                    "clientVerificationStatus": "clientVerificationStatus",
+                    "glConnectionStatus": "glConnectionStatus"
                 },
                 "bodyObjMap": {}
             }
