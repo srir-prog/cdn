@@ -382,5 +382,6 @@
     "estimatedSettlementDateToolTip": "It approximately takes three days for the amount to get settled into the selected account",
     "estimatedCostToolTipText": "Payback period * Amount withdrawn * Charge per day",
     "SUCCESS": "Success",
-    "SCHEDULED": "Scheduled"
+    "SCHEDULED": "Scheduled",
+    "Posted": "Posted"
 }
