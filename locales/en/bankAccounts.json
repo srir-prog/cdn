@@ -365,8 +365,6 @@
     "currentAccruedFee": "Current accrued fee",
     "feePaymentDate": "Fee payment date",
     "centimeCashWithDrawModalHeader":"Draw from CentimeCash",
-    "enterAmount": "Enter amount",
-    "estimatedCost": "Estimated cost",
     "CentimeCashWithdrawalPopup": "Draw from CentimeCash popup",
     "CentimeCashWithdrawSuccessMsg": "Request for withdrawal for the amount of {{amount}} is successful.",
     "CentimeCashWithdrawFailureMsg": "Request for withdrawal for the amount of {{amount}} failed. Please try again later.",
