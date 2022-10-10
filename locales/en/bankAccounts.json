@@ -364,7 +364,7 @@
     "currentPeriod": "Current period",
     "currentAccruedFee": "Current accrued fee",
     "feePaymentDate": "Fee payment date",
-    "centimeCashWithDrawModalHeader":"Draw from CentimeCash",
+    "centimeCashWithDrawModalHeader":"Withdrawal from centime cash",
     "enterAmount": "Enter amount",
     "estimatedCost": "Estimated cost",
     "CentimeCashWithdrawalPopup": "Draw from CentimeCash popup",
