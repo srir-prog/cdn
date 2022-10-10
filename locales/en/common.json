@@ -398,4 +398,5 @@
     "orDragAndDropFileHere": "or drag and drop file here",
     "multipleFilesAttached": "Multiple files selected",
     "multipleFilesNotSupported": "Only a single file should be selected and uploaded"
+    "surchargeAmount": "Includes surcharge of {{surcharge}}"
 }
