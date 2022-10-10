@@ -396,6 +396,6 @@
     "needsReviewStatusHeader": "समीक्षा की आवश्यकता: दस्तावेज़ विवरण अनुपलब्ध",
     "selectFileToUpload": "अपलोड करने के लिए फ़ाइल का चयन करें",
     "orDragAndDropFileHere": "या फ़ाइल को यहाँ खींचें और छोड़ें",
-    "multipleFilesAttached": "एकाधिक फ़ाइलें संलग्न",
-    "multipleFilesNotSupported": "एकाधिक फ़ाइलें समर्थित नहीं हैं"
+    "multipleFilesAttached": "एकाधिक फ़ाइलें चयनित",
+    "multipleFilesNotSupported": "केवल एक फ़ाइल का चयन और अपलोड किया जाना चाहिए"
 }
