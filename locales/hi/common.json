@@ -397,5 +397,6 @@
     "selectFileToUpload": "अपलोड करने के लिए फ़ाइल का चयन करें",
     "orDragAndDropFileHere": "या फ़ाइल को यहाँ खींचें और छोड़ें",
     "multipleFilesAttached": "एकाधिक फ़ाइलें संलग्न",
-    "multipleFilesNotSupported": "एकाधिक फ़ाइलें समर्थित नहीं हैं"
+    "multipleFilesNotSupported": "एकाधिक फ़ाइलें समर्थित नहीं हैं",
+    "surchargeAmount": "इसमें {{surcharge}} का सरचार्ज शामिल है"
 }
