@@ -289,7 +289,7 @@
     "currentAccruedFee": "वर्तमान अर्जित शुल्क",
     "feePaymentDate": "शुल्क भुगतान दिनांक",
     "FAILED": "असफल",
-    "centimeCashWithDrawModalHeader":"सेन्टीम कैश से निकासी",
+    "centimeCashWithDrawModalHeader":"CentimeCash से निकासी",
     "enterAmount": "राशि डालें",
     "estimatedCost": "अनुमानित लागत",
     "CentimeCashWithdrawalPopup": "CentimeCash पॉपअप से ड्रा करें",
@@ -310,5 +310,7 @@
     "estimatedCostToolTipText": "पेबैक अवधि * निकाली गई राशि * प्रति दिन शुल्क",
     "SUCCESS": "सफलता",
     "SCHEDULED": "अनुसूचित",
-    "Posted": "की तैनाती"
+    "Posted": "की तैनाती",
+    "adjustedCashBalance":"समायोजित नकद शेष",
+    "totalPayables": "कुल देय"
 }
