@@ -235,6 +235,9 @@
     "cfValidationQueryBuilder":{
         "componentType": "detailsList",
         "title": "CF Selection",
+        "ignoreKeys": [
+            "clientId","glType"
+        ],
         "additionalProperties": {
             "showQueryBuilder": true,
             "queryBuilderPosition": "bottom",
@@ -452,6 +455,7 @@
                 "title": "Start Date",
                 "valueMap": "startDate",
                 "formatType": "date",
+                "align":"left",
                 "enableSort": true,
                 "width": "10%"
             },
