@@ -74,5 +74,6 @@
     "sourceName": "GL Type",
     "syncStart": "Sync Start",
     "syncEnd":"Sync End",
-    "sourceSyncStatus": "Source Sync Status"
+    "sourceSyncStatus": "Source Sync Status",
+    "confirmDelete": "Are you sure you want to delete the row ?"
 }

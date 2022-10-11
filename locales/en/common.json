@@ -394,5 +394,9 @@
     "initiatedBy":"Initiated by {{initiator}}",
     "fromInitiator": "from {{initiatorName}}",
     "needsReviewStatusHeader": "Needs review: Document details missing",
-    "selectFileToUpload": "Select a file to upload"
+    "selectFileToUpload": "Select a file to upload",
+    "orDragAndDropFileHere": "or drag and drop file here",
+    "multipleFilesAttached": "Multiple files selected",
+    "multipleFilesNotSupported": "Only a single file should be selected and uploaded",
+    "surchargeAmount": "Includes surcharge of {{surcharge}}"
 }
