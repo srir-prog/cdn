@@ -2033,8 +2033,10 @@
                         "templateId": "ClientDetail"
                     },
                     "paramObjMap": {
-                        "clientId": "clientId"
-                    }
+                        "clientId": "clientId",
+                        "glType":"glType"
+                    },
+                    "pageQueryParams": ["clientId","glType"]
                 },
                 "width": "38%",
                 "enableSort": true
