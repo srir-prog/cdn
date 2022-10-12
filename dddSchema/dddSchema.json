@@ -2606,7 +2606,8 @@
             },
             {
                 "title": "Mobile",
-                "valueMap": "mobile"
+                "valueMap": "mobile",
+                "editable": true
             },
             {
                 "title": "User Status",
@@ -2722,11 +2723,34 @@
                     "clientId": "clientId",
                     "loginId": "loginId",
                     "userStatus": "userStatus",
-                    "loginAttemptLeft": "loginAttemptLeft"
+                    "loginAttemptLeft": "loginAttemptLeft",
+                    "phoneNumber":"mobile"
                 },
                 "bodyObjMap": {}
             }
-        }
+        },
+        "additionalContent": [
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Delete User"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "updateCall",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "DeleteUser"
+                    },
+                    "paramObjMap": {
+                        "loginId": "loginId"
+                    }
+                }
+            }
+        ]
     },
     "dataSourceDetail": {
         "componentType": "detailsList",
@@ -2753,7 +2777,26 @@
             {
                 "title": "Source Sync Status",
                 "valueMap": "sourceSyncStatus",
-                "editable": true
+                "editable": true,
+                "editType": "select",
+                "enum": [
+                    {
+                        "label" : "IN SYNC",
+                        "value": "IN SYNC"
+                    },
+                    {
+                        "label" : "ERROR",
+                        "value": "ERROR"
+                    },
+                    {
+                        "label" : "IN PROGRESS",
+                        "value": "IN PROGRESS"
+                    },
+                    {
+                        "label" : "DISCONNECTED",
+                        "value": "DISCONNECTED"
+                    }
+                ]
             }
         ],
         "additionalContent": [
@@ -2835,7 +2878,8 @@
                         "ERROR" : "ERROR",
                         "IN PROGRESS" : "IN PROGRESS",
                         "DISCONNECTED": "DISCONNECTED"
-                    }
+                    },
+                    "size": "medium36"
                 },
                 "width": "16%"
             },
