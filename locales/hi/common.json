@@ -420,5 +420,8 @@
     "historyMessageSalesTaxSetTo": "बिक्री कर पर सेट {{txnSalesTax}}",
     "historyMessageTotalSetTo": "कुल सेट {{txnTotalAmount}}",
     "historyMessageStatusSetTo": "स्थिति पर सेट है <ourTypo></ourTypo>",
-    "historyMessageGlPostingFailedDueTo": "जीएल पोस्टिंग विफल होने के कारण {{failureReason}}"
+    "historyMessageGlPostingFailedDueTo": "जीएल पोस्टिंग विफल होने के कारण {{failureReason}}",
+    "historyMessageDocumentHeader": "दस्तावेज़ {{documentHeader}}",
+    "invoiceSupplierPanelTitle": "आपूर्तिकर्ता प्रोफ़ाइल - {{buyerName}}, इनवॉइस {{invoiceNumber}}",
+    "documentSupplierPanelTitle": "आपूर्तिकर्ता प्रोफ़ाइल - {{buyerName}}, दस्तावेज़ {{invoiceNumber}}"
 }
