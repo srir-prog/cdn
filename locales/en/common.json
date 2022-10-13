@@ -420,5 +420,8 @@
     "historyMessageSalesTaxSetTo": "Sales tax set to {{txnSalesTax}}",
     "historyMessageTotalSetTo": "Total set to {{txnTotalAmount}}",
     "historyMessageStatusSetTo": "Status set to <ourTypo></ourTypo>",
-    "historyMessageGlPostingFailedDueTo": "GL posting failed due to {{failureReason}}"
+    "historyMessageGlPostingFailedDueTo": "GL posting failed due to {{failureReason}}",
+    "historyMessageDocumentHeader": "Document {{documentHeader}}",
+    "invoiceSupplierPanelTitle": "Supplier profile - {{buyerName}}, Invoice {{invoiceNumber}}",
+    "documentSupplierPanelTitle": "Supplier profile - {{buyerName}}, Document {{invoiceNumber}}"
 }
