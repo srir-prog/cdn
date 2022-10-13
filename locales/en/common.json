@@ -389,14 +389,16 @@
     "viewInvoice": "View invoice",
     "uploaded": "Uploaded",
     "emailReceived": "Email received",
-    "posting":"Posting",
+    "posting": "Posting",
     "documentDetailsMissing": "Document details missing",
-    "initiatedBy":"Initiated by {{initiator}}",
+    "initiatedBy": "Initiated by {{initiator}}",
     "fromInitiator": "from {{initiatorName}}",
     "needsReviewStatusHeader": "Needs review: Document details missing",
     "selectFileToUpload": "Select a file to upload",
     "orDragAndDropFileHere": "or drag and drop file here",
     "multipleFilesAttached": "Multiple files selected",
     "multipleFilesNotSupported": "Only a single file should be selected and uploaded",
-    "surchargeAmount": "Includes surcharge of {{surcharge}}"
+    "surchargeAmount": "Includes surcharge of {{surcharge}}",
+    "deleteUploadedDocument": "Are you sure you want to delete the uploaded document?",
+    "deleteDocumentModal": "Delete document modal"
 }

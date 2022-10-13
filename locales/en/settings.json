@@ -524,6 +524,5 @@
     "defaultUpdateError": "Error while updating settings",
     "ErrorInRefreshSandbox": "Error in initiating refresh of sandbox. Please try again a little later.",
     "RefreshSandboxSuccess": "Sandbox has been successfully refreshed.",
-    "selectPayrollGLsInfo": "Cash flows associated with the selected accounts will be grouped under the 'Payroll' label in the Cash Flow table",
-    "deleteUploadedDocument": "Are you sure you want to delete the uploaded document?"
+    "selectPayrollGLsInfo": "Cash flows associated with the selected accounts will be grouped under the 'Payroll' label in the Cash Flow table"
 }
