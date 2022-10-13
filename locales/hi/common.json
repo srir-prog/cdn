@@ -423,5 +423,8 @@
     "historyMessageGlPostingFailedDueTo": "जीएल पोस्टिंग विफल होने के कारण {{failureReason}}",
     "historyMessageDocumentHeader": "दस्तावेज़ {{documentHeader}}",
     "invoiceSupplierPanelTitle": "आपूर्तिकर्ता प्रोफ़ाइल - {{buyerName}}, इनवॉइस {{invoiceNumber}}",
-    "documentSupplierPanelTitle": "आपूर्तिकर्ता प्रोफ़ाइल - {{buyerName}}, दस्तावेज़ {{invoiceNumber}}"
+    "documentSupplierPanelTitle": "आपूर्तिकर्ता प्रोफ़ाइल - {{buyerName}}, दस्तावेज़ {{invoiceNumber}}",
+    "historyMessageInvoiceHeader": "इनवॉइस {{invoiceHeader}}",
+    "historyActionDocumentDeleted": "दस्तावेज़ हटाया गया",
+    "historyMessageFileNameDeleted": "{{fileName}} हटाए गए"
 }
