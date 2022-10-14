@@ -387,9 +387,9 @@
     "Montly": "महीने के",
     "accordionInvoiceNumberHistory": "दस्तावेज़ इतिहास देखें",
     "viewInvoice": "चालान देखें",
-    "uploaded":"अपलोड किए गए",
+    "uploaded": "अपलोड किए गए",
     "emailReceived": "ईमेल प्राप्त हुआ",
-    "posting":"प्रविष्टि",
+    "posting": "प्रविष्टि",
     "documentDetailsMissing": "दस्तावेज़ विवरण अनुपलब्ध",
     "initiatedBy": "{{initiator}} द्वारा शुरू किया गया ",
     "fromInitiator": "{{initiatorName}} से",
@@ -426,5 +426,7 @@
     "documentSupplierPanelTitle": "आपूर्तिकर्ता प्रोफ़ाइल - {{buyerName}}, दस्तावेज़ {{invoiceNumber}}",
     "historyMessageInvoiceHeader": "इनवॉइस {{invoiceHeader}}",
     "historyActionDocumentDeleted": "दस्तावेज़ हटाया गया",
-    "historyMessageFileNameDeleted": "{{fileName}} हटाए गए"
+    "historyMessageFileNameDeleted": "{{fileName}} हटाए गए",
+    "deleteUploadedDocument": "क्या आप वाकई अपलोड किए गए दस्तावेज़ को हटाना चाहते हैं?",
+    "deleteDocumentModal": "दस्तावेज़ मोडल हटाएं"
 }
