@@ -389,9 +389,9 @@
     "viewInvoice": "View invoice",
     "uploaded": "Uploaded",
     "emailReceived": "Email received",
-    "posting":"Posting",
+    "posting": "Posting",
     "documentDetailsMissing": "Document details missing",
-    "initiatedBy":"Initiated by {{initiator}}",
+    "initiatedBy": "Initiated by {{initiator}}",
     "fromInitiator": "from {{initiatorName}}",
     "needsReviewStatusHeader": "Needs review: Document details missing",
     "selectFileToUpload": "Select a file to upload",
@@ -426,5 +426,7 @@
     "documentSupplierPanelTitle": "Supplier profile - {{buyerName}}, Document {{invoiceNumber}}",
     "historyMessageInvoiceHeader": "Invoice {{invoiceHeader}}",
     "historyActionDocumentDeleted": "Document deleted",
-    "historyMessageFileNameDeleted": "{{fileName}} deleted"
+    "historyMessageFileNameDeleted": "{{fileName}} deleted",
+    "deleteUploadedDocument": "Are you sure you want to delete the uploaded document?",
+    "deleteDocumentModal": "Delete document modal"
 }
