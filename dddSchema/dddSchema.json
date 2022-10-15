@@ -457,32 +457,45 @@
                 "formatType": "date",
                 "align":"left",
                 "enableSort": true,
-                "width": "10%"
+                "width": "11%"
             },
             {
                 "title": "End Date",
                 "valueMap": "endDate",
                 "formatType": "date",
                 "enableSort": true,
-                "width":"10%"
+                "width":"11%"
             },
             {
                 "title": "Opening Balance",
                 "valueMap": "OpeningBalance",
-                "enableSort": true,
-                "width":"26.6%"
+                "width":"26%",
+                "enableAccordion":true,
+                "renderType": "AccordionLink",
+                "accordionProps":{
+                    "renderType":"Tabs",
+                    "tabsInfo":[{
+                        "tabTitle":"tab1",
+                        "valueMap":"nestedAPIKeyName",
+                         "listInfo":[{
+                             "label":"Account Name",
+                             "valueMap":"apiKey",
+                             "gridSize":3
+                         },{}]   
+                    }]
+                }
             },
             {
                 "title": "Net Cash Increase",
                 "valueMap": "NetCashIncrease",
                 "enableSort": true,
-                "width":"26.6%"
+                "width":"26%"
             },
             {
                 "title": "Closing Balance",
                 "valueMap": "ClosingBalance",
                 "enableSort": true,
-                "width":"26.6%"
+                "width":"26%"
             }
         ],
         "additionalProperties": {
