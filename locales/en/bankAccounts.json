@@ -385,5 +385,8 @@
     "SCHEDULED": "Scheduled",
     "Posted": "Posted",
     "adjustedCashBalance": "Adjusted cash balance",
-    "totalPayables": "Total payables"
+    "totalPayables": "Total payables",
+    "CentimeCashInActiveTooltipHeader":"CentimeCash is inactive. To activate, please ensure your CentimeCash account has a",
+    "CentimeCashInActiveTooltipInfoOne": "a. CentimeCash General Ledger account linked",
+    "CentimeCashInActiveTooltipInfoTwo": "b. Bank account for CentimeCredit repayment connected and linked"
 }
