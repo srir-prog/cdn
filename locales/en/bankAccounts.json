@@ -333,7 +333,7 @@
     "paybackPeriod": "Payback period",
     "estimatedSettlementDateInfoText": "Estimated settlement date : {{settlementDate}}",
     "totalCreditLineInfoText": "Total credit line for CentimeCard and CentimeCash",
-    "availableBalanceInfoText": "Available balance also takes into account CentimeCard utilization",
+    "availableBalanceInfoText": "Available balance for CentimeCard and CentimeCash",
     "totalRepayments": "Total repayments",
     "openTransactions": "Open transactions",
     "cffCashTargetSuccessfullyUpdated": "Successfully updated low/target cash value. Low ${{low}}, Target ${{target}}",
@@ -385,5 +385,6 @@
     "SCHEDULED": "Scheduled",
     "Posted": "Posted",
     "adjustedCashBalance": "Adjusted cash balance",
-    "totalPayables": "Total payables"
+    "totalPayables": "Total payables",
+    "centimeCardBalanceTooltip": "CentimeCard balance"
 }
