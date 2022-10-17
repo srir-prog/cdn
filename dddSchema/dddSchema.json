@@ -100,6 +100,7 @@
     "clientsListQueryBuilder": {
         "componentType": "detailsList",
         "title": "Clients",
+        "ignoreKeys": ["clientId","glType"],
         "additionalProperties": {
             "showQueryBuilder": true,
             "queryBuilderPosition": "bottom",
@@ -474,14 +475,24 @@
                 "renderType": "AccordionLink",
                 "accordionProps":{
                     "renderType":"Tabs",
+                    "valueMap":"OpeningBalance",
                     "tabsInfo":[{
-                        "tabTitle":"tab1",
-                        "valueMap":"nestedAPIKeyName",
+                        "tabTitle":"Opening Balance",
                          "listInfo":[{
-                             "label":"Account Name",
-                             "valueMap":"apiKey",
+                             "label":"Result",
+                             "valueMap":"comparisonResult",
                              "gridSize":3
-                         },{}]   
+                         },{
+                            "label":"Centime",
+                            "valueMap":"valueFromCentime",
+                            "gridSize":3
+                         },
+                         {
+                            "label":"Source",
+                            "valueMap":"valueFromSource",
+                            "gridSize":3
+                         }
+                        ]   
                     }]
                 }
             },
@@ -489,13 +500,61 @@
                 "title": "Net Cash Increase",
                 "valueMap": "NetCashIncrease",
                 "enableSort": true,
-                "width":"26%"
+                "width":"26%",
+                "enableAccordion":true,
+                "renderType": "AccordionLink",
+                "accordionProps":{
+                    "renderType":"Tabs",
+                    "valueMap":"NetCashIncrease",
+                    "tabsInfo":[{
+                        "tabTitle":"Net Cash Increase",
+                         "listInfo":[{
+                             "label":"Result",
+                             "valueMap":"comparisonResult",
+                             "gridSize":3
+                         },{
+                            "label":"Centime",
+                            "valueMap":"valueFromCentime",
+                            "gridSize":3
+                         },
+                         {
+                            "label":"Source",
+                            "valueMap":"valueFromSource",
+                            "gridSize":3
+                         }
+                        ]   
+                    }]
+                }
             },
             {
                 "title": "Closing Balance",
                 "valueMap": "ClosingBalance",
                 "enableSort": true,
-                "width":"26%"
+                "width":"26%",
+                "enableAccordion":true,
+                "renderType": "AccordionLink",
+                "accordionProps":{
+                    "renderType":"Tabs",
+                    "valueMap":"ClosingBalance",
+                    "tabsInfo":[{
+                        "tabTitle":"Closing Balance",
+                         "listInfo":[{
+                             "label":"Result",
+                             "valueMap":"comparisonResult",
+                             "gridSize":3
+                         },{
+                            "label":"Centime",
+                            "valueMap":"valueFromCentime",
+                            "gridSize":3
+                         },
+                         {
+                            "label":"Source",
+                            "valueMap":"valueFromSource",
+                            "gridSize":3
+                         }
+                        ]   
+                    }]
+                }
             }
         ],
         "additionalProperties": {
