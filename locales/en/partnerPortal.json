@@ -54,5 +54,6 @@
   "CentimeCashFinalOnBoardErrorMessage":"Error while on boarding CentimeCash. Try again or contact us if the problem persists.",
   "centimeCash": "CentimeCash",
   "TBSCompanyId": "TBS Company Id",
-  "TBSCompanyIdTooltip": "TBS company ID needed for repayment"
+  "TBSCompanyIdTooltip": "TBS company ID needed for repayment",
+  "activateCentimeCashFormHeader": "Activate CentimeCash for {{name}}"
 }

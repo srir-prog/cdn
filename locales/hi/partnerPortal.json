@@ -55,5 +55,6 @@
   "centimeCash": "सेन्टीम कैश",
   "centimeCard": "केंद्र कार्ड",
   "TBSCompanyId": "टीबीएस कंपनी आईडी",
-  "TBSCompanyIdTooltip": "पुनर्भुगतान के लिए आवश्यक टीबीएस कंपनी आईडी"
+  "TBSCompanyIdTooltip": "पुनर्भुगतान के लिए आवश्यक टीबीएस कंपनी आईडी",
+  "activateCentimeCashFormHeader": "{{name}} के लिए CentimeCash सक्रिय करें"
 }

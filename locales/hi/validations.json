@@ -66,5 +66,7 @@
     "UnsupportedFileTypeError": "फ़ाइल प्रकार समर्थित नहीं है",
     "invalidSurchargePercent": "अमान्य अधिभार प्रतिशत",
     "isValidMultipleEmails": "अवैध ईमेल: {{emailList}}",
-    "isMultipleEmailsLimitExceeded": "अधिकतम 15 ईमेल की अनुमति है"
+    "isMultipleEmailsLimitExceeded": "अधिकतम 15 ईमेल की अनुमति है",
+    "paybackDaysCountShouldBeLessThan90": "पेबैक अवधि 90 दिनों से कम होनी चाहिए",
+    "paybackDaysCountShouldBeMoreThanZero": "पेबैक अवधि शून्य से अधिक होनी चाहिए"
 }
