@@ -394,5 +394,8 @@
     "destinationAccount": "Destination account",
     "centimeTransfers": "Centime transfers",
     "centimeTransferRequestNotificationError": "Request for transfer for the amount of {{amount}} failed. Please try again later.",
-    "centimeTransferRequestNotificationSuccess": "Request for the transfer of the amount of {{amount}} is successful."
+    "centimeTransferRequestNotificationSuccess": "Request for the transfer of the amount of {{amount}} is successful.",
+    "IN_PROGRESS": "In progress",
+    "RETRY": "Retry",
+    "NOTIFIED": "Notified"
 }
