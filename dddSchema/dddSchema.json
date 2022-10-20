@@ -371,6 +371,171 @@
             }
         ]
     },
+    "invitedUsersListQueryBuilder":{
+        "componentType": "detailsList",
+        "title": "Invited Users",
+        "ignoreKeys": ["clientName","paymentId", "clientId","glType"],
+        "additionalProperties": {
+            "showQueryBuilder": true,
+            "queryBuilderPosition": "bottom",
+            "queryBuilderParams": {
+                "orientation": "row",
+                "showChooseFilterInQueryBuilder": false,
+                "elementsInfo": [
+                    {
+                        "type": "Input",
+                        "title": "Client Id",
+                        "gridSize":4,
+                        "componentProps": {
+                            "fullWidth": true
+                        },
+                        "queryName": "clientId"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "title": "User status",
+                        "componentProps": {
+                            "options": {
+                                "Active": "Active",
+                                "NotActive": "Not Active"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
+                        },
+                        "gridSize":4,
+                        "queryName": "userStatus"
+                    },
+                    {
+                        "type": "Input",
+                        "title": "User Email Address",
+                        "componentProps": {
+                            "type": "email",
+                            "fullWidth" : true
+                        },
+                        "gridSize":4,
+                        "queryName": "loginId"
+                    }
+
+                ]
+            }
+        },
+        "additionalContent": [
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Get User(s)"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "TotalUserInviteeTransientList"
+                    },
+                    "paramObjMap": {
+                        "clientId": {
+                            "type": "queryBuilder",
+                            "value": "clientId"
+                        },
+                        "loginId": {
+                            "type": "queryBuilder",
+                            "value": "loginId"
+                        },
+                        "userStatus": {
+                            "type": "queryBuilder",
+                            "value": "userStatus"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "generateSignUpQueryBuilder":{
+        "componentType": "detailsList",
+        "title": "Generate Signup Link",
+        "ignoreKeys": ["clientName","paymentId", "clientId","glType"],
+        "additionalProperties": {
+            "showQueryBuilder": true,
+            "queryBuilderPosition": "bottom",
+            "queryBuilderParams": {
+                "orientation": "row",
+                "showChooseFilterInQueryBuilder": false,
+                "elementsInfo": [
+                    {
+                        "type": "Input",
+                        "title": "First Name",
+                        "gridSize":4,
+                        "componentProps": {
+                            "fullWidth": true
+                        },
+                        "queryName": "firstName"
+                    },
+                    {
+                        "type": "Input",
+                        "title": "Last Name",
+                        "gridSize":4,
+                        "componentProps": {
+                            "fullWidth": true
+                        },
+                        "queryName": "lastName"
+                    },
+                    {
+                        "type": "Input",
+                        "title": "Email Address",
+                        "componentProps": {
+                            "type": "email",
+                            "fullWidth": true
+                        },
+                        "gridSize":4,
+                        "queryName": "loginId"
+                    }
+                ]
+            }
+        },
+        "additionalContent": [
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Send Signup Link"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "updateCall",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "SignUp"
+                    },
+                    "paramObjMap": {
+                        "loginId": {
+                            "type": "queryBuilder",
+                            "value": "loginId"
+                        },
+                        "firstName":  {
+                            "type": "queryBuilder",
+                            "value": "firstName"
+                        },
+                        "lastName":  {
+                            "type": "queryBuilder",
+                            "value": "lastName"
+                        },
+                        "resend": {
+                            "type": "hardCoded",
+                            "value": false
+                        }
+                    },
+                    "successNotificationObject": {
+                        "message": "Successfully sent the signup link"
+                    }
+                }
+            }
+        ]
+    },
     "totalTransientClientsList":{
         "componentType": "table",
         "title": "Transient  client list",
@@ -2914,6 +3079,93 @@
                     "lastSyncTime": "lastSyncTime",
                     "entitySyncStatus": "entitySyncStatus",
                     "batchId": "batchId"
+                },
+                "bodyObjMap": {}
+            }
+        }
+    },
+    "totalUserInviteeTransientList": {
+        "componentType": "table",
+        "title": "Users",
+        "headersInfo": [
+            {
+                "title": "Id",
+                "valueMap": "id",
+                "enableSort": true,
+                "width": "10%"
+            },
+            {
+                "title": "Email",
+                "valueMap": "loginId",
+                "renderType": "text",
+                "enableSort": true,
+                "width": "30%"
+            },
+            {
+                "title": "First Name",
+                "valueMap": "firstName",
+                "enableSort": true,
+                "width": "20%"
+            },
+            {
+                "title": "Last Name",
+                "valueMap": "lastName",
+                "enableSort": true,
+                "width": "20%"
+            }
+        ],
+        "additionalProperties": {
+            "actionsColumnIcons": [
+                {
+                    "iconName": "sync",
+                    "componentProps": {
+                        "ariaLabel": "Resend Invite",
+                        "color": "primary"
+                    },
+                    "action": {
+                        "type": "updateCall",
+                        "url": "fs/business-ops-service",
+                        "method": "GET",
+                        "pathList": [
+                            "1.0",
+                            "aggregate"
+                        ],
+                        "paramObj": {
+                            "templateId": "SignUp"
+                        },
+                        "paramObjMap": {
+                            "loginId": "loginId",
+                            "firstName": "firstName",
+                            "lastName": "lastName",
+                            "resend": {
+                                "type": "hardCoded",
+                                "value": true
+                            }
+                        },
+                        "bodyObjMap": {},
+                        "successNotificationObject": {
+                            "message": "Successfully sent the invite email"
+                        },
+                        "errorNotificationObject": {
+                            "message": "User's already sent invite link has not expired yet"
+                        }
+                    }
+                }
+            ],
+            "deletableForm": true,
+            "onDeleteAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "DeleteUserInviteeTransient"
+                },
+                "paramObjMap": {
+                    "id": "id"
                 },
                 "bodyObjMap": {}
             }
