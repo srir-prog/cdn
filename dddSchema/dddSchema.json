@@ -540,6 +540,167 @@
             }
         ]
     },
+    "usersListQueryBuilder":{
+        "componentType": "detailsList",
+        "title": "Users",
+        "ignoreKeys": ["clientName","paymentId", "clientId","glType"],
+        "additionalProperties": {
+            "showQueryBuilder": true,
+            "queryBuilderPosition": "bottom",
+            "queryBuilderParams": {
+                "orientation": "row",
+                "showChooseFilterInQueryBuilder": false,
+                "elementsInfo": [
+                    {
+                        "type": "Input",
+                        "title": "Client Id",
+                        "gridSize":4,
+                        "componentProps": {
+                            "fullWidth": true
+                        },
+                        "queryName": "clientId"
+                    },
+                    {
+                        "type": "Input",
+                        "title": "User Email Address",
+                        "componentProps": {
+                            "type": "email",
+                            "fullWidth" : true
+                        },
+                        "gridSize":4,
+                        "queryName": "loginId"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "title": "User status",
+                        "componentProps": {
+                            "options": {
+                                "Active": "Active",
+                                "NotActive": "Not Active"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
+                        },
+                        "gridSize":4,
+                        "queryName": "userStatus"
+                    }
+                ]
+            }
+        },
+        "additionalContent": [
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Get User(s)"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "UsersList"
+                    },
+                    "paramObjMap": {
+                        "clientId": {
+                            "type": "queryBuilder",
+                            "value": "clientId"
+                        },
+                        "loginId": {
+                            "type": "queryBuilder",
+                            "value": "loginId"
+                        },
+                        "userStatus": {
+                            "type": "queryBuilder",
+                            "value": "userStatus"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "usersList":{
+        "componentType": "table",
+        "title": "Users list",
+        "headersInfo":[
+            {
+                "title": "Client Id",
+                "valueMap": "clientId",
+                "renderType": "text",
+                "align":"left",
+                "width": "20%",
+                "enableSort": true
+            },
+            {
+                "title": "Login Id",
+                "valueMap": "loginId",
+                "align":"left",
+                "width": "20%",
+                "renderType": "Link",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "UserDetail"
+                    },
+                    "paramObjMap": {
+                        "loginId": "loginId"
+                    }
+                },
+                "enableSort": true
+            },
+            {
+                "title": "First name",
+                "valueMap": "firstName",
+                "renderType": "text",
+                "align":"left",
+                "width": "20%",
+                "enableSort": true
+            },
+            {
+                "title": "Last name",
+                "valueMap": "lastName",
+                "renderType": "text",
+                "align":"left",
+                "width": "20%",
+                "enableSort": true
+            }, 
+            {
+                "title": "Status",
+                "valueMap": "userStatus",
+                "renderType": "text",
+                "align":"left",
+                "width": "20%",
+                "enableSort": true
+            }
+        ],
+        "additionalProperties": {
+            "deletableForm": true,
+            "editableForm":false,
+            "enableSearch": true,
+            "paginationNeeded": true,
+            "onDeleteAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "DeleteUser"
+                },
+                "paramObjMap": {
+                    "loginId": "loginId"
+                }
+            }
+        }
+    },
     "totalTransientClientsList":{
         "componentType": "table",
         "title": "Transient  client list",
@@ -594,6 +755,79 @@
         "additionalProperties": {
             "deletableForm": true,
             "editableForm":false,
+            "enableSearch": true,
+            "paginationNeeded": true,
+            "onDeleteAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "DeleteTransientClient"
+                },
+                "paramObjMap": {
+                    "clientTransientId": "clientId"
+                }
+            }
+        }
+    },
+    "transientClientsList":{
+        "componentType": "table",
+        "title": "Transient  client list",
+        "headersInfo":[
+            {
+                "title": "Client Id",
+                "valueMap": "clientId",
+                "renderType": "text",
+                "align":"left",
+                "width": "15%",
+                "enableSort": true
+            },
+            {
+                "title": "Name",
+                "valueMap": "clientName",
+                "renderType": "text",
+                "width": "25%",
+                "enableSort": true
+            },
+            {
+                "title": "GL Type",
+                "valueMap": "glType",
+                "width": "30%",
+                "renderType": "text",
+                "displayValueEnum": [
+                    {
+                        "label": "Sandbox",
+                        "value": 0
+                    },
+                    {
+                        "label": "QuickBooks Online",
+                        "value": 2
+                    },
+                    {
+                        "label": "Oracle NetSuite",
+                        "value": 3
+                    },
+                    {
+                        "label": "QuickBooks Desktop",
+                        "value": 4
+                    }
+                ]
+            },
+            {
+                "title": "Users",
+                "valueMap": "users",
+                "renderType": "text",
+                "width": "30%",
+                "enableSort": true
+            }
+        ],
+        "additionalProperties": {
+            "deletableForm": true,
+            "editableForm":false, 
             "enableSearch": true,
             "paginationNeeded": true,
             "onDeleteAction": {
@@ -2970,20 +3204,23 @@
             {
                 "renderType": "Button",
                 "renderProps": {
-                    "label": "Delete User"
+                    "label": "List transient clients"
                 },
                 "renderPosition": "bottom",
                 "action": {
-                    "type": "updateCall",
+                    "type": "drillDown",
                     "pathList": [
                         "1.0",
                         "aggregate"
                     ],
                     "paramObj": {
-                        "templateId": "DeleteUser"
+                        "templateId": "TransientClientList"
                     },
                     "paramObjMap": {
-                        "loginId": "loginId"
+                        "clientId": "clientId",
+                        "clientName":"clientName",
+                        "glType":"glType",
+                        "users":"users"
                     }
                 }
             }
