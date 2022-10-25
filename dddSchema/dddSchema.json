@@ -388,38 +388,15 @@
                 "elementsInfo": [
                     {
                         "type": "Input",
-                        "title": "Client Id",
-                        "gridSize":4,
-                        "componentProps": {
-                            "fullWidth": true
-                        },
-                        "queryName": "clientId"
-                    },
-                    {
-                        "type": "Dropdown",
-                        "title": "User status",
-                        "componentProps": {
-                            "options": {
-                                "Active": "Active",
-                                "NotActive": "Not Active"
-                            },
-                            "tnsForOptions": false,
-                            "multiple": true
-                        },
-                        "gridSize":4,
-                        "queryName": "userStatus"
-                    },
-                    {
-                        "type": "Input",
                         "title": "User Email Address",
                         "componentProps": {
                             "type": "email",
+                            "placeholder": "Empty to get all users",
                             "fullWidth" : true
                         },
                         "gridSize":4,
                         "queryName": "loginId"
                     }
-
                 ]
             }
         },
