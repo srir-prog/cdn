@@ -606,14 +606,6 @@
         "title": "Users list",
         "headersInfo":[
             {
-                "title": "Client Id",
-                "valueMap": "clientId",
-                "renderType": "text",
-                "align":"left",
-                "width": "20%",
-                "enableSort": true
-            },
-            {
                 "title": "Login Id",
                 "valueMap": "loginId",
                 "align":"left",
