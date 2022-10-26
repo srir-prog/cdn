@@ -188,7 +188,7 @@
         "componentType": "detailsList",
         "title": "CF Selection",
         "ignoreKeys": [
-            "clientId","glType"
+            "clientId","glType","paymentId","clientName"
         ],
         "additionalProperties": {
             "showQueryBuilder": true,
@@ -496,6 +496,244 @@
                 }
             }
         ]
+    },
+    "productActivation":{
+        "componentType": "table",
+        "title": "Product activation",
+        "ignoreKeys":["paymentMethodId","sourceId","bankApplicationGroup"],
+        "headersInfo":[
+            {
+                "title": "Payment method",
+                "valueMap": "applicationType",
+                "renderType": "text",
+                "align":"left",
+                "width": "20%",
+                "enableSort": true
+            },
+            {
+                "title": "Description",
+                "valueMap": "description",
+                "renderType": "text",
+                "align":"left",
+                "width": "36%",
+                "enableSort": true
+            },
+            {
+                "title": "Accounts",
+                "valueMap":"bankApplicationGroup",
+                "align":"left",
+                "width": "12%",
+                "enableAccordion":true,
+                "renderType": "AccordionLink",
+                "accordionProps":{
+                    "renderType":"Tabs",
+                    "valueMap":"bankApplicationGroup",
+                    "tabsInfo":[{
+                        "tabTitle":"Opening Balance",
+                         "listInfo":[{
+                             "label":"Result",
+                             "valueMap":"comparisonResult",
+                             "gridSize":3
+                         },{
+                            "label":"Centime",
+                            "valueMap":"valueFromCentime",
+                            "gridSize":3
+                         },
+                         {
+                            "label":"Source",
+                            "valueMap":"valueFromSource",
+                            "gridSize":3
+                         }
+                        ]   
+                    }]
+                }
+            },
+            {
+                "title": "Status",
+                "valueMap": "applicationStatus",
+                "renderType": "text",
+                "align":"left",
+                "width": "12%",
+                "enableSort": true
+            },
+            {
+                "title": "Initiated by",
+                "valueMap": "applicationInitiatedBy",
+                "renderType": "text",
+                "align":"left",
+                "width": "20%",
+                "enableSort": true
+            }
+        ]
+    },
+    "openBills":{
+        "componentType": "table",
+        "title": "Open bills",
+        "headersInfo":[
+            {
+                "title": "Bill Id",
+                "valueMap": "billId",
+                "align":"left",
+                "width": "25%",
+                "renderType": "Link",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "BillPaymentSchedule"
+                    },
+                    "paramObjMap": {
+                        "clientId":"clientId",
+                        "billId": "billId"
+                    }
+                },
+                "enableSort": true
+            },
+            {
+                "title": "Total amount",
+                "valueMap": "txnTotalAmount",
+                "renderType": "text",
+                "formatType": "currency",
+                "align":"left",
+                "width": "20%",
+                "enableSort": true
+            },
+            {
+                "title": " ",
+                "valueMap": "currencyCode",
+                "enableSort": false,
+                "width": "5%"
+            }, 
+            {
+                "title": "Balance",
+                "valueMap": "txnBalance",
+                "renderType": "text",
+                "formatType": "currency",
+                "align":"left",
+                "width": "20%",
+                "enableSort": true
+            },
+            {
+                "title": " ",
+                "valueMap": "currencyCode",
+                "enableSort": false,
+                "width": "5%"
+            }, 
+            {
+                "title": "Due date",
+                "valueMap": "dueDate",
+                "renderType": "text",
+                "formatType": "date",
+                "align":"left",
+                "width": "25%",
+                "enableSort": true
+            }
+        ]
+    },
+    "bankAccountsByClientId":{
+        "componentType": "table",
+        "title": "Accounts list",
+        "ignoreKeys":
+        [
+        "accountId",
+        "accountStatus",
+        "sourceId",
+        "accountGroup",
+        "institutionId",
+        "balanceDate",
+        "clientId",
+        "institutionLoginId",
+        "lastTransactionDate",
+        "batchId",
+        "aggregationSuccessDate",
+        "aggregationAttemptDate",
+        "aggregationStatusCode",
+        "accountDetail",
+        "investmentPosition", 
+        "accountManagedStatus",
+        "fullAccountNumber",
+        "routingNumber"
+    ],
+        "headersInfo":[
+            {
+                "title": "FI name",
+                "valueMap": "institutionName",
+                "renderType": "text",
+                "align":"left",
+                "width": "12.5%",
+                "enableSort": true
+            },
+            {
+                "title": "New FI name",
+                "valueMap": "modifiedInstitutionName",
+                "renderType": "text",
+                "align":"left",
+                "width": "12.5%",
+                "enableSort": true
+            }, 
+            {
+                "title": "A/C name",
+                "valueMap": "accountName",
+                "renderType": "text",
+                "align":"left",
+                "width": "12.5%",
+                "enableSort": true
+            },
+            {
+                "title": "New A/C name",
+                "valueMap": "modifiedAccountName",
+                "renderType": "text",
+                "align":"left",
+                "width": "12.5%",
+                "enableSort": true
+            },
+            {
+                "title": "A/C type",
+                "valueMap": "accountType",
+                "renderType": "text",
+                "align":"left",
+                "width": "12.5%",
+                "enableSort": true
+            },
+            {
+                "title": "New A/C type",
+                "valueMap": "modifiedAccountType",
+                "renderType": "text",
+                "align":"left",
+                "width": "12.5%",
+                "enableSort": true
+            },
+            {
+                "title": "A/C number",
+                "valueMap": "accountNumber",
+                "renderType": "text",
+                "align":"left",
+                "width": "10%",
+                "enableSort": true
+            },
+            {
+                "title": "A/C balance",
+                "valueMap": "currentBalance",
+                "renderType": "text",
+                "formatType": "currency",
+                "align":"left",
+                "width": "10%",
+                "enableSort": true
+            },
+            {
+                "title": " ",
+                "valueMap": "currencyCode",
+                "enableSort": false,
+                "width": "5%"
+            }
+        ],
+        "additionalProperties": {
+            "enableSearch": true,
+            "paginationNeeded": true
+        }
     },
     "usersList":{
         "componentType": "table",
@@ -2513,6 +2751,7 @@
     "clientDetail": {
         "componentType": "detailsList",
         "title": "Client Details",
+        "ignoreKeys":["paymentId"],
         "listInfo": [
             {
                 "label": "Client Id",
@@ -2869,7 +3108,68 @@
             {
                 "renderType": "Button",
                 "renderProps": {
-                  "label": "Show CF Page"
+                    "label": "Bank details"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "BankAccountsByClientId"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId"
+                    }
+                }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Open bills"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "OpenBills"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId"
+                    }
+                }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Product activation"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "ProductActivation"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId"
+                    }
+                }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                  "label": "Show CF Page",
+                  "className":"ml-6"
                 },
                 "renderPosition": "bottom",
                 "action": {
@@ -2885,7 +3185,6 @@
                 }
             }
         ],
-        "ignoreKeys": [],
         "additionalProperties": {
             "editableForm": true,
             "submitButtonProps": {
@@ -3107,10 +3406,7 @@
                         "templateId": "TransientClientList"
                     },
                     "paramObjMap": {
-                        "clientId": "clientId",
-                        "clientName":"clientName",
-                        "glType":"glType",
-                        "users":"users"
+                        "loginId":"loginId"
                     }
                 }
             }
