@@ -3459,6 +3459,7 @@
                 ]
             }
         ],
+        "ignoreKeys": ["paymentId","clientName"],
         "additionalContent": [
             {
                 "renderType": "Button",
