@@ -414,7 +414,7 @@
                         "aggregate"
                     ],
                     "paramObj": {
-                        "templateId": "TotalUserInviteeTransientList"
+                        "templateId": "UserInviteeTransient"
                     },
                     "paramObjMap": {
                         "clientId": {
@@ -3376,9 +3376,9 @@
             }
         }
     },
-    "totalUserInviteeTransientList": {
+    "userInviteeTransient": {
         "componentType": "table",
-        "title": "Users",
+        "title": "List",
         "headersInfo": [
             {
                 "title": "Id",
