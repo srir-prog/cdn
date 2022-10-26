@@ -237,7 +237,7 @@
         "componentType": "detailsList",
         "title": "CF Selection",
         "ignoreKeys": [
-            "clientId","glType"
+            "clientId","glType","paymentId","clientName"
         ],
         "additionalProperties": {
             "showQueryBuilder": true,
