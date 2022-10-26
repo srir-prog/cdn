@@ -552,8 +552,11 @@
                         "title": "User status",
                         "componentProps": {
                             "options": {
-                                "Active": "Active",
-                                "NotActive": "Not Active"
+                                "1":"Not-Activated",
+                                "2":"Active",
+                                "3":"Suspended",
+                                "4":"Closed",
+                                "5":"Invited"
                             },
                             "tnsForOptions": false,
                             "multiple": true
