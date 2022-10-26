@@ -497,6 +497,104 @@
             }
         ]
     },
+    "jobsListQueryBuilder":{
+        "componentType": "detailsList",
+        "title": "Jobs",
+        "ignoreKeys": ["clientName","paymentId", "clientId","glType"],
+        "additionalProperties": {
+            "showQueryBuilder": true,
+            "queryBuilderPosition": "bottom",
+            "queryBuilderParams": {
+                "orientation": "row",
+                "showChooseFilterInQueryBuilder": false,
+                "elementsInfo": [
+                    {
+                        "type": "Input",
+                        "title": "Job id",
+                        "gridSize":6,
+                        "componentProps": {
+                            "fullWidth": true
+                        },
+                        "queryName": "jobId"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "title": "Job status",
+                        "componentProps": {
+                            "options": {
+                                "0": "Not Active",
+                                "1": "Active"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
+                        },
+                        "gridSize":6,
+                        "queryName": "status"
+                    }
+                ]
+            }
+        },
+        "additionalContent": [
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Get Job(s)"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "JobsByFilters"
+                    },
+                    "paramObjMap": {
+                        "jobId": {
+                            "type": "queryBuilder",
+                            "value": "jobId"
+                        },
+                        "status": {
+                            "type": "queryBuilder",
+                            "value": "status"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "jobsByFilters":{
+        "componentType": "table",
+        "title": "Jobs list",
+        "ignoreKeys":["cron","retryConfig"],
+        "headersInfo":[
+            {
+                "title": "Job id",
+                "valueMap": "jobId",
+                "renderType": "text",
+                "align":"left",
+                "width": "20%",
+                "enableSort": true
+            },
+            {
+                "title": "Job name",
+                "valueMap": "jobName",
+                "renderType": "text",
+                "align":"left",
+                "width": "60%",
+                "enableSort": true
+            },
+            {
+                "title": "Job status",
+                "valueMap": "status",
+                "renderType": "text",
+                "align":"left",
+                "width": "20%",
+                "enableSort": true
+            }
+        ]
+    },
     "productActivation":{
         "componentType": "table",
         "title": "Product activation",
