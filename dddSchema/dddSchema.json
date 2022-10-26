@@ -184,55 +184,6 @@
             }
         ]
     },
-    "userDetailsQueryBuilder": {
-        "componentType": "detailsList",
-        "title": "Users",
-        "ignoreKeys": ["clientName","paymentId", "clientId"],
-        "additionalProperties": {
-            "showQueryBuilder": true,
-            "queryBuilderPosition": "bottom",
-            "queryBuilderParams": {
-                "orientation": "row",
-                "showChooseFilterInQueryBuilder": false,
-                "elementsInfo": [
-                    {
-                        "type": "Input",
-                        "componentProps": {
-                            "fullWidth":  true,
-                            "placeholder": "User's Email address"
-                        },
-                        "queryName": "loginId",
-                        "gridSize": 3
-                    }
-                ]
-            }
-        },
-        "additionalContent": [
-            {
-                "renderType": "Button",
-                "renderProps": {
-                    "label": "User Details"
-                },
-                "renderPosition": "bottom",
-                "action": {
-                    "type": "drillDown",
-                    "pathList": [
-                        "1.0",
-                        "aggregate"
-                    ],
-                    "paramObj": {
-                        "templateId": "UserDetail"
-                    },
-                    "paramObjMap": {
-                        "loginId": {
-                            "type": "queryBuilder",
-                            "value": "loginId"
-                        }
-                    }
-                }
-            }
-        ]
-    },
     "cfValidationQueryBuilder":{
         "componentType": "detailsList",
         "title": "CF Selection",
@@ -315,61 +266,6 @@
                         },
                         "clientId":"clientId",
                         "glType":"glType"
-                    }
-                }
-            }
-        ]
-    },
-    "transientClientsListQueryBuilder":{
-        "componentType": "detailsList",
-        "title": "Transient Clients",
-        "ignoreKeys": ["clientName","paymentId", "clientId","glType"],
-        "additionalProperties": {
-            "showQueryBuilder": true,
-            "queryBuilderPosition": "bottom",
-            "queryBuilderParams": {
-                "orientation": "row",
-                "showChooseFilterInQueryBuilder": false,
-                "elementsInfo": [
-                    {
-                        "type": "Dropdown",
-                        "title": "GL Type",
-                        "componentProps": {
-                            "options": {
-                                "2": "QuickBooks Online",
-                                "3": "Oracle NetSuite",
-                                "4": "QuickBooks Desktop"
-                            },
-                            "tnsForOptions": false,
-                            "multiple": true
-                        },
-                        "gridSize":4,
-                        "queryName": "glType"
-                    }
-                ]
-            }
-        },
-        "additionalContent": [
-            {
-                "renderType": "Button",
-                "renderProps": {
-                    "label": "List clients"
-                },
-                "renderPosition": "bottom",
-                "action": {
-                    "type": "drillDown",
-                    "pathList": [
-                        "1.0",
-                        "aggregate"
-                    ],
-                    "paramObj": {
-                        "templateId": "TotalTransientClientList"
-                    },
-                    "paramObjMap": {
-                        "glType": {
-                            "type": "queryBuilder",
-                            "value": "glType"
-                        }
                     }
                 }
             }
@@ -552,8 +448,11 @@
                         "title": "User status",
                         "componentProps": {
                             "options": {
-                                "Active": "Active",
-                                "NotActive": "Not Active"
+                                "1": "Not Active",
+                                "2": "Active",
+                                "3":"Suspended",
+                                "4":"Closed",
+                                "5":"Invited"
                             },
                             "tnsForOptions": false,
                             "multiple": true
@@ -602,14 +501,6 @@
         "componentType": "table",
         "title": "Users list",
         "headersInfo":[
-            {
-                "title": "Client Id",
-                "valueMap": "clientId",
-                "renderType": "text",
-                "align":"left",
-                "width": "20%",
-                "enableSort": true
-            },
             {
                 "title": "Login Id",
                 "valueMap": "loginId",
@@ -3058,9 +2949,31 @@
                 "editable": true
             },
             {
-                "title": "User Status",
+                "label": "Status",
                 "valueMap": "userStatus",
-                "editable": true
+                "editType": "select",
+                "enum": [
+                    {
+                        "label": "Non-Activated",
+                        "value": "Non-Activated"
+                    },
+                    {
+                        "label": "Active",
+                        "value": "Active"
+                    },
+                    {
+                        "label": "Suspended",
+                        "value": "Suspended"
+                    },
+                    {
+                        "label": "Closed",
+                        "value": "Closed"
+                    },
+                    {
+                        "label": "Invited",
+                        "value": "Invited"
+                    }
+                ]
             },
             {
                 "title": "Supervisor Id",
