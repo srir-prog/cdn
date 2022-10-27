@@ -522,8 +522,9 @@
                         "title": "Job status",
                         "componentProps": {
                             "options": {
-                                "0": "Not Active",
-                                "1": "Active"
+                                "0": "Active",
+                                "1": "Pause",
+                                "2":"Deprecated"
                             },
                             "tnsForOptions": false,
                             "multiple": true
@@ -567,14 +568,13 @@
     "jobsByFilters":{
         "componentType": "table",
         "title": "Jobs list",
-        "ignoreKeys":["cron","retryConfig"],
         "headersInfo":[
             {
                 "title": "Job id",
                 "valueMap": "jobId",
                 "renderType": "text",
                 "align":"left",
-                "width": "20%",
+                "width": "10%",
                 "enableSort": true
             },
             {
@@ -582,16 +582,585 @@
                 "valueMap": "jobName",
                 "renderType": "text",
                 "align":"left",
-                "width": "60%",
+                "width": "30%",
                 "enableSort": true
+            },
+            {
+                "title": "Cron",
+                "valueMap": "cron",
+                "renderType": "text",
+                "align":"left",
+                "width": "15%",
+                "enableSort": false
+            },
+            {
+                "title": "Retry config",
+                "valueMap": "retryConfig",
+                "renderProps": {
+                    "listInfo": [
+                        {
+                            "label": "Retry count",
+                            "valueMap": "retryCount"
+                        },
+                        {
+                            "label": "Retry interval",
+                            "valueMap": "retryInterval"
+                        }
+                    ]
+                },
+                "width": "30%",
+                "enableSort": false
             },
             {
                 "title": "Job status",
                 "valueMap": "status",
                 "renderType": "text",
                 "align":"left",
-                "width": "20%",
-                "enableSort": true
+                "width": "15%",
+                "enableSort": true,
+                "editable": "Dropdown",
+                "componentProps": {
+                    "options": {
+                        "0" : "Active",
+                        "1" : "Pause",
+                        "2" : "Deprecated"
+                    },
+                    "size": "medium36"
+                },
+                "displayValueEnum": [
+                    {
+                      "label": "Active",
+                      "value": 0
+                    },
+                    {
+                      "label": "Pause",
+                      "value": 1
+                    },
+                    {
+                      "label": "Deprecated",
+                      "value": 2
+                    }
+                ]
+            }
+        ],
+        "additionalProperties": {
+            "editableForm": true,
+            "onSaveAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "UpdateJob"
+                },
+                "paramObjMap": {
+                    "jobId":"jobId",
+                    "status":"status"
+                },
+                "bodyObjMap": {}
+            }
+        }
+
+    },
+    "billPaymentSchedule":{
+        "componentType": "detailsList",
+        "title": "Bill payment schedule details",
+        "ignoreKeys":["id","clientId","subPaymentMethod","glType"],
+        "listInfo":[
+            {
+                "label": "Bill Id",
+                "valueMap": "billId"
+            },
+            {
+                "label": "Supplier Id",
+                "valueMap": "supplierId",
+                "renderType": "Link",
+                "action": {
+                    "type": "sidePanelData",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "SupplierDetails"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId",
+                        "supplierId": "supplierId",
+                        "paymentMethod": "paymentMethod"
+                    }
+                }
+            },
+            {
+                "label": "Payment amount",
+                "valueMap": "paymentAmount",
+                "formatType":"currency"
+            },
+            {
+                "label": "Payment method",
+                "valueMap": "paymentMethod",
+                "displayValueEnum": [
+                    {
+                      "label": "CHECK",
+                      "value": 1
+                    },
+                    {
+                      "label": "ACH",
+                      "value": 2
+                    },
+                    {
+                      "label": "CENTIME_CARD",
+                      "value": 3
+                    },
+                    {
+                      "label": "CREDIT_CARD",
+                      "value": 4
+                    },
+                    {
+                      "label": "OTHER",
+                      "value": 5
+                    },
+                    {
+                      "label": "FX_PAYMENT",
+                      "value": 6
+                    },
+                    {
+                      "label": "CENTIME_PAY",
+                      "value": 7
+                    },
+                    {
+                      "label": "CENTIME_CASH",
+                      "value": 8
+                    }
+                  ]
+            },
+            {
+                "label": "Payment date",
+                "valueMap": "paymentDate",
+                "formatType":"date"
+            },
+            {
+                "label": "Payment status",
+                "valueMap": "paymentStatus",
+                "displayValueEnum": [
+                    {
+                      "label": "ReadyToPay",
+                      "value": 0
+                    },
+                    {
+                      "label": "AwaitingForApproval",
+                      "value": 1
+                    },
+                    {
+                      "label": "Rejected",
+                      "value": 2
+                    },
+                    {
+                      "label": "Scheduled",
+                      "value": 3
+                    },
+                    {
+                      "label": "Failed",
+                      "value": 4
+                    },
+                    {
+                      "label": "Paid",
+                      "value": 5
+                    },
+                    {
+                      "label": "markedPaid",
+                      "value": 6
+                    },
+                    {
+                      "label": "paidInGeneralLedger",
+                      "value": 7
+                    },
+                    {
+                      "label": "userActionNeeded",
+                      "value": 8
+                    },
+                    {
+                      "label": "inProcess",
+                      "value": 9
+                    }
+                  ]
+            },
+            {
+                "label": "Payer payment accountId",
+                "valueMap": "payerPaymentAccountId",
+                "renderType": "Link",
+                "action": {
+                  "type": "sidePanelData",
+                  "pathList": [
+                    "1.0",
+                    "aggregate"
+                  ],
+                  "paramObj": {
+                    "templateId": "BankAccountDetailsByAccountId"
+                  },
+                  "paramObjMap": {
+                    "clientId": "clientId",
+                    "accountId": "payerPaymentAccountId"
+                  }
+                }
+            },
+            {
+                "label": "Payee payment accountId",
+                "valueMap": "payeePaymentAccountId"
+            },
+            {
+                "label": "Payment Id",
+                "valueMap": "paymentId",
+                "renderType": "Link",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "PaymentDetails"
+                    },
+                    "paramObjMap": {
+                        "paymentId": "paymentId",
+                        "clientId": "clientId"
+                    },
+                    "pageQueryParams": ["paymentId","clientId"]
+                }
+            },
+            {
+                "label": "Action by user",
+                "valueMap": "actionByUser"
+            },
+            {
+                "label": "Action date",
+                "valueMap": "actionDate",
+                "formatType":"date"
+            },
+            {
+                "label": "Approval level",
+                "valueMap": "approvalLevel"
+            },
+            {
+                "label": "Remittance email",
+                "valueMap": "remittanceEmail"
+            },
+            {
+                "label": "Approval email sent",
+                "valueMap": "approvalEmailSent"
+            },
+            {
+                "label": "Payment information",
+                "valueMap": "paymentInformation",
+                "renderType": "detailsList",
+                "renderProps": {
+                    "listInfo": [
+                        {
+                            "label": "Check number",
+                            "valueMap": "checkNumber"
+                        }
+                    ]
+                }
+            },
+            {
+                "label":"Sub status",
+                "valueMap":"subStatus",
+                "renderType":"detailsList",
+                "renderProps": {
+                    "ignoreKeys":["selfApproval","approvalInfo"],
+                    "listInfo": [
+                        {
+                            "label": "Status",
+                            "valueMap": "status",
+                            "valueTNS": "accountPayables",
+                            "displayValueEnum": [
+                              {
+                                "label": "checkPrintingInProcess",
+                                "value": 0
+                              },
+                              {
+                                "label": "cardInformationSent",
+                                "value": 1
+                              },
+                              {
+                                "label": "checkMailed",
+                                "value": 2
+                              },
+                              {
+                                "label": "Scheduled",
+                                "value": 3
+                              },
+                              {
+                                "label": "`checkProcessed`",
+                                "value": 4
+                              },
+                              {
+                                "label": "cardProcessed",
+                                "value": 5
+                              },
+                              {
+                                "label": "cardNotProcessed",
+                                "value": 6
+                              },
+                              {
+                                "label": "returned",
+                                "value": 7
+                              },
+                              {
+                                "label": "reissued",
+                                "value": 8
+                              },
+                              {
+                                "label": "cancelled",
+                                "value": 9
+                              },
+                              {
+                                "label": "initiated",
+                                "value": 10
+                              },
+                              {
+                                "label": "achSubmitted",
+                                "value": 11
+                              },
+                              {
+                                "label": "postedInGeneralLedger",
+                                "value": 12
+                              },
+                              {
+                                "label": "firstApprovalPending",
+                                "value": 13
+                              },
+                              {
+                                "label": "secondApprovalPending",
+                                "value": 14
+                              },
+                              {
+                                "label": "thirdApprovalPending",
+                                "value": 15
+                              },
+                              {
+                                "label": "paymentFailed",
+                                "value": 16
+                              },
+                              {
+                                "label": "voidedManually",
+                                "value": 17
+                              },
+                              {
+                                "label": "checkAtLocalPostOffice",
+                                "value": 18
+                              },
+                              {
+                                "label": "checkAtRecipientPostOffice",
+                                "value": 19
+                              },
+                              {
+                                "label": "checkOutForDelivery",
+                                "value": 20
+                              },
+                              {
+                                "label": "checkDelivered",
+                                "value": 21
+                              },
+                              {
+                                "label": "creditCardDebitInitiated",
+                                "value": 22
+                              },
+                              {
+                                "label": "bankAccountDebitInitiated",
+                                "value": 23
+                              },
+                              {
+                                "label": "fundTransferToSupplierInitiated",
+                                "value": 24
+                              }
+                            ]
+                        },
+                        {
+                            "label": "Email Id",
+                            "valueMap": "byUser"
+                        },
+                        {
+                            "label": "Username",
+                            "valueMap": "byUserName"
+                        },
+                        {
+                            "label": "Reason",
+                            "valueMap": "reason",
+                            "valueTNS": "accountPayables",
+                            "displayValueEnum": [
+                              {
+                                "label": "unknown",
+                                "value": "0"
+                              },
+                              {
+                                "label": "systemFailure",
+                                "value": "1"
+                              },
+                              {
+                                "label": "paymentAmountShouldBeTill2DecimalPlaces",
+                                "value": "2"
+                              },
+                              {
+                                "label": "invalidPaymentCurrency",
+                                "value": "3"
+                              },
+                              {
+                                "label": "invalidPaymentDate",
+                                "value": "4"
+                              },
+                              {
+                                "label": "issueInActivatingPaymentProduct",
+                                "value": "5"
+                              },
+                              {
+                                "label": "invalidAccountDetails",
+                                "value": "6"
+                              },
+                              {
+                                "label": "limitForMaximumPaymentAmountExceeded",
+                                "value": "7"
+                              },
+                              {
+                                "label": "supplierAccountShouldBeDifferentFromFundingAccount",
+                                "value": "8"
+                              },
+                              {
+                                "label": "issuesInGeneratingCardDetails",
+                                "value": "9"
+                              },
+                              {
+                                "label": "issueInOnboardingCentimeCard",
+                                "value": "10"
+                              },
+                              {
+                                "label": "insufficientBalance",
+                                "value": "11"
+                              },
+                              {
+                                "label": "invalidPaymentMethod",
+                                "value": "12"
+                              },
+                              {
+                                "label": "issueInOnboardingACHPayments",
+                                "value": "13"
+                              },
+                              {
+                                "label": "invalidAccountDetails",
+                                "value": "14"
+                              },
+                              {
+                                "label": "paymentNetworkFailure",
+                                "value": "15"
+                              },
+                              {
+                                "label": "supplierDeclinedPayment",
+                                "value": "16"
+                              },
+                              {
+                                "label": "inactiveSupplierAccount",
+                                "value": "17"
+                              },
+                              {
+                                "label": "supplierBankCouldNotSettleThePayment",
+                                "value": "18"
+                              },
+                              {
+                                "label": "inactivePayFromAccount",
+                                "value": "19"
+                              },
+                              {
+                                "label": "surchargeUpdated",
+                                "value": "20"
+                              }
+                            ]
+                        },
+                        {
+                            "label": "Date",
+                            "valueMap": "dateTimeStamp",
+                            "formatType":"date"
+                        }
+                    ]
+                }
+            },
+            {
+                "label": "Active status",
+                "valueMap": "activeStatus"
+            },
+            {
+                "label": "Posting counter",
+                "valueMap": "postingCounter"
+            },
+            {
+                "label": "Plan status",
+                "valueMap": "planStatus"
+            },
+            {
+                "label":"GL status",
+                "valueMap":"glStatus",
+                "renderProps":{
+                    "ignoreKeys":["selfApproval"],
+                    "listInfo": [
+                        {
+                            "label": "Status",
+                            "valueMap": "status"
+                        },
+                        {
+                            "label": "Username",
+                            "valueMap": "byUserName"
+                        },
+                        {
+                            "label": "Date",
+                            "valueMap": "dateTimeStamp",
+                            "formatType":"date"
+                        }
+                    ]
+                }
+            },
+            {
+                "label":"History",
+                "valueMap":"history",
+                "renderProps": {
+                    "ignoreKeys":["messageId","personalizeParams"],
+                    "headersInfo":[
+                        {
+                            "title": "Date",
+                            "valueMap": "dateTimeStamp",
+                            "renderType": "text",
+                            "formatType":"date",
+                            "align":"left",
+                            "width": "15%",
+                            "enableSort": true
+                        },
+                        {
+                            "title": "User",
+                            "valueMap": "byUser",
+                            "renderType": "text",
+                            "align":"left",
+                            "width": "15%",
+                            "enableSort": true
+                        },
+                        {
+                            "title": "Message",
+                            "valueMap": "message",
+                            "renderType": "text",
+                            "align":"left",
+                            "width": "35%",
+                            "enableSort": true
+                        },
+                        {
+                            "title": "Action",
+                            "valueMap": "action",
+                            "renderType": "text",
+                            "align":"left",
+                            "width": "35%",
+                            "enableSort": true
+                        }
+                    ]
+                }
             }
         ]
     },
@@ -662,11 +1231,16 @@
                 "width": "20%",
                 "enableSort": true
             }
-        ]
+        ],
+        "additionalProperties": {
+            "enableSearch": true,
+            "paginationNeeded": true
+        }
     },
     "openBills":{
         "componentType": "table",
         "title": "Open bills",
+        "ignoreKeys":["currencyCode","clientId"],
         "headersInfo":[
             {
                 "title": "Bill Id",
@@ -696,15 +1270,9 @@
                 "renderType": "text",
                 "formatType": "currency",
                 "align":"left",
-                "width": "20%",
+                "width": "25%",
                 "enableSort": true
             },
-            {
-                "title": " ",
-                "valueMap": "currencyCode",
-                "enableSort": false,
-                "width": "5%"
-            }, 
             {
                 "title": "Balance",
                 "valueMap": "txnBalance",
@@ -715,12 +1283,6 @@
                 "enableSort": true
             },
             {
-                "title": " ",
-                "valueMap": "currencyCode",
-                "enableSort": false,
-                "width": "5%"
-            }, 
-            {
                 "title": "Due date",
                 "valueMap": "dueDate",
                 "renderType": "text",
@@ -729,7 +1291,11 @@
                 "width": "25%",
                 "enableSort": true
             }
-        ]
+        ],
+        "additionalProperties": {
+            "enableSearch": true,
+            "paginationNeeded": true
+        }
     },
     "bankAccountsByClientId":{
         "componentType": "table",
@@ -753,7 +1319,8 @@
         "investmentPosition", 
         "accountManagedStatus",
         "fullAccountNumber",
-        "routingNumber"
+        "routingNumber",
+        "currencyCode"
     ],
         "headersInfo":[
             {
@@ -818,14 +1385,8 @@
                 "renderType": "text",
                 "formatType": "currency",
                 "align":"left",
-                "width": "10%",
+                "width": "15%",
                 "enableSort": true
-            },
-            {
-                "title": " ",
-                "valueMap": "currencyCode",
-                "enableSort": false,
-                "width": "5%"
             }
         ],
         "additionalProperties": {
@@ -1220,7 +1781,7 @@
                 "align": "right",
                 "formatType": "currency",
                 "enableSort": true,
-                "width":"10%"
+                "width":"15%"
             },
             {
                 "title": " ",
@@ -3557,7 +4118,7 @@
                 ]
             }
         ],
-        "ignoreKeys": ["paymentId","clientName"],
+        "ignoreKeys": ["paymentId","clientName","glType","clientId"],
         "additionalContent": [
             {
                 "renderType": "Button",
