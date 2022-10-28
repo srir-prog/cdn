@@ -184,60 +184,11 @@
             }
         ]
     },
-    "userDetailsQueryBuilder": {
-        "componentType": "detailsList",
-        "title": "Users",
-        "ignoreKeys": ["clientName","paymentId", "clientId"],
-        "additionalProperties": {
-            "showQueryBuilder": true,
-            "queryBuilderPosition": "bottom",
-            "queryBuilderParams": {
-                "orientation": "row",
-                "showChooseFilterInQueryBuilder": false,
-                "elementsInfo": [
-                    {
-                        "type": "Input",
-                        "componentProps": {
-                            "fullWidth":  true,
-                            "placeholder": "User's Email address"
-                        },
-                        "queryName": "loginId",
-                        "gridSize": 3
-                    }
-                ]
-            }
-        },
-        "additionalContent": [
-            {
-                "renderType": "Button",
-                "renderProps": {
-                    "label": "User Details"
-                },
-                "renderPosition": "bottom",
-                "action": {
-                    "type": "drillDown",
-                    "pathList": [
-                        "1.0",
-                        "aggregate"
-                    ],
-                    "paramObj": {
-                        "templateId": "UserDetail"
-                    },
-                    "paramObjMap": {
-                        "loginId": {
-                            "type": "queryBuilder",
-                            "value": "loginId"
-                        }
-                    }
-                }
-            }
-        ]
-    },
     "cfValidationQueryBuilder":{
         "componentType": "detailsList",
         "title": "CF Selection",
         "ignoreKeys": [
-            "clientId","glType"
+            "clientId","glType","paymentId","clientName"
         ],
         "additionalProperties": {
             "showQueryBuilder": true,
@@ -320,9 +271,9 @@
             }
         ]
     },
-    "transientClientsListQueryBuilder":{
+    "invitedUsersListQueryBuilder":{
         "componentType": "detailsList",
-        "title": "Transient Clients",
+        "title": "Invited Users",
         "ignoreKeys": ["clientName","paymentId", "clientId","glType"],
         "additionalProperties": {
             "showQueryBuilder": true,
@@ -332,19 +283,15 @@
                 "showChooseFilterInQueryBuilder": false,
                 "elementsInfo": [
                     {
-                        "type": "Dropdown",
-                        "title": "GL Type",
+                        "type": "Input",
+                        "title": "User Email Address",
                         "componentProps": {
-                            "options": {
-                                "2": "QuickBooks Online",
-                                "3": "Oracle NetSuite",
-                                "4": "QuickBooks Desktop"
-                            },
-                            "tnsForOptions": false,
-                            "multiple": true
+                            "type": "email",
+                            "placeholder": "Empty to get all users",
+                            "fullWidth" : true
                         },
                         "gridSize":4,
-                        "queryName": "glType"
+                        "queryName": "loginId"
                     }
                 ]
             }
@@ -353,7 +300,7 @@
             {
                 "renderType": "Button",
                 "renderProps": {
-                    "label": "List clients"
+                    "label": "Get User(s)"
                 },
                 "renderPosition": "bottom",
                 "action": {
@@ -363,17 +310,1161 @@
                         "aggregate"
                     ],
                     "paramObj": {
-                        "templateId": "TotalTransientClientList"
+                        "templateId": "UserInviteeTransient"
                     },
                     "paramObjMap": {
-                        "glType": {
+                        "clientId": {
                             "type": "queryBuilder",
-                            "value": "glType"
+                            "value": "clientId"
+                        },
+                        "loginId": {
+                            "type": "queryBuilder",
+                            "value": "loginId"
+                        },
+                        "userStatus": {
+                            "type": "queryBuilder",
+                            "value": "userStatus"
                         }
                     }
                 }
             }
         ]
+    },
+    "generateSignUpQueryBuilder":{
+        "componentType": "detailsList",
+        "title": "Generate Signup Link",
+        "ignoreKeys": ["clientName","paymentId", "clientId","glType"],
+        "additionalProperties": {
+            "showQueryBuilder": true,
+            "queryBuilderPosition": "bottom",
+            "queryBuilderParams": {
+                "orientation": "row",
+                "showChooseFilterInQueryBuilder": false,
+                "elementsInfo": [
+                    {
+                        "type": "Input",
+                        "title": "First Name",
+                        "gridSize":4,
+                        "componentProps": {
+                            "fullWidth": true
+                        },
+                        "queryName": "firstName"
+                    },
+                    {
+                        "type": "Input",
+                        "title": "Last Name",
+                        "gridSize":4,
+                        "componentProps": {
+                            "fullWidth": true
+                        },
+                        "queryName": "lastName"
+                    },
+                    {
+                        "type": "Input",
+                        "title": "Email Address",
+                        "componentProps": {
+                            "type": "email",
+                            "fullWidth": true
+                        },
+                        "gridSize":4,
+                        "queryName": "loginId"
+                    }
+                ]
+            }
+        },
+        "additionalContent": [
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Send Signup Link"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "updateCall",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "SignUp"
+                    },
+                    "paramObjMap": {
+                        "loginId": {
+                            "type": "queryBuilder",
+                            "value": "loginId"
+                        },
+                        "firstName":  {
+                            "type": "queryBuilder",
+                            "value": "firstName"
+                        },
+                        "lastName":  {
+                            "type": "queryBuilder",
+                            "value": "lastName"
+                        },
+                        "resend": {
+                            "type": "hardCoded",
+                            "value": false
+                        }
+                    },
+                    "successNotificationObject": {
+                        "message": "Successfully sent the signup link"
+                    }
+                }
+            }
+        ]
+    },
+    "usersListQueryBuilder":{
+        "componentType": "detailsList",
+        "title": "Users",
+        "ignoreKeys": ["clientName","paymentId", "clientId","glType"],
+        "additionalProperties": {
+            "showQueryBuilder": true,
+            "queryBuilderPosition": "bottom",
+            "queryBuilderParams": {
+                "orientation": "row",
+                "showChooseFilterInQueryBuilder": false,
+                "elementsInfo": [
+                    {
+                        "type": "Input",
+                        "title": "Client Id",
+                        "gridSize":4,
+                        "componentProps": {
+                            "fullWidth": true
+                        },
+                        "queryName": "clientId"
+                    },
+                    {
+                        "type": "Input",
+                        "title": "User Email Address",
+                        "componentProps": {
+                            "type": "email",
+                            "fullWidth" : true
+                        },
+                        "gridSize":4,
+                        "queryName": "loginId"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "title": "User status",
+                        "componentProps": {
+                            "options": {
+                                "1": "Not Active",
+                                "2": "Active",
+                                "3":"Suspended",
+                                "4":"Closed",
+                                "5":"Invited"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
+                        },
+                        "gridSize":4,
+                        "queryName": "userStatus"
+                    }
+                ]
+            }
+        },
+        "additionalContent": [
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Get User(s)"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "UsersList"
+                    },
+                    "paramObjMap": {
+                        "clientId": {
+                            "type": "queryBuilder",
+                            "value": "clientId"
+                        },
+                        "loginId": {
+                            "type": "queryBuilder",
+                            "value": "loginId"
+                        },
+                        "userStatus": {
+                            "type": "queryBuilder",
+                            "value": "userStatus"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "jobsListQueryBuilder":{
+        "componentType": "detailsList",
+        "title": "Jobs",
+        "ignoreKeys": ["clientName","paymentId", "clientId","glType"],
+        "additionalProperties": {
+            "showQueryBuilder": true,
+            "queryBuilderPosition": "bottom",
+            "queryBuilderParams": {
+                "orientation": "row",
+                "showChooseFilterInQueryBuilder": false,
+                "elementsInfo": [
+                    {
+                        "type": "Input",
+                        "title": "Job id",
+                        "gridSize":6,
+                        "componentProps": {
+                            "fullWidth": true
+                        },
+                        "queryName": "jobId"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "title": "Job status",
+                        "componentProps": {
+                            "options": {
+                                "0": "Active",
+                                "1": "Pause",
+                                "2":"Deprecated"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
+                        },
+                        "gridSize":6,
+                        "queryName": "status"
+                    }
+                ]
+            }
+        },
+        "additionalContent": [
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Get Job(s)"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "JobsByFilters"
+                    },
+                    "paramObjMap": {
+                        "jobId": {
+                            "type": "queryBuilder",
+                            "value": "jobId"
+                        },
+                        "status": {
+                            "type": "queryBuilder",
+                            "value": "status"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "jobsByFilters":{
+        "componentType": "table",
+        "title": "Jobs list",
+        "headersInfo":[
+            {
+                "title": "Job id",
+                "valueMap": "jobId",
+                "renderType": "text",
+                "align":"left",
+                "width": "10%",
+                "enableSort": true
+            },
+            {
+                "title": "Job name",
+                "valueMap": "jobName",
+                "renderType": "text",
+                "align":"left",
+                "width": "30%",
+                "enableSort": true
+            },
+            {
+                "title": "Cron",
+                "valueMap": "cron",
+                "renderType": "text",
+                "align":"left",
+                "width": "15%",
+                "enableSort": false
+            },
+            {
+                "title": "Retry config",
+                "valueMap": "retryConfig",
+                "renderProps": {
+                    "listInfo": [
+                        {
+                            "label": "Retry count",
+                            "valueMap": "retryCount"
+                        },
+                        {
+                            "label": "Retry interval",
+                            "valueMap": "retryInterval"
+                        }
+                    ]
+                },
+                "width": "30%",
+                "enableSort": false
+            },
+            {
+                "title": "Job status",
+                "valueMap": "status",
+                "renderType": "text",
+                "align":"left",
+                "width": "15%",
+                "enableSort": true,
+                "editable": "Dropdown",
+                "componentProps": {
+                    "options": {
+                        "0" : "Active",
+                        "1" : "Pause",
+                        "2" : "Deprecated"
+                    },
+                    "size": "medium36"
+                },
+                "displayValueEnum": [
+                    {
+                      "label": "Active",
+                      "value": 0
+                    },
+                    {
+                      "label": "Pause",
+                      "value": 1
+                    },
+                    {
+                      "label": "Deprecated",
+                      "value": 2
+                    }
+                ]
+            }
+        ],
+        "additionalProperties": {
+            "editableForm": true,
+            "onSaveAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "UpdateJob"
+                },
+                "paramObjMap": {
+                    "jobId":"jobId",
+                    "status":"status"
+                },
+                "bodyObjMap": {}
+            }
+        }
+
+    },
+    "billPaymentSchedule":{
+        "componentType": "detailsList",
+        "title": "Bill payment schedule details",
+        "ignoreKeys":["id","clientId","subPaymentMethod","glType"],
+        "listInfo":[
+            {
+                "label": "Bill Id",
+                "valueMap": "billId"
+            },
+            {
+                "label": "Supplier Id",
+                "valueMap": "supplierId",
+                "renderType": "Link",
+                "action": {
+                    "type": "sidePanelData",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "SupplierDetails"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId",
+                        "supplierId": "supplierId",
+                        "paymentMethod": "paymentMethod"
+                    }
+                }
+            },
+            {
+                "label": "Payment amount",
+                "valueMap": "paymentAmount",
+                "formatType":"currency"
+            },
+            {
+                "label": "Payment method",
+                "valueMap": "paymentMethod",
+                "displayValueEnum": [
+                    {
+                      "label": "CHECK",
+                      "value": 1
+                    },
+                    {
+                      "label": "ACH",
+                      "value": 2
+                    },
+                    {
+                      "label": "CENTIME_CARD",
+                      "value": 3
+                    },
+                    {
+                      "label": "CREDIT_CARD",
+                      "value": 4
+                    },
+                    {
+                      "label": "OTHER",
+                      "value": 5
+                    },
+                    {
+                      "label": "FX_PAYMENT",
+                      "value": 6
+                    },
+                    {
+                      "label": "CENTIME_PAY",
+                      "value": 7
+                    },
+                    {
+                      "label": "CENTIME_CASH",
+                      "value": 8
+                    }
+                  ]
+            },
+            {
+                "label": "Payment date",
+                "valueMap": "paymentDate",
+                "formatType":"date"
+            },
+            {
+                "label": "Payment status",
+                "valueMap": "paymentStatus",
+                "displayValueEnum": [
+                    {
+                      "label": "ReadyToPay",
+                      "value": 0
+                    },
+                    {
+                      "label": "AwaitingForApproval",
+                      "value": 1
+                    },
+                    {
+                      "label": "Rejected",
+                      "value": 2
+                    },
+                    {
+                      "label": "Scheduled",
+                      "value": 3
+                    },
+                    {
+                      "label": "Failed",
+                      "value": 4
+                    },
+                    {
+                      "label": "Paid",
+                      "value": 5
+                    },
+                    {
+                      "label": "markedPaid",
+                      "value": 6
+                    },
+                    {
+                      "label": "paidInGeneralLedger",
+                      "value": 7
+                    },
+                    {
+                      "label": "userActionNeeded",
+                      "value": 8
+                    },
+                    {
+                      "label": "inProcess",
+                      "value": 9
+                    }
+                  ]
+            },
+            {
+                "label": "Payer payment accountId",
+                "valueMap": "payerPaymentAccountId",
+                "renderType": "Link",
+                "action": {
+                  "type": "sidePanelData",
+                  "pathList": [
+                    "1.0",
+                    "aggregate"
+                  ],
+                  "paramObj": {
+                    "templateId": "BankAccountDetailsByAccountId"
+                  },
+                  "paramObjMap": {
+                    "clientId": "clientId",
+                    "accountId": "payerPaymentAccountId"
+                  }
+                }
+            },
+            {
+                "label": "Payee payment accountId",
+                "valueMap": "payeePaymentAccountId"
+            },
+            {
+                "label": "Payment Id",
+                "valueMap": "paymentId",
+                "renderType": "Link",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "PaymentDetails"
+                    },
+                    "paramObjMap": {
+                        "paymentId": "paymentId",
+                        "clientId": "clientId"
+                    },
+                    "pageQueryParams": ["paymentId","clientId"]
+                }
+            },
+            {
+                "label": "Action by user",
+                "valueMap": "actionByUser"
+            },
+            {
+                "label": "Action date",
+                "valueMap": "actionDate",
+                "formatType":"date"
+            },
+            {
+                "label": "Approval level",
+                "valueMap": "approvalLevel"
+            },
+            {
+                "label": "Remittance email",
+                "valueMap": "remittanceEmail"
+            },
+            {
+                "label": "Approval email sent",
+                "valueMap": "approvalEmailSent"
+            },
+            {
+                "label": "Payment information",
+                "valueMap": "paymentInformation",
+                "renderType": "detailsList",
+                "renderProps": {
+                    "listInfo": [
+                        {
+                            "label": "Check number",
+                            "valueMap": "checkNumber"
+                        }
+                    ]
+                }
+            },
+            {
+                "label":"Sub status",
+                "valueMap":"subStatus",
+                "renderType":"detailsList",
+                "renderProps": {
+                    "ignoreKeys":["selfApproval","approvalInfo"],
+                    "listInfo": [
+                        {
+                            "label": "Status",
+                            "valueMap": "status",
+                            "valueTNS": "accountPayables",
+                            "displayValueEnum": [
+                              {
+                                "label": "checkPrintingInProcess",
+                                "value": 0
+                              },
+                              {
+                                "label": "cardInformationSent",
+                                "value": 1
+                              },
+                              {
+                                "label": "checkMailed",
+                                "value": 2
+                              },
+                              {
+                                "label": "Scheduled",
+                                "value": 3
+                              },
+                              {
+                                "label": "`checkProcessed`",
+                                "value": 4
+                              },
+                              {
+                                "label": "cardProcessed",
+                                "value": 5
+                              },
+                              {
+                                "label": "cardNotProcessed",
+                                "value": 6
+                              },
+                              {
+                                "label": "returned",
+                                "value": 7
+                              },
+                              {
+                                "label": "reissued",
+                                "value": 8
+                              },
+                              {
+                                "label": "cancelled",
+                                "value": 9
+                              },
+                              {
+                                "label": "initiated",
+                                "value": 10
+                              },
+                              {
+                                "label": "achSubmitted",
+                                "value": 11
+                              },
+                              {
+                                "label": "postedInGeneralLedger",
+                                "value": 12
+                              },
+                              {
+                                "label": "firstApprovalPending",
+                                "value": 13
+                              },
+                              {
+                                "label": "secondApprovalPending",
+                                "value": 14
+                              },
+                              {
+                                "label": "thirdApprovalPending",
+                                "value": 15
+                              },
+                              {
+                                "label": "paymentFailed",
+                                "value": 16
+                              },
+                              {
+                                "label": "voidedManually",
+                                "value": 17
+                              },
+                              {
+                                "label": "checkAtLocalPostOffice",
+                                "value": 18
+                              },
+                              {
+                                "label": "checkAtRecipientPostOffice",
+                                "value": 19
+                              },
+                              {
+                                "label": "checkOutForDelivery",
+                                "value": 20
+                              },
+                              {
+                                "label": "checkDelivered",
+                                "value": 21
+                              },
+                              {
+                                "label": "creditCardDebitInitiated",
+                                "value": 22
+                              },
+                              {
+                                "label": "bankAccountDebitInitiated",
+                                "value": 23
+                              },
+                              {
+                                "label": "fundTransferToSupplierInitiated",
+                                "value": 24
+                              }
+                            ]
+                        },
+                        {
+                            "label": "Email Id",
+                            "valueMap": "byUser"
+                        },
+                        {
+                            "label": "Username",
+                            "valueMap": "byUserName"
+                        },
+                        {
+                            "label": "Reason",
+                            "valueMap": "reason",
+                            "valueTNS": "accountPayables",
+                            "displayValueEnum": [
+                              {
+                                "label": "unknown",
+                                "value": "0"
+                              },
+                              {
+                                "label": "systemFailure",
+                                "value": "1"
+                              },
+                              {
+                                "label": "paymentAmountShouldBeTill2DecimalPlaces",
+                                "value": "2"
+                              },
+                              {
+                                "label": "invalidPaymentCurrency",
+                                "value": "3"
+                              },
+                              {
+                                "label": "invalidPaymentDate",
+                                "value": "4"
+                              },
+                              {
+                                "label": "issueInActivatingPaymentProduct",
+                                "value": "5"
+                              },
+                              {
+                                "label": "invalidAccountDetails",
+                                "value": "6"
+                              },
+                              {
+                                "label": "limitForMaximumPaymentAmountExceeded",
+                                "value": "7"
+                              },
+                              {
+                                "label": "supplierAccountShouldBeDifferentFromFundingAccount",
+                                "value": "8"
+                              },
+                              {
+                                "label": "issuesInGeneratingCardDetails",
+                                "value": "9"
+                              },
+                              {
+                                "label": "issueInOnboardingCentimeCard",
+                                "value": "10"
+                              },
+                              {
+                                "label": "insufficientBalance",
+                                "value": "11"
+                              },
+                              {
+                                "label": "invalidPaymentMethod",
+                                "value": "12"
+                              },
+                              {
+                                "label": "issueInOnboardingACHPayments",
+                                "value": "13"
+                              },
+                              {
+                                "label": "invalidAccountDetails",
+                                "value": "14"
+                              },
+                              {
+                                "label": "paymentNetworkFailure",
+                                "value": "15"
+                              },
+                              {
+                                "label": "supplierDeclinedPayment",
+                                "value": "16"
+                              },
+                              {
+                                "label": "inactiveSupplierAccount",
+                                "value": "17"
+                              },
+                              {
+                                "label": "supplierBankCouldNotSettleThePayment",
+                                "value": "18"
+                              },
+                              {
+                                "label": "inactivePayFromAccount",
+                                "value": "19"
+                              },
+                              {
+                                "label": "surchargeUpdated",
+                                "value": "20"
+                              }
+                            ]
+                        },
+                        {
+                            "label": "Date",
+                            "valueMap": "dateTimeStamp",
+                            "formatType":"date"
+                        }
+                    ]
+                }
+            },
+            {
+                "label": "Active status",
+                "valueMap": "activeStatus"
+            },
+            {
+                "label": "Posting counter",
+                "valueMap": "postingCounter"
+            },
+            {
+                "label": "Plan status",
+                "valueMap": "planStatus"
+            },
+            {
+                "label":"GL status",
+                "valueMap":"glStatus",
+                "renderProps":{
+                    "ignoreKeys":["selfApproval"],
+                    "listInfo": [
+                        {
+                            "label": "Status",
+                            "valueMap": "status"
+                        },
+                        {
+                            "label": "Username",
+                            "valueMap": "byUserName"
+                        },
+                        {
+                            "label": "Date",
+                            "valueMap": "dateTimeStamp",
+                            "formatType":"date"
+                        }
+                    ]
+                }
+            },
+            {
+                "label":"History",
+                "valueMap":"history",
+                "renderProps": {
+                    "ignoreKeys":["messageId","personalizeParams"],
+                    "headersInfo":[
+                        {
+                            "title": "Date",
+                            "valueMap": "dateTimeStamp",
+                            "renderType": "text",
+                            "formatType":"date",
+                            "align":"left",
+                            "width": "15%",
+                            "enableSort": true
+                        },
+                        {
+                            "title": "User",
+                            "valueMap": "byUser",
+                            "renderType": "text",
+                            "align":"left",
+                            "width": "15%",
+                            "enableSort": true
+                        },
+                        {
+                            "title": "Message",
+                            "valueMap": "message",
+                            "renderType": "text",
+                            "align":"left",
+                            "width": "35%",
+                            "enableSort": true
+                        },
+                        {
+                            "title": "Action",
+                            "valueMap": "action",
+                            "renderType": "text",
+                            "align":"left",
+                            "width": "35%",
+                            "enableSort": true
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "productActivation":{
+        "componentType": "table",
+        "title": "Product activation",
+        "ignoreKeys":["paymentMethodId","sourceId","bankApplicationGroup"],
+        "headersInfo":[
+            {
+                "title": "Payment method",
+                "valueMap": "applicationType",
+                "renderType": "text",
+                "align":"left",
+                "width": "20%",
+                "enableSort": true
+            },
+            {
+                "title": "Description",
+                "valueMap": "description",
+                "renderType": "text",
+                "align":"left",
+                "width": "36%",
+                "enableSort": true
+            },
+            {
+                "title": "Accounts",
+                "valueMap":"bankApplicationGroup",
+                "align":"left",
+                "width": "12%",
+                "enableAccordion":true,
+                "renderType": "AccordionLink",
+                "accordionProps":{
+                    "renderType":"Tabs",
+                    "valueMap":"bankApplicationGroup",
+                    "tabsInfo":[{
+                        "tabTitle":"Opening Balance",
+                         "listInfo":[{
+                             "label":"Result",
+                             "valueMap":"comparisonResult",
+                             "gridSize":3
+                         },{
+                            "label":"Centime",
+                            "valueMap":"valueFromCentime",
+                            "gridSize":3
+                         },
+                         {
+                            "label":"Source",
+                            "valueMap":"valueFromSource",
+                            "gridSize":3
+                         }
+                        ]   
+                    }]
+                }
+            },
+            {
+                "title": "Status",
+                "valueMap": "applicationStatus",
+                "renderType": "text",
+                "align":"left",
+                "width": "12%",
+                "enableSort": true
+            },
+            {
+                "title": "Initiated by",
+                "valueMap": "applicationInitiatedBy",
+                "renderType": "text",
+                "align":"left",
+                "width": "20%",
+                "enableSort": true
+            }
+        ],
+        "additionalProperties": {
+            "enableSearch": true,
+            "paginationNeeded": true
+        }
+    },
+    "openBills":{
+        "componentType": "table",
+        "title": "Open bills",
+        "ignoreKeys":["currencyCode","clientId"],
+        "headersInfo":[
+            {
+                "title": "Bill Id",
+                "valueMap": "billId",
+                "align":"left",
+                "width": "25%",
+                "renderType": "Link",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "BillPaymentSchedule"
+                    },
+                    "paramObjMap": {
+                        "clientId":"clientId",
+                        "billId": "billId"
+                    }
+                },
+                "enableSort": true
+            },
+            {
+                "title": "Total amount",
+                "valueMap": "txnTotalAmount",
+                "renderType": "text",
+                "formatType": "currency",
+                "align":"left",
+                "width": "25%",
+                "enableSort": true
+            },
+            {
+                "title": "Balance",
+                "valueMap": "txnBalance",
+                "renderType": "text",
+                "formatType": "currency",
+                "align":"left",
+                "width": "20%",
+                "enableSort": true
+            },
+            {
+                "title": "Due date",
+                "valueMap": "dueDate",
+                "renderType": "text",
+                "formatType": "date",
+                "align":"left",
+                "width": "25%",
+                "enableSort": true
+            }
+        ],
+        "additionalProperties": {
+            "enableSearch": true,
+            "paginationNeeded": true
+        }
+    },
+    "bankAccountsByClientId":{
+        "componentType": "table",
+        "title": "Accounts list",
+        "ignoreKeys":
+        [
+        "accountId",
+        "accountStatus",
+        "sourceId",
+        "accountGroup",
+        "institutionId",
+        "balanceDate",
+        "clientId",
+        "institutionLoginId",
+        "lastTransactionDate",
+        "batchId",
+        "aggregationSuccessDate",
+        "aggregationAttemptDate",
+        "aggregationStatusCode",
+        "accountDetail",
+        "investmentPosition", 
+        "accountManagedStatus",
+        "fullAccountNumber",
+        "routingNumber",
+        "currencyCode"
+    ],
+        "headersInfo":[
+            {
+                "title": "FI name",
+                "valueMap": "institutionName",
+                "renderType": "text",
+                "align":"left",
+                "width": "12.5%",
+                "enableSort": true
+            },
+            {
+                "title": "New FI name",
+                "valueMap": "modifiedInstitutionName",
+                "renderType": "text",
+                "align":"left",
+                "width": "12.5%",
+                "enableSort": true
+            }, 
+            {
+                "title": "A/C name",
+                "valueMap": "accountName",
+                "renderType": "text",
+                "align":"left",
+                "width": "12.5%",
+                "enableSort": true
+            },
+            {
+                "title": "New A/C name",
+                "valueMap": "modifiedAccountName",
+                "renderType": "text",
+                "align":"left",
+                "width": "12.5%",
+                "enableSort": true
+            },
+            {
+                "title": "A/C type",
+                "valueMap": "accountType",
+                "renderType": "text",
+                "align":"left",
+                "width": "12.5%",
+                "enableSort": true
+            },
+            {
+                "title": "New A/C type",
+                "valueMap": "modifiedAccountType",
+                "renderType": "text",
+                "align":"left",
+                "width": "12.5%",
+                "enableSort": true
+            },
+            {
+                "title": "A/C number",
+                "valueMap": "accountNumber",
+                "renderType": "text",
+                "align":"left",
+                "width": "10%",
+                "enableSort": true
+            },
+            {
+                "title": "A/C balance",
+                "valueMap": "currentBalance",
+                "renderType": "text",
+                "formatType": "currency",
+                "align":"left",
+                "width": "15%",
+                "enableSort": true
+            }
+        ],
+        "additionalProperties": {
+            "enableSearch": true,
+            "paginationNeeded": true
+        }
+    },
+    "usersList":{
+        "componentType": "table",
+        "title": "Users list",
+        "headersInfo":[
+            {
+                "title": "Login Id",
+                "valueMap": "loginId",
+                "align":"left",
+                "width": "20%",
+                "renderType": "Link",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "UserDetail"
+                    },
+                    "paramObjMap": {
+                        "loginId": "loginId"
+                    }
+                },
+                "enableSort": true
+            },
+            {
+                "title": "First name",
+                "valueMap": "firstName",
+                "renderType": "text",
+                "align":"left",
+                "width": "20%",
+                "enableSort": true
+            },
+            {
+                "title": "Last name",
+                "valueMap": "lastName",
+                "renderType": "text",
+                "align":"left",
+                "width": "20%",
+                "enableSort": true
+            }, 
+            {
+                "title": "Status",
+                "valueMap": "userStatus",
+                "renderType": "text",
+                "align":"left",
+                "width": "20%",
+                "enableSort": true
+            }
+        ],
+        "additionalProperties": {
+            "deletableForm": true,
+            "editableForm":false,
+            "enableSearch": true,
+            "paginationNeeded": true,
+            "onDeleteAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "DeleteUser"
+                },
+                "paramObjMap": {
+                    "loginId": "loginId"
+                }
+            }
+        }
     },
     "totalTransientClientsList":{
         "componentType": "table",
@@ -429,6 +1520,79 @@
         "additionalProperties": {
             "deletableForm": true,
             "editableForm":false,
+            "enableSearch": true,
+            "paginationNeeded": true,
+            "onDeleteAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "DeleteTransientClient"
+                },
+                "paramObjMap": {
+                    "clientTransientId": "clientId"
+                }
+            }
+        }
+    },
+    "transientClientsList":{
+        "componentType": "table",
+        "title": "Transient  client list",
+        "headersInfo":[
+            {
+                "title": "Client Id",
+                "valueMap": "clientId",
+                "renderType": "text",
+                "align":"left",
+                "width": "15%",
+                "enableSort": true
+            },
+            {
+                "title": "Name",
+                "valueMap": "clientName",
+                "renderType": "text",
+                "width": "25%",
+                "enableSort": true
+            },
+            {
+                "title": "GL Type",
+                "valueMap": "glType",
+                "width": "30%",
+                "renderType": "text",
+                "displayValueEnum": [
+                    {
+                        "label": "Sandbox",
+                        "value": 0
+                    },
+                    {
+                        "label": "QuickBooks Online",
+                        "value": 2
+                    },
+                    {
+                        "label": "Oracle NetSuite",
+                        "value": 3
+                    },
+                    {
+                        "label": "QuickBooks Desktop",
+                        "value": 4
+                    }
+                ]
+            },
+            {
+                "title": "Users",
+                "valueMap": "users",
+                "renderType": "text",
+                "width": "30%",
+                "enableSort": true
+            }
+        ],
+        "additionalProperties": {
+            "deletableForm": true,
+            "editableForm":false, 
             "enableSearch": true,
             "paginationNeeded": true,
             "onDeleteAction": {
@@ -617,7 +1781,7 @@
                 "align": "right",
                 "formatType": "currency",
                 "enableSort": true,
-                "width":"10%"
+                "width":"15%"
             },
             {
                 "title": " ",
@@ -2246,6 +3410,7 @@
     "clientDetail": {
         "componentType": "detailsList",
         "title": "Client Details",
+        "ignoreKeys":["paymentId"],
         "listInfo": [
             {
                 "label": "Client Id",
@@ -2602,7 +3767,68 @@
             {
                 "renderType": "Button",
                 "renderProps": {
-                  "label": "Show CF Page"
+                    "label": "Bank details"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "BankAccountsByClientId"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId"
+                    }
+                }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Open bills"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "OpenBills"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId"
+                    }
+                }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Product activation"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "ProductActivation"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId"
+                    }
+                }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                  "label": "Show CF Page",
+                  "className":"ml-6"
                 },
                 "renderPosition": "bottom",
                 "action": {
@@ -2618,7 +3844,6 @@
                 }
             }
         ],
-        "ignoreKeys": [],
         "additionalProperties": {
             "editableForm": true,
             "submitButtonProps": {
@@ -2682,9 +3907,31 @@
                 "editable": true
             },
             {
-                "title": "User Status",
+                "label": "Status",
                 "valueMap": "userStatus",
-                "editable": true
+                "editType": "select",
+                "enum": [
+                    {
+                        "label": "Non-Activated",
+                        "value": "Non-Activated"
+                    },
+                    {
+                        "label": "Active",
+                        "value": "Active"
+                    },
+                    {
+                        "label": "Suspended",
+                        "value": "Suspended"
+                    },
+                    {
+                        "label": "Closed",
+                        "value": "Closed"
+                    },
+                    {
+                        "label": "Invited",
+                        "value": "Invited"
+                    }
+                ]
             },
             {
                 "title": "Supervisor Id",
@@ -2805,20 +4052,20 @@
             {
                 "renderType": "Button",
                 "renderProps": {
-                    "label": "Delete User"
+                    "label": "List transient clients"
                 },
                 "renderPosition": "bottom",
                 "action": {
-                    "type": "updateCall",
+                    "type": "drillDown",
                     "pathList": [
                         "1.0",
                         "aggregate"
                     ],
                     "paramObj": {
-                        "templateId": "DeleteUser"
+                        "templateId": "TransientClientList"
                     },
                     "paramObjMap": {
-                        "loginId": "loginId"
+                        "loginId":"loginId"
                     }
                 }
             }
@@ -2871,6 +4118,7 @@
                 ]
             }
         ],
+        "ignoreKeys": ["paymentId","clientName","glType","clientId"],
         "additionalContent": [
             {
                 "renderType": "Button",
@@ -2992,6 +4240,93 @@
                     "lastSyncTime": "lastSyncTime",
                     "entitySyncStatus": "entitySyncStatus",
                     "batchId": "batchId"
+                },
+                "bodyObjMap": {}
+            }
+        }
+    },
+    "userInviteeTransient": {
+        "componentType": "table",
+        "title": "List",
+        "headersInfo": [
+            {
+                "title": "Id",
+                "valueMap": "id",
+                "enableSort": true,
+                "width": "10%"
+            },
+            {
+                "title": "Email",
+                "valueMap": "loginId",
+                "renderType": "text",
+                "enableSort": true,
+                "width": "30%"
+            },
+            {
+                "title": "First Name",
+                "valueMap": "firstName",
+                "enableSort": true,
+                "width": "20%"
+            },
+            {
+                "title": "Last Name",
+                "valueMap": "lastName",
+                "enableSort": true,
+                "width": "20%"
+            }
+        ],
+        "additionalProperties": {
+            "actionsColumnIcons": [
+                {
+                    "iconName": "sync",
+                    "componentProps": {
+                        "ariaLabel": "Resend Invite",
+                        "color": "primary"
+                    },
+                    "action": {
+                        "type": "updateCall",
+                        "url": "fs/business-ops-service",
+                        "method": "GET",
+                        "pathList": [
+                            "1.0",
+                            "aggregate"
+                        ],
+                        "paramObj": {
+                            "templateId": "SignUp"
+                        },
+                        "paramObjMap": {
+                            "loginId": "loginId",
+                            "firstName": "firstName",
+                            "lastName": "lastName",
+                            "resend": {
+                                "type": "hardCoded",
+                                "value": true
+                            }
+                        },
+                        "bodyObjMap": {},
+                        "successNotificationObject": {
+                            "message": "Successfully sent the invite email"
+                        },
+                        "errorNotificationObject": {
+                            "message": "User's already sent invite link has not expired yet"
+                        }
+                    }
+                }
+            ],
+            "deletableForm": true,
+            "onDeleteAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "DeleteUserInviteeTransient"
+                },
+                "paramObjMap": {
+                    "id": "id"
                 },
                 "bodyObjMap": {}
             }
