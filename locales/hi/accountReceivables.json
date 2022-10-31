@@ -241,6 +241,7 @@
     "InvoiceSidePanelTitle": "{{buyerName}}, चालान {{invoiceId}}",
     "familyName": "परिवार का नाम",
     "OutstandingAmount": "बकाया राशि",
+    "OutstandingAmountInvoice": "बकाया राशि",
     "InvoiceStatus": "चालान की स्थिति",
     "InvoiceNumber": "बीजक संख्या",
     "CollectionStatus": "संग्रह की स्थिति",
