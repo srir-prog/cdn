@@ -396,5 +396,17 @@
     "centimeTransferRequestNotificationSuccess": "Request for the transfer of the amount of {{amount}} is successful.",
     "IN_PROGRESS": "In progress",
     "RETRY": "Retry",
-    "NOTIFIED": "Notified"
+    "NOTIFIED": "Notified",
+    "cashFlowPlan": "Cash Flow Plan",
+    "accountPayables": "Account Payables",
+    "accountReceivables": "Account Receivables",
+    "cashPlanPayablesHeaderSupplier": "Supplier",
+    "cashPlanPayablesHeaderInvoice": "Invoice",
+    "cashPlanPayablesHeaderNotes": "Notes",
+    "cashPlanPayablesHeaderOutstanding": "Outstanding",
+    "cashPlanPayablesHeaderPaymentAmount": "Payment amount",
+    "cashPlanPayablesHeaderDueDate": "Due date",
+    "cashPlanPayablesHeaderPaymentMethod": "Payment method",
+    "cashPlanPayablesHeaderPaymentDate": "Payment date",
+    "cashPlanPayablesHeaderStatus": "Status"
 }

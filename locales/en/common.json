@@ -427,5 +427,20 @@
     "historyActionDocumentDeleted": "Document deleted",
     "historyMessageFileNameDeleted": "{{fileName}} deleted",
     "deleteUploadedDocument": "Are you sure you want to delete the uploaded document?",
-    "deleteDocumentModal": "Delete document modal"
+    "deleteDocumentModal": "Delete document modal",
+    "savePlan":"Save Plan",
+    "ReadyToPay": "Ready to pay",
+    "AwaitingForApproval": "Awaiting approval",
+    "Rejected": "Rejected",
+    "Scheduled": "Scheduled",
+    "Failed": "Failed",
+    "Initiated": "Initiated",
+    "Sent": "Sent",
+    "Processed": "Processed",
+    "CreditCard": "Credit card",
+    "CentimeCard": "CentimeCard",
+    "Card": "Credit Card",
+    "ACH": "ACH",
+    "Check": "Check",
+    "Other": "Other"
 }
