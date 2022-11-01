@@ -515,7 +515,7 @@
                         "componentProps": {
                             "fullWidth": true
                         },
-                        "queryName": "jobId"
+                        "queryName": "id"
                     },
                     {
                         "type": "Dropdown",
@@ -552,9 +552,9 @@
                         "templateId": "JobsByFilters"
                     },
                     "paramObjMap": {
-                        "jobId": {
+                        "id": {
                             "type": "queryBuilder",
-                            "value": "jobId"
+                            "value": "id"
                         },
                         "status": {
                             "type": "queryBuilder",
@@ -2125,7 +2125,7 @@
                         "aggregate"
                     ],
                     "paramObj": {
-                        "templateId": "SupplierDetails"
+                        "templateId": "SupplierDetailsWithPaymentMethod"
                     },
                     "paramObjMap": {
                         "clientId": "payerReferenceId",
