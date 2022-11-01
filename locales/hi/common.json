@@ -427,5 +427,6 @@
     "historyActionDocumentDeleted": "दस्तावेज़ हटाया गया",
     "historyMessageFileNameDeleted": "{{fileName}} हटाए गए",
     "deleteUploadedDocument": "क्या आप वाकई अपलोड किए गए दस्तावेज़ को हटाना चाहते हैं?",
-    "deleteDocumentModal": "दस्तावेज़ मोडल हटाएं"
+    "deleteDocumentModal": "दस्तावेज़ मोडल हटाएं",
+    "addNewApproverPopupTitle":"नया अनुमोदक जोड़ें"
 }

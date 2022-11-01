@@ -427,5 +427,6 @@
     "historyActionDocumentDeleted": "Document deleted",
     "historyMessageFileNameDeleted": "{{fileName}} deleted",
     "deleteUploadedDocument": "Are you sure you want to delete the uploaded document?",
-    "deleteDocumentModal": "Delete document modal"
+    "deleteDocumentModal": "Delete document modal",
+    "addNewApproverPopupTitle":"Add new approver"
 }
