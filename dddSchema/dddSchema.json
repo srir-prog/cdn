@@ -1773,7 +1773,7 @@
                 "title": "Method",
                 "valueMap": "paymentMethod",
                 "enableSort": true,
-                "width": "12%"
+                "width": "8%"
             },
             {
                 "title": "Amount",
@@ -1840,9 +1840,8 @@
             {
                 "title": "Capture Date",
                 "valueMap": "paymentCaptureDate",
-                "formatType": "date",
                 "enableSort": true,
-                "width": "13%"
+                "width": "17%"
             }
         ],
         "ignoreKeys": [
@@ -2588,7 +2587,17 @@
                         },
                         {
                             "label": "Billed In Chargify",
-                            "valueMap": "billedInChargify"
+                            "valueMap": "billedInChargify",
+                            "displayValueEnum": [
+                                {
+                                    "label": "Yes",
+                                    "value": true
+                                },
+                                {
+                                    "label": "No",
+                                    "value": false
+                                }
+                            ]
                         }
                     ],
                     "detailsListFullWidth": true
