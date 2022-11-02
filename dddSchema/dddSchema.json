@@ -685,12 +685,12 @@
                         "aggregate"
                     ],
                     "paramObj": {
-                        "templateId": "SupplierDetails"
+                        "templateId": "SupplierDetailsWithPaymentMethodId"
                     },
                     "paramObjMap": {
                         "clientId": "clientId",
                         "supplierId": "supplierId",
-                        "paymentMethod": "paymentMethod"
+                        "paymentMethodId": "paymentMethod"
                     }
                 }
             },
