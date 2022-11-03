@@ -75,5 +75,6 @@
     "syncStart": "Sync Start",
     "syncEnd":"Sync End",
     "sourceSyncStatus": "Source Sync Status",
-    "confirmDelete": "Are you sure you want to delete the row ?"
+    "confirmDelete": "Are you sure you want to delete the row ?",
+    "generateSignup": "Generate Signup Link"
 }
