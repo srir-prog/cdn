@@ -444,5 +444,6 @@
     "approvalPolicyNotFoundTextMessage": "प्रदान किए गए दस्तावेज़ विवरण के आधार पर, किसी मिलान अनुमोदन नियम की पहचान नहीं की गई है। कृपया जारी रखने के लिए अनुमोदक सेट करें",
     "needsApproversText": "स्वीकृतकर्ताओं की आवश्यकता है: कोई अनुमोदन कार्यप्रवाह सेट नहीं है",
     "errorSavingInvoiceApprovalDetails": "चालान अनुमोदन विवरण सहेजते समय त्रुटि",
-    "successfullySavedInvoiceApprovalDetails": "चालान स्वीकृति विवरण सफलतापूर्वक सहेजा गया"
+    "successfullySavedInvoiceApprovalDetails": "चालान स्वीकृति विवरण सफलतापूर्वक सहेजा गया",
+    "awaitingApproval": "मंजूरी का इंतजार"
 }
