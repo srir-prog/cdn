@@ -100,7 +100,7 @@
     "clientsListQueryBuilder": {
         "componentType": "detailsList",
         "title": "Clients",
-        "ignoreKeys": ["clientId","glType"],
+        "ignoreKeys": ["clientId","glType","paymentId","clientName"],
         "additionalProperties": {
             "showQueryBuilder": true,
             "queryBuilderPosition": "bottom",
