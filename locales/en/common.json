@@ -446,5 +446,6 @@
     "errorSavingInvoiceApprovalDetails": "Error while saving the invoice approval details",
     "successfullySavedInvoiceApprovalDetails": "Successfully saved the invoice approval details.",
     "addNewApproverPopupTitle":"Add new approver",
-    "+addNewApprover": "+ Add new approver"
+    "+addNewApprover": "+ Add new approver",
+    "awaitingApproval": "Awaiting approval"
 }
