@@ -447,5 +447,6 @@
     "successfullySavedInvoiceApprovalDetails": "चालान स्वीकृति विवरण सफलतापूर्वक सहेजा गया",
     "addNewApproverPopupTitle":"नया अनुमोदक जोड़ें",
     "+addNewApprover": "+ नया अनुमोदक जोड़ें",
-    "awaitingApproval": "मंजूरी का इंतजार"
+    "awaitingApproval": "मंजूरी का इंतजार",
+    "supplier": "प्रदायक"
 }

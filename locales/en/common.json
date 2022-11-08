@@ -447,5 +447,6 @@
     "successfullySavedInvoiceApprovalDetails": "Successfully saved the invoice approval details.",
     "addNewApproverPopupTitle":"Add new approver",
     "+addNewApprover": "+ Add new approver",
-    "awaitingApproval": "Awaiting approval"
+    "awaitingApproval": "Awaiting approval",
+    "supplier": "Supplier"
 }
