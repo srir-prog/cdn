@@ -524,5 +524,16 @@
     "defaultUpdateError": "Error while updating settings",
     "ErrorInRefreshSandbox": "Error in initiating refresh of sandbox. Please try again a little later.",
     "RefreshSandboxSuccess":"Sandbox has been successfully refreshed.",
-    "selectPayrollGLsInfo": "Cash flows associated with the selected accounts will be grouped under the 'Payroll' label in the Cash Flow table"
+    "selectPayrollGLsInfo": "Cash flows associated with the selected accounts will be grouped under the 'Payroll' label in the Cash Flow table",
+    "policies": "Policies",
+    "invoiceApprovals": "Invoice approvals",
+    "paymentApprovals": "Payment approvals",
+    "approveAllInvoicesBelow": "Approve all invoices below",
+    "addPolicy": "Add policy",
+    "addNewPolicy": "Add new policy",
+    "invoiceApprovalsWithPolicy": "Invoice approvals - {{policy}}",
+    "in": "In",
+    "notIn": "Not in",
+    "condition": "Condition",
+    "forInvoicesAbove": "For invoices above"
 }

@@ -445,5 +445,6 @@
     "needsApproversText": "Needs approvers: No approval workflow set",
     "errorSavingInvoiceApprovalDetails": "Error while saving the invoice approval details",
     "successfullySavedInvoiceApprovalDetails": "Successfully saved the invoice approval details.",
-    "awaitingApproval": "Awaiting approval"
+    "awaitingApproval": "Awaiting approval",
+    "supplier": "Supplier"
 }
