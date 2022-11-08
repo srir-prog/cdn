@@ -314,6 +314,7 @@
     "adjustedCashBalance":"समायोजित नकद शेष",
     "totalPayables": "कुल देय",
     "centimeCardBalanceTooltip": "CentimeCard संतुलन",
+    "centimeCashBalanceTooltip": "CentimeCash संतुलन",
     "CentimeCashInActiveTooltipHeader": "CentimeCash निष्क्रिय है। सक्रिय करने के लिए, कृपया सुनिश्चित करें कि आपके CentimeCash खाते में:",
     "CentimeCashInActiveTooltipLine1": "एक। CentimeCash सामान्य लेजर खाता लिंक्ड",
     "CentimeCashInActiveTooltipLine2": "बी। CentimeCredit पुनर्भुगतान के लिए बैंक खाता जुड़ा और जुड़ा हुआ है",
