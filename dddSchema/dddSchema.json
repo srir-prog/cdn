@@ -3421,6 +3421,11 @@
                 "valueMap": "clientName"
             },
             {
+                "label":"Company start date",
+                "valueMap":"createdTime",
+                "formatType":"datetime"
+            },
+            {
                 "label": "Status",
                 "valueMap": "clientStatus",
                 "editType": "select",
@@ -4076,25 +4081,25 @@
         "title": "Data Source Details",
         "listInfo": [
             {
-                "title": "Client Id",
+                "label": "Client Id",
                 "valueMap": "clientId"
             },
             {
-                "title": "GL Type",
+                "label": "GL Type",
                 "valueMap": "sourceName"
             },
             {
-                "title": "Sync Start",
+                "label": "Sync Start",
                 "valueMap": "syncStart",
                 "formatType": "date"
             },
             {
-                "title": "Sync End",
+                "label": "Sync End",
                 "valueMap": "syncEnd",
                 "formatType": "date"
             },
             {
-                "title": "Source Sync Status",
+                "label": "Source Sync Status",
                 "valueMap": "sourceSyncStatus",
                 "editable": true,
                 "editType": "select",
@@ -4116,6 +4121,10 @@
                         "value": "DISCONNECTED"
                     }
                 ]
+            },
+            {
+                "label": "Number of times failed",
+                "valueMap": "connectionInfo.failureCount"
             }
         ],
         "ignoreKeys": ["paymentId","clientName","glType"],
