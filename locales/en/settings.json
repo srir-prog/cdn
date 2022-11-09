@@ -531,9 +531,17 @@
     "approveAllInvoicesBelow": "Approve all invoices below",
     "addPolicy": "Add policy",
     "addNewPolicy": "Add new policy",
+    "modifyPolicy": "Modify policy",
     "invoiceApprovalsWithPolicy": "Invoice approvals - {{policy}}",
     "in": "In",
     "notIn": "Not in",
     "condition": "Condition",
-    "forInvoicesAbove": "For invoices above"
+    "forInvoicesAbove": "For invoices above",
+    "approvalPolicies": "Approval policies",
+    "successfullySavedDefaultInvoiceApprovalLimit": "Successfully saved default invoice approval limit",
+    "errorSavingDefaultInvoiceApprovalLimit": "Error saving default invoice approval limit",
+    "successfullyCreatedApprovalPolicy": "Successfully created approval policy",
+    "errorCreatingApprovalPolicy": "Error creating approval policy",
+    "successfullyUpdatedApprovalPolicy": "Successfully updated approval policy",
+    "errorUpdatingApprovalPolicy": "Error updating approval policy"
 }

@@ -531,9 +531,17 @@
     "approveAllInvoicesBelow": "नीचे दिए गए सभी चालानों को स्वीकृत करें",
     "addPolicies": "नीति जोड़ें",
     "addNewPolicy": "नई नीति जोड़ें",
+    "modifyPolicy": "नीति संशोधित करें",
     "invoiceApprovalsWithPolicy": "चालान स्वीकृतियां - {{policy}}",
     "in": "में",
     "notIn": "अंदर नही",
     "condition": "स्थिति",
-    "forInvoicesAbove": "उपरोक्त चालान के लिए"
+    "forInvoicesAbove": "उपरोक्त चालान के लिए",
+    "approvalPolicies": "स्वीकृति नीतियां",
+    "successfullySavedDefaultInvoiceApprovalLimit": "डिफ़ॉल्ट चालान स्वीकृति सीमा सफलतापूर्वक सहेजी गई",
+    "errorSavingDefaultInvoiceApprovalLimit": "डिफ़ॉल्ट चालान स्वीकृति सीमा सहेजने में त्रुटि",
+    "successfullyCreatedApprovalPolicy": "स्वीकृति नीति सफलतापूर्वक बनाई गई",
+    "errorCreatingApprovalPolicy": "स्वीकृति नीति बनाने में त्रुटि",
+    "successfullyUpdatedApprovalPolicy": "अनुमोदन नीति को सफलतापूर्वक अपडेट किया गया",
+    "errorUpdatingApprovalPolicy": "स्वीकृति नीति अपडेट करने में त्रुटि"
 }
