@@ -1705,7 +1705,7 @@
            "glType",
            "clientId"
         ],
-        "transformAPIData":true,
+        "transformAPIKeyData":["NetCashIncrease.dailyCashFlowComparisonReportMap"],
         "listInfo": [
             {
                 "label":"Start Date",
@@ -1731,21 +1731,26 @@
                 "label":"Net Cash Increase Daily Cash Flow Comparison",
                 "valueMap":"NetCashIncrease.dailyCashFlowComparisonReportMap",
                 "renderProps": {
-                    "listInfo": [
+                    "ignoreKeys":["inflowsFromCentime","outflowsFromCentime"],
+                    "headersInfo": [
                         {
-                            "label": "netCashFlowFromCentime",
+                            "title": "Date",
+                            "valueMap": "Date"
+                        },
+                        {
+                            "title": "Net CF Centime",
                             "valueMap": "netCashFlowFromCentime"
                         },
                         {
-                            "label": "netCashFlowFromGlReport",
+                            "title": "Net CF GL",
                             "valueMap": "netCashFlowFromGlReport"
                         },
                         {
-                            "label": "differenceInCashFlow",
+                            "title": "CF diff",
                             "valueMap": "differenceInCashFlow"
                         },
                         {
-                            "label": "Inflows From Centime",
+                            "title": "Inflows From Centime",
                             "valueMap": "inflowsFromCentime",
                             "renderProps":{
                                 "headersInfo":[
@@ -1768,7 +1773,7 @@
                             }
                         },
                         {
-                            "label": "Outflows From Centime",
+                            "title": "Outflows From Centime",
                             "valueMap": "outflowsFromCentime",
                             "renderProps":{
                                 "headersInfo":[
@@ -1791,8 +1796,9 @@
                             }
                         },
                         {
-                            "label": "CashFlows From GL Report",
+                            "title": "CF GL",
                             "valueMap": "cashFlowsFromGlReport",
+                            "width":"30%",
                             "renderProps":{
                                 "listInfo":[
                                     {
@@ -1804,13 +1810,12 @@
                                     }
                                 ]
                             }
+                        },
+                        {
+                            "title":"Outflow total",
+                            "valueMap":"outflowTotal"
                         }
-                    ],
-                    "additionalProperties": {
-                        "editableForm": false,
-                        "seperateSection": false
-                    },
-                    "detailsListFullWidth": true
+                    ]
                 }
             },
             {
