@@ -3421,6 +3421,11 @@
                 "valueMap": "clientName"
             },
             {
+                "label":"Company start date",
+                "valueMap":"createdTime",
+                "formatType":"datetime"
+            },
+            {
                 "label": "Status",
                 "valueMap": "clientStatus",
                 "editType": "select",
@@ -3827,7 +3832,7 @@
             {
                 "renderType": "Button",
                 "renderProps": {
-                  "label": "Show CF Page",
+                  "label": "CF Validation",
                   "className":"ml-6"
                 },
                 "renderPosition": "bottom",
@@ -4076,25 +4081,25 @@
         "title": "Data Source Details",
         "listInfo": [
             {
-                "title": "Client Id",
+                "label": "Client Id",
                 "valueMap": "clientId"
             },
             {
-                "title": "GL Type",
+                "label": "GL Type",
                 "valueMap": "sourceName"
             },
             {
-                "title": "Sync Start",
+                "label": "Sync Start",
                 "valueMap": "syncStart",
                 "formatType": "date"
             },
             {
-                "title": "Sync End",
+                "label": "Sync End",
                 "valueMap": "syncEnd",
                 "formatType": "date"
             },
             {
-                "title": "Source Sync Status",
+                "label": "Source Sync Status",
                 "valueMap": "sourceSyncStatus",
                 "editable": true,
                 "editType": "select",
@@ -4116,9 +4121,13 @@
                         "value": "DISCONNECTED"
                     }
                 ]
+            },
+            {
+                "label": "Number of times failed",
+                "valueMap": "connectionInfo.failureCount"
             }
         ],
-        "ignoreKeys": ["paymentId","clientName","glType","clientId"],
+        "ignoreKeys": ["paymentId","clientName","glType"],
         "additionalContent": [
             {
                 "renderType": "Button",
@@ -4168,24 +4177,14 @@
     "dataSyncTrack": {
         "componentType": "table",
         "title": "Data Sync Track",
+        "ignoreKeys":["clientId","glType"],
         "headersInfo": [
-            {
-                "title": "Client Id",
-                "valueMap": "clientId",
-                "renderType": "text",
-                "width": "8%"
-            },
-            {
-                "title": "GL Type",
-                "valueMap": "sourceName",
-                "renderType": "text",
-                "width": "15%"
-            },
             {
                 "title": "Entity Name",
                 "valueMap": "entityName",
                 "renderType": "text",
-                "width": "20%"
+                "width": "20%",
+                "enableSort": true
             },
             {
                 "title": "Entity Sync Status",
@@ -4196,32 +4195,36 @@
                     "options": {
                         "IN SYNC" : "IN SYNC",
                         "ERROR" : "ERROR",
-                        "IN PROGRESS" : "IN PROGRESS",
-                        "DISCONNECTED": "DISCONNECTED"
+                        "IN PROGRESS" : "IN PROGRESS"
                     },
                     "size": "medium36"
                 },
-                "width": "16%"
+                "width": "16%",
+                "enableSort": true
             },
             {
                 "title": "Last Sync",
                 "valueMap": "lastSyncTime",
                 "formatType": "date",
+                "align":"left",
                 "editable": "DatesSelector",
                 "componentProps": {
                     "onlySingleDate": true
                 },
-                "width": "15%"
+                "width": "15%",
+                "enableSort": true
             },
             {
                 "title": "Batch Id",
                 "valueMap": "batchId",
                 "renderType": "text",
-                "width": "15%"
+                "width": "15%",
+                "enableSort": true
             }
         ],
         "additionalProperties": {
             "editableForm": true,
+            "paginationNeeded":true,
             "onSaveAction": {
                 "type": "updateCall",
                 "url": "fs/business-ops-service",
