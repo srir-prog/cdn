@@ -668,7 +668,7 @@
     },
     "billPaymentSchedule":{
         "componentType": "table",
-        "title": "Bill payment schedule details",
+        "title": "Bill payment schedule",
         "ignoreKeys":["supplierId","clientId","subPaymentMethod","glType",
         "actionByUser","actionDate","approvalLevel","remittanceEmail",
         "approvalEmailSent","subStatus","byUser","postingCounter","planStatus",
