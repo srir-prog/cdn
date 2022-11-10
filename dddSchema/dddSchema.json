@@ -266,7 +266,8 @@
                         },
                         "clientId":"clientId",
                         "glType":"glType"
-                    }
+                    },
+                    "pageQueryParams":["clientId","glType"]
                 }
             }
         ]
@@ -1616,6 +1617,17 @@
     "cfValidation":{
         "componentType": "table",
         "title": "Cf Validation List",
+        "ignoreKeys":[
+            "OpeningBalance.valueFromSource",
+            "OpeningBalance.valueFromCentime",
+            "OpeningBalance.dailyCashFlowComparisonReportMap",
+            "NetCashIncrease.valueFromSource",
+            "NetCashIncrease.valueFromCentime",
+            "NetCashIncrease.dailyCashFlowComparisonReportMap",
+            "ClosingBalance.valueFromSource",
+            "ClosingBalance.valueFromCentime",
+            "ClosingBalance.dailyCashFlowComparisonReportMap"
+        ],
         "headersInfo":[
             {
                 "title": "Start Date",
@@ -1623,102 +1635,56 @@
                 "formatType": "date",
                 "align":"left",
                 "enableSort": true,
-                "width": "11%"
+                "width": "12%"
             },
             {
                 "title": "End Date",
                 "valueMap": "endDate",
                 "formatType": "date",
                 "enableSort": true,
-                "width":"11%"
+                "width":"12%"
             },
             {
                 "title": "Opening Balance",
-                "valueMap": "OpeningBalance",
-                "width":"26%",
-                "enableAccordion":true,
-                "renderType": "AccordionLink",
-                "accordionProps":{
-                    "renderType":"Tabs",
-                    "valueMap":"OpeningBalance",
-                    "tabsInfo":[{
-                        "tabTitle":"Opening Balance",
-                         "listInfo":[{
-                             "label":"Result",
-                             "valueMap":"comparisonResult",
-                             "gridSize":3
-                         },{
-                            "label":"Centime",
-                            "valueMap":"valueFromCentime",
-                            "gridSize":3
-                         },
-                         {
-                            "label":"Source",
-                            "valueMap":"valueFromSource",
-                            "gridSize":3
-                         }
-                        ]   
-                    }]
-                }
+                "valueMap": "OpeningBalance.comparisonResult",
+                "width":"20%",
+                "renderType": "text"
             },
             {
                 "title": "Net Cash Increase",
-                "valueMap": "NetCashIncrease",
-                "enableSort": true,
-                "width":"26%",
-                "enableAccordion":true,
-                "renderType": "AccordionLink",
-                "accordionProps":{
-                    "renderType":"Tabs",
-                    "valueMap":"NetCashIncrease",
-                    "tabsInfo":[{
-                        "tabTitle":"Net Cash Increase",
-                         "listInfo":[{
-                             "label":"Result",
-                             "valueMap":"comparisonResult",
-                             "gridSize":3
-                         },{
-                            "label":"Centime",
-                            "valueMap":"valueFromCentime",
-                            "gridSize":3
-                         },
-                         {
-                            "label":"Source",
-                            "valueMap":"valueFromSource",
-                            "gridSize":3
-                         }
-                        ]   
-                    }]
-                }
+                "valueMap": "NetCashIncrease.comparisonResult",
+                "width":"20%",
+                "renderType": "text"
             },
             {
                 "title": "Closing Balance",
-                "valueMap": "ClosingBalance",
-                "enableSort": true,
-                "width":"26%",
-                "enableAccordion":true,
-                "renderType": "AccordionLink",
-                "accordionProps":{
-                    "renderType":"Tabs",
-                    "valueMap":"ClosingBalance",
-                    "tabsInfo":[{
-                        "tabTitle":"Closing Balance",
-                         "listInfo":[{
-                             "label":"Result",
-                             "valueMap":"comparisonResult",
-                             "gridSize":3
-                         },{
-                            "label":"Centime",
-                            "valueMap":"valueFromCentime",
-                            "gridSize":3
-                         },
-                         {
-                            "label":"Source",
-                            "valueMap":"valueFromSource",
-                            "gridSize":3
-                         }
-                        ]   
-                    }]
+                "valueMap": "ClosingBalance.comparisonResult",
+                "width":"20%",
+                "renderType": "text"
+            },
+            {
+                "title":"Action",
+                "valueMap":"",
+                "width":"16%",
+                "renderType": "Button",
+                "renderProps": {
+                  "label": "Details"
+                },
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "CfValidationDetails"
+                    },
+                    "paramObjMap": {
+                        "clientId":"clientId",
+                        "glType":"glType",
+                        "startDate":"startDate",
+                        "endDate":"endDate"
+                    }
                 }
             }
         ],
@@ -1731,6 +1697,153 @@
                 20
             ]
         }
+    },
+    "cfValidationDetails":{
+        "componentType": "detailsList",
+        "title": "CF Validation details",
+        "ignoreKeys": [
+           "glType",
+           "clientId"
+        ],
+        "transformAPIKeyData":["NetCashIncrease.dailyCashFlowComparisonReportMap"],
+        "listInfo": [
+            {
+                "label":"Start Date",
+                "valueMap":"startDate"
+            },
+            {
+                "label":"End Date",
+                "valueMap":"endDate"
+            },
+            {
+                "label":"Net Cash Increase Comparision result",
+                "valueMap":"NetCashIncrease.comparisonResult"
+             },
+             {
+                 "label": "Net Cash Increase Value from source",
+                 "valueMap": "NetCashIncrease.valueFromSource"
+             },
+             {
+                 "label": "Net Cash Increase Value from Centime",
+                 "valueMap": "NetCashIncrease.valueFromCentime"
+             },
+             {
+                "label":"Net Cash Increase Daily Cash Flow Comparison",
+                "valueMap":"NetCashIncrease.dailyCashFlowComparisonReportMap",
+                "renderProps": {
+                    "ignoreKeys":["inflowsFromCentime","outflowsFromCentime"],
+                    "headersInfo": [
+                        {
+                            "title": "Date",
+                            "valueMap": "Date"
+                        },
+                        {
+                            "title": "Net CF Centime",
+                            "valueMap": "netCashFlowFromCentime"
+                        },
+                        {
+                            "title": "Net CF GL",
+                            "valueMap": "netCashFlowFromGlReport"
+                        },
+                        {
+                            "title": "CF diff",
+                            "valueMap": "differenceInCashFlow"
+                        },
+                        {
+                            "title": "Inflows From Centime",
+                            "valueMap": "inflowsFromCentime",
+                            "renderProps":{
+                                "headersInfo":[
+                                    {
+                                        "title": "CF Date",
+                                        "valueMap": "cfDate",
+                                        "renderType": "text"
+                                    },
+                                    {
+                                        "title": "CF Type",
+                                        "valueMap": "cfType",
+                                        "renderType": "text" 
+                                    },
+                                    {
+                                        "title": "Transaction Amount",
+                                        "valueMap": "transactionAmount",
+                                        "renderType": "text"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Outflows From Centime",
+                            "valueMap": "outflowsFromCentime",
+                            "renderProps":{
+                                "headersInfo":[
+                                    {
+                                        "title": "CF Date",
+                                        "valueMap": "cfDate",
+                                        "renderType": "text"
+                                    },
+                                    {
+                                        "title": "CF Type",
+                                        "valueMap": "cfType",
+                                        "renderType": "text" 
+                                    },
+                                    {
+                                        "title": "Transaction Amount",
+                                        "valueMap": "transactionAmount",
+                                        "renderType": "text"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "CF GL",
+                            "valueMap": "cashFlowsFromGlReport",
+                            "width":"30%",
+                            "renderProps":{
+                                "listInfo":[
+                                    {
+                                        "label":"Payment",
+                                        "valueMap":"Payment"
+                                    },
+                                    {
+                                        "valueMap":"Bill Payment (Check)"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title":"Outflow total",
+                            "valueMap":"outflowTotal"
+                        }
+                    ]
+                }
+            },
+            {
+               "label":"Opening Balance Comparision result",
+               "valueMap":"OpeningBalance.comparisonResult"
+            },
+            {
+                "label": "Opening Balance Value from source",
+                "valueMap": "OpeningBalance.valueFromSource"
+            },
+            {
+                "label": "Opening Balance Value from Centime",
+                "valueMap": "OpeningBalance.valueFromCentime"
+            },
+            {
+                "label":"Closing Balance Comparision result",
+                "valueMap":"ClosingBalance.comparisonResult"
+             },
+             {
+                 "label": "Closing Balance Value from source",
+                 "valueMap": "ClosingBalance.valueFromSource"
+             },
+             {
+                 "label": "Closing Balance Value from Centime",
+                 "valueMap": "ClosingBalance.valueFromCentime"
+             }
+
+       ]
     },
     "PaymentListWithName": {
         "componentType": "table",
