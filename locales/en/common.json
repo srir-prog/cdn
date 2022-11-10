@@ -448,5 +448,6 @@
     "addNewApproverPopupTitle":"Add new approver",
     "+addNewApprover": "+ Add new approver",
     "awaitingApproval": "Awaiting approval",
-    "supplier": "Supplier"
+    "supplier": "Supplier",
+    "postingFailedLabel": "Posting failed: {{failureReason}}"
 }
