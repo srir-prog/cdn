@@ -544,5 +544,6 @@
     "errorCreatingApprovalPolicy": "Error creating approval policy",
     "successfullyUpdatedApprovalPolicy": "Successfully updated approval policy",
     "errorUpdatingApprovalPolicy": "Error updating approval policy",
-    "priority": "Priority"
+    "priority": "Priority",
+    "policyTable": "Policy table"
 }
