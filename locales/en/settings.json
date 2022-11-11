@@ -543,5 +543,6 @@
     "successfullyCreatedApprovalPolicy": "Successfully created approval policy",
     "errorCreatingApprovalPolicy": "Error creating approval policy",
     "successfullyUpdatedApprovalPolicy": "Successfully updated approval policy",
-    "errorUpdatingApprovalPolicy": "Error updating approval policy"
+    "errorUpdatingApprovalPolicy": "Error updating approval policy",
+    "priority": "Priority"
 }

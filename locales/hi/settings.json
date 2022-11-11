@@ -543,5 +543,6 @@
     "successfullyCreatedApprovalPolicy": "स्वीकृति नीति सफलतापूर्वक बनाई गई",
     "errorCreatingApprovalPolicy": "स्वीकृति नीति बनाने में त्रुटि",
     "successfullyUpdatedApprovalPolicy": "अनुमोदन नीति को सफलतापूर्वक अपडेट किया गया",
-    "errorUpdatingApprovalPolicy": "स्वीकृति नीति अपडेट करने में त्रुटि"
+    "errorUpdatingApprovalPolicy": "स्वीकृति नीति अपडेट करने में त्रुटि",
+    "priority": "वरीयता"
 }
