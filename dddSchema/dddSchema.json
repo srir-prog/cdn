@@ -1874,7 +1874,7 @@
                     "headersInfo": [
                         {
                             "title": "Date",
-                            "valueMap": "Date"
+                            "valueMap": "date"
                         },
                         {
                             "title": "Net CF Centime",
