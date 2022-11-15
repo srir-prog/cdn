@@ -667,9 +667,140 @@
 
     },
     "billPaymentSchedule":{
+        "componentType": "table",
+        "title": "Bill payment schedule",
+        "ignoreKeys":["supplierId","clientId","subPaymentMethod","glType",
+        "actionByUser","actionDate","approvalLevel","remittanceEmail",
+        "approvalEmailSent","subStatus","byUser","postingCounter","planStatus",
+        "history","activeStatus","notes","exchangeRate","virtualCardId","payerPaymentAccountId","glStatus","paymentId"],
+         "headersInfo":[
+            {
+                "title": "Bill Id",
+                "valueMap": "billId",
+                "renderType": "text",
+                "align":"left"
+            },
+            {
+                "title": "BPS Id",
+                "valueMap": "id",
+                "renderType": "Link",
+                "align":"left",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "BillPaymentScheduleDetails"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId",
+                        "bpsId": "id"
+                    }
+                }
+            },
+            {
+                "title": "Payment Amount",
+                "valueMap": "paymentAmount",
+                "formatType":"currency",
+                "align":"left"
+            },
+            {
+                "title": "Payment Method",
+                "valueMap": "paymentMethod",
+                "displayValueEnum": [
+                    {
+                      "label": "CHECK",
+                      "value": 1
+                    },
+                    {
+                      "label": "ACH",
+                      "value": 2
+                    },
+                    {
+                      "label": "CENTIME_CARD",
+                      "value": 3
+                    },
+                    {
+                      "label": "CREDIT_CARD",
+                      "value": 4
+                    },
+                    {
+                      "label": "OTHER",
+                      "value": 5
+                    },
+                    {
+                      "label": "FX_PAYMENT",
+                      "value": 6
+                    },
+                    {
+                      "label": "CENTIME_PAY",
+                      "value": 7
+                    },
+                    {
+                      "label": "CENTIME_CASH",
+                      "value": 8
+                    }
+                  ]
+            },
+            {
+                "title": "Payment Date",
+                "valueMap": "paymentDate",
+                "formatType":"date",
+                "align":"left"
+            },
+            {
+                "title": "Payment Status",
+                "valueMap": "paymentStatus",
+                "displayValueEnum": [
+                    {
+                      "label": "ReadyToPay",
+                      "value": 0
+                    },
+                    {
+                      "label": "AwaitingForApproval",
+                      "value": 1
+                    },
+                    {
+                      "label": "Rejected",
+                      "value": 2
+                    },
+                    {
+                      "label": "Scheduled",
+                      "value": 3
+                    },
+                    {
+                      "label": "Failed",
+                      "value": 4
+                    },
+                    {
+                      "label": "Paid",
+                      "value": 5
+                    },
+                    {
+                      "label": "markedPaid",
+                      "value": 6
+                    },
+                    {
+                      "label": "paidInGeneralLedger",
+                      "value": 7
+                    },
+                    {
+                      "label": "userActionNeeded",
+                      "value": 8
+                    },
+                    {
+                      "label": "inProcess",
+                      "value": 9
+                    }
+                  ]
+            }
+         ]
+    },
+    "billPaymentScheduleDetails":{
         "componentType": "detailsList",
-        "title": "Bill payment schedule details",
-        "ignoreKeys":["id","clientId","subPaymentMethod","glType"],
+        "title":"Bill Payment Schedule Details",
         "listInfo":[
             {
                 "label": "Bill Id",
@@ -1267,6 +1398,14 @@
                 "enableSort": true
             },
             {
+                "title": "Bill number",
+                "valueMap": "billNumber",
+                "renderType": "text",
+                "align":"left",
+                "width": "20%",
+                "enableSort": true
+            },
+            {
                 "title": "Total amount",
                 "valueMap": "txnTotalAmount",
                 "renderType": "text",
@@ -1705,7 +1844,7 @@
            "glType",
            "clientId"
         ],
-        "transformAPIKeyData":["NetCashIncrease.dailyCashFlowComparisonReportMap"],
+        "transformToTableDataValueMap":["NetCashIncrease.dailyCashFlowComparisonReportMap"],
         "listInfo": [
             {
                 "label":"Start Date",
