@@ -100,7 +100,7 @@
     "clientsListQueryBuilder": {
         "componentType": "detailsList",
         "title": "Clients",
-        "ignoreKeys": ["clientId","glType"],
+        "ignoreKeys": ["clientId","glType","paymentId","clientName"],
         "additionalProperties": {
             "showQueryBuilder": true,
             "queryBuilderPosition": "bottom",
@@ -850,7 +850,8 @@
             },
             {
                 "label": "Approval email sent",
-                "valueMap": "approvalEmailSent"
+                "valueMap": "approvalEmailSent",
+                "formatType":"boolean"
             },
             {
                 "label": "Payment information",
@@ -1773,27 +1774,21 @@
                 "title": "Method",
                 "valueMap": "paymentMethod",
                 "enableSort": true,
-                "width": "12%"
+                "width": "8%"
             },
             {
                 "title": "Amount",
                 "valueMap": "amount",
-                "align": "right",
                 "formatType": "currency",
+                "align":"left",
                 "enableSort": true,
                 "width":"15%"
-            },
-            {
-                "title": " ",
-                "valueMap": "currencyCode",
-                "enableSort": false,
-                "width": "5%"
             },
             {
                 "title": "Status",
                 "valueMap": "paymentStatus",
                 "enableSort": true,
-                "width": "10%",
+                "width": "15%",
                 "displayValueEnum": [
                     {
                         "label": "ReadyToPay",
@@ -1840,13 +1835,13 @@
             {
                 "title": "Capture Date",
                 "valueMap": "paymentCaptureDate",
-                "formatType": "date",
                 "enableSort": true,
-                "width": "13%"
+                "width": "17%"
             }
         ],
         "ignoreKeys": [
-            "clientId"
+            "clientId",
+            "currencyCode"
         ],
         "additionalProperties": {
             "defaultSortingOrder": "desc",
@@ -2588,7 +2583,8 @@
                         },
                         {
                             "label": "Billed In Chargify",
-                            "valueMap": "billedInChargify"
+                            "valueMap": "billedInChargify",
+                            "formatType":"boolean"
                         }
                     ],
                     "detailsListFullWidth": true
@@ -2726,7 +2722,8 @@
                         },
                         {
                             "label": "Self Approval",
-                            "valueMap": "selfApproval"
+                            "valueMap": "selfApproval",
+                            "formatType":"boolean"
                         },
                         {
                             "label": "Approval Info",
@@ -2870,7 +2867,8 @@
                         },
                         {
                             "label": "Self Approval",
-                            "valueMap": "selfApproval"
+                            "valueMap": "selfApproval",
+                            "formatType":"boolean"
                         }
                     ],
                     "detailsListFullWidth": true
@@ -3164,7 +3162,8 @@
                         },
                         {
                             "label": "Self Approval",
-                            "valueMap": "selfApproval"
+                            "valueMap": "selfApproval",
+                            "formatType":"boolean"
                         },
                         {
                             "label": "Approval Info",
@@ -3232,7 +3231,8 @@
                         },
                         {
                             "label": "Self Approval",
-                            "valueMap": "selfApproval"
+                            "valueMap": "selfApproval",
+                            "formatType":"boolean"
                         },
                         {
                             "label": "Approval Info",

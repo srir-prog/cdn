@@ -282,7 +282,7 @@
     "accruedFees": "उपार्जित शुल्क",
     "accruedFeeStatement": "उपार्जित शुल्क विवरण",
     "totalCreditLineInfoText": "CentimeCard और CentimeCash के लिए कुल क्रेडिट लाइन",
-    "availableBalanceInfoText": "उपलब्ध शेष राशि को CentimeCard के उपयोग को भी ध्यान में रखा जाता है",
+    "availableBalanceInfoText": "CentimeCard और CentimeCash के लिए उपलब्ध शेष राशि",
     "centimeCash": "सेंटिम कैश",
     "centimeCashOpenTransactionTable": "CentimeCash खुली लेनदेन तालिका",
     "currentPeriod": "वर्तमान अवधि",
@@ -312,5 +312,9 @@
     "SCHEDULED": "अनुसूचित",
     "Posted": "की तैनाती",
     "adjustedCashBalance":"समायोजित नकद शेष",
-    "totalPayables": "कुल देय"
+    "totalPayables": "कुल देय",
+    "centimeCardBalanceTooltip": "CentimeCard संतुलन",
+    "CentimeCashInActiveTooltipHeader": "CentimeCash निष्क्रिय है। सक्रिय करने के लिए, कृपया सुनिश्चित करें कि आपके CentimeCash खाते में:",
+    "CentimeCashInActiveTooltipLine1": "एक। CentimeCash सामान्य लेजर खाता लिंक्ड",
+    "CentimeCashInActiveTooltipLine2": "बी। CentimeCredit पुनर्भुगतान के लिए बैंक खाता जुड़ा और जुड़ा हुआ है"
 }
