@@ -569,51 +569,65 @@
     "jobsByFilters":{
         "componentType": "table",
         "title": "Jobs list",
+        "ignoreKeys":["cron","retry_config"],
         "headersInfo":[
             {
-                "title": "Job id",
-                "valueMap": "jobId",
-                "renderType": "text",
+                "title": "Id",
+                "valueMap": "job_id",
+                "renderType": "Link",
                 "align":"left",
-                "width": "10%",
-                "enableSort": true
+                "width": "5%",
+                "enableSort": true,
+                "action":{
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "JobHistory"
+                    },
+                    "paramObjMap": {
+                        "jobId":"job_id"
+                    }
+                }
+
             },
             {
-                "title": "Job name",
-                "valueMap": "jobName",
+                "title": "Name",
+                "valueMap": "job_name",
                 "renderType": "text",
                 "align":"left",
                 "width": "30%",
                 "enableSort": true
             },
             {
-                "title": "Cron",
-                "valueMap": "cron",
+                "title": "History Status",
+                "valueMap": "jh_status",
                 "renderType": "text",
                 "align":"left",
-                "width": "15%",
+                "width": "16.6%",
+                "enableSort": true
+            },
+            {
+                "title": "Start time",
+                "valueMap": "start_time",
+                "renderType": "text",
+                "align":"left",
+                "width": "16.6%",
                 "enableSort": false
             },
             {
-                "title": "Retry config",
-                "valueMap": "retryConfig",
-                "renderProps": {
-                    "listInfo": [
-                        {
-                            "label": "Retry count",
-                            "valueMap": "retryCount"
-                        },
-                        {
-                            "label": "Retry interval",
-                            "valueMap": "retryInterval"
-                        }
-                    ]
-                },
-                "width": "30%",
+                "title": "End time",
+                "valueMap": "end_time",
+                "renderType": "text",
+                "align":"left",
+                "width": "16.6%",
                 "enableSort": false
             },
+            
             {
-                "title": "Job status",
+                "title": "Status",
                 "valueMap": "status",
                 "renderType": "text",
                 "align":"left",
@@ -665,6 +679,104 @@
             }
         }
 
+    },
+    "jobHistory":{
+        "componentType": "table",
+        "title": "Jobs list",
+        "ignoreKeys":["retry","jobId"],
+        "headersInfo":[
+            {
+                "title": "History Id",
+                "valueMap": "jobHistoryId",
+                "renderType": "text",
+                "align":"left",
+                "width": "10%",
+                "enableSort": true
+            },
+            {
+                "title": "Error",
+                "valueMap": "errorDetail",
+                "renderType": "text",
+                "align":"left",
+                "width": "15%",
+                "enableSort": true
+            },
+            {
+                "title": "Retry config",
+                "valueMap": "retry",
+                "renderType": "text",
+                "align":"left",
+                "width": "15%",
+                "renderProps": {
+                    "listInfo": [
+                        {
+                            "label": "Retry count",
+                            "valueMap": "retryCount"
+                        },
+                        {
+                            "label": "Retry interval",
+                            "valueMap": "retryInterval"
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Retry count",
+                "valueMap": "retryCounter",
+                "enableSort": true,
+                "renderType": "text",
+                "align":"left",
+                "width": "15%"
+            },
+            {
+                "title": "Start time",
+                "valueMap": "startTime",
+                "renderType": "text",
+                "align":"left",
+                "width": "15%",
+                "enableSort": false
+            },
+            {
+                "title": "End time",
+                "valueMap": "endTime",
+                "renderType": "text",
+                "align":"left",
+                "width": "15%",
+                "enableSort": false
+            },
+            
+            {
+                "title": "Status",
+                "valueMap": "status",
+                "renderType": "text",
+                "align":"left",
+                "width": "15%",
+                "enableSort": true,
+                "editable": "Dropdown",
+                "componentProps": {
+                    "options": {
+                        "0" : "Active",
+                        "1" : "Pause",
+                        "2" : "Deprecated"
+                    },
+                    "size": "medium36"
+                },
+                "displayValueEnum": [
+                    {
+                      "label": "Active",
+                      "value": 0
+                    },
+                    {
+                      "label": "Pause",
+                      "value": 1
+                    },
+                    {
+                      "label": "Deprecated",
+                      "value": 2
+                    }
+                ]
+            }
+        ]
     },
     "billPaymentSchedule":{
         "componentType": "table",
