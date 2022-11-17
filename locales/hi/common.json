@@ -449,5 +449,6 @@
     "+addNewApprover": "+ नया अनुमोदक जोड़ें",
     "awaitingApproval": "मंजूरी का इंतजार",
     "supplier": "प्रदायक",
-    "postingFailedLabel": "पोस्टिंग विफल: {{failureReason}}"
+    "postingFailedLabel": "पोस्टिंग विफल: {{failureReason}}",
+    "notification": "अधिसूचना"
 }
