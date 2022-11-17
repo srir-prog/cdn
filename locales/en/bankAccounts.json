@@ -401,5 +401,6 @@
     "CentimeCashInActiveTooltipHeader": "CentimeCash is inactive. To activate, please ensure your CentimeCash account has a:",
     "CentimeCashInActiveTooltipLine1": "a. CentimeCash General Ledger account linked",
     "CentimeCashInActiveTooltipLine2": "b. Bank account for CentimeCredit repayment connected and linked",
-    "pendingSettlement": "Pending settlement"
+    "pendingSettlement": "Pending settlement",
+    "creditAvailable": "Credit available"
 }
