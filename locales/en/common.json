@@ -449,5 +449,6 @@
     "+addNewApprover": "+ Add new approver",
     "awaitingApproval": "Awaiting approval",
     "supplier": "Supplier",
-    "postingFailedLabel": "Posting failed: {{failureReason}}"
+    "postingFailedLabel": "Posting failed: {{failureReason}}",
+    "notification": "Notification"
 }
