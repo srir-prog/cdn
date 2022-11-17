@@ -315,9 +315,15 @@
     "totalPayables": "कुल देय",
     "centimeCardBalanceTooltip": "CentimeCard संतुलन",
     "centimeCashBalanceTooltip": "CentimeCash संतुलन",
-    "CentimeCashInActiveTooltipHeader": "CentimeCash निष्क्रिय है। सक्रिय करने के लिए, कृपया सुनिश्चित करें कि आपके CentimeCash खाते में:",
-    "CentimeCashInActiveTooltipLine1": "एक। CentimeCash सामान्य लेजर खाता लिंक्ड",
-    "CentimeCashInActiveTooltipLine2": "बी। CentimeCredit पुनर्भुगतान के लिए बैंक खाता जुड़ा और जुड़ा हुआ है",
+    "CentimeCashInActiveTooltipHeader": "CentimeCash का उपयोग करने के लिए, कृपया निम्नलिखित सुनिश्चित करें:",
+    "CentimeCashInActiveTooltipLine1": "एक। CentimeCash खाते से जुड़ा एक सामान्य खाता बही",
+    "CentimeCashInActiveTooltipLine2": "बी। एक लिंक किया गया CentimeCredit पुनर्भुगतान बैंक खाता",
     "pendingSettlement":"लंबित निपटान",
-    "creditAvailable": "क्रेडिट उपलब्ध है"
+    "creditAvailable": "क्रेडिट उपलब्ध है",
+    "reversalPostingFailed": "लेन - देन विफल। रिवर्सल पोस्टिंग विफल रही",
+    "systemFailure": "प्रणाली की विफलता",
+    "insufficientFunds": "अपर्याप्त कोष",
+    "inactiveBankAccount": "निष्क्रिय बैंक खाता",
+    "invalidAccountDetails": "अमान्य खाता विवरण",
+    "reason":"कारण"
 }
