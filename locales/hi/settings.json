@@ -545,5 +545,9 @@
     "successfullyUpdatedApprovalPolicy": "अनुमोदन नीति को सफलतापूर्वक अपडेट किया गया",
     "errorUpdatingApprovalPolicy": "स्वीकृति नीति अपडेट करने में त्रुटि",
     "priority": "वरीयता",
-    "policyTable": "नीति तालिका"
+    "policyTable": "नीति तालिका",
+    "fullAccess":"पूर्ण पहुँच",
+    "limitedAccess":"सीमित पहुँच",
+    "fullAccessDesc":"उपयोगकर्ताओं को जोड़ें और Centime पर उनकी भूमिकाओं को परिभाषित करने की अनुमति दें",
+    "limitedAccessDesc":"Centime तक सीमित पहुंच वाले उपयोगकर्ताओं को चालान या भुगतान अनुमोदनकर्ता के रूप में जोड़ें"
 }
