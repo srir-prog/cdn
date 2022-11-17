@@ -545,5 +545,9 @@
     "successfullyUpdatedApprovalPolicy": "Successfully updated approval policy",
     "errorUpdatingApprovalPolicy": "Error updating approval policy",
     "priority": "Priority",
-    "policyTable": "Policy table"
+    "policyTable": "Policy table",
+    "fullAccess":"Full access",
+    "limitedAccess":"Limited access",
+    "fullAccessDesc":"Add users and assign permissions to define their roles on Centime",
+    "limitedAccessDesc":"Add users as Invoice or Payment approvers with limited access to Centime"
 }
