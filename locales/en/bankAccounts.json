@@ -407,5 +407,6 @@
     "systemFailure": "System failure",
     "insufficientFunds": "Insufficient funds",
     "inactiveBankAccount": "Inactive bank account",
-    "invalidAccountDetails": "Invalid account details"
+    "invalidAccountDetails": "Invalid account details",
+    "reason": "Reason"
 }
