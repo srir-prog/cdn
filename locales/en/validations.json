@@ -71,5 +71,6 @@
     "amountShouldBeMoreThanZero": "Amount should be more than zero",
     "amountShouldBeLessThanAvailableBalanceMsg": "Amount should be less than available balance",
     "paybackDaysCountShouldBeLessThan90": "Payback period should be less than 90 days",
-    "paybackDaysCountShouldBeMoreThanZero": "Payback period should be more than zero"
+    "paybackDaysCountShouldBeMoreThanZero": "Payback period should be more than zero",
+    "minAmountInclusive": "Value must be greater than or equal to zero"
 }
