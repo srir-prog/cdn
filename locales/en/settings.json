@@ -553,5 +553,8 @@
     "userType":"User type",
     "invoiceApprover":"Invoice Approver",
     "paymentApprover":"Payment Approver",
-    "csRepresentative":"CS - Representative"
+    "csRepresentative":"CS - Representative",
+    "userTypesDropdown":"Users type dropdown",
+    "fullAccessUsersTable":"Full Access Users Table",
+    "limitedAccessUsersTable":"Limited Access Users Table"
 }
