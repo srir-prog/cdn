@@ -554,5 +554,7 @@
     "invoiceApprover":"चालान स्वीकृतिकर्ता",
     "paymentApprover":"भुगतान अनुमोदक",
     "csRepresentative":"सीएस - प्रतिनिधि",
-    "userTypesDropdown":"उपयोगकर्ता ड्रॉपडाउन टाइप करते हैं"
+    "userTypesDropdown":"उपयोगकर्ता ड्रॉपडाउन टाइप करते हैं",
+    "fullAccessUsersTable":"पूर्ण पहुँच उपयोगकर्ता तालिका",
+    "limitedAccessUsersTable":"सीमित पहुंच वाले उपयोगकर्ता तालिका"
 }
