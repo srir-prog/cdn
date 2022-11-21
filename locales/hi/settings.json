@@ -553,5 +553,6 @@
     "userType":"उपयोगकर्ता का प्रकार",
     "invoiceApprover":"चालान स्वीकृतिकर्ता",
     "paymentApprover":"भुगतान अनुमोदक",
-    "csRepresentative":"सीएस - प्रतिनिधि"
+    "csRepresentative":"सीएस - प्रतिनिधि",
+    "userTypesDropdown":"उपयोगकर्ता ड्रॉपडाउन टाइप करते हैं"
 }
