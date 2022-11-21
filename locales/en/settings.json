@@ -549,5 +549,9 @@
     "fullAccess":"Full access",
     "limitedAccess":"Limited access",
     "fullAccessDesc":"Add users and assign permissions to define their roles on Centime",
-    "limitedAccessDesc":"Add users as Invoice or Payment approvers with limited access to Centime"
+    "limitedAccessDesc":"Add users as Invoice or Payment approvers with limited access to Centime",
+    "userType":"User type",
+    "invoiceApprover":"Invoice Approver",
+    "paymentApprover":"Payment Approver",
+    "csRepresentative":"CS - Representative"
 }
