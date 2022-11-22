@@ -398,8 +398,15 @@
     "IN_PROGRESS": "In progress",
     "RETRY": "Retry",
     "NOTIFIED": "Notified",
-    "CentimeCashInActiveTooltipHeader": "CentimeCash is inactive. To activate, please ensure your CentimeCash account has a:",
-    "CentimeCashInActiveTooltipLine1": "a. CentimeCash General Ledger account linked",
-    "CentimeCashInActiveTooltipLine2": "b. Bank account for CentimeCredit repayment connected and linked",
-    "pendingSettlement": "Pending settlement"
+    "CentimeCashInActiveTooltipHeader": "To use CentimeCash, please ensure the following:",
+    "CentimeCashInActiveTooltipLine1": "a. A General Ledger account linked with the CentimeCash account",
+    "CentimeCashInActiveTooltipLine2": "b. A linked CentimeCredit repayment bank account",
+    "pendingSettlement": "Pending settlement",
+    "creditAvailable": "Credit available",
+    "reversalPostingFailed": "Transaction failed. Reversal posting failed",
+    "systemFailure": "System failure",
+    "insufficientFunds": "Insufficient funds",
+    "inactiveBankAccount": "Inactive bank account",
+    "invalidAccountDetails": "Invalid account details",
+    "reason": "Reason"
 }

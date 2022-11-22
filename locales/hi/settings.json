@@ -546,6 +546,17 @@
     "errorUpdatingApprovalPolicy": "स्वीकृति नीति अपडेट करने में त्रुटि",
     "priority": "वरीयता",
     "policyTable": "नीति तालिका",
+    "fullAccess": "पूर्ण पहुँच",
+    "limitedAccess": "सीमित पहुँच",
+    "fullAccessDesc": "उपयोगकर्ताओं को जोड़ें और Centime पर उनकी भूमिकाओं को परिभाषित करने की अनुमति दें",
+    "limitedAccessDesc": "Centime तक सीमित पहुंच वाले उपयोगकर्ताओं को चालान या भुगतान अनुमोदनकर्ता के रूप में जोड़ें",
+    "userType": "उपयोगकर्ता का प्रकार",
+    "invoiceApprover": "चालान स्वीकृतिकर्ता",
+    "paymentApprover": "भुगतान अनुमोदक",
+    "csRepresentative": "सीएस - प्रतिनिधि",
+    "userTypesDropdown": "उपयोगकर्ता ड्रॉपडाउन टाइप करते हैं",
+    "fullAccessUsersTable": "पूर्ण पहुँच उपयोगकर्ता तालिका",
+    "limitedAccessUsersTable": "सीमित पहुंच वाले उपयोगकर्ता तालिका",
     "earlyPayDiscounts": "प्रारंभिक भुगतान छूट",
     "discountAccount": "डिस्काउंट अकाउंट"
 }
