@@ -298,7 +298,6 @@
     "expiresOn": "पर समय सीमा समाप्त",
     "applyDiscount": "छूट लागू करें",
     "removeDiscount": "छूट हटाएं",
-    "discountApplied": "छूट लागू",
     "discountLapsed": "डिस्काउंट विंडो समाप्त हो गई है",
     "discountExpiringSoon": "छूट जल्द ही समाप्त हो रही है",
     "PaymentDiscountApplySuccess": "चालान पर छूट सफलतापूर्वक लागू की गई {{billId}}",

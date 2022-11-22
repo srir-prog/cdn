@@ -298,7 +298,6 @@
     "expiresOn": "Expires on",
     "applyDiscount": "Apply discount",
     "removeDiscount": "Remove discount",
-    "discountApplied": "Discount applied",
     "discountLapsed": "Discount window has lapsed",
     "discountExpiringSoon": "Discounts are expring soon",
     "PaymentDiscountApplySuccess": "Discount successfully applied to invoice {{billId}}",
