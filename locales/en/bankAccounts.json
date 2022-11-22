@@ -408,5 +408,6 @@
     "insufficientFunds": "Insufficient funds",
     "inactiveBankAccount": "Inactive bank account",
     "invalidAccountDetails": "Invalid account details",
-    "reason": "Reason"
+    "reason": "Reason",
+    "cashImpact": "Cash impact"
 }
