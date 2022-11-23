@@ -10,21 +10,22 @@
                 "showChooseFilterInQueryBuilder": false,
                 "elementsInfo": [
                     {
-                        "type": "Dropdown",
-                        "title": "Period",
+                        "type": "DatesSelector",
                         "componentProps": {
-                            "options": {
-                                "": "All",
-                                "today": "today",
-                                "yesterday": "yesterday",
-                                "week": "this week",
-                                "month": "this month"
+                            "onlySingleDate": false,
+                            "calendarLayout":"double",
+                            "startDate":"",
+                            "endDate":"",
+                            "inputProps":{
+                                "label":"Period",
+                                "placeholder":"All",
+                                "size":"extraLarge44",
+                                "fullWidth": true
                             },
-                            "multiple": false,
-                            "tnsForOptions": false
+                            "quickSelectionType":"payment",
+                            "tns":"businessOps"
                         },
-                        "queryName": "period",
-                        "default": "week"
+                        "queryName": "period"
                     },
                     {
                         "type": "Dropdown",
