@@ -450,5 +450,7 @@
     "awaitingApproval": "मंजूरी का इंतजार",
     "supplier": "प्रदायक",
     "postingFailedLabel": "पोस्टिंग विफल: {{failureReason}}",
-    "notification": "अधिसूचना"
+    "notification": "अधिसूचना",
+    "sendForApproval": "अनुमोदन के लिए भेजें",
+    "documentsSendForApproval": "अनुमोदन के लिए दस्तावेज भेजें"
 }

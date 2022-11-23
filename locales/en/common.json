@@ -450,5 +450,7 @@
     "awaitingApproval": "Awaiting approval",
     "supplier": "Supplier",
     "postingFailedLabel": "Posting failed: {{failureReason}}",
-    "notification": "Notification"
+    "notification": "Notification",
+    "sendForApproval": "Send for approval",
+    "documentsSendForApproval": "Send documents for approval"
 }
