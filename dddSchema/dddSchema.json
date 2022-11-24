@@ -266,7 +266,8 @@
                         },
                         "clientId":"clientId",
                         "glType":"glType"
-                    }
+                    },
+                    "pageQueryParams":["clientId","glType"]
                 }
             }
         ]
@@ -568,51 +569,65 @@
     "jobsByFilters":{
         "componentType": "table",
         "title": "Jobs list",
+        "ignoreKeys":["cron","retry_config"],
         "headersInfo":[
             {
-                "title": "Job id",
-                "valueMap": "jobId",
-                "renderType": "text",
+                "title": "Id",
+                "valueMap": "job_id",
+                "renderType": "Link",
                 "align":"left",
-                "width": "10%",
-                "enableSort": true
+                "width": "5%",
+                "enableSort": true,
+                "action":{
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "JobHistory"
+                    },
+                    "paramObjMap": {
+                        "jobId":"job_id"
+                    }
+                }
+
             },
             {
-                "title": "Job name",
-                "valueMap": "jobName",
+                "title": "Name",
+                "valueMap": "job_name",
                 "renderType": "text",
                 "align":"left",
                 "width": "30%",
                 "enableSort": true
             },
             {
-                "title": "Cron",
-                "valueMap": "cron",
+                "title": "History Status",
+                "valueMap": "jh_status",
                 "renderType": "text",
                 "align":"left",
-                "width": "15%",
+                "width": "16.6%",
+                "enableSort": true
+            },
+            {
+                "title": "Start time",
+                "valueMap": "start_time",
+                "renderType": "text",
+                "align":"left",
+                "width": "16.6%",
                 "enableSort": false
             },
             {
-                "title": "Retry config",
-                "valueMap": "retryConfig",
-                "renderProps": {
-                    "listInfo": [
-                        {
-                            "label": "Retry count",
-                            "valueMap": "retryCount"
-                        },
-                        {
-                            "label": "Retry interval",
-                            "valueMap": "retryInterval"
-                        }
-                    ]
-                },
-                "width": "30%",
+                "title": "End time",
+                "valueMap": "end_time",
+                "renderType": "text",
+                "align":"left",
+                "width": "16.6%",
                 "enableSort": false
             },
+            
             {
-                "title": "Job status",
+                "title": "Status",
                 "valueMap": "status",
                 "renderType": "text",
                 "align":"left",
@@ -665,10 +680,239 @@
         }
 
     },
+    "jobHistory":{
+        "componentType": "table",
+        "title": "Jobs list",
+        "ignoreKeys":["retry","jobId"],
+        "headersInfo":[
+            {
+                "title": "History Id",
+                "valueMap": "jobHistoryId",
+                "renderType": "text",
+                "align":"left",
+                "width": "10%",
+                "enableSort": true
+            },
+            {
+                "title": "Error",
+                "valueMap": "errorDetail",
+                "renderType": "text",
+                "align":"left",
+                "width": "15%",
+                "enableSort": true
+            },
+            {
+                "title": "Retry config",
+                "valueMap": "retry",
+                "renderType": "text",
+                "align":"left",
+                "width": "15%",
+                "renderProps": {
+                    "listInfo": [
+                        {
+                            "label": "Retry count",
+                            "valueMap": "retryCount"
+                        },
+                        {
+                            "label": "Retry interval",
+                            "valueMap": "retryInterval"
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Retry count",
+                "valueMap": "retryCounter",
+                "enableSort": true,
+                "renderType": "text",
+                "align":"left",
+                "width": "15%"
+            },
+            {
+                "title": "Start time",
+                "valueMap": "startTime",
+                "renderType": "text",
+                "align":"left",
+                "width": "15%",
+                "enableSort": false
+            },
+            {
+                "title": "End time",
+                "valueMap": "endTime",
+                "renderType": "text",
+                "align":"left",
+                "width": "15%",
+                "enableSort": false
+            },
+            
+            {
+                "title": "Status",
+                "valueMap": "status",
+                "renderType": "text",
+                "align":"left",
+                "width": "15%",
+                "enableSort": true,
+                "editable": "Dropdown",
+                "componentProps": {
+                    "options": {
+                        "0" : "Active",
+                        "1" : "Pause",
+                        "2" : "Deprecated"
+                    },
+                    "size": "medium36"
+                },
+                "displayValueEnum": [
+                    {
+                      "label": "Active",
+                      "value": 0
+                    },
+                    {
+                      "label": "Pause",
+                      "value": 1
+                    },
+                    {
+                      "label": "Deprecated",
+                      "value": 2
+                    }
+                ]
+            }
+        ]
+    },
     "billPaymentSchedule":{
+        "componentType": "table",
+        "title": "Bill payment schedule",
+        "ignoreKeys":["supplierId","clientId","subPaymentMethod","glType",
+        "actionByUser","actionDate","approvalLevel","remittanceEmail",
+        "approvalEmailSent","subStatus","byUser","postingCounter","planStatus",
+        "history","activeStatus","notes","exchangeRate","virtualCardId","payerPaymentAccountId","glStatus","paymentId"],
+         "headersInfo":[
+            {
+                "title": "Bill Id",
+                "valueMap": "billId",
+                "renderType": "text",
+                "align":"left"
+            },
+            {
+                "title": "BPS Id",
+                "valueMap": "id",
+                "renderType": "Link",
+                "align":"left",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "BillPaymentScheduleDetails"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId",
+                        "bpsId": "id"
+                    }
+                }
+            },
+            {
+                "title": "Payment Amount",
+                "valueMap": "paymentAmount",
+                "formatType":"currency",
+                "align":"left"
+            },
+            {
+                "title": "Payment Method",
+                "valueMap": "paymentMethod",
+                "displayValueEnum": [
+                    {
+                      "label": "CHECK",
+                      "value": 1
+                    },
+                    {
+                      "label": "ACH",
+                      "value": 2
+                    },
+                    {
+                      "label": "CENTIME_CARD",
+                      "value": 3
+                    },
+                    {
+                      "label": "CREDIT_CARD",
+                      "value": 4
+                    },
+                    {
+                      "label": "OTHER",
+                      "value": 5
+                    },
+                    {
+                      "label": "FX_PAYMENT",
+                      "value": 6
+                    },
+                    {
+                      "label": "CENTIME_PAY",
+                      "value": 7
+                    },
+                    {
+                      "label": "CENTIME_CASH",
+                      "value": 8
+                    }
+                  ]
+            },
+            {
+                "title": "Payment Date",
+                "valueMap": "paymentDate",
+                "formatType":"date",
+                "align":"left"
+            },
+            {
+                "title": "Payment Status",
+                "valueMap": "paymentStatus",
+                "displayValueEnum": [
+                    {
+                      "label": "ReadyToPay",
+                      "value": 0
+                    },
+                    {
+                      "label": "AwaitingForApproval",
+                      "value": 1
+                    },
+                    {
+                      "label": "Rejected",
+                      "value": 2
+                    },
+                    {
+                      "label": "Scheduled",
+                      "value": 3
+                    },
+                    {
+                      "label": "Failed",
+                      "value": 4
+                    },
+                    {
+                      "label": "Paid",
+                      "value": 5
+                    },
+                    {
+                      "label": "markedPaid",
+                      "value": 6
+                    },
+                    {
+                      "label": "paidInGeneralLedger",
+                      "value": 7
+                    },
+                    {
+                      "label": "userActionNeeded",
+                      "value": 8
+                    },
+                    {
+                      "label": "inProcess",
+                      "value": 9
+                    }
+                  ]
+            }
+         ]
+    },
+    "billPaymentScheduleDetails":{
         "componentType": "detailsList",
-        "title": "Bill payment schedule details",
-        "ignoreKeys":["id","clientId","subPaymentMethod","glType"],
+        "title":"Bill Payment Schedule Details",
         "listInfo":[
             {
                 "label": "Bill Id",
@@ -1266,6 +1510,14 @@
                 "enableSort": true
             },
             {
+                "title": "Bill number",
+                "valueMap": "billNumber",
+                "renderType": "text",
+                "align":"left",
+                "width": "20%",
+                "enableSort": true
+            },
+            {
                 "title": "Total amount",
                 "valueMap": "txnTotalAmount",
                 "renderType": "text",
@@ -1616,6 +1868,17 @@
     "cfValidation":{
         "componentType": "table",
         "title": "Cf Validation List",
+        "ignoreKeys":[
+            "OpeningBalance.valueFromSource",
+            "OpeningBalance.valueFromCentime",
+            "OpeningBalance.dailyCashFlowComparisonReportMap",
+            "NetCashIncrease.valueFromSource",
+            "NetCashIncrease.valueFromCentime",
+            "NetCashIncrease.dailyCashFlowComparisonReportMap",
+            "ClosingBalance.valueFromSource",
+            "ClosingBalance.valueFromCentime",
+            "ClosingBalance.dailyCashFlowComparisonReportMap"
+        ],
         "headersInfo":[
             {
                 "title": "Start Date",
@@ -1623,102 +1886,56 @@
                 "formatType": "date",
                 "align":"left",
                 "enableSort": true,
-                "width": "11%"
+                "width": "12%"
             },
             {
                 "title": "End Date",
                 "valueMap": "endDate",
                 "formatType": "date",
                 "enableSort": true,
-                "width":"11%"
+                "width":"12%"
             },
             {
                 "title": "Opening Balance",
-                "valueMap": "OpeningBalance",
-                "width":"26%",
-                "enableAccordion":true,
-                "renderType": "AccordionLink",
-                "accordionProps":{
-                    "renderType":"Tabs",
-                    "valueMap":"OpeningBalance",
-                    "tabsInfo":[{
-                        "tabTitle":"Opening Balance",
-                         "listInfo":[{
-                             "label":"Result",
-                             "valueMap":"comparisonResult",
-                             "gridSize":3
-                         },{
-                            "label":"Centime",
-                            "valueMap":"valueFromCentime",
-                            "gridSize":3
-                         },
-                         {
-                            "label":"Source",
-                            "valueMap":"valueFromSource",
-                            "gridSize":3
-                         }
-                        ]   
-                    }]
-                }
+                "valueMap": "OpeningBalance.comparisonResult",
+                "width":"20%",
+                "renderType": "text"
             },
             {
                 "title": "Net Cash Increase",
-                "valueMap": "NetCashIncrease",
-                "enableSort": true,
-                "width":"26%",
-                "enableAccordion":true,
-                "renderType": "AccordionLink",
-                "accordionProps":{
-                    "renderType":"Tabs",
-                    "valueMap":"NetCashIncrease",
-                    "tabsInfo":[{
-                        "tabTitle":"Net Cash Increase",
-                         "listInfo":[{
-                             "label":"Result",
-                             "valueMap":"comparisonResult",
-                             "gridSize":3
-                         },{
-                            "label":"Centime",
-                            "valueMap":"valueFromCentime",
-                            "gridSize":3
-                         },
-                         {
-                            "label":"Source",
-                            "valueMap":"valueFromSource",
-                            "gridSize":3
-                         }
-                        ]   
-                    }]
-                }
+                "valueMap": "NetCashIncrease.comparisonResult",
+                "width":"20%",
+                "renderType": "text"
             },
             {
                 "title": "Closing Balance",
-                "valueMap": "ClosingBalance",
-                "enableSort": true,
-                "width":"26%",
-                "enableAccordion":true,
-                "renderType": "AccordionLink",
-                "accordionProps":{
-                    "renderType":"Tabs",
-                    "valueMap":"ClosingBalance",
-                    "tabsInfo":[{
-                        "tabTitle":"Closing Balance",
-                         "listInfo":[{
-                             "label":"Result",
-                             "valueMap":"comparisonResult",
-                             "gridSize":3
-                         },{
-                            "label":"Centime",
-                            "valueMap":"valueFromCentime",
-                            "gridSize":3
-                         },
-                         {
-                            "label":"Source",
-                            "valueMap":"valueFromSource",
-                            "gridSize":3
-                         }
-                        ]   
-                    }]
+                "valueMap": "ClosingBalance.comparisonResult",
+                "width":"20%",
+                "renderType": "text"
+            },
+            {
+                "title":"Action",
+                "valueMap":"",
+                "width":"16%",
+                "renderType": "Button",
+                "renderProps": {
+                  "label": "Details"
+                },
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "CfValidationDetails"
+                    },
+                    "paramObjMap": {
+                        "clientId":"clientId",
+                        "glType":"glType",
+                        "startDate":"startDate",
+                        "endDate":"endDate"
+                    }
                 }
             }
         ],
@@ -1731,6 +1948,153 @@
                 20
             ]
         }
+    },
+    "cfValidationDetails":{
+        "componentType": "detailsList",
+        "title": "CF Validation details",
+        "ignoreKeys": [
+           "glType",
+           "clientId"
+        ],
+        "transformToTableDataValueMap":["NetCashIncrease.dailyCashFlowComparisonReportMap"],
+        "listInfo": [
+            {
+                "label":"Start Date",
+                "valueMap":"startDate"
+            },
+            {
+                "label":"End Date",
+                "valueMap":"endDate"
+            },
+            {
+                "label":"Net Cash Increase Comparision result",
+                "valueMap":"NetCashIncrease.comparisonResult"
+             },
+             {
+                 "label": "Net Cash Increase Value from source",
+                 "valueMap": "NetCashIncrease.valueFromSource"
+             },
+             {
+                 "label": "Net Cash Increase Value from Centime",
+                 "valueMap": "NetCashIncrease.valueFromCentime"
+             },
+             {
+                "label":"Net Cash Increase Daily Cash Flow Comparison",
+                "valueMap":"NetCashIncrease.dailyCashFlowComparisonReportMap",
+                "renderProps": {
+                    "ignoreKeys":["inflowsFromCentime","outflowsFromCentime"],
+                    "headersInfo": [
+                        {
+                            "title": "Date",
+                            "valueMap": "date"
+                        },
+                        {
+                            "title": "Net CF Centime",
+                            "valueMap": "netCashFlowFromCentime"
+                        },
+                        {
+                            "title": "Net CF GL",
+                            "valueMap": "netCashFlowFromGlReport"
+                        },
+                        {
+                            "title": "CF diff",
+                            "valueMap": "differenceInCashFlow"
+                        },
+                        {
+                            "title": "Inflows From Centime",
+                            "valueMap": "inflowsFromCentime",
+                            "renderProps":{
+                                "headersInfo":[
+                                    {
+                                        "title": "CF Date",
+                                        "valueMap": "cfDate",
+                                        "renderType": "text"
+                                    },
+                                    {
+                                        "title": "CF Type",
+                                        "valueMap": "cfType",
+                                        "renderType": "text" 
+                                    },
+                                    {
+                                        "title": "Transaction Amount",
+                                        "valueMap": "transactionAmount",
+                                        "renderType": "text"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Outflows From Centime",
+                            "valueMap": "outflowsFromCentime",
+                            "renderProps":{
+                                "headersInfo":[
+                                    {
+                                        "title": "CF Date",
+                                        "valueMap": "cfDate",
+                                        "renderType": "text"
+                                    },
+                                    {
+                                        "title": "CF Type",
+                                        "valueMap": "cfType",
+                                        "renderType": "text" 
+                                    },
+                                    {
+                                        "title": "Transaction Amount",
+                                        "valueMap": "transactionAmount",
+                                        "renderType": "text"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "CF GL",
+                            "valueMap": "cashFlowsFromGlReport",
+                            "width":"30%",
+                            "renderProps":{
+                                "listInfo":[
+                                    {
+                                        "label":"Payment",
+                                        "valueMap":"Payment"
+                                    },
+                                    {
+                                        "valueMap":"Bill Payment (Check)"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "title":"Outflow total",
+                            "valueMap":"outflowTotal"
+                        }
+                    ]
+                }
+            },
+            {
+               "label":"Opening Balance Comparision result",
+               "valueMap":"OpeningBalance.comparisonResult"
+            },
+            {
+                "label": "Opening Balance Value from source",
+                "valueMap": "OpeningBalance.valueFromSource"
+            },
+            {
+                "label": "Opening Balance Value from Centime",
+                "valueMap": "OpeningBalance.valueFromCentime"
+            },
+            {
+                "label":"Closing Balance Comparision result",
+                "valueMap":"ClosingBalance.comparisonResult"
+             },
+             {
+                 "label": "Closing Balance Value from source",
+                 "valueMap": "ClosingBalance.valueFromSource"
+             },
+             {
+                 "label": "Closing Balance Value from Centime",
+                 "valueMap": "ClosingBalance.valueFromCentime"
+             }
+
+       ]
     },
     "PaymentListWithName": {
         "componentType": "table",
@@ -3421,6 +3785,11 @@
                 "valueMap": "clientName"
             },
             {
+                "label":"Company start date",
+                "valueMap":"createdTime",
+                "formatType":"datetime"
+            },
+            {
                 "label": "Status",
                 "valueMap": "clientStatus",
                 "editType": "select",
@@ -3827,7 +4196,7 @@
             {
                 "renderType": "Button",
                 "renderProps": {
-                  "label": "Show CF Page",
+                  "label": "CF Validation",
                   "className":"ml-6"
                 },
                 "renderPosition": "bottom",
@@ -4076,25 +4445,25 @@
         "title": "Data Source Details",
         "listInfo": [
             {
-                "title": "Client Id",
+                "label": "Client Id",
                 "valueMap": "clientId"
             },
             {
-                "title": "GL Type",
+                "label": "GL Type",
                 "valueMap": "sourceName"
             },
             {
-                "title": "Sync Start",
+                "label": "Sync Start",
                 "valueMap": "syncStart",
                 "formatType": "date"
             },
             {
-                "title": "Sync End",
+                "label": "Sync End",
                 "valueMap": "syncEnd",
                 "formatType": "date"
             },
             {
-                "title": "Source Sync Status",
+                "label": "Source Sync Status",
                 "valueMap": "sourceSyncStatus",
                 "editable": true,
                 "editType": "select",
@@ -4116,9 +4485,13 @@
                         "value": "DISCONNECTED"
                     }
                 ]
+            },
+            {
+                "label": "Number of times failed",
+                "valueMap": "connectionInfo.failureCount"
             }
         ],
-        "ignoreKeys": ["paymentId","clientName","glType","clientId"],
+        "ignoreKeys": ["paymentId","clientName","glType"],
         "additionalContent": [
             {
                 "renderType": "Button",
@@ -4168,24 +4541,14 @@
     "dataSyncTrack": {
         "componentType": "table",
         "title": "Data Sync Track",
+        "ignoreKeys":["clientId","glType"],
         "headersInfo": [
-            {
-                "title": "Client Id",
-                "valueMap": "clientId",
-                "renderType": "text",
-                "width": "8%"
-            },
-            {
-                "title": "GL Type",
-                "valueMap": "sourceName",
-                "renderType": "text",
-                "width": "15%"
-            },
             {
                 "title": "Entity Name",
                 "valueMap": "entityName",
                 "renderType": "text",
-                "width": "20%"
+                "width": "20%",
+                "enableSort": true
             },
             {
                 "title": "Entity Sync Status",
@@ -4196,32 +4559,36 @@
                     "options": {
                         "IN SYNC" : "IN SYNC",
                         "ERROR" : "ERROR",
-                        "IN PROGRESS" : "IN PROGRESS",
-                        "DISCONNECTED": "DISCONNECTED"
+                        "IN PROGRESS" : "IN PROGRESS"
                     },
                     "size": "medium36"
                 },
-                "width": "16%"
+                "width": "16%",
+                "enableSort": true
             },
             {
                 "title": "Last Sync",
                 "valueMap": "lastSyncTime",
                 "formatType": "date",
+                "align":"left",
                 "editable": "DatesSelector",
                 "componentProps": {
                     "onlySingleDate": true
                 },
-                "width": "15%"
+                "width": "15%",
+                "enableSort": true
             },
             {
                 "title": "Batch Id",
                 "valueMap": "batchId",
                 "renderType": "text",
-                "width": "15%"
+                "width": "15%",
+                "enableSort": true
             }
         ],
         "additionalProperties": {
             "editableForm": true,
+            "paginationNeeded":true,
             "onSaveAction": {
                 "type": "updateCall",
                 "url": "fs/business-ops-service",
