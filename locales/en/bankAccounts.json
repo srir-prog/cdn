@@ -409,5 +409,6 @@
     "inactiveBankAccount": "Inactive bank account",
     "invalidAccountDetails": "Invalid account details",
     "reason": "Reason",
-    "cashImpact": "Cash impact"
+    "cashImpact": "Cash impact",
+    "closingBalance": "Closing balances"
 }
