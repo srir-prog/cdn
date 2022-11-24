@@ -326,5 +326,6 @@
     "inactiveBankAccount": "निष्क्रिय बैंक खाता",
     "invalidAccountDetails": "अमान्य खाता विवरण",
     "reason":"कारण",
-    "cashImpact": "नकद प्रभाव"
+    "cashImpact": "नकद प्रभाव",
+    "closingBalance": "समापन शेष"
 }
