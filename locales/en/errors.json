@@ -12,7 +12,7 @@
   "Error" : "Error",
   "UnableToSignUp": "Unable to sign up. Try again or contact us if the problem persists.",
   "CannotSignUp" : "Unable to sign up. Try again or contact us if the problem persists.",
-  "GLSyncInProgress":"Syncing data from your General Ledger. You’ll be notified once you can access the modules to control and. <ourLink></ourLink>",
+  "GLSyncInProgress":"Syncing data from your General Ledger. You’ll be notified once you can access the modules to control and manage cash flow. <ourLink></ourLink>",
   "learnMore": "Learn more",
   "UnableToLoadDashboard": "Error while loading the homepage, please refresh. Contact us if the issue persists.",
   "NoEntitlements": "You have not been provided with any Centime permissions yet. Speak with your administrator or contact us for help.",
