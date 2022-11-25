@@ -306,7 +306,7 @@
     "centimeCashAvailableBalance": "Available balance : {{availableBalance}}",
     "centimeCash": "CentimeCash",
     "transfer": "Transfer",
-    "cffCashTargetSuccessfullyUpdated": "Successfully updated low/target cash value. Low ${{low}}, Target ${{target}}",
+    "cffCashTargetSuccessfullyUpdated": "Successfully updated low/target cash value. Low {{low}}, Target {{target}}",
     "postingDate": "Posting date",
     "dueDate": "Due date",
     "outstandingAmount": "Outstanding",
@@ -408,5 +408,9 @@
     "insufficientFunds": "Insufficient funds",
     "inactiveBankAccount": "Inactive bank account",
     "invalidAccountDetails": "Invalid account details",
-    "reason": "Reason"
+    "reason": "Reason",
+    "cashImpact": "Cash impact",
+    "closingBalance": "Closing balances",
+    "accruedFeeTxnTypeRepayReversal": "(Add.)",
+    "accruedFeeTxnTypeTxnReversal": "(R)"
 }
