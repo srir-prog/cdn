@@ -452,5 +452,11 @@
     "postingFailedLabel": "Posting failed: {{failureReason}}",
     "notification": "Notification",
     "sendForApproval": "Send for approval",
-    "documentsSendForApproval": "Send documents for approval"
+    "documentsSendForApproval": "Send documents for approval",
+    "historyActionDocumentSentForApproval": "Document sent for approval",
+    "historyActionDocumentApproved": "Document approved",
+    "errorSendingDocumentInvoicesForApproval": "Issue while initiating Sending the invoice for approval. Please try again or contact us if the issue persists",
+    "successfullySendDocumentInvoicesForApproval": "Sending Document for approval is initiated for the documents",
+    "errorApprovingInvoices": "Issue while sending invoice for approval. Please try again or contact us if the issue persists",
+    "successfullyApprovedInvoices": "Invoice approval initiated successfully"
 }
