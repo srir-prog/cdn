@@ -327,5 +327,7 @@
     "invalidAccountDetails": "अमान्य खाता विवरण",
     "reason":"कारण",
     "cashImpact": "नकद प्रभाव",
-    "closingBalance": "समापन शेष"
+    "closingBalance": "समापन शेष",
+    "accruedFeeTxnTypeRepayReversal": "(जोड़ें।.)",
+    "accruedFeeTxnTypeTxnReversal": "(आर)"
 }

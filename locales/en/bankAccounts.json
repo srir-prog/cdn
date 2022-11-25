@@ -410,5 +410,7 @@
     "invalidAccountDetails": "Invalid account details",
     "reason": "Reason",
     "cashImpact": "Cash impact",
-    "closingBalance": "Closing balances"
+    "closingBalance": "Closing balances",
+    "accruedFeeTxnTypeRepayReversal": "(Add.)",
+    "accruedFeeTxnTypeTxnReversal": "(R)"
 }
