@@ -450,5 +450,13 @@
     "awaitingApproval": "मंजूरी का इंतजार",
     "supplier": "प्रदायक",
     "postingFailedLabel": "पोस्टिंग विफल: {{failureReason}}",
-    "notification": "अधिसूचना"
+    "notification": "अधिसूचना",
+    "sendForApproval": "अनुमोदन के लिए भेजें",
+    "documentsSendForApproval": "अनुमोदन के लिए दस्तावेज भेजें",
+    "historyActionDocumentSentForApproval": "दस्तावेज़ अनुमोदन के लिए भेजा गया",
+    "historyActionDocumentApproved": "दस्तावेज़ स्वीकृत",
+    "errorSendingDocumentInvoicesForApproval": "अनुमोदन के लिए चालान भेजते समय समस्या। कृपया पुन: प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें",
+    "successfullySendDocumentInvoicesForApproval": "दस्तावेजों के लिए अनुमोदन के लिए दस्तावेज भेजना शुरू किया गया है",
+    "errorApprovingInvoices": "अनुमोदन के लिए चालान भेजते समय समस्या। कृपया पुन: प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें",
+    "successfullyApprovedInvoices": "चालान अनुमोदन सफलतापूर्वक शुरू किया गया"
 }
