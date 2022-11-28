@@ -455,8 +455,8 @@
     "documentsSendForApproval": "अनुमोदन के लिए दस्तावेज भेजें",
     "historyActionDocumentSentForApproval": "दस्तावेज़ अनुमोदन के लिए भेजा गया",
     "historyActionDocumentApproved": "दस्तावेज़ स्वीकृत",
-    "errorSendingDocumentInvoicesForApproval": "अनुमोदन के लिए चालान भेजते समय समस्या। कृपया पुन: प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें",
-    "successfullySendDocumentInvoicesForApproval": "दस्तावेजों के लिए अनुमोदन के लिए दस्तावेज भेजना शुरू किया गया है",
-    "errorApprovingInvoices": "अनुमोदन के लिए चालान भेजते समय समस्या। कृपया पुन: प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें",
-    "successfullyApprovedInvoices": "चालान अनुमोदन सफलतापूर्वक शुरू किया गया"
+    "errorSendingDocumentInvoicesForApproval": "दस्तावेज़ को मंज़ूरी के लिए भेजने में गड़बड़ी हुई। कृपया पुन: प्रयास करें",
+    "successfullySendDocumentInvoicesForApproval": "ददस्तावेज़ अनुमोदन के लिए भेजा गया",
+    "errorApprovingInvoices": "दस्तावेज़ को अनुमोदित करने में त्रुटियाँ आईं। कृपया पुन: प्रयास करें।",
+    "successfullyApprovedInvoices": "चालान स्वीकृत"
 }
