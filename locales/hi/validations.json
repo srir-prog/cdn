@@ -71,5 +71,9 @@
     "paybackDaysCountShouldBeMoreThanZero": "पेबैक अवधि शून्य से अधिक होनी चाहिए",
     "minAmountInclusive": "मान शून्य से अधिक या उसके बराबर होना चाहिए",
     "maxAmountExcluding": "मान {{amountLimit}} से कम होना चाहिए",
-    "minAmountDynamic": "मान {{amountLimit}} से अधिक होना चाहिए"
+    "minAmountDynamic": "मान {{amountLimit}} से अधिक होना चाहिए",
+    "minAmountGreaterThanDefaultLimit": "मान डिफ़ॉल्ट स्वीकृति सीमा से अधिक होना चाहिए",
+    "minAmountLessThanThirdLevelLimit": "मान तीसरे स्तर की सीमा से कम होना चाहिए",
+    "minAmountGreaterThanSecondLevelLimit": "मान दूसरे स्तर की सीमा से अधिक होना चाहिए",
+    "required": "आवश्यक"
 }
