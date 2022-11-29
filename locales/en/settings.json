@@ -533,8 +533,6 @@
     "addNewPolicy": "Add new policy",
     "modifyPolicy": "Modify policy",
     "invoiceApprovalsWithPolicy": "Invoice approvals - {{policy}}",
-    "in": "In",
-    "notIn": "Not in",
     "condition": "Condition",
     "forInvoicesAbove": "For invoices above",
     "approvalPolicies": "Approval policies",
@@ -558,5 +556,10 @@
     "fullAccessUsersTable": "Full Access Users Table",
     "limitedAccessUsersTable": "Limited Access Users Table",
     "earlyPayDiscounts": "Early pay discounts",
-    "discountAccount": "Discount account"
+    "discountAccount": "Discount account",
+    "upgradeUserModal":"Upgrade user modal",
+    "upgrade":"Upgrade",
+    "upgradeMainText":"User will be upgraded to a full access user",
+    "upgradeSubText":"Modifying permissions of users with limited access upgrades them to a full access user. This will be an additional charge and will reflect accordingly in your billing cycle.",
+    "secondApprovalRequired": "Required before proceeding with third approval"
 }

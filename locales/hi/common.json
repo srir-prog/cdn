@@ -450,5 +450,17 @@
     "awaitingApproval": "मंजूरी का इंतजार",
     "supplier": "प्रदायक",
     "postingFailedLabel": "पोस्टिंग विफल: {{failureReason}}",
-    "notification": "अधिसूचना"
+    "notification": "अधिसूचना",
+    "sendForApproval": "अनुमोदन के लिए भेजें",
+    "documentsSendForApproval": "अनुमोदन के लिए दस्तावेज भेजें",
+    "historyActionDocumentSentForApproval": "दस्तावेज़ अनुमोदन के लिए भेजा गया",
+    "historyActionDocumentApproved": "दस्तावेज़ स्वीकृत",
+    "errorSendingDocumentInvoicesForApproval": "दस्तावेज़ को मंज़ूरी के लिए भेजने में गड़बड़ी हुई। कृपया पुन: प्रयास करें",
+    "successfullySendDocumentInvoicesForApproval": "ददस्तावेज़ अनुमोदन के लिए भेजा गया",
+    "errorApprovingInvoices": "दस्तावेज़ को अनुमोदित करने में त्रुटियाँ आईं। कृपया पुन: प्रयास करें।",
+    "successfullyApprovedInvoices": "चालान स्वीकृत",
+    "select": "चयन",
+    "approvers": "अनुमोदक",
+    "in": "में",
+    "notIn": "अंदर नही"
 }
