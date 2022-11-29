@@ -450,5 +450,17 @@
     "awaitingApproval": "Awaiting approval",
     "supplier": "Supplier",
     "postingFailedLabel": "Posting failed: {{failureReason}}",
-    "notification": "Notification"
+    "notification": "Notification",
+    "sendForApproval": "Send for approval",
+    "documentsSendForApproval": "Send documents for approval",
+    "historyActionDocumentSentForApproval": "Document sent for approval",
+    "historyActionDocumentApproved": "Document approved",
+    "errorSendingDocumentInvoicesForApproval": "Error encountered in sending the document for approval. Please try again",
+    "successfullySendDocumentInvoicesForApproval": "Document sent for approval",
+    "errorApprovingInvoices": "Errors encountered in approving the document. Please try again.",
+    "successfullyApprovedInvoices": "Invoices approved",
+    "select": "Select",
+    "approvers": "Approvers",
+    "in": "In",
+    "notIn": "Not in"
 }
