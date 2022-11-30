@@ -74,5 +74,9 @@
     "paybackDaysCountShouldBeMoreThanZero": "Payback period should be more than zero",
     "minAmountInclusive": "Value must be greater than or equal to zero",
     "maxAmountExcluding": "Value must be less than {{amountLimit}}",
-    "minAmountDynamic": "Value must be greater than {{amountLimit}}"
+    "minAmountDynamic": "Value must be greater than {{amountLimit}}",
+    "minAmountGreaterThanDefaultLimit": "Value must be greater than default approval limit",
+    "minAmountLessThanThirdLevelLimit": "Value must be less than third level limit",
+    "minAmountGreaterThanSecondLevelLimit": "Value must be greater than second level limit",
+    "required": "Required"
 }

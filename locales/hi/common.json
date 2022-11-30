@@ -459,5 +459,9 @@
     "successfullySendDocumentInvoicesForApproval": "ददस्तावेज़ अनुमोदन के लिए भेजा गया",
     "errorApprovingInvoices": "दस्तावेज़ को अनुमोदित करने में त्रुटियाँ आईं। कृपया पुन: प्रयास करें।",
     "successfullyApprovedInvoices": "चालान स्वीकृत",
+    "select": "चयन",
+    "approvers": "अनुमोदक",
+    "in": "में",
+    "notIn": "अंदर नही",
     "approvalWorkflow":"स्वीकृति कार्यप्रवाह"
 }

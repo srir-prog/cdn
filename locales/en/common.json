@@ -459,5 +459,9 @@
     "successfullySendDocumentInvoicesForApproval": "Document sent for approval",
     "errorApprovingInvoices": "Errors encountered in approving the document. Please try again.",
     "successfullyApprovedInvoices": "Invoices approved",
+    "select": "Select",
+    "approvers": "Approvers",
+    "in": "In",
+    "notIn": "Not in",
     "approvalWorkflow":"Approval workflow"
 }
