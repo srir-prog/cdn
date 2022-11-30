@@ -570,7 +570,7 @@
     "jobsByFilters":{
         "componentType": "table",
         "title": "Jobs list",
-        "ignoreKeys":["cron","retry_config"],
+        "ignoreKeys":["retry_config"],
         "headersInfo":[
             {
                 "title": "Id",
@@ -603,27 +603,52 @@
                 "enableSort": true
             },
             {
+                "title": "Cron",
+                "valueMap": "cron",
+                "renderType": "text",
+                "formatType":"cron",
+                "align":"left",
+                "width": "18%",
+                "enableSort": true
+            },
+            {
                 "title": "History Status",
                 "valueMap": "jh_status",
                 "renderType": "text",
                 "align":"left",
-                "width": "16.6%",
-                "enableSort": true
+                "width": "10.6%",
+                "enableSort": true,
+                "displayValueEnum":[
+                    {
+                        "label":"Running",
+                        "value":0
+                    },
+                    {
+                        "label":"Success",
+                        "value":1
+                    },
+                    {
+                        "label":"Failure",
+                        "value":2
+                    }
+            ]
             },
             {
                 "title": "Start time",
                 "valueMap": "start_time",
                 "renderType": "text",
+                "formatType":"datetime",
                 "align":"left",
-                "width": "16.6%",
+                "width": "10.6%",
                 "enableSort": false
             },
             {
                 "title": "End time",
                 "valueMap": "end_time",
                 "renderType": "text",
+                "formatType":"datetime",
                 "align":"left",
-                "width": "16.6%",
+                "width": "10.6%",
                 "enableSort": false
             },
             
@@ -673,7 +698,7 @@
                     "templateId": "UpdateJob"
                 },
                 "paramObjMap": {
-                    "jobId":"jobId",
+                    "jobId":"job_id",
                     "status":"status"
                 },
                 "bodyObjMap": {}
@@ -683,8 +708,8 @@
     },
     "jobHistory":{
         "componentType": "table",
-        "title": "Jobs list",
-        "ignoreKeys":["retry","jobId"],
+        "title": "Job History List",
+        "ignoreKeys":["jobId"],
         "headersInfo":[
             {
                 "title": "History Id",
@@ -733,6 +758,7 @@
                 "title": "Start time",
                 "valueMap": "startTime",
                 "renderType": "text",
+                "formatType":"datetime",
                 "align":"left",
                 "width": "15%",
                 "enableSort": false
@@ -741,6 +767,7 @@
                 "title": "End time",
                 "valueMap": "endTime",
                 "renderType": "text",
+                "formatType":"datetime",
                 "align":"left",
                 "width": "15%",
                 "enableSort": false
@@ -751,7 +778,7 @@
                 "valueMap": "status",
                 "renderType": "text",
                 "align":"left",
-                "width": "15%",
+                "width": "10%",
                 "enableSort": true,
                 "editable": "Dropdown",
                 "componentProps": {
