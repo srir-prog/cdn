@@ -1327,7 +1327,7 @@
                         {
                             "label": "Date",
                             "valueMap": "dateTimeStamp",
-                            "formatType":"date"
+                            "formatType":"datetime"
                         }
                     ]
                 }
@@ -1540,7 +1540,7 @@
                 "title": "Due date",
                 "valueMap": "dueDate",
                 "renderType": "text",
-                "formatType": "date",
+                "formatType": "datetime",
                 "align":"left",
                 "width": "25%",
                 "enableSort": true
@@ -2515,10 +2515,6 @@
                 }
             },
             {
-                "label": "To Account Id",
-                "valueMap": "payeePaymentAccountId"
-            },
-            {
                 "label": "Payment Capture Date",
                 "valueMap": "paymentCaptureDate",
                 "formatType": "date"
@@ -2551,7 +2547,7 @@
                                     {
                                         "title": "Change Time",
                                         "valueMap": "subStatusChangeTime",
-                                        "formatType": "date"
+                                        "formatType": "datetime"
                                     }
                                 ]
                             }
@@ -2575,7 +2571,9 @@
             "paymentMetadata",
             "paymentDescription",
             "remittanceData",
-            "clientId"
+            "clientId",
+            "glType",
+            "payeePaymentAccountId"
         ],
         "additionalContent": [
             {
@@ -2605,6 +2603,7 @@
     "supplierDetails": {
         "componentType": "detailsList",
         "title": "Supplier Details",
+        "ignoreKeys":["glType","clientName"],
         "listInfo": [
             {
                 "label": "Supplier Name",
@@ -2720,7 +2719,7 @@
                 "valueMap": "accountNumber"
             }
         ],
-        "ignoreKeys": ["clientName","paymentId", "clientId"]
+        "ignoreKeys": ["clientName","paymentId", "clientId","glType"]
     },
     "Bill Details": {
         "componentType": "detailsList",
@@ -2796,7 +2795,7 @@
             {
                 "label": "Payment Date",
                 "valueMap": "paymentDate",
-                "formatType": "date"
+                "formatType": "datetime"
             },
             {
                 "label": "Payment Status",
@@ -3259,7 +3258,7 @@
             {
                 "label": "Remittance Sent Date",
                 "valueMap": "remittanceSentDate",
-                "formatType": "date"
+                "formatType": "datetime"
             },
             {
                 "label": "Approval Email Sent",
@@ -3276,7 +3275,7 @@
             {
                 "label": "Transaction Date",
                 "valueMap": "txnDate",
-                "formatType": "date"
+                "formatType": "datetime"
             },
             {
                 "label": "Transaction Amount",
@@ -3373,7 +3372,9 @@
             "creditDetails",
             "paymentNotes",
             "glVoidStatus",
-            "clientId"
+            "clientId",
+            "glType",
+            "glAccountId"
         ]
     },
     "destinationBankAccountDetails": {
@@ -3478,7 +3479,7 @@
             {
                 "title": "Payment Date",
                 "valueMap": "paymentDate",
-                "formatType": "date",
+                "formatType": "datetime",
                 "enableSort": true
             },
             {
@@ -3753,7 +3754,8 @@
                     "paramObjMap": {
                         "clientId": "clientId",
                         "glType": "glType"
-                    }
+                    },
+                    "pageQueryParams": ["clientId","glType"]
                 }
             },
             {
@@ -4343,12 +4345,12 @@
             {
                 "title": "Created Time",
                 "valueMap": "createdTime",
-                "formatType": "dateTime"
+                "formatType": "datetime"
             },
             {
                 "title": "Updated Time",
                 "valueMap": "updatedTime",
-                "formatType": "dateTime"
+                "formatType": "datetime"
             },
             {
                 "title": "User Entitlement",
@@ -4381,7 +4383,7 @@
             {
                 "title": "User Secret Updated Time",
                 "valueMap": "userSecretUpdatedTime",
-                "formatType": "dateTime"
+                "formatType": "datetime"
             },
             {
                 "title": "Login Attempts Left",
@@ -4391,7 +4393,7 @@
             {
                 "title": "Last Login Failed Attempt At",
                 "valueMap": "lastLoginFailedAttemptAt",
-                "formatType": "dateTime"
+                "formatType": "datetime"
             }
         ],
         "ignoreKeys": ["phone","password", "session", "accessToken", "refreshToken", "userPolicy", "glType"],
@@ -4456,12 +4458,12 @@
             {
                 "label": "Sync Start",
                 "valueMap": "syncStart",
-                "formatType": "date"
+                "formatType": "datetime"
             },
             {
                 "label": "Sync End",
                 "valueMap": "syncEnd",
-                "formatType": "date"
+                "formatType": "datetime"
             },
             {
                 "label": "Source Sync Status",
@@ -4490,6 +4492,14 @@
             {
                 "label": "Number of times failed",
                 "valueMap": "connectionInfo.failureCount"
+            },
+            {
+                "label":"Elapsed time",
+                "valueMap":"elapsedTime"
+            },
+            {
+                "label": "Incremental sync flag",
+                "valueMap": "connectionInfo.incrementalSyncFlag"
             }
         ],
         "ignoreKeys": ["paymentId","clientName","glType"],
@@ -4509,6 +4519,28 @@
                     ],
                     "paramObj": {
                         "templateId": "SyncNow"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId",
+                        "sourceName": "sourceName"
+                    }
+                }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Sync history",
+                    "className": "mb-5"
+                },
+                "renderPosition": "top",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "SyncHistory"
                     },
                     "paramObjMap": {
                         "clientId": "clientId",
@@ -4539,22 +4571,92 @@
             }
         }
     },
+    "syncHistory":{
+        "componentType": "table",
+        "title": "Sync history",
+        "ignoreKeys":["clientId","sourceName","actionTaken","actionRequired"],
+        "headersInfo": [
+            {
+                "title": "Batch Id",
+                "valueMap": "batchId",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Entity name",
+                "valueMap": "entityName",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Sync start time",
+                "valueMap": "syncStartTime",
+                "formatType":"datetime",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Sync end time",
+                "valueMap": "syncEndTime",
+                "renderType": "text",
+                "formatType":"datetime",
+                "enableSort": true
+            },
+            {
+                "title": "Recs read",
+                "valueMap": "recsRead",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Recs loaded",
+                "valueMap": "recsLoaded",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Sync status",
+                "valueMap": "syncStatus",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Error code",
+                "valueMap": "errorCode",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Error message",
+                "valueMap": "errorMessage",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Standardized error code",
+                "valueMap": "standardizedErrorCode",
+                "renderType": "text",
+                "enableSort": true
+            }
+            
+        ]
+    },
     "dataSyncTrack": {
         "componentType": "table",
         "title": "Data Sync Track",
-        "ignoreKeys":["clientId","glType"],
+        "ignoreKeys":["dataSyncTrackEntity.clientId","glType","dataSyncTrackEntity.sourceName"],
         "headersInfo": [
             {
                 "title": "Entity Name",
-                "valueMap": "entityName",
+                "valueMap": "dataSyncTrackEntity.entityName",
                 "renderType": "text",
-                "width": "20%",
                 "enableSort": true
             },
             {
                 "title": "Entity Sync Status",
-                "valueMap": "entitySyncStatus",
+                "valueMap": "dataSyncTrackEntity.syncStatus",
                 "renderType": "text",
+                "align":"left",
                 "editable": "Dropdown",
                 "componentProps": {
                     "options": {
@@ -4564,26 +4666,49 @@
                     },
                     "size": "medium36"
                 },
-                "width": "16%",
+                "displayValueEnum": [
+                    {
+                      "label": "IN SYNC",
+                      "value": 1
+                    },
+                    {
+                      "label": "ERROR",
+                      "value": 2
+                    },
+                    {
+                      "label": "IN PROGRESS",
+                      "value": 3
+                    }
+                ],
                 "enableSort": true
             },
             {
                 "title": "Last Sync",
-                "valueMap": "lastSyncTime",
-                "formatType": "date",
+                "valueMap": "dataSyncTrackEntity.lastSyncTime",
+                "formatType": "datetime",
                 "align":"left",
                 "editable": "DatesSelector",
                 "componentProps": {
                     "onlySingleDate": true
                 },
-                "width": "15%",
                 "enableSort": true
             },
             {
                 "title": "Batch Id",
-                "valueMap": "batchId",
+                "valueMap": "dataSyncTrackEntity.batchId",
                 "renderType": "text",
-                "width": "15%",
+                "enableSort": true
+            },
+            {
+                "title": "Error code",
+                "valueMap": "errorCode",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Error message",
+                "valueMap": "errorMessage",
+                "renderType": "text",
                 "enableSort": true
             }
         ],
