@@ -313,5 +313,6 @@
     "HistoryActionPaymentDiscountRemoved": "Discount removed",
     "glAccountForEpdTitle": "Select a General Ledger account to post early pay discount",
     "glAccountForEpdDescription": "To continue scheduling payments for invoices where discounts are applied, specify a discount account",
-    "epdDropDownPlaceHolder": "Select discount account"
+    "epdDropDownPlaceHolder": "Select discount account",
+    "discountPaidBillsToolTip": "Discount amount: {{discountAmount}}"
 }
