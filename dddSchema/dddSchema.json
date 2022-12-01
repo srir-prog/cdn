@@ -52,6 +52,29 @@
                         ]
                     },
                     {
+                        "type": "Dropdown",
+                        "title": "Payment method",
+                        "componentProps": {
+                            "options": {
+                                "ACH": "ACH",
+                                "CHECK": "CHECK",
+                                "CREDIT_CARD": "CREDIT_CARD",
+                                "CENTIME_CARD": "CENTIME_CARD",
+                                "CENTIME_CASH": "CENTIME_CASH"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
+                        },
+                        "queryName": "paymentMethod",
+                        "default": [
+                            "ACH",
+                            "CHECK",
+                            "CREDIT_CARD",
+                            "CENTIME_CARD",
+                            "CENTIME_CASH"
+                        ]
+                    },
+                    {
                         "type": "Input",
                         "componentProps": {
                             "fullWidth": true,
@@ -92,6 +115,10 @@
                         "clientId": {
                             "type": "queryBuilder",
                             "value": "clientId"
+                        },
+                        "paymentMethod":{
+                            "type": "queryBuilder",
+                            "value": "paymentMethod"
                         }
                     }
                 }
@@ -592,7 +619,6 @@
                         "jobId":"job_id"
                     }
                 }
-
             },
             {
                 "title": "Name",
@@ -686,6 +712,7 @@
         ],
         "additionalProperties": {
             "editableForm": true,
+            "deletableForm": false,
             "onSaveAction": {
                 "type": "updateCall",
                 "url": "fs/business-ops-service",
@@ -709,7 +736,7 @@
     "jobHistory":{
         "componentType": "table",
         "title": "Job History List",
-        "ignoreKeys":["jobId"],
+        "ignoreKeys":["jobId","retry"],
         "headersInfo":[
             {
                 "title": "History Id",
@@ -2148,25 +2175,26 @@
                     "pageQueryParams": ["paymentId","clientName"]
                 },
                 "enableSort": true,
-                "width": "12%"
+                "width": "15%"
             },
             {
                 "title": "Client Id",
                 "valueMap": "payerReferenceId",
                 "enableSort": true,
-                "width": "10%"
+                "width": "12%",
+                "align":"left"
             },
             {
                 "title": "Client Name",
                 "valueMap": "clientName",
                 "enableSort": true,
-                "width":"27%"
+                "width":"20%"
             },
             {
                 "title": "Method",
                 "valueMap": "paymentMethod",
                 "enableSort": true,
-                "width": "8%"
+                "width": "10%"
             },
             {
                 "title": "Amount",
@@ -2174,7 +2202,7 @@
                 "formatType": "currency",
                 "align":"left",
                 "enableSort": true,
-                "width":"15%"
+                "width":"8%"
             },
             {
                 "title": "Status",
@@ -2229,6 +2257,12 @@
                 "valueMap": "paymentCaptureDate",
                 "enableSort": true,
                 "width": "17%"
+            },
+            {
+                "title": "Payment Start Date",
+                "valueMap": "paymentStartDate",
+                "enableSort": true,
+                "width": "18%"
             }
         ],
         "ignoreKeys": [
@@ -2574,7 +2608,8 @@
                                     {
                                         "title": "Change Time",
                                         "valueMap": "subStatusChangeTime",
-                                        "formatType": "datetime"
+                                        "formatType": "datetime",
+                                        "enableSort": true
                                     }
                                 ]
                             }
@@ -2948,10 +2983,6 @@
             {
                 "label": "Payer Account Name",
                 "valueMap": "payerPaymentAccountName"
-            },
-            {
-                "label": "To Account Id",
-                "valueMap": "payeePaymentAccountId"
             },
             {
                 "label": "Payee Account Name",
@@ -3401,7 +3432,8 @@
             "glVoidStatus",
             "clientId",
             "glType",
-            "glAccountId"
+            "glAccountId",
+            "payeePaymentAccountId"
         ]
     },
     "destinationBankAccountDetails": {
