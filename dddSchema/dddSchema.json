@@ -729,6 +729,13 @@
                 "enableSort": true
             },
             {
+                "title": "Txn GL Id",
+                "valueMap": "txnGlId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
                 "title": "Txn status",
                 "valueMap": "glTxnStatus",
                 "renderType": "text",
@@ -2758,17 +2765,17 @@
             {
                 "label": "Payment Capture Date",
                 "valueMap": "paymentCaptureDate",
-                "formatType": "date"
+                "formatType": "datetime"
             },
             {
                 "label": "Payment Start Date",
                 "valueMap": "paymentStartDate",
-                "formatType": "date"
+                "formatType": "datetime"
             },
             {
                 "label": "Payment Completion Date",
                 "valueMap": "paymentEndDate",
-                "formatType": "date"
+                "formatType": "datetime"
             },
             {
                 "label": "Payment Sub Status",
