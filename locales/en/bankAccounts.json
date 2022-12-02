@@ -412,5 +412,7 @@
     "cashImpact": "Cash impact",
     "closingBalance": "Closing balances",
     "accruedFeeTxnTypeRepayReversal": "(Add.)",
-    "accruedFeeTxnTypeTxnReversal": "(R)"
+    "accruedFeeTxnTypeTxnReversal": "(R)",
+    "dayOfMonth":"day of every month",
+    "statementDate":"Statement date"
 }
