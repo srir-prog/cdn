@@ -308,5 +308,11 @@
     "DiscountApplied": "छूट लागू",
     "DiscountLapsed": "डिस्काउंट विंडो लैप्स हो गई",
     "Yes": "हाँ",
-    "No": "नहीं"
+    "No": "नहीं",
+    "HistoryActionPaymentDiscountApplied": "छूट लागू",
+    "HistoryActionPaymentDiscountRemoved": "छूट हटाई गई",
+    "glAccountForEpdTitle": "जल्दी भुगतान छूट पोस्ट करने के लिए एक सामान्य खाता बही का चयन करें",
+    "glAccountForEpdDescription": "उन चालानों के लिए शेड्यूलिंग भुगतान जारी रखने के लिए जहां छूट लागू होती है, एक छूट खाता निर्दिष्ट करें",
+    "epdDropDownPlaceHolder": "छूट खाते का चयन करें",
+    "discountPaidBillsToolTip": "छूट राशि: {{discountAmount}}"
 }
