@@ -69,5 +69,6 @@
     "isMultipleEmailsLimitExceeded": "अधिकतम 15 ईमेल की अनुमति है",
     "paybackDaysCountShouldBeLessThan90": "पेबैक अवधि 90 दिनों से कम होनी चाहिए",
     "paybackDaysCountShouldBeMoreThanZero": "पेबैक अवधि शून्य से अधिक होनी चाहिए",
-    "minAmountInclusive": "मान शून्य से अधिक या उसके बराबर होना चाहिए"
+    "minAmountInclusive": "मान शून्य से अधिक या उसके बराबर होना चाहिए",
+    "amountCantBeGreaterThanBal": "राशि शेष राशि से अधिक नहीं हो सकती"
 }
