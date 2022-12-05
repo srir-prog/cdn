@@ -52,6 +52,29 @@
                         ]
                     },
                     {
+                        "type": "Dropdown",
+                        "title": "Payment method",
+                        "componentProps": {
+                            "options": {
+                                "ACH": "ACH",
+                                "CHECK": "CHECK",
+                                "CREDIT_CARD": "CREDIT_CARD",
+                                "CENTIME_CARD": "CENTIME_CARD",
+                                "CENTIME_CASH": "CENTIME_CASH"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
+                        },
+                        "queryName": "paymentMethod",
+                        "default": [
+                            "ACH",
+                            "CHECK",
+                            "CREDIT_CARD",
+                            "CENTIME_CARD",
+                            "CENTIME_CASH"
+                        ]
+                    },
+                    {
                         "type": "Input",
                         "componentProps": {
                             "fullWidth": true,
@@ -92,6 +115,10 @@
                         "clientId": {
                             "type": "queryBuilder",
                             "value": "clientId"
+                        },
+                        "paymentMethod":{
+                            "type": "queryBuilder",
+                            "value": "paymentMethod"
                         }
                     }
                 }
@@ -567,10 +594,197 @@
             }
         ]
     },
+    "postingListQueryBuilder":{
+        "componentType": "detailsList",
+        "title": "Posting List",
+        "additionalProperties": {
+            "showQueryBuilder": true,
+            "queryBuilderPosition": "bottom",
+            "queryBuilderParams": {
+                "orientation": "row",
+                "showChooseFilterInQueryBuilder": false,
+                "elementsInfo": [
+                    {
+                        "type": "DatesSelector",
+                        "componentProps": {
+                            "onlySingleDate": false,
+                            "calendarLayout":"double",
+                            "startDate":"",
+                            "endDate":"",
+                            "inputProps":{
+                                "label":"Created time",
+                                "placeholder":"All",
+                                "size":"extraLarge44",
+                                "fullWidth": true
+                            },
+                            "quickSelectionType":"payment",
+                            "tns":"businessOps"
+                        },
+                        "queryName": "createdTime"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "title": "Transaction status",
+                        "componentProps": {
+                            "options": {
+                                "ACH": "ACH",
+                                "CHECK": "CHECK",
+                                "CREDIT_CARD": "CREDIT_CARD",
+                                "CENTIME_CARD": "CENTIME_CARD",
+                                "CENTIME_CASH": "CENTIME_CASH"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
+                        },
+                        "queryName": "txnStatus",
+                        "default": [
+                           
+                        ]
+                    },
+                    {
+                        "type": "Input",
+                        "componentProps": {
+                            "fullWidth": true,
+                            "placeholder": "All"
+                        },
+                        "title": "Client Id",
+                        "queryName": "clientId"
+                    }
+                ]
+            }
+        },
+        "ignoreKeys": ["clientName","paymentId", "clientId"],
+        "additionalContent": [
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "List Posting Transaction(s)"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "GlPostingTxn"
+                    },
+                    "paramObjMap": {
+                        "period": {
+                            "type": "queryBuilder",
+                            "value": "createdTime"
+                        },
+                        "status": {
+                            "type": "queryBuilder",
+                            "value": "txnStatus"
+                        },
+                        "clientId": {
+                            "type": "queryBuilder",
+                            "value": "clientId"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "glPostingTxn":{
+        "componentType": "table",
+        "title": "GL posting transaction list",
+        "ignoreKeys":[],
+        "headersInfo":[
+            {
+                "title": "Client Id",
+                "valueMap": "clientId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Txn Id",
+                "valueMap": "txnRefId",
+                "renderType": "Link",
+                "align":"left",
+                "enableSort": true,
+                "action":{
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "GlPostingTxnDetails"
+                    },
+                    "paramObjMap": {
+                        "clientId":"clientId",
+                        "txnRefId":"txnRefId"
+                    }
+                }
+            },
+            {
+                "title": "Txn type",
+                "valueMap": "txnType",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Txn GL Id",
+                "valueMap": "txnGlId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Txn status",
+                "valueMap": "glTxnStatus",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Error code",
+                "valueMap": "errorCode",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Error message",
+                "valueMap": "errorMessage",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Created time",
+                "valueMap": "createdTime",
+                "renderType": "text",
+                "formatType":"datetime",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Updated time",
+                "valueMap": "updatedTime",
+                "renderType": "text",
+                "formatType":"datetime",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Std error code",
+                "valueMap": "standardizedErrorCode",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            }
+        ]
+    },
     "jobsByFilters":{
         "componentType": "table",
         "title": "Jobs list",
-        "ignoreKeys":["cron","retry_config"],
+        "ignoreKeys":["retry_config"],
         "headersInfo":[
             {
                 "title": "Id",
@@ -592,7 +806,6 @@
                         "jobId":"job_id"
                     }
                 }
-
             },
             {
                 "title": "Name",
@@ -603,27 +816,52 @@
                 "enableSort": true
             },
             {
+                "title": "Cron",
+                "valueMap": "cron",
+                "renderType": "text",
+                "formatType":"cron",
+                "align":"left",
+                "width": "18%",
+                "enableSort": true
+            },
+            {
                 "title": "History Status",
                 "valueMap": "jh_status",
                 "renderType": "text",
                 "align":"left",
-                "width": "16.6%",
-                "enableSort": true
+                "width": "10.6%",
+                "enableSort": true,
+                "displayValueEnum":[
+                    {
+                        "label":"Running",
+                        "value":0
+                    },
+                    {
+                        "label":"Success",
+                        "value":1
+                    },
+                    {
+                        "label":"Failure",
+                        "value":2
+                    }
+            ]
             },
             {
                 "title": "Start time",
                 "valueMap": "start_time",
                 "renderType": "text",
+                "formatType":"datetime",
                 "align":"left",
-                "width": "16.6%",
+                "width": "10.6%",
                 "enableSort": false
             },
             {
                 "title": "End time",
                 "valueMap": "end_time",
                 "renderType": "text",
+                "formatType":"datetime",
                 "align":"left",
-                "width": "16.6%",
+                "width": "10.6%",
                 "enableSort": false
             },
             
@@ -661,6 +899,7 @@
         ],
         "additionalProperties": {
             "editableForm": true,
+            "deletableForm": false,
             "onSaveAction": {
                 "type": "updateCall",
                 "url": "fs/business-ops-service",
@@ -673,7 +912,7 @@
                     "templateId": "UpdateJob"
                 },
                 "paramObjMap": {
-                    "jobId":"jobId",
+                    "jobId":"job_id",
                     "status":"status"
                 },
                 "bodyObjMap": {}
@@ -683,8 +922,8 @@
     },
     "jobHistory":{
         "componentType": "table",
-        "title": "Jobs list",
-        "ignoreKeys":["retry","jobId"],
+        "title": "Job History List",
+        "ignoreKeys":["jobId","retry"],
         "headersInfo":[
             {
                 "title": "History Id",
@@ -733,6 +972,7 @@
                 "title": "Start time",
                 "valueMap": "startTime",
                 "renderType": "text",
+                "formatType":"datetime",
                 "align":"left",
                 "width": "15%",
                 "enableSort": false
@@ -741,6 +981,7 @@
                 "title": "End time",
                 "valueMap": "endTime",
                 "renderType": "text",
+                "formatType":"datetime",
                 "align":"left",
                 "width": "15%",
                 "enableSort": false
@@ -751,7 +992,7 @@
                 "valueMap": "status",
                 "renderType": "text",
                 "align":"left",
-                "width": "15%",
+                "width": "10%",
                 "enableSort": true,
                 "editable": "Dropdown",
                 "componentProps": {
@@ -2121,25 +2362,26 @@
                     "pageQueryParams": ["paymentId","clientName"]
                 },
                 "enableSort": true,
-                "width": "12%"
+                "width": "15%"
             },
             {
                 "title": "Client Id",
                 "valueMap": "payerReferenceId",
                 "enableSort": true,
-                "width": "10%"
+                "width": "12%",
+                "align":"left"
             },
             {
                 "title": "Client Name",
                 "valueMap": "clientName",
                 "enableSort": true,
-                "width":"27%"
+                "width":"20%"
             },
             {
                 "title": "Method",
                 "valueMap": "paymentMethod",
                 "enableSort": true,
-                "width": "8%"
+                "width": "10%"
             },
             {
                 "title": "Amount",
@@ -2147,7 +2389,7 @@
                 "formatType": "currency",
                 "align":"left",
                 "enableSort": true,
-                "width":"15%"
+                "width":"8%"
             },
             {
                 "title": "Status",
@@ -2202,6 +2444,12 @@
                 "valueMap": "paymentCaptureDate",
                 "enableSort": true,
                 "width": "17%"
+            },
+            {
+                "title": "Payment Start Date",
+                "valueMap": "paymentStartDate",
+                "enableSort": true,
+                "width": "18%"
             }
         ],
         "ignoreKeys": [
@@ -2517,17 +2765,17 @@
             {
                 "label": "Payment Capture Date",
                 "valueMap": "paymentCaptureDate",
-                "formatType": "date"
+                "formatType": "datetime"
             },
             {
                 "label": "Payment Start Date",
                 "valueMap": "paymentStartDate",
-                "formatType": "date"
+                "formatType": "datetime"
             },
             {
                 "label": "Payment Completion Date",
                 "valueMap": "paymentEndDate",
-                "formatType": "date"
+                "formatType": "datetime"
             },
             {
                 "label": "Payment Sub Status",
@@ -2547,7 +2795,8 @@
                                     {
                                         "title": "Change Time",
                                         "valueMap": "subStatusChangeTime",
-                                        "formatType": "datetime"
+                                        "formatType": "datetime",
+                                        "enableSort": true
                                     }
                                 ]
                             }
@@ -2921,10 +3170,6 @@
             {
                 "label": "Payer Account Name",
                 "valueMap": "payerPaymentAccountName"
-            },
-            {
-                "label": "To Account Id",
-                "valueMap": "payeePaymentAccountId"
             },
             {
                 "label": "Payee Account Name",
@@ -3374,7 +3619,8 @@
             "glVoidStatus",
             "clientId",
             "glType",
-            "glAccountId"
+            "glAccountId",
+            "payeePaymentAccountId"
         ]
     },
     "destinationBankAccountDetails": {
