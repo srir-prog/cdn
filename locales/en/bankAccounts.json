@@ -396,5 +396,6 @@
     "IN_PROGRESS": "In progress",
     "RETRY": "Retry",
     "NOTIFIED": "Notified",
-    "criteriaPaymentDate": "Payment Date: between {{startDate}} - {{endDate}}"
+    "criteriaPaymentDate": "Payment Date: between {{startDate}} - {{endDate}}",
+    "noDataFound": "No data found"
 }
