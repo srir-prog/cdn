@@ -781,6 +781,100 @@
             }
         ]
     },
+    "glPostingTxnDetails":{
+        "componentType": "detailsList",
+        "title":"GL posting transaction details",
+        "listInfo":[
+            {
+                "label": "Client Id",
+                "valueMap": "clientId"
+            },
+            {
+                "label": "Batch Id",
+                "valueMap": "batchId"
+            },
+            {
+                "label": "Txn ref Id",
+                "valueMap": "txnRefId"
+            },
+            {
+                "label": "Txn doc #",
+                "valueMap": "txnDocNum"
+            },
+            {
+                "label": "Action type",
+                "valueMap": "actionType"
+            },
+            {
+                "label": "Txn GL Id",
+                "valueMap": "txnGlId"
+            },
+            {
+                "label": "Txn type",
+                "valueMap": "txnType"
+            },
+            {
+                "label": "GL txn status",
+                "valueMap": "glTxnStatus"
+            },
+            {
+                "label": "Error code",
+                "valueMap": "errorCode"
+            },
+            {
+                "label": "Error message",
+                "valueMap": "errorMessage"
+            },
+            {
+                "label": "Created time",
+                "valueMap": "createdTime",
+                "formatType":"datetime"
+            },
+            {
+                "label": "Updated time",
+                "valueMap": "updatedTime",
+                "formatType":"datetime"
+            },
+            {
+                "label": "Standardized error code",
+                "valueMap": "standardizedErrorCode"
+            },
+            {
+                "label": "GL response details",
+                "valueMap": "glResponseMap"
+            },
+            {
+                "label": "Txn Request details",
+                "valueMap": "txnRequestMap",
+                "renderType": "detailsList",
+                "renderProps": {
+                    "listInfo": [
+                        {
+                            "label": "Journal entry lines",
+                            "valueMap": "journalEntryLines",
+                            "renderProps": {
+                                "headersInfo":[
+                                    {
+                                        "title":"Account Id",
+                                        "valueMap":"accountId"
+                                    },
+                                    {
+                                        "title":"Txn amount",
+                                        "valueMap":"txnAmount",
+                                        "formatType":"currency"
+                                    },
+                                    {
+                                        "title":"Posting type",
+                                        "valueMap":"postingType"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
     "jobsByFilters":{
         "componentType": "table",
         "title": "Jobs list",
@@ -1884,7 +1978,6 @@
         "title": "Accounts list",
         "ignoreKeys":
         [
-        "accountId",
         "accountStatus",
         "sourceId",
         "accountGroup",
@@ -1894,9 +1987,6 @@
         "institutionLoginId",
         "lastTransactionDate",
         "batchId",
-        "aggregationSuccessDate",
-        "aggregationAttemptDate",
-        "aggregationStatusCode",
         "accountDetail",
         "investmentPosition", 
         "accountManagedStatus",
@@ -1910,7 +2000,6 @@
                 "valueMap": "institutionName",
                 "renderType": "text",
                 "align":"left",
-                "width": "12.5%",
                 "enableSort": true
             },
             {
@@ -1918,15 +2007,20 @@
                 "valueMap": "modifiedInstitutionName",
                 "renderType": "text",
                 "align":"left",
-                "width": "12.5%",
                 "enableSort": true
             }, 
+            {
+                "title": "A/C Id",
+                "valueMap": "accountId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
             {
                 "title": "A/C name",
                 "valueMap": "accountName",
                 "renderType": "text",
                 "align":"left",
-                "width": "12.5%",
                 "enableSort": true
             },
             {
@@ -1934,7 +2028,6 @@
                 "valueMap": "modifiedAccountName",
                 "renderType": "text",
                 "align":"left",
-                "width": "12.5%",
                 "enableSort": true
             },
             {
@@ -1942,7 +2035,6 @@
                 "valueMap": "accountType",
                 "renderType": "text",
                 "align":"left",
-                "width": "12.5%",
                 "enableSort": true
             },
             {
@@ -1950,24 +2042,44 @@
                 "valueMap": "modifiedAccountType",
                 "renderType": "text",
                 "align":"left",
-                "width": "12.5%",
                 "enableSort": true
             },
             {
-                "title": "A/C number",
+                "title": "A/C #",
                 "valueMap": "accountNumber",
                 "renderType": "text",
                 "align":"left",
-                "width": "10%",
                 "enableSort": true
             },
             {
-                "title": "A/C balance",
+                "title": "A/C bal",
                 "valueMap": "currentBalance",
                 "renderType": "text",
                 "formatType": "currency",
                 "align":"left",
-                "width": "15%",
+                "enableSort": true
+            },
+            {
+                "title": "Aggre success date",
+                "valueMap": "aggregationSuccessDate",
+                "renderType": "text",
+                "formatType":"datetime",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Aggre attempt date",
+                "valueMap": "aggregationAttemptDate",
+                "renderType": "text",
+                "formatType":"datetime",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Aggre status code",
+                "valueMap": "aggregationStatusCode",
+                "renderType": "text",
+                "align":"left",
                 "enableSort": true
             }
         ],

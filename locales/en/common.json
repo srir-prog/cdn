@@ -439,7 +439,7 @@
     "fillDocumentDetailsText": "Fill and save the required document details before proceeding to approvals",
     "approvalPolicyFound": "Approval policy found",
     "approvalPolicyFoundTextMessage": "Based on the document details saved, we've identified a matching approval rule",
-    "defaultApprovalPolicyFoundMessage": "Invoice {{operator}}{{defaultLimit}} do not require approval",
+    "defaultApprovalPolicyFoundMessage": "Invoice {{operator}} {{defaultLimit}} do not require approval",
     "approvalPolicyNotFound": "Approval policy not found",
     "approvalPolicyNotFoundTextMessage": "Based on the document details provided, no matching approval rule identified. Please set approvers to continue",
     "needsApproversText": "Needs approvers: No approval workflow set",
