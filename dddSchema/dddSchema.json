@@ -1654,53 +1654,140 @@
     "productActivation":{
         "componentType": "table",
         "title": "Product activation",
-        "ignoreKeys":["paymentMethodId","sourceId","bankApplicationGroup"],
+        "ignoreKeys":["paymentMethodId","sourceId","bankApplicationGroup","glAccounts"],
+        "transformToTableDataValueMap":["bankApplicationGroup"],
         "headersInfo":[
             {
                 "title": "Payment method",
                 "valueMap": "applicationType",
-                "renderType": "text",
                 "align":"left",
                 "width": "20%",
-                "enableSort": true
+                "enableSort": true,
+                "enableAccordion":true,
+                "renderType": "AccordionLink",
+                "accordionProps":{
+                    "renderType":"Tabs",
+                    "tabsInfo":[
+                    {
+                        "tabTitle":"Account Groups",
+                        "valueMap":"bankApplicationGroup",
+                        "renderType":"table",
+                        "renderMeta":{
+                            "ignoreKeys":["bankAccountId","bankAccountGroup",
+                            "canActivate","defaultAccount","glAccountId"],
+                            "headersInfo":[
+                                {
+                                    "title":"Bank name",
+                                    "valueMap":"bankName",
+                                    "enableSort":true,
+                                    "align":"left",
+                                    "width":"20%"
+                                },
+                                {
+                                    "title":"A/c type",
+                                    "valueMap":"accountType",
+                                    "enableSort":true,
+                                    "align":"left",
+                                    "width":"20%"
+                                },
+                                {
+                                    "title":"A/c No",
+                                    "valueMap":"accountNumber",
+                                    "enableSort":true,
+                                    "align":"left",
+                                    "width":"15%"
+                                },
+                                {
+                                    "title":"A/c name",
+                                    "valueMap":"accountName",
+                                    "enableSort":true,
+                                    "align":"left",
+                                    "width":"15%"
+                                },
+                                {
+                                    "title":"Routing #",
+                                    "valueMap":"routingNumber",
+                                    "enableSort":true,
+                                    "align":"left",
+                                    "width":"20%"
+                                },
+                                {
+                                    "title":"Status",
+                                    "valueMap":"status",
+                                    "enableSort":true,
+                                    "align":"left",
+                                    "width":"10%"
+                                }
+                            ]
+                        }
+                        
+                    },
+                    {
+                        "tabTitle":"GL Accounts",
+                        "valueMap":"glAccounts",
+                        "renderType":"table",
+                        "renderMeta":{
+                            "ignoreKeys":["updatedTime","parentId","locationId","inventoryFlag",
+                        "glCreatedTime","fullQualifiedName","departmentId","currencyCode",
+                        "bankRoutingNumber","clientId","accountNumber","classification","accountActiveStatus",
+                        "cumulativeBalance","createdTime","classId","bankName","bankAccountNumber","batchId"],
+                            "headersInfo":[
+                                {
+                                    "title":"A/c Id",
+                                    "valueMap":"accountId",
+                                    "enableSort":true,
+                                    "align":"left",
+                                    "width":"8%"
+                                },
+                                {
+                                    "title":"A/c name",
+                                    "valueMap":"accountName",
+                                    "enableSort":true,
+                                    "align":"left",
+                                    "width":"19%"
+                                },
+                                {
+                                    "title":"A/c type",
+                                    "valueMap":"accountType",
+                                    "enableSort":true,
+                                    "align":"left",
+                                    "width":"19%"
+                                },
+                                {
+                                    "title":"A/c subtype",
+                                    "valueMap":"accountSubType",
+                                    "enableSort":true,
+                                    "align":"left",
+                                    "width":"18%"
+                                },
+                                {
+                                    "title":"CF category",
+                                    "valueMap":"cfCategory",
+                                    "enableSort":true,
+                                    "align":"left",
+                                    "width":"18%"
+                                },
+                                {
+                                    "title":"Current balance",
+                                    "valueMap":"currentBalance",
+                                    "enableSort":true,
+                                    "formatType":"currency",
+                                    "align":"left",
+                                    "width":"18%"
+                                }
+                            ]
+                        }
+                    }
+                ]
+                }
             },
             {
                 "title": "Description",
                 "valueMap": "description",
                 "renderType": "text",
                 "align":"left",
-                "width": "36%",
+                "width": "48%",
                 "enableSort": true
-            },
-            {
-                "title": "Accounts",
-                "valueMap":"bankApplicationGroup",
-                "align":"left",
-                "width": "12%",
-                "enableAccordion":true,
-                "renderType": "AccordionLink",
-                "accordionProps":{
-                    "renderType":"Tabs",
-                    "valueMap":"bankApplicationGroup",
-                    "tabsInfo":[{
-                        "tabTitle":"Opening Balance",
-                         "listInfo":[{
-                             "label":"Result",
-                             "valueMap":"comparisonResult",
-                             "gridSize":3
-                         },{
-                            "label":"Centime",
-                            "valueMap":"valueFromCentime",
-                            "gridSize":3
-                         },
-                         {
-                            "label":"Source",
-                            "valueMap":"valueFromSource",
-                            "gridSize":3
-                         }
-                        ]   
-                    }]
-                }
             },
             {
                 "title": "Status",
