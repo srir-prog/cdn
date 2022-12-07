@@ -329,5 +329,7 @@
     "cashImpact": "नकद प्रभाव",
     "closingBalance": "समापन शेष",
     "accruedFeeTxnTypeRepayReversal": "(जोड़ें।.)",
-    "accruedFeeTxnTypeTxnReversal": "(आर)"
+    "accruedFeeTxnTypeTxnReversal": "(आर)",
+    "dayOfMonth":"हर महीने का दिन",
+    "statementDate":"स्टेटमेंट की तारीख"
 }
