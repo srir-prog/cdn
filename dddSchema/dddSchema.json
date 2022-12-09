@@ -2400,79 +2400,6 @@
             }
         }
     },
-    "totalTransientClientsList":{
-        "componentType": "table",
-        "title": "Transient  client list",
-        "headersInfo":[
-            {
-                "title": "Client Id",
-                "valueMap": "clientId",
-                "renderType": "text",
-                "align":"left",
-                "width": "15%",
-                "enableSort": true
-            },
-            {
-                "title": "Name",
-                "valueMap": "clientName",
-                "renderType": "text",
-                "width": "25%",
-                "enableSort": true
-            },
-            {
-                "title": "GL Type",
-                "valueMap": "glType",
-                "width": "30%",
-                "renderType": "text",
-                "displayValueEnum": [
-                    {
-                        "label": "Sandbox",
-                        "value": 0
-                    },
-                    {
-                        "label": "QuickBooks Online",
-                        "value": 2
-                    },
-                    {
-                        "label": "Oracle NetSuite",
-                        "value": 3
-                    },
-                    {
-                        "label": "QuickBooks Desktop",
-                        "value": 4
-                    }
-                ]
-            },
-            {
-                "title": "Users",
-                "valueMap": "users",
-                "renderType": "text",
-                "width": "30%",
-                "enableSort": true
-            }
-        ],
-        "additionalProperties": {
-            "deletableForm": true,
-            "editableForm":false,
-            "enableSearch": true,
-            "paginationNeeded": true,
-            "onDeleteAction": {
-                "type": "updateCall",
-                "url": "fs/business-ops-service",
-                "method": "GET",
-                "pathList": [
-                    "1.0",
-                    "aggregate"
-                ],
-                "paramObj": {
-                    "templateId": "DeleteTransientClient"
-                },
-                "paramObjMap": {
-                    "clientTransientId": "clientId"
-                }
-            }
-        }
-    },
     "transientClientsList":{
         "componentType": "table",
         "title": "Transient  client list",
@@ -2522,13 +2449,43 @@
                 "renderType": "text",
                 "width": "30%",
                 "enableSort": true
+            },
+            {
+                "title":"Connect active status",
+                "valueMap":"connectActiveStatus",
+                "align":"left",
+                "editable": "Dropdown",
+                "componentProps": {
+                    "options": {
+                        "0" : "0",
+                        "1" : "1"
+                    },
+                    "size": "medium36"
+                }
             }
         ],
         "additionalProperties": {
             "deletableForm": true,
-            "editableForm":false, 
+            "editableForm":true, 
             "enableSearch": true,
             "paginationNeeded": true,
+            "onSaveAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "ClientTransientUpdate"
+                },
+                "paramObjMap": {
+                    "clientTransientId":"clientId",
+                    "connectActiveStatus":"connectActiveStatus"
+                },
+                "bodyObjMap": {}
+            },
             "onDeleteAction": {
                 "type": "updateCall",
                 "url": "fs/business-ops-service",
