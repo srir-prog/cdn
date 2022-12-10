@@ -689,6 +689,7 @@
     "glListQueryBuilder":{
         "componentType": "detailsList",
         "title": "GL clients",
+        "ignoreKeys":["glType","clientId"],
         "additionalProperties": {
             "showQueryBuilder": true,
             "queryBuilderPosition": "bottom",
@@ -759,9 +760,9 @@
                             "type": "queryBuilder",
                             "value": "glType"
                         },
-                        "activeStatus": {
+                        "glConnectStatus": {
                             "type": "queryBuilder",
-                            "value": "activeStatus"
+                            "value": "glConnectStatus"
                         },
                         "clientId": {
                             "type": "queryBuilder",
@@ -926,7 +927,11 @@
                 ]
                 
             }
-        ]
+        ],
+        "additionalProperties":{
+            "enableSearch":true,
+            "paginationNeeded":true
+        }
     },
     "glPostingTxn":{
         "componentType": "table",
@@ -2232,7 +2237,9 @@
         "accountManagedStatus",
         "fullAccountNumber",
         "routingNumber",
-        "currencyCode"
+        "currencyCode",
+        "ownerName",
+        "ownerAddress"
     ],
         "headersInfo":[
             {
@@ -2687,14 +2694,11 @@
                         {
                             "title": "CF GL",
                             "valueMap": "cashFlowsFromGlReport",
-                            "width":"30%",
+                            "width":"45%",
                             "renderProps":{
                                 "listInfo":[
                                     {
-                                        "label":"Payment",
-                                        "valueMap":"Payment"
-                                    },
-                                    {
+                                        "label":"Check payment",
                                         "valueMap":"Bill Payment (Check)"
                                     }
                                 ]
@@ -3194,7 +3198,11 @@
                                         "formatType": "datetime",
                                         "enableSort": true
                                     }
-                                ]
+                                ],
+                                "additionalProperties":{
+                                    "defaultColumnToSort":1,
+                                    "defaultSortingOrder":"desc"
+                                }
                             }
                         },
                         {
@@ -5281,7 +5289,13 @@
                 "enableSort": true
             }
             
-        ]
+        ],
+        "additionalProperties":{
+            "enableSearch": true,
+            "defaultColumnToSort":2,
+            "defaultSortingOrder":"desc",
+            "paginationNeeded":true
+        }
     },
     "dataSyncTrack": {
         "componentType": "table",
