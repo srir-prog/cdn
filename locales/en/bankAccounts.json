@@ -408,5 +408,11 @@
     "insufficientFunds": "Insufficient funds",
     "inactiveBankAccount": "Inactive bank account",
     "invalidAccountDetails": "Invalid account details",
-    "reason": "Reason"
+    "reason": "Reason",
+    "cashImpact": "Cash impact",
+    "closingBalance": "Closing balances",
+    "accruedFeeTxnTypeRepayReversal": "(Add.)",
+    "accruedFeeTxnTypeTxnReversal": "(R)",
+    "dayOfMonth":"day of every month",
+    "statementDate":"Statement date"
 }
