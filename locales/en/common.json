@@ -463,5 +463,16 @@
     "approvers": "Approvers",
     "in": "In",
     "notIn": "Not in",
-    "approvalWorkflow":"Approval workflow"
+    "approvalWorkflow": "Approval workflow",
+    "documentRejectTitle": "Reject documents",
+    "onHold": "On hold",
+    "chooseAnOption": "Choose an option",
+    "historyActionDocumentRejected": "Document rejected",
+    "historyMessageInvoiceRejected": "Invoice rejected",
+    "rejected": "Rejected",
+    "errorRejectingInvoices": "Errors encountered in rejecting the document. Please try again.",
+    "successfullyRejectedInvoices": "Documents rejected",
+    "duplicateBill": "Duplicate bill",
+    "dataEntryError": "Data entry error",
+    "incorrectApprover": "Incorrect approver"
 }
