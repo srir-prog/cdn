@@ -466,7 +466,7 @@
     "approvalWorkflow":"स्वीकृति कार्यप्रवाह",
     "chooseAnOption": "एक विकल्प चुनें",
     "historyActionDocumentRejected": "दस्तावेज़ अस्वीकृत",
-    "historyMessageInvoiceRejected": "चालान खारिज",
+    "historyMessageInvoiceRejected": "चालान खारिज <ourTypo></ourTypo>",
     "rejected":"अस्वीकृत",
     "errorRejectingInvoices": "दस्तावेज़ को अस्वीकार करने में त्रुटियां आईं। कृपया पुन: प्रयास करें।",
     "successfullyRejectedInvoices": "दस्तावेज़ अस्वीकृत",
