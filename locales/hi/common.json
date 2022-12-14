@@ -472,5 +472,6 @@
     "successfullyRejectedInvoices": "दस्तावेज़ अस्वीकृत",
     "duplicateBill": "डुप्लीकेट बिल",
     "dataEntryError": "डेटा प्रविष्टि त्रुटि",
-    "incorrectApprover": "गलत अनुमोदक"
+    "incorrectApprover": "गलत अनुमोदक",
+    "invoiceRejectedLabel": "अस्वीकृत: {{reason}}"
 }
