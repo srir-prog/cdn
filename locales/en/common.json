@@ -468,11 +468,12 @@
     "onHold": "On hold",
     "chooseAnOption": "Choose an option",
     "historyActionDocumentRejected": "Document rejected",
-    "historyMessageInvoiceRejected": "Invoice rejected",
+    "historyMessageInvoiceRejected": "Invoice rejected <ourTypo></ourTypo>",
     "rejected": "Rejected",
     "errorRejectingInvoices": "Errors encountered in rejecting the document. Please try again.",
     "successfullyRejectedInvoices": "Documents rejected",
     "duplicateBill": "Duplicate bill",
     "dataEntryError": "Data entry error",
-    "incorrectApprover": "Incorrect approver"
+    "incorrectApprover": "Incorrect approver",
+    "invoiceRejectedLabel": "Rejected: {{reason}}"
 }
