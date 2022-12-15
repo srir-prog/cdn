@@ -478,7 +478,6 @@
     "invoiceRejectedLabel": "Rejected: <ourTypo></ourTypo>",
     "documentRecallTitle": "Recall documents",
     "errorRecallInvoices": "Errors encountered in recalling the document. Please try again.",
-    "successfullyRecalledInvoices": "Documents recalled",
     "hold": "Hold",
     "documentOnHoldTitle":"Hold documents",
     "historyActionDocumentPutOnHold": "Document put on hold",
@@ -487,5 +486,6 @@
     "contactingSupplierToResolveDispute": "Contacting supplier to resolve dispute",
     "documentsApproveTitle":"Approve documents",
     "historyMessageInvoiceOnHold": "Invoice put on hold <ourTypo></ourTypo>",
-    "invoiceOnholdLabel": "On hold: <ourTypo></ourTypo>"
+    "invoiceOnholdLabel": "On hold: <ourTypo></ourTypo>",
+    "successfullyRecalledInvoices": "Documents recalled"
 }
