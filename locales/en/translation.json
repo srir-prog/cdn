@@ -176,5 +176,7 @@
     "today": "Today",
     "yesterday": "Yesterday",
     "thisWeek": "This Week",
-    "thisMonth": "This Month"
+    "thisMonth": "This Month",
+    "noOfRowsPerPage": "No of rows per page",
+    "rows": "rows"
 }

@@ -627,12 +627,12 @@
                         "title": "Transaction status",
                         "componentProps": {
                             "options": {
-                                "SCHEDULED": "SCHEDULED",
-                                "IN_PROGRESS": "IN_PROGRESS",
-                                "SUCCESS": "SUCCESS",
-                                "FAILED": "FAILED",
-                                "RETRY": "RETRY",
-                                "NOTIFIED": "NOTIFIED"
+                                "1": "SCHEDULED",
+                                "2": "IN_PROGRESS",
+                                "3": "SUCCESS",
+                                "4": "FAILED",
+                                "5": "RETRY",
+                                "6": "NOTIFIED"
                             },
                             "tnsForOptions": false,
                             "multiple": true
@@ -689,6 +689,7 @@
     "glListQueryBuilder":{
         "componentType": "detailsList",
         "title": "GL clients",
+        "ignoreKeys":["glType","clientId"],
         "additionalProperties": {
             "showQueryBuilder": true,
             "queryBuilderPosition": "bottom",
@@ -715,11 +716,9 @@
                         "title": "GL sync status",
                         "componentProps": {
                             "options": {
-                                "1": "Not-Activated",
-                                "2": "Active",
-                                "3": "Suspended",
-                                "4": "Closed",
-                                "5": "Invited"
+                                "1": "GL Connection Pending",
+                                "2": "Connected",
+                                "3": "Disconnected"
                             },
                             "tnsForOptions": false,
                             "multiple": true
@@ -759,9 +758,9 @@
                             "type": "queryBuilder",
                             "value": "glType"
                         },
-                        "activeStatus": {
+                        "glConnectStatus": {
                             "type": "queryBuilder",
-                            "value": "activeStatus"
+                            "value": "glConnectStatus"
                         },
                         "clientId": {
                             "type": "queryBuilder",
@@ -926,7 +925,11 @@
                 ]
                 
             }
-        ]
+        ],
+        "additionalProperties":{
+            "enableSearch":true,
+            "paginationNeeded":true
+        }
     },
     "glPostingTxn":{
         "componentType": "table",
@@ -1090,22 +1093,62 @@
                 "renderProps": {
                     "listInfo": [
                         {
-                            "label": "Journal entry lines",
-                            "valueMap": "journalEntryLines",
-                            "renderProps": {
+                            "label": "Payment accountId",
+                            "valueMap": "paymentAccountId"
+                        },
+                        {
+                            "label": "Payment type",
+                            "valueMap": "paymentType"
+                        },
+                        {
+                            "label": "Supplier Id",
+                            "valueMap": "supplierId"
+                        },
+                        {
+                            "label": "Txn date",
+                            "valueMap": "txnDate"
+                        },
+                        {
+                            "label": "Txn ref Num",
+                            "valueMap": "txnRefNum"
+                        },
+                        {
+                            "label": "Currency code",
+                            "valueMap": "currencyCode"
+                        },
+                        {
+                            "label": "Exchange rate",
+                            "valueMap": "exchangeRate"
+                        },
+                        {
+                            "label": "Txn total amount",
+                            "valueMap": "txnTotalAmount"
+                        },
+                        {
+                            "label":"Linked Txns",
+                            "valueMap":"linkedTxns",
+                            "renderProps":{
                                 "headersInfo":[
                                     {
-                                        "title":"Account Id",
-                                        "valueMap":"accountId"
+                                        "title": "Txn Id",
+                                        "valueMap": "txnId",
+                                        "renderType": "text",
+                                        "align":"left",
+                                        "enableSort": true
                                     },
                                     {
-                                        "title":"Txn amount",
-                                        "valueMap":"txnAmount",
-                                        "formatType":"currency"
+                                        "title": "Txn amount",
+                                        "valueMap": "txnAmount",
+                                        "renderType": "text",
+                                        "align":"left",
+                                        "enableSort": true
                                     },
                                     {
-                                        "title":"Posting type",
-                                        "valueMap":"postingType"
+                                        "title": "Txn type",
+                                        "valueMap": "txnType",
+                                        "renderType": "text",
+                                        "align":"left",
+                                        "enableSort": true
                                     }
                                 ]
                             }
@@ -2232,7 +2275,9 @@
         "accountManagedStatus",
         "fullAccountNumber",
         "routingNumber",
-        "currencyCode"
+        "currencyCode",
+        "ownerName",
+        "ownerAddress"
     ],
         "headersInfo":[
             {
@@ -2400,79 +2445,6 @@
             }
         }
     },
-    "totalTransientClientsList":{
-        "componentType": "table",
-        "title": "Transient  client list",
-        "headersInfo":[
-            {
-                "title": "Client Id",
-                "valueMap": "clientId",
-                "renderType": "text",
-                "align":"left",
-                "width": "15%",
-                "enableSort": true
-            },
-            {
-                "title": "Name",
-                "valueMap": "clientName",
-                "renderType": "text",
-                "width": "25%",
-                "enableSort": true
-            },
-            {
-                "title": "GL Type",
-                "valueMap": "glType",
-                "width": "30%",
-                "renderType": "text",
-                "displayValueEnum": [
-                    {
-                        "label": "Sandbox",
-                        "value": 0
-                    },
-                    {
-                        "label": "QuickBooks Online",
-                        "value": 2
-                    },
-                    {
-                        "label": "Oracle NetSuite",
-                        "value": 3
-                    },
-                    {
-                        "label": "QuickBooks Desktop",
-                        "value": 4
-                    }
-                ]
-            },
-            {
-                "title": "Users",
-                "valueMap": "users",
-                "renderType": "text",
-                "width": "30%",
-                "enableSort": true
-            }
-        ],
-        "additionalProperties": {
-            "deletableForm": true,
-            "editableForm":false,
-            "enableSearch": true,
-            "paginationNeeded": true,
-            "onDeleteAction": {
-                "type": "updateCall",
-                "url": "fs/business-ops-service",
-                "method": "GET",
-                "pathList": [
-                    "1.0",
-                    "aggregate"
-                ],
-                "paramObj": {
-                    "templateId": "DeleteTransientClient"
-                },
-                "paramObjMap": {
-                    "clientTransientId": "clientId"
-                }
-            }
-        }
-    },
     "transientClientsList":{
         "componentType": "table",
         "title": "Transient  client list",
@@ -2522,13 +2494,43 @@
                 "renderType": "text",
                 "width": "30%",
                 "enableSort": true
+            },
+            {
+                "title":"Connect active status",
+                "valueMap":"connectActiveStatus",
+                "align":"left",
+                "editable": "Dropdown",
+                "componentProps": {
+                    "options": {
+                        "0" : "0",
+                        "1" : "1"
+                    },
+                    "size": "medium36"
+                }
             }
         ],
         "additionalProperties": {
             "deletableForm": true,
-            "editableForm":false, 
+            "editableForm":true, 
             "enableSearch": true,
             "paginationNeeded": true,
+            "onSaveAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "ClientTransientUpdate"
+                },
+                "paramObjMap": {
+                    "clientTransientId":"clientId",
+                    "connectActiveStatus":"connectActiveStatus"
+                },
+                "bodyObjMap": {}
+            },
             "onDeleteAction": {
                 "type": "updateCall",
                 "url": "fs/business-ops-service",
@@ -2730,14 +2732,11 @@
                         {
                             "title": "CF GL",
                             "valueMap": "cashFlowsFromGlReport",
-                            "width":"30%",
+                            "width":"45%",
                             "renderProps":{
                                 "listInfo":[
                                     {
-                                        "label":"Payment",
-                                        "valueMap":"Payment"
-                                    },
-                                    {
+                                        "label":"Check payment",
                                         "valueMap":"Bill Payment (Check)"
                                     }
                                 ]
@@ -3237,7 +3236,11 @@
                                         "formatType": "datetime",
                                         "enableSort": true
                                     }
-                                ]
+                                ],
+                                "additionalProperties":{
+                                    "defaultColumnToSort":1,
+                                    "defaultSortingOrder":"desc"
+                                }
                             }
                         },
                         {
@@ -5324,7 +5327,13 @@
                 "enableSort": true
             }
             
-        ]
+        ],
+        "additionalProperties":{
+            "enableSearch": true,
+            "defaultColumnToSort":2,
+            "defaultSortingOrder":"desc",
+            "paginationNeeded":true
+        }
     },
     "dataSyncTrack": {
         "componentType": "table",
