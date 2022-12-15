@@ -473,7 +473,7 @@
     "duplicateBill": "डुप्लीकेट बिल",
     "dataEntryError": "डेटा प्रविष्टि त्रुटि",
     "incorrectApprover": "गलत अनुमोदक",
-    "invoiceRejectedLabel": "अस्वीकृत: {{reason}}",
+    "invoiceRejectedLabel": "अस्वीकृत: <ourTypo></ourTypo>",
     "documentRecallTitle": "दस्तावेज़ याद करें",
     "errorRecallInvoices": "दस्तावेज़ को वापस बुलाने में त्रुटियां हुईं। कृपया पुन: प्रयास करें।",
     "successfullyRecalledInvoices": "दस्तावेज वापस मंगवाए",
@@ -481,9 +481,9 @@
     "documentOnHoldTitle":"दस्तावेज रखें",
     "historyActionDocumentPutOnHold": "दस्तावेज़ को होल्ड पर रखा गया",
     "errorOnHoldInvoices": "दस्तावेज़ को होल्ड पर रखने में त्रुटियाँ आईं. कृपया पुन: प्रयास करें।",
-    "successfullyOnHolInvoices": "दस्तावेज ठंडे बस्ते में डाल दिए",
+    "successfullyOnHoldInvoices": "दस्तावेज ठंडे बस्ते में डाल दिए",
     "contactingSupplierToResolveDispute": "विवाद को हल करने के लिए आपूर्तिकर्ता से संपर्क करना",
     "documentsApproveTitle":"दस्तावेजों को स्वीकृत करें",
-    "historyMessageInvoiceOnHold": "चालान ठप कर दिया",
-    "invoiceOnholdLabel": "होल्ड पर: {{reason}}"
+    "historyMessageInvoiceOnHold": "चालान ठप कर दिया <ourTypo></ourTypo>",
+    "invoiceOnholdLabel": "होल्ड पर: <ourTypo></ourTypo>"
 }
