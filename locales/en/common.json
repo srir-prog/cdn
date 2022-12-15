@@ -478,5 +478,5 @@
     "invoiceRejectedLabel": "Rejected: {{reason}}",
     "documentRecallTitle": "Recall documents",
     "errorRecallInvoices": "Errors encountered in recalling the document. Please try again.",
-    "successfullyRecalledInvoices": "Documents recalled",
+    "successfullyRecalledInvoices": "Documents recalled"
 }
