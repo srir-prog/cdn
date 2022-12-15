@@ -475,7 +475,7 @@
     "duplicateBill": "Duplicate bill",
     "dataEntryError": "Data entry error",
     "incorrectApprover": "Incorrect approver",
-    "invoiceRejectedLabel": "Rejected: {{reason}}",
+    "invoiceRejectedLabel": "Rejected: <ourTypo></ourTypo>",
     "documentRecallTitle": "Recall documents",
     "errorRecallInvoices": "Errors encountered in recalling the document. Please try again.",
     "successfullyRecalledInvoices": "Documents recalled"
