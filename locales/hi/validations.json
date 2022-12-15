@@ -62,11 +62,19 @@
     "selectACountry":"एक देश चुनें",
     "MultipleFileDropError": "एकाधिक फ़ाइलों की अनुमति नहीं है",
     "MinFileSizeError": "फ़ाइल का आकार न्यूनतम अनुमत सीमा से कम है",
-    "MaxFileSizeExceededError": "फ़ाइल का आकार {{maxFileSize}} MB की अधिकतम अनुमत सीमा को पार कर गया है",
+    "MaxFileSizeExceededError": "फ़ाइल का आकार {{maxFileSize}} एमबी की अधिकतम अनुमत सीमा को पार कर गया है",
     "UnsupportedFileTypeError": "फ़ाइल प्रकार समर्थित नहीं है",
     "invalidSurchargePercent": "अमान्य अधिभार प्रतिशत",
     "isValidMultipleEmails": "अवैध ईमेल: {{emailList}}",
     "isMultipleEmailsLimitExceeded": "अधिकतम 15 ईमेल की अनुमति है",
     "paybackDaysCountShouldBeLessThan90": "पेबैक अवधि 90 दिनों से कम होनी चाहिए",
-    "paybackDaysCountShouldBeMoreThanZero": "पेबैक अवधि शून्य से अधिक होनी चाहिए"
+    "paybackDaysCountShouldBeMoreThanZero": "पेबैक अवधि शून्य से अधिक होनी चाहिए",
+    "minAmountInclusive": "मान शून्य से अधिक या उसके बराबर होना चाहिए",
+    "amountCantBeGreaterThanBal": "राशि शेष राशि से अधिक नहीं हो सकती",
+    "maxAmountExcluding": "मान {{amountLimit}} से कम होना चाहिए",
+    "minAmountDynamic": "मान {{amountLimit}} से अधिक होना चाहिए",
+    "minAmountGreaterThanDefaultLimit": "मान पहली स्वीकृति सीमा से अधिक होना चाहिए",
+    "minAmountLessThanThirdLevelLimit": "मान तीसरी स्वीकृति सीमा से कम होना चाहिए",
+    "minAmountGreaterThanSecondLevelLimit": "मान दूसरी स्वीकृति सीमा से अधिक होना चाहिए",
+    "required": "आवश्यक"
 }

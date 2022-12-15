@@ -17,5 +17,22 @@
   "GoTo_plural": "संदेशों पर जाएं",
   "multipleLines": "स्वागत <b>{{name}}</b>, {{count}} संदेशों का कई टैग के साथ कई पंक्तियों में अनुवाद करना।<nl/> यह दूसरी पंक्ति है जो [नई] पंक्ति में आनी चाहिए।",
   "SelectFruits":"Select Multiple sweet fruits",
-  "PickFruit": "Pick up a fruit"
+  "PickFruit": "Pick up a fruit",
+  "name": "Name",
+  "age": "Age",
+  "status": "Status",
+  "salary": "Salary",
+  "joiningDate": "Joining Date",
+  "Details": "Details",
+  "More": "More",
+  "openingBalance": "Opening Balance",
+  "Operating": "Cash from operations",
+  "Investing": "Cash from investments",
+  "Financing": "Cash from finances",
+  "closingBalance": "Closing Balance",
+  "cashIn": "Cash In",
+  "cashOut": "Cash Out",
+  "8oh0e8b59r2": "MYY",
+  "position": "Position",
+  "designation": "Designation"
 }

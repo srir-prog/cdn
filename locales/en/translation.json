@@ -172,5 +172,11 @@
     "stopSync":"Stop sync",
     "syncNow":"Sync now",
     "stopping":"Stopping sync",
-    "Refresh": "Refresh"
+    "Refresh": "Refresh",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "thisWeek": "This Week",
+    "thisMonth": "This Month",
+    "noOfRowsPerPage": "No of rows per page",
+    "rows": "rows"
 }

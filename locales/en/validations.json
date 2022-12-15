@@ -71,5 +71,13 @@
     "amountShouldBeMoreThanZero": "Amount should be more than zero",
     "amountShouldBeLessThanAvailableBalanceMsg": "Amount should be less than available balance",
     "paybackDaysCountShouldBeLessThan90": "Payback period should be less than 90 days",
-    "paybackDaysCountShouldBeMoreThanZero": "Payback period should be more than zero"
+    "paybackDaysCountShouldBeMoreThanZero": "Payback period should be more than zero",
+    "minAmountInclusive": "Value must be greater than or equal to zero",
+    "amountCantBeGreaterThanBal": "Amount cannot be greater than balance",
+    "maxAmountExcluding": "Value must be less than {{amountLimit}}",
+    "minAmountDynamic": "Value must be greater than {{amountLimit}}",
+    "minAmountGreaterThanDefaultLimit": "Value must be greater than first approval limit",
+    "minAmountLessThanThirdLevelLimit": "Value must be less than third approval limit",
+    "minAmountGreaterThanSecondLevelLimit": "Value must be greater than second approval limit",
+    "required": "Required"
 }
