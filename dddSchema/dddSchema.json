@@ -627,12 +627,12 @@
                         "title": "Transaction status",
                         "componentProps": {
                             "options": {
-                                "SCHEDULED": "SCHEDULED",
-                                "IN_PROGRESS": "IN_PROGRESS",
-                                "SUCCESS": "SUCCESS",
-                                "FAILED": "FAILED",
-                                "RETRY": "RETRY",
-                                "NOTIFIED": "NOTIFIED"
+                                "1": "SCHEDULED",
+                                "2": "IN_PROGRESS",
+                                "3": "SUCCESS",
+                                "4": "FAILED",
+                                "5": "RETRY",
+                                "6": "NOTIFIED"
                             },
                             "tnsForOptions": false,
                             "multiple": true
@@ -716,11 +716,9 @@
                         "title": "GL sync status",
                         "componentProps": {
                             "options": {
-                                "1": "Not-Activated",
-                                "2": "Active",
-                                "3": "Suspended",
-                                "4": "Closed",
-                                "5": "Invited"
+                                "1": "GL Connection Pending",
+                                "2": "Connected",
+                                "3": "Disconnected"
                             },
                             "tnsForOptions": false,
                             "multiple": true
@@ -1095,22 +1093,62 @@
                 "renderProps": {
                     "listInfo": [
                         {
-                            "label": "Journal entry lines",
-                            "valueMap": "journalEntryLines",
-                            "renderProps": {
+                            "label": "Payment accountId",
+                            "valueMap": "paymentAccountId"
+                        },
+                        {
+                            "label": "Payment type",
+                            "valueMap": "paymentType"
+                        },
+                        {
+                            "label": "Supplier Id",
+                            "valueMap": "supplierId"
+                        },
+                        {
+                            "label": "Txn date",
+                            "valueMap": "txnDate"
+                        },
+                        {
+                            "label": "Txn ref Num",
+                            "valueMap": "txnRefNum"
+                        },
+                        {
+                            "label": "Currency code",
+                            "valueMap": "currencyCode"
+                        },
+                        {
+                            "label": "Exchange rate",
+                            "valueMap": "exchangeRate"
+                        },
+                        {
+                            "label": "Txn total amount",
+                            "valueMap": "txnTotalAmount"
+                        },
+                        {
+                            "label":"Linked Txns",
+                            "valueMap":"linkedTxns",
+                            "renderProps":{
                                 "headersInfo":[
                                     {
-                                        "title":"Account Id",
-                                        "valueMap":"accountId"
+                                        "title": "Txn Id",
+                                        "valueMap": "txnId",
+                                        "renderType": "text",
+                                        "align":"left",
+                                        "enableSort": true
                                     },
                                     {
-                                        "title":"Txn amount",
-                                        "valueMap":"txnAmount",
-                                        "formatType":"currency"
+                                        "title": "Txn amount",
+                                        "valueMap": "txnAmount",
+                                        "renderType": "text",
+                                        "align":"left",
+                                        "enableSort": true
                                     },
                                     {
-                                        "title":"Posting type",
-                                        "valueMap":"postingType"
+                                        "title": "Txn type",
+                                        "valueMap": "txnType",
+                                        "renderType": "text",
+                                        "align":"left",
+                                        "enableSort": true
                                     }
                                 ]
                             }
