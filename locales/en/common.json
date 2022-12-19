@@ -487,5 +487,10 @@
     "documentsApproveTitle":"Approve documents",
     "historyMessageInvoiceOnHold": "Invoice put on hold <ourTypo></ourTypo>",
     "invoiceOnholdLabel": "On hold: <ourTypo></ourTypo>",
-    "successfullyRecalledInvoices": "Documents recalled"
+    "successfullyRecalledInvoices": "Documents recalled",
+    "historyActionDocumentRecalled": "Document recalled",
+    "historyActionApproversUpdated": "Approvers updated",
+    "historyMessageFirstApproverSetTo": "First approver set to {{approverList}}",
+    "historyMessageSecondApproverSetTo": "Second approver set to {{approverList}}",
+    "historyMessageThirdApproverSetTo": "Third approver set to {{approverList}}"
 }
