@@ -699,31 +699,36 @@
                 "elementsInfo": [
                     {
                         "type": "Dropdown",
-                        "title": "GL Type",
+                        "title": "Source name",
                         "componentProps": {
                             "options": {
-                                "2": "QuickBooks Online ",
-                                "3": "Oracle NetSuite",
-                                "4": "QuickBooks Desktop"
+                                "QuickBooks Online": "QuickBooks Online",
+                                "Oracle NetSuite": "Oracle NetSuite",
+                                "QuickBooks Desktop": "QuickBooks Desktop"
                             },
                             "tnsForOptions": false,
                             "multiple": true
                         },
-                        "queryName": "glType"
+                        "default": [
+                            "QuickBooks Online",
+                            "Oracle NetSuite",
+                            "QuickBooks Desktop"
+                        ],
+                        "queryName": "sourceName"
                     },
                     {
                         "type": "Dropdown",
-                        "title": "GL sync status",
+                        "title": "GL connection status",
                         "componentProps": {
                             "options": {
-                                "1": "GL Connection Pending",
+                                "1": "Pending",
                                 "2": "Connected",
                                 "3": "Disconnected"
                             },
                             "tnsForOptions": false,
                             "multiple": true
                         },
-                        "queryName": "glConnectStatus"
+                        "queryName": "syncStatus"
                     },
                     {
                         "type": "Input",
@@ -754,13 +759,13 @@
                         "templateId": "GlClientList"
                     },
                     "paramObjMap": {
-                        "glType": {
+                        "sourceName": {
                             "type": "queryBuilder",
-                            "value": "glType"
+                            "value": "sourceName"
                         },
-                        "glConnectStatus": {
+                        "syncStatus": {
                             "type": "queryBuilder",
-                            "value": "glConnectStatus"
+                            "value": "syncStatus"
                         },
                         "clientId": {
                             "type": "queryBuilder",
@@ -783,21 +788,26 @@
                 "elementsInfo": [
                     {
                         "type": "Dropdown",
-                        "title": "GL Type",
+                        "title": "Source name",
                         "componentProps": {
                             "options": {
-                                "2": "QuickBooks Online ",
-                                "3": "Oracle NetSuite",
-                                "4": "QuickBooks Desktop"
+                                "Finicity": "Finicity",
+                                "FNBO Cash": "FNBO Cash",
+                                "FNBO Card ": "FNBO Card"
                             },
                             "tnsForOptions": false,
                             "multiple": true
                         },
-                        "queryName": "glType"
+                        "default": [
+                            "Finicity",
+                            "FNBO Cash",
+                            "FNBO Card"
+                        ],
+                        "queryName": "sourceName"
                     },
                     {
                         "type": "Dropdown",
-                        "title": "GL sync status",
+                        "title": "GL connection status",
                         "componentProps": {
                             "options": {
                                 "1": "Not-Activated",
@@ -809,7 +819,7 @@
                             "tnsForOptions": false,
                             "multiple": true
                         },
-                        "queryName": "glConnectStatus"
+                        "queryName": "syncStatus"
                     },
                     {
                         "type": "Input",
@@ -841,13 +851,13 @@
                         "templateId": "GlClientList"
                     },
                     "paramObjMap": {
-                        "glType": {
+                        "sourceName": {
                             "type": "queryBuilder",
-                            "value": "glType"
+                            "value": "sourceName"
                         },
-                        "activeStatus": {
+                        "syncStatus": {
                             "type": "queryBuilder",
-                            "value": "activeStatus"
+                            "value": "syncStatus"
                         },
                         "clientId": {
                             "type": "queryBuilder",
@@ -865,14 +875,14 @@
         "headersInfo":[
             {
                 "title": "Client Id",
-                "valueMap": "clientId",
+                "valueMap": "clientEntity.clientId",
                 "renderType": "text",
                 "align":"left",
                 "enableSort": true
             },
             {
                 "title": "Client name",
-                "valueMap": "clientName",
+                "valueMap": "clientEntity.clientName",
                 "renderType": "Link",
                 "align":"left",
                 "action": {
@@ -893,15 +903,15 @@
                 "enableSort": true
             },
             {
-                "title": "GL connection status",
-                "valueMap": "glConnectionStatus",
+                "title": "GL Sync status",
+                "valueMap": "dataSourceDetailEntity.syncStatus",
                 "renderType": "text",
                 "align":"left",
                 "enableSort": true
             },
             {
-                "title": "GL type",
-                "valueMap": "glType",
+                "title": "Source name",
+                "valueMap": "dataSourceDetailEntity.sourceName",
                 "renderType": "text",
                 "align":"left",
                 "enableSort": true,
@@ -2502,11 +2512,21 @@
                 "editable": "Dropdown",
                 "componentProps": {
                     "options": {
-                        "0" : "0",
-                        "1" : "1"
+                        "0" : "Disable",
+                        "1" : "Enable"
                     },
                     "size": "medium36"
-                }
+                },
+                "displayValueEnum": [
+                    {
+                        "label": "Disable",
+                        "value": 0
+                    },
+                    {
+                        "label": "Enable",
+                        "value": 1
+                    }
+                ]
             }
         ],
         "additionalProperties": {
