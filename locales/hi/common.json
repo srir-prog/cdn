@@ -473,7 +473,7 @@
     "duplicateBill": "डुप्लीकेट बिल",
     "dataEntryError": "डेटा प्रविष्टि त्रुटि",
     "incorrectApprover": "गलत अनुमोदक",
-    "invoiceRejectedLabel": "अस्वीकृत: {{reason}}",
+    "invoiceRejectedLabel": "अस्वीकृत: <ourTypo></ourTypo>",
     "documentRecallTitle": "दस्तावेज़ याद करें",
     "errorRecallInvoices": "दस्तावेज़ को वापस बुलाने में त्रुटियां हुईं। कृपया पुन: प्रयास करें।",
     "successfullyRecalledInvoices": "दस्तावेज वापस मंगवाए",
