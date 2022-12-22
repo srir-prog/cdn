@@ -5362,16 +5362,16 @@
                 },
                 "displayValueEnum": [
                     {
-                      "label": "IN SYNC",
-                      "value": 1
+                        "label": "IN SYNC",
+                        "value": 2
                     },
                     {
-                      "label": "ERROR",
-                      "value": 2
+                        "label": "ERROR",
+                        "value": 3
                     },
                     {
-                      "label": "IN PROGRESS",
-                      "value": 3
+                        "label": "IN PROGRESS",
+                        "value": 1
                     }
                 ],
                 "enableSort": true
