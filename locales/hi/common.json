@@ -485,5 +485,14 @@
     "contactingSupplierToResolveDispute": "विवाद को हल करने के लिए आपूर्तिकर्ता से संपर्क करना",
     "documentsApproveTitle":"दस्तावेजों को स्वीकृत करें",
     "historyMessageInvoiceOnHold": "चालान ठप कर दिया <ourTypo></ourTypo>",
-    "invoiceOnholdLabel": "होल्ड पर: <ourTypo></ourTypo>"
+    "invoiceOnholdLabel": "होल्ड पर: <ourTypo></ourTypo>",
+    "historyActionDocumentRecalled": "दस्तावेज़ वापस बुलाया गया",
+    "historyActionApproversUpdated": "अनुमोदक अपडेट किया गया",
+    "historyMessageFirstApproverSetTo": "पहले अनुमोदक को {{approverList}} पर सेट किया गया",
+    "historyMessageSecondApproverSetTo": "दूसरा अनुमोदक {{approverList}} पर सेट",
+    "historyMessageThirdApproverSetTo": "तीसरा अनुमोदक {{approverList}} पर सेट",
+    "noApprovalWorkflowText": "कोई अनुमोदन वर्कफ़्लो सेट नहीं है",
+    "approved":"स्वीकृत",
+    "markApproved": "मार्क स्वीकृत",
+    "viewApprovalWorkflow":"अनुमोदन कार्यप्रवाह देखें"
 }
