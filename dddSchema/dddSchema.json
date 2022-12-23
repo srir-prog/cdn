@@ -3986,9 +3986,10 @@
                     },
                     "paramObjMap": {
                         "clientId": "clientEntity.clientId",
-                        "glType":"clientEntity.glType"
+                        "glType":"clientEntity.glType",
+                        "clientName":"clientEntity.clientName"
                     },
-                    "pageQueryParams": ["clientId","glType"]
+                    "pageQueryParams": ["clientId","glType","clientName"]
                 }
             },
             {
