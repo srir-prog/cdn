@@ -1831,9 +1831,7 @@
         "ignoreKeys":
         [
         "accountStatus",
-        "sourceId",
         "accountGroup",
-        "institutionId",
         "balanceDate",
         "clientId",
         "institutionLoginId",
@@ -1846,7 +1844,13 @@
         "routingNumber",
         "currencyCode",
         "ownerName",
-        "ownerAddress"
+        "ownerAddress",
+        "accountNumber",
+        "currentBalance",
+        "aggregationSuccessDate",
+        "aggregationAttemptDate",
+        "modifiedAccountName",
+        "modifiedInstitutionName"
     ],
         "headersInfo":[
             {
@@ -1856,13 +1860,6 @@
                 "align":"left",
                 "enableSort": true
             },
-            {
-                "title": "New FI name",
-                "valueMap": "modifiedInstitutionName",
-                "renderType": "text",
-                "align":"left",
-                "enableSort": true
-            }, 
             {
                 "title": "A/C Id",
                 "valueMap": "accountId",
@@ -1878,8 +1875,15 @@
                 "enableSort": true
             },
             {
-                "title": "New A/C name",
-                "valueMap": "modifiedAccountName",
+                "title": "Institution Id",
+                "valueMap": "institutionId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Source Id",
+                "valueMap": "sourceId",
                 "renderType": "text",
                 "align":"left",
                 "enableSort": true
@@ -1888,44 +1892,6 @@
                 "title": "A/C type",
                 "valueMap": "accountType",
                 "renderType": "text",
-                "align":"left",
-                "enableSort": true
-            },
-            {
-                "title": "New A/C type",
-                "valueMap": "modifiedAccountType",
-                "renderType": "text",
-                "align":"left",
-                "enableSort": true
-            },
-            {
-                "title": "A/C #",
-                "valueMap": "accountNumber",
-                "renderType": "text",
-                "align":"left",
-                "enableSort": true
-            },
-            {
-                "title": "A/C bal",
-                "valueMap": "currentBalance",
-                "renderType": "text",
-                "formatType": "currency",
-                "align":"left",
-                "enableSort": true
-            },
-            {
-                "title": "Aggre success date",
-                "valueMap": "aggregationSuccessDate",
-                "renderType": "text",
-                "formatType":"datetime",
-                "align":"left",
-                "enableSort": true
-            },
-            {
-                "title": "Aggre attempt date",
-                "valueMap": "aggregationAttemptDate",
-                "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "enableSort": true
             },
