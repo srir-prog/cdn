@@ -565,5 +565,9 @@
     "deletePolicyWarningHeader": "Delete {{policyName}}",
     "deletePolicyWarningMessage": "The invoices awaiting approval would be recalled and need to be send for approval again",
     "errorDeletingApprovalPolicy": "Error while deleting the approval policy",
-    "successfullyDeletedApprovalPolicy": "Successfully deleted the approval policy"
+    "successfullyDeletedApprovalPolicy": "Successfully deleted the approval policy",
+    "selectOperationalGLs": "Select the bank accounts that you use for operating purposes",
+    "selectOperationGLsInfo": "Cash flows associated with the selected accounts will be grouped under the 'Operating' label in the Cash Flow table",
+    "payrollAccounts": "Payroll accounts",
+    "operationalBankAccounts": "Operational bank accounts"
 }
