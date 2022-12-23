@@ -638,7 +638,8 @@
                             "tnsForOptions": false,
                             "multiple": true
                         },
-                        "queryName": "txnStatus"
+                        "queryName": "txnStatus",
+                        "default":["4"]
                     },
                     {
                         "type": "Input",
@@ -690,7 +691,7 @@
     "glListQueryBuilder":{
         "componentType": "detailsList",
         "title": "GL clients",
-        "ignoreKeys":["glType","clientId"],
+        "ignoreKeys":["glType","clientId","clientName"],
         "additionalProperties": {
             "showQueryBuilder": true,
             "queryBuilderPosition": "bottom",
@@ -931,9 +932,10 @@
                     },
                     "paramObjMap": {
                         "clientId": "clientEntity.clientId",
-                        "sourceName": "dataSourceDetailEntity.sourceName"
+                        "sourceName": "dataSourceDetailEntity.sourceName",
+                        "clientName":"clientEntity.clientName"
                     },
-                    "pageQueryParams": ["clientId","glType"]
+                    "pageQueryParams": ["clientName"]
                 },
                 "enableSort": true
             },
@@ -988,6 +990,23 @@
                 ]
             },
             {
+                "title": "Auto sync",
+                "valueMap": "dataSourceDetailEntity.connectionInfo.incrementalSyncFlag",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true,
+                "displayValueEnum": [
+                    {
+                        "label": "Non incremental",
+                        "value": 0
+                    },
+                    {
+                        "label": "Incremental",
+                        "value": 1
+                    }
+                ]
+            },
+            {
                 "title": "Source name",
                 "valueMap": "dataSourceDetailEntity.sourceName",
                 "renderType": "text",
@@ -1014,11 +1033,81 @@
                 
             },
             {
-                "title": "License pkg Id",
+                "title": "Package name",
                 "valueMap": "clientEntity.licensePackageId",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true
+                "enableSort": true,
+                "displayValueEnum": [
+                    {
+                        "label": "centime-test",
+                        "value": -11
+                    },
+                    {
+                        "label": "centime-sandbox",
+                        "value": 1
+                    },
+                    {
+                        "label": "centime-basic",
+                        "value": 2
+                    },
+                    {
+                        "label": "centime-base",
+                        "value": 3
+                    },
+                    {
+                        "label": "centime-admin",
+                        "value": 4
+                    },
+                    {
+                        "label": "centime-supplier",
+                        "value": 5
+                    },
+                    {
+                        "label": "centime-op",
+                        "value": 6
+                    },
+                    {
+                        "label": "centime-full",
+                        "value": 7
+                    },
+                    {
+                        "label": "Cash flow control - full suite trail",
+                        "value": 8
+                    },
+                    {
+                        "label": "Forecast cash flows",
+                        "value": 9
+                    },
+                    {
+                        "label": "Manage Payables",
+                        "value": 10
+                    },
+                    {
+                        "label": "Manage receivables",
+                        "value": 11
+                    },
+                    {
+                        "label": "Cash flow control - full suite",
+                        "value": 12
+                    },
+                    {
+                        "label": "Trail ended",
+                        "value": 13
+                    },
+                    {
+                        "label": "Past due",
+                        "value": 14
+                    },
+                    {
+                        "label": "centime-partner",
+                        "value": 15
+                    },
+                    {
+                        "label": "centime-business-ops",
+                        "value": 16
+                    }
+                ]
             },
             {
                 "title": "Failure count",
@@ -1499,637 +1588,6 @@
             }
         ]
     },
-    "billPaymentSchedule":{
-        "componentType": "table",
-        "title": "Bill payment schedule",
-        "ignoreKeys":["supplierId","clientId","subPaymentMethod","glType",
-        "actionByUser","actionDate","approvalLevel","remittanceEmail",
-        "approvalEmailSent","subStatus","byUser","postingCounter","planStatus",
-        "history","activeStatus","notes","exchangeRate","virtualCardId","payerPaymentAccountId","glStatus","paymentId"],
-         "headersInfo":[
-            {
-                "title": "Bill Id",
-                "valueMap": "billId",
-                "renderType": "text",
-                "align":"left"
-            },
-            {
-                "title": "BPS Id",
-                "valueMap": "id",
-                "renderType": "Link",
-                "align":"left",
-                "action": {
-                    "type": "drillDown",
-                    "pathList": [
-                        "1.0",
-                        "aggregate"
-                    ],
-                    "paramObj": {
-                        "templateId": "BillPaymentScheduleDetails"
-                    },
-                    "paramObjMap": {
-                        "clientId": "clientId",
-                        "bpsId": "id"
-                    }
-                }
-            },
-            {
-                "title": "Payment Amount",
-                "valueMap": "paymentAmount",
-                "formatType":"currency",
-                "align":"left"
-            },
-            {
-                "title": "Payment Method",
-                "valueMap": "paymentMethod",
-                "displayValueEnum": [
-                    {
-                      "label": "CHECK",
-                      "value": 1
-                    },
-                    {
-                      "label": "ACH",
-                      "value": 2
-                    },
-                    {
-                      "label": "CENTIME_CARD",
-                      "value": 3
-                    },
-                    {
-                      "label": "CREDIT_CARD",
-                      "value": 4
-                    },
-                    {
-                      "label": "OTHER",
-                      "value": 5
-                    },
-                    {
-                      "label": "FX_PAYMENT",
-                      "value": 6
-                    },
-                    {
-                      "label": "CENTIME_PAY",
-                      "value": 7
-                    },
-                    {
-                      "label": "CENTIME_CASH",
-                      "value": 8
-                    }
-                  ]
-            },
-            {
-                "title": "Payment Date",
-                "valueMap": "paymentDate",
-                "formatType":"date",
-                "align":"left"
-            },
-            {
-                "title": "Payment Status",
-                "valueMap": "paymentStatus",
-                "displayValueEnum": [
-                    {
-                      "label": "ReadyToPay",
-                      "value": 0
-                    },
-                    {
-                      "label": "AwaitingForApproval",
-                      "value": 1
-                    },
-                    {
-                      "label": "Rejected",
-                      "value": 2
-                    },
-                    {
-                      "label": "Scheduled",
-                      "value": 3
-                    },
-                    {
-                      "label": "Failed",
-                      "value": 4
-                    },
-                    {
-                      "label": "Paid",
-                      "value": 5
-                    },
-                    {
-                      "label": "markedPaid",
-                      "value": 6
-                    },
-                    {
-                      "label": "paidInGeneralLedger",
-                      "value": 7
-                    },
-                    {
-                      "label": "userActionNeeded",
-                      "value": 8
-                    },
-                    {
-                      "label": "inProcess",
-                      "value": 9
-                    }
-                  ]
-            }
-         ]
-    },
-    "billPaymentScheduleDetails":{
-        "componentType": "detailsList",
-        "title":"Bill Payment Schedule Details",
-        "listInfo":[
-            {
-                "label": "Bill Id",
-                "valueMap": "billId"
-            },
-            {
-                "label": "Supplier Id",
-                "valueMap": "supplierId",
-                "renderType": "Link",
-                "action": {
-                    "type": "sidePanelData",
-                    "pathList": [
-                        "1.0",
-                        "aggregate"
-                    ],
-                    "paramObj": {
-                        "templateId": "SupplierDetailsWithPaymentMethodId"
-                    },
-                    "paramObjMap": {
-                        "clientId": "clientId",
-                        "supplierId": "supplierId",
-                        "paymentMethodId": "paymentMethod"
-                    }
-                }
-            },
-            {
-                "label": "Payment amount",
-                "valueMap": "paymentAmount",
-                "formatType":"currency"
-            },
-            {
-                "label": "Payment method",
-                "valueMap": "paymentMethod",
-                "displayValueEnum": [
-                    {
-                      "label": "CHECK",
-                      "value": 1
-                    },
-                    {
-                      "label": "ACH",
-                      "value": 2
-                    },
-                    {
-                      "label": "CENTIME_CARD",
-                      "value": 3
-                    },
-                    {
-                      "label": "CREDIT_CARD",
-                      "value": 4
-                    },
-                    {
-                      "label": "OTHER",
-                      "value": 5
-                    },
-                    {
-                      "label": "FX_PAYMENT",
-                      "value": 6
-                    },
-                    {
-                      "label": "CENTIME_PAY",
-                      "value": 7
-                    },
-                    {
-                      "label": "CENTIME_CASH",
-                      "value": 8
-                    }
-                  ]
-            },
-            {
-                "label": "Payment date",
-                "valueMap": "paymentDate",
-                "formatType":"date"
-            },
-            {
-                "label": "Payment status",
-                "valueMap": "paymentStatus",
-                "displayValueEnum": [
-                    {
-                      "label": "ReadyToPay",
-                      "value": 0
-                    },
-                    {
-                      "label": "AwaitingForApproval",
-                      "value": 1
-                    },
-                    {
-                      "label": "Rejected",
-                      "value": 2
-                    },
-                    {
-                      "label": "Scheduled",
-                      "value": 3
-                    },
-                    {
-                      "label": "Failed",
-                      "value": 4
-                    },
-                    {
-                      "label": "Paid",
-                      "value": 5
-                    },
-                    {
-                      "label": "markedPaid",
-                      "value": 6
-                    },
-                    {
-                      "label": "paidInGeneralLedger",
-                      "value": 7
-                    },
-                    {
-                      "label": "userActionNeeded",
-                      "value": 8
-                    },
-                    {
-                      "label": "inProcess",
-                      "value": 9
-                    }
-                  ]
-            },
-            {
-                "label": "Payer payment accountId",
-                "valueMap": "payerPaymentAccountId",
-                "renderType": "Link",
-                "action": {
-                  "type": "sidePanelData",
-                  "pathList": [
-                    "1.0",
-                    "aggregate"
-                  ],
-                  "paramObj": {
-                    "templateId": "BankAccountDetailsByAccountId"
-                  },
-                  "paramObjMap": {
-                    "clientId": "clientId",
-                    "accountId": "payerPaymentAccountId"
-                  }
-                }
-            },
-            {
-                "label": "Payee payment accountId",
-                "valueMap": "payeePaymentAccountId"
-            },
-            {
-                "label": "Payment Id",
-                "valueMap": "paymentId",
-                "renderType": "Link",
-                "action": {
-                    "type": "drillDown",
-                    "pathList": [
-                        "1.0",
-                        "aggregate"
-                    ],
-                    "paramObj": {
-                        "templateId": "PaymentDetails"
-                    },
-                    "paramObjMap": {
-                        "paymentId": "paymentId",
-                        "clientId": "clientId"
-                    },
-                    "pageQueryParams": ["paymentId","clientId"]
-                }
-            },
-            {
-                "label": "Action by user",
-                "valueMap": "actionByUser"
-            },
-            {
-                "label": "Action date",
-                "valueMap": "actionDate",
-                "formatType":"date"
-            },
-            {
-                "label": "Approval level",
-                "valueMap": "approvalLevel"
-            },
-            {
-                "label": "Remittance email",
-                "valueMap": "remittanceEmail"
-            },
-            {
-                "label": "Approval email sent",
-                "valueMap": "approvalEmailSent",
-                "formatType":"boolean"
-            },
-            {
-                "label": "Payment information",
-                "valueMap": "paymentInformation",
-                "renderType": "detailsList",
-                "renderProps": {
-                    "listInfo": [
-                        {
-                            "label": "Check number",
-                            "valueMap": "checkNumber"
-                        }
-                    ]
-                }
-            },
-            {
-                "label":"Sub status",
-                "valueMap":"subStatus",
-                "renderType":"detailsList",
-                "renderProps": {
-                    "ignoreKeys":["selfApproval","approvalInfo"],
-                    "listInfo": [
-                        {
-                            "label": "Status",
-                            "valueMap": "status",
-                            "valueTNS": "accountPayables",
-                            "displayValueEnum": [
-                              {
-                                "label": "checkPrintingInProcess",
-                                "value": 0
-                              },
-                              {
-                                "label": "cardInformationSent",
-                                "value": 1
-                              },
-                              {
-                                "label": "checkMailed",
-                                "value": 2
-                              },
-                              {
-                                "label": "Scheduled",
-                                "value": 3
-                              },
-                              {
-                                "label": "`checkProcessed`",
-                                "value": 4
-                              },
-                              {
-                                "label": "cardProcessed",
-                                "value": 5
-                              },
-                              {
-                                "label": "cardNotProcessed",
-                                "value": 6
-                              },
-                              {
-                                "label": "returned",
-                                "value": 7
-                              },
-                              {
-                                "label": "reissued",
-                                "value": 8
-                              },
-                              {
-                                "label": "cancelled",
-                                "value": 9
-                              },
-                              {
-                                "label": "initiated",
-                                "value": 10
-                              },
-                              {
-                                "label": "achSubmitted",
-                                "value": 11
-                              },
-                              {
-                                "label": "postedInGeneralLedger",
-                                "value": 12
-                              },
-                              {
-                                "label": "firstApprovalPending",
-                                "value": 13
-                              },
-                              {
-                                "label": "secondApprovalPending",
-                                "value": 14
-                              },
-                              {
-                                "label": "thirdApprovalPending",
-                                "value": 15
-                              },
-                              {
-                                "label": "paymentFailed",
-                                "value": 16
-                              },
-                              {
-                                "label": "voidedManually",
-                                "value": 17
-                              },
-                              {
-                                "label": "checkAtLocalPostOffice",
-                                "value": 18
-                              },
-                              {
-                                "label": "checkAtRecipientPostOffice",
-                                "value": 19
-                              },
-                              {
-                                "label": "checkOutForDelivery",
-                                "value": 20
-                              },
-                              {
-                                "label": "checkDelivered",
-                                "value": 21
-                              },
-                              {
-                                "label": "creditCardDebitInitiated",
-                                "value": 22
-                              },
-                              {
-                                "label": "bankAccountDebitInitiated",
-                                "value": 23
-                              },
-                              {
-                                "label": "fundTransferToSupplierInitiated",
-                                "value": 24
-                              }
-                            ]
-                        },
-                        {
-                            "label": "Email Id",
-                            "valueMap": "byUser"
-                        },
-                        {
-                            "label": "Username",
-                            "valueMap": "byUserName"
-                        },
-                        {
-                            "label": "Reason",
-                            "valueMap": "reason",
-                            "valueTNS": "accountPayables",
-                            "displayValueEnum": [
-                              {
-                                "label": "unknown",
-                                "value": "0"
-                              },
-                              {
-                                "label": "systemFailure",
-                                "value": "1"
-                              },
-                              {
-                                "label": "paymentAmountShouldBeTill2DecimalPlaces",
-                                "value": "2"
-                              },
-                              {
-                                "label": "invalidPaymentCurrency",
-                                "value": "3"
-                              },
-                              {
-                                "label": "invalidPaymentDate",
-                                "value": "4"
-                              },
-                              {
-                                "label": "issueInActivatingPaymentProduct",
-                                "value": "5"
-                              },
-                              {
-                                "label": "invalidAccountDetails",
-                                "value": "6"
-                              },
-                              {
-                                "label": "limitForMaximumPaymentAmountExceeded",
-                                "value": "7"
-                              },
-                              {
-                                "label": "supplierAccountShouldBeDifferentFromFundingAccount",
-                                "value": "8"
-                              },
-                              {
-                                "label": "issuesInGeneratingCardDetails",
-                                "value": "9"
-                              },
-                              {
-                                "label": "issueInOnboardingCentimeCard",
-                                "value": "10"
-                              },
-                              {
-                                "label": "insufficientBalance",
-                                "value": "11"
-                              },
-                              {
-                                "label": "invalidPaymentMethod",
-                                "value": "12"
-                              },
-                              {
-                                "label": "issueInOnboardingACHPayments",
-                                "value": "13"
-                              },
-                              {
-                                "label": "invalidAccountDetails",
-                                "value": "14"
-                              },
-                              {
-                                "label": "paymentNetworkFailure",
-                                "value": "15"
-                              },
-                              {
-                                "label": "supplierDeclinedPayment",
-                                "value": "16"
-                              },
-                              {
-                                "label": "inactiveSupplierAccount",
-                                "value": "17"
-                              },
-                              {
-                                "label": "supplierBankCouldNotSettleThePayment",
-                                "value": "18"
-                              },
-                              {
-                                "label": "inactivePayFromAccount",
-                                "value": "19"
-                              },
-                              {
-                                "label": "surchargeUpdated",
-                                "value": "20"
-                              }
-                            ]
-                        },
-                        {
-                            "label": "Date",
-                            "valueMap": "dateTimeStamp",
-                            "formatType":"datetime"
-                        }
-                    ]
-                }
-            },
-            {
-                "label": "Active status",
-                "valueMap": "activeStatus"
-            },
-            {
-                "label": "Posting counter",
-                "valueMap": "postingCounter"
-            },
-            {
-                "label": "Plan status",
-                "valueMap": "planStatus"
-            },
-            {
-                "label":"GL status",
-                "valueMap":"glStatus",
-                "renderProps":{
-                    "ignoreKeys":["selfApproval"],
-                    "listInfo": [
-                        {
-                            "label": "Status",
-                            "valueMap": "status"
-                        },
-                        {
-                            "label": "Username",
-                            "valueMap": "byUserName"
-                        },
-                        {
-                            "label": "Date",
-                            "valueMap": "dateTimeStamp",
-                            "formatType":"date"
-                        }
-                    ]
-                }
-            },
-            {
-                "label":"History",
-                "valueMap":"history",
-                "renderProps": {
-                    "ignoreKeys":["messageId","personalizeParams"],
-                    "headersInfo":[
-                        {
-                            "title": "Date",
-                            "valueMap": "dateTimeStamp",
-                            "renderType": "text",
-                            "formatType":"date",
-                            "align":"left",
-                            "width": "15%",
-                            "enableSort": true
-                        },
-                        {
-                            "title": "User",
-                            "valueMap": "byUser",
-                            "renderType": "text",
-                            "align":"left",
-                            "width": "15%",
-                            "enableSort": true
-                        },
-                        {
-                            "title": "Message",
-                            "valueMap": "message",
-                            "renderType": "text",
-                            "align":"left",
-                            "width": "35%",
-                            "enableSort": true
-                        },
-                        {
-                            "title": "Action",
-                            "valueMap": "action",
-                            "renderType": "text",
-                            "align":"left",
-                            "width": "35%",
-                            "enableSort": true
-                        }
-                    ]
-                }
-            }
-        ]
-    },
     "productActivation":{
         "componentType": "table",
         "title": "Product activation",
@@ -2293,29 +1751,38 @@
     "openBills":{
         "componentType": "table",
         "title": "Open bills",
-        "ignoreKeys":["currencyCode","clientId"],
+        "ignoreKeys":["currencyCode","clientId","billInfo","paymentDetails",
+        "notes","history","accountIds","historyAvailable","notesAvailable",
+        "paymentScheduleCreated","paymentDelayed"],
         "headersInfo":[
             {
                 "title": "Bill Id",
                 "valueMap": "billId",
                 "align":"left",
                 "width": "25%",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Supplier Id",
+                "valueMap": "supplierId",
+                "align":"left",
                 "renderType": "Link",
                 "action": {
-                    "type": "drillDown",
+                    "type": "sidePanelData",
                     "pathList": [
                         "1.0",
                         "aggregate"
                     ],
                     "paramObj": {
-                        "templateId": "BillPaymentSchedule"
+                        "templateId": "SupplierDetailsWithPaymentMethodId"
                     },
                     "paramObjMap": {
-                        "clientId":"clientId",
-                        "billId": "billId"
+                        "clientId": "clientId",
+                        "supplierId": "supplierId",
+                        "paymentMethodId": "paymentMethod"
                     }
-                },
-                "enableSort": true
+                }
             },
             {
                 "title": "Bill number",
@@ -5240,7 +4707,50 @@
                         "loginId":"loginId"
                     }
                 }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Enable Custom Challenge",
+                    "className":"ml-6"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "EnableCustomChallenge"
+                    },
+                    "paramObjMap": {
+                        "mfaChallenge": "CUSTOM_CHALLENGE"
+                    }
+                }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": " Get OTP",
+                    "className":"ml-6"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "CustomOtp"
+                    },
+                    "paramObjMap": {
+                        "loginId":"loginId"
+                    }
+                }
             }
+
         ]
     },
     "dataSourceDetail": {
@@ -5250,6 +4760,10 @@
             {
                 "label": "Client Id",
                 "valueMap": "clientId"
+            },
+            {
+                "label": "Client name",
+                "valueMap": "clientName"
             },
             {
                 "label": "GL Type",
@@ -5298,11 +4812,21 @@
                 "valueMap":"elapsedTime"
             },
             {
-                "label": "Incremental sync flag",
-                "valueMap": "connectionInfo.incrementalSyncFlag"
+                "label": "Auto sync",
+                "valueMap": "connectionInfo.incrementalSyncFlag",
+                "displayValueEnum": [
+                    {
+                        "label": "Non incremental",
+                        "value": 0
+                    },
+                    {
+                        "label": "Incremental",
+                        "value": 1
+                    }
+                ]
             }
         ],
-        "ignoreKeys": ["paymentId","clientName","glType"],
+        "ignoreKeys": ["paymentId","glType"],
         "additionalContent": [
             {
                 "renderType": "Button",
@@ -5345,6 +4869,27 @@
                     "paramObjMap": {
                         "clientId": "clientId",
                         "sourceName": "sourceName"
+                    }
+                }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "View posting txns",
+                    "className": "mb-5"
+                },
+                "renderPosition": "top",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "GlPostingTxn"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId"
                     }
                 }
             }
