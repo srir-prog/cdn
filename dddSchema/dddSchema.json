@@ -739,7 +739,8 @@
                             "options": {
                                 "1": "IN PROGRESS",
                                 "2": "IN SYNC",
-                                "3": "ERROR"
+                                "3": "ERROR",
+                                "4":"DISCONNECTED"
                             },
                             "tnsForOptions": false,
                             "multiple": true
@@ -907,7 +908,7 @@
     "glActiveClientsList":{
         "componentType": "table",
         "title": "Active GL client list",
-        "ignoreKeys":[],
+        "ignoreKeys":["clientEntity.glType"],
         "headersInfo":[
             {
                 "title": "Client Id",
@@ -965,31 +966,6 @@
                 ]
             },
             {
-                "title": "GL type",
-                "valueMap": "clientEntity.glType",
-                "renderType": "text",
-                "align":"left",
-                "enableSort": true,
-                "displayValueEnum": [
-                    {
-                        "label": "Sandbox",
-                        "value": 0
-                    },
-                    {
-                        "label": "QuickBooks Online",
-                        "value": 2
-                    },
-                    {
-                        "label": "Oracle NetSuite",
-                        "value": 3
-                    },
-                    {
-                        "label": "QuickBooks Desktop",
-                        "value": 4
-                    }
-                ]
-            },
-            {
                 "title": "Auto sync",
                 "valueMap": "dataSourceDetailEntity.connectionInfo.incrementalSyncFlag",
                 "renderType": "text",
@@ -997,11 +973,11 @@
                 "enableSort": true,
                 "displayValueEnum": [
                     {
-                        "label": "Non incremental",
+                        "label": "Off",
                         "value": 0
                     },
                     {
-                        "label": "Incremental",
+                        "label": "On",
                         "value": 1
                     }
                 ]
@@ -1213,7 +1189,13 @@
                 "align":"left",
                 "enableSort": true
             }
-        ]
+        ],
+         "additionalProperties":{
+            "enableSearch":true,
+            "paginationNeeded":true,
+            "defaultSortingOrder": "desc",
+            "defaultColumnToSort": 8
+        }
     },
     "glPostingTxnDetails":{
         "componentType": "detailsList",
@@ -1466,6 +1448,8 @@
             }
         ],
         "additionalProperties": {
+            "enableSearch": true,
+            "paginationNeeded":true,
             "editableForm": true,
             "deletableForm": false,
             "onSaveAction": {
@@ -1818,6 +1802,57 @@
                 "align":"left",
                 "width": "25%",
                 "enableSort": true
+            },
+            {
+                "title":"Action",
+                "valueMap":"",
+                "enableAccordion":true,
+                "renderType": "AccordionLink",
+                "renderProps":{
+                    "label":"Get details"
+                },
+                "accordionProps":{
+                    "renderType":"Tabs",
+                    "tabsInfo":[
+                    {
+                        "tabTitle":"Bill info",
+                        "valueMap":"billInfo",
+                        "renderType":"detailsList",
+                        "renderMeta":{
+                            "listInfo":[
+                                {
+                                    "label":"Due date",
+                                    "valueMap":"dueDate",
+                                    "formatType":"datetime"
+                                },
+                                {
+                                    "label":"Description",
+                                    "valueMap":"description"
+                                },
+                                {
+                                    "label":"Exchange rate",
+                                    "valueMap":"exchangeRate"
+                                }
+                            ]
+                        }
+                        
+                    },
+                    {
+                        "tabTitle":"Payment details",
+                        "valueMap":"paymentDetails",
+                        "renderType":"detailsList",
+                        "renderMeta":{
+                        }
+                    },
+                    {
+                        "tabTitle":"Notes",
+                        "valueMap":"notes",
+                        "renderType":"table",
+                        "renderMeta":{
+                        }
+                    }
+                ]
+                }
             }
         ],
         "additionalProperties": {
@@ -3850,6 +3885,7 @@
             {
                 "title": "Client Id",
                 "valueMap": "clientEntity.clientId",
+                "align":"left",
                 "renderType": "text",
                 "width": "12%",
                 "enableSort": true
@@ -4733,7 +4769,7 @@
                 "valueMap": "clientName"
             },
             {
-                "label": "GL Type",
+                "label": "Source name",
                 "valueMap": "sourceName"
             },
             {
@@ -4783,11 +4819,11 @@
                 "valueMap": "connectionInfo.incrementalSyncFlag",
                 "displayValueEnum": [
                     {
-                        "label": "Non incremental",
+                        "label": "Off",
                         "value": 0
                     },
                     {
-                        "label": "Incremental",
+                        "label": "On",
                         "value": 1
                     }
                 ]
