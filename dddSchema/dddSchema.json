@@ -4975,14 +4975,9 @@
         ]
     },
     "customOtp":{
-        "componentType": "detailsList",
         "title": "OTP Details",
-        "listInfo": [
-            {
-                "label": "OTP",
-                "valueMap": "customOtp"
-            }
-        ]
+        "label":"OTP",
+        "defaultValue":"Not available"
     },
     "dataSourceDetail": {
         "componentType": "detailsList",
