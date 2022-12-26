@@ -4710,31 +4710,53 @@
         "title": "User Details",
         "listInfo": [
             {
-                "title": "User Id",
+                "label": "User Id",
                 "valueMap": "userId"
             },
             {
-                "title": "Login Id",
+                "label": "Login Id",
                 "valueMap": "loginId"
             },
             {
-                "title": "First Name",
+                "label": "User type",
+                "valueMap": "userType",
+                "displayValueEnum": [
+                    {
+                        "label": "Default",
+                        "value": 0
+                    },
+                    {
+                        "label": "Invoice approver",
+                        "value": 1
+                    },
+                    {
+                        "label": "Payment approver",
+                        "value": 2
+                    },
+                    {
+                        "label": "CS Representative",
+                        "value": 3
+                    }
+                ]
+            },
+            {
+                "label": "First Name",
                 "valueMap": "firstName"
             },
             {
-                "title": "Last Name",
+                "label": "Last Name",
                 "valueMap": "lastName"
             },
             {
-                "title": "City",
+                "label": "City",
                 "valueMap": "city"
             },
             {
-                "title": "Country",
+                "label": "Country",
                 "valueMap": "country"
             },
             {
-                "title": "Mobile",
+                "label": "Mobile",
                 "valueMap": "mobile",
                 "editable": true
             },
@@ -4766,19 +4788,19 @@
                 ]
             },
             {
-                "title": "Supervisor Id",
+                "label": "Supervisor Id",
                 "valueMap": "supervisorId"
             },
             {
-                "title": "Entity Type",
+                "label": "Entity Type",
                 "valueMap": "entityType"
             },
             {
-                "title": "Industry Type",
+                "label": "Industry Type",
                 "valueMap": "industryType"
             },
             {
-                "title": "Preferences",
+                "label": "Preferences",
                 "valueMap": "preferences",
                 "renderType": "detailsList",
                 "renderProps": {
@@ -4787,76 +4809,77 @@
                 }
             },
             {
-                "title": "Expires In",
+                "label": "Expires In",
                 "valueMap": "expiresIn"
             },
             {
-                "title": "Challenge Name",
+                "label": "Challenge Name",
                 "valueMap": "challengeName"
             },
             {
-                "title": "Title",
+                "label": "Title",
                 "valueMap": "title"
             },
             {
-                "title": "Is Entitlement Defined",
-                "valueMap": "entitlementDefined"
+                "label": "Is Entitlement Defined",
+                "valueMap": "entitlementDefined",
+                "formatType":"boolean"
             },
             {
-                "title": "Created Time",
+                "label": "Created Time",
                 "valueMap": "createdTime",
                 "formatType": "datetime"
             },
             {
-                "title": "Updated Time",
+                "label": "Updated Time",
                 "valueMap": "updatedTime",
                 "formatType": "datetime"
             },
             {
-                "title": "User Entitlement",
+                "label": "User Entitlement",
                 "valueMap": "userEntitlement"
             },
             {
-                "title": "Partner Name",
+                "label": "Partner Name",
                 "valueMap": "partnerName"
             },
             {
-                "title": "Entity Id",
+                "label": "Entity Id",
                 "valueMap": "entityId"
             },
             {
-                "title": "Mdm Id",
+                "label": "Mdm Id",
                 "valueMap": "mdmId"
             },
             {
-                "title": "Company Name",
+                "label": "Company Name",
                 "valueMap": "companyName"
             },
             {
-                "title": "Client Id",
+                "label": "Client Id",
                 "valueMap": "clientId"
             },
             {
-                "title": "Connect Uri",
+                "label": "Connect Uri",
                 "valueMap": "connectUri"
             },
             {
-                "title": "User Secret Updated Time",
+                "label": "User Secret Updated Time",
                 "valueMap": "userSecretUpdatedTime",
                 "formatType": "datetime"
             },
             {
-                "title": "Login Attempts Left",
+                "label": "Login Attempts Left",
                 "valueMap": "loginAttemptLeft",
                 "editable": true
             },
             {
-                "title": "Last Login Failed Attempt At",
+                "label": "Last Login Failed Attempt At",
                 "valueMap": "lastLoginFailedAttemptAt",
                 "formatType": "datetime"
             }
         ],
-        "ignoreKeys": ["phone","password", "session", "accessToken", "refreshToken", "userPolicy", "glType"],
+        "ignoreKeys": ["phone","password", "session", "accessToken", "refreshToken", "userPolicy", "glType","clientId","connectUri","mdmId","partnerName"],
         "additionalProperties": {
             "editableForm": true,
             "onSaveAction": {
@@ -4887,6 +4910,7 @@
                     "label": "List transient clients"
                 },
                 "renderPosition": "bottom",
+                "gridSize":3,
                 "action": {
                     "type": "drillDown",
                     "pathList": [
@@ -4904,12 +4928,12 @@
             {
                 "renderType": "Button",
                 "renderProps": {
-                    "label": "Enable Custom Challenge",
-                    "className":"ml-6"
+                    "label": "Enable Custom Challenge"
                 },
                 "renderPosition": "bottom",
+                "gridSize":3,
                 "action": {
-                    "type": "drillDown",
+                    "type": "updateCall",
                     "pathList": [
                         "1.0",
                         "aggregate"
@@ -4918,7 +4942,11 @@
                         "templateId": "EnableCustomChallenge"
                     },
                     "paramObjMap": {
-                        "mfaChallenge": "CUSTOM_CHALLENGE"
+                        "mfaChallenge": {
+                            "type":"hardCoded",
+                            "value":"CUSTOM_CHALLENGE"
+                        },
+                        "loginId":"loginId"
                     }
                 }
             },
@@ -4945,6 +4973,11 @@
             }
 
         ]
+    },
+    "customOtp":{
+        "title": "OTP Details",
+        "label":"OTP",
+        "defaultValue":"Not available"
     },
     "dataSourceDetail": {
         "componentType": "detailsList",
