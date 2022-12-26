@@ -1199,6 +1199,7 @@
     "glPostingTxnDetails":{
         "componentType": "detailsList",
         "title":"GL posting transaction details",
+        "ignoreKeys":["glResponseMap"],
         "listInfo":[
             {
                 "label": "Client Id",
@@ -1256,7 +1257,27 @@
             },
             {
                 "label": "GL response details",
-                "valueMap": "glResponseMap"
+                "valueMap": "glResponseMap",
+                "renderProps":{
+                    "ignoreKeys":["isDynamic","sublists"],
+                    "listInfo":[
+                        {
+                            "label":"Id",
+                            "valueMap":"id"
+                        },
+                        {
+                            "label":"Id",
+                            "valueMap":"id"
+                        },
+                        {
+                            "label":"Fields",
+                            "valueMap":"fields",
+                            "renderProps":{
+                                "listInfo":[]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "label": "Txn Request details",
