@@ -638,8 +638,7 @@
                             "tnsForOptions": false,
                             "multiple": true
                         },
-                        "queryName": "txnStatus",
-                        "default":["4"]
+                        "queryName": "txnStatus"
                     },
                     {
                         "type": "Input",
@@ -1282,8 +1281,12 @@
                             "valueMap": "txnDate"
                         },
                         {
-                            "label": "Txn ref Num",
+                            "label": "Txn ref num",
                             "valueMap": "txnRefNum"
+                        },
+                        {
+                            "label": "Txn Doc num",
+                            "valueMap": "txnDocNum"
                         },
                         {
                             "label": "Currency code",
@@ -1295,7 +1298,29 @@
                         },
                         {
                             "label": "Txn total amount",
-                            "valueMap": "txnTotalAmount"
+                            "valueMap": "txnTotalAmount",
+                            "formatType":"currency"
+                        },
+                        {
+                            "label": "Due date",
+                            "valueMap": "dueDate"
+                        },
+                        {
+                            "label": "Term Id",
+                            "valueMap": "termId"
+                        },
+                        {
+                            "label": "Description",
+                            "valueMap": "description"
+                        },
+                        {
+                            "label": "Print status",
+                            "valueMap": "printStatus",
+                            "formatType":"boolean"
+                        },
+                        {
+                            "label": "AP account Id",
+                            "valueMap": "apAccountId"
                         },
                         {
                             "label":"Linked Txns",
@@ -1319,6 +1344,66 @@
                                     {
                                         "title": "Txn type",
                                         "valueMap": "txnType",
+                                        "renderType": "text",
+                                        "align":"left",
+                                        "enableSort": true
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "label":"Journal entry lines",
+                            "valueMap":"journalEntryLines",
+                            "renderProps":{
+                                "headersInfo":[
+                                    {
+                                        "title": "Account Id",
+                                        "valueMap": "accountId",
+                                        "renderType": "text",
+                                        "align":"left",
+                                        "enableSort": true
+                                    },
+                                    {
+                                        "title": "Txn amount",
+                                        "valueMap": "txnAmount",
+                                        "renderType": "text",
+                                        "align":"left",
+                                        "enableSort": true,
+                                        "formatType":"currency"
+                                    },
+                                    {
+                                        "title": "Posting type",
+                                        "valueMap": "postingType",
+                                        "renderType": "text",
+                                        "align":"left",
+                                        "enableSort": true
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "label":"Bill lines",
+                            "valueMap":"billLines",
+                            "renderProps":{
+                                "headersInfo":[
+                                    {
+                                        "title": "Account Id",
+                                        "valueMap": "accountId",
+                                        "renderType": "text",
+                                        "align":"left",
+                                        "enableSort": true
+                                    },
+                                    {
+                                        "title": "Txn amount",
+                                        "valueMap": "txnAmount",
+                                        "renderType": "text",
+                                        "align":"left",
+                                        "enableSort": true,
+                                        "formatType":"currency"
+                                    },
+                                    {
+                                        "title": "Line type",
+                                        "valueMap": "lineType",
                                         "renderType": "text",
                                         "align":"left",
                                         "enableSort": true
@@ -1842,11 +1927,98 @@
                         "valueMap":"paymentDetails",
                         "renderType":"detailsList",
                         "renderMeta":{
+                            "listInfo":[
+                                {
+                                    "label":"Currency code",
+                                    "valueMap":"currencyCode"
+                                },
+                                {
+                                    "label":"Exchange rate",
+                                    "valueMap":"exchangeRate"
+                                },
+                                {
+                                    "label":"Txn balance",
+                                    "valueMap":"txnBalance",
+                                    "formatType":"currency"
+                                },
+                                {
+                                    "label":"Home balance",
+                                    "valueMap":"homeBalance",
+                                    "formatType":"currency"
+                                },
+                                {
+                                    "label":"Id",
+                                    "valueMap":"id"
+                                },
+                                {
+                                    "label":"Payment amount",
+                                    "valueMap":"paymentAmount",
+                                    "formatType":"currency"
+                                },
+                                {
+                                    "label":"Payment method info",
+                                    "valueMap":"paymentMethodInfo",
+                                    "renderProps":{
+                                        "listInfo":[
+                                            {
+                                                "label":"Payment method",
+                                                "valueMap":"paymentMethod"
+                                            },
+                                            {
+                                                "label":"Sub payment method",
+                                                "valueMap":"subPaymentMethod"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "label":"Payment date",
+                                    "valueMap":"paymentDate",
+                                    "formatType":"datetime"
+                                },
+                                {
+                                    "label":"Payment status info",
+                                    "valueMap":"paymentStatusInfo",
+                                    "renderProps":{
+                                        "listInfo":[
+                                            {
+                                                "label":"Payment status",
+                                                "valueMap":"paymentStatus"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "label":"Approval levels",
+                                    "valueMap":"approvalLevels"
+                                },
+                                {
+                                    "label":"Posting counter",
+                                    "valueMap":"postingCounter"
+                                },
+                                {
+                                    "label":"GL posted",
+                                    "valueMap":"glposted",
+                                    "formatType":"boolean"
+                                },
+                                {
+                                    "label":"Credit amount applied",
+                                    "valueMap":"creditAmountApplied",
+                                    "formatType":"boolean"
+                                }
+                            ]
                         }
                     },
                     {
                         "tabTitle":"Notes",
                         "valueMap":"notes",
+                        "renderType":"table",
+                        "renderMeta":{
+                        }
+                    },
+                    {
+                        "tabTitle":"History",
+                        "valueMap":"history",
                         "renderType":"table",
                         "renderMeta":{
                         }
@@ -2782,18 +2954,15 @@
             },
             {
                 "label": "Payment Capture Date",
-                "valueMap": "paymentCaptureDate",
-                "formatType": "datetime"
+                "valueMap": "paymentCaptureDate"
             },
             {
                 "label": "Payment Start Date",
-                "valueMap": "paymentStartDate",
-                "formatType": "datetime"
+                "valueMap": "paymentStartDate"
             },
             {
                 "label": "Payment Completion Date",
-                "valueMap": "paymentEndDate",
-                "formatType": "datetime"
+                "valueMap": "paymentEndDate"
             },
             {
                 "label": "Payment Sub Status",
