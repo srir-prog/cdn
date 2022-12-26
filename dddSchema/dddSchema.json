@@ -813,7 +813,7 @@
                             "options": {
                                 "Finicity": "Finicity",
                                 "FNBO Cash": "FNBO Cash",
-                                "FNBO Card ": "FNBO Card"
+                                "FNBO Card": "FNBO Card"
                             },
                             "tnsForOptions": false,
                             "multiple": true
