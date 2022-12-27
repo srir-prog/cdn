@@ -562,7 +562,7 @@
     "upgradeMainText":"User will be upgraded to a full access user",
     "upgradeSubText":"Modifying permissions of users with limited access upgrades them to a full access user. This will be an additional charge and will reflect accordingly in your billing cycle.",
     "secondApprovalRequired": "Required before proceeding with third approval",
-    "deletePolicyWarningHeader": "Delete {{policyName}}",
+    "deletePolicyWarningHeader": "Delete {{policyName}}?",
     "deletePolicyWarningMessage": "The invoices awaiting approval would be recalled and need to be send for approval again",
     "errorDeletingApprovalPolicy": "Error while deleting the approval policy",
     "successfullyDeletedApprovalPolicy": "Successfully deleted the approval policy",
