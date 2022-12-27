@@ -463,5 +463,18 @@
     "approvers": "अनुमोदक",
     "in": "में",
     "notIn": "अंदर नही",
-    "approvalWorkflow":"स्वीकृति कार्यप्रवाह"
+    "approvalWorkflow":"स्वीकृति कार्यप्रवाह",
+    "chooseAnOption": "एक विकल्प चुनें",
+    "historyActionDocumentRejected": "दस्तावेज़ अस्वीकृत",
+    "historyMessageInvoiceRejected": "चालान खारिज <ourTypo></ourTypo>",
+    "rejected":"अस्वीकृत",
+    "errorRejectingInvoices": "दस्तावेज़ को अस्वीकार करने में त्रुटियां आईं। कृपया पुन: प्रयास करें।",
+    "successfullyRejectedInvoices": "दस्तावेज़ अस्वीकृत",
+    "duplicateBill": "डुप्लीकेट बिल",
+    "dataEntryError": "डेटा प्रविष्टि त्रुटि",
+    "incorrectApprover": "गलत अनुमोदक",
+    "invoiceRejectedLabel": "अस्वीकृत: <ourTypo></ourTypo>",
+    "documentRecallTitle": "दस्तावेज़ याद करें",
+    "errorRecallInvoices": "दस्तावेज़ को वापस बुलाने में त्रुटियां हुईं। कृपया पुन: प्रयास करें।",
+    "successfullyRecalledInvoices": "दस्तावेज वापस मंगवाए"
 }
