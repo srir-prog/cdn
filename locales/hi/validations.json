@@ -76,5 +76,7 @@
     "minAmountGreaterThanDefaultLimit": "मान डिफ़ॉल्ट स्वीकृति सीमा से अधिक होना चाहिए",
     "minAmountLessThanThirdLevelLimit": "मान तीसरे स्तर की सीमा से कम होना चाहिए",
     "minAmountGreaterThanSecondLevelLimit": "मान दूसरे स्तर की सीमा से अधिक होना चाहिए",
-    "required": "आवश्यक"
+    "required": "आवश्यक",
+    "amountShouldBeMoreThanMinAmount": "राशि {{minAmount}} से अधिक होनी चाहिए",
+    "amountShouldNotBeMoreThanMaxAmount":"राशि {{maxAmount}} से कम होनी चाहिए"
 }
