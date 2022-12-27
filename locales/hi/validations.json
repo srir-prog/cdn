@@ -73,6 +73,8 @@
     "amountCantBeGreaterThanBal": "राशि शेष राशि से अधिक नहीं हो सकती",
     "maxAmountExcluding": "मान {{amountLimit}} से कम होना चाहिए",
     "minAmountDynamic": "मान {{amountLimit}} से अधिक होना चाहिए",
+    "amountShouldBeMoreThanMinAmount": "राशि {{minAmount}} से अधिक होनी चाहिए",
+    "amountShouldNotBeMoreThanMaxAmount":"राशि {{maxAmount}} से कम होनी चाहिए",
     "minAmountGreaterThanDefaultLimit": "मान पहली स्वीकृति सीमा से अधिक होना चाहिए",
     "minAmountLessThanThirdLevelLimit": "मान तीसरी स्वीकृति सीमा से कम होना चाहिए",
     "minAmountGreaterThanSecondLevelLimit": "मान दूसरी स्वीकृति सीमा से अधिक होना चाहिए",
