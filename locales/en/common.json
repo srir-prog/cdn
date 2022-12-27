@@ -482,10 +482,15 @@
     "documentOnHoldTitle":"Hold documents",
     "historyActionDocumentPutOnHold": "Document put on hold",
     "errorOnHoldInvoices": "Errors encountered in putting the document on hold. Please try again.",
-    "successfullyOnHolInvoices": "Documents put on hold",
+    "successfullyOnHoldInvoices": "Documents put on hold",
     "contactingSupplierToResolveDispute": "Contacting supplier to resolve dispute",
     "documentsApproveTitle":"Approve documents",
-    "historyMessageInvoiceOnHold": "Invoice put on hold",
-    "invoiceOnholdLabel": "On hold: {{reason}}",
-    "successfullyRecalledInvoices": "Documents recalled"
+    "historyMessageInvoiceOnHold": "Invoice put on hold <ourTypo></ourTypo>",
+    "invoiceOnholdLabel": "On hold: <ourTypo></ourTypo>",
+    "successfullyRecalledInvoices": "Documents recalled",
+    "historyActionDocumentRecalled": "Document recalled",
+    "historyActionApproversUpdated": "Approvers updated",
+    "historyMessageFirstApproverSetTo": "First approver set to {{approverList}}",
+    "historyMessageSecondApproverSetTo": "Second approver set to {{approverList}}",
+    "historyMessageThirdApproverSetTo": "Third approver set to {{approverList}}"
 }

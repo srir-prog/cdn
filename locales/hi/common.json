@@ -481,9 +481,14 @@
     "documentOnHoldTitle":"दस्तावेज रखें",
     "historyActionDocumentPutOnHold": "दस्तावेज़ को होल्ड पर रखा गया",
     "errorOnHoldInvoices": "दस्तावेज़ को होल्ड पर रखने में त्रुटियाँ आईं. कृपया पुन: प्रयास करें।",
-    "successfullyOnHolInvoices": "दस्तावेज ठंडे बस्ते में डाल दिए",
+    "successfullyOnHoldInvoices": "दस्तावेज ठंडे बस्ते में डाल दिए",
     "contactingSupplierToResolveDispute": "विवाद को हल करने के लिए आपूर्तिकर्ता से संपर्क करना",
     "documentsApproveTitle":"दस्तावेजों को स्वीकृत करें",
-    "historyMessageInvoiceOnHold": "चालान ठप कर दिया",
-    "invoiceOnholdLabel": "होल्ड पर: {{reason}}"
+    "historyMessageInvoiceOnHold": "चालान ठप कर दिया <ourTypo></ourTypo>",
+    "invoiceOnholdLabel": "होल्ड पर: <ourTypo></ourTypo>",
+    "historyActionDocumentRecalled": "दस्तावेज़ वापस बुलाया गया",
+    "historyActionApproversUpdated": "अनुमोदक अपडेट किया गया",
+    "historyMessageFirstApproverSetTo": "पहले अनुमोदक को {{approverList}} पर सेट किया गया",
+    "historyMessageSecondApproverSetTo": "दूसरा अनुमोदक {{approverList}} पर सेट",
+    "historyMessageThirdApproverSetTo": "तीसरा अनुमोदक {{approverList}} पर सेट"
 }
