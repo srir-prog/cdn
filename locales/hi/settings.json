@@ -536,12 +536,12 @@
     "condition": "स्थिति",
     "forInvoicesAbove": "उपरोक्त चालान के लिए",
     "approvalPolicies": "स्वीकृति नीतियां",
-    "successfullySavedDefaultInvoiceApprovalLimit": "डिफ़ॉल्ट चालान स्वीकृति सीमा सफलतापूर्वक सहेजी गई",
-    "errorSavingDefaultInvoiceApprovalLimit": "डिफ़ॉल्ट चालान स्वीकृति सीमा सहेजने में त्रुटि",
-    "successfullyCreatedApprovalPolicy": "स्वीकृति नीति सफलतापूर्वक बनाई गई",
-    "errorCreatingApprovalPolicy": "स्वीकृति नीति बनाने में त्रुटि",
+    "successfullySavedDefaultInvoiceApprovalLimit": "पहली स्वीकृति सीमा सफलतापूर्वक सहेजी गई",
+    "errorSavingDefaultInvoiceApprovalLimit": "प्रथम अनुमोदन सीमा सहेजते समय गड़बड़ी हुई",
+    "successfullyCreatedApprovalPolicy": "अनुमोदन नीति को सफलतापूर्वक जोड़ा गया",
+    "errorCreatingApprovalPolicy": "अनुमोदन नीति जोड़ते समय त्रुटि",
     "successfullyUpdatedApprovalPolicy": "अनुमोदन नीति को सफलतापूर्वक अपडेट किया गया",
-    "errorUpdatingApprovalPolicy": "स्वीकृति नीति अपडेट करने में त्रुटि",
+    "errorUpdatingApprovalPolicy": "मंज़ूरी नीति अपडेट करते समय गड़बड़ी हुई",
     "priority": "वरीयता",
     "policyTable": "नीति तालिका",
     "fullAccess": "पूर्ण पहुँच",
@@ -562,5 +562,9 @@
     "upgradeMainText":"उपयोगकर्ता को पूर्ण पहुंच वाले उपयोगकर्ता में अपग्रेड कर दिया जाएगा",
     "upgradeSubText":"सीमित पहुंच वाले उपयोगकर्ताओं की अनुमतियों को संशोधित करने से उन्हें पूर्ण पहुंच वाले उपयोगकर्ता में अपग्रेड कर दिया जाता है। यह एक अतिरिक्त शुल्क होगा और तदनुसार आपके बिलिंग चक्र में दिखाई देगा।",
     "secondApprovalRequired": "तीसरे अनुमोदन के साथ आगे बढ़ने से पहले आवश्यक है",
-    "addPolicy": "नीति जोड़ें"
+    "addPolicy": "नीति जोड़ें",
+    "deletePolicyWarningHeader": "{{policyName}} हटाएं?",
+    "deletePolicyWarningMessage": "अनुमोदन की प्रतीक्षा कर रहे चालानों को वापस बुलाया जाएगा और अनुमोदन के लिए फिर से भेजने की आवश्यकता होगी",
+    "errorDeletingApprovalPolicy": "मंज़ूरी नीति मिटाते समय गड़बड़ी हुई",
+    "successfullyDeletedApprovalPolicy": "अनुमोदन नीति को सफलतापूर्वक हटा दिया गया"
 }

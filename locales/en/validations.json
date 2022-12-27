@@ -78,8 +78,8 @@
     "amountCantBeGreaterThanBal": "Amount cannot be greater than balance",
     "maxAmountExcluding": "Value must be less than {{amountLimit}}",
     "minAmountDynamic": "Value must be greater than {{amountLimit}}",
-    "minAmountGreaterThanDefaultLimit": "Value must be greater than default approval limit",
-    "minAmountLessThanThirdLevelLimit": "Value must be less than third level limit",
-    "minAmountGreaterThanSecondLevelLimit": "Value must be greater than second level limit",
+    "minAmountGreaterThanDefaultLimit": "Value must be greater than first approval limit",
+    "minAmountLessThanThirdLevelLimit": "Value must be less than third approval limit",
+    "minAmountGreaterThanSecondLevelLimit": "Value must be greater than second approval limit",
     "required": "Required"
 }

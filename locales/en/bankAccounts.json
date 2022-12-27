@@ -410,9 +410,12 @@
     "invalidAccountDetails": "Invalid account details",
     "reason": "Reason",
     "cashImpact": "Cash impact",
-    "closingBalance": "Closing balances",
     "accruedFeeTxnTypeRepayReversal": "(Add.)",
     "accruedFeeTxnTypeTxnReversal": "(R)",
     "dayOfMonth":"day of every month",
-    "statementDate":"Statement date"
+    "statementDate":"Statement date",
+    "criteriaPaymentDate": "Payment Date: between {{startDate}} - {{endDate}}",
+    "noDataFound": "No data found",
+    "allAccounts": "All accounts",
+    "operatingAccounts": "Operating accounts"
 }
