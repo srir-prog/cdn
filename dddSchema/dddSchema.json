@@ -141,14 +141,15 @@
                         "title": "GL Type",
                         "componentProps": {
                             "options": {
-                                "2": "QuickBooks Online ",
-                                "3": "Oracle NetSuite",
-                                "4": "QuickBooks Desktop"
+                                "QuickBooks Online": "QuickBooks Online",
+                                "Oracle NetSuite": "Oracle NetSuite",
+                                "QuickBooks Desktop": "QuickBooks Desktop"
                             },
                             "tnsForOptions": false,
                             "multiple": true
                         },
-                        "queryName": "glType"
+                        "default":["QuickBooks Online","Oracle NetSuite","QuickBooks Desktop"],
+                        "queryName": "sourceName"
                     },
                     {
                         "type": "Dropdown",
@@ -195,9 +196,9 @@
                         "templateId": "ClientList"
                     },
                     "paramObjMap": {
-                        "glType": {
+                        "sourceName": {
                             "type": "queryBuilder",
-                            "value": "glType"
+                            "value": "sourceName"
                         },
                         "activeStatus": {
                             "type": "queryBuilder",
@@ -689,7 +690,7 @@
     "glListQueryBuilder":{
         "componentType": "detailsList",
         "title": "GL clients",
-        "ignoreKeys":["glType","clientId"],
+        "ignoreKeys":["glType","clientId","clientName"],
         "additionalProperties": {
             "showQueryBuilder": true,
             "queryBuilderPosition": "bottom",
@@ -699,24 +700,29 @@
                 "elementsInfo": [
                     {
                         "type": "Dropdown",
-                        "title": "GL Type",
+                        "title": "Source name",
                         "componentProps": {
                             "options": {
-                                "2": "QuickBooks Online ",
-                                "3": "Oracle NetSuite",
-                                "4": "QuickBooks Desktop"
+                                "QuickBooks Online": "QuickBooks Online",
+                                "Oracle NetSuite": "Oracle NetSuite",
+                                "QuickBooks Desktop": "QuickBooks Desktop"
                             },
                             "tnsForOptions": false,
                             "multiple": true
                         },
-                        "queryName": "glType"
+                        "default": [
+                            "QuickBooks Online",
+                            "Oracle NetSuite",
+                            "QuickBooks Desktop"
+                        ],
+                        "queryName": "sourceName"
                     },
                     {
                         "type": "Dropdown",
-                        "title": "GL sync status",
+                        "title": "GL connection status",
                         "componentProps": {
                             "options": {
-                                "1": "GL Connection Pending",
+                                "1": "Pending",
                                 "2": "Connected",
                                 "3": "Disconnected"
                             },
@@ -724,6 +730,21 @@
                             "multiple": true
                         },
                         "queryName": "glConnectStatus"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "title": "GL sync status",
+                        "componentProps": {
+                            "options": {
+                                "1": "IN PROGRESS",
+                                "2": "IN SYNC",
+                                "3": "ERROR",
+                                "4":"DISCONNECTED"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
+                        },
+                        "queryName": "syncStatus"
                     },
                     {
                         "type": "Input",
@@ -754,11 +775,15 @@
                         "templateId": "GlClientList"
                     },
                     "paramObjMap": {
-                        "glType": {
+                        "sourceName": {
                             "type": "queryBuilder",
-                            "value": "glType"
+                            "value": "sourceName"
                         },
-                        "glConnectStatus": {
+                        "syncStatus": {
+                            "type": "queryBuilder",
+                            "value": "syncStatus"
+                        },
+                        "glConnectStatus":{
                             "type": "queryBuilder",
                             "value": "glConnectStatus"
                         },
@@ -783,33 +808,51 @@
                 "elementsInfo": [
                     {
                         "type": "Dropdown",
-                        "title": "GL Type",
+                        "title": "Source name",
                         "componentProps": {
                             "options": {
-                                "2": "QuickBooks Online ",
-                                "3": "Oracle NetSuite",
-                                "4": "QuickBooks Desktop"
+                                "Finicity": "Finicity",
+                                "FNBO Cash": "FNBO Cash",
+                                "FNBO Card": "FNBO Card"
                             },
                             "tnsForOptions": false,
                             "multiple": true
                         },
-                        "queryName": "glType"
+                        "default": [
+                            "Finicity",
+                            "FNBO Cash",
+                            "FNBO Card"
+                        ],
+                        "queryName": "sourceName"
                     },
                     {
                         "type": "Dropdown",
-                        "title": "GL sync status",
+                        "title": "GL connection status",
                         "componentProps": {
                             "options": {
-                                "1": "Not-Activated",
-                                "2": "Active",
-                                "3": "Suspended",
-                                "4": "Closed",
-                                "5": "Invited"
+                                "1": "Pending",
+                                "2": "Connected",
+                                "3": "Disconnected"
                             },
                             "tnsForOptions": false,
                             "multiple": true
                         },
                         "queryName": "glConnectStatus"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "title": "GL sync status",
+                        "componentProps": {
+                             "options": {
+                                    "1": "IN PROGRESS",
+                                    "2": "IN SYNC",
+                                    "3": "ERROR",
+                                    "4":"DISCONNECTED"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
+                        },
+                        "queryName": "syncStatus"
                     },
                     {
                         "type": "Input",
@@ -841,13 +884,17 @@
                         "templateId": "GlClientList"
                     },
                     "paramObjMap": {
-                        "glType": {
+                        "sourceName": {
                             "type": "queryBuilder",
-                            "value": "glType"
+                            "value": "sourceName"
                         },
-                        "activeStatus": {
+                        "syncStatus": {
                             "type": "queryBuilder",
-                            "value": "activeStatus"
+                            "value": "syncStatus"
+                        },
+                        "glConnectStatus":{
+                            "type": "queryBuilder",
+                            "value": "glConnectStatus"
                         },
                         "clientId": {
                             "type": "queryBuilder",
@@ -861,18 +908,18 @@
     "glActiveClientsList":{
         "componentType": "table",
         "title": "Active GL client list",
-        "ignoreKeys":[],
+        "ignoreKeys":["clientEntity.glType"],
         "headersInfo":[
             {
                 "title": "Client Id",
-                "valueMap": "clientId",
+                "valueMap": "clientEntity.clientId",
                 "renderType": "text",
                 "align":"left",
                 "enableSort": true
             },
             {
                 "title": "Client name",
-                "valueMap": "clientName",
+                "valueMap": "clientEntity.clientName",
                 "renderType": "Link",
                 "align":"left",
                 "action": {
@@ -885,23 +932,59 @@
                         "templateId": "GlInformation"
                     },
                     "paramObjMap": {
-                        "clientId": "clientId",
-                        "glType": "glType"
+                        "clientId": "clientEntity.clientId",
+                        "sourceName": "dataSourceDetailEntity.sourceName",
+                        "clientName":"clientEntity.clientName"
                     },
-                    "pageQueryParams": ["clientId","glType"]
+                    "pageQueryParams": ["clientName"]
                 },
                 "enableSort": true
             },
             {
-                "title": "GL connection status",
-                "valueMap": "glConnectionStatus",
+                "title": "GL Sync status",
+                "valueMap": "dataSourceDetailEntity.syncStatus",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true
+                "enableSort": true,
+                "displayValueEnum": [
+                    {
+                      "label": "IN SYNC",
+                      "value": 2
+                    },
+                    {
+                      "label": "ERROR",
+                      "value": 3
+                    },
+                    {
+                      "label": "IN PROGRESS",
+                      "value": 1
+                    },
+                    {
+                        "label": "DISCONNECTED",
+                        "value": 4
+                    }
+                ]
             },
             {
-                "title": "GL type",
-                "valueMap": "glType",
+                "title": "Auto sync",
+                "valueMap": "dataSourceDetailEntity.connectionInfo.incrementalSyncFlag",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true,
+                "displayValueEnum": [
+                    {
+                        "label": "Off",
+                        "value": 0
+                    },
+                    {
+                        "label": "On",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "title": "Source name",
+                "valueMap": "dataSourceDetailEntity.sourceName",
                 "renderType": "text",
                 "align":"left",
                 "enableSort": true,
@@ -924,6 +1007,90 @@
                     }
                 ]
                 
+            },
+            {
+                "title": "Package name",
+                "valueMap": "clientEntity.licensePackageId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true,
+                "displayValueEnum": [
+                    {
+                        "label": "centime-test",
+                        "value": -11
+                    },
+                    {
+                        "label": "centime-sandbox",
+                        "value": 1
+                    },
+                    {
+                        "label": "centime-basic",
+                        "value": 2
+                    },
+                    {
+                        "label": "centime-base",
+                        "value": 3
+                    },
+                    {
+                        "label": "centime-admin",
+                        "value": 4
+                    },
+                    {
+                        "label": "centime-supplier",
+                        "value": 5
+                    },
+                    {
+                        "label": "centime-op",
+                        "value": 6
+                    },
+                    {
+                        "label": "centime-full",
+                        "value": 7
+                    },
+                    {
+                        "label": "Cash flow control - full suite trail",
+                        "value": 8
+                    },
+                    {
+                        "label": "Forecast cash flows",
+                        "value": 9
+                    },
+                    {
+                        "label": "Manage Payables",
+                        "value": 10
+                    },
+                    {
+                        "label": "Manage receivables",
+                        "value": 11
+                    },
+                    {
+                        "label": "Cash flow control - full suite",
+                        "value": 12
+                    },
+                    {
+                        "label": "Trail ended",
+                        "value": 13
+                    },
+                    {
+                        "label": "Past due",
+                        "value": 14
+                    },
+                    {
+                        "label": "centime-partner",
+                        "value": 15
+                    },
+                    {
+                        "label": "centime-business-ops",
+                        "value": 16
+                    }
+                ]
+            },
+            {
+                "title": "Failure count",
+                "valueMap": "dataSourceDetailEntity.connectionInfo.failureCount",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
             }
         ],
         "additionalProperties":{
@@ -1022,11 +1189,18 @@
                 "align":"left",
                 "enableSort": true
             }
-        ]
+        ],
+         "additionalProperties":{
+            "enableSearch":true,
+            "paginationNeeded":true,
+            "defaultSortingOrder": "desc",
+            "defaultColumnToSort": 8
+        }
     },
     "glPostingTxnDetails":{
         "componentType": "detailsList",
         "title":"GL posting transaction details",
+        "ignoreKeys":["glResponseMap"],
         "listInfo":[
             {
                 "label": "Client Id",
@@ -1084,7 +1258,27 @@
             },
             {
                 "label": "GL response details",
-                "valueMap": "glResponseMap"
+                "valueMap": "glResponseMap",
+                "renderProps":{
+                    "ignoreKeys":["isDynamic","sublists"],
+                    "listInfo":[
+                        {
+                            "label":"Id",
+                            "valueMap":"id"
+                        },
+                        {
+                            "label":"Id",
+                            "valueMap":"id"
+                        },
+                        {
+                            "label":"Fields",
+                            "valueMap":"fields",
+                            "renderProps":{
+                                "listInfo":[]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "label": "Txn Request details",
@@ -1109,8 +1303,12 @@
                             "valueMap": "txnDate"
                         },
                         {
-                            "label": "Txn ref Num",
+                            "label": "Txn ref num",
                             "valueMap": "txnRefNum"
+                        },
+                        {
+                            "label": "Txn Doc num",
+                            "valueMap": "txnDocNum"
                         },
                         {
                             "label": "Currency code",
@@ -1122,7 +1320,29 @@
                         },
                         {
                             "label": "Txn total amount",
-                            "valueMap": "txnTotalAmount"
+                            "valueMap": "txnTotalAmount",
+                            "formatType":"currency"
+                        },
+                        {
+                            "label": "Due date",
+                            "valueMap": "dueDate"
+                        },
+                        {
+                            "label": "Term Id",
+                            "valueMap": "termId"
+                        },
+                        {
+                            "label": "Description",
+                            "valueMap": "description"
+                        },
+                        {
+                            "label": "Print status",
+                            "valueMap": "printStatus",
+                            "formatType":"boolean"
+                        },
+                        {
+                            "label": "AP account Id",
+                            "valueMap": "apAccountId"
                         },
                         {
                             "label":"Linked Txns",
@@ -1146,6 +1366,66 @@
                                     {
                                         "title": "Txn type",
                                         "valueMap": "txnType",
+                                        "renderType": "text",
+                                        "align":"left",
+                                        "enableSort": true
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "label":"Journal entry lines",
+                            "valueMap":"journalEntryLines",
+                            "renderProps":{
+                                "headersInfo":[
+                                    {
+                                        "title": "Account Id",
+                                        "valueMap": "accountId",
+                                        "renderType": "text",
+                                        "align":"left",
+                                        "enableSort": true
+                                    },
+                                    {
+                                        "title": "Txn amount",
+                                        "valueMap": "txnAmount",
+                                        "renderType": "text",
+                                        "align":"left",
+                                        "enableSort": true,
+                                        "formatType":"currency"
+                                    },
+                                    {
+                                        "title": "Posting type",
+                                        "valueMap": "postingType",
+                                        "renderType": "text",
+                                        "align":"left",
+                                        "enableSort": true
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "label":"Bill lines",
+                            "valueMap":"billLines",
+                            "renderProps":{
+                                "headersInfo":[
+                                    {
+                                        "title": "Account Id",
+                                        "valueMap": "accountId",
+                                        "renderType": "text",
+                                        "align":"left",
+                                        "enableSort": true
+                                    },
+                                    {
+                                        "title": "Txn amount",
+                                        "valueMap": "txnAmount",
+                                        "renderType": "text",
+                                        "align":"left",
+                                        "enableSort": true,
+                                        "formatType":"currency"
+                                    },
+                                    {
+                                        "title": "Line type",
+                                        "valueMap": "lineType",
                                         "renderType": "text",
                                         "align":"left",
                                         "enableSort": true
@@ -1275,6 +1555,8 @@
             }
         ],
         "additionalProperties": {
+            "enableSearch": true,
+            "paginationNeeded":true,
             "editableForm": true,
             "deletableForm": false,
             "onSaveAction": {
@@ -1394,637 +1676,6 @@
                       "value": 2
                     }
                 ]
-            }
-        ]
-    },
-    "billPaymentSchedule":{
-        "componentType": "table",
-        "title": "Bill payment schedule",
-        "ignoreKeys":["supplierId","clientId","subPaymentMethod","glType",
-        "actionByUser","actionDate","approvalLevel","remittanceEmail",
-        "approvalEmailSent","subStatus","byUser","postingCounter","planStatus",
-        "history","activeStatus","notes","exchangeRate","virtualCardId","payerPaymentAccountId","glStatus","paymentId"],
-         "headersInfo":[
-            {
-                "title": "Bill Id",
-                "valueMap": "billId",
-                "renderType": "text",
-                "align":"left"
-            },
-            {
-                "title": "BPS Id",
-                "valueMap": "id",
-                "renderType": "Link",
-                "align":"left",
-                "action": {
-                    "type": "drillDown",
-                    "pathList": [
-                        "1.0",
-                        "aggregate"
-                    ],
-                    "paramObj": {
-                        "templateId": "BillPaymentScheduleDetails"
-                    },
-                    "paramObjMap": {
-                        "clientId": "clientId",
-                        "bpsId": "id"
-                    }
-                }
-            },
-            {
-                "title": "Payment Amount",
-                "valueMap": "paymentAmount",
-                "formatType":"currency",
-                "align":"left"
-            },
-            {
-                "title": "Payment Method",
-                "valueMap": "paymentMethod",
-                "displayValueEnum": [
-                    {
-                      "label": "CHECK",
-                      "value": 1
-                    },
-                    {
-                      "label": "ACH",
-                      "value": 2
-                    },
-                    {
-                      "label": "CENTIME_CARD",
-                      "value": 3
-                    },
-                    {
-                      "label": "CREDIT_CARD",
-                      "value": 4
-                    },
-                    {
-                      "label": "OTHER",
-                      "value": 5
-                    },
-                    {
-                      "label": "FX_PAYMENT",
-                      "value": 6
-                    },
-                    {
-                      "label": "CENTIME_PAY",
-                      "value": 7
-                    },
-                    {
-                      "label": "CENTIME_CASH",
-                      "value": 8
-                    }
-                  ]
-            },
-            {
-                "title": "Payment Date",
-                "valueMap": "paymentDate",
-                "formatType":"date",
-                "align":"left"
-            },
-            {
-                "title": "Payment Status",
-                "valueMap": "paymentStatus",
-                "displayValueEnum": [
-                    {
-                      "label": "ReadyToPay",
-                      "value": 0
-                    },
-                    {
-                      "label": "AwaitingForApproval",
-                      "value": 1
-                    },
-                    {
-                      "label": "Rejected",
-                      "value": 2
-                    },
-                    {
-                      "label": "Scheduled",
-                      "value": 3
-                    },
-                    {
-                      "label": "Failed",
-                      "value": 4
-                    },
-                    {
-                      "label": "Paid",
-                      "value": 5
-                    },
-                    {
-                      "label": "markedPaid",
-                      "value": 6
-                    },
-                    {
-                      "label": "paidInGeneralLedger",
-                      "value": 7
-                    },
-                    {
-                      "label": "userActionNeeded",
-                      "value": 8
-                    },
-                    {
-                      "label": "inProcess",
-                      "value": 9
-                    }
-                  ]
-            }
-         ]
-    },
-    "billPaymentScheduleDetails":{
-        "componentType": "detailsList",
-        "title":"Bill Payment Schedule Details",
-        "listInfo":[
-            {
-                "label": "Bill Id",
-                "valueMap": "billId"
-            },
-            {
-                "label": "Supplier Id",
-                "valueMap": "supplierId",
-                "renderType": "Link",
-                "action": {
-                    "type": "sidePanelData",
-                    "pathList": [
-                        "1.0",
-                        "aggregate"
-                    ],
-                    "paramObj": {
-                        "templateId": "SupplierDetailsWithPaymentMethodId"
-                    },
-                    "paramObjMap": {
-                        "clientId": "clientId",
-                        "supplierId": "supplierId",
-                        "paymentMethodId": "paymentMethod"
-                    }
-                }
-            },
-            {
-                "label": "Payment amount",
-                "valueMap": "paymentAmount",
-                "formatType":"currency"
-            },
-            {
-                "label": "Payment method",
-                "valueMap": "paymentMethod",
-                "displayValueEnum": [
-                    {
-                      "label": "CHECK",
-                      "value": 1
-                    },
-                    {
-                      "label": "ACH",
-                      "value": 2
-                    },
-                    {
-                      "label": "CENTIME_CARD",
-                      "value": 3
-                    },
-                    {
-                      "label": "CREDIT_CARD",
-                      "value": 4
-                    },
-                    {
-                      "label": "OTHER",
-                      "value": 5
-                    },
-                    {
-                      "label": "FX_PAYMENT",
-                      "value": 6
-                    },
-                    {
-                      "label": "CENTIME_PAY",
-                      "value": 7
-                    },
-                    {
-                      "label": "CENTIME_CASH",
-                      "value": 8
-                    }
-                  ]
-            },
-            {
-                "label": "Payment date",
-                "valueMap": "paymentDate",
-                "formatType":"date"
-            },
-            {
-                "label": "Payment status",
-                "valueMap": "paymentStatus",
-                "displayValueEnum": [
-                    {
-                      "label": "ReadyToPay",
-                      "value": 0
-                    },
-                    {
-                      "label": "AwaitingForApproval",
-                      "value": 1
-                    },
-                    {
-                      "label": "Rejected",
-                      "value": 2
-                    },
-                    {
-                      "label": "Scheduled",
-                      "value": 3
-                    },
-                    {
-                      "label": "Failed",
-                      "value": 4
-                    },
-                    {
-                      "label": "Paid",
-                      "value": 5
-                    },
-                    {
-                      "label": "markedPaid",
-                      "value": 6
-                    },
-                    {
-                      "label": "paidInGeneralLedger",
-                      "value": 7
-                    },
-                    {
-                      "label": "userActionNeeded",
-                      "value": 8
-                    },
-                    {
-                      "label": "inProcess",
-                      "value": 9
-                    }
-                  ]
-            },
-            {
-                "label": "Payer payment accountId",
-                "valueMap": "payerPaymentAccountId",
-                "renderType": "Link",
-                "action": {
-                  "type": "sidePanelData",
-                  "pathList": [
-                    "1.0",
-                    "aggregate"
-                  ],
-                  "paramObj": {
-                    "templateId": "BankAccountDetailsByAccountId"
-                  },
-                  "paramObjMap": {
-                    "clientId": "clientId",
-                    "accountId": "payerPaymentAccountId"
-                  }
-                }
-            },
-            {
-                "label": "Payee payment accountId",
-                "valueMap": "payeePaymentAccountId"
-            },
-            {
-                "label": "Payment Id",
-                "valueMap": "paymentId",
-                "renderType": "Link",
-                "action": {
-                    "type": "drillDown",
-                    "pathList": [
-                        "1.0",
-                        "aggregate"
-                    ],
-                    "paramObj": {
-                        "templateId": "PaymentDetails"
-                    },
-                    "paramObjMap": {
-                        "paymentId": "paymentId",
-                        "clientId": "clientId"
-                    },
-                    "pageQueryParams": ["paymentId","clientId"]
-                }
-            },
-            {
-                "label": "Action by user",
-                "valueMap": "actionByUser"
-            },
-            {
-                "label": "Action date",
-                "valueMap": "actionDate",
-                "formatType":"date"
-            },
-            {
-                "label": "Approval level",
-                "valueMap": "approvalLevel"
-            },
-            {
-                "label": "Remittance email",
-                "valueMap": "remittanceEmail"
-            },
-            {
-                "label": "Approval email sent",
-                "valueMap": "approvalEmailSent",
-                "formatType":"boolean"
-            },
-            {
-                "label": "Payment information",
-                "valueMap": "paymentInformation",
-                "renderType": "detailsList",
-                "renderProps": {
-                    "listInfo": [
-                        {
-                            "label": "Check number",
-                            "valueMap": "checkNumber"
-                        }
-                    ]
-                }
-            },
-            {
-                "label":"Sub status",
-                "valueMap":"subStatus",
-                "renderType":"detailsList",
-                "renderProps": {
-                    "ignoreKeys":["selfApproval","approvalInfo"],
-                    "listInfo": [
-                        {
-                            "label": "Status",
-                            "valueMap": "status",
-                            "valueTNS": "accountPayables",
-                            "displayValueEnum": [
-                              {
-                                "label": "checkPrintingInProcess",
-                                "value": 0
-                              },
-                              {
-                                "label": "cardInformationSent",
-                                "value": 1
-                              },
-                              {
-                                "label": "checkMailed",
-                                "value": 2
-                              },
-                              {
-                                "label": "Scheduled",
-                                "value": 3
-                              },
-                              {
-                                "label": "`checkProcessed`",
-                                "value": 4
-                              },
-                              {
-                                "label": "cardProcessed",
-                                "value": 5
-                              },
-                              {
-                                "label": "cardNotProcessed",
-                                "value": 6
-                              },
-                              {
-                                "label": "returned",
-                                "value": 7
-                              },
-                              {
-                                "label": "reissued",
-                                "value": 8
-                              },
-                              {
-                                "label": "cancelled",
-                                "value": 9
-                              },
-                              {
-                                "label": "initiated",
-                                "value": 10
-                              },
-                              {
-                                "label": "achSubmitted",
-                                "value": 11
-                              },
-                              {
-                                "label": "postedInGeneralLedger",
-                                "value": 12
-                              },
-                              {
-                                "label": "firstApprovalPending",
-                                "value": 13
-                              },
-                              {
-                                "label": "secondApprovalPending",
-                                "value": 14
-                              },
-                              {
-                                "label": "thirdApprovalPending",
-                                "value": 15
-                              },
-                              {
-                                "label": "paymentFailed",
-                                "value": 16
-                              },
-                              {
-                                "label": "voidedManually",
-                                "value": 17
-                              },
-                              {
-                                "label": "checkAtLocalPostOffice",
-                                "value": 18
-                              },
-                              {
-                                "label": "checkAtRecipientPostOffice",
-                                "value": 19
-                              },
-                              {
-                                "label": "checkOutForDelivery",
-                                "value": 20
-                              },
-                              {
-                                "label": "checkDelivered",
-                                "value": 21
-                              },
-                              {
-                                "label": "creditCardDebitInitiated",
-                                "value": 22
-                              },
-                              {
-                                "label": "bankAccountDebitInitiated",
-                                "value": 23
-                              },
-                              {
-                                "label": "fundTransferToSupplierInitiated",
-                                "value": 24
-                              }
-                            ]
-                        },
-                        {
-                            "label": "Email Id",
-                            "valueMap": "byUser"
-                        },
-                        {
-                            "label": "Username",
-                            "valueMap": "byUserName"
-                        },
-                        {
-                            "label": "Reason",
-                            "valueMap": "reason",
-                            "valueTNS": "accountPayables",
-                            "displayValueEnum": [
-                              {
-                                "label": "unknown",
-                                "value": "0"
-                              },
-                              {
-                                "label": "systemFailure",
-                                "value": "1"
-                              },
-                              {
-                                "label": "paymentAmountShouldBeTill2DecimalPlaces",
-                                "value": "2"
-                              },
-                              {
-                                "label": "invalidPaymentCurrency",
-                                "value": "3"
-                              },
-                              {
-                                "label": "invalidPaymentDate",
-                                "value": "4"
-                              },
-                              {
-                                "label": "issueInActivatingPaymentProduct",
-                                "value": "5"
-                              },
-                              {
-                                "label": "invalidAccountDetails",
-                                "value": "6"
-                              },
-                              {
-                                "label": "limitForMaximumPaymentAmountExceeded",
-                                "value": "7"
-                              },
-                              {
-                                "label": "supplierAccountShouldBeDifferentFromFundingAccount",
-                                "value": "8"
-                              },
-                              {
-                                "label": "issuesInGeneratingCardDetails",
-                                "value": "9"
-                              },
-                              {
-                                "label": "issueInOnboardingCentimeCard",
-                                "value": "10"
-                              },
-                              {
-                                "label": "insufficientBalance",
-                                "value": "11"
-                              },
-                              {
-                                "label": "invalidPaymentMethod",
-                                "value": "12"
-                              },
-                              {
-                                "label": "issueInOnboardingACHPayments",
-                                "value": "13"
-                              },
-                              {
-                                "label": "invalidAccountDetails",
-                                "value": "14"
-                              },
-                              {
-                                "label": "paymentNetworkFailure",
-                                "value": "15"
-                              },
-                              {
-                                "label": "supplierDeclinedPayment",
-                                "value": "16"
-                              },
-                              {
-                                "label": "inactiveSupplierAccount",
-                                "value": "17"
-                              },
-                              {
-                                "label": "supplierBankCouldNotSettleThePayment",
-                                "value": "18"
-                              },
-                              {
-                                "label": "inactivePayFromAccount",
-                                "value": "19"
-                              },
-                              {
-                                "label": "surchargeUpdated",
-                                "value": "20"
-                              }
-                            ]
-                        },
-                        {
-                            "label": "Date",
-                            "valueMap": "dateTimeStamp",
-                            "formatType":"datetime"
-                        }
-                    ]
-                }
-            },
-            {
-                "label": "Active status",
-                "valueMap": "activeStatus"
-            },
-            {
-                "label": "Posting counter",
-                "valueMap": "postingCounter"
-            },
-            {
-                "label": "Plan status",
-                "valueMap": "planStatus"
-            },
-            {
-                "label":"GL status",
-                "valueMap":"glStatus",
-                "renderProps":{
-                    "ignoreKeys":["selfApproval"],
-                    "listInfo": [
-                        {
-                            "label": "Status",
-                            "valueMap": "status"
-                        },
-                        {
-                            "label": "Username",
-                            "valueMap": "byUserName"
-                        },
-                        {
-                            "label": "Date",
-                            "valueMap": "dateTimeStamp",
-                            "formatType":"date"
-                        }
-                    ]
-                }
-            },
-            {
-                "label":"History",
-                "valueMap":"history",
-                "renderProps": {
-                    "ignoreKeys":["messageId","personalizeParams"],
-                    "headersInfo":[
-                        {
-                            "title": "Date",
-                            "valueMap": "dateTimeStamp",
-                            "renderType": "text",
-                            "formatType":"date",
-                            "align":"left",
-                            "width": "15%",
-                            "enableSort": true
-                        },
-                        {
-                            "title": "User",
-                            "valueMap": "byUser",
-                            "renderType": "text",
-                            "align":"left",
-                            "width": "15%",
-                            "enableSort": true
-                        },
-                        {
-                            "title": "Message",
-                            "valueMap": "message",
-                            "renderType": "text",
-                            "align":"left",
-                            "width": "35%",
-                            "enableSort": true
-                        },
-                        {
-                            "title": "Action",
-                            "valueMap": "action",
-                            "renderType": "text",
-                            "align":"left",
-                            "width": "35%",
-                            "enableSort": true
-                        }
-                    ]
-                }
             }
         ]
     },
@@ -2191,29 +1842,38 @@
     "openBills":{
         "componentType": "table",
         "title": "Open bills",
-        "ignoreKeys":["currencyCode","clientId"],
+        "ignoreKeys":["currencyCode","clientId","billInfo","paymentDetails",
+        "notes","history","accountIds","historyAvailable","notesAvailable",
+        "paymentScheduleCreated","paymentDelayed"],
         "headersInfo":[
             {
                 "title": "Bill Id",
                 "valueMap": "billId",
                 "align":"left",
                 "width": "25%",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Supplier Id",
+                "valueMap": "supplierId",
+                "align":"left",
                 "renderType": "Link",
                 "action": {
-                    "type": "drillDown",
+                    "type": "sidePanelData",
                     "pathList": [
                         "1.0",
                         "aggregate"
                     ],
                     "paramObj": {
-                        "templateId": "BillPaymentSchedule"
+                        "templateId": "SupplierDetailsWithPaymentMethodId"
                     },
                     "paramObjMap": {
-                        "clientId":"clientId",
-                        "billId": "billId"
+                        "clientId": "clientId",
+                        "supplierId": "supplierId",
+                        "paymentMethodId": "paymentDetails.paymentMethodInfo.paymentMethod"
                     }
-                },
-                "enableSort": true
+                }
             },
             {
                 "title": "Bill number",
@@ -2249,6 +1909,144 @@
                 "align":"left",
                 "width": "25%",
                 "enableSort": true
+            },
+            {
+                "title":"Action",
+                "valueMap":"",
+                "enableAccordion":true,
+                "renderType": "AccordionLink",
+                "renderProps":{
+                    "label":"Get details"
+                },
+                "accordionProps":{
+                    "renderType":"Tabs",
+                    "tabsInfo":[
+                    {
+                        "tabTitle":"Bill info",
+                        "valueMap":"billInfo",
+                        "renderType":"detailsList",
+                        "renderMeta":{
+                            "listInfo":[
+                                {
+                                    "label":"Due date",
+                                    "valueMap":"dueDate",
+                                    "formatType":"datetime"
+                                },
+                                {
+                                    "label":"Description",
+                                    "valueMap":"description"
+                                },
+                                {
+                                    "label":"Exchange rate",
+                                    "valueMap":"exchangeRate"
+                                }
+                            ]
+                        }
+                        
+                    },
+                    {
+                        "tabTitle":"Payment details",
+                        "valueMap":"paymentDetails",
+                        "renderType":"detailsList",
+                        "renderMeta":{
+                            "listInfo":[
+                                {
+                                    "label":"Currency code",
+                                    "valueMap":"currencyCode"
+                                },
+                                {
+                                    "label":"Exchange rate",
+                                    "valueMap":"exchangeRate"
+                                },
+                                {
+                                    "label":"Txn balance",
+                                    "valueMap":"txnBalance",
+                                    "formatType":"currency"
+                                },
+                                {
+                                    "label":"Home balance",
+                                    "valueMap":"homeBalance",
+                                    "formatType":"currency"
+                                },
+                                {
+                                    "label":"Id",
+                                    "valueMap":"id"
+                                },
+                                {
+                                    "label":"Payment amount",
+                                    "valueMap":"paymentAmount",
+                                    "formatType":"currency"
+                                },
+                                {
+                                    "label":"Payment method info",
+                                    "valueMap":"paymentMethodInfo",
+                                    "renderProps":{
+                                        "listInfo":[
+                                            {
+                                                "label":"Payment method",
+                                                "valueMap":"paymentMethod"
+                                            },
+                                            {
+                                                "label":"Sub payment method",
+                                                "valueMap":"subPaymentMethod"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "label":"Payment date",
+                                    "valueMap":"paymentDate",
+                                    "formatType":"datetime"
+                                },
+                                {
+                                    "label":"Payment status info",
+                                    "valueMap":"paymentStatusInfo",
+                                    "renderProps":{
+                                        "listInfo":[
+                                            {
+                                                "label":"Payment status",
+                                                "valueMap":"paymentStatus"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "label":"Approval levels",
+                                    "valueMap":"approvalLevels"
+                                },
+                                {
+                                    "label":"Posting counter",
+                                    "valueMap":"postingCounter"
+                                },
+                                {
+                                    "label":"GL posted",
+                                    "valueMap":"glposted",
+                                    "formatType":"boolean"
+                                },
+                                {
+                                    "label":"Credit amount applied",
+                                    "valueMap":"creditAmountApplied",
+                                    "formatType":"boolean"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "tabTitle":"Notes",
+                        "valueMap":"notes",
+                        "renderType":"table",
+                        "renderMeta":{
+                        }
+                    },
+                    {
+                        "tabTitle":"History",
+                        "valueMap":"history",
+                        "renderType":"table",
+                        "renderMeta":{
+                        }
+                    }
+                ]
+                }
             }
         ],
         "additionalProperties": {
@@ -2262,9 +2060,7 @@
         "ignoreKeys":
         [
         "accountStatus",
-        "sourceId",
         "accountGroup",
-        "institutionId",
         "balanceDate",
         "clientId",
         "institutionLoginId",
@@ -2277,7 +2073,13 @@
         "routingNumber",
         "currencyCode",
         "ownerName",
-        "ownerAddress"
+        "ownerAddress",
+        "accountNumber",
+        "currentBalance",
+        "aggregationSuccessDate",
+        "aggregationAttemptDate",
+        "modifiedAccountName",
+        "modifiedInstitutionName"
     ],
         "headersInfo":[
             {
@@ -2287,13 +2089,6 @@
                 "align":"left",
                 "enableSort": true
             },
-            {
-                "title": "New FI name",
-                "valueMap": "modifiedInstitutionName",
-                "renderType": "text",
-                "align":"left",
-                "enableSort": true
-            }, 
             {
                 "title": "A/C Id",
                 "valueMap": "accountId",
@@ -2309,8 +2104,15 @@
                 "enableSort": true
             },
             {
-                "title": "New A/C name",
-                "valueMap": "modifiedAccountName",
+                "title": "Institution Id",
+                "valueMap": "institutionId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Source Id",
+                "valueMap": "sourceId",
                 "renderType": "text",
                 "align":"left",
                 "enableSort": true
@@ -2319,44 +2121,6 @@
                 "title": "A/C type",
                 "valueMap": "accountType",
                 "renderType": "text",
-                "align":"left",
-                "enableSort": true
-            },
-            {
-                "title": "New A/C type",
-                "valueMap": "modifiedAccountType",
-                "renderType": "text",
-                "align":"left",
-                "enableSort": true
-            },
-            {
-                "title": "A/C #",
-                "valueMap": "accountNumber",
-                "renderType": "text",
-                "align":"left",
-                "enableSort": true
-            },
-            {
-                "title": "A/C bal",
-                "valueMap": "currentBalance",
-                "renderType": "text",
-                "formatType": "currency",
-                "align":"left",
-                "enableSort": true
-            },
-            {
-                "title": "Aggre success date",
-                "valueMap": "aggregationSuccessDate",
-                "renderType": "text",
-                "formatType":"datetime",
-                "align":"left",
-                "enableSort": true
-            },
-            {
-                "title": "Aggre attempt date",
-                "valueMap": "aggregationAttemptDate",
-                "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "enableSort": true
             },
@@ -2502,11 +2266,21 @@
                 "editable": "Dropdown",
                 "componentProps": {
                     "options": {
-                        "0" : "0",
-                        "1" : "1"
+                        "0" : "Disable",
+                        "1" : "Enable"
                     },
                     "size": "medium36"
-                }
+                },
+                "displayValueEnum": [
+                    {
+                        "label": "Disable",
+                        "value": 0
+                    },
+                    {
+                        "label": "Enable",
+                        "value": 1
+                    }
+                ]
             }
         ],
         "additionalProperties": {
@@ -3202,18 +2976,15 @@
             },
             {
                 "label": "Payment Capture Date",
-                "valueMap": "paymentCaptureDate",
-                "formatType": "datetime"
+                "valueMap": "paymentCaptureDate"
             },
             {
                 "label": "Payment Start Date",
-                "valueMap": "paymentStartDate",
-                "formatType": "datetime"
+                "valueMap": "paymentStartDate"
             },
             {
                 "label": "Payment Completion Date",
-                "valueMap": "paymentEndDate",
-                "formatType": "datetime"
+                "valueMap": "paymentEndDate"
             },
             {
                 "label": "Payment Sub Status",
@@ -4304,14 +4075,15 @@
         "headersInfo": [
             {
                 "title": "Client Id",
-                "valueMap": "clientId",
+                "valueMap": "clientEntity.clientId",
+                "align":"left",
                 "renderType": "text",
                 "width": "12%",
                 "enableSort": true
             },
             {
                 "title": "Name",
-                "valueMap": "clientName",
+                "valueMap": "clientEntity.clientName",
                 "renderType": "Link",
                 "action": {
                     "type": "drillDown",
@@ -4323,8 +4095,8 @@
                         "templateId": "ClientDetail"
                     },
                     "paramObjMap": {
-                        "clientId": "clientId",
-                        "glType":"glType"
+                        "clientId": "clientEntity.clientId",
+                        "glType":"clientEntity.glType"
                     },
                     "pageQueryParams": ["clientId","glType"]
                 },
@@ -4333,7 +4105,7 @@
             },
             {
                 "title": "Package Name",
-                "valueMap": "licensePackageId",
+                "valueMap": "clientEntity.licensePackageId",
                 "displayValueEnum": [
                     {
                         "label": "centime-test",
@@ -4409,7 +4181,7 @@
             },
             {
                 "title": "GL Type",
-                "valueMap": "glType",
+                "valueMap": "clientEntity.glType",
                 "width": "15%",
                 "renderType": "Link",
                 "displayValueEnum": [
@@ -4440,15 +4212,16 @@
                         "templateId": "GlInformation"
                     },
                     "paramObjMap": {
-                        "clientId": "clientId",
-                        "glType": "glType"
+                        "clientId": "clientEntity.clientId",
+                        "glType":"clientEntity.glType",
+                        "clientName":"clientEntity.clientName"
                     },
-                    "pageQueryParams": ["clientId","glType"]
+                    "pageQueryParams": ["clientId","glType","clientName"]
                 }
             },
             {
                 "title": "Status",
-                "valueMap": "clientStatus",
+                "valueMap": "clientEntity.activeStatus",
                 "renderType": "text",
                 "enableSort": true,
                 "width": "10%"
@@ -4938,31 +4711,53 @@
         "title": "User Details",
         "listInfo": [
             {
-                "title": "User Id",
+                "label": "User Id",
                 "valueMap": "userId"
             },
             {
-                "title": "Login Id",
+                "label": "Login Id",
                 "valueMap": "loginId"
             },
             {
-                "title": "First Name",
+                "label": "User type",
+                "valueMap": "userType",
+                "displayValueEnum": [
+                    {
+                        "label": "Default",
+                        "value": 0
+                    },
+                    {
+                        "label": "Invoice approver",
+                        "value": 1
+                    },
+                    {
+                        "label": "Payment approver",
+                        "value": 2
+                    },
+                    {
+                        "label": "CS Representative",
+                        "value": 3
+                    }
+                ]
+            },
+            {
+                "label": "First Name",
                 "valueMap": "firstName"
             },
             {
-                "title": "Last Name",
+                "label": "Last Name",
                 "valueMap": "lastName"
             },
             {
-                "title": "City",
+                "label": "City",
                 "valueMap": "city"
             },
             {
-                "title": "Country",
+                "label": "Country",
                 "valueMap": "country"
             },
             {
-                "title": "Mobile",
+                "label": "Mobile",
                 "valueMap": "mobile",
                 "editable": true
             },
@@ -4994,19 +4789,19 @@
                 ]
             },
             {
-                "title": "Supervisor Id",
+                "label": "Supervisor Id",
                 "valueMap": "supervisorId"
             },
             {
-                "title": "Entity Type",
+                "label": "Entity Type",
                 "valueMap": "entityType"
             },
             {
-                "title": "Industry Type",
+                "label": "Industry Type",
                 "valueMap": "industryType"
             },
             {
-                "title": "Preferences",
+                "label": "Preferences",
                 "valueMap": "preferences",
                 "renderType": "detailsList",
                 "renderProps": {
@@ -5015,76 +4810,77 @@
                 }
             },
             {
-                "title": "Expires In",
+                "label": "Expires In",
                 "valueMap": "expiresIn"
             },
             {
-                "title": "Challenge Name",
+                "label": "Challenge Name",
                 "valueMap": "challengeName"
             },
             {
-                "title": "Title",
+                "label": "Title",
                 "valueMap": "title"
             },
             {
-                "title": "Is Entitlement Defined",
-                "valueMap": "entitlementDefined"
+                "label": "Is Entitlement Defined",
+                "valueMap": "entitlementDefined",
+                "formatType":"boolean"
             },
             {
-                "title": "Created Time",
+                "label": "Created Time",
                 "valueMap": "createdTime",
                 "formatType": "datetime"
             },
             {
-                "title": "Updated Time",
+                "label": "Updated Time",
                 "valueMap": "updatedTime",
                 "formatType": "datetime"
             },
             {
-                "title": "User Entitlement",
+                "label": "User Entitlement",
                 "valueMap": "userEntitlement"
             },
             {
-                "title": "Partner Name",
+                "label": "Partner Name",
                 "valueMap": "partnerName"
             },
             {
-                "title": "Entity Id",
+                "label": "Entity Id",
                 "valueMap": "entityId"
             },
             {
-                "title": "Mdm Id",
+                "label": "Mdm Id",
                 "valueMap": "mdmId"
             },
             {
-                "title": "Company Name",
+                "label": "Company Name",
                 "valueMap": "companyName"
             },
             {
-                "title": "Client Id",
+                "label": "Client Id",
                 "valueMap": "clientId"
             },
             {
-                "title": "Connect Uri",
+                "label": "Connect Uri",
                 "valueMap": "connectUri"
             },
             {
-                "title": "User Secret Updated Time",
+                "label": "User Secret Updated Time",
                 "valueMap": "userSecretUpdatedTime",
                 "formatType": "datetime"
             },
             {
-                "title": "Login Attempts Left",
+                "label": "Login Attempts Left",
                 "valueMap": "loginAttemptLeft",
                 "editable": true
             },
             {
-                "title": "Last Login Failed Attempt At",
+                "label": "Last Login Failed Attempt At",
                 "valueMap": "lastLoginFailedAttemptAt",
                 "formatType": "datetime"
             }
         ],
-        "ignoreKeys": ["phone","password", "session", "accessToken", "refreshToken", "userPolicy", "glType"],
+        "ignoreKeys": ["phone","password", "session", "accessToken", "refreshToken", "userPolicy", "glType","clientId","connectUri","mdmId","partnerName"],
         "additionalProperties": {
             "editableForm": true,
             "onSaveAction": {
@@ -5115,6 +4911,7 @@
                     "label": "List transient clients"
                 },
                 "renderPosition": "bottom",
+                "gridSize":3,
                 "action": {
                     "type": "drillDown",
                     "pathList": [
@@ -5128,8 +4925,60 @@
                         "loginId":"loginId"
                     }
                 }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Enable Custom Challenge"
+                },
+                "renderPosition": "bottom",
+                "gridSize":3,
+                "action": {
+                    "type": "updateCall",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "EnableCustomChallenge"
+                    },
+                    "paramObjMap": {
+                        "mfaChallenge": {
+                            "type":"hardCoded",
+                            "value":"CUSTOM_CHALLENGE"
+                        },
+                        "loginId":"loginId"
+                    }
+                }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": " Get OTP",
+                    "className":"ml-6"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "CustomOtp"
+                    },
+                    "paramObjMap": {
+                        "loginId":"loginId"
+                    }
+                }
             }
+
         ]
+    },
+    "customOtp":{
+        "title": "OTP Details",
+        "label":"OTP",
+        "defaultValue":"Not available"
     },
     "dataSourceDetail": {
         "componentType": "detailsList",
@@ -5140,7 +4989,11 @@
                 "valueMap": "clientId"
             },
             {
-                "label": "GL Type",
+                "label": "Client name",
+                "valueMap": "clientName"
+            },
+            {
+                "label": "Source name",
                 "valueMap": "sourceName"
             },
             {
@@ -5186,11 +5039,21 @@
                 "valueMap":"elapsedTime"
             },
             {
-                "label": "Incremental sync flag",
-                "valueMap": "connectionInfo.incrementalSyncFlag"
+                "label": "Auto sync",
+                "valueMap": "connectionInfo.incrementalSyncFlag",
+                "displayValueEnum": [
+                    {
+                        "label": "Off",
+                        "value": 0
+                    },
+                    {
+                        "label": "On",
+                        "value": 1
+                    }
+                ]
             }
         ],
-        "ignoreKeys": ["paymentId","clientName","glType"],
+        "ignoreKeys": ["paymentId","glType"],
         "additionalContent": [
             {
                 "renderType": "Button",
@@ -5233,6 +5096,28 @@
                     "paramObjMap": {
                         "clientId": "clientId",
                         "sourceName": "sourceName"
+                    }
+                }
+            },
+            {
+                "renderType": "Button",
+
+                "renderProps": {
+                    "label": "View posting txns",
+                    "className": "mb-5"
+                },
+                "renderPosition": "top",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "GlPostingTxn"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId"
                     }
                 }
             }
@@ -5362,16 +5247,16 @@
                 },
                 "displayValueEnum": [
                     {
-                        "label": "IN SYNC",
-                        "value": 2
+                      "label": "IN SYNC",
+                      "value": 2
                     },
                     {
-                        "label": "ERROR",
-                        "value": 3
+                      "label": "ERROR",
+                      "value": 3
                     },
                     {
-                        "label": "IN PROGRESS",
-                        "value": 1
+                      "label": "IN PROGRESS",
+                      "value": 1
                     }
                 ],
                 "enableSort": true
