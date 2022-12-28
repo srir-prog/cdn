@@ -625,6 +625,23 @@
                     },
                     {
                         "type": "Dropdown",
+                        "title": "Transaction type",
+                        "componentProps": {
+                            "options": {
+                                "BILL": "BILL",
+                                "BILL_PAYMENT": "BILL_PAYMENT",
+                                "JOURNAL_ENTRY": "JOURNAL_ENTRY",
+                                "INVOICE_PAYMENT": "INVOICE_PAYMENT",
+                                "VENDOR_CREDIT": "VENDOR_CREDIT",
+                                "SUPPLIER": "SUPPLIER"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
+                        },
+                        "queryName": "txnType"
+                    },
+                    {
+                        "type": "Dropdown",
                         "title": "Transaction status",
                         "componentProps": {
                             "options": {
@@ -673,6 +690,10 @@
                         "createdTime": {
                             "type": "queryBuilder",
                             "value": "createdTime"
+                        },
+                        "txnType": {
+                            "type": "queryBuilder",
+                            "value": "txnType"
                         },
                         "txnStatus": {
                             "type": "queryBuilder",
