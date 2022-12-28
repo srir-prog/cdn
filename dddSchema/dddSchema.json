@@ -684,7 +684,7 @@
                         "aggregate"
                     ],
                     "paramObj": {
-                        "templateId": "GlPostingTxn"
+                        "templateId": "GlPostingTxnWithClientName"
                     },
                     "paramObjMap": {
                         "createdTime": {
@@ -1119,7 +1119,7 @@
             "paginationNeeded":true
         }
     },
-    "glPostingTxn":{
+    "GlPostingTxnWithClientName":{
         "componentType": "table",
         "title": "GL posting transaction list",
         "ignoreKeys":[],
@@ -1127,6 +1127,13 @@
             {
                 "title": "Client Id",
                 "valueMap": "clientId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Client name",
+                "valueMap": "clientName",
                 "renderType": "text",
                 "align":"left",
                 "enableSort": true
@@ -5135,7 +5142,7 @@
                         "aggregate"
                     ],
                     "paramObj": {
-                        "templateId": "GlPostingTxn"
+                        "templateId": "GlPostingTxnWithClientName"
                     },
                     "paramObjMap": {
                         "clientId": "clientId"
