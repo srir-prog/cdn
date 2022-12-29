@@ -494,5 +494,11 @@
     "noApprovalWorkflowText": "कोई अनुमोदन वर्कफ़्लो सेट नहीं है",
     "approved":"स्वीकृत",
     "markApproved": "मार्क स्वीकृत",
-    "viewApprovalWorkflow":"अनुमोदन कार्यप्रवाह देखें"
+    "viewApprovalWorkflow":"अनुमोदन कार्यप्रवाह देखें",
+    "documentMarkApprovedTitle": "इनवॉइस को मंज़ूरी के तौर पर मार्क करें",
+    "errorMarkApprovedInvoices": "दस्तावेज़ को स्वीकृत के रूप में चिह्नित करने में त्रुटियां आईं। कृपया पुन: प्रयास करें।",
+    "successfullyMarkApprovedInvoices": "स्वीकृत के रूप में चिह्नित दस्तावेज़",
+    "markApprovedPopupFooterNote": "एक बार किसी इनवॉइस को स्वीकृत के रूप में चिह्नित कर देने के बाद, उसे अनुमोदन के लिए रूट नहीं किया जाएगा",
+    "historyActionDocumentMarkApproved": "दस्तावेज़ स्वीकृत चिह्नित",
+    "markedApproved": "स्वीकृत चिह्नित"
 }
