@@ -494,5 +494,6 @@
     "noApprovalWorkflowText": "कोई अनुमोदन वर्कफ़्लो सेट नहीं है",
     "approved":"स्वीकृत",
     "markApproved": "मार्क स्वीकृत",
-    "viewApprovalWorkflow":"अनुमोदन कार्यप्रवाह देखें"
+    "viewApprovalWorkflow":"अनुमोदन कार्यप्रवाह देखें",
+    "documentsToBeApproved": "{{count}} चालान आपके अनुमोदन की प्रतीक्षा कर रहा है।"
 }
