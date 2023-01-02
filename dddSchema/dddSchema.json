@@ -4943,7 +4943,8 @@
     },
     "packagePolicy":{
         "componentType": "detailsList",
-        "title": "Policy Details"
+        "title": "Policy Details",
+        "ignoreKeys":["glType","clientId","clientName"]
     },
     "userDetail": {
         "componentType": "detailsList",
