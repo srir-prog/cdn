@@ -4457,6 +4457,28 @@
             {
                 "title": "Status",
                 "valueMap": "clientEntity.activeStatus",
+                "displayValueEnum":[
+                    {
+                        "label": "Non-Activated",
+                        "value": 1
+                    },
+                    {
+                        "label": "Active",
+                        "value":2
+                    },
+                    {
+                        "label": "Suspended",
+                        "value": 3
+                    },
+                    {
+                        "label": "Closed",
+                        "value": 4
+                    },
+                    {
+                        "label": "Invited",
+                        "value": 5
+                    }
+                ],
                 "renderType": "text",
                 "enableSort": true,
                 "width": "10%"
