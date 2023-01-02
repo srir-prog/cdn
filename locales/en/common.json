@@ -500,5 +500,11 @@
     "documentsToBeApproved": "{{count}} invoice is awaiting your approval.",
     "extractingDataFromFile": "Extracting data from file <b>{{fileName}}</b>",
     "unableToExtractDataFromFile": "Unable to extract data from file <b>{{fileName}}</b>.",
-    "pleaseUploadAgain": "Please upload again"
+    "pleaseUploadAgain": "Please upload again",
+    "documentMarkApprovedTitle": "Mark invoices as approved",
+    "errorMarkApprovedInvoices": "Errors encountered in marking the document as approved. Please try again.",
+    "successfullyMarkApprovedInvoices": "Documents marked as approved",
+    "markApprovedPopupFooterNote": "Once an invoice is marked approved, it would no longer be routed for approvals",
+    "historyActionDocumentMarkApproved":"Document marked approved",
+    "markedApproved": "Marked approved"
 }
