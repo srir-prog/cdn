@@ -22,7 +22,9 @@
   "age": "Age",
   "status": "Status",
   "salary": "Salary",
-  "DOB": "DOB",
+  "joiningDate": "Joining Date",
+  "Details": "Details",
+  "More": "More",
   "openingBalance": "Opening Balance",
   "Operating": "Cash from operations",
   "Investing": "Cash from investments",
@@ -30,5 +32,7 @@
   "closingBalance": "Closing Balance",
   "cashIn": "Cash In",
   "cashOut": "Cash Out",
-  "8oh0e8b59r2": "MYY"
+  "8oh0e8b59r2": "MYY",
+  "position": "Position",
+  "designation": "Designation"
 }

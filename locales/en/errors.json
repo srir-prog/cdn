@@ -33,5 +33,7 @@
   "NetSuiteNotSignedUpInfo1": "Please ask your Netsuite Account Administrator to invite you by adding you as a user of Centime.",
   "NetSuiteNotSignedUpInfo2": "Once you receive the invitation link, signup to Centime by clicking the invite link and follow the process required.",
   "netSuiteRestrictingAccessErrorMsg": "Welcome! This is a demo business entity provided to explore the functionality provided by Centime. In order to connect your Netsuite account. please schedule an appointment by <ourLink></ourLink>",
-  "clickingHere": "Clicking here"
+  "qboGlFlowRestrictionInfo": "In order to complete the process of connecting your General ledger, please schedule an appointment with Centime by <ourLink></ourLink>",
+  "clickingHere": "Clicking here",
+  "unableToSignUpNoticeHeaderText": "Unable to SignUp"
 }
