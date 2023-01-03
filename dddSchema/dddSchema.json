@@ -625,6 +625,23 @@
                     },
                     {
                         "type": "Dropdown",
+                        "title": "Transaction type",
+                        "componentProps": {
+                            "options": {
+                                "BILL": "BILL",
+                                "BILL_PAYMENT": "BILL_PAYMENT",
+                                "JOURNAL_ENTRY": "JOURNAL_ENTRY",
+                                "INVOICE_PAYMENT": "INVOICE_PAYMENT",
+                                "VENDOR_CREDIT": "VENDOR_CREDIT",
+                                "SUPPLIER": "SUPPLIER"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
+                        },
+                        "queryName": "txnType"
+                    },
+                    {
+                        "type": "Dropdown",
                         "title": "Transaction status",
                         "componentProps": {
                             "options": {
@@ -668,12 +685,16 @@
                         "aggregate"
                     ],
                     "paramObj": {
-                        "templateId": "GlPostingTxn"
+                        "templateId": "GlPostingTxnWithClientName"
                     },
                     "paramObjMap": {
                         "createdTime": {
                             "type": "queryBuilder",
                             "value": "createdTime"
+                        },
+                        "txnType": {
+                            "type": "queryBuilder",
+                            "value": "txnType"
                         },
                         "txnStatus": {
                             "type": "queryBuilder",
@@ -883,7 +904,7 @@
                         "aggregate"
                     ],
                     "paramObj": {
-                        "templateId": "GlClientList"
+                        "templateId": "NonGlClientList"
                     },
                     "paramObjMap": {
                         "sourceName": {
@@ -1100,7 +1121,200 @@
             "paginationNeeded":true
         }
     },
-    "glPostingTxn":{
+    "nonGlClientList":{
+        "componentType": "table",
+        "title": "Non GL client list",
+        "ignoreKeys":["clientEntity.glType"],
+        "headersInfo":[
+            {
+                "title": "Client Id",
+                "valueMap": "clientEntity.clientId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Client name",
+                "valueMap": "clientEntity.clientName",
+                "renderType": "Link",
+                "align":"left",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "NonGlInformation"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientEntity.clientId",
+                        "sourceName": "dataSourceDetailEntity.sourceName",
+                        "clientName":"clientEntity.clientName"
+                    },
+                    "pageQueryParams": ["clientName"]
+                },
+                "enableSort": true
+            },
+            {
+                "title": "GL Sync status",
+                "valueMap": "dataSourceDetailEntity.syncStatus",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true,
+                "displayValueEnum": [
+                    {
+                      "label": "IN SYNC",
+                      "value": 2
+                    },
+                    {
+                      "label": "ERROR",
+                      "value": 3
+                    },
+                    {
+                      "label": "IN PROGRESS",
+                      "value": 1
+                    },
+                    {
+                        "label": "DISCONNECTED",
+                        "value": 4
+                    }
+                ]
+            },
+            {
+                "title": "Auto sync",
+                "valueMap": "dataSourceDetailEntity.connectionInfo.incrementalSyncFlag",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true,
+                "displayValueEnum": [
+                    {
+                        "label": "Off",
+                        "value": 0
+                    },
+                    {
+                        "label": "On",
+                        "value": 1
+                    }
+                ]
+            },
+            {
+                "title": "Source name",
+                "valueMap": "dataSourceDetailEntity.sourceName",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true,
+                "displayValueEnum": [
+                    {
+                        "label": "Sandbox",
+                        "value": 0
+                    },
+                    {
+                        "label": "QuickBooks Online",
+                        "value": 2
+                    },
+                    {
+                        "label": "Oracle NetSuite",
+                        "value": 3
+                    },
+                    {
+                        "label": "QuickBooks Desktop",
+                        "value": 4
+                    }
+                ]
+                
+            },
+            {
+                "title": "Package name",
+                "valueMap": "clientEntity.licensePackageId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true,
+                "displayValueEnum": [
+                    {
+                        "label": "centime-test",
+                        "value": -11
+                    },
+                    {
+                        "label": "centime-sandbox",
+                        "value": 1
+                    },
+                    {
+                        "label": "centime-basic",
+                        "value": 2
+                    },
+                    {
+                        "label": "centime-base",
+                        "value": 3
+                    },
+                    {
+                        "label": "centime-admin",
+                        "value": 4
+                    },
+                    {
+                        "label": "centime-supplier",
+                        "value": 5
+                    },
+                    {
+                        "label": "centime-op",
+                        "value": 6
+                    },
+                    {
+                        "label": "centime-full",
+                        "value": 7
+                    },
+                    {
+                        "label": "Cash flow control - full suite trail",
+                        "value": 8
+                    },
+                    {
+                        "label": "Forecast cash flows",
+                        "value": 9
+                    },
+                    {
+                        "label": "Manage Payables",
+                        "value": 10
+                    },
+                    {
+                        "label": "Manage receivables",
+                        "value": 11
+                    },
+                    {
+                        "label": "Cash flow control - full suite",
+                        "value": 12
+                    },
+                    {
+                        "label": "Trail ended",
+                        "value": 13
+                    },
+                    {
+                        "label": "Past due",
+                        "value": 14
+                    },
+                    {
+                        "label": "centime-partner",
+                        "value": 15
+                    },
+                    {
+                        "label": "centime-business-ops",
+                        "value": 16
+                    }
+                ]
+            },
+            {
+                "title": "Failure count",
+                "valueMap": "dataSourceDetailEntity.connectionInfo.failureCount",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            }
+        ],
+        "additionalProperties":{
+            "enableSearch":true,
+            "paginationNeeded":true
+        }
+    },
+    "GlPostingTxnWithClientName":{
         "componentType": "table",
         "title": "GL posting transaction list",
         "ignoreKeys":[],
@@ -1108,6 +1322,13 @@
             {
                 "title": "Client Id",
                 "valueMap": "clientId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Client name",
+                "valueMap": "clientName",
                 "renderType": "text",
                 "align":"left",
                 "enableSort": true
@@ -4108,6 +4329,20 @@
             {
                 "title": "Package Name",
                 "valueMap": "clientEntity.licensePackageId",
+                "renderType": "Link",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "PackagePolicy"
+                    },
+                    "paramObjMap": {
+                        "packageId": "clientEntity.licensePackageId"
+                    }
+                },
                 "displayValueEnum": [
                     {
                         "label": "centime-test",
@@ -4224,6 +4459,28 @@
             {
                 "title": "Status",
                 "valueMap": "clientEntity.activeStatus",
+                "displayValueEnum":[
+                    {
+                        "label": "Non-Activated",
+                        "value": 1
+                    },
+                    {
+                        "label": "Active",
+                        "value":2
+                    },
+                    {
+                        "label": "Suspended",
+                        "value": 3
+                    },
+                    {
+                        "label": "Closed",
+                        "value": 4
+                    },
+                    {
+                        "label": "Invited",
+                        "value": 5
+                    }
+                ],
                 "renderType": "text",
                 "enableSort": true,
                 "width": "10%"
@@ -4708,6 +4965,11 @@
             }
         }
     },
+    "packagePolicy":{
+        "componentType": "detailsList",
+        "title": "Policy Details",
+        "ignoreKeys":["glType","clientId","clientName"]
+    },
     "userDetail": {
         "componentType": "detailsList",
         "title": "User Details",
@@ -5125,7 +5387,7 @@
                         "aggregate"
                     ],
                     "paramObj": {
-                        "templateId": "GlPostingTxn"
+                        "templateId": "GlPostingTxnWithClientName"
                     },
                     "paramObjMap": {
                         "clientId": "clientId"
@@ -5153,82 +5415,6 @@
                 },
                 "bodyObjMap": {}
             }
-        }
-    },
-    "syncHistory":{
-        "componentType": "table",
-        "title": "Sync history",
-        "ignoreKeys":["clientId","sourceName","actionTaken","actionRequired"],
-        "headersInfo": [
-            {
-                "title": "Batch Id",
-                "valueMap": "batchId",
-                "renderType": "text",
-                "enableSort": true
-            },
-            {
-                "title": "Entity name",
-                "valueMap": "entityName",
-                "renderType": "text",
-                "enableSort": true
-            },
-            {
-                "title": "Sync start time",
-                "valueMap": "syncStartTime",
-                "formatType":"datetime",
-                "renderType": "text",
-                "enableSort": true
-            },
-            {
-                "title": "Sync end time",
-                "valueMap": "syncEndTime",
-                "renderType": "text",
-                "formatType":"datetime",
-                "enableSort": true
-            },
-            {
-                "title": "Recs read",
-                "valueMap": "recsRead",
-                "renderType": "text",
-                "enableSort": true
-            },
-            {
-                "title": "Recs loaded",
-                "valueMap": "recsLoaded",
-                "renderType": "text",
-                "enableSort": true
-            },
-            {
-                "title": "Sync status",
-                "valueMap": "syncStatus",
-                "renderType": "text",
-                "enableSort": true
-            },
-            {
-                "title": "Error code",
-                "valueMap": "errorCode",
-                "renderType": "text",
-                "enableSort": true
-            },
-            {
-                "title": "Error message",
-                "valueMap": "errorMessage",
-                "renderType": "text",
-                "enableSort": true
-            },
-            {
-                "title": "Standardized error code",
-                "valueMap": "standardizedErrorCode",
-                "renderType": "text",
-                "enableSort": true
-            }
-            
-        ],
-        "additionalProperties":{
-            "enableSearch": true,
-            "defaultColumnToSort":2,
-            "defaultSortingOrder":"desc",
-            "paginationNeeded":true
         }
     },
     "dataSyncTrack": {
@@ -5326,6 +5512,321 @@
                 },
                 "bodyObjMap": {}
             }
+        }
+    },
+    "nonGlDataSourceDetail": {
+        "componentType": "detailsList",
+        "title": "Data Source Details",
+        "listInfo": [
+            {
+                "label": "Client Id",
+                "valueMap": "clientId"
+            },
+            {
+                "label": "Client name",
+                "valueMap": "clientName"
+            },
+            {
+                "label": "Source name",
+                "valueMap": "sourceName"
+            },
+            {
+                "label": "Sync Start",
+                "valueMap": "syncStart",
+                "formatType": "datetime"
+            },
+            {
+                "label": "Sync End",
+                "valueMap": "syncEnd",
+                "formatType": "datetime"
+            },
+            {
+                "label": "Source Sync Status",
+                "valueMap": "sourceSyncStatus",
+                "editable": true,
+                "editType": "select",
+                "enum": [
+                    {
+                        "label" : "IN SYNC",
+                        "value": "IN SYNC"
+                    },
+                    {
+                        "label" : "ERROR",
+                        "value": "ERROR"
+                    },
+                    {
+                        "label" : "IN PROGRESS",
+                        "value": "IN PROGRESS"
+                    },
+                    {
+                        "label" : "DISCONNECTED",
+                        "value": "DISCONNECTED"
+                    }
+                ]
+            },
+            {
+                "label": "Number of times failed",
+                "valueMap": "connectionInfo.failureCount"
+            },
+            {
+                "label":"Elapsed time",
+                "valueMap":"elapsedTime"
+            },
+            {
+                "label": "Auto sync",
+                "valueMap": "connectionInfo.incrementalSyncFlag",
+                "displayValueEnum": [
+                    {
+                        "label": "Off",
+                        "value": 0
+                    },
+                    {
+                        "label": "On",
+                        "value": 1
+                    }
+                ]
+            }
+        ],
+        "ignoreKeys": ["paymentId","glType"],
+        "additionalContent": [
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Sync now",
+                    "className": "mb-5"
+                },
+                "renderPosition": "top",
+                "action": {
+                    "type": "updateCall",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "SyncNow"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId",
+                        "sourceName": "sourceName"
+                    }
+                }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Sync history",
+                    "className": "mb-5"
+                },
+                "renderPosition": "top",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "SyncHistory"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId",
+                        "sourceName": "sourceName"
+                    }
+                }
+            }
+        ],
+        "additionalProperties": {
+            "editableForm": true,
+            "onSaveAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "UpdateDataSourceDetail"
+                },
+                "paramObjMap": {
+                    "clientId": "clientId",
+                    "sourceName": "sourceName",
+                    "sourceSyncStatus": "sourceSyncStatus"
+                },
+                "bodyObjMap": {}
+            }
+        }
+    },
+    "nonGlDataSyncTrack": {
+        "componentType": "table",
+        "title": "Data Sync Track",
+        "ignoreKeys":["dataSyncTrackEntity.clientId","glType","dataSyncTrackEntity.sourceName"],
+        "headersInfo": [
+            {
+                "title": "Entity Name",
+                "valueMap": "dataSyncTrackEntity.entityName",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Entity Sync Status",
+                "valueMap": "dataSyncTrackEntity.syncStatus",
+                "renderType": "text",
+                "align":"left",
+                "editable": "Dropdown",
+                "componentProps": {
+                    "options": {
+                        "IN SYNC" : "IN SYNC",
+                        "ERROR" : "ERROR",
+                        "IN PROGRESS" : "IN PROGRESS"
+                    },
+                    "size": "medium36"
+                },
+                "displayValueEnum": [
+                    {
+                      "label": "IN SYNC",
+                      "value": 2
+                    },
+                    {
+                      "label": "ERROR",
+                      "value": 3
+                    },
+                    {
+                      "label": "IN PROGRESS",
+                      "value": 1
+                    }
+                ],
+                "enableSort": true
+            },
+            {
+                "title": "Last Sync",
+                "valueMap": "dataSyncTrackEntity.lastSyncTime",
+                "formatType": "datetime",
+                "align":"left",
+                "editable": "DatesSelector",
+                "componentProps": {
+                    "onlySingleDate": true
+                },
+                "enableSort": true
+            },
+            {
+                "title": "Batch Id",
+                "valueMap": "dataSyncTrackEntity.batchId",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Error code",
+                "valueMap": "errorCode",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Error message",
+                "valueMap": "errorMessage",
+                "renderType": "text",
+                "enableSort": true
+            }
+        ],
+        "additionalProperties": {
+            "editableForm": true,
+            "paginationNeeded":true,
+            "onSaveAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "UpdateDataSyncTrack"
+                },
+                "paramObjMap": {
+                    "clientId": "clientId",
+                    "sourceName": "sourceName",
+                    "entityName": "entityName",
+                    "lastSyncTime": "lastSyncTime",
+                    "entitySyncStatus": "entitySyncStatus",
+                    "batchId": "batchId"
+                },
+                "bodyObjMap": {}
+            }
+        }
+    },
+    "syncHistory":{
+        "componentType": "table",
+        "title": "Sync history",
+        "ignoreKeys":["clientId","sourceName","actionTaken","actionRequired"],
+        "headersInfo": [
+            {
+                "title": "Batch Id",
+                "valueMap": "batchId",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Entity name",
+                "valueMap": "entityName",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Sync start time",
+                "valueMap": "syncStartTime",
+                "formatType":"datetime",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Sync end time",
+                "valueMap": "syncEndTime",
+                "renderType": "text",
+                "formatType":"datetime",
+                "enableSort": true
+            },
+            {
+                "title": "Recs read",
+                "valueMap": "recsRead",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Recs loaded",
+                "valueMap": "recsLoaded",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Sync status",
+                "valueMap": "syncStatus",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Error code",
+                "valueMap": "errorCode",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Error message",
+                "valueMap": "errorMessage",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Standardized error code",
+                "valueMap": "standardizedErrorCode",
+                "renderType": "text",
+                "enableSort": true
+            }
+            
+        ],
+        "additionalProperties":{
+            "enableSearch": true,
+            "defaultColumnToSort":2,
+            "defaultSortingOrder":"desc",
+            "paginationNeeded":true
         }
     },
     "userInviteeTransient": {
