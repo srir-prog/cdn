@@ -660,6 +660,7 @@
                     "label": "List Posting Transaction(s)"
                 },
                 "renderPosition": "bottom",
+                "gridSize":"3",
                 "action": {
                     "type": "drillDown",
                     "pathList": [
@@ -874,6 +875,7 @@
                     "fullWidth":true
                 },
                 "renderPosition": "bottom",
+                "gridSize":3,
                 "action": {
                     "type": "drillDown",
                     "pathList": [
@@ -4935,6 +4937,8 @@
                 "gridSize":3,
                 "action": {
                     "type": "updateCall",
+                    "url": "fs/business-ops-service",
+                    "method": "GET",
                     "pathList": [
                         "1.0",
                         "aggregate"
@@ -4948,13 +4952,20 @@
                             "value":"CUSTOM_CHALLENGE"
                         },
                         "loginId":"loginId"
+                    },
+                    "bodyObjMap": {},
+                    "successNotificationObject": {
+                        "message": "Successfully updated user details"
+                    },
+                    "errorNotificationObject": {
+                        "message": "Error in updating user details"
                     }
                 }
             },
             {
                 "renderType": "Button",
                 "renderProps": {
-                    "label": " Get OTP",
+                    "label": "Get OTP",
                     "className":"ml-6"
                 },
                 "renderPosition": "bottom",
