@@ -331,5 +331,6 @@
     "accruedFeeTxnTypeRepayReversal": "(जोड़ें।.)",
     "accruedFeeTxnTypeTxnReversal": "(आर)",
     "dayOfMonth":"हर महीने का दिन",
-    "statementDate":"स्टेटमेंट की तारीख"
+    "statementDate":"स्टेटमेंट की तारीख",
+    "centimeCashSuspendReasonTooltip":"अपर्याप्त धनराशि के कारण CentimeCash खाता निलंबित कर दिया गया है। पुनः सक्रिय करने के लिए, Centime Customer Success से संपर्क करें।"
 }

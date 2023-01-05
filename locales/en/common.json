@@ -506,5 +506,6 @@
     "successfullyMarkApprovedInvoices": "Documents marked as approved",
     "markApprovedPopupFooterNote": "Once an invoice is marked approved, it would no longer be routed for approvals",
     "historyActionDocumentMarkApproved":"Document marked approved",
-    "markedApproved": "Marked approved"
+    "markedApproved": "Marked approved",
+    "footerNoteIcon": "Footer note icon for invoice confirmation popup"
 }
