@@ -821,6 +821,7 @@
     "nonGLListQueryBuilder":{
         "componentType": "detailsList",
         "title": "Non GL clients",
+        "ignoreKeys":["clientName"],
         "additionalProperties": {
             "showQueryBuilder": true,
             "queryBuilderPosition": "bottom",
