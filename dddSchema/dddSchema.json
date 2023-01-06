@@ -5193,7 +5193,9 @@
             {
                 "renderType": "Button",
                 "renderProps": {
-                    "label": "Enable Custom Challenge"
+                    "label": "Enable Custom Challenge",
+                    "valueMap":"preferences.mfaChallenge",
+                    "compareValue":"CUSTOM_CHALLENGE"
                 },
                 "renderPosition": "bottom",
                 "gridSize":3,
@@ -5215,13 +5217,7 @@
                         },
                         "loginId":"loginId"
                     },
-                    "bodyObjMap": {},
-                    "successNotificationObject": {
-                        "message": "Successfully updated user details"
-                    },
-                    "errorNotificationObject": {
-                        "message": "Error in updating user details"
-                    }
+                    "bodyObjMap": {}
                 }
             },
             {
@@ -5233,6 +5229,7 @@
                 "renderPosition": "bottom",
                 "action": {
                     "type": "drillDown",
+                    "url": "fs/business-ops-service",
                     "pathList": [
                         "1.0",
                         "aggregate"
@@ -5242,16 +5239,12 @@
                     },
                     "paramObjMap": {
                         "loginId":"loginId"
-                    }
+                    },
+                    "bodyObjMap": {}
                 }
             }
 
         ]
-    },
-    "customOtp":{
-        "title": "OTP Details",
-        "label":"OTP",
-        "defaultValue":"Not available"
     },
     "dataSourceDetail": {
         "componentType": "detailsList",
@@ -5513,6 +5506,11 @@
                 "bodyObjMap": {}
             }
         }
+    },
+    "customOtp":{
+        "title": "OTP Details",
+        "label":"OTP",
+        "defaultValue":"Not available"
     },
     "nonGlDataSourceDetail": {
         "componentType": "detailsList",
