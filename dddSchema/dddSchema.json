@@ -2429,6 +2429,9 @@
                 },
                 "paramObjMap": {
                     "loginId": "loginId"
+                },
+                "successNotificationObject": {
+                    "message": "Approval is pending"
                 }
             }
         }
