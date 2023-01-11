@@ -568,7 +568,9 @@
     "errorDeletingApprovalPolicy": "Error while deleting the approval policy",
     "successfullyDeletedApprovalPolicy": "Successfully deleted the approval policy",
     "selectOperationalGLs": "Select the bank accounts that you use for operating purposes",
-    "selectOperationGLsInfo": "Cash flows associated with the selected accounts will be grouped under the 'Operating' label in the Cash Flow table",
+    "selectOperationGLsInfo": "Centime will use these accounts for creation of operational cash flow forecast",
+    "operationCashFlowConfirmTitle": "Confirm bank account settings",
+    "operationCashFlowConfirm": "Are you sure you want to update the settings? This action will regenerate the forecast with the\nupdated accounts and balances.",
     "payrollAccounts": "Payroll accounts",
     "operationalBankAccounts": "Operational bank accounts"
 }
