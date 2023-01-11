@@ -677,6 +677,7 @@
                     "label": "List Posting Transaction(s)"
                 },
                 "renderPosition": "bottom",
+                "gridSize":"3",
                 "action": {
                     "type": "drillDown",
                     "pathList": [
@@ -820,6 +821,7 @@
     "nonGLListQueryBuilder":{
         "componentType": "detailsList",
         "title": "Non GL clients",
+        "ignoreKeys":["clientName"],
         "additionalProperties": {
             "showQueryBuilder": true,
             "queryBuilderPosition": "bottom",
@@ -895,6 +897,7 @@
                     "fullWidth":true
                 },
                 "renderPosition": "bottom",
+                "gridSize":3,
                 "action": {
                     "type": "drillDown",
                     "pathList": [
@@ -923,6 +926,100 @@
                         }
                     }
                 }
+            }
+        ]
+    },
+    "approvalListFromBops":{
+        "componentType": "table",
+        "title": "Approval List",
+        "headersInfo":[
+            {
+                "title": "Approval Id",
+                "valueMap": "updateApprovalId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Template Id",
+                "valueMap": "templateId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Request",
+                "valueMap": "request",
+                "renderType": "text",
+                "renderProps":{
+                    "listInfo":[
+                        {
+                            "label":"LoginId",
+                            "valueMap":"loginId"
+                        },
+                        {
+                            "label":"templateId",
+                            "valueMap":"templateId"
+                        }
+                    ]
+                },
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Approval status",
+                "valueMap": "approvalStatus",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true,
+                "displayValueEnum":[
+                      {
+                        "label": "NO_APPROVAL_NEEDED",
+                        "value": 0
+                      },
+                      {
+                        "label": "APPROVAL_PENDING",
+                        "value": 1
+                      },
+                      {
+                        "label": "APPROVED",
+                        "value": 2
+                      },
+                      {
+                        "label": "NOT_APPROVED",
+                        "value": 3
+                      }
+                ]
+            },
+            {
+                "title": "Created time",
+                "valueMap": "createdTime",
+                "renderType": "text",
+                "formatType":"datetime",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Updated time",
+                "valueMap": "updatedTime",
+                "renderType": "text",
+                "formatType":"datetime",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Approve by",
+                "valueMap": "approvedBy",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Created by",
+                "valueMap": "createdBy",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
             }
         ]
     },
@@ -2426,6 +2523,9 @@
                 },
                 "paramObjMap": {
                     "loginId": "loginId"
+                },
+                "successNotificationObject": {
+                    "message": "Approval is pending"
                 }
             }
         }
@@ -5191,12 +5291,16 @@
             {
                 "renderType": "Button",
                 "renderProps": {
-                    "label": "Enable Custom Challenge"
+                    "label": "Enable Custom Challenge",
+                    "valueMap":"preferences.mfaChallenge",
+                    "compareValue":"CUSTOM_CHALLENGE"
                 },
                 "renderPosition": "bottom",
                 "gridSize":3,
                 "action": {
                     "type": "updateCall",
+                    "url": "fs/business-ops-service",
+                    "method": "GET",
                     "pathList": [
                         "1.0",
                         "aggregate"
@@ -5210,18 +5314,20 @@
                             "value":"CUSTOM_CHALLENGE"
                         },
                         "loginId":"loginId"
-                    }
+                    },
+                    "bodyObjMap": {}
                 }
             },
             {
                 "renderType": "Button",
                 "renderProps": {
-                    "label": " Get OTP",
+                    "label": "Get OTP",
                     "className":"ml-6"
                 },
                 "renderPosition": "bottom",
                 "action": {
                     "type": "drillDown",
+                    "url": "fs/business-ops-service",
                     "pathList": [
                         "1.0",
                         "aggregate"
@@ -5231,16 +5337,12 @@
                     },
                     "paramObjMap": {
                         "loginId":"loginId"
-                    }
+                    },
+                    "bodyObjMap": {}
                 }
             }
 
         ]
-    },
-    "customOtp":{
-        "title": "OTP Details",
-        "label":"OTP",
-        "defaultValue":"Not available"
     },
     "dataSourceDetail": {
         "componentType": "detailsList",
@@ -5502,6 +5604,11 @@
                 "bodyObjMap": {}
             }
         }
+    },
+    "customOtp":{
+        "title": "OTP Details",
+        "label":"OTP",
+        "defaultValue":"Not available"
     },
     "nonGlDataSourceDetail": {
         "componentType": "detailsList",

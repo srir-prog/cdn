@@ -357,7 +357,7 @@
     "backToDocuments": "Back To Documents",
     "add": "Add",
     "noValueAvailable": "No value available",
-    "defaultThisAccountForAllInvoicesOfSupplier": "Always use this account for invoices from this supplier",
+    "defaultThisAccountForAllInvoicesOfSupplier": "Mark as default for invoices from this supplier",
     "errorSavingDocumentInvoiceDetails": "Issue while saving document details. Please try again or contact us if the issue persists",
     "successfullySavedDocumentInvoiceDetails": "Document details saved successfully",
     "errorFetchingDocument": "Issue while fetching document. Please try again or contact us if the issue persists",
@@ -506,5 +506,6 @@
     "successfullyMarkApprovedInvoices": "Documents marked as approved",
     "markApprovedPopupFooterNote": "Once an invoice is marked approved, it would no longer be routed for approvals",
     "historyActionDocumentMarkApproved":"Document marked approved",
-    "markedApproved": "Marked approved"
+    "markedApproved": "Marked approved",
+    "footerNoteIcon": "Footer note icon for invoice confirmation popup"
 }
