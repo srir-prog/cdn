@@ -357,7 +357,7 @@
     "backToDocuments": "दस्तावेज़ों पर वापस जाएं",
     "add": "जोड़ें",
     "noValueAvailable": "कोई मूल्य उपलब्ध नहीं",
-    "defaultThisAccountForAllInvoicesOfSupplier": "इस आपूर्तिकर्ता के चालान के लिए हमेशा इस खाते का उपयोग करें",
+    "defaultThisAccountForAllInvoicesOfSupplier": "इस आपूर्तिकर्ता के चालानों के लिए डिफ़ॉल्ट के रूप में चिह्नित करें",
     "errorSavingDocumentInvoiceDetails": "दस्तावेज़ विवरण सहेजते समय समस्या। कृपया पुनः प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें",
     "successfullySavedDocumentInvoiceDetails": "दस्तावेज़ विवरण सफलतापूर्वक सहेजा गया",
     "errorFetchingDocument": "दस्तावेज़ लाते समय समस्या। कृपया पुनः प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें",
@@ -495,5 +495,15 @@
     "approved":"स्वीकृत",
     "markApproved": "मार्क स्वीकृत",
     "viewApprovalWorkflow":"अनुमोदन कार्यप्रवाह देखें",
-    "documentsToBeApproved": "{{count}} चालान आपके अनुमोदन की प्रतीक्षा कर रहा है।"
+    "documentsToBeApproved": "{{count}} चालान आपके अनुमोदन की प्रतीक्षा कर रहा है।",
+    "extractingDataFromFile": "फ़ाइल <b>{{fileName}}</b> से डेटा निकाला जा रहा है",
+    "unableToExtractDataFromFile": "फ़ाइल <b>{{fileName}}</b> से डेटा निकालने में असमर्थ",
+    "pleaseUploadAgain": "कृपया फिर से अपलोड करें",
+    "documentMarkApprovedTitle": "इनवॉइस को मंज़ूरी के तौर पर मार्क करें",
+    "errorMarkApprovedInvoices": "दस्तावेज़ को स्वीकृत के रूप में चिह्नित करने में त्रुटियां आईं। कृपया पुन: प्रयास करें।",
+    "successfullyMarkApprovedInvoices": "स्वीकृत के रूप में चिह्नित दस्तावेज़",
+    "markApprovedPopupFooterNote": "एक बार किसी इनवॉइस को स्वीकृत के रूप में चिह्नित कर देने के बाद, उसे अनुमोदन के लिए रूट नहीं किया जाएगा",
+    "historyActionDocumentMarkApproved": "दस्तावेज़ स्वीकृत चिह्नित",
+    "markedApproved": "स्वीकृत चिह्नित",
+    "footerNoteIcon": "इनवॉयस पुष्टिकरण पॉपअप के लिए फुटर नोट आइकन"
 }

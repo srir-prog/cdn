@@ -69,11 +69,7 @@
     "isMultipleEmailsLimitExceeded": "Maximum of 15 emails are allowed",
     "pleaseSelectAccount": "Please select an account",
     "amountShouldBeMoreThanZero": "Amount should be more than zero",
-    "amountShouldBeMoreThanMinAmount": "Amount should be more than {{minAmount}}",
     "amountShouldBeLessThanAvailableBalanceMsg": "Amount should be less than available balance",
-    "amountShouldNotBeMoreThanMaxAmount":"Amount should be less than {{maxAmount}}",
-    "paybackDaysCountShouldBeLessThan90": "Payback period should be less than 90 days",
-    "paybackDaysCountShouldBeMoreThanZero": "Payback period should be more than zero",
     "minAmountInclusive": "Value must be greater than or equal to zero",
     "amountCantBeGreaterThanBal": "Amount cannot be greater than balance",
     "maxAmountExcluding": "Value must be less than {{amountLimit}}",
@@ -81,5 +77,7 @@
     "minAmountGreaterThanDefaultLimit": "Value must be greater than first approval limit",
     "minAmountLessThanThirdLevelLimit": "Value must be less than third approval limit",
     "minAmountGreaterThanSecondLevelLimit": "Value must be greater than second approval limit",
-    "required": "Required"
+    "required": "Required",
+    "amountMinAndMaxGenericErrorMessage": "Amount must be between {{minAmount}} and {{maxAmount}}, both inclusive.",
+    "periodMinAndMaxGenericErrorMessage":"Period must be between {{minPeriod}} and {{maxPeriod}}, both inclusive."
 }

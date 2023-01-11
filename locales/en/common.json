@@ -357,7 +357,7 @@
     "backToDocuments": "Back To Documents",
     "add": "Add",
     "noValueAvailable": "No value available",
-    "defaultThisAccountForAllInvoicesOfSupplier": "Always use this account for invoices from this supplier",
+    "defaultThisAccountForAllInvoicesOfSupplier": "Mark as default for invoices from this supplier",
     "errorSavingDocumentInvoiceDetails": "Issue while saving document details. Please try again or contact us if the issue persists",
     "successfullySavedDocumentInvoiceDetails": "Document details saved successfully",
     "errorFetchingDocument": "Issue while fetching document. Please try again or contact us if the issue persists",
@@ -497,5 +497,15 @@
     "approved":"Approved",
     "markApproved": "Mark approved",
     "viewApprovalWorkflow":"View approval workflow",
-    "documentsToBeApproved": "{{count}} invoice is awaiting your approval."
+    "documentsToBeApproved": "{{count}} invoice is awaiting your approval.",
+    "extractingDataFromFile": "Extracting data from file <b>{{fileName}}</b>",
+    "unableToExtractDataFromFile": "Unable to extract data from file <b>{{fileName}}</b>.",
+    "pleaseUploadAgain": "Please upload again",
+    "documentMarkApprovedTitle": "Mark invoices as approved",
+    "errorMarkApprovedInvoices": "Errors encountered in marking the document as approved. Please try again.",
+    "successfullyMarkApprovedInvoices": "Documents marked as approved",
+    "markApprovedPopupFooterNote": "Once an invoice is marked approved, it would no longer be routed for approvals",
+    "historyActionDocumentMarkApproved":"Document marked approved",
+    "markedApproved": "Marked approved",
+    "footerNoteIcon": "Footer note icon for invoice confirmation popup"
 }

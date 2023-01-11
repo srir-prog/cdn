@@ -417,5 +417,6 @@
     "criteriaPaymentDate": "Payment Date: between {{startDate}} - {{endDate}}",
     "noDataFound": "No data found",
     "allAccounts": "All accounts",
-    "operatingAccounts": "Operating accounts"
+    "operatingAccounts": "Operating accounts",
+    "centimeCashSuspendReasonTooltip": "CentimeCash account is suspended due to insufficient funds. To reactivate, reach out to Centime Customer Success."
 }
