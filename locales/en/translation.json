@@ -178,5 +178,16 @@
     "thisWeek": "This Week",
     "thisMonth": "This Month",
     "noOfRowsPerPage": "No of rows per page",
-    "rows": "rows"
+    "rows": "rows",
+    "packageModalHeader":"Centime Cash Management solutions",
+    "packageModalSubHeading":"Select one or more cash management solutions to start",
+    "payablesDesc":"Schedule,authorize and execute your supplier payments",
+    "receivablesDesc":"Stay in control of your account receivables by tracking open invoices and automating your customer follow ups",
+    "cashFlowPlanningDesc":"View and customize your cash flow forecast make informed decisions",
+    "cashFlowMonitoringDesc":"Monitor cash and track balances across you bank,credit and loan  accounts",
+    "cashMonitoring":"Cash monitoring",
+    "cashPlanning":"Cash flow forecasting and planning",
+    "payables":"Payables",
+    "receivables":"Receivables",
+    "selectPackages":"Select Packages Modal"
 }
