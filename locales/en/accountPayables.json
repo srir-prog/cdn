@@ -322,6 +322,7 @@
     "PayablesHeaderPaymentAmount": "Payment amount",
     "PayablesHeaderDueDate": "Due date",
     "PayablesHeaderPaymentMethod": "Payment method",
+    "PayablesHeaderPaymentFromAccount": "Pay from account",
     "PayablesHeaderPaymentDate": "Payment date",
     "PayablesHeaderStatus": "Status",
     "PayablesHeaderOverdue": "Overdue",
