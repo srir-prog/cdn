@@ -398,6 +398,20 @@
                         },
                         "gridSize":4,
                         "queryName": "loginId"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "title": "User verified",
+                        "componentProps": {
+                            "options": {
+                                "0": "No",
+                                "1": "Yes"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
+                        },
+                        "default":["1"],
+                        "queryName": "userVerified"
                     }
                 ]
             }
@@ -434,6 +448,10 @@
                         "resend": {
                             "type": "hardCoded",
                             "value": false
+                        },
+                        "userVerified":{
+                            "type": "queryBuilder",
+                            "value":"userVerified"
                         }
                     },
                     "successNotificationObject": {
@@ -5242,6 +5260,11 @@
                 ]
             },
             {
+                "label": "User verified",
+                "valueMap": "userVerified",
+                "formatType":"boolean"
+            },
+            {
                 "label": "First Name",
                 "valueMap": "firstName"
             },
@@ -5476,6 +5499,35 @@
                     },
                     "paramObjMap": {
                         "loginId":"loginId"
+                    },
+                    "bodyObjMap": {}
+                }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Verify user",
+                    "className":"ml-6",
+                    "valueMap":"userVerified",
+                    "compareValue":1
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "updateCall",
+                    "url": "fs/business-ops-service",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "verifyUser"
+                    },
+                    "paramObjMap": {
+                        "loginId":"loginId",
+                        "userVerified":{
+                            "type":"hardCoded",
+                            "value":1
+                        }
                     },
                     "bodyObjMap": {}
                 }
