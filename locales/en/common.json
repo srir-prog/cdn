@@ -507,5 +507,17 @@
     "markApprovedPopupFooterNote": "Once an invoice is marked approved, it would no longer be routed for approvals",
     "historyActionDocumentMarkApproved":"Document marked approved",
     "markedApproved": "Marked approved",
-    "footerNoteIcon": "Footer note icon for invoice confirmation popup"
+    "footerNoteIcon": "Footer note icon for invoice confirmation popup",
+    "packageModalHeader":"Centime Cash Management solutions",
+    "packageModalSubHeading":"Select one or more cash management solutions to start",
+    "payablesDesc":"Schedule,authorize and execute your supplier payments",
+    "receivablesDesc":"Stay in control of your account receivables by tracking open invoices and automating your customer follow ups",
+    "cashFlowPlanningDesc":"View and customize your cash flow forecast make informed decisions",
+    "cashFlowMonitoringDesc":"Monitor cash and track balances across you bank,credit and loan  accounts",
+    "cashMonitoring":"Cash monitoring",
+    "cashPlanning":"Cash flow forecasting and planning",
+    "payables":"Payables",
+    "receivables":"Receivables",
+    "selectPackages":"Select Packages Modal",
+    "exportTable": "Export Table"
 }
