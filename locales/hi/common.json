@@ -505,5 +505,6 @@
     "markApprovedPopupFooterNote": "एक बार किसी इनवॉइस को स्वीकृत के रूप में चिह्नित कर देने के बाद, उसे अनुमोदन के लिए रूट नहीं किया जाएगा",
     "historyActionDocumentMarkApproved": "दस्तावेज़ स्वीकृत चिह्नित",
     "markedApproved": "स्वीकृत चिह्नित",
-    "footerNoteIcon": "इनवॉयस पुष्टिकरण पॉपअप के लिए फुटर नोट आइकन"
+    "footerNoteIcon": "इनवॉयस पुष्टिकरण पॉपअप के लिए फुटर नोट आइकन",
+    "exportTable": "निर्यात तालिका"
 }
