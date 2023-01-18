@@ -36,6 +36,5 @@
   "qboGlFlowRestrictionInfo": "In order to complete the process of connecting your General ledger, please schedule an appointment with Centime by <ourLink></ourLink>",
   "clickingHere": "Clicking here",
   "unableToSignUpNoticeHeaderText": "Unable to SignUp",
-  "commonGLConnectionUserRestrict":"Welcome! This is a demo business entity provided to explore the functionality provided by Centime. In order to connect your General Ledger account.Please schedule an appointment by <Link></Link>",
-  "glSpecificConnectInfo":"Welcome! This is a demo business entity provided to explore the functionality provided by Centime. In order to connect your {{glName}} account.Please schedule an appointment by <Link></Link>"
+  "commonGLConnectionUserRestrict":"Welcome! This is a demo business entity provided to explore the functionality provided by Centime. In order to connect your {{glName}} account.Please schedule an appointment by <Link></Link>"
 }
