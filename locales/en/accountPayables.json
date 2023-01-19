@@ -273,6 +273,7 @@
     "closingCashBalance": "Cash Balance",
     "totalPayables": "Payment Amount",
     "cashFlowGraph": "Payables cash impact",
+    "cashFlowGraphBar": "Payables cash impact",
     "LowCash": "Low Cash",
     "TargetCash": "Target Cash",
     "surchargeAmount": "Includes surcharge of {{surcharge}}",
