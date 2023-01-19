@@ -274,6 +274,7 @@
     "closingCashBalance": "कैश बैलेंस",
     "totalPayables": "भुगतान राशि",
     "cashFlowGraph": "देय नकद प्रभाव",
+    "cashFlowGraphBar": "देय नकद प्रभाव",
     "LowCash": "लो कैश",
     "TargetCash": "लक्षित कैश",
     "agingGraph": "एपी एजिंग ग्राफ़",
