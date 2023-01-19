@@ -517,5 +517,7 @@
     "payables":"देय",
     "receivables":"प्राप्तियों",
     "selectPackages":"संकुल मॉडल का चयन करें",
-    "exportTable": "निर्यात तालिका"
+    "exportTable": "निर्यात तालिका",
+    "sort-asc": "छोटे से बड़े क्रम",
+    "sort-desc": "अवरोही छांट"
 }

@@ -519,5 +519,7 @@
     "payables":"Payables",
     "receivables":"Receivables",
     "selectPackages":"Select Packages Modal",
-    "exportTable": "Export Table"
+    "exportTable": "Export Table",
+    "sort-asc": "Sort Ascending",
+    "sort-desc": "Sort Descending"
 }
