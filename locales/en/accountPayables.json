@@ -332,8 +332,6 @@
     "PayablesHeaderRejectionReason": "Reason",
     "PayablesHeaderPaymentStatus": "Status",
     "AccordionViewInvoiceHistory": "View Invoice History",
-    "PayablesHeaderPaymentStatus": "Payment Status",
-    "PayablesHeaderRejectionReason": "Rejection reason",
     "pay": "Pay",
     "approve": "Approve",
     "reject": "Reject",
@@ -347,6 +345,17 @@
     "invoices": "invoices",
     "paidInvoices": "Paid Invoices",
     "unPaidInvoices": "Unpaid Invoices",
-    "AwaitingForApproval": "Awaiting approval",
-    "Confirm": "Confirm"
+    "Confirm": "Confirm",
+    "chooseAReason": "Choose a reason",
+    "credits-outline": "Credits",
+    "percentage-outline": "Discount Percentage",
+    "notes-empty": "Notes",
+    "notes": "Notes",
+    "icon-planned": "Plan",
+    "noPaymentTooltip": "Payment details are not added for the supplier",
+    "paymentDateHasPassed": "Payment date has passed",
+    "payablesTable": "Payables Table",
+    "discountPercentage" : "Discount Percentage",
+    "credits": "Credits",
+    "plan": "Plan"
 }
