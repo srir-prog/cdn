@@ -407,8 +407,7 @@
                                 "0": "No",
                                 "1": "Yes"
                             },
-                            "tnsForOptions": false,
-                            "multiple": true
+                            "tnsForOptions": false
                         },
                         "default":["1"],
                         "queryName": "userVerified"
