@@ -521,5 +521,7 @@
     "selectPackages":"Select Packages Modal",
     "exportTable": "Export Table",
     "sort-asc": "Sort Ascending",
-    "sort-desc": "Sort Descending"
+    "sort-desc": "Sort Descending",
+    "extractionInProgress": "Extraction in progress",
+    "extractionFailed": "Extraction failed"
 }
