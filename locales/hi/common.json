@@ -519,5 +519,7 @@
     "selectPackages":"संकुल मॉडल का चयन करें",
     "exportTable": "निर्यात तालिका",
     "sort-asc": "छोटे से बड़े क्रम",
-    "sort-desc": "अवरोही छांट"
+    "sort-desc": "अवरोही छांट",
+    "extractionInProgress": "निष्कर्षण प्रगति पर है",
+    "extractionFailed": "निष्कर्षण विफल"
 }
