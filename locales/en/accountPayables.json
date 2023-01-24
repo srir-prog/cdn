@@ -273,6 +273,7 @@
     "closingCashBalance": "Cash Balance",
     "totalPayables": "Payment Amount",
     "cashFlowGraph": "Payables cash impact",
+    "cashFlowGraphBar": "Payables cash impact",
     "LowCash": "Low Cash",
     "TargetCash": "Target Cash",
     "surchargeAmount": "Includes surcharge of {{surcharge}}",
@@ -358,4 +359,6 @@
     "discountPercentage" : "Discount Percentage",
     "credits": "Credits",
     "plan": "Plan"
+    "billsDetailsFetchingError": "Error while fetching invoice details. Please try again.",
+    "supplierDetailsFetchingError": "Error while fetching supplier details. Please try again."
 }
