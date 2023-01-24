@@ -150,7 +150,7 @@
     "paymentsFailed": "Payments for {{count}} invoice failed.",
     "paymentsRejected": "Payments for {{count}} invoice was rejected.",
     "paymentsDue": "{{count}} invoice is due for payment on {{payment_date}}. This payment has to be made manually.",
-    "invoicesToBeApproved": "{{count}} payment require your approval.",
+    "invoicesToBeApproved": "{{count}} payment requires your approval.",
     "cardPaymentsToBeProcessed": "Card payments for {{count}} invoice need to be processed on supplier website.",
     "invoicesScheduled": "{{count}} invoice is scheduled for payment on Card for today.",
     "cardPaymentsWaiting": "Card payments for {{count}} invoice is waiting to be processed by the suppliers.",
