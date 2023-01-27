@@ -903,6 +903,239 @@
             }
         ]
     },
+    "approvalList":{
+        "componentType": "table",
+        "title": "Approval List",
+        "ignoreKeys":["request"],
+        "headersInfo":[
+            {
+                "title": "Approval Id",
+                "valueMap": "updateApprovalId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Template Id",
+                "valueMap": "templateId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Request",
+                "valueMap": "request",
+                "renderType": "text",
+                "renderProps":{
+                    "listInfo":[
+                        {
+                            "label":"LoginId",
+                            "valueMap":"loginId"
+                        },
+                        {
+                            "label":"templateId",
+                            "valueMap":"templateId"
+                        }
+                    ]
+                },
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Approval status",
+                "valueMap": "approvalStatus",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true,
+                "displayValueEnum":[
+                      {
+                        "label": "NO_APPROVAL_NEEDED",
+                        "value": 0
+                      },
+                      {
+                        "label": "APPROVAL_PENDING",
+                        "value": 1
+                      },
+                      {
+                        "label": "APPROVED",
+                        "value": 2
+                      },
+                      {
+                        "label": "NOT_APPROVED",
+                        "value": 3
+                      }
+                ]
+            },
+            {
+                "title": "Created time",
+                "valueMap": "createdTime",
+                "renderType": "text",
+                "formatType":"datetime",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Updated time",
+                "valueMap": "updatedTime",
+                "renderType": "text",
+                "formatType":"datetime",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Approve by",
+                "valueMap": "approvedBy",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Created by",
+                "valueMap": "createdBy",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            }
+        ]
+    },
+    "approvalPendingList":{
+        "componentType": "table",
+        "title": "Approval Pending List",
+        "ignoreKeys":["request"],
+        "headersInfo":[
+            {
+                "title": "Approval Id",
+                "valueMap": "updateApprovalId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Template Id",
+                "valueMap": "templateId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Request",
+                "valueMap": "request",
+                "renderType": "text",
+                "renderProps":{
+                    "listInfo":[
+                        {
+                            "label":"LoginId",
+                            "valueMap":"loginId"
+                        },
+                        {
+                            "label":"templateId",
+                            "valueMap":"templateId"
+                        }
+                    ]
+                },
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Approval status",
+                "valueMap": "approvalStatus",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true,
+                "displayValueEnum":[
+                      {
+                        "label": "NO_APPROVAL_NEEDED",
+                        "value": 0
+                      },
+                      {
+                        "label": "APPROVAL_PENDING",
+                        "value": 1
+                      },
+                      {
+                        "label": "APPROVED",
+                        "value": 2
+                      },
+                      {
+                        "label": "NOT_APPROVED",
+                        "value": 3
+                      }
+                ]
+            },
+            {
+                "title": "Created time",
+                "valueMap": "createdTime",
+                "renderType": "text",
+                "formatType":"datetime",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Updated time",
+                "valueMap": "updatedTime",
+                "renderType": "text",
+                "formatType":"datetime",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Approve by",
+                "valueMap": "approvedBy",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Created by",
+                "valueMap": "createdBy",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title":"Approve",
+                "valueMap":"",
+                "renderType":"Button",
+                "renderProps":{
+                    "label":"Approve"
+
+                },
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "Approve"
+                    },
+                    "paramObjMap": {
+                        "uniqueId":"updateApprovalId"
+                    }
+                }
+            },
+            {
+                "title":"Disapprove",
+                "valueMap":"",
+                "renderType":"Button",
+                "renderProps":{
+                    "label":"Disapprove"
+                },
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "Disapprove"
+                    },
+                    "paramObjMap": {
+                        "uniqueId":"updateApprovalId"
+                    }
+                }
+            }
+        ]
+    },
     "glActiveClientsList":{
         "componentType": "table",
         "title": "Active GL client list",
@@ -2133,14 +2366,13 @@
     "productActivation":{
         "componentType": "table",
         "title": "Product activation",
-        "ignoreKeys":["paymentMethodId","sourceId","bankApplicationGroup","glAccounts"],
-        "transformToTableDataValueMap":["bankApplicationGroup"],
+        "ignoreKeys":["paymentMethodId","sourceId","applicationPaymentData"],
+        "transformToTableDataValueMap":["applicationPaymentData"],
         "headersInfo":[
             {
                 "title": "Payment method",
                 "valueMap": "applicationType",
                 "align":"left",
-                "width": "20%",
                 "enableSort": true,
                 "enableAccordion":true,
                 "renderType": "AccordionLink",
@@ -2148,114 +2380,67 @@
                     "renderType":"Tabs",
                     "tabsInfo":[
                     {
-                        "tabTitle":"Account Groups",
-                        "valueMap":"bankApplicationGroup",
+                        "tabTitle":"Payment data",
+                        "valueMap":"applicationPaymentData",
                         "renderType":"table",
+                        "receiveParam":"applicationType",
                         "renderMeta":{
-                            "ignoreKeys":["bankAccountId","bankAccountGroup",
-                            "canActivate","defaultAccount","glAccountId"],
+                            "ignoreKeys":[
+                                "creditCardPaymentAttributes",
+                                "centimePayPaymentAttributes",
+                                "centimeCardPaymentAttributes",
+                                "applicationType"
+                            ],
                             "headersInfo":[
                                 {
-                                    "title":"Bank name",
-                                    "valueMap":"bankName",
+                                    "title":"Account Id",
+                                    "valueMap":"accountId",
                                     "enableSort":true,
-                                    "align":"left",
-                                    "width":"20%"
+                                    "align":"left"
                                 },
                                 {
-                                    "title":"A/c type",
-                                    "valueMap":"accountType",
-                                    "enableSort":true,
-                                    "align":"left",
-                                    "width":"20%"
+                                    "title": "Bank account UId",
+                                    "valueMap": "bankAccountUid",
+                                    "renderType": "Link",
+                                    "action": {
+                                        "type": "sidePanelData",
+                                        "pathList": [
+                                            "1.0",
+                                            "aggregate"
+                                        ],
+                                        "paramObj": {
+                                            "templateId": "BankAccountDetails"
+                                        },
+                                        "paramObjMap": {
+                                            "clientId": "clientId",
+                                            "payerPaymentAccountId": "bankAccountUid",
+                                            "paymentMethod": "applicationType"
+                                        }
+                                    }
                                 },
                                 {
-                                    "title":"A/c No",
-                                    "valueMap":"accountNumber",
+                                    "title":"Is Centime card",
+                                    "valueMap":"isCentimeCard",
                                     "enableSort":true,
                                     "align":"left",
-                                    "width":"15%"
+                                    "formatType":"boolean"
                                 },
                                 {
-                                    "title":"A/c name",
-                                    "valueMap":"accountName",
+                                    "title":"Is Centime cash",
+                                    "valueMap":"isCentimeCash",
                                     "enableSort":true,
                                     "align":"left",
-                                    "width":"15%"
-                                },
-                                {
-                                    "title":"Routing #",
-                                    "valueMap":"routingNumber",
-                                    "enableSort":true,
-                                    "align":"left",
-                                    "width":"20%"
+                                    "formatType":"boolean"
                                 },
                                 {
                                     "title":"Status",
                                     "valueMap":"status",
                                     "enableSort":true,
-                                    "align":"left",
-                                    "width":"10%"
+                                    "align":"left"
                                 }
                             ]
                         }
                         
-                    },
-                    {
-                        "tabTitle":"GL Accounts",
-                        "valueMap":"glAccounts",
-                        "renderType":"table",
-                        "renderMeta":{
-                            "ignoreKeys":["updatedTime","parentId","locationId","inventoryFlag",
-                        "glCreatedTime","fullQualifiedName","departmentId","currencyCode",
-                        "bankRoutingNumber","clientId","accountNumber","classification","accountActiveStatus",
-                        "cumulativeBalance","createdTime","classId","bankName","bankAccountNumber","batchId"],
-                            "headersInfo":[
-                                {
-                                    "title":"A/c Id",
-                                    "valueMap":"accountId",
-                                    "enableSort":true,
-                                    "align":"left",
-                                    "width":"8%"
-                                },
-                                {
-                                    "title":"A/c name",
-                                    "valueMap":"accountName",
-                                    "enableSort":true,
-                                    "align":"left",
-                                    "width":"19%"
-                                },
-                                {
-                                    "title":"A/c type",
-                                    "valueMap":"accountType",
-                                    "enableSort":true,
-                                    "align":"left",
-                                    "width":"19%"
-                                },
-                                {
-                                    "title":"A/c subtype",
-                                    "valueMap":"accountSubType",
-                                    "enableSort":true,
-                                    "align":"left",
-                                    "width":"18%"
-                                },
-                                {
-                                    "title":"CF category",
-                                    "valueMap":"cfCategory",
-                                    "enableSort":true,
-                                    "align":"left",
-                                    "width":"18%"
-                                },
-                                {
-                                    "title":"Current balance",
-                                    "valueMap":"currentBalance",
-                                    "enableSort":true,
-                                    "formatType":"currency",
-                                    "align":"left",
-                                    "width":"18%"
-                                }
-                            ]
-                        }
                     }
                 ]
                 }
@@ -2273,15 +2458,13 @@
                 "valueMap": "applicationStatus",
                 "renderType": "text",
                 "align":"left",
-                "width": "12%",
                 "enableSort": true
             },
             {
                 "title": "Initiated by",
-                "valueMap": "applicationInitiatedBy",
+                "valueMap": "applicationInitiatedUser",
                 "renderType": "text",
                 "align":"left",
-                "width": "20%",
                 "enableSort": true
             }
         ],
@@ -2379,7 +2562,13 @@
         "routingNumber",
         "currencyCode",
         "ownerName",
-        "ownerAddress"
+        "ownerAddress",
+        "accountNumber",
+        "currentBalance",
+        "aggregationSuccessDate",
+        "aggregationAttemptDate",
+        "modifiedAccountName",
+        "modifiedInstitutionName"
     ],
         "headersInfo":[
             {
@@ -2428,37 +2617,6 @@
                 "title": "New A/C type",
                 "valueMap": "modifiedAccountType",
                 "renderType": "text",
-                "align":"left",
-                "enableSort": true
-            },
-            {
-                "title": "A/C #",
-                "valueMap": "accountNumber",
-                "renderType": "text",
-                "align":"left",
-                "enableSort": true
-            },
-            {
-                "title": "A/C bal",
-                "valueMap": "currentBalance",
-                "renderType": "text",
-                "formatType": "currency",
-                "align":"left",
-                "enableSort": true
-            },
-            {
-                "title": "Aggre success date",
-                "valueMap": "aggregationSuccessDate",
-                "renderType": "text",
-                "formatType":"datetime",
-                "align":"left",
-                "enableSort": true
-            },
-            {
-                "title": "Aggre attempt date",
-                "valueMap": "aggregationAttemptDate",
-                "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "enableSort": true
             },
@@ -3060,13 +3218,11 @@
             },
             {
                 "title": "Start Date",
-                "valueMap": "transactionStartDate",
-                "formatType": "date"
+                "valueMap": "transactionStartDate"
             },
             {
                 "title": "End Date",
-                "valueMap": "transactionEndDate",
-                "formatType": "date"
+                "valueMap": "transactionEndDate"
             },
             {
                 "title": "Error Code",
