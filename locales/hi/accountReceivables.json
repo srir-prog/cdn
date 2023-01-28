@@ -357,5 +357,6 @@
     "closingCashBalance": "नकदी शेष",
     "cashImpact": "नकद प्रभाव",
     "cashFlowGraph": "प्राप्य नकद प्रभाव",
+    "cashFlowGraphBar": "प्राप्य नकद प्रभाव",
     "HeaderLabelDaysPastDue": "पिछले दिनों देय"
 }
