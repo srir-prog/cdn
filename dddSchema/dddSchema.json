@@ -1153,7 +1153,9 @@
                     },
                     "paramObjMap": {
                         "uniqueId":"updateApprovalId",
-                        "loginId":""
+                        "loginId":{
+                            "type":"hardCoded"
+                        }
                     }
                 }
             },
@@ -5413,9 +5415,12 @@
             {
                 "renderType": "Button",
                 "renderProps": {
-                    "label": "Enable Custom Challenge",
+                    "label":{
+                        "SMS_MFA":"Enable Custom Challenge",
+                        "CUSTOM_CHALLENGE":"Enable SMS MFA"
+                    },
                     "valueMap":"preferences.mfaChallenge",
-                    "compareValue":"CUSTOM_CHALLENGE"
+                    "toggle":true
                 },
                 "renderPosition": "bottom",
                 "gridSize":3,
@@ -5428,12 +5433,14 @@
                         "aggregate"
                     ],
                     "paramObj": {
-                        "templateId": "EnableCustomChallenge"
+                        "templateId": "EnableMFAChallenge"
                     },
                     "paramObjMap": {
                         "mfaChallenge": {
-                            "type":"hardCoded",
-                            "value":"CUSTOM_CHALLENGE"
+                            "type":"dynamic",
+                            "path":"preferences.mfaChallenge",
+                            "CUSTOM_CHALLENGE":"SMS_MFA",
+                            "SMS_MFA":"CUSTOM_CHALLENGE"
                         },
                         "loginId":"loginId"
                     },
