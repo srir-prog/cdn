@@ -524,8 +524,6 @@
     "sort-desc": "Sort Descending",
     "extractionInProgress": "Extraction in progress",
     "extractionFailed": "Extraction failed",
-    "backToUnpaid":"Back to Unpaid",
-    "backToPaid":"Back to Paid",
     "addInvoices": "Add invoices",
     "uploadInvoices": "Upload invoices"
 }
