@@ -523,7 +523,5 @@
     "extractionInProgress": "निष्कर्षण प्रगति पर है",
     "extractionFailed": "निष्कर्षण विफल",
     "backToUnpaid":"अवैतनिक को लौटें",
-    "backToPaid": "पेड को लौटें",
-    "addInvoices": "चालान जोड़ें",
-    "uploadInvoices": "चालान अपलोड करें"
+    "backToPaid": "पेड को लौटें"
 }
