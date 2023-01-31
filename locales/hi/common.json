@@ -521,7 +521,5 @@
     "sort-asc": "छोटे से बड़े क्रम",
     "sort-desc": "अवरोही छांट",
     "extractionInProgress": "निष्कर्षण प्रगति पर है",
-    "extractionFailed": "निष्कर्षण विफल",
-    "addInvoices": "चालान जोड़ें",
-    "uploadInvoices": "चालान अपलोड करें"
+    "extractionFailed": "निष्कर्षण विफल"
 }
