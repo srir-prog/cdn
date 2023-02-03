@@ -521,5 +521,7 @@
     "sort-asc": "छोटे से बड़े क्रम",
     "sort-desc": "अवरोही छांट",
     "extractionInProgress": "निष्कर्षण प्रगति पर है",
-    "extractionFailed": "निष्कर्षण विफल"
+    "extractionFailed": "निष्कर्षण विफल",
+    "postingPaymentsGLFailed": "{{count}} इनवॉइस भुगतान की सामान्य खाता बही में पोस्टिंग विफल रही।",
+    "postingPaymentsGLFailed_plural": "{{count}} इनवॉयस भुगतानों की सामान्य लेजर में पोस्टिंग विफल रही।"
 }
