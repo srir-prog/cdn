@@ -523,5 +523,7 @@
     "sort-asc": "Sort Ascending",
     "sort-desc": "Sort Descending",
     "extractionInProgress": "Extraction in progress",
-    "extractionFailed": "Extraction failed"
+    "extractionFailed": "Extraction failed",
+    "postingPaymentsGLFailed": "Posting of {{count}} invoice payment to General Ledger failed.",
+    "postingPaymentsGLFailed_plural": "Posting of {{count}} invoice payments to General Ledger failed."
 }
