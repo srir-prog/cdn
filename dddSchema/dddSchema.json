@@ -1008,7 +1008,6 @@
                 "title": "Created time",
                 "valueMap": "createdTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "enableSort": true,
                 "width":"12%"
@@ -1017,7 +1016,6 @@
                 "title": "Updated time",
                 "valueMap": "updatedTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "enableSort": true,
                 "width":"12%"
@@ -1106,7 +1104,6 @@
                 "title": "Created time",
                 "valueMap": "createdTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "enableSort": true,
                 "width":"12%"
@@ -1115,7 +1112,6 @@
                 "title": "Updated time",
                 "valueMap": "updatedTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "enableSort": true,
                 "width":"12%"
@@ -1656,7 +1652,6 @@
                 "title": "Created time",
                 "valueMap": "createdTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "enableSort": true
             },
@@ -1664,7 +1659,6 @@
                 "title": "Updated time",
                 "valueMap": "updatedTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "enableSort": true
             },
@@ -1730,13 +1724,11 @@
             },
             {
                 "label": "Created time",
-                "valueMap": "createdTime",
-                "formatType":"datetime"
+                "valueMap": "createdTime"
             },
             {
                 "label": "Updated time",
-                "valueMap": "updatedTime",
-                "formatType":"datetime"
+                "valueMap": "updatedTime"
             },
             {
                 "label": "Standardized error code",
@@ -1993,7 +1985,6 @@
                 "title": "Start time",
                 "valueMap": "start_time",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "width": "10.6%",
                 "enableSort": false
@@ -2002,7 +1993,6 @@
                 "title": "End time",
                 "valueMap": "end_time",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "width": "10.6%",
                 "enableSort": false
@@ -2117,7 +2107,6 @@
                 "title": "Start time",
                 "valueMap": "startTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "width": "15%",
                 "enableSort": false
@@ -2126,7 +2115,6 @@
                 "title": "End time",
                 "valueMap": "endTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "width": "15%",
                 "enableSort": false
@@ -2341,7 +2329,6 @@
                 "title": "Due date",
                 "valueMap": "dueDate",
                 "renderType": "text",
-                "formatType": "datetime",
                 "align":"left",
                 "width": "25%",
                 "enableSort": true
@@ -2365,8 +2352,7 @@
                             "listInfo":[
                                 {
                                     "label":"Due date",
-                                    "valueMap":"dueDate",
-                                    "formatType":"datetime"
+                                    "valueMap":"dueDate"
                                 },
                                 {
                                     "label":"Description",
@@ -2431,8 +2417,7 @@
                                 },
                                 {
                                     "label":"Payment date",
-                                    "valueMap":"paymentDate",
-                                    "formatType":"datetime"
+                                    "valueMap":"paymentDate"
                                 },
                                 {
                                     "label":"Payment status info",
@@ -3281,13 +3266,11 @@
             },
             {
                 "label": "Start Date",
-                "valueMap": "transactionStartDate",
-                "formatType": "date"
+                "valueMap": "transactionStartDate"
             },
             {
                 "label": "End Date",
-                "valueMap": "transactionEndDate",
-                "formatType": "date"
+                "valueMap": "transactionEndDate"
             },
             {
                 "label": "Transaction Details",
@@ -3453,7 +3436,6 @@
                                     {
                                         "title": "Change Time",
                                         "valueMap": "subStatusChangeTime",
-                                        "formatType": "datetime",
                                         "enableSort": true
                                     }
                                 ],
@@ -3705,8 +3687,7 @@
             },
             {
                 "label": "Payment Date",
-                "valueMap": "paymentDate",
-                "formatType": "datetime"
+                "valueMap": "paymentDate"
             },
             {
                 "label": "Payment Status",
@@ -3760,8 +3741,7 @@
             },
             {
                 "label": "Due Date",
-                "valueMap": "dueDate",
-                "formatType": "datetime"
+                "valueMap": "dueDate"
             },
             {
                 "label": "Transaction Total Amount",
@@ -3849,8 +3829,7 @@
                         },
                         {
                             "label": "Chargify Date",
-                            "valueMap": "billedInChargifyDate",
-                            "formatType": "datetime"
+                            "valueMap": "billedInChargifyDate"
                         },
                         {
                             "label": "Billed In Chargify",
@@ -3988,8 +3967,7 @@
                         },
                         {
                             "label": "Date",
-                            "valueMap": "dateTimeStamp",
-                            "formatType": "datetime"
+                            "valueMap": "dateTimeStamp"
                         },
                         {
                             "label": "Self Approval",
@@ -4133,8 +4111,7 @@
                         },
                         {
                             "label": "Date",
-                            "valueMap": "dateTimeStamp",
-                            "formatType": "datetime"
+                            "valueMap": "dateTimeStamp"
                         },
                         {
                             "label": "Self Approval",
@@ -4164,8 +4141,7 @@
             },
             {
                 "label": "Remittance Sent Date",
-                "valueMap": "remittanceSentDate",
-                "formatType": "datetime"
+                "valueMap": "remittanceSentDate"
             },
             {
                 "label": "Approval Email Sent",
@@ -4181,8 +4157,7 @@
             },
             {
                 "label": "Transaction Date",
-                "valueMap": "txnDate",
-                "formatType": "datetime"
+                "valueMap": "txnDate"
             },
             {
                 "label": "Transaction Amount",
@@ -4203,8 +4178,7 @@
             },
             {
                 "label": "Updated Time",
-                "valueMap": "updatedTime",
-                "formatType": "datetime"
+                "valueMap": "updatedTime"
             },
             {
                 "label": "History",
@@ -4228,8 +4202,7 @@
                         },
                         {
                             "title": "Date",
-                            "valueMap": "dateTimeStamp",
-                            "formatType": "datetime"
+                            "valueMap": "dateTimeStamp"
                         }
                     ],
                     "ignoreKeys": [
@@ -4387,7 +4360,6 @@
             {
                 "title": "Payment Date",
                 "valueMap": "paymentDate",
-                "formatType": "datetime",
                 "enableSort": true
             },
             {
@@ -4431,8 +4403,7 @@
                         },
                         {
                             "label": "Date",
-                            "valueMap": "dateTimeStamp",
-                            "formatType": "datetime"
+                            "valueMap": "dateTimeStamp"
                         },
                         {
                             "label": "Self Approval",
@@ -4500,8 +4471,7 @@
                         },
                         {
                             "label": "Date",
-                            "valueMap": "dateTimeStamp",
-                            "formatType": "datetime"
+                            "valueMap": "dateTimeStamp"
                         },
                         {
                             "label": "Self Approval",
@@ -4735,8 +4705,7 @@
             },
             {
                 "label":"Company start date",
-                "valueMap":"createdTime",
-                "formatType":"datetime"
+                "valueMap":"createdTime"
             },
             {
                 "label": "Status",
@@ -5323,13 +5292,11 @@
             },
             {
                 "label": "Created Time",
-                "valueMap": "createdTime",
-                "formatType": "datetime"
+                "valueMap": "createdTime"
             },
             {
                 "label": "Updated Time",
-                "valueMap": "updatedTime",
-                "formatType": "datetime"
+                "valueMap": "updatedTime"
             },
             {
                 "label": "User Entitlement",
@@ -5361,8 +5328,7 @@
             },
             {
                 "label": "User Secret Updated Time",
-                "valueMap": "userSecretUpdatedTime",
-                "formatType": "datetime"
+                "valueMap": "userSecretUpdatedTime"
             },
             {
                 "label": "Login Attempts Left",
@@ -5371,8 +5337,7 @@
             },
             {
                 "label": "Last Login Failed Attempt At",
-                "valueMap": "lastLoginFailedAttemptAt",
-                "formatType": "datetime"
+                "valueMap": "lastLoginFailedAttemptAt"
             }
         ],
         "ignoreKeys": ["phone","password", "session", "accessToken", "refreshToken", "userPolicy", "glType","clientId","connectUri","mdmId","partnerName"],
@@ -5529,13 +5494,11 @@
             },
             {
                 "label": "Sync Start",
-                "valueMap": "syncStart",
-                "formatType": "datetime"
+                "valueMap": "syncStart"
             },
             {
                 "label": "Sync End",
-                "valueMap": "syncEnd",
-                "formatType": "datetime"
+                "valueMap": "syncEnd"
             },
             {
                 "label": "Source Sync Status",
@@ -5719,7 +5682,6 @@
             {
                 "title": "Last Sync",
                 "valueMap": "dataSyncTrackEntity.lastSyncTime",
-                "formatType": "datetime",
                 "align":"left",
                 "editable": "DatesSelector",
                 "componentProps": {
@@ -5795,13 +5757,11 @@
             },
             {
                 "label": "Sync Start",
-                "valueMap": "syncStart",
-                "formatType": "datetime"
+                "valueMap": "syncStart"
             },
             {
                 "label": "Sync End",
-                "valueMap": "syncEnd",
-                "formatType": "datetime"
+                "valueMap": "syncEnd"
             },
             {
                 "label": "Source Sync Status",
@@ -5963,7 +5923,6 @@
             {
                 "title": "Last Sync",
                 "valueMap": "dataSyncTrackEntity.lastSyncTime",
-                "formatType": "datetime",
                 "align":"left",
                 "editable": "DatesSelector",
                 "componentProps": {
@@ -6036,7 +5995,6 @@
             {
                 "title": "Sync start time",
                 "valueMap": "syncStartTime",
-                "formatType":"datetime",
                 "renderType": "text",
                 "enableSort": true
             },
@@ -6044,7 +6002,6 @@
                 "title": "Sync end time",
                 "valueMap": "syncEndTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "enableSort": true
             },
             {
