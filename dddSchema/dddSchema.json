@@ -949,40 +949,34 @@
     "approvalList":{
         "componentType": "table",
         "title": "Approval List",
-        "ignoreKeys":["request"],
+        "ignoreKeys":["createdBy","clientId","templateId"],
         "headersInfo":[
             {
                 "title": "Approval Id",
                 "valueMap": "updateApprovalId",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true
-            },
-            {
-                "title": "Template Id",
-                "valueMap": "templateId",
-                "renderType": "text",
-                "align":"left",
-                "enableSort": true
+                "enableSort": true,
+                "width":"12%"
             },
             {
                 "title": "Request",
                 "valueMap": "request",
-                "renderType": "text",
-                "renderProps":{
-                    "listInfo":[
+                "renderType": "detailsList",
+                "align":"left",
+                "renderProps": {
+                    "listInfo": [
                         {
-                            "label":"LoginId",
-                            "valueMap":"loginId"
+                            "label": "Login Id",
+                            "valueMap": "loginId"
                         },
                         {
-                            "label":"templateId",
-                            "valueMap":"templateId"
+                            "label": "Template Id",
+                            "valueMap": "templateId"
                         }
                     ]
                 },
-                "align":"left",
-                "enableSort": true
+                "width":"30%"
             },
             {
                 "title": "Approval status",
@@ -1007,7 +1001,8 @@
                         "label": "NOT_APPROVED",
                         "value": 3
                       }
-                ]
+                ],
+                "width":"10%"
             },
             {
                 "title": "Created time",
@@ -1015,7 +1010,8 @@
                 "renderType": "text",
                 "formatType":"datetime",
                 "align":"left",
-                "enableSort": true
+                "enableSort": true,
+                "width":"12%"
             },
             {
                 "title": "Updated time",
@@ -1023,61 +1019,62 @@
                 "renderType": "text",
                 "formatType":"datetime",
                 "align":"left",
-                "enableSort": true
+                "enableSort": true,
+                "width":"12%"
             },
             {
                 "title": "Approve by",
                 "valueMap": "approvedBy",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true
+                "enableSort": true,
+                "width":"12%"
             },
             {
                 "title": "Created by",
                 "valueMap": "createdBy",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true
+                "enableSort": true,
+                "width":"12%"
             }
-        ]
+        ],
+        "additionalProperties":{
+            "enableSearch":true,
+            "paginationNeeded":true
+        }
     },
     "approvalListFromBops":{
         "componentType": "table",
         "title": "Approval Pending List",
-        "ignoreKeys":["request"],
+        "ignoreKeys":["createdBy","clientId","templateId"],
         "headersInfo":[
             {
                 "title": "Approval Id",
                 "valueMap": "updateApprovalId",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true
-            },
-            {
-                "title": "Template Id",
-                "valueMap": "templateId",
-                "renderType": "text",
-                "align":"left",
-                "enableSort": true
+                "enableSort": true,
+                "width":"12%"
             },
             {
                 "title": "Request",
                 "valueMap": "request",
-                "renderType": "text",
-                "renderProps":{
-                    "listInfo":[
+                "renderType": "detailsList",
+                "align":"left",
+                "renderProps": {
+                    "listInfo": [
                         {
-                            "label":"LoginId",
-                            "valueMap":"loginId"
+                            "label": "Login Id",
+                            "valueMap": "loginId"
                         },
                         {
-                            "label":"templateId",
-                            "valueMap":"templateId"
+                            "label": "Template Id",
+                            "valueMap": "templateId"
                         }
                     ]
                 },
-                "align":"left",
-                "enableSort": true
+                "width":"30%"
             },
             {
                 "title": "Approval status",
@@ -1102,7 +1099,8 @@
                         "label": "NOT_APPROVED",
                         "value": 3
                       }
-                ]
+                ],
+                "width":"10%"
             },
             {
                 "title": "Created time",
@@ -1110,7 +1108,8 @@
                 "renderType": "text",
                 "formatType":"datetime",
                 "align":"left",
-                "enableSort": true
+                "enableSort": true,
+                "width":"12%"
             },
             {
                 "title": "Updated time",
@@ -1118,69 +1117,79 @@
                 "renderType": "text",
                 "formatType":"datetime",
                 "align":"left",
-                "enableSort": true
+                "enableSort": true,
+                "width":"12%"
             },
             {
                 "title": "Approve by",
                 "valueMap": "approvedBy",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true
+                "enableSort": true,
+                "width":"12%"
             },
             {
                 "title": "Created by",
                 "valueMap": "createdBy",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true
-            },
-            {
-                "title":"Approve",
-                "valueMap":"",
-                "renderType":"Button",
-                "renderProps":{
-                    "label":"Approve"
-
-                },
-                "action": {
-                    "type": "drillDown",
-                    "pathList": [
-                        "1.0",
-                        "aggregate"
-                    ],
-                    "paramObj": {
-                        "templateId": "Approve"
+                "enableSort": true,
+                "width":"12%"
+            }
+        ],
+        "additionalProperties":{
+            "enableSearch":true,
+            "paginationNeeded":true,
+            "actionsColumnIcons": [
+                {
+                    "iconName": "success",
+                    "componentProps": {
+                        "ariaLabel": "Approve",
+                        "color": "primary"
                     },
-                    "paramObjMap": {
-                        "uniqueId":"updateApprovalId",
-                        "loginId":{
-                            "type":"hardCoded"
+                    "action": {
+                        "type": "drillDown",
+                        "pathList": [
+                            "1.0",
+                            "aggregate"
+                        ],
+                        "paramObj": {
+                            "templateId": "Approve"
+                        },
+                        "paramObjMap": {
+                            "uniqueId":"updateApprovalId",
+                            "loginId":{
+                                "type":"hardCoded"
+                            }
+                        }
+                    }
+                },
+                {
+                    "iconName": "clear",
+                    "componentProps": {
+                        "ariaLabel": "Disapprove",
+                        "color": "secondary"
+                    },
+                    "action": {
+                        "type": "drillDown",
+                        "pathList": [
+                            "1.0",
+                            "aggregate"
+                        ],
+                        "paramObj": {
+                            "templateId": "Disapprove"
+                        },
+                        "paramObjMap": {
+                            "uniqueId":"updateApprovalId",
+                            "loginId":{
+                                "type":"hardCoded"
+                            }
                         }
                     }
                 }
-            },
-            {
-                "title":"Disapprove",
-                "valueMap":"",
-                "renderType":"Button",
-                "renderProps":{
-                    "label":"Disapprove"
-                },
-                "action": {
-                    "type": "drillDown",
-                    "pathList": [
-                        "1.0",
-                        "aggregate"
-                    ],
-                    "paramObj": {
-                        "templateId": "Disapprove"
-                    },
-                    "paramObjMap": {
-                        "uniqueId":"updateApprovalId"
-                    }
-                }
-            }
-        ]
+            ],
+            "editableForm":true
+        }
     },
     "glActiveClientsList":{
         "componentType": "table",
@@ -1677,7 +1686,7 @@
     "glPostingTxnDetails":{
         "componentType": "detailsList",
         "title":"GL posting transaction details",
-        "ignoreKeys":["glResponseMap"],
+        "ignoreKeys":["glResponseMap","clientName"],
         "listInfo":[
             {
                 "label": "Client Id",
