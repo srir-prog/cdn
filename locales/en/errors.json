@@ -37,6 +37,7 @@
   "qboGlFlowRestrictionInfo": "In order to complete the process of connecting your General ledger, please schedule an appointment with Centime by <ourLink></ourLink>",
   "clickingHere": "Clicking here",
   "unableToSignUpNoticeHeaderText": "Unable to SignUp",
-  "glConnectionStepUserRestrict":"Welcome! This is a demo business entity provided to explore the functionality provided by Centime. In order to connect your {{glName}} account.Please schedule an appointment by <Link></Link>",
-  "sandboxConnectionUserRestrict":"This is your Centime cash management suite sandbox.<Link></Link> to discuss your needs and go live."
+  "glConnectionStepUserRestrict":"To proceed, help us understand your business needs to provide you with a seamless integration experience.<Link></Link>",
+  "sandboxConnectionUserRestrict":"This is your Centime cash management suite sandbox.<Link></Link> to discuss your needs and go live.",
+  "connectNow":"Connect now"
 }
