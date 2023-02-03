@@ -185,14 +185,17 @@
     "Greater than or equals": "से बड़ा या बराबर",
     "Less than": "से कम",
     "Less than or equals": "से कम या बराबर",
-    "In range": "रेंज में",
-    "Not in range": "रेंज से बाहर",
+    "inRange": "रेंज में",
+    "notInRange": "रेंज से बाहर",
+    "inList": "रेंज में",
+    "notInList":"रेंज से बाहर",
     "After": "बाद में",
     "Before": "पहले",
     "download":  "डाउनलोड",
     "Enable": "सक्षम करना",
     "Disable": "बंद करना",
     "Clear all": "सभी साफ करें",
-    "filter": "फ़िल्टर"
+    "filter": "फ़िल्टर",
+    "All": "सभी"
 }
 
