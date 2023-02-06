@@ -318,9 +318,9 @@
     "print": "Print",
     "uploadFile": "<ourLink></ourLink>",
     "addInvoice": "Add invoice",
-    "addInvoicesOrCreditNote": "Add invoices or credit note",
+    "addInvoicesOrCreditNote": "Add invoices",
     "uploadInvoice": "Upload invoice",
-    "uploadInvoicesOrCreditNote": "Upload invoices or credit note",
+    "uploadInvoicesOrCreditNote": "Upload invoices",
     "orSendAnEmailTo": "or send an email to",
     "orDragAndDropFilesHere": "or drag and drop files here",
     "onlyJpegPngAndPdfFilesAreAccepted": "Only jpeg, png and pdf files are accepted",
@@ -523,5 +523,9 @@
     "sort-asc": "Sort Ascending",
     "sort-desc": "Sort Descending",
     "extractionInProgress": "Extraction in progress",
-    "extractionFailed": "Extraction failed"
+    "extractionFailed": "Extraction failed",
+    "backToUnpaid":"Back to Unpaid",
+    "backToPaid":"Back to Paid",
+    "postingPaymentsGLFailed": "Posting of {{count}} invoice payment to General Ledger failed.",
+    "postingPaymentsGLFailed_plural": "Posting of {{count}} invoice payments to General Ledger failed."
 }
