@@ -32,12 +32,11 @@
   "NetSuiteNotSignedUpHeader" : "Not Yet Signed Up",
   "NetSuiteNotSignedUpInfo1": "Please ask your Netsuite Account Administrator to invite you by adding you as a user of Centime.",
   "NetSuiteNotSignedUpInfo2": "Once you receive the invitation link, signup to Centime by clicking the invite link and follow the process required.",
-  "netSuiteRestrictingAccessErrorMsg": "This is your Centime cash management suite sandbox.  <ourLink>scheduleTime</ourLink> now to discuss your needs and go live.",
-  "scheduleTime": "Schedule time now",
+  "scheduleTime": "Schedule time",
   "qboGlFlowRestrictionInfo": "In order to complete the process of connecting your General ledger, please schedule an appointment with Centime by <ourLink></ourLink>",
   "clickingHere": "Clicking here",
   "unableToSignUpNoticeHeaderText": "Unable to SignUp",
   "glConnectionStepUserRestrict":"To proceed, help us understand your business needs to provide you with a seamless integration experience.<Link></Link>",
-  "sandboxConnectionUserRestrict":"This is your Centime cash management suite sandbox.<Link></Link> to discuss your needs and go live.",
+  "sandboxConnectionUserRestrict":"This is your Centime cash management suite sandbox. <Link></Link> now to discuss your needs and go live.",
   "connectNow":"Connect now"
 }
