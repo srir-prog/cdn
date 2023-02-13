@@ -358,7 +358,8 @@
     "payablesTable": "Payables Table",
     "discountPercentage" : "Discount Percentage",
     "credits": "Credits",
-    "plan": "Plan"
+    "plan": "Plan",
     "billsDetailsFetchingError": "Error while fetching invoice details. Please try again.",
-    "supplierDetailsFetchingError": "Error while fetching supplier details. Please try again."
+    "supplierDetailsFetchingError": "Error while fetching supplier details. Please try again.",
+    "PaymentFailed": "Payment failed"
 }
