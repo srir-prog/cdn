@@ -2301,7 +2301,7 @@
                 "paramObjMap": {
                     "clientId": "clientId",
                     "status": "applicationStatus",
-                    "paymentMethodId":"applicationType",
+                    "paymentMethodId":"paymentMethodId",
                     "lastUpdatedBy":{
                         "type":"hardCoded",
                         "key":"loginId"
