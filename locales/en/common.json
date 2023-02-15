@@ -497,7 +497,7 @@
     "approved":"Approved",
     "markApproved": "Mark approved",
     "viewApprovalWorkflow":"View approval workflow",
-    "documentsToBeApproved": "{{count}} invoice is awaiting your approval.",
+    "documentsToBeApproved": "{{count}} uploaded invoices require your approval",
     "extractingDataFromFile": "Extracting data from file <b>{{fileName}}</b>",
     "unableToExtractDataFromFile": "Unable to extract data from file <b>{{fileName}}</b>.",
     "pleaseUploadAgain": "Please upload again",

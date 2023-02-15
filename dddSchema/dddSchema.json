@@ -1144,7 +1144,7 @@
                         "color": "primary"
                     },
                     "action": {
-                        "type": "drillDown",
+                        "type": "updateCall",
                         "pathList": [
                             "1.0",
                             "aggregate"
@@ -1157,6 +1157,9 @@
                             "loginId":{
                                 "type":"hardCoded"
                             }
+                        },
+                        "successNotificationObject": {
+                            "message": "The action is approved"
                         }
                     }
                 },
@@ -1167,7 +1170,7 @@
                         "color": "secondary"
                     },
                     "action": {
-                        "type": "drillDown",
+                        "type": "updateCall",
                         "pathList": [
                             "1.0",
                             "aggregate"
@@ -1180,6 +1183,9 @@
                             "loginId":{
                                 "type":"hardCoded"
                             }
+                        },
+                        "successNotificationObject": {
+                            "message": "The action is disapproved and removed"
                         }
                     }
                 }
@@ -5723,12 +5729,12 @@
                     "templateId": "UpdateDataSyncTrack"
                 },
                 "paramObjMap": {
-                    "clientId": "clientId",
-                    "sourceName": "sourceName",
-                    "entityName": "entityName",
-                    "lastSyncTime": "lastSyncTime",
-                    "entitySyncStatus": "entitySyncStatus",
-                    "batchId": "batchId"
+                    "clientId": "dataSyncTrackEntity.clientId",
+                    "sourceName": "dataSyncTrackEntity.sourceName",
+                    "entityName": "dataSyncTrackEntity.entityName",
+                    "lastSyncTime": "dataSyncTrackEntity.lastSyncTime",
+                    "entitySyncStatus": "dataSyncTrackEntity.syncStatus",
+                    "batchId": "dataSyncTrackEntity.batchId"
                 },
                 "bodyObjMap": {}
             }
@@ -5964,12 +5970,12 @@
                     "templateId": "UpdateDataSyncTrack"
                 },
                 "paramObjMap": {
-                    "clientId": "clientId",
-                    "sourceName": "sourceName",
-                    "entityName": "entityName",
-                    "lastSyncTime": "lastSyncTime",
-                    "entitySyncStatus": "entitySyncStatus",
-                    "batchId": "batchId"
+                    "clientId": "dataSyncTrackEntity.clientId",
+                    "sourceName": "dataSyncTrackEntity.sourceName",
+                    "entityName": "dataSyncTrackEntity.entityName",
+                    "lastSyncTime": "dataSyncTrackEntity.lastSyncTime",
+                    "entitySyncStatus": "dataSyncTrackEntity.syncStatus",
+                    "batchId": "dataSyncTrackEntity.batchId"
                 },
                 "bodyObjMap": {}
             }
