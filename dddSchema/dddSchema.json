@@ -949,34 +949,36 @@
     "approvalList":{
         "componentType": "table",
         "title": "Approval List",
-        "ignoreKeys":["createdBy","clientId","templateId"],
+        "ignoreKeys":["createdBy","clientId","templateId","request"],
         "headersInfo":[
             {
                 "title": "Approval Id",
                 "valueMap": "updateApprovalId",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
-                "title": "Request",
-                "valueMap": "request",
-                "renderType": "detailsList",
-                "align":"left",
-                "renderProps": {
-                    "listInfo": [
-                        {
-                            "label": "Login Id",
-                            "valueMap": "loginId"
-                        },
-                        {
-                            "label": "Template Id",
-                            "valueMap": "templateId"
-                        }
-                    ]
+                "title":"Request",
+                "valueMap":"",
+                "enableAccordion":true,
+                "renderType": "AccordionLink",
+                "renderProps":{
+                    "label":"Get details"
                 },
-                "width":"30%"
+                "accordionProps":{
+                    "renderType":"Tabs",
+                    "tabsInfo":[
+                    {
+                        "tabTitle":"Request details",
+                        "valueMap":"request",
+                        "renderType":"detailsList",
+                        "renderMeta":{
+                            "listInfo":[]
+                        }
+                    }
+                 ]
+                }
             },
             {
                 "title": "Approval status",
@@ -1001,78 +1003,77 @@
                         "label": "NOT_APPROVED",
                         "value": 3
                       }
-                ],
-                "width":"10%"
+                ]
             },
             {
                 "title": "Created time",
                 "valueMap": "createdTime",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
                 "title": "Updated time",
                 "valueMap": "updatedTime",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
                 "title": "Approve by",
                 "valueMap": "approvedBy",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
                 "title": "Created by",
                 "valueMap": "createdBy",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             }
         ],
         "additionalProperties":{
             "enableSearch":true,
-            "paginationNeeded":true
+            "paginationNeeded":true,
+            "defaultColumnToSort":0,
+            "defaultSortingOrder":"asc"
         }
     },
     "approvalListFromBops":{
         "componentType": "table",
         "title": "Approval Pending List",
-        "ignoreKeys":["createdBy","clientId","templateId"],
+        "ignoreKeys":["createdBy","clientId","templateId","request"],
         "headersInfo":[
             {
                 "title": "Approval Id",
                 "valueMap": "updateApprovalId",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
-                "title": "Request",
-                "valueMap": "request",
-                "renderType": "detailsList",
-                "align":"left",
-                "renderProps": {
-                    "listInfo": [
-                        {
-                            "label": "Login Id",
-                            "valueMap": "loginId"
-                        },
-                        {
-                            "label": "Template Id",
-                            "valueMap": "templateId"
-                        }
-                    ]
+                "title":"Request",
+                "valueMap":"",
+                "enableAccordion":true,
+                "renderType": "AccordionLink",
+                "renderProps":{
+                    "label":"Get details"
                 },
-                "width":"30%"
+                "accordionProps":{
+                    "renderType":"Tabs",
+                    "tabsInfo":[
+                    {
+                        "tabTitle":"Request details",
+                        "valueMap":"request",
+                        "renderType":"detailsList",
+                        "renderMeta":{
+                            "listInfo":[]
+                        }
+                    }
+                 ]
+                }
             },
             {
                 "title": "Approval status",
@@ -1097,40 +1098,35 @@
                         "label": "NOT_APPROVED",
                         "value": 3
                       }
-                ],
-                "width":"10%"
+                ]
             },
             {
                 "title": "Created time",
                 "valueMap": "createdTime",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
                 "title": "Updated time",
                 "valueMap": "updatedTime",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
                 "title": "Approve by",
                 "valueMap": "approvedBy",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
                 "title": "Created by",
                 "valueMap": "createdBy",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             }
         ],
         "additionalProperties":{
@@ -1145,6 +1141,8 @@
                     },
                     "action": {
                         "type": "updateCall",
+                        "url": "fs/business-ops-service",
+                        "method": "GET",
                         "pathList": [
                             "1.0",
                             "aggregate"
@@ -1160,7 +1158,8 @@
                         },
                         "successNotificationObject": {
                             "message": "The action is approved"
-                        }
+                        },
+                         "bodyObjMap": {}
                     }
                 },
                 {
@@ -1171,6 +1170,8 @@
                     },
                     "action": {
                         "type": "updateCall",
+                        "url": "fs/business-ops-service",
+                        "method": "GET",
                         "pathList": [
                             "1.0",
                             "aggregate"
@@ -1190,7 +1191,32 @@
                     }
                 }
             ],
-            "editableForm":true
+            "editableForm":true,
+            "defaultColumnToSort":0,
+            "defaultSortingOrder":"asc"
+        },
+         "additionalProperties1": {
+            "enableSearch": true,
+            "paginationNeeded":true,
+            "editableForm": true,
+            "deletableForm": false,
+            "onSaveAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "UpdateJob"
+                },
+                "paramObjMap": {
+                    "jobId":"job_id",
+                    "status":"status"
+                },
+                "bodyObjMap": {}
+            }
         }
     },
     "glActiveClientsList":{
@@ -2564,7 +2590,7 @@
                 "enableSort": true
             },
             {
-                "title": "Aggre status code",
+                "title": "Aggregation status code",
                 "valueMap": "aggregationStatusCode",
                 "renderType": "text",
                 "align":"left",
