@@ -45,10 +45,13 @@
                         },
                         "queryName": "status",
                         "default": [
+                            "COMPLETED",
+                            "CANCELLED",
                             "FAILED",
                             "INITIATED",
                             "PROCESSING",
-                            "SCHEDULED"
+                            "SCHEDULED",
+                            "UNKNOWN"
                         ]
                     },
                     {
@@ -1153,7 +1156,8 @@
                         "paramObjMap": {
                             "uniqueId":"updateApprovalId",
                             "loginId":{
-                                "type":"hardCoded"
+                                "type":"hardCoded",
+                                "key":"loginId"
                             }
                         },
                         "successNotificationObject": {
@@ -1182,7 +1186,8 @@
                         "paramObjMap": {
                             "uniqueId":"updateApprovalId",
                             "loginId":{
-                                "type":"hardCoded"
+                                "type":"hardCoded",
+                                "key":"loginId"
                             }
                         },
                         "successNotificationObject": {
@@ -1618,7 +1623,8 @@
                     },
                     "paramObjMap": {
                         "clientId":"clientId",
-                        "txnRefId":"txnRefId"
+                        "txnRefId":"txnRefId",
+                        "txnType":"txnType"
                     }
                 }
             },
@@ -2165,7 +2171,7 @@
     "productActivation":{
         "componentType": "table",
         "title": "Product activation",
-        "ignoreKeys":["paymentMethodId","sourceId","applicationPaymentData"],
+        "ignoreKeys":["paymentMethodId","sourceId","applicationPaymentData","clientId"],
         "transformToTableDataValueMap":["applicationPaymentData"],
         "headersInfo":[
             {
@@ -2188,7 +2194,8 @@
                                 "creditCardPaymentAttributes",
                                 "centimePayPaymentAttributes",
                                 "centimeCardPaymentAttributes",
-                                "applicationType"
+                                "applicationType",
+                                "centimeCashPaymentAttributes"
                             ],
                             "headersInfo":[
                                 {
@@ -2257,7 +2264,16 @@
                 "valueMap": "applicationStatus",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true
+                "enableSort": true,
+                "editable": "Dropdown",
+                "componentProps": {
+                    "options": {
+                        "ACTIVE" : "ACTIVE",
+                        "INACTIVE" : "INACTIVE",
+                        "SUSPEND" : "SUSPEND"
+                    },
+                    "size": "medium36"
+                }
             },
             {
                 "title": "Initiated by",
@@ -2269,7 +2285,30 @@
         ],
         "additionalProperties": {
             "enableSearch": true,
-            "paginationNeeded": true
+            "paginationNeeded": true,
+            "editableForm": true,
+            "onSaveAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "UpdateProductActivation"
+                },
+                "paramObjMap": {
+                    "clientId": "clientId",
+                    "status": "applicationStatus",
+                    "paymentMethodId":"applicationType",
+                    "lastUpdatedBy":{
+                        "type":"hardCoded",
+                        "key":"loginId"
+                    }
+                },
+                "bodyObjMap": {}
+            }
         }
     },
     "openBills":{
@@ -5554,6 +5593,10 @@
                         "value": 1
                     }
                 ]
+            },
+            {
+                "label":"Last successful Sync time",
+                "valueMap":"lastSuccessfulSyncTime"
             }
         ],
         "ignoreKeys": ["paymentId","glType"],
