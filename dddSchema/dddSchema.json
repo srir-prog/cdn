@@ -1194,29 +1194,6 @@
             "editableForm":true,
             "defaultColumnToSort":0,
             "defaultSortingOrder":"asc"
-        },
-         "additionalProperties1": {
-            "enableSearch": true,
-            "paginationNeeded":true,
-            "editableForm": true,
-            "deletableForm": false,
-            "onSaveAction": {
-                "type": "updateCall",
-                "url": "fs/business-ops-service",
-                "method": "GET",
-                "pathList": [
-                    "1.0",
-                    "aggregate"
-                ],
-                "paramObj": {
-                    "templateId": "UpdateJob"
-                },
-                "paramObjMap": {
-                    "jobId":"job_id",
-                    "status":"status"
-                },
-                "bodyObjMap": {}
-            }
         }
     },
     "glActiveClientsList":{
