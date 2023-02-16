@@ -45,10 +45,13 @@
                         },
                         "queryName": "status",
                         "default": [
+                            "COMPLETED",
+                            "CANCELLED",
                             "FAILED",
                             "INITIATED",
                             "PROCESSING",
-                            "SCHEDULED"
+                            "SCHEDULED",
+                            "UNKNOWN"
                         ]
                     },
                     {
@@ -949,34 +952,36 @@
     "approvalList":{
         "componentType": "table",
         "title": "Approval List",
-        "ignoreKeys":["createdBy","clientId","templateId"],
+        "ignoreKeys":["createdBy","clientId","templateId","request"],
         "headersInfo":[
             {
                 "title": "Approval Id",
                 "valueMap": "updateApprovalId",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
-                "title": "Request",
-                "valueMap": "request",
-                "renderType": "detailsList",
-                "align":"left",
-                "renderProps": {
-                    "listInfo": [
-                        {
-                            "label": "Login Id",
-                            "valueMap": "loginId"
-                        },
-                        {
-                            "label": "Template Id",
-                            "valueMap": "templateId"
-                        }
-                    ]
+                "title":"Request",
+                "valueMap":"",
+                "enableAccordion":true,
+                "renderType": "AccordionLink",
+                "renderProps":{
+                    "label":"Get details"
                 },
-                "width":"30%"
+                "accordionProps":{
+                    "renderType":"Tabs",
+                    "tabsInfo":[
+                    {
+                        "tabTitle":"Request details",
+                        "valueMap":"request",
+                        "renderType":"detailsList",
+                        "renderMeta":{
+                            "listInfo":[]
+                        }
+                    }
+                 ]
+                }
             },
             {
                 "title": "Approval status",
@@ -1001,78 +1006,77 @@
                         "label": "NOT_APPROVED",
                         "value": 3
                       }
-                ],
-                "width":"10%"
+                ]
             },
             {
                 "title": "Created time",
                 "valueMap": "createdTime",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
                 "title": "Updated time",
                 "valueMap": "updatedTime",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
                 "title": "Approve by",
                 "valueMap": "approvedBy",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
                 "title": "Created by",
                 "valueMap": "createdBy",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             }
         ],
         "additionalProperties":{
             "enableSearch":true,
-            "paginationNeeded":true
+            "paginationNeeded":true,
+            "defaultColumnToSort":0,
+            "defaultSortingOrder":"asc"
         }
     },
     "approvalListFromBops":{
         "componentType": "table",
         "title": "Approval Pending List",
-        "ignoreKeys":["createdBy","clientId","templateId"],
+        "ignoreKeys":["createdBy","clientId","templateId","request"],
         "headersInfo":[
             {
                 "title": "Approval Id",
                 "valueMap": "updateApprovalId",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
-                "title": "Request",
-                "valueMap": "request",
-                "renderType": "detailsList",
-                "align":"left",
-                "renderProps": {
-                    "listInfo": [
-                        {
-                            "label": "Login Id",
-                            "valueMap": "loginId"
-                        },
-                        {
-                            "label": "Template Id",
-                            "valueMap": "templateId"
-                        }
-                    ]
+                "title":"Request",
+                "valueMap":"",
+                "enableAccordion":true,
+                "renderType": "AccordionLink",
+                "renderProps":{
+                    "label":"Get details"
                 },
-                "width":"30%"
+                "accordionProps":{
+                    "renderType":"Tabs",
+                    "tabsInfo":[
+                    {
+                        "tabTitle":"Request details",
+                        "valueMap":"request",
+                        "renderType":"detailsList",
+                        "renderMeta":{
+                            "listInfo":[]
+                        }
+                    }
+                 ]
+                }
             },
             {
                 "title": "Approval status",
@@ -1097,40 +1101,35 @@
                         "label": "NOT_APPROVED",
                         "value": 3
                       }
-                ],
-                "width":"10%"
+                ]
             },
             {
                 "title": "Created time",
                 "valueMap": "createdTime",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
                 "title": "Updated time",
                 "valueMap": "updatedTime",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
                 "title": "Approve by",
                 "valueMap": "approvedBy",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
                 "title": "Created by",
                 "valueMap": "createdBy",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             }
         ],
         "additionalProperties":{
@@ -1145,6 +1144,8 @@
                     },
                     "action": {
                         "type": "updateCall",
+                        "url": "fs/business-ops-service",
+                        "method": "GET",
                         "pathList": [
                             "1.0",
                             "aggregate"
@@ -1155,12 +1156,14 @@
                         "paramObjMap": {
                             "uniqueId":"updateApprovalId",
                             "loginId":{
-                                "type":"hardCoded"
+                                "type":"hardCoded",
+                                "key":"loginId"
                             }
                         },
                         "successNotificationObject": {
                             "message": "The action is approved"
-                        }
+                        },
+                         "bodyObjMap": {}
                     }
                 },
                 {
@@ -1171,6 +1174,8 @@
                     },
                     "action": {
                         "type": "updateCall",
+                        "url": "fs/business-ops-service",
+                        "method": "GET",
                         "pathList": [
                             "1.0",
                             "aggregate"
@@ -1181,7 +1186,8 @@
                         "paramObjMap": {
                             "uniqueId":"updateApprovalId",
                             "loginId":{
-                                "type":"hardCoded"
+                                "type":"hardCoded",
+                                "key":"loginId"
                             }
                         },
                         "successNotificationObject": {
@@ -1190,7 +1196,9 @@
                     }
                 }
             ],
-            "editableForm":true
+            "editableForm":true,
+            "defaultColumnToSort":0,
+            "defaultSortingOrder":"asc"
         }
     },
     "glActiveClientsList":{
@@ -1615,7 +1623,8 @@
                     },
                     "paramObjMap": {
                         "clientId":"clientId",
-                        "txnRefId":"txnRefId"
+                        "txnRefId":"txnRefId",
+                        "txnType":"txnType"
                     }
                 }
             },
@@ -2162,7 +2171,7 @@
     "productActivation":{
         "componentType": "table",
         "title": "Product activation",
-        "ignoreKeys":["paymentMethodId","sourceId","applicationPaymentData"],
+        "ignoreKeys":["paymentMethodId","sourceId","applicationPaymentData","clientId"],
         "transformToTableDataValueMap":["applicationPaymentData"],
         "headersInfo":[
             {
@@ -2185,7 +2194,8 @@
                                 "creditCardPaymentAttributes",
                                 "centimePayPaymentAttributes",
                                 "centimeCardPaymentAttributes",
-                                "applicationType"
+                                "applicationType",
+                                "centimeCashPaymentAttributes"
                             ],
                             "headersInfo":[
                                 {
@@ -2254,7 +2264,16 @@
                 "valueMap": "applicationStatus",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true
+                "enableSort": true,
+                "editable": "Dropdown",
+                "componentProps": {
+                    "options": {
+                        "ACTIVE" : "ACTIVE",
+                        "INACTIVE" : "INACTIVE",
+                        "SUSPEND" : "SUSPEND"
+                    },
+                    "size": "medium36"
+                }
             },
             {
                 "title": "Initiated by",
@@ -2266,7 +2285,30 @@
         ],
         "additionalProperties": {
             "enableSearch": true,
-            "paginationNeeded": true
+            "paginationNeeded": true,
+            "editableForm": true,
+            "onSaveAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "UpdateProductActivation"
+                },
+                "paramObjMap": {
+                    "clientId": "clientId",
+                    "status": "applicationStatus",
+                    "paymentMethodId":"paymentMethodId",
+                    "lastUpdatedBy":{
+                        "type":"hardCoded",
+                        "key":"loginId"
+                    }
+                },
+                "bodyObjMap": {}
+            }
         }
     },
     "openBills":{
@@ -2564,7 +2606,7 @@
                 "enableSort": true
             },
             {
-                "title": "Aggre status code",
+                "title": "Aggregation status code",
                 "valueMap": "aggregationStatusCode",
                 "renderType": "text",
                 "align":"left",
@@ -5551,6 +5593,10 @@
                         "value": 1
                     }
                 ]
+            },
+            {
+                "label":"Last successful Sync time",
+                "valueMap":"lastSuccessfulSyncTime"
             }
         ],
         "ignoreKeys": ["paymentId","glType"],
