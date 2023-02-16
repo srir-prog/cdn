@@ -529,7 +529,7 @@
     "policies": "नीतियों",
     "invoiceApprovals": "चालान स्वीकृतियां",
     "paymentApprovals": "भुगतान स्वीकृतियां",
-    "approveAllInvoicesBelow": "नीचे दिए गए सभी चालानों को स्वीकृत करें",
+    "approveAllInvoicesBelow": "नीचे दिए गए चालानों के लिए अनुमोदन की आवश्यकता नहीं है",
     "addPolicies": "नीति जोड़ें",
     "addNewPolicy": "नई नीति जोड़ें",
     "modifyPolicy": "नीति संशोधित करें",
