@@ -45,10 +45,13 @@
                         },
                         "queryName": "status",
                         "default": [
+                            "COMPLETED",
+                            "CANCELLED",
                             "FAILED",
                             "INITIATED",
                             "PROCESSING",
-                            "SCHEDULED"
+                            "SCHEDULED",
+                            "UNKNOWN"
                         ]
                     },
                     {
@@ -407,8 +410,7 @@
                                 "0": "No",
                                 "1": "Yes"
                             },
-                            "tnsForOptions": false,
-                            "multiple": true
+                            "tnsForOptions": false
                         },
                         "default":["1"],
                         "queryName": "userVerified"
@@ -950,7 +952,7 @@
     "approvalList":{
         "componentType": "table",
         "title": "Approval List",
-        "ignoreKeys":["request"],
+        "ignoreKeys":["createdBy","clientId","templateId","request"],
         "headersInfo":[
             {
                 "title": "Approval Id",
@@ -960,30 +962,26 @@
                 "enableSort": true
             },
             {
-                "title": "Template Id",
-                "valueMap": "templateId",
-                "renderType": "text",
-                "align":"left",
-                "enableSort": true
-            },
-            {
-                "title": "Request",
-                "valueMap": "request",
-                "renderType": "text",
+                "title":"Request",
+                "valueMap":"",
+                "enableAccordion":true,
+                "renderType": "AccordionLink",
                 "renderProps":{
-                    "listInfo":[
-                        {
-                            "label":"LoginId",
-                            "valueMap":"loginId"
-                        },
-                        {
-                            "label":"templateId",
-                            "valueMap":"templateId"
-                        }
-                    ]
+                    "label":"Get details"
                 },
-                "align":"left",
-                "enableSort": true
+                "accordionProps":{
+                    "renderType":"Tabs",
+                    "tabsInfo":[
+                    {
+                        "tabTitle":"Request details",
+                        "valueMap":"request",
+                        "renderType":"detailsList",
+                        "renderMeta":{
+                            "listInfo":[]
+                        }
+                    }
+                 ]
+                }
             },
             {
                 "title": "Approval status",
@@ -1014,7 +1012,6 @@
                 "title": "Created time",
                 "valueMap": "createdTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "enableSort": true
             },
@@ -1022,7 +1019,6 @@
                 "title": "Updated time",
                 "valueMap": "updatedTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "enableSort": true
             },
@@ -1040,12 +1036,18 @@
                 "align":"left",
                 "enableSort": true
             }
-        ]
+        ],
+        "additionalProperties":{
+            "enableSearch":true,
+            "paginationNeeded":true,
+            "defaultColumnToSort":0,
+            "defaultSortingOrder":"asc"
+        }
     },
-    "approvalPendingList":{
+    "approvalListFromBops":{
         "componentType": "table",
         "title": "Approval Pending List",
-        "ignoreKeys":["request"],
+        "ignoreKeys":["createdBy","clientId","templateId","request"],
         "headersInfo":[
             {
                 "title": "Approval Id",
@@ -1055,30 +1057,26 @@
                 "enableSort": true
             },
             {
-                "title": "Template Id",
-                "valueMap": "templateId",
-                "renderType": "text",
-                "align":"left",
-                "enableSort": true
-            },
-            {
-                "title": "Request",
-                "valueMap": "request",
-                "renderType": "text",
+                "title":"Request",
+                "valueMap":"",
+                "enableAccordion":true,
+                "renderType": "AccordionLink",
                 "renderProps":{
-                    "listInfo":[
-                        {
-                            "label":"LoginId",
-                            "valueMap":"loginId"
-                        },
-                        {
-                            "label":"templateId",
-                            "valueMap":"templateId"
-                        }
-                    ]
+                    "label":"Get details"
                 },
-                "align":"left",
-                "enableSort": true
+                "accordionProps":{
+                    "renderType":"Tabs",
+                    "tabsInfo":[
+                    {
+                        "tabTitle":"Request details",
+                        "valueMap":"request",
+                        "renderType":"detailsList",
+                        "renderMeta":{
+                            "listInfo":[]
+                        }
+                    }
+                 ]
+                }
             },
             {
                 "title": "Approval status",
@@ -1109,7 +1107,6 @@
                 "title": "Created time",
                 "valueMap": "createdTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "enableSort": true
             },
@@ -1117,7 +1114,6 @@
                 "title": "Updated time",
                 "valueMap": "updatedTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "enableSort": true
             },
@@ -1134,51 +1130,76 @@
                 "renderType": "text",
                 "align":"left",
                 "enableSort": true
-            },
-            {
-                "title":"Approve",
-                "valueMap":"",
-                "renderType":"Button",
-                "renderProps":{
-                    "label":"Approve"
-
-                },
-                "action": {
-                    "type": "drillDown",
-                    "pathList": [
-                        "1.0",
-                        "aggregate"
-                    ],
-                    "paramObj": {
-                        "templateId": "Approve"
-                    },
-                    "paramObjMap": {
-                        "uniqueId":"updateApprovalId"
-                    }
-                }
-            },
-            {
-                "title":"Disapprove",
-                "valueMap":"",
-                "renderType":"Button",
-                "renderProps":{
-                    "label":"Disapprove"
-                },
-                "action": {
-                    "type": "drillDown",
-                    "pathList": [
-                        "1.0",
-                        "aggregate"
-                    ],
-                    "paramObj": {
-                        "templateId": "Disapprove"
-                    },
-                    "paramObjMap": {
-                        "uniqueId":"updateApprovalId"
-                    }
-                }
             }
-        ]
+        ],
+        "additionalProperties":{
+            "enableSearch":true,
+            "paginationNeeded":true,
+            "actionsColumnIcons": [
+                {
+                    "iconName": "success",
+                    "componentProps": {
+                        "ariaLabel": "Approve",
+                        "color": "primary"
+                    },
+                    "action": {
+                        "type": "updateCall",
+                        "url": "fs/business-ops-service",
+                        "method": "GET",
+                        "pathList": [
+                            "1.0",
+                            "aggregate"
+                        ],
+                        "paramObj": {
+                            "templateId": "Approve"
+                        },
+                        "paramObjMap": {
+                            "uniqueId":"updateApprovalId",
+                            "loginId":{
+                                "type":"hardCoded",
+                                "key":"loginId"
+                            }
+                        },
+                        "successNotificationObject": {
+                            "message": "The action is approved"
+                        },
+                         "bodyObjMap": {}
+                    }
+                },
+                {
+                    "iconName": "clear",
+                    "componentProps": {
+                        "ariaLabel": "Disapprove",
+                        "color": "secondary"
+                    },
+                    "action": {
+                        "type": "updateCall",
+                        "url": "fs/business-ops-service",
+                        "method": "GET",
+                        "pathList": [
+                            "1.0",
+                            "aggregate"
+                        ],
+                        "paramObj": {
+                            "templateId": "Disapprove"
+                        },
+                        "paramObjMap": {
+                            "uniqueId":"updateApprovalId",
+                            "loginId":{
+                                "type":"hardCoded",
+                                "key":"loginId"
+                            }
+                        },
+                        "successNotificationObject": {
+                            "message": "The action is disapproved and removed"
+                        }
+                    }
+                }
+            ],
+            "editableForm":true,
+            "defaultColumnToSort":0,
+            "defaultSortingOrder":"asc"
+        }
     },
     "glActiveClientsList":{
         "componentType": "table",
@@ -1602,7 +1623,8 @@
                     },
                     "paramObjMap": {
                         "clientId":"clientId",
-                        "txnRefId":"txnRefId"
+                        "txnRefId":"txnRefId",
+                        "txnType":"txnType"
                     }
                 }
             },
@@ -1645,7 +1667,6 @@
                 "title": "Created time",
                 "valueMap": "createdTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "enableSort": true
             },
@@ -1653,7 +1674,6 @@
                 "title": "Updated time",
                 "valueMap": "updatedTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "enableSort": true
             },
@@ -1675,7 +1695,7 @@
     "glPostingTxnDetails":{
         "componentType": "detailsList",
         "title":"GL posting transaction details",
-        "ignoreKeys":["glResponseMap"],
+        "ignoreKeys":["glResponseMap","clientName"],
         "listInfo":[
             {
                 "label": "Client Id",
@@ -1719,13 +1739,11 @@
             },
             {
                 "label": "Created time",
-                "valueMap": "createdTime",
-                "formatType":"datetime"
+                "valueMap": "createdTime"
             },
             {
                 "label": "Updated time",
-                "valueMap": "updatedTime",
-                "formatType":"datetime"
+                "valueMap": "updatedTime"
             },
             {
                 "label": "Standardized error code",
@@ -1982,7 +2000,6 @@
                 "title": "Start time",
                 "valueMap": "start_time",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "width": "10.6%",
                 "enableSort": false
@@ -1991,7 +2008,6 @@
                 "title": "End time",
                 "valueMap": "end_time",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "width": "10.6%",
                 "enableSort": false
@@ -2106,7 +2122,6 @@
                 "title": "Start time",
                 "valueMap": "startTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "width": "15%",
                 "enableSort": false
@@ -2115,7 +2130,6 @@
                 "title": "End time",
                 "valueMap": "endTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "width": "15%",
                 "enableSort": false
@@ -2157,14 +2171,13 @@
     "productActivation":{
         "componentType": "table",
         "title": "Product activation",
-        "ignoreKeys":["paymentMethodId","sourceId","bankApplicationGroup","glAccounts"],
-        "transformToTableDataValueMap":["bankApplicationGroup"],
+        "ignoreKeys":["paymentMethodId","sourceId","applicationPaymentData","clientId"],
+        "transformToTableDataValueMap":["applicationPaymentData"],
         "headersInfo":[
             {
                 "title": "Payment method",
                 "valueMap": "applicationType",
                 "align":"left",
-                "width": "20%",
                 "enableSort": true,
                 "enableAccordion":true,
                 "renderType": "AccordionLink",
@@ -2172,114 +2185,68 @@
                     "renderType":"Tabs",
                     "tabsInfo":[
                     {
-                        "tabTitle":"Account Groups",
-                        "valueMap":"bankApplicationGroup",
+                        "tabTitle":"Payment data",
+                        "valueMap":"applicationPaymentData",
                         "renderType":"table",
+                        "receiveParam":"applicationType",
                         "renderMeta":{
-                            "ignoreKeys":["bankAccountId","bankAccountGroup",
-                            "canActivate","defaultAccount","glAccountId"],
+                            "ignoreKeys":[
+                                "creditCardPaymentAttributes",
+                                "centimePayPaymentAttributes",
+                                "centimeCardPaymentAttributes",
+                                "applicationType",
+                                "centimeCashPaymentAttributes"
+                            ],
                             "headersInfo":[
                                 {
-                                    "title":"Bank name",
-                                    "valueMap":"bankName",
+                                    "title":"Account Id",
+                                    "valueMap":"accountId",
                                     "enableSort":true,
-                                    "align":"left",
-                                    "width":"20%"
+                                    "align":"left"
                                 },
                                 {
-                                    "title":"A/c type",
-                                    "valueMap":"accountType",
-                                    "enableSort":true,
-                                    "align":"left",
-                                    "width":"20%"
+                                    "title": "Bank account UId",
+                                    "valueMap": "bankAccountUid",
+                                    "renderType": "Link",
+                                    "action": {
+                                        "type": "sidePanelData",
+                                        "pathList": [
+                                            "1.0",
+                                            "aggregate"
+                                        ],
+                                        "paramObj": {
+                                            "templateId": "BankAccountDetails"
+                                        },
+                                        "paramObjMap": {
+                                            "clientId": "clientId",
+                                            "payerPaymentAccountId": "bankAccountUid",
+                                            "paymentMethod": "applicationType"
+                                        }
+                                    }
                                 },
                                 {
-                                    "title":"A/c No",
-                                    "valueMap":"accountNumber",
+                                    "title":"Is Centime card",
+                                    "valueMap":"isCentimeCard",
                                     "enableSort":true,
                                     "align":"left",
-                                    "width":"15%"
+                                    "formatType":"boolean"
                                 },
                                 {
-                                    "title":"A/c name",
-                                    "valueMap":"accountName",
+                                    "title":"Is Centime cash",
+                                    "valueMap":"isCentimeCash",
                                     "enableSort":true,
                                     "align":"left",
-                                    "width":"15%"
-                                },
-                                {
-                                    "title":"Routing #",
-                                    "valueMap":"routingNumber",
-                                    "enableSort":true,
-                                    "align":"left",
-                                    "width":"20%"
+                                    "formatType":"boolean"
                                 },
                                 {
                                     "title":"Status",
                                     "valueMap":"status",
                                     "enableSort":true,
-                                    "align":"left",
-                                    "width":"10%"
+                                    "align":"left"
                                 }
                             ]
                         }
                         
-                    },
-                    {
-                        "tabTitle":"GL Accounts",
-                        "valueMap":"glAccounts",
-                        "renderType":"table",
-                        "renderMeta":{
-                            "ignoreKeys":["updatedTime","parentId","locationId","inventoryFlag",
-                        "glCreatedTime","fullQualifiedName","departmentId","currencyCode",
-                        "bankRoutingNumber","clientId","accountNumber","classification","accountActiveStatus",
-                        "cumulativeBalance","createdTime","classId","bankName","bankAccountNumber","batchId"],
-                            "headersInfo":[
-                                {
-                                    "title":"A/c Id",
-                                    "valueMap":"accountId",
-                                    "enableSort":true,
-                                    "align":"left",
-                                    "width":"8%"
-                                },
-                                {
-                                    "title":"A/c name",
-                                    "valueMap":"accountName",
-                                    "enableSort":true,
-                                    "align":"left",
-                                    "width":"19%"
-                                },
-                                {
-                                    "title":"A/c type",
-                                    "valueMap":"accountType",
-                                    "enableSort":true,
-                                    "align":"left",
-                                    "width":"19%"
-                                },
-                                {
-                                    "title":"A/c subtype",
-                                    "valueMap":"accountSubType",
-                                    "enableSort":true,
-                                    "align":"left",
-                                    "width":"18%"
-                                },
-                                {
-                                    "title":"CF category",
-                                    "valueMap":"cfCategory",
-                                    "enableSort":true,
-                                    "align":"left",
-                                    "width":"18%"
-                                },
-                                {
-                                    "title":"Current balance",
-                                    "valueMap":"currentBalance",
-                                    "enableSort":true,
-                                    "formatType":"currency",
-                                    "align":"left",
-                                    "width":"18%"
-                                }
-                            ]
-                        }
                     }
                 ]
                 }
@@ -2297,21 +2264,51 @@
                 "valueMap": "applicationStatus",
                 "renderType": "text",
                 "align":"left",
-                "width": "12%",
-                "enableSort": true
+                "enableSort": true,
+                "editable": "Dropdown",
+                "componentProps": {
+                    "options": {
+                        "ACTIVE" : "ACTIVE",
+                        "INACTIVE" : "INACTIVE",
+                        "SUSPEND" : "SUSPEND"
+                    },
+                    "size": "medium36"
+                }
             },
             {
                 "title": "Initiated by",
-                "valueMap": "applicationInitiatedBy",
+                "valueMap": "applicationInitiatedUser",
                 "renderType": "text",
                 "align":"left",
-                "width": "20%",
                 "enableSort": true
             }
         ],
         "additionalProperties": {
             "enableSearch": true,
-            "paginationNeeded": true
+            "paginationNeeded": true,
+            "editableForm": true,
+            "onSaveAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "UpdateProductActivation"
+                },
+                "paramObjMap": {
+                    "clientId": "clientId",
+                    "status": "applicationStatus",
+                    "paymentMethodId":"paymentMethodId",
+                    "lastUpdatedBy":{
+                        "type":"hardCoded",
+                        "key":"loginId"
+                    }
+                },
+                "bodyObjMap": {}
+            }
         }
     },
     "openBills":{
@@ -2380,7 +2377,6 @@
                 "title": "Due date",
                 "valueMap": "dueDate",
                 "renderType": "text",
-                "formatType": "datetime",
                 "align":"left",
                 "width": "25%",
                 "enableSort": true
@@ -2404,8 +2400,7 @@
                             "listInfo":[
                                 {
                                     "label":"Due date",
-                                    "valueMap":"dueDate",
-                                    "formatType":"datetime"
+                                    "valueMap":"dueDate"
                                 },
                                 {
                                     "label":"Description",
@@ -2470,8 +2465,7 @@
                                 },
                                 {
                                     "label":"Payment date",
-                                    "valueMap":"paymentDate",
-                                    "formatType":"datetime"
+                                    "valueMap":"paymentDate"
                                 },
                                 {
                                     "label":"Payment status info",
@@ -2547,8 +2541,6 @@
         "fullAccountNumber",
         "routingNumber",
         "currencyCode",
-        "ownerName",
-        "ownerAddress",
         "accountNumber",
         "currentBalance",
         "aggregationSuccessDate",
@@ -2600,7 +2592,21 @@
                 "enableSort": true
             },
             {
-                "title": "Aggre status code",
+                "title": "Owner name",
+                "valueMap": "ownerName",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Owner address",
+                "valueMap": "ownerAddress",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Aggregation status code",
                 "valueMap": "aggregationStatusCode",
                 "renderType": "text",
                 "align":"left",
@@ -3200,13 +3206,11 @@
             },
             {
                 "title": "Start Date",
-                "valueMap": "transactionStartDate",
-                "formatType": "date"
+                "valueMap": "transactionStartDate"
             },
             {
                 "title": "End Date",
-                "valueMap": "transactionEndDate",
-                "formatType": "date"
+                "valueMap": "transactionEndDate"
             },
             {
                 "title": "Error Code",
@@ -3310,13 +3314,11 @@
             },
             {
                 "label": "Start Date",
-                "valueMap": "transactionStartDate",
-                "formatType": "date"
+                "valueMap": "transactionStartDate"
             },
             {
                 "label": "End Date",
-                "valueMap": "transactionEndDate",
-                "formatType": "date"
+                "valueMap": "transactionEndDate"
             },
             {
                 "label": "Transaction Details",
@@ -3482,7 +3484,6 @@
                                     {
                                         "title": "Change Time",
                                         "valueMap": "subStatusChangeTime",
-                                        "formatType": "datetime",
                                         "enableSort": true
                                     }
                                 ],
@@ -3734,8 +3735,7 @@
             },
             {
                 "label": "Payment Date",
-                "valueMap": "paymentDate",
-                "formatType": "datetime"
+                "valueMap": "paymentDate"
             },
             {
                 "label": "Payment Status",
@@ -3789,8 +3789,7 @@
             },
             {
                 "label": "Due Date",
-                "valueMap": "dueDate",
-                "formatType": "datetime"
+                "valueMap": "dueDate"
             },
             {
                 "label": "Transaction Total Amount",
@@ -3878,8 +3877,7 @@
                         },
                         {
                             "label": "Chargify Date",
-                            "valueMap": "billedInChargifyDate",
-                            "formatType": "datetime"
+                            "valueMap": "billedInChargifyDate"
                         },
                         {
                             "label": "Billed In Chargify",
@@ -4017,8 +4015,7 @@
                         },
                         {
                             "label": "Date",
-                            "valueMap": "dateTimeStamp",
-                            "formatType": "datetime"
+                            "valueMap": "dateTimeStamp"
                         },
                         {
                             "label": "Self Approval",
@@ -4162,8 +4159,7 @@
                         },
                         {
                             "label": "Date",
-                            "valueMap": "dateTimeStamp",
-                            "formatType": "datetime"
+                            "valueMap": "dateTimeStamp"
                         },
                         {
                             "label": "Self Approval",
@@ -4193,8 +4189,7 @@
             },
             {
                 "label": "Remittance Sent Date",
-                "valueMap": "remittanceSentDate",
-                "formatType": "datetime"
+                "valueMap": "remittanceSentDate"
             },
             {
                 "label": "Approval Email Sent",
@@ -4210,8 +4205,7 @@
             },
             {
                 "label": "Transaction Date",
-                "valueMap": "txnDate",
-                "formatType": "datetime"
+                "valueMap": "txnDate"
             },
             {
                 "label": "Transaction Amount",
@@ -4232,8 +4226,7 @@
             },
             {
                 "label": "Updated Time",
-                "valueMap": "updatedTime",
-                "formatType": "datetime"
+                "valueMap": "updatedTime"
             },
             {
                 "label": "History",
@@ -4257,8 +4250,7 @@
                         },
                         {
                             "title": "Date",
-                            "valueMap": "dateTimeStamp",
-                            "formatType": "datetime"
+                            "valueMap": "dateTimeStamp"
                         }
                     ],
                     "ignoreKeys": [
@@ -4416,7 +4408,6 @@
             {
                 "title": "Payment Date",
                 "valueMap": "paymentDate",
-                "formatType": "datetime",
                 "enableSort": true
             },
             {
@@ -4460,8 +4451,7 @@
                         },
                         {
                             "label": "Date",
-                            "valueMap": "dateTimeStamp",
-                            "formatType": "datetime"
+                            "valueMap": "dateTimeStamp"
                         },
                         {
                             "label": "Self Approval",
@@ -4529,8 +4519,7 @@
                         },
                         {
                             "label": "Date",
-                            "valueMap": "dateTimeStamp",
-                            "formatType": "datetime"
+                            "valueMap": "dateTimeStamp"
                         },
                         {
                             "label": "Self Approval",
@@ -4764,8 +4753,7 @@
             },
             {
                 "label":"Company start date",
-                "valueMap":"createdTime",
-                "formatType":"datetime"
+                "valueMap":"createdTime"
             },
             {
                 "label": "Status",
@@ -5352,13 +5340,11 @@
             },
             {
                 "label": "Created Time",
-                "valueMap": "createdTime",
-                "formatType": "datetime"
+                "valueMap": "createdTime"
             },
             {
                 "label": "Updated Time",
-                "valueMap": "updatedTime",
-                "formatType": "datetime"
+                "valueMap": "updatedTime"
             },
             {
                 "label": "User Entitlement",
@@ -5390,8 +5376,7 @@
             },
             {
                 "label": "User Secret Updated Time",
-                "valueMap": "userSecretUpdatedTime",
-                "formatType": "datetime"
+                "valueMap": "userSecretUpdatedTime"
             },
             {
                 "label": "Login Attempts Left",
@@ -5400,8 +5385,7 @@
             },
             {
                 "label": "Last Login Failed Attempt At",
-                "valueMap": "lastLoginFailedAttemptAt",
-                "formatType": "datetime"
+                "valueMap": "lastLoginFailedAttemptAt"
             }
         ],
         "ignoreKeys": ["phone","password", "session", "accessToken", "refreshToken", "userPolicy", "glType","clientId","connectUri","mdmId","partnerName"],
@@ -5453,9 +5437,12 @@
             {
                 "renderType": "Button",
                 "renderProps": {
-                    "label": "Enable Custom Challenge",
+                    "label":{
+                        "SMS_MFA":"Enable Custom Challenge",
+                        "CUSTOM_CHALLENGE":"Enable SMS MFA"
+                    },
                     "valueMap":"preferences.mfaChallenge",
-                    "compareValue":"CUSTOM_CHALLENGE"
+                    "toggle":true
                 },
                 "renderPosition": "bottom",
                 "gridSize":3,
@@ -5468,12 +5455,14 @@
                         "aggregate"
                     ],
                     "paramObj": {
-                        "templateId": "EnableCustomChallenge"
+                        "templateId": "EnableMFAChallenge"
                     },
                     "paramObjMap": {
                         "mfaChallenge": {
-                            "type":"hardCoded",
-                            "value":"CUSTOM_CHALLENGE"
+                            "type":"dynamic",
+                            "path":"preferences.mfaChallenge",
+                            "CUSTOM_CHALLENGE":"SMS_MFA",
+                            "SMS_MFA":"CUSTOM_CHALLENGE"
                         },
                         "loginId":"loginId"
                     },
@@ -5553,13 +5542,11 @@
             },
             {
                 "label": "Sync Start",
-                "valueMap": "syncStart",
-                "formatType": "datetime"
+                "valueMap": "syncStart"
             },
             {
                 "label": "Sync End",
-                "valueMap": "syncEnd",
-                "formatType": "datetime"
+                "valueMap": "syncEnd"
             },
             {
                 "label": "Source Sync Status",
@@ -5606,6 +5593,10 @@
                         "value": 1
                     }
                 ]
+            },
+            {
+                "label":"Last successful Sync time",
+                "valueMap":"lastSuccessfulSyncTime"
             }
         ],
         "ignoreKeys": ["paymentId","glType"],
@@ -5743,7 +5734,6 @@
             {
                 "title": "Last Sync",
                 "valueMap": "dataSyncTrackEntity.lastSyncTime",
-                "formatType": "datetime",
                 "align":"left",
                 "editable": "DatesSelector",
                 "componentProps": {
@@ -5785,12 +5775,12 @@
                     "templateId": "UpdateDataSyncTrack"
                 },
                 "paramObjMap": {
-                    "clientId": "clientId",
-                    "sourceName": "sourceName",
-                    "entityName": "entityName",
-                    "lastSyncTime": "lastSyncTime",
-                    "entitySyncStatus": "entitySyncStatus",
-                    "batchId": "batchId"
+                    "clientId": "dataSyncTrackEntity.clientId",
+                    "sourceName": "dataSyncTrackEntity.sourceName",
+                    "entityName": "dataSyncTrackEntity.entityName",
+                    "lastSyncTime": "dataSyncTrackEntity.lastSyncTime",
+                    "entitySyncStatus": "dataSyncTrackEntity.syncStatus",
+                    "batchId": "dataSyncTrackEntity.batchId"
                 },
                 "bodyObjMap": {}
             }
@@ -5819,13 +5809,11 @@
             },
             {
                 "label": "Sync Start",
-                "valueMap": "syncStart",
-                "formatType": "datetime"
+                "valueMap": "syncStart"
             },
             {
                 "label": "Sync End",
-                "valueMap": "syncEnd",
-                "formatType": "datetime"
+                "valueMap": "syncEnd"
             },
             {
                 "label": "Source Sync Status",
@@ -5987,7 +5975,6 @@
             {
                 "title": "Last Sync",
                 "valueMap": "dataSyncTrackEntity.lastSyncTime",
-                "formatType": "datetime",
                 "align":"left",
                 "editable": "DatesSelector",
                 "componentProps": {
@@ -6029,12 +6016,12 @@
                     "templateId": "UpdateDataSyncTrack"
                 },
                 "paramObjMap": {
-                    "clientId": "clientId",
-                    "sourceName": "sourceName",
-                    "entityName": "entityName",
-                    "lastSyncTime": "lastSyncTime",
-                    "entitySyncStatus": "entitySyncStatus",
-                    "batchId": "batchId"
+                    "clientId": "dataSyncTrackEntity.clientId",
+                    "sourceName": "dataSyncTrackEntity.sourceName",
+                    "entityName": "dataSyncTrackEntity.entityName",
+                    "lastSyncTime": "dataSyncTrackEntity.lastSyncTime",
+                    "entitySyncStatus": "dataSyncTrackEntity.syncStatus",
+                    "batchId": "dataSyncTrackEntity.batchId"
                 },
                 "bodyObjMap": {}
             }
@@ -6060,7 +6047,6 @@
             {
                 "title": "Sync start time",
                 "valueMap": "syncStartTime",
-                "formatType":"datetime",
                 "renderType": "text",
                 "enableSort": true
             },
@@ -6068,7 +6054,6 @@
                 "title": "Sync end time",
                 "valueMap": "syncEndTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "enableSort": true
             },
             {
