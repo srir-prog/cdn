@@ -45,10 +45,13 @@
                         },
                         "queryName": "status",
                         "default": [
+                            "COMPLETED",
+                            "CANCELLED",
                             "FAILED",
                             "INITIATED",
                             "PROCESSING",
-                            "SCHEDULED"
+                            "SCHEDULED",
+                            "UNKNOWN"
                         ]
                     },
                     {
@@ -949,34 +952,36 @@
     "approvalList":{
         "componentType": "table",
         "title": "Approval List",
-        "ignoreKeys":["createdBy","clientId","templateId"],
+        "ignoreKeys":["createdBy","clientId","templateId","request"],
         "headersInfo":[
             {
                 "title": "Approval Id",
                 "valueMap": "updateApprovalId",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
-                "title": "Request",
-                "valueMap": "request",
-                "renderType": "detailsList",
-                "align":"left",
-                "renderProps": {
-                    "listInfo": [
-                        {
-                            "label": "Login Id",
-                            "valueMap": "loginId"
-                        },
-                        {
-                            "label": "Template Id",
-                            "valueMap": "templateId"
-                        }
-                    ]
+                "title":"Request",
+                "valueMap":"",
+                "enableAccordion":true,
+                "renderType": "AccordionLink",
+                "renderProps":{
+                    "label":"Get details"
                 },
-                "width":"30%"
+                "accordionProps":{
+                    "renderType":"Tabs",
+                    "tabsInfo":[
+                    {
+                        "tabTitle":"Request details",
+                        "valueMap":"request",
+                        "renderType":"detailsList",
+                        "renderMeta":{
+                            "listInfo":[]
+                        }
+                    }
+                 ]
+                }
             },
             {
                 "title": "Approval status",
@@ -1001,80 +1006,77 @@
                         "label": "NOT_APPROVED",
                         "value": 3
                       }
-                ],
-                "width":"10%"
+                ]
             },
             {
                 "title": "Created time",
                 "valueMap": "createdTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
                 "title": "Updated time",
                 "valueMap": "updatedTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
                 "title": "Approve by",
                 "valueMap": "approvedBy",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
                 "title": "Created by",
                 "valueMap": "createdBy",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             }
         ],
         "additionalProperties":{
             "enableSearch":true,
-            "paginationNeeded":true
+            "paginationNeeded":true,
+            "defaultColumnToSort":0,
+            "defaultSortingOrder":"asc"
         }
     },
     "approvalListFromBops":{
         "componentType": "table",
         "title": "Approval Pending List",
-        "ignoreKeys":["createdBy","clientId","templateId"],
+        "ignoreKeys":["createdBy","clientId","templateId","request"],
         "headersInfo":[
             {
                 "title": "Approval Id",
                 "valueMap": "updateApprovalId",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
-                "title": "Request",
-                "valueMap": "request",
-                "renderType": "detailsList",
-                "align":"left",
-                "renderProps": {
-                    "listInfo": [
-                        {
-                            "label": "Login Id",
-                            "valueMap": "loginId"
-                        },
-                        {
-                            "label": "Template Id",
-                            "valueMap": "templateId"
-                        }
-                    ]
+                "title":"Request",
+                "valueMap":"",
+                "enableAccordion":true,
+                "renderType": "AccordionLink",
+                "renderProps":{
+                    "label":"Get details"
                 },
-                "width":"30%"
+                "accordionProps":{
+                    "renderType":"Tabs",
+                    "tabsInfo":[
+                    {
+                        "tabTitle":"Request details",
+                        "valueMap":"request",
+                        "renderType":"detailsList",
+                        "renderMeta":{
+                            "listInfo":[]
+                        }
+                    }
+                 ]
+                }
             },
             {
                 "title": "Approval status",
@@ -1099,42 +1101,35 @@
                         "label": "NOT_APPROVED",
                         "value": 3
                       }
-                ],
-                "width":"10%"
+                ]
             },
             {
                 "title": "Created time",
                 "valueMap": "createdTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
                 "title": "Updated time",
                 "valueMap": "updatedTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
                 "title": "Approve by",
                 "valueMap": "approvedBy",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
                 "title": "Created by",
                 "valueMap": "createdBy",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             }
         ],
         "additionalProperties":{
@@ -1148,7 +1143,9 @@
                         "color": "primary"
                     },
                     "action": {
-                        "type": "drillDown",
+                        "type": "updateCall",
+                        "url": "fs/business-ops-service",
+                        "method": "GET",
                         "pathList": [
                             "1.0",
                             "aggregate"
@@ -1159,9 +1156,14 @@
                         "paramObjMap": {
                             "uniqueId":"updateApprovalId",
                             "loginId":{
-                                "type":"hardCoded"
+                                "type":"hardCoded",
+                                "key":"loginId"
                             }
-                        }
+                        },
+                        "successNotificationObject": {
+                            "message": "The action is approved"
+                        },
+                         "bodyObjMap": {}
                     }
                 },
                 {
@@ -1171,7 +1173,9 @@
                         "color": "secondary"
                     },
                     "action": {
-                        "type": "drillDown",
+                        "type": "updateCall",
+                        "url": "fs/business-ops-service",
+                        "method": "GET",
                         "pathList": [
                             "1.0",
                             "aggregate"
@@ -1182,13 +1186,19 @@
                         "paramObjMap": {
                             "uniqueId":"updateApprovalId",
                             "loginId":{
-                                "type":"hardCoded"
+                                "type":"hardCoded",
+                                "key":"loginId"
                             }
+                        },
+                        "successNotificationObject": {
+                            "message": "The action is disapproved and removed"
                         }
                     }
                 }
             ],
-            "editableForm":true
+            "editableForm":true,
+            "defaultColumnToSort":0,
+            "defaultSortingOrder":"asc"
         }
     },
     "glActiveClientsList":{
@@ -1613,7 +1623,8 @@
                     },
                     "paramObjMap": {
                         "clientId":"clientId",
-                        "txnRefId":"txnRefId"
+                        "txnRefId":"txnRefId",
+                        "txnType":"txnType"
                     }
                 }
             },
@@ -1656,7 +1667,6 @@
                 "title": "Created time",
                 "valueMap": "createdTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "enableSort": true
             },
@@ -1664,7 +1674,6 @@
                 "title": "Updated time",
                 "valueMap": "updatedTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "enableSort": true
             },
@@ -1730,13 +1739,11 @@
             },
             {
                 "label": "Created time",
-                "valueMap": "createdTime",
-                "formatType":"datetime"
+                "valueMap": "createdTime"
             },
             {
                 "label": "Updated time",
-                "valueMap": "updatedTime",
-                "formatType":"datetime"
+                "valueMap": "updatedTime"
             },
             {
                 "label": "Standardized error code",
@@ -1993,7 +2000,6 @@
                 "title": "Start time",
                 "valueMap": "start_time",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "width": "10.6%",
                 "enableSort": false
@@ -2002,7 +2008,6 @@
                 "title": "End time",
                 "valueMap": "end_time",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "width": "10.6%",
                 "enableSort": false
@@ -2117,7 +2122,6 @@
                 "title": "Start time",
                 "valueMap": "startTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "width": "15%",
                 "enableSort": false
@@ -2126,7 +2130,6 @@
                 "title": "End time",
                 "valueMap": "endTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "align":"left",
                 "width": "15%",
                 "enableSort": false
@@ -2168,7 +2171,7 @@
     "productActivation":{
         "componentType": "table",
         "title": "Product activation",
-        "ignoreKeys":["paymentMethodId","sourceId","applicationPaymentData"],
+        "ignoreKeys":["paymentMethodId","sourceId","applicationPaymentData","clientId"],
         "transformToTableDataValueMap":["applicationPaymentData"],
         "headersInfo":[
             {
@@ -2191,7 +2194,8 @@
                                 "creditCardPaymentAttributes",
                                 "centimePayPaymentAttributes",
                                 "centimeCardPaymentAttributes",
-                                "applicationType"
+                                "applicationType",
+                                "centimeCashPaymentAttributes"
                             ],
                             "headersInfo":[
                                 {
@@ -2260,7 +2264,16 @@
                 "valueMap": "applicationStatus",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true
+                "enableSort": true,
+                "editable": "Dropdown",
+                "componentProps": {
+                    "options": {
+                        "ACTIVE" : "ACTIVE",
+                        "INACTIVE" : "INACTIVE",
+                        "SUSPEND" : "SUSPEND"
+                    },
+                    "size": "medium36"
+                }
             },
             {
                 "title": "Initiated by",
@@ -2272,7 +2285,30 @@
         ],
         "additionalProperties": {
             "enableSearch": true,
-            "paginationNeeded": true
+            "paginationNeeded": true,
+            "editableForm": true,
+            "onSaveAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "UpdateProductActivation"
+                },
+                "paramObjMap": {
+                    "clientId": "clientId",
+                    "status": "applicationStatus",
+                    "paymentMethodId":"paymentMethodId",
+                    "lastUpdatedBy":{
+                        "type":"hardCoded",
+                        "key":"loginId"
+                    }
+                },
+                "bodyObjMap": {}
+            }
         }
     },
     "openBills":{
@@ -2341,7 +2377,6 @@
                 "title": "Due date",
                 "valueMap": "dueDate",
                 "renderType": "text",
-                "formatType": "datetime",
                 "align":"left",
                 "width": "25%",
                 "enableSort": true
@@ -2365,8 +2400,7 @@
                             "listInfo":[
                                 {
                                     "label":"Due date",
-                                    "valueMap":"dueDate",
-                                    "formatType":"datetime"
+                                    "valueMap":"dueDate"
                                 },
                                 {
                                     "label":"Description",
@@ -2431,8 +2465,7 @@
                                 },
                                 {
                                     "label":"Payment date",
-                                    "valueMap":"paymentDate",
-                                    "formatType":"datetime"
+                                    "valueMap":"paymentDate"
                                 },
                                 {
                                     "label":"Payment status info",
@@ -2573,7 +2606,7 @@
                 "enableSort": true
             },
             {
-                "title": "Aggre status code",
+                "title": "Aggregation status code",
                 "valueMap": "aggregationStatusCode",
                 "renderType": "text",
                 "align":"left",
@@ -3281,13 +3314,11 @@
             },
             {
                 "label": "Start Date",
-                "valueMap": "transactionStartDate",
-                "formatType": "date"
+                "valueMap": "transactionStartDate"
             },
             {
                 "label": "End Date",
-                "valueMap": "transactionEndDate",
-                "formatType": "date"
+                "valueMap": "transactionEndDate"
             },
             {
                 "label": "Transaction Details",
@@ -3453,7 +3484,6 @@
                                     {
                                         "title": "Change Time",
                                         "valueMap": "subStatusChangeTime",
-                                        "formatType": "datetime",
                                         "enableSort": true
                                     }
                                 ],
@@ -3705,8 +3735,7 @@
             },
             {
                 "label": "Payment Date",
-                "valueMap": "paymentDate",
-                "formatType": "datetime"
+                "valueMap": "paymentDate"
             },
             {
                 "label": "Payment Status",
@@ -3760,8 +3789,7 @@
             },
             {
                 "label": "Due Date",
-                "valueMap": "dueDate",
-                "formatType": "datetime"
+                "valueMap": "dueDate"
             },
             {
                 "label": "Transaction Total Amount",
@@ -3849,8 +3877,7 @@
                         },
                         {
                             "label": "Chargify Date",
-                            "valueMap": "billedInChargifyDate",
-                            "formatType": "datetime"
+                            "valueMap": "billedInChargifyDate"
                         },
                         {
                             "label": "Billed In Chargify",
@@ -3988,8 +4015,7 @@
                         },
                         {
                             "label": "Date",
-                            "valueMap": "dateTimeStamp",
-                            "formatType": "datetime"
+                            "valueMap": "dateTimeStamp"
                         },
                         {
                             "label": "Self Approval",
@@ -4133,8 +4159,7 @@
                         },
                         {
                             "label": "Date",
-                            "valueMap": "dateTimeStamp",
-                            "formatType": "datetime"
+                            "valueMap": "dateTimeStamp"
                         },
                         {
                             "label": "Self Approval",
@@ -4164,8 +4189,7 @@
             },
             {
                 "label": "Remittance Sent Date",
-                "valueMap": "remittanceSentDate",
-                "formatType": "datetime"
+                "valueMap": "remittanceSentDate"
             },
             {
                 "label": "Approval Email Sent",
@@ -4181,8 +4205,7 @@
             },
             {
                 "label": "Transaction Date",
-                "valueMap": "txnDate",
-                "formatType": "datetime"
+                "valueMap": "txnDate"
             },
             {
                 "label": "Transaction Amount",
@@ -4203,8 +4226,7 @@
             },
             {
                 "label": "Updated Time",
-                "valueMap": "updatedTime",
-                "formatType": "datetime"
+                "valueMap": "updatedTime"
             },
             {
                 "label": "History",
@@ -4228,8 +4250,7 @@
                         },
                         {
                             "title": "Date",
-                            "valueMap": "dateTimeStamp",
-                            "formatType": "datetime"
+                            "valueMap": "dateTimeStamp"
                         }
                     ],
                     "ignoreKeys": [
@@ -4387,7 +4408,6 @@
             {
                 "title": "Payment Date",
                 "valueMap": "paymentDate",
-                "formatType": "datetime",
                 "enableSort": true
             },
             {
@@ -4431,8 +4451,7 @@
                         },
                         {
                             "label": "Date",
-                            "valueMap": "dateTimeStamp",
-                            "formatType": "datetime"
+                            "valueMap": "dateTimeStamp"
                         },
                         {
                             "label": "Self Approval",
@@ -4500,8 +4519,7 @@
                         },
                         {
                             "label": "Date",
-                            "valueMap": "dateTimeStamp",
-                            "formatType": "datetime"
+                            "valueMap": "dateTimeStamp"
                         },
                         {
                             "label": "Self Approval",
@@ -4735,8 +4753,7 @@
             },
             {
                 "label":"Company start date",
-                "valueMap":"createdTime",
-                "formatType":"datetime"
+                "valueMap":"createdTime"
             },
             {
                 "label": "Status",
@@ -5323,13 +5340,11 @@
             },
             {
                 "label": "Created Time",
-                "valueMap": "createdTime",
-                "formatType": "datetime"
+                "valueMap": "createdTime"
             },
             {
                 "label": "Updated Time",
-                "valueMap": "updatedTime",
-                "formatType": "datetime"
+                "valueMap": "updatedTime"
             },
             {
                 "label": "User Entitlement",
@@ -5361,8 +5376,7 @@
             },
             {
                 "label": "User Secret Updated Time",
-                "valueMap": "userSecretUpdatedTime",
-                "formatType": "datetime"
+                "valueMap": "userSecretUpdatedTime"
             },
             {
                 "label": "Login Attempts Left",
@@ -5371,8 +5385,7 @@
             },
             {
                 "label": "Last Login Failed Attempt At",
-                "valueMap": "lastLoginFailedAttemptAt",
-                "formatType": "datetime"
+                "valueMap": "lastLoginFailedAttemptAt"
             }
         ],
         "ignoreKeys": ["phone","password", "session", "accessToken", "refreshToken", "userPolicy", "glType","clientId","connectUri","mdmId","partnerName"],
@@ -5529,13 +5542,11 @@
             },
             {
                 "label": "Sync Start",
-                "valueMap": "syncStart",
-                "formatType": "datetime"
+                "valueMap": "syncStart"
             },
             {
                 "label": "Sync End",
-                "valueMap": "syncEnd",
-                "formatType": "datetime"
+                "valueMap": "syncEnd"
             },
             {
                 "label": "Source Sync Status",
@@ -5582,6 +5593,10 @@
                         "value": 1
                     }
                 ]
+            },
+            {
+                "label":"Last successful Sync time",
+                "valueMap":"lastSuccessfulSyncTime"
             }
         ],
         "ignoreKeys": ["paymentId","glType"],
@@ -5719,7 +5734,6 @@
             {
                 "title": "Last Sync",
                 "valueMap": "dataSyncTrackEntity.lastSyncTime",
-                "formatType": "datetime",
                 "align":"left",
                 "editable": "DatesSelector",
                 "componentProps": {
@@ -5761,12 +5775,12 @@
                     "templateId": "UpdateDataSyncTrack"
                 },
                 "paramObjMap": {
-                    "clientId": "clientId",
-                    "sourceName": "sourceName",
-                    "entityName": "entityName",
-                    "lastSyncTime": "lastSyncTime",
-                    "entitySyncStatus": "entitySyncStatus",
-                    "batchId": "batchId"
+                    "clientId": "dataSyncTrackEntity.clientId",
+                    "sourceName": "dataSyncTrackEntity.sourceName",
+                    "entityName": "dataSyncTrackEntity.entityName",
+                    "lastSyncTime": "dataSyncTrackEntity.lastSyncTime",
+                    "entitySyncStatus": "dataSyncTrackEntity.syncStatus",
+                    "batchId": "dataSyncTrackEntity.batchId"
                 },
                 "bodyObjMap": {}
             }
@@ -5795,13 +5809,11 @@
             },
             {
                 "label": "Sync Start",
-                "valueMap": "syncStart",
-                "formatType": "datetime"
+                "valueMap": "syncStart"
             },
             {
                 "label": "Sync End",
-                "valueMap": "syncEnd",
-                "formatType": "datetime"
+                "valueMap": "syncEnd"
             },
             {
                 "label": "Source Sync Status",
@@ -5963,7 +5975,6 @@
             {
                 "title": "Last Sync",
                 "valueMap": "dataSyncTrackEntity.lastSyncTime",
-                "formatType": "datetime",
                 "align":"left",
                 "editable": "DatesSelector",
                 "componentProps": {
@@ -6005,12 +6016,12 @@
                     "templateId": "UpdateDataSyncTrack"
                 },
                 "paramObjMap": {
-                    "clientId": "clientId",
-                    "sourceName": "sourceName",
-                    "entityName": "entityName",
-                    "lastSyncTime": "lastSyncTime",
-                    "entitySyncStatus": "entitySyncStatus",
-                    "batchId": "batchId"
+                    "clientId": "dataSyncTrackEntity.clientId",
+                    "sourceName": "dataSyncTrackEntity.sourceName",
+                    "entityName": "dataSyncTrackEntity.entityName",
+                    "lastSyncTime": "dataSyncTrackEntity.lastSyncTime",
+                    "entitySyncStatus": "dataSyncTrackEntity.syncStatus",
+                    "batchId": "dataSyncTrackEntity.batchId"
                 },
                 "bodyObjMap": {}
             }
@@ -6036,7 +6047,6 @@
             {
                 "title": "Sync start time",
                 "valueMap": "syncStartTime",
-                "formatType":"datetime",
                 "renderType": "text",
                 "enableSort": true
             },
@@ -6044,7 +6054,6 @@
                 "title": "Sync end time",
                 "valueMap": "syncEndTime",
                 "renderType": "text",
-                "formatType":"datetime",
                 "enableSort": true
             },
             {
