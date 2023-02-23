@@ -949,6 +949,59 @@
             }
         ]
     },
+    "pendingPayments":{
+        "componentType": "table",
+        "title": "Pending Payment List",
+        "ignoreKeys":["transactions"],
+        "headersInfo":[
+            {
+                "title": "Payment",
+                "valueMap": "payment",
+                "align":"left",
+                "renderType":"detailsList",
+                "renderProps":{
+                    "ignoreKeys":[],
+                    "listInfo":[
+                        {
+                            "label": "",
+                            "valueMap": "paymentId",
+                            "renderType": "Link",
+                            "action": {
+                                "type": "sidePanelData",
+                                "pathList": [
+                                    "1.0",
+                                    "aggregate"
+                                ],
+                                "paramObj": {
+                                    "templateId": "BankAccountDetailsByAccountId"
+                                },
+                                "paramObjMap": {
+                                    "clientId": "clientId",
+                                    "accountId": "payerPaymentAccountId"
+                                }
+                            }
+                        }
+                    ]
+                 }
+            },
+            {
+                "title": "Transactions",
+                "valueMap": "transactions",
+                "align":"left",
+                "renderType":"table",
+                "renderProps":{
+                    "ignoreKeys":[],
+                    "headersInfo":[
+                       
+                    ]
+                 }
+            }
+        ],
+        "additionalProperties":{
+            "enableSearch":true,
+            "paginationNeeded":true
+        }
+    },
     "approvalList":{
         "componentType": "table",
         "title": "Approval List",
@@ -2073,14 +2126,20 @@
     "jobHistory":{
         "componentType": "table",
         "title": "Job History List",
-        "ignoreKeys":["jobId","retry"],
+        "ignoreKeys":[],
         "headersInfo":[
+            {
+                "title": "Job Id",
+                "valueMap": "jobId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
             {
                 "title": "History Id",
                 "valueMap": "jobHistoryId",
                 "renderType": "text",
                 "align":"left",
-                "width": "10%",
                 "enableSort": true
             },
             {
@@ -2088,15 +2147,13 @@
                 "valueMap": "errorDetail",
                 "renderType": "text",
                 "align":"left",
-                "width": "15%",
                 "enableSort": true
             },
             {
                 "title": "Retry config",
                 "valueMap": "retry",
-                "renderType": "text",
+                "renderType": "detailsList",
                 "align":"left",
-                "width": "15%",
                 "renderProps": {
                     "listInfo": [
                         {
@@ -2115,32 +2172,25 @@
                 "valueMap": "retryCounter",
                 "enableSort": true,
                 "renderType": "text",
-                "align":"left",
-                "width": "15%"
+                "align":"left"
             },
             {
                 "title": "Start time",
                 "valueMap": "startTime",
                 "renderType": "text",
-                "align":"left",
-                "width": "15%",
-                "enableSort": false
+                "align":"left"
             },
             {
                 "title": "End time",
                 "valueMap": "endTime",
                 "renderType": "text",
-                "align":"left",
-                "width": "15%",
-                "enableSort": false
+                "align":"left"
             },
-            
             {
                 "title": "Status",
                 "valueMap": "status",
                 "renderType": "text",
                 "align":"left",
-                "width": "10%",
                 "enableSort": true,
                 "editable": "Dropdown",
                 "componentProps": {
@@ -2543,8 +2593,6 @@
         "currencyCode",
         "accountNumber",
         "currentBalance",
-        "aggregationSuccessDate",
-        "aggregationAttemptDate",
         "modifiedAccountName",
         "modifiedInstitutionName"
     ],
@@ -2611,7 +2659,22 @@
                 "renderType": "text",
                 "align":"left",
                 "enableSort": true
+            },
+            {
+                "title": "Aggregation attempt date",
+                "valueMap": "aggregationAttemptDate",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Aggregation success date",
+                "valueMap": "aggregationSuccessDate",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
             }
+
         ],
         "additionalProperties": {
             "enableSearch": true,
@@ -5905,6 +5968,26 @@
                     "paramObjMap": {
                         "clientId": "clientId",
                         "sourceName": "sourceName"
+                    }
+                }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Bank details"
+                },
+                "renderPosition": "top",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "BankAccountsByClientId"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId"
                     }
                 }
             }
