@@ -1366,7 +1366,7 @@
                 "displayValueEnum": [
                     {
                         "label": "centime-test",
-                        "value": -11
+                        "value": -1
                     },
                     {
                         "label": "centime-sandbox",
@@ -1431,6 +1431,74 @@
                     {
                         "label": "centime-business-ops",
                         "value": 16
+                    },
+                    {
+                        "label": "centime-business-ops",
+                        "value": 16
+                    },
+                    {
+                        "label": "centime-basic-auth",
+                        "value": 17
+                    },
+                    {
+                        "label": "receivables-single",
+                        "value": 18
+                    },
+                    {
+                        "label": "payables-single",
+                        "value": 19
+                    },
+                    {
+                        "label": "cashMonitoring-single",
+                        "value": 20
+                    },
+                    {
+                        "label": "cash planning,forecasting-single",
+                        "value": 21
+                    },
+                    {
+                        "label": "receivables-payables",
+                        "value": 22
+                    },
+                    {
+                        "label": "receivables-cash monitoring",
+                        "value": 23
+                    },
+                    {
+                        "label": "receivables-cash planning,forecasting",
+                        "value": 24
+                    },
+                    {
+                        "label": "payables-cash monitoring",
+                        "value": 25
+                    },
+                    {
+                        "label": "payables-cash planning,forecasting",
+                        "value": 26
+                    },
+                    {
+                        "label": "cash monitoring-cash planning,forecasting",
+                        "value": 27
+                    },
+                    {
+                        "label": "receivables-payables-cash monitoring",
+                        "value": 28
+                    },
+                    {
+                        "label": "payables-cash monitoring-cash planning,forecasting",
+                        "value": 29
+                    },
+                    {
+                        "label": "receivables-cash monitoring-cash planning,forecasting",
+                        "value": 30
+                    },
+                    {
+                        "label": "receivables-payables-cash planning,forecasting",
+                        "value": 31
+                    },
+                    {
+                        "label": "centime-full-suite",
+                        "value": 32
                     }
                 ]
             },
@@ -1559,7 +1627,7 @@
                 "displayValueEnum": [
                     {
                         "label": "centime-test",
-                        "value": -11
+                        "value": -1
                     },
                     {
                         "label": "centime-sandbox",
@@ -1624,6 +1692,74 @@
                     {
                         "label": "centime-business-ops",
                         "value": 16
+                    },
+                    {
+                        "label": "centime-business-ops",
+                        "value": 16
+                    },
+                    {
+                        "label": "centime-basic-auth",
+                        "value": 17
+                    },
+                    {
+                        "label": "receivables-single",
+                        "value": 18
+                    },
+                    {
+                        "label": "payables-single",
+                        "value": 19
+                    },
+                    {
+                        "label": "cashMonitoring-single",
+                        "value": 20
+                    },
+                    {
+                        "label": "cash planning,forecasting-single",
+                        "value": 21
+                    },
+                    {
+                        "label": "receivables-payables",
+                        "value": 22
+                    },
+                    {
+                        "label": "receivables-cash monitoring",
+                        "value": 23
+                    },
+                    {
+                        "label": "receivables-cash planning,forecasting",
+                        "value": 24
+                    },
+                    {
+                        "label": "payables-cash monitoring",
+                        "value": 25
+                    },
+                    {
+                        "label": "payables-cash planning,forecasting",
+                        "value": 26
+                    },
+                    {
+                        "label": "cash monitoring-cash planning,forecasting",
+                        "value": 27
+                    },
+                    {
+                        "label": "receivables-payables-cash monitoring",
+                        "value": 28
+                    },
+                    {
+                        "label": "payables-cash monitoring-cash planning,forecasting",
+                        "value": 29
+                    },
+                    {
+                        "label": "receivables-cash monitoring-cash planning,forecasting",
+                        "value": 30
+                    },
+                    {
+                        "label": "receivables-payables-cash planning,forecasting",
+                        "value": 31
+                    },
+                    {
+                        "label": "centime-full-suite",
+                        "value": 32
                     }
                 ]
             },
@@ -4615,6 +4751,7 @@
                 "title": "Name",
                 "valueMap": "clientEntity.clientName",
                 "renderType": "Link",
+                "align":"left",
                 "action": {
                     "type": "drillDown",
                     "pathList": [
@@ -4653,7 +4790,7 @@
                 "displayValueEnum": [
                     {
                         "label": "centime-test",
-                        "value": -11
+                        "value": -1
                     },
                     {
                         "label": "centime-sandbox",
@@ -4718,6 +4855,74 @@
                     {
                         "label": "centime-business-ops",
                         "value": 16
+                    },
+                    {
+                        "label": "centime-business-ops",
+                        "value": 16
+                    },
+                    {
+                        "label": "centime-basic-auth",
+                        "value": 17
+                    },
+                    {
+                        "label": "receivables-single",
+                        "value": 18
+                    },
+                    {
+                        "label": "payables-single",
+                        "value": 19
+                    },
+                    {
+                        "label": "cashMonitoring-single",
+                        "value": 20
+                    },
+                    {
+                        "label": "cash planning,forecasting-single",
+                        "value": 21
+                    },
+                    {
+                        "label": "receivables-payables",
+                        "value": 22
+                    },
+                    {
+                        "label": "receivables-cash monitoring",
+                        "value": 23
+                    },
+                    {
+                        "label": "receivables-cash planning,forecasting",
+                        "value": 24
+                    },
+                    {
+                        "label": "payables-cash monitoring",
+                        "value": 25
+                    },
+                    {
+                        "label": "payables-cash planning,forecasting",
+                        "value": 26
+                    },
+                    {
+                        "label": "cash monitoring-cash planning,forecasting",
+                        "value": 27
+                    },
+                    {
+                        "label": "receivables-payables-cash monitoring",
+                        "value": 28
+                    },
+                    {
+                        "label": "payables-cash monitoring-cash planning,forecasting",
+                        "value": 29
+                    },
+                    {
+                        "label": "receivables-cash monitoring-cash planning,forecasting",
+                        "value": 30
+                    },
+                    {
+                        "label": "receivables-payables-cash planning,forecasting",
+                        "value": 31
+                    },
+                    {
+                        "label": "centime-full-suite",
+                        "value": 32
                     }
                 ],
                 "enableSort": true,
@@ -5000,7 +5205,7 @@
                 "displayValueEnum": [
                     {
                         "label": "centime-test",
-                        "value": -11
+                        "value": -1
                     },
                     {
                         "label": "centime-sandbox",
@@ -5065,6 +5270,74 @@
                     {
                         "label": "centime-business-ops",
                         "value": 16
+                    },
+                    {
+                        "label": "centime-business-ops",
+                        "value": 16
+                    },
+                    {
+                        "label": "centime-basic-auth",
+                        "value": 17
+                    },
+                    {
+                        "label": "receivables-single",
+                        "value": 18
+                    },
+                    {
+                        "label": "payables-single",
+                        "value": 19
+                    },
+                    {
+                        "label": "cashMonitoring-single",
+                        "value": 20
+                    },
+                    {
+                        "label": "cash planning,forecasting-single",
+                        "value": 21
+                    },
+                    {
+                        "label": "receivables-payables",
+                        "value": 22
+                    },
+                    {
+                        "label": "receivables-cash monitoring",
+                        "value": 23
+                    },
+                    {
+                        "label": "receivables-cash planning,forecasting",
+                        "value": 24
+                    },
+                    {
+                        "label": "payables-cash monitoring",
+                        "value": 25
+                    },
+                    {
+                        "label": "payables-cash planning,forecasting",
+                        "value": 26
+                    },
+                    {
+                        "label": "cash monitoring-cash planning,forecasting",
+                        "value": 27
+                    },
+                    {
+                        "label": "receivables-payables-cash monitoring",
+                        "value": 28
+                    },
+                    {
+                        "label": "payables-cash monitoring-cash planning,forecasting",
+                        "value": 29
+                    },
+                    {
+                        "label": "receivables-cash monitoring-cash planning,forecasting",
+                        "value": 30
+                    },
+                    {
+                        "label": "receivables-payables-cash planning,forecasting",
+                        "value": 31
+                    },
+                    {
+                        "label": "centime-full-suite",
+                        "value": 32
                     }
                 ],
                 "editType": "select",
