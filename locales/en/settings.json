@@ -574,6 +574,6 @@
     "operationCashFlowConfirm": "Are you sure you want to update the settings? This action will remove existing predictions, manual additions and regenerate the forecast with updated balances",
     "payrollAccounts": "Payroll accounts",
     "operationalBankAccounts": "Operational bank accounts",
-    "groupInvoicePayment":"Group invoice payments made to the supplier on the same payment date",
-    "groupInvoicePaymentPanel":"Group invoice payments made on the same payment date"
+    "groupInvoicePayment":"Group invoice payments by date for a Supplier",
+    "groupInvoicePaymentPanel":"Group invoice payments by date"
 }

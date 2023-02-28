@@ -531,7 +531,9 @@
     "needsReviewDuplicateStatusHeader": "Needs review: Potential duplicate found",
     "invoiceNumberDuplicateMessage": "Invoice with same number already exists",
     "supplierInvoiceAmountDuplicateMessage": "Invoice with same invoice data and amount already exists",
+    "duplicateInvoice":"Potential duplicate found",
     "department":"Department",
     "location":"Location",
     "class": "Class"
+    
 }
