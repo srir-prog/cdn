@@ -530,7 +530,7 @@
     "postingPaymentsGLFailed_plural": "Posting of {{count}} invoice payments to General Ledger failed.",
     "needsReviewDuplicateStatusHeader": "Needs review: Potential duplicate found",
     "invoiceNumberDuplicateMessage": "Invoice with same number already exists",
-    "supplierInvoiceAmountDuplicateMessage": "Invoice with same invoice data and amount already exists",
+    "supplierInvoiceAmountDuplicateMessage": "Invoice with same invoice date and amount already exists",
     "duplicateInvoice":"Potential duplicate found",
     "department":"Department",
     "location":"Location",
