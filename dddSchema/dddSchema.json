@@ -35,6 +35,7 @@
                                 "CANCELLED": "CANCELLED",
                                 "COMPLETED": "COMPLETED",
                                 "FAILED": "FAILED",
+                                "HOLD":"HOLD",
                                 "INITIATED": "INITIATED",
                                 "PROCESSING": "PROCESSING",
                                 "SCHEDULED": "SCHEDULED",
@@ -742,7 +743,25 @@
                 "elementsInfo": [
                     {
                         "type": "Dropdown",
+                        "title": "Client status",
+                        "gridSize":2,
+                        "componentProps": {
+                            "options": {
+                                "1": "Not-Activated",
+                                "2": "Active",
+                                "3": "Suspended",
+                                "4": "Closed",
+                                "5": "Invited"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
+                        },
+                        "queryName": "activeStatus"
+                    },
+                    {
+                        "type": "Dropdown",
                         "title": "Source name",
+                        "gridSize":4,
                         "componentProps": {
                             "options": {
                                 "QuickBooks Online": "QuickBooks Online",
@@ -762,6 +781,7 @@
                     {
                         "type": "Dropdown",
                         "title": "GL connection status",
+                        "gridSize":2,
                         "componentProps": {
                             "options": {
                                 "1": "Pending",
@@ -776,6 +796,7 @@
                     {
                         "type": "Dropdown",
                         "title": "GL sync status",
+                        "gridSize":2,
                         "componentProps": {
                             "options": {
                                 "1": "IN PROGRESS",
@@ -790,6 +811,7 @@
                     },
                     {
                         "type": "Input",
+                        "gridSize":2,
                         "componentProps": {
                             "fullWidth":  true,
                             "placeholder": "All"
@@ -832,6 +854,10 @@
                         "clientId": {
                             "type": "queryBuilder",
                             "value": "clientId"
+                        },
+                        "activeStatus":{
+                            "type": "queryBuilder",
+                            "value": "activeStatus"
                         }
                     }
                 }
@@ -851,7 +877,25 @@
                 "elementsInfo": [
                     {
                         "type": "Dropdown",
+                        "title": "Client status",
+                        "gridSize":2,
+                        "componentProps": {
+                            "options": {
+                                "1": "Not-Activated",
+                                "2": "Active",
+                                "3": "Suspended",
+                                "4": "Closed",
+                                "5": "Invited"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
+                        },
+                        "queryName": "activeStatus"
+                    },
+                    {
+                        "type": "Dropdown",
                         "title": "Source name",
+                        "gridSize":4,
                         "componentProps": {
                             "options": {
                                 "Finicity": "Finicity",
@@ -871,6 +915,7 @@
                     {
                         "type": "Dropdown",
                         "title": "GL connection status",
+                        "gridSize":2,
                         "componentProps": {
                             "options": {
                                 "1": "Pending",
@@ -885,6 +930,7 @@
                     {
                         "type": "Dropdown",
                         "title": "GL sync status",
+                        "gridSize":2,
                         "componentProps": {
                              "options": {
                                     "1": "IN PROGRESS",
@@ -903,6 +949,7 @@
                             "fullWidth":  true,
                             "placeholder": "All"
                         },
+                        "gridSize":2,
                         "title": "Client Id",
                         "queryName": "clientId"
                     }
@@ -943,6 +990,10 @@
                         "clientId": {
                             "type": "queryBuilder",
                             "value": "clientId"
+                        },
+                        "activeStatus":{
+                            "type": "queryBuilder",
+                            "value": "activeStatus"
                         }
                     }
                 }
@@ -1290,6 +1341,35 @@
                 "enableSort": true
             },
             {
+                "title": "Client status",
+                "valueMap": "clientEntity.activeStatus",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true,
+                "displayValueEnum":[
+                    {
+                        "label": "Non-Activated",
+                        "value": 1
+                    },
+                    {
+                        "label": "Active",
+                        "value":2
+                    },
+                    {
+                        "label": "Suspended",
+                        "value": 3
+                    },
+                    {
+                        "label": "Closed",
+                        "value": 4
+                    },
+                    {
+                        "label": "Invited",
+                        "value": 5
+                    }
+                ]
+            },
+            {
                 "title": "GL Sync status",
                 "valueMap": "dataSourceDetailEntity.syncStatus",
                 "renderType": "text",
@@ -1427,10 +1507,6 @@
                     {
                         "label": "centime-partner",
                         "value": 15
-                    },
-                    {
-                        "label": "centime-business-ops",
-                        "value": 16
                     },
                     {
                         "label": "centime-business-ops",
@@ -1551,6 +1627,35 @@
                 "enableSort": true
             },
             {
+                "title": "Client status",
+                "valueMap": "clientEntity.activeStatus",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true,
+                "displayValueEnum":[
+                    {
+                        "label": "Non-Activated",
+                        "value": 1
+                    },
+                    {
+                        "label": "Active",
+                        "value":2
+                    },
+                    {
+                        "label": "Suspended",
+                        "value": 3
+                    },
+                    {
+                        "label": "Closed",
+                        "value": 4
+                    },
+                    {
+                        "label": "Invited",
+                        "value": 5
+                    }
+                ]
+            },
+            {
                 "title": "GL Sync status",
                 "valueMap": "dataSourceDetailEntity.syncStatus",
                 "renderType": "text",
@@ -1688,10 +1793,6 @@
                     {
                         "label": "centime-partner",
                         "value": 15
-                    },
-                    {
-                        "label": "centime-business-ops",
-                        "value": 16
                     },
                     {
                         "label": "centime-business-ops",
@@ -2730,7 +2831,8 @@
         "accountNumber",
         "currentBalance",
         "modifiedAccountName",
-        "modifiedInstitutionName"
+        "modifiedInstitutionName",
+        "modifiedAccountType"
     ],
         "headersInfo":[
             {
@@ -4857,10 +4959,6 @@
                         "value": 16
                     },
                     {
-                        "label": "centime-business-ops",
-                        "value": 16
-                    },
-                    {
                         "label": "centime-basic-auth",
                         "value": 17
                     },
@@ -5266,10 +5364,6 @@
                     {
                         "label": "centime-partner",
                         "value": 15
-                    },
-                    {
-                        "label": "centime-business-ops",
-                        "value": 16
                     },
                     {
                         "label": "centime-business-ops",
@@ -5919,7 +6013,9 @@
             {
                 "label": "Auto sync",
                 "valueMap": "connectionInfo.incrementalSyncFlag",
-                "displayValueEnum": [
+                "editable": true,
+                "editType": "select",
+                "enum": [
                     {
                         "label": "Off",
                         "value": 0
@@ -6020,7 +6116,8 @@
                 "paramObjMap": {
                     "clientId": "clientId",
                     "sourceName": "sourceName",
-                    "sourceSyncStatus": "sourceSyncStatus"
+                    "sourceSyncStatus": "sourceSyncStatus",
+                    "incrementalSyncFlag":"connectionInfo.incrementalSyncFlag"
                 },
                 "bodyObjMap": {}
             }
@@ -6087,6 +6184,7 @@
                 "title": "Error code",
                 "valueMap": "errorCode",
                 "renderType": "text",
+                "align":"left",
                 "enableSort": true
             },
             {
@@ -6186,7 +6284,9 @@
             {
                 "label": "Auto sync",
                 "valueMap": "connectionInfo.incrementalSyncFlag",
-                "displayValueEnum": [
+                "editable": true,
+                "editType": "select",
+                "enum": [
                     {
                         "label": "Off",
                         "value": 0
@@ -6281,7 +6381,8 @@
                 "paramObjMap": {
                     "clientId": "clientId",
                     "sourceName": "sourceName",
-                    "sourceSyncStatus": "sourceSyncStatus"
+                    "sourceSyncStatus": "sourceSyncStatus",
+                    "incrementalSyncFlag":"connectionInfo.incrementalSyncFlag"
                 },
                 "bodyObjMap": {}
             }
