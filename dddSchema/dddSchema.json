@@ -49,6 +49,7 @@
                             "COMPLETED",
                             "CANCELLED",
                             "FAILED",
+                            "HOLD",
                             "INITIATED",
                             "PROCESSING",
                             "SCHEDULED",
@@ -1055,12 +1056,19 @@
     },
     "approvalList":{
         "componentType": "table",
-        "title": "Approval List",
-        "ignoreKeys":["createdBy","clientId","templateId","request"],
+        "title": "Approvals Status List",
+        "ignoreKeys":["createdBy","clientId","request"],
         "headersInfo":[
             {
                 "title": "Approval Id",
                 "valueMap": "updateApprovalId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Template Id",
+                "valueMap": "templateId",
                 "renderType": "text",
                 "align":"left",
                 "enableSort": true
@@ -1150,12 +1158,19 @@
     },
     "approvalListFromBops":{
         "componentType": "table",
-        "title": "Approval Pending List",
-        "ignoreKeys":["createdBy","clientId","templateId","request"],
+        "title": "Approvals Pending List",
+        "ignoreKeys":["createdBy","clientId","request"],
         "headersInfo":[
             {
                 "title": "Approval Id",
                 "valueMap": "updateApprovalId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Template Id",
+                "valueMap": "templateId",
                 "renderType": "text",
                 "align":"left",
                 "enableSort": true
@@ -1398,6 +1413,7 @@
                 "title": "Auto sync",
                 "valueMap": "dataSourceDetailEntity.connectionInfo.incrementalSyncFlag",
                 "renderType": "text",
+                "defaultValue":1,
                 "align":"left",
                 "enableSort": true,
                 "displayValueEnum": [
@@ -2818,7 +2834,6 @@
         "accountStatus",
         "accountGroup",
         "balanceDate",
-        "clientId",
         "institutionLoginId",
         "lastTransactionDate",
         "batchId",
@@ -6013,8 +6028,19 @@
             {
                 "label": "Auto sync",
                 "valueMap": "connectionInfo.incrementalSyncFlag",
+                "defaultValue":1,
                 "editable": true,
                 "editType": "select",
+                "displayValueEnum": [
+                    {
+                        "label": "Off",
+                        "value": 0
+                    },
+                    {
+                        "label": "On",
+                        "value": 1
+                    }
+                ],
                 "enum": [
                     {
                         "label": "Off",
