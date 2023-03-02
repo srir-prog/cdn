@@ -35,7 +35,6 @@
                                 "CANCELLED": "CANCELLED",
                                 "COMPLETED": "COMPLETED",
                                 "FAILED": "FAILED",
-                                "HOLD":"HOLD",
                                 "INITIATED": "INITIATED",
                                 "PROCESSING": "PROCESSING",
                                 "SCHEDULED": "SCHEDULED",
@@ -49,7 +48,6 @@
                             "COMPLETED",
                             "CANCELLED",
                             "FAILED",
-                            "HOLD",
                             "INITIATED",
                             "PROCESSING",
                             "SCHEDULED",
@@ -65,7 +63,8 @@
                                 "CHECK": "CHECK",
                                 "CREDIT_CARD": "CREDIT_CARD",
                                 "CENTIME_CARD": "CENTIME_CARD",
-                                "CENTIME_CASH": "CENTIME_CASH"
+                                "CENTIME_CASH": "CENTIME_CASH",
+                                "CENTIME_PAY":"CENTIME_PAY"
                             },
                             "tnsForOptions": false,
                             "multiple": true
@@ -76,7 +75,8 @@
                             "CHECK",
                             "CREDIT_CARD",
                             "CENTIME_CARD",
-                            "CENTIME_CASH"
+                            "CENTIME_CASH",
+                            "CENTIME_PAY"
                         ]
                     },
                     {
@@ -915,7 +915,7 @@
                     },
                     {
                         "type": "Dropdown",
-                        "title": "GL connection status",
+                        "title": "Connection status",
                         "gridSize":2,
                         "componentProps": {
                             "options": {
@@ -930,7 +930,7 @@
                     },
                     {
                         "type": "Dropdown",
-                        "title": "GL sync status",
+                        "title": "Sync status",
                         "gridSize":2,
                         "componentProps": {
                              "options": {
@@ -3470,7 +3470,7 @@
         ],
         "additionalProperties": {
             "defaultSortingOrder": "desc",
-            "defaultColumnToSort": 8,
+            "defaultColumnToSort": 6,
             "enableSearch": true,
             "paginationNeeded": true,
             "rowsPerPageOptions": [
