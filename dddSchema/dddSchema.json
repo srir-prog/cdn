@@ -63,7 +63,8 @@
                                 "CHECK": "CHECK",
                                 "CREDIT_CARD": "CREDIT_CARD",
                                 "CENTIME_CARD": "CENTIME_CARD",
-                                "CENTIME_CASH": "CENTIME_CASH"
+                                "CENTIME_CASH": "CENTIME_CASH",
+                                "CENTIME_PAY":"CENTIME_PAY"
                             },
                             "tnsForOptions": false,
                             "multiple": true
@@ -74,7 +75,8 @@
                             "CHECK",
                             "CREDIT_CARD",
                             "CENTIME_CARD",
-                            "CENTIME_CASH"
+                            "CENTIME_CASH",
+                            "CENTIME_PAY"
                         ]
                     },
                     {
@@ -742,7 +744,25 @@
                 "elementsInfo": [
                     {
                         "type": "Dropdown",
+                        "title": "Client status",
+                        "gridSize":2,
+                        "componentProps": {
+                            "options": {
+                                "1": "Not-Activated",
+                                "2": "Active",
+                                "3": "Suspended",
+                                "4": "Closed",
+                                "5": "Invited"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
+                        },
+                        "queryName": "activeStatus"
+                    },
+                    {
+                        "type": "Dropdown",
                         "title": "Source name",
+                        "gridSize":4,
                         "componentProps": {
                             "options": {
                                 "QuickBooks Online": "QuickBooks Online",
@@ -762,6 +782,7 @@
                     {
                         "type": "Dropdown",
                         "title": "GL connection status",
+                        "gridSize":2,
                         "componentProps": {
                             "options": {
                                 "1": "Pending",
@@ -776,6 +797,7 @@
                     {
                         "type": "Dropdown",
                         "title": "GL sync status",
+                        "gridSize":2,
                         "componentProps": {
                             "options": {
                                 "1": "IN PROGRESS",
@@ -790,6 +812,7 @@
                     },
                     {
                         "type": "Input",
+                        "gridSize":2,
                         "componentProps": {
                             "fullWidth":  true,
                             "placeholder": "All"
@@ -832,6 +855,10 @@
                         "clientId": {
                             "type": "queryBuilder",
                             "value": "clientId"
+                        },
+                        "activeStatus":{
+                            "type": "queryBuilder",
+                            "value": "activeStatus"
                         }
                     }
                 }
@@ -851,7 +878,25 @@
                 "elementsInfo": [
                     {
                         "type": "Dropdown",
+                        "title": "Client status",
+                        "gridSize":2,
+                        "componentProps": {
+                            "options": {
+                                "1": "Not-Activated",
+                                "2": "Active",
+                                "3": "Suspended",
+                                "4": "Closed",
+                                "5": "Invited"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
+                        },
+                        "queryName": "activeStatus"
+                    },
+                    {
+                        "type": "Dropdown",
                         "title": "Source name",
+                        "gridSize":4,
                         "componentProps": {
                             "options": {
                                 "Finicity": "Finicity",
@@ -870,7 +915,8 @@
                     },
                     {
                         "type": "Dropdown",
-                        "title": "GL connection status",
+                        "title": "Connection status",
+                        "gridSize":2,
                         "componentProps": {
                             "options": {
                                 "1": "Pending",
@@ -884,7 +930,8 @@
                     },
                     {
                         "type": "Dropdown",
-                        "title": "GL sync status",
+                        "title": "Sync status",
+                        "gridSize":2,
                         "componentProps": {
                              "options": {
                                     "1": "IN PROGRESS",
@@ -903,6 +950,7 @@
                             "fullWidth":  true,
                             "placeholder": "All"
                         },
+                        "gridSize":2,
                         "title": "Client Id",
                         "queryName": "clientId"
                     }
@@ -943,20 +991,84 @@
                         "clientId": {
                             "type": "queryBuilder",
                             "value": "clientId"
+                        },
+                        "activeStatus":{
+                            "type": "queryBuilder",
+                            "value": "activeStatus"
                         }
                     }
                 }
             }
         ]
     },
+    "pendingPayments":{
+        "componentType": "table",
+        "title": "Pending Payment List",
+        "ignoreKeys":["transactions"],
+        "headersInfo":[
+            {
+                "title": "Payment",
+                "valueMap": "payment",
+                "align":"left",
+                "renderType":"detailsList",
+                "renderProps":{
+                    "ignoreKeys":[],
+                    "listInfo":[
+                        {
+                            "label": "",
+                            "valueMap": "paymentId",
+                            "renderType": "Link",
+                            "action": {
+                                "type": "sidePanelData",
+                                "pathList": [
+                                    "1.0",
+                                    "aggregate"
+                                ],
+                                "paramObj": {
+                                    "templateId": "BankAccountDetailsByAccountId"
+                                },
+                                "paramObjMap": {
+                                    "clientId": "clientId",
+                                    "accountId": "payerPaymentAccountId"
+                                }
+                            }
+                        }
+                    ]
+                 }
+            },
+            {
+                "title": "Transactions",
+                "valueMap": "transactions",
+                "align":"left",
+                "renderType":"table",
+                "renderProps":{
+                    "ignoreKeys":[],
+                    "headersInfo":[
+                       
+                    ]
+                 }
+            }
+        ],
+        "additionalProperties":{
+            "enableSearch":true,
+            "paginationNeeded":true
+        }
+    },
     "approvalList":{
         "componentType": "table",
-        "title": "Approval List",
-        "ignoreKeys":["createdBy","clientId","templateId","request"],
+        "title": "Approvals Status List",
+        "ignoreKeys":["createdBy","clientId","request"],
         "headersInfo":[
             {
                 "title": "Approval Id",
                 "valueMap": "updateApprovalId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Template Id",
+                "valueMap": "templateId",
                 "renderType": "text",
                 "align":"left",
                 "enableSort": true
@@ -1046,12 +1158,19 @@
     },
     "approvalListFromBops":{
         "componentType": "table",
-        "title": "Approval Pending List",
-        "ignoreKeys":["createdBy","clientId","templateId","request"],
+        "title": "Approvals Pending List",
+        "ignoreKeys":["createdBy","clientId","request"],
         "headersInfo":[
             {
                 "title": "Approval Id",
                 "valueMap": "updateApprovalId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Template Id",
+                "valueMap": "templateId",
                 "renderType": "text",
                 "align":"left",
                 "enableSort": true
@@ -1237,6 +1356,35 @@
                 "enableSort": true
             },
             {
+                "title": "Client status",
+                "valueMap": "clientEntity.activeStatus",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true,
+                "displayValueEnum":[
+                    {
+                        "label": "Non-Activated",
+                        "value": 1
+                    },
+                    {
+                        "label": "Active",
+                        "value":2
+                    },
+                    {
+                        "label": "Suspended",
+                        "value": 3
+                    },
+                    {
+                        "label": "Closed",
+                        "value": 4
+                    },
+                    {
+                        "label": "Invited",
+                        "value": 5
+                    }
+                ]
+            },
+            {
                 "title": "GL Sync status",
                 "valueMap": "dataSourceDetailEntity.syncStatus",
                 "renderType": "text",
@@ -1265,6 +1413,7 @@
                 "title": "Auto sync",
                 "valueMap": "dataSourceDetailEntity.connectionInfo.incrementalSyncFlag",
                 "renderType": "text",
+                "defaultValue":1,
                 "align":"left",
                 "enableSort": true,
                 "displayValueEnum": [
@@ -1313,7 +1462,7 @@
                 "displayValueEnum": [
                     {
                         "label": "centime-test",
-                        "value": -11
+                        "value": -1
                     },
                     {
                         "label": "centime-sandbox",
@@ -1378,6 +1527,70 @@
                     {
                         "label": "centime-business-ops",
                         "value": 16
+                    },
+                    {
+                        "label": "centime-basic-auth",
+                        "value": 17
+                    },
+                    {
+                        "label": "receivables-single",
+                        "value": 18
+                    },
+                    {
+                        "label": "payables-single",
+                        "value": 19
+                    },
+                    {
+                        "label": "cashMonitoring-single",
+                        "value": 20
+                    },
+                    {
+                        "label": "cash planning,forecasting-single",
+                        "value": 21
+                    },
+                    {
+                        "label": "receivables-payables",
+                        "value": 22
+                    },
+                    {
+                        "label": "receivables-cash monitoring",
+                        "value": 23
+                    },
+                    {
+                        "label": "receivables-cash planning,forecasting",
+                        "value": 24
+                    },
+                    {
+                        "label": "payables-cash monitoring",
+                        "value": 25
+                    },
+                    {
+                        "label": "payables-cash planning,forecasting",
+                        "value": 26
+                    },
+                    {
+                        "label": "cash monitoring-cash planning,forecasting",
+                        "value": 27
+                    },
+                    {
+                        "label": "receivables-payables-cash monitoring",
+                        "value": 28
+                    },
+                    {
+                        "label": "payables-cash monitoring-cash planning,forecasting",
+                        "value": 29
+                    },
+                    {
+                        "label": "receivables-cash monitoring-cash planning,forecasting",
+                        "value": 30
+                    },
+                    {
+                        "label": "receivables-payables-cash planning,forecasting",
+                        "value": 31
+                    },
+                    {
+                        "label": "centime-full-suite",
+                        "value": 32
                     }
                 ]
             },
@@ -1430,6 +1643,35 @@
                 "enableSort": true
             },
             {
+                "title": "Client status",
+                "valueMap": "clientEntity.activeStatus",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true,
+                "displayValueEnum":[
+                    {
+                        "label": "Non-Activated",
+                        "value": 1
+                    },
+                    {
+                        "label": "Active",
+                        "value":2
+                    },
+                    {
+                        "label": "Suspended",
+                        "value": 3
+                    },
+                    {
+                        "label": "Closed",
+                        "value": 4
+                    },
+                    {
+                        "label": "Invited",
+                        "value": 5
+                    }
+                ]
+            },
+            {
                 "title": "GL Sync status",
                 "valueMap": "dataSourceDetailEntity.syncStatus",
                 "renderType": "text",
@@ -1506,7 +1748,7 @@
                 "displayValueEnum": [
                     {
                         "label": "centime-test",
-                        "value": -11
+                        "value": -1
                     },
                     {
                         "label": "centime-sandbox",
@@ -1571,6 +1813,70 @@
                     {
                         "label": "centime-business-ops",
                         "value": 16
+                    },
+                    {
+                        "label": "centime-basic-auth",
+                        "value": 17
+                    },
+                    {
+                        "label": "receivables-single",
+                        "value": 18
+                    },
+                    {
+                        "label": "payables-single",
+                        "value": 19
+                    },
+                    {
+                        "label": "cashMonitoring-single",
+                        "value": 20
+                    },
+                    {
+                        "label": "cash planning,forecasting-single",
+                        "value": 21
+                    },
+                    {
+                        "label": "receivables-payables",
+                        "value": 22
+                    },
+                    {
+                        "label": "receivables-cash monitoring",
+                        "value": 23
+                    },
+                    {
+                        "label": "receivables-cash planning,forecasting",
+                        "value": 24
+                    },
+                    {
+                        "label": "payables-cash monitoring",
+                        "value": 25
+                    },
+                    {
+                        "label": "payables-cash planning,forecasting",
+                        "value": 26
+                    },
+                    {
+                        "label": "cash monitoring-cash planning,forecasting",
+                        "value": 27
+                    },
+                    {
+                        "label": "receivables-payables-cash monitoring",
+                        "value": 28
+                    },
+                    {
+                        "label": "payables-cash monitoring-cash planning,forecasting",
+                        "value": 29
+                    },
+                    {
+                        "label": "receivables-cash monitoring-cash planning,forecasting",
+                        "value": 30
+                    },
+                    {
+                        "label": "receivables-payables-cash planning,forecasting",
+                        "value": 31
+                    },
+                    {
+                        "label": "centime-full-suite",
+                        "value": 32
                     }
                 ]
             },
@@ -2073,14 +2379,20 @@
     "jobHistory":{
         "componentType": "table",
         "title": "Job History List",
-        "ignoreKeys":["jobId","retry"],
+        "ignoreKeys":[],
         "headersInfo":[
+            {
+                "title": "Job Id",
+                "valueMap": "jobId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
             {
                 "title": "History Id",
                 "valueMap": "jobHistoryId",
                 "renderType": "text",
                 "align":"left",
-                "width": "10%",
                 "enableSort": true
             },
             {
@@ -2088,15 +2400,13 @@
                 "valueMap": "errorDetail",
                 "renderType": "text",
                 "align":"left",
-                "width": "15%",
                 "enableSort": true
             },
             {
                 "title": "Retry config",
                 "valueMap": "retry",
-                "renderType": "text",
+                "renderType": "detailsList",
                 "align":"left",
-                "width": "15%",
                 "renderProps": {
                     "listInfo": [
                         {
@@ -2115,32 +2425,25 @@
                 "valueMap": "retryCounter",
                 "enableSort": true,
                 "renderType": "text",
-                "align":"left",
-                "width": "15%"
+                "align":"left"
             },
             {
                 "title": "Start time",
                 "valueMap": "startTime",
                 "renderType": "text",
-                "align":"left",
-                "width": "15%",
-                "enableSort": false
+                "align":"left"
             },
             {
                 "title": "End time",
                 "valueMap": "endTime",
                 "renderType": "text",
-                "align":"left",
-                "width": "15%",
-                "enableSort": false
+                "align":"left"
             },
-            
             {
                 "title": "Status",
                 "valueMap": "status",
                 "renderType": "text",
                 "align":"left",
-                "width": "10%",
                 "enableSort": true,
                 "editable": "Dropdown",
                 "componentProps": {
@@ -2531,7 +2834,6 @@
         "accountStatus",
         "accountGroup",
         "balanceDate",
-        "clientId",
         "institutionLoginId",
         "lastTransactionDate",
         "batchId",
@@ -2543,10 +2845,9 @@
         "currencyCode",
         "accountNumber",
         "currentBalance",
-        "aggregationSuccessDate",
-        "aggregationAttemptDate",
         "modifiedAccountName",
-        "modifiedInstitutionName"
+        "modifiedInstitutionName",
+        "modifiedAccountType"
     ],
         "headersInfo":[
             {
@@ -2611,7 +2912,22 @@
                 "renderType": "text",
                 "align":"left",
                 "enableSort": true
+            },
+            {
+                "title": "Aggregation attempt date",
+                "valueMap": "aggregationAttemptDate",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Aggregation success date",
+                "valueMap": "aggregationSuccessDate",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
             }
+
         ],
         "additionalProperties": {
             "enableSearch": true,
@@ -3154,7 +3470,7 @@
         ],
         "additionalProperties": {
             "defaultSortingOrder": "desc",
-            "defaultColumnToSort": 8,
+            "defaultColumnToSort": 6,
             "enableSearch": true,
             "paginationNeeded": true,
             "rowsPerPageOptions": [
@@ -4552,6 +4868,7 @@
                 "title": "Name",
                 "valueMap": "clientEntity.clientName",
                 "renderType": "Link",
+                "align":"left",
                 "action": {
                     "type": "drillDown",
                     "pathList": [
@@ -4590,7 +4907,7 @@
                 "displayValueEnum": [
                     {
                         "label": "centime-test",
-                        "value": -11
+                        "value": -1
                     },
                     {
                         "label": "centime-sandbox",
@@ -4655,6 +4972,70 @@
                     {
                         "label": "centime-business-ops",
                         "value": 16
+                    },
+                    {
+                        "label": "centime-basic-auth",
+                        "value": 17
+                    },
+                    {
+                        "label": "receivables-single",
+                        "value": 18
+                    },
+                    {
+                        "label": "payables-single",
+                        "value": 19
+                    },
+                    {
+                        "label": "cashMonitoring-single",
+                        "value": 20
+                    },
+                    {
+                        "label": "cash planning,forecasting-single",
+                        "value": 21
+                    },
+                    {
+                        "label": "receivables-payables",
+                        "value": 22
+                    },
+                    {
+                        "label": "receivables-cash monitoring",
+                        "value": 23
+                    },
+                    {
+                        "label": "receivables-cash planning,forecasting",
+                        "value": 24
+                    },
+                    {
+                        "label": "payables-cash monitoring",
+                        "value": 25
+                    },
+                    {
+                        "label": "payables-cash planning,forecasting",
+                        "value": 26
+                    },
+                    {
+                        "label": "cash monitoring-cash planning,forecasting",
+                        "value": 27
+                    },
+                    {
+                        "label": "receivables-payables-cash monitoring",
+                        "value": 28
+                    },
+                    {
+                        "label": "payables-cash monitoring-cash planning,forecasting",
+                        "value": 29
+                    },
+                    {
+                        "label": "receivables-cash monitoring-cash planning,forecasting",
+                        "value": 30
+                    },
+                    {
+                        "label": "receivables-payables-cash planning,forecasting",
+                        "value": 31
+                    },
+                    {
+                        "label": "centime-full-suite",
+                        "value": 32
                     }
                 ],
                 "enableSort": true,
@@ -4937,7 +5318,7 @@
                 "displayValueEnum": [
                     {
                         "label": "centime-test",
-                        "value": -11
+                        "value": -1
                     },
                     {
                         "label": "centime-sandbox",
@@ -5002,6 +5383,70 @@
                     {
                         "label": "centime-business-ops",
                         "value": 16
+                    },
+                    {
+                        "label": "centime-basic-auth",
+                        "value": 17
+                    },
+                    {
+                        "label": "receivables-single",
+                        "value": 18
+                    },
+                    {
+                        "label": "payables-single",
+                        "value": 19
+                    },
+                    {
+                        "label": "cashMonitoring-single",
+                        "value": 20
+                    },
+                    {
+                        "label": "cash planning,forecasting-single",
+                        "value": 21
+                    },
+                    {
+                        "label": "receivables-payables",
+                        "value": 22
+                    },
+                    {
+                        "label": "receivables-cash monitoring",
+                        "value": 23
+                    },
+                    {
+                        "label": "receivables-cash planning,forecasting",
+                        "value": 24
+                    },
+                    {
+                        "label": "payables-cash monitoring",
+                        "value": 25
+                    },
+                    {
+                        "label": "payables-cash planning,forecasting",
+                        "value": 26
+                    },
+                    {
+                        "label": "cash monitoring-cash planning,forecasting",
+                        "value": 27
+                    },
+                    {
+                        "label": "receivables-payables-cash monitoring",
+                        "value": 28
+                    },
+                    {
+                        "label": "payables-cash monitoring-cash planning,forecasting",
+                        "value": 29
+                    },
+                    {
+                        "label": "receivables-cash monitoring-cash planning,forecasting",
+                        "value": 30
+                    },
+                    {
+                        "label": "receivables-payables-cash planning,forecasting",
+                        "value": 31
+                    },
+                    {
+                        "label": "centime-full-suite",
+                        "value": 32
                     }
                 ],
                 "editType": "select",
@@ -5583,7 +6028,20 @@
             {
                 "label": "Auto sync",
                 "valueMap": "connectionInfo.incrementalSyncFlag",
+                "defaultValue":1,
+                "editable": true,
+                "editType": "select",
                 "displayValueEnum": [
+                    {
+                        "label": "Off",
+                        "value": 0
+                    },
+                    {
+                        "label": "On",
+                        "value": 1
+                    }
+                ],
+                "enum": [
                     {
                         "label": "Off",
                         "value": 0
@@ -5684,7 +6142,8 @@
                 "paramObjMap": {
                     "clientId": "clientId",
                     "sourceName": "sourceName",
-                    "sourceSyncStatus": "sourceSyncStatus"
+                    "sourceSyncStatus": "sourceSyncStatus",
+                    "incrementalSyncFlag":"connectionInfo.incrementalSyncFlag"
                 },
                 "bodyObjMap": {}
             }
@@ -5751,6 +6210,7 @@
                 "title": "Error code",
                 "valueMap": "errorCode",
                 "renderType": "text",
+                "align":"left",
                 "enableSort": true
             },
             {
@@ -5850,7 +6310,9 @@
             {
                 "label": "Auto sync",
                 "valueMap": "connectionInfo.incrementalSyncFlag",
-                "displayValueEnum": [
+                "editable": true,
+                "editType": "select",
+                "enum": [
                     {
                         "label": "Off",
                         "value": 0
@@ -5907,6 +6369,26 @@
                         "sourceName": "sourceName"
                     }
                 }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Bank details"
+                },
+                "renderPosition": "top",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "BankAccountsByClientId"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId"
+                    }
+                }
             }
         ],
         "additionalProperties": {
@@ -5925,7 +6407,8 @@
                 "paramObjMap": {
                     "clientId": "clientId",
                     "sourceName": "sourceName",
-                    "sourceSyncStatus": "sourceSyncStatus"
+                    "sourceSyncStatus": "sourceSyncStatus",
+                    "incrementalSyncFlag":"connectionInfo.incrementalSyncFlag"
                 },
                 "bodyObjMap": {}
             }
