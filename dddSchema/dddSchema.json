@@ -6055,6 +6055,11 @@
             {
                 "label":"Last successful Sync time",
                 "valueMap":"lastSuccessfulSyncTime"
+            },
+            {
+                "label":"First sync flag",
+                "valueMap":"firstSyncFlag",
+                "formatType":"boolean"
             }
         ],
         "ignoreKeys": ["paymentId","glType"],
