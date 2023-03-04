@@ -527,5 +527,9 @@
     "backToUnpaid":"Back to Unpaid",
     "backToPaid":"Back to Paid",
     "postingPaymentsGLFailed": "Posting of {{count}} invoice payment to General Ledger failed.",
-    "postingPaymentsGLFailed_plural": "Posting of {{count}} invoice payments to General Ledger failed."
+    "postingPaymentsGLFailed_plural": "Posting of {{count}} invoice payments to General Ledger failed.",
+    "needsReviewDuplicateStatusHeader": "Needs review: Potential duplicate found",
+    "invoiceNumberDuplicateMessage": "Invoice with same number already exists",
+    "supplierInvoiceAmountDuplicateMessage": "Invoice with same invoice date and amount already exists",
+    "duplicateInvoice":"Potential duplicate found"
 }
