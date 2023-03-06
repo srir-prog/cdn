@@ -2862,6 +2862,7 @@
                 "valueMap": "accountId",
                 "renderType": "text",
                 "align":"left",
+                "width":"15%",
                 "enableSort": true
             },
             {
@@ -2875,6 +2876,7 @@
                 "title": "Institution Id",
                 "valueMap": "institutionId",
                 "renderType": "text",
+                "width":"15%",
                 "align":"left",
                 "enableSort": true
             },
@@ -2883,6 +2885,7 @@
                 "valueMap": "sourceId",
                 "renderType": "text",
                 "align":"left",
+                "width":"15%",
                 "enableSort": true
             },
             {
@@ -2907,21 +2910,21 @@
                 "enableSort": true
             },
             {
-                "title": "Aggregation status code",
+                "title": "Agg status code",
                 "valueMap": "aggregationStatusCode",
                 "renderType": "text",
                 "align":"left",
                 "enableSort": true
             },
             {
-                "title": "Aggregation attempt date",
+                "title": "Agg attempt date",
                 "valueMap": "aggregationAttemptDate",
                 "renderType": "text",
                 "align":"left",
                 "enableSort": true
             },
             {
-                "title": "Aggregation success date",
+                "title": "Agg success date",
                 "valueMap": "aggregationSuccessDate",
                 "renderType": "text",
                 "align":"left",
