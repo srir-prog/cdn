@@ -134,6 +134,7 @@
                     "label": "Pending payments"
                 },
                 "renderPosition": "bottom",
+                "gridSize":3,
                 "action": {
                     "type": "drillDown",
                     "pathList": [
