@@ -575,5 +575,10 @@
     "payrollAccounts": "Payroll accounts",
     "operationalBankAccounts": "Operational bank accounts",
     "groupInvoicePayment":"Group invoice payments by date for a Supplier",
-    "groupInvoicePaymentPanel":"Group invoice payments by date"
+    "groupInvoicePaymentPanel":"Group invoice payments by date",
+    "documentSettings": "Document settings",
+    "invoiceApproversUpdateDocumentDetails": "Invoice approvers can update document details",
+    "autopostApprovedInvoice": "Auto-post approved invoices to General Ledger",
+    "autoSendInvoices": "Auto-send invoices for approval",
+    "errorFetchingDocumentSettings":"Errors encountered in updating the settings. Please try again."
 }

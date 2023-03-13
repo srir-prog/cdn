@@ -569,5 +569,10 @@
     "errorDeletingApprovalPolicy": "मंज़ूरी नीति मिटाते समय गड़बड़ी हुई",
     "successfullyDeletedApprovalPolicy": "अनुमोदन नीति को सफलतापूर्वक हटा दिया गया",
     "groupInvoicePayment":"आपूर्तिकर्ता के लिए समूह चालान भुगतान तिथि के अनुसार",
-    "groupInvoicePaymentPanel":"तिथि के अनुसार समूह चालान भुगतान"
+    "groupInvoicePaymentPanel":"तिथि के अनुसार समूह चालान भुगतान",
+    "documentSettings": "दस्तावेज़ सेटिंग्स",
+    "invoiceApproversUpdateDocumentDetails": "चालान स्वीकृतकर्ता दस्तावेज़ विवरण अपडेट कर सकते हैं",
+    "autopostApprovedInvoice": "सामान्य खाता बही के लिए ऑटो-पोस्ट स्वीकृत चालान",
+    "autoSendInvoices": "अनुमोदन के लिए ऑटो-भेजें चालान",
+    "errorFetchingDocumentSettings":"सेटिंग्स को अपडेट करने में त्रुटियां आईं। कृपया पुन: प्रयास करें।"
 }
