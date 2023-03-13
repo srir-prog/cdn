@@ -534,7 +534,5 @@
     "duplicateInvoice":"Potential duplicate found",
     "department":"Department",
     "location":"Location",
-    "class": "Class",
-    "supplierIsWillingToAcceptedCardPayment": "Supplier is willing to accept card payments",
-    "supplierIsNotWillingToAcceptedCardPayment": "Supplier is not willing to accept card payments"
+    "class": "Class"
 }
