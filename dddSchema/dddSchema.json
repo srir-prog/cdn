@@ -45,10 +45,13 @@
                         },
                         "queryName": "status",
                         "default": [
+                            "COMPLETED",
+                            "CANCELLED",
                             "FAILED",
                             "INITIATED",
                             "PROCESSING",
-                            "SCHEDULED"
+                            "SCHEDULED",
+                            "UNKNOWN"
                         ]
                     },
                     {
@@ -60,7 +63,8 @@
                                 "CHECK": "CHECK",
                                 "CREDIT_CARD": "CREDIT_CARD",
                                 "CENTIME_CARD": "CENTIME_CARD",
-                                "CENTIME_CASH": "CENTIME_CASH"
+                                "CENTIME_CASH": "CENTIME_CASH",
+                                "CENTIME_PAY":"CENTIME_PAY"
                             },
                             "tnsForOptions": false,
                             "multiple": true
@@ -71,7 +75,8 @@
                             "CHECK",
                             "CREDIT_CARD",
                             "CENTIME_CARD",
-                            "CENTIME_CASH"
+                            "CENTIME_CASH",
+                            "CENTIME_PAY"
                         ]
                     },
                     {
@@ -739,7 +744,25 @@
                 "elementsInfo": [
                     {
                         "type": "Dropdown",
+                        "title": "Client status",
+                        "gridSize":2,
+                        "componentProps": {
+                            "options": {
+                                "1": "Not-Activated",
+                                "2": "Active",
+                                "3": "Suspended",
+                                "4": "Closed",
+                                "5": "Invited"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
+                        },
+                        "queryName": "activeStatus"
+                    },
+                    {
+                        "type": "Dropdown",
                         "title": "Source name",
+                        "gridSize":4,
                         "componentProps": {
                             "options": {
                                 "QuickBooks Online": "QuickBooks Online",
@@ -759,6 +782,7 @@
                     {
                         "type": "Dropdown",
                         "title": "GL connection status",
+                        "gridSize":2,
                         "componentProps": {
                             "options": {
                                 "1": "Pending",
@@ -773,6 +797,7 @@
                     {
                         "type": "Dropdown",
                         "title": "GL sync status",
+                        "gridSize":2,
                         "componentProps": {
                             "options": {
                                 "1": "IN PROGRESS",
@@ -787,6 +812,7 @@
                     },
                     {
                         "type": "Input",
+                        "gridSize":2,
                         "componentProps": {
                             "fullWidth":  true,
                             "placeholder": "All"
@@ -829,6 +855,10 @@
                         "clientId": {
                             "type": "queryBuilder",
                             "value": "clientId"
+                        },
+                        "activeStatus":{
+                            "type": "queryBuilder",
+                            "value": "activeStatus"
                         }
                     }
                 }
@@ -848,7 +878,25 @@
                 "elementsInfo": [
                     {
                         "type": "Dropdown",
+                        "title": "Client status",
+                        "gridSize":2,
+                        "componentProps": {
+                            "options": {
+                                "1": "Not-Activated",
+                                "2": "Active",
+                                "3": "Suspended",
+                                "4": "Closed",
+                                "5": "Invited"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
+                        },
+                        "queryName": "activeStatus"
+                    },
+                    {
+                        "type": "Dropdown",
                         "title": "Source name",
+                        "gridSize":4,
                         "componentProps": {
                             "options": {
                                 "Finicity": "Finicity",
@@ -867,7 +915,8 @@
                     },
                     {
                         "type": "Dropdown",
-                        "title": "GL connection status",
+                        "title": "Connection status",
+                        "gridSize":2,
                         "componentProps": {
                             "options": {
                                 "1": "Pending",
@@ -881,7 +930,8 @@
                     },
                     {
                         "type": "Dropdown",
-                        "title": "GL sync status",
+                        "title": "Sync status",
+                        "gridSize":2,
                         "componentProps": {
                              "options": {
                                     "1": "IN PROGRESS",
@@ -900,6 +950,7 @@
                             "fullWidth":  true,
                             "placeholder": "All"
                         },
+                        "gridSize":2,
                         "title": "Client Id",
                         "queryName": "clientId"
                     }
@@ -940,101 +991,62 @@
                         "clientId": {
                             "type": "queryBuilder",
                             "value": "clientId"
+                        },
+                        "activeStatus":{
+                            "type": "queryBuilder",
+                            "value": "activeStatus"
                         }
                     }
                 }
             }
         ]
     },
-    "approvalList":{
+    "pendingPayments":{
         "componentType": "table",
-        "title": "Approval List",
-        "ignoreKeys":["createdBy","clientId","templateId"],
+        "title": "Pending Payment List",
+        "ignoreKeys":["transactions"],
         "headersInfo":[
             {
-                "title": "Approval Id",
-                "valueMap": "updateApprovalId",
-                "renderType": "text",
+                "title": "Payment",
+                "valueMap": "payment",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
-            },
-            {
-                "title": "Request",
-                "valueMap": "request",
-                "renderType": "detailsList",
-                "align":"left",
-                "renderProps": {
-                    "listInfo": [
+                "renderType":"detailsList",
+                "renderProps":{
+                    "ignoreKeys":[],
+                    "listInfo":[
                         {
-                            "label": "Login Id",
-                            "valueMap": "loginId"
-                        },
-                        {
-                            "label": "Template Id",
-                            "valueMap": "templateId"
+                            "label": "",
+                            "valueMap": "paymentId",
+                            "renderType": "Link",
+                            "action": {
+                                "type": "sidePanelData",
+                                "pathList": [
+                                    "1.0",
+                                    "aggregate"
+                                ],
+                                "paramObj": {
+                                    "templateId": "BankAccountDetailsByAccountId"
+                                },
+                                "paramObjMap": {
+                                    "clientId": "clientId",
+                                    "accountId": "payerPaymentAccountId"
+                                }
+                            }
                         }
                     ]
-                },
-                "width":"30%"
+                 }
             },
             {
-                "title": "Approval status",
-                "valueMap": "approvalStatus",
-                "renderType": "text",
+                "title": "Transactions",
+                "valueMap": "transactions",
                 "align":"left",
-                "enableSort": true,
-                "displayValueEnum":[
-                      {
-                        "label": "NO_APPROVAL_NEEDED",
-                        "value": 0
-                      },
-                      {
-                        "label": "APPROVAL_PENDING",
-                        "value": 1
-                      },
-                      {
-                        "label": "APPROVED",
-                        "value": 2
-                      },
-                      {
-                        "label": "NOT_APPROVED",
-                        "value": 3
-                      }
-                ],
-                "width":"10%"
-            },
-            {
-                "title": "Created time",
-                "valueMap": "createdTime",
-                "renderType": "text",
-                "align":"left",
-                "enableSort": true,
-                "width":"12%"
-            },
-            {
-                "title": "Updated time",
-                "valueMap": "updatedTime",
-                "renderType": "text",
-                "align":"left",
-                "enableSort": true,
-                "width":"12%"
-            },
-            {
-                "title": "Approve by",
-                "valueMap": "approvedBy",
-                "renderType": "text",
-                "align":"left",
-                "enableSort": true,
-                "width":"12%"
-            },
-            {
-                "title": "Created by",
-                "valueMap": "createdBy",
-                "renderType": "text",
-                "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "renderType":"table",
+                "renderProps":{
+                    "ignoreKeys":[],
+                    "headersInfo":[
+                       
+                    ]
+                 }
             }
         ],
         "additionalProperties":{
@@ -1042,37 +1054,46 @@
             "paginationNeeded":true
         }
     },
-    "approvalListFromBops":{
+    "approvalList":{
         "componentType": "table",
-        "title": "Approval Pending List",
-        "ignoreKeys":["createdBy","clientId","templateId"],
+        "title": "Approvals Status List",
+        "ignoreKeys":["createdBy","clientId","request"],
         "headersInfo":[
             {
                 "title": "Approval Id",
                 "valueMap": "updateApprovalId",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
-                "title": "Request",
-                "valueMap": "request",
-                "renderType": "detailsList",
+                "title": "Template Id",
+                "valueMap": "templateId",
+                "renderType": "text",
                 "align":"left",
-                "renderProps": {
-                    "listInfo": [
-                        {
-                            "label": "Login Id",
-                            "valueMap": "loginId"
-                        },
-                        {
-                            "label": "Template Id",
-                            "valueMap": "templateId"
-                        }
-                    ]
+                "enableSort": true
+            },
+            {
+                "title":"Request",
+                "valueMap":"",
+                "enableAccordion":true,
+                "renderType": "AccordionLink",
+                "renderProps":{
+                    "label":"Get details"
                 },
-                "width":"30%"
+                "accordionProps":{
+                    "renderType":"Tabs",
+                    "tabsInfo":[
+                    {
+                        "tabTitle":"Request details",
+                        "valueMap":"request",
+                        "renderType":"detailsList",
+                        "renderMeta":{
+                            "listInfo":[]
+                        }
+                    }
+                 ]
+                }
             },
             {
                 "title": "Approval status",
@@ -1097,40 +1118,137 @@
                         "label": "NOT_APPROVED",
                         "value": 3
                       }
-                ],
-                "width":"10%"
+                ]
             },
             {
                 "title": "Created time",
                 "valueMap": "createdTime",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
                 "title": "Updated time",
                 "valueMap": "updatedTime",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
                 "title": "Approve by",
                 "valueMap": "approvedBy",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true,
-                "width":"12%"
+                "enableSort": true
             },
             {
                 "title": "Created by",
                 "valueMap": "createdBy",
                 "renderType": "text",
                 "align":"left",
+                "enableSort": true
+            }
+        ],
+        "additionalProperties":{
+            "enableSearch":true,
+            "paginationNeeded":true,
+            "defaultColumnToSort":0,
+            "defaultSortingOrder":"asc"
+        }
+    },
+    "approvalListFromBops":{
+        "componentType": "table",
+        "title": "Approvals Pending List",
+        "ignoreKeys":["createdBy","clientId","request"],
+        "headersInfo":[
+            {
+                "title": "Approval Id",
+                "valueMap": "updateApprovalId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Template Id",
+                "valueMap": "templateId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title":"Request",
+                "valueMap":"",
+                "enableAccordion":true,
+                "renderType": "AccordionLink",
+                "renderProps":{
+                    "label":"Get details"
+                },
+                "accordionProps":{
+                    "renderType":"Tabs",
+                    "tabsInfo":[
+                    {
+                        "tabTitle":"Request details",
+                        "valueMap":"request",
+                        "renderType":"detailsList",
+                        "renderMeta":{
+                            "listInfo":[]
+                        }
+                    }
+                 ]
+                }
+            },
+            {
+                "title": "Approval status",
+                "valueMap": "approvalStatus",
+                "renderType": "text",
+                "align":"left",
                 "enableSort": true,
-                "width":"12%"
+                "displayValueEnum":[
+                      {
+                        "label": "NO_APPROVAL_NEEDED",
+                        "value": 0
+                      },
+                      {
+                        "label": "APPROVAL_PENDING",
+                        "value": 1
+                      },
+                      {
+                        "label": "APPROVED",
+                        "value": 2
+                      },
+                      {
+                        "label": "NOT_APPROVED",
+                        "value": 3
+                      }
+                ]
+            },
+            {
+                "title": "Created time",
+                "valueMap": "createdTime",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Updated time",
+                "valueMap": "updatedTime",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Approve by",
+                "valueMap": "approvedBy",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Created by",
+                "valueMap": "createdBy",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
             }
         ],
         "additionalProperties":{
@@ -1145,6 +1263,8 @@
                     },
                     "action": {
                         "type": "updateCall",
+                        "url": "fs/business-ops-service",
+                        "method": "GET",
                         "pathList": [
                             "1.0",
                             "aggregate"
@@ -1155,12 +1275,14 @@
                         "paramObjMap": {
                             "uniqueId":"updateApprovalId",
                             "loginId":{
-                                "type":"hardCoded"
+                                "type":"hardCoded",
+                                "key":"loginId"
                             }
                         },
                         "successNotificationObject": {
                             "message": "The action is approved"
-                        }
+                        },
+                         "bodyObjMap": {}
                     }
                 },
                 {
@@ -1171,6 +1293,8 @@
                     },
                     "action": {
                         "type": "updateCall",
+                        "url": "fs/business-ops-service",
+                        "method": "GET",
                         "pathList": [
                             "1.0",
                             "aggregate"
@@ -1181,7 +1305,8 @@
                         "paramObjMap": {
                             "uniqueId":"updateApprovalId",
                             "loginId":{
-                                "type":"hardCoded"
+                                "type":"hardCoded",
+                                "key":"loginId"
                             }
                         },
                         "successNotificationObject": {
@@ -1190,7 +1315,9 @@
                     }
                 }
             ],
-            "editableForm":true
+            "editableForm":true,
+            "defaultColumnToSort":0,
+            "defaultSortingOrder":"asc"
         }
     },
     "glActiveClientsList":{
@@ -1229,6 +1356,35 @@
                 "enableSort": true
             },
             {
+                "title": "Client status",
+                "valueMap": "clientEntity.activeStatus",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true,
+                "displayValueEnum":[
+                    {
+                        "label": "Non-Activated",
+                        "value": 1
+                    },
+                    {
+                        "label": "Active",
+                        "value":2
+                    },
+                    {
+                        "label": "Suspended",
+                        "value": 3
+                    },
+                    {
+                        "label": "Closed",
+                        "value": 4
+                    },
+                    {
+                        "label": "Invited",
+                        "value": 5
+                    }
+                ]
+            },
+            {
                 "title": "GL Sync status",
                 "valueMap": "dataSourceDetailEntity.syncStatus",
                 "renderType": "text",
@@ -1257,6 +1413,7 @@
                 "title": "Auto sync",
                 "valueMap": "dataSourceDetailEntity.connectionInfo.incrementalSyncFlag",
                 "renderType": "text",
+                "defaultValue":1,
                 "align":"left",
                 "enableSort": true,
                 "displayValueEnum": [
@@ -1305,7 +1462,7 @@
                 "displayValueEnum": [
                     {
                         "label": "centime-test",
-                        "value": -11
+                        "value": -1
                     },
                     {
                         "label": "centime-sandbox",
@@ -1370,6 +1527,70 @@
                     {
                         "label": "centime-business-ops",
                         "value": 16
+                    },
+                    {
+                        "label": "centime-basic-auth",
+                        "value": 17
+                    },
+                    {
+                        "label": "receivables-single",
+                        "value": 18
+                    },
+                    {
+                        "label": "payables-single",
+                        "value": 19
+                    },
+                    {
+                        "label": "cashMonitoring-single",
+                        "value": 20
+                    },
+                    {
+                        "label": "cash planning,forecasting-single",
+                        "value": 21
+                    },
+                    {
+                        "label": "receivables-payables",
+                        "value": 22
+                    },
+                    {
+                        "label": "receivables-cash monitoring",
+                        "value": 23
+                    },
+                    {
+                        "label": "receivables-cash planning,forecasting",
+                        "value": 24
+                    },
+                    {
+                        "label": "payables-cash monitoring",
+                        "value": 25
+                    },
+                    {
+                        "label": "payables-cash planning,forecasting",
+                        "value": 26
+                    },
+                    {
+                        "label": "cash monitoring-cash planning,forecasting",
+                        "value": 27
+                    },
+                    {
+                        "label": "receivables-payables-cash monitoring",
+                        "value": 28
+                    },
+                    {
+                        "label": "payables-cash monitoring-cash planning,forecasting",
+                        "value": 29
+                    },
+                    {
+                        "label": "receivables-cash monitoring-cash planning,forecasting",
+                        "value": 30
+                    },
+                    {
+                        "label": "receivables-payables-cash planning,forecasting",
+                        "value": 31
+                    },
+                    {
+                        "label": "centime-full-suite",
+                        "value": 32
                     }
                 ]
             },
@@ -1422,6 +1643,35 @@
                 "enableSort": true
             },
             {
+                "title": "Client status",
+                "valueMap": "clientEntity.activeStatus",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true,
+                "displayValueEnum":[
+                    {
+                        "label": "Non-Activated",
+                        "value": 1
+                    },
+                    {
+                        "label": "Active",
+                        "value":2
+                    },
+                    {
+                        "label": "Suspended",
+                        "value": 3
+                    },
+                    {
+                        "label": "Closed",
+                        "value": 4
+                    },
+                    {
+                        "label": "Invited",
+                        "value": 5
+                    }
+                ]
+            },
+            {
                 "title": "GL Sync status",
                 "valueMap": "dataSourceDetailEntity.syncStatus",
                 "renderType": "text",
@@ -1498,7 +1748,7 @@
                 "displayValueEnum": [
                     {
                         "label": "centime-test",
-                        "value": -11
+                        "value": -1
                     },
                     {
                         "label": "centime-sandbox",
@@ -1563,6 +1813,70 @@
                     {
                         "label": "centime-business-ops",
                         "value": 16
+                    },
+                    {
+                        "label": "centime-basic-auth",
+                        "value": 17
+                    },
+                    {
+                        "label": "receivables-single",
+                        "value": 18
+                    },
+                    {
+                        "label": "payables-single",
+                        "value": 19
+                    },
+                    {
+                        "label": "cashMonitoring-single",
+                        "value": 20
+                    },
+                    {
+                        "label": "cash planning,forecasting-single",
+                        "value": 21
+                    },
+                    {
+                        "label": "receivables-payables",
+                        "value": 22
+                    },
+                    {
+                        "label": "receivables-cash monitoring",
+                        "value": 23
+                    },
+                    {
+                        "label": "receivables-cash planning,forecasting",
+                        "value": 24
+                    },
+                    {
+                        "label": "payables-cash monitoring",
+                        "value": 25
+                    },
+                    {
+                        "label": "payables-cash planning,forecasting",
+                        "value": 26
+                    },
+                    {
+                        "label": "cash monitoring-cash planning,forecasting",
+                        "value": 27
+                    },
+                    {
+                        "label": "receivables-payables-cash monitoring",
+                        "value": 28
+                    },
+                    {
+                        "label": "payables-cash monitoring-cash planning,forecasting",
+                        "value": 29
+                    },
+                    {
+                        "label": "receivables-cash monitoring-cash planning,forecasting",
+                        "value": 30
+                    },
+                    {
+                        "label": "receivables-payables-cash planning,forecasting",
+                        "value": 31
+                    },
+                    {
+                        "label": "centime-full-suite",
+                        "value": 32
                     }
                 ]
             },
@@ -1615,7 +1929,8 @@
                     },
                     "paramObjMap": {
                         "clientId":"clientId",
-                        "txnRefId":"txnRefId"
+                        "txnRefId":"txnRefId",
+                        "txnType":"txnType"
                     }
                 }
             },
@@ -2064,14 +2379,20 @@
     "jobHistory":{
         "componentType": "table",
         "title": "Job History List",
-        "ignoreKeys":["jobId","retry"],
+        "ignoreKeys":[],
         "headersInfo":[
+            {
+                "title": "Job Id",
+                "valueMap": "jobId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
             {
                 "title": "History Id",
                 "valueMap": "jobHistoryId",
                 "renderType": "text",
                 "align":"left",
-                "width": "10%",
                 "enableSort": true
             },
             {
@@ -2079,15 +2400,13 @@
                 "valueMap": "errorDetail",
                 "renderType": "text",
                 "align":"left",
-                "width": "15%",
                 "enableSort": true
             },
             {
                 "title": "Retry config",
                 "valueMap": "retry",
-                "renderType": "text",
+                "renderType": "detailsList",
                 "align":"left",
-                "width": "15%",
                 "renderProps": {
                     "listInfo": [
                         {
@@ -2106,32 +2425,25 @@
                 "valueMap": "retryCounter",
                 "enableSort": true,
                 "renderType": "text",
-                "align":"left",
-                "width": "15%"
+                "align":"left"
             },
             {
                 "title": "Start time",
                 "valueMap": "startTime",
                 "renderType": "text",
-                "align":"left",
-                "width": "15%",
-                "enableSort": false
+                "align":"left"
             },
             {
                 "title": "End time",
                 "valueMap": "endTime",
                 "renderType": "text",
-                "align":"left",
-                "width": "15%",
-                "enableSort": false
+                "align":"left"
             },
-            
             {
                 "title": "Status",
                 "valueMap": "status",
                 "renderType": "text",
                 "align":"left",
-                "width": "10%",
                 "enableSort": true,
                 "editable": "Dropdown",
                 "componentProps": {
@@ -2162,7 +2474,7 @@
     "productActivation":{
         "componentType": "table",
         "title": "Product activation",
-        "ignoreKeys":["paymentMethodId","sourceId","applicationPaymentData"],
+        "ignoreKeys":["paymentMethodId","sourceId","applicationPaymentData","clientId"],
         "transformToTableDataValueMap":["applicationPaymentData"],
         "headersInfo":[
             {
@@ -2185,7 +2497,8 @@
                                 "creditCardPaymentAttributes",
                                 "centimePayPaymentAttributes",
                                 "centimeCardPaymentAttributes",
-                                "applicationType"
+                                "applicationType",
+                                "centimeCashPaymentAttributes"
                             ],
                             "headersInfo":[
                                 {
@@ -2254,7 +2567,16 @@
                 "valueMap": "applicationStatus",
                 "renderType": "text",
                 "align":"left",
-                "enableSort": true
+                "enableSort": true,
+                "editable": "Dropdown",
+                "componentProps": {
+                    "options": {
+                        "ACTIVE" : "ACTIVE",
+                        "INACTIVE" : "INACTIVE",
+                        "SUSPEND" : "SUSPEND"
+                    },
+                    "size": "medium36"
+                }
             },
             {
                 "title": "Initiated by",
@@ -2266,7 +2588,30 @@
         ],
         "additionalProperties": {
             "enableSearch": true,
-            "paginationNeeded": true
+            "paginationNeeded": true,
+            "editableForm": true,
+            "onSaveAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "UpdateProductActivation"
+                },
+                "paramObjMap": {
+                    "clientId": "clientId",
+                    "status": "applicationStatus",
+                    "paymentMethodId":"paymentMethodId",
+                    "lastUpdatedBy":{
+                        "type":"hardCoded",
+                        "key":"loginId"
+                    }
+                },
+                "bodyObjMap": {}
+            }
         }
     },
     "openBills":{
@@ -2489,7 +2834,6 @@
         "accountStatus",
         "accountGroup",
         "balanceDate",
-        "clientId",
         "institutionLoginId",
         "lastTransactionDate",
         "batchId",
@@ -2501,10 +2845,9 @@
         "currencyCode",
         "accountNumber",
         "currentBalance",
-        "aggregationSuccessDate",
-        "aggregationAttemptDate",
         "modifiedAccountName",
-        "modifiedInstitutionName"
+        "modifiedInstitutionName",
+        "modifiedAccountType"
     ],
         "headersInfo":[
             {
@@ -2519,6 +2862,7 @@
                 "valueMap": "accountId",
                 "renderType": "text",
                 "align":"left",
+                "width":"15%",
                 "enableSort": true
             },
             {
@@ -2532,6 +2876,7 @@
                 "title": "Institution Id",
                 "valueMap": "institutionId",
                 "renderType": "text",
+                "width":"15%",
                 "align":"left",
                 "enableSort": true
             },
@@ -2540,6 +2885,7 @@
                 "valueMap": "sourceId",
                 "renderType": "text",
                 "align":"left",
+                "width":"15%",
                 "enableSort": true
             },
             {
@@ -2564,12 +2910,27 @@
                 "enableSort": true
             },
             {
-                "title": "Aggre status code",
+                "title": "Agg status code",
                 "valueMap": "aggregationStatusCode",
                 "renderType": "text",
                 "align":"left",
                 "enableSort": true
+            },
+            {
+                "title": "Agg attempt date",
+                "valueMap": "aggregationAttemptDate",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Agg success date",
+                "valueMap": "aggregationSuccessDate",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
             }
+
         ],
         "additionalProperties": {
             "enableSearch": true,
@@ -3112,7 +3473,7 @@
         ],
         "additionalProperties": {
             "defaultSortingOrder": "desc",
-            "defaultColumnToSort": 8,
+            "defaultColumnToSort": 6,
             "enableSearch": true,
             "paginationNeeded": true,
             "rowsPerPageOptions": [
@@ -4510,6 +4871,7 @@
                 "title": "Name",
                 "valueMap": "clientEntity.clientName",
                 "renderType": "Link",
+                "align":"left",
                 "action": {
                     "type": "drillDown",
                     "pathList": [
@@ -4548,7 +4910,7 @@
                 "displayValueEnum": [
                     {
                         "label": "centime-test",
-                        "value": -11
+                        "value": -1
                     },
                     {
                         "label": "centime-sandbox",
@@ -4613,6 +4975,70 @@
                     {
                         "label": "centime-business-ops",
                         "value": 16
+                    },
+                    {
+                        "label": "centime-basic-auth",
+                        "value": 17
+                    },
+                    {
+                        "label": "receivables-single",
+                        "value": 18
+                    },
+                    {
+                        "label": "payables-single",
+                        "value": 19
+                    },
+                    {
+                        "label": "cashMonitoring-single",
+                        "value": 20
+                    },
+                    {
+                        "label": "cash planning,forecasting-single",
+                        "value": 21
+                    },
+                    {
+                        "label": "receivables-payables",
+                        "value": 22
+                    },
+                    {
+                        "label": "receivables-cash monitoring",
+                        "value": 23
+                    },
+                    {
+                        "label": "receivables-cash planning,forecasting",
+                        "value": 24
+                    },
+                    {
+                        "label": "payables-cash monitoring",
+                        "value": 25
+                    },
+                    {
+                        "label": "payables-cash planning,forecasting",
+                        "value": 26
+                    },
+                    {
+                        "label": "cash monitoring-cash planning,forecasting",
+                        "value": 27
+                    },
+                    {
+                        "label": "receivables-payables-cash monitoring",
+                        "value": 28
+                    },
+                    {
+                        "label": "payables-cash monitoring-cash planning,forecasting",
+                        "value": 29
+                    },
+                    {
+                        "label": "receivables-cash monitoring-cash planning,forecasting",
+                        "value": 30
+                    },
+                    {
+                        "label": "receivables-payables-cash planning,forecasting",
+                        "value": 31
+                    },
+                    {
+                        "label": "centime-full-suite",
+                        "value": 32
                     }
                 ],
                 "enableSort": true,
@@ -4895,7 +5321,7 @@
                 "displayValueEnum": [
                     {
                         "label": "centime-test",
-                        "value": -11
+                        "value": -1
                     },
                     {
                         "label": "centime-sandbox",
@@ -4960,6 +5386,70 @@
                     {
                         "label": "centime-business-ops",
                         "value": 16
+                    },
+                    {
+                        "label": "centime-basic-auth",
+                        "value": 17
+                    },
+                    {
+                        "label": "receivables-single",
+                        "value": 18
+                    },
+                    {
+                        "label": "payables-single",
+                        "value": 19
+                    },
+                    {
+                        "label": "cashMonitoring-single",
+                        "value": 20
+                    },
+                    {
+                        "label": "cash planning,forecasting-single",
+                        "value": 21
+                    },
+                    {
+                        "label": "receivables-payables",
+                        "value": 22
+                    },
+                    {
+                        "label": "receivables-cash monitoring",
+                        "value": 23
+                    },
+                    {
+                        "label": "receivables-cash planning,forecasting",
+                        "value": 24
+                    },
+                    {
+                        "label": "payables-cash monitoring",
+                        "value": 25
+                    },
+                    {
+                        "label": "payables-cash planning,forecasting",
+                        "value": 26
+                    },
+                    {
+                        "label": "cash monitoring-cash planning,forecasting",
+                        "value": 27
+                    },
+                    {
+                        "label": "receivables-payables-cash monitoring",
+                        "value": 28
+                    },
+                    {
+                        "label": "payables-cash monitoring-cash planning,forecasting",
+                        "value": 29
+                    },
+                    {
+                        "label": "receivables-cash monitoring-cash planning,forecasting",
+                        "value": 30
+                    },
+                    {
+                        "label": "receivables-payables-cash planning,forecasting",
+                        "value": 31
+                    },
+                    {
+                        "label": "centime-full-suite",
+                        "value": 32
                     }
                 ],
                 "editType": "select",
@@ -5541,6 +6031,9 @@
             {
                 "label": "Auto sync",
                 "valueMap": "connectionInfo.incrementalSyncFlag",
+                "defaultValue":1,
+                "editable": true,
+                "editType": "select",
                 "displayValueEnum": [
                     {
                         "label": "Off",
@@ -5550,7 +6043,26 @@
                         "label": "On",
                         "value": 1
                     }
+                ],
+                "enum": [
+                    {
+                        "label": "Off",
+                        "value": 0
+                    },
+                    {
+                        "label": "On",
+                        "value": 1
+                    }
                 ]
+            },
+            {
+                "label":"Last successful Sync time",
+                "valueMap":"lastSuccessfulSyncTime"
+            },
+            {
+                "label":"First sync flag",
+                "valueMap":"firstSyncFlag",
+                "formatType":"boolean"
             }
         ],
         "ignoreKeys": ["paymentId","glType"],
@@ -5638,7 +6150,8 @@
                 "paramObjMap": {
                     "clientId": "clientId",
                     "sourceName": "sourceName",
-                    "sourceSyncStatus": "sourceSyncStatus"
+                    "sourceSyncStatus": "sourceSyncStatus",
+                    "incrementalSyncFlag":"connectionInfo.incrementalSyncFlag"
                 },
                 "bodyObjMap": {}
             }
@@ -5705,6 +6218,7 @@
                 "title": "Error code",
                 "valueMap": "errorCode",
                 "renderType": "text",
+                "align":"left",
                 "enableSort": true
             },
             {
@@ -5804,7 +6318,9 @@
             {
                 "label": "Auto sync",
                 "valueMap": "connectionInfo.incrementalSyncFlag",
-                "displayValueEnum": [
+                "editable": true,
+                "editType": "select",
+                "enum": [
                     {
                         "label": "Off",
                         "value": 0
@@ -5861,6 +6377,26 @@
                         "sourceName": "sourceName"
                     }
                 }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Bank details"
+                },
+                "renderPosition": "top",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "BankAccountsByClientId"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId"
+                    }
+                }
             }
         ],
         "additionalProperties": {
@@ -5879,7 +6415,8 @@
                 "paramObjMap": {
                     "clientId": "clientId",
                     "sourceName": "sourceName",
-                    "sourceSyncStatus": "sourceSyncStatus"
+                    "sourceSyncStatus": "sourceSyncStatus",
+                    "incrementalSyncFlag":"connectionInfo.incrementalSyncFlag"
                 },
                 "bodyObjMap": {}
             }

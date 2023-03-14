@@ -525,5 +525,12 @@
     "backToUnpaid":"अवैतनिक को लौटें",
     "backToPaid": "पेड को लौटें",
     "postingPaymentsGLFailed": "{{count}} इनवॉइस भुगतान की सामान्य खाता बही में पोस्टिंग विफल रही।",
-    "postingPaymentsGLFailed_plural": "{{count}} इनवॉयस भुगतानों की सामान्य लेजर में पोस्टिंग विफल रही।"
+    "postingPaymentsGLFailed_plural": "{{count}} इनवॉयस भुगतानों की सामान्य लेजर में पोस्टिंग विफल रही।",
+    "needsReviewDuplicateStatusHeader": "समीक्षा की आवश्यकता है: संभावित डुप्लिकेट मिला",
+    "invoiceNumberDuplicateMessage": "समान संख्या वाला चालान पहले से मौजूद है",
+    "supplierInvoiceAmountDuplicateMessage": "समान चालान दिनांक और राशि वाला चालान पहले से मौजूद है",
+    "duplicateInvoice":"संभावित डुप्लिकेट मिला",
+    "department":"विभाग",
+    "location":"जगह",
+    "class": "वर्गीकरण"
 }
