@@ -360,5 +360,9 @@
     "unPaidInvoices": "अवैतनिक चालान",
     "Confirm": "पुष्टि करें",
     "billsDetailsFetchingError": "चालान विवरण प्राप्त करने में त्रुटि। कृपया पुन: प्रयास करें।",
-    "supplierDetailsFetchingError": "आपूर्तिकर्ता विवरण प्राप्त करने में त्रुटि। कृपया पुन: प्रयास करें।"
+    "supplierDetailsFetchingError": "आपूर्तिकर्ता विवरण प्राप्त करने में त्रुटि। कृपया पुन: प्रयास करें।",
+    "supplierIsWillingToAcceptedCardPayment": "आपूर्तिकर्ता कार्ड से भुगतान स्वीकार करने को तैयार है",
+    "supplierIsNotWillingToAcceptedCardPayment": "आपूर्तिकर्ता कार्ड से भुगतान स्वीकार करने को तैयार नहीं है",
+    "enrollmentContactName": "नामांकन संपर्क नाम",
+    "enrollmentContactEmails": "नामांकन संपर्क ईमेल"
 }
