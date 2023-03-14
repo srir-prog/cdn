@@ -1130,7 +1130,7 @@
                 "align":"left"
             },
             {
-                "title": "Payment",
+                "title": "Payment Id",
                 "valueMap": "payment.paymentId",
                 "align":"left",
                 "renderType":"Link",
@@ -1192,11 +1192,26 @@
     "transactions":{
         "componentType": "table",
         "title": "Pending payment transactions list",
-        "ignoreKeys":["currencyCode"],
+        "ignoreKeys":["currencyCode","paymentId","amount","lastModifiedDate","payeeClientType"
+        ,"payerClientType","payerReferenceId","payeeReferenceId","paymentProcessorType","processorStatus"],
         "headersInfo":[
             {
-                "title": "Payment Id",
-                "valueMap": "paymentId"
+                "title": "Id",
+                "valueMap": "uid",
+                "renderType": "Link",
+                "action": {
+                    "type": "sidePanelData",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "TransactionDetails"
+                    },
+                    "paramObjMap": {
+                        "transactionId": "uid"
+                    }
+                }
             },
             {
                 "title": "Created date",
@@ -1204,69 +1219,23 @@
                 "align":"left"
             },
             {
-                "title": "Trx start date",
+                "title": "Start date",
                 "valueMap": "transactionStartDate",
                 "align":"left"
             },
             {
-                "title": "Amount",
-                "valueMap": "amount",
-                "align":"left",
-                "formatType":"currency"
-            },
-            {
-                "title": "Last mod date",
-                "valueMap": "lastModifiedDate",
-                "align":"left"
-            },
-            {
-                "title": "Payee client type",
-                "valueMap": "payeeClientType",
-                "align":"left"
-            },
-            {
-                "title": "Payer client type",
-                "valueMap": "payerClientType",
-                "align":"left"
-            },
-            {
-                "title": "Payer RefId",
-                "valueMap": "payerReferenceId",
-                "align":"left"
-            },
-            {
-                "title": "Payee RefId",
-                "valueMap": "payeeReferenceId",
-                "align":"left"
-            },
-            {
-                "title": "Payment pro type",
-                "valueMap": "paymentProcessorType",
-                "align":"left"
-            },
-            {
-                "title": "Trx status",
+                "title": "Status",
                 "valueMap": "transactionStatus",
                 "align":"left"
             },
             {
-                "title": "Trx type",
+                "title": "Type",
                 "valueMap": "transactionType",
                 "align":"left"
             },
             {
-                "title": "Pro status",
-                "valueMap": "processorStatus",
-                "align":"left"
-            },
-            {
-                "title": "Pro trx Id",
+                "title": "Trx Id",
                 "valueMap": "processorTxnId",
-                "align":"left"
-            },
-            {
-                "title": "Uid",
-                "valueMap": "uid",
                 "align":"left"
             }
         ],
@@ -3898,9 +3867,17 @@
             {
                 "label": "Failure Response",
                 "valueMap": "processorFailureResponse"
+            },
+            {
+                "label": "Created Date",
+                "valueMap": "createdDate"
+            },
+            {
+                "label": "Last Modified Date",
+                "valueMap": "lastModifiedDate"
             }
         ],
-        "ignoreKeys": []
+        "ignoreKeys": ["clientName"]
     },
     "paymentDetails": {
         "componentType": "detailsList",
