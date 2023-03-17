@@ -3142,7 +3142,29 @@
         ],
         "additionalProperties": {
             "enableSearch": true,
-            "paginationNeeded": true
+            "paginationNeeded": true,
+            "deletableForm": true,
+            "editableForm":false,
+            "onDeleteAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "DeleteBankAccount"
+                },
+                "paramObjMap": {
+                    "accountId": "accountId",
+                    "institutionLoginId":"institutionLoginId",
+                    "institutionId":"institutionId"
+                },
+                "successNotificationObject": {
+                    "message": "Approval is pending"
+                }
+            }
         },
         "additionalContent": [
             {
@@ -5908,6 +5930,65 @@
                     "clientKycStatus": "clientKycStatus",
                     "clientVerificationStatus": "clientVerificationStatus",
                     "glConnectionStatus": "glConnectionStatus"
+                },
+                "bodyObjMap": {}
+            }
+        }
+    },
+    "clientSettings":{
+        "componentType": "detailsList",
+        "title": "Client Settings",
+        "ignoreKeys":["glType","clientId"],
+        "listInfo":[
+            {
+                "label": "Enable Faster ACH",
+                "valueMap": "paymentSettings.fasterACH",
+                "formatType":"boolean",
+                "editType": "select",
+                "editable":true,
+                "enum":[
+                    {
+                        "label": "Yes",
+                        "value": true
+                    },
+                    {
+                        "label": "No",
+                        "value": false
+                    }
+                ],
+                "displayValueEnum":[
+                    {
+                        "label": "Yes",
+                        "value": true
+                    },
+                    {
+                        "label": "No",
+                        "value": false
+                    }
+                ]
+            }
+        ],
+        "additionalProperties": {
+            "editableForm": true,
+            "submitButtonProps": {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Save Edited Details"
+                }
+            },
+            "onSaveAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "ClientSettingsUpdate"
+                },
+                "paramObjMap": {
+                    "fasterACH": "paymentSettings.fasterACH"
                 },
                 "bodyObjMap": {}
             }
