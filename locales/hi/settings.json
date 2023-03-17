@@ -568,6 +568,6 @@
     "deletePolicyWarningMessage": "अनुमोदन की प्रतीक्षा कर रहे चालानों को वापस बुलाया जाएगा और अनुमोदन के लिए फिर से भेजने की आवश्यकता होगी",
     "errorDeletingApprovalPolicy": "मंज़ूरी नीति मिटाते समय गड़बड़ी हुई",
     "successfullyDeletedApprovalPolicy": "अनुमोदन नीति को सफलतापूर्वक हटा दिया गया",
-    "groupInvoicePayment":"आपूर्तिकर्ता के लिए समूह चालान भुगतान तिथि के अनुसार",
-    "groupInvoicePaymentPanel":"तिथि के अनुसार समूह चालान भुगतान"
+    "groupInvoicePayment":"समान आपूर्तिकर्ता को समान भुगतान तिथि पर सामूहिक भुगतान",
+    "groupInvoicePaymentPanel":"एक ही भुगतान तिथि पर किए गए समूह भुगतान"
 }

@@ -127,6 +127,27 @@
                         }
                     }
                 }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Pending payments"
+                },
+                "renderPosition": "bottom",
+                "gridSize":3,
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "PendingPaymentsListWithName"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId"
+                    }
+                }
             }
         ]
     },
@@ -1001,52 +1022,221 @@
             }
         ]
     },
-    "pendingPayments":{
-        "componentType": "table",
-        "title": "Pending Payment List",
-        "ignoreKeys":["transactions"],
-        "headersInfo":[
+    "addBankAccountQueryBuilder":{
+        "componentType": "detailsList",
+        "title": "Add a bank account",
+        "ignoreKeys":["glType","clientId"],
+        "detailsListFullWidth": true,
+        "showCancelBtn":false,
+        "listInfo": [
             {
-                "title": "Payment",
-                "valueMap": "payment",
-                "align":"left",
-                "renderType":"detailsList",
-                "renderProps":{
-                    "ignoreKeys":[],
-                    "listInfo":[
-                        {
-                            "label": "",
-                            "valueMap": "paymentId",
-                            "renderType": "Link",
-                            "action": {
-                                "type": "sidePanelData",
-                                "pathList": [
-                                    "1.0",
-                                    "aggregate"
-                                ],
-                                "paramObj": {
-                                    "templateId": "BankAccountDetailsByAccountId"
-                                },
-                                "paramObjMap": {
-                                    "clientId": "clientId",
-                                    "accountId": "payerPaymentAccountId"
-                                }
-                            }
-                        }
-                    ]
-                 }
+                "label":"Account type",
+                "valueMap":"accountType",
+                "editable": true,
+                "editType": "select",
+                "defaultValue":"Checking or Savings",
+                "enum": [
+                    {
+                        "label": "Credit Card",
+                        "value": "Credit Card"
+                    },
+                    {
+                        "label": "Checking or Savings",
+                        "value": "Checking or Savings"
+                    }
+                ]
             },
             {
-                "title": "Transactions",
-                "valueMap": "transactions",
+                "label":"Institution name",
+                "valueMap":"institutionName",
+                "editable": true
+            },
+            {
+                "label":"Account name",
+                "valueMap":"accountName",
+                "editable": true
+            },
+            {
+                "label":"Last 4 digits of A/C no",
+                "valueMap":"lastAccNo",
+                "editable": true,
+                "masterIds": {
+                    "accountType": ["Credit Card"]
+                },
+                "uiTypeWhenMasterDisabled":1
+            },
+            {
+                "label":"Account number",
+                "valueMap":"fullAccNo",
+                "editable": true,
+                "masterIds": {
+                    "accountType": ["Checking or Savings"]
+                },
+                "uiTypeWhenMasterDisabled":1
+            },
+            {
+                "label":"Routing number",
+                "valueMap":"routingNumber",
+                "editable": true,
+                "masterIds": {
+                    "accountType": ["Checking or Savings"]
+                },
+                "uiTypeWhenMasterDisabled":1
+            }
+           
+
+        ],
+        "additionalProperties": {
+            "editableForm": true,
+            "showForm":true,
+            "submitButtonProps": {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Save Edited Details"
+                }
+            },
+            "onSaveAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": ""
+                },
+                "paramObjMap": {
+                    "clientId": "clientId",
+                    "accountType":"accountType",
+                    "institutionName":"institutionName",
+                    "accountName":"accountName",
+                    "lastAccNo":"lastAccNo",
+                    "fullAccNo":"fullAccNo",
+                    "routingNumber":"routingNumber"  
+                },
+                "bodyObjMap": {}
+            }
+        }
+    },
+    "PendingPaymentsListWithName":{
+        "componentType": "table",
+        "title": "Pending Payment List",
+        "ignoreKeys":["payment.paymentSubStatusTracking"],
+        "headersInfo":[
+            {
+                "title": "Client name",
+                "valueMap": "clientName",
+                "align":"left"
+            },
+            {
+                "title": "Payment Id",
+                "valueMap": "payment.paymentId",
                 "align":"left",
-                "renderType":"table",
-                "renderProps":{
-                    "ignoreKeys":[],
-                    "headersInfo":[
-                       
-                    ]
-                 }
+                "renderType":"Link",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "Transactions"
+                    },
+                    "paramObjMap": {
+                        "paymentId": "payment.paymentId"
+                    }
+                }
+            },
+            {
+                "title": "Payment status",
+                "valueMap": "payment.paymentStatus",
+                "align":"left"
+            },
+            {
+                "title": "Payment method",
+                "valueMap": "payment.paymentMethod",
+                "align":"left"
+            },
+            {
+                "title": "Payment start date",
+                "valueMap": "payment.paymentStartDate",
+                "align":"left"
+            },
+            {
+                "title": "Payment capture date",
+                "valueMap": "payment.paymentCaptureDate",
+                "align":"left"
+            },
+            {
+                "title": "Payer RefId",
+                "valueMap": "payment.payerReferenceId",
+                "align":"left"
+            },
+            {
+                "title": "Payee RefId",
+                "valueMap": "payment.payeeReferenceId",
+                "align":"left"
+            },
+            {
+                "title": "Payment substatus tracking",
+                "valueMap": "payment.payeeReferenceId",
+                "align":"left"
+            }
+        ],
+        "additionalProperties":{
+            "enableSearch":true,
+            "paginationNeeded":true
+        }
+    },
+    "transactions":{
+        "componentType": "table",
+        "title": "Pending payment transactions list",
+        "ignoreKeys":["currencyCode","paymentId","amount","lastModifiedDate","payeeClientType"
+        ,"payerClientType","payerReferenceId","payeeReferenceId","paymentProcessorType","processorStatus"],
+        "headersInfo":[
+            {
+                "title": "Id",
+                "valueMap": "uid",
+                "renderType": "Link",
+                "action": {
+                    "type": "sidePanelData",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "TransactionDetails"
+                    },
+                    "paramObjMap": {
+                        "transactionId": "uid"
+                    }
+                }
+            },
+            {
+                "title": "Created date",
+                "valueMap": "createdDate",
+                "align":"left"
+            },
+            {
+                "title": "Start date",
+                "valueMap": "transactionStartDate",
+                "align":"left"
+            },
+            {
+                "title": "Status",
+                "valueMap": "transactionStatus",
+                "align":"left"
+            },
+            {
+                "title": "Type",
+                "valueMap": "transactionType",
+                "align":"left"
+            },
+            {
+                "title": "Trx Id",
+                "valueMap": "processorTxnId",
+                "align":"left"
             }
         ],
         "additionalProperties":{
@@ -1159,7 +1349,7 @@
     "approvalListFromBops":{
         "componentType": "table",
         "title": "Approvals Pending List",
-        "ignoreKeys":["createdBy","clientId","request"],
+        "ignoreKeys":["approvedBy","clientId","request"],
         "headersInfo":[
             {
                 "title": "Approval Id",
@@ -1237,8 +1427,8 @@
                 "enableSort": true
             },
             {
-                "title": "Approve by",
-                "valueMap": "approvedBy",
+                "title": "Created by",
+                "valueMap": "createdBy",
                 "renderType": "text",
                 "align":"left",
                 "enableSort": true
@@ -2379,7 +2569,7 @@
     "jobHistory":{
         "componentType": "table",
         "title": "Job History List",
-        "ignoreKeys":[],
+        "ignoreKeys":["retry"],
         "headersInfo":[
             {
                 "title": "Job Id",
@@ -2407,6 +2597,7 @@
                 "valueMap": "retry",
                 "renderType": "detailsList",
                 "align":"left",
+                "width":"15%",
                 "renderProps": {
                     "listInfo": [
                         {
@@ -2862,6 +3053,7 @@
                 "valueMap": "accountId",
                 "renderType": "text",
                 "align":"left",
+                "width":"15%",
                 "enableSort": true
             },
             {
@@ -2875,6 +3067,7 @@
                 "title": "Institution Id",
                 "valueMap": "institutionId",
                 "renderType": "text",
+                "width":"15%",
                 "align":"left",
                 "enableSort": true
             },
@@ -2883,6 +3076,7 @@
                 "valueMap": "sourceId",
                 "renderType": "text",
                 "align":"left",
+                "width":"15%",
                 "enableSort": true
             },
             {
@@ -2907,21 +3101,21 @@
                 "enableSort": true
             },
             {
-                "title": "Aggregation status code",
+                "title": "Agg status code",
                 "valueMap": "aggregationStatusCode",
                 "renderType": "text",
                 "align":"left",
                 "enableSort": true
             },
             {
-                "title": "Aggregation attempt date",
+                "title": "Agg attempt date",
                 "valueMap": "aggregationAttemptDate",
                 "renderType": "text",
                 "align":"left",
                 "enableSort": true
             },
             {
-                "title": "Aggregation success date",
+                "title": "Agg success date",
                 "valueMap": "aggregationSuccessDate",
                 "renderType": "text",
                 "align":"left",
@@ -2932,7 +3126,33 @@
         "additionalProperties": {
             "enableSearch": true,
             "paginationNeeded": true
-        }
+        },
+        "additionalContent": [
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Add account",
+                    "className":"mb-5"
+                },
+                "renderPosition": "top",
+                "className":"alignRight",
+                "gridSize":12,
+                "action": {
+                    "type": "sidePanelData",
+                    "noApiCall":true,
+                    "data": {
+                        "addBankAccountQueryBuilder": {
+                            "accountType":"",
+                            "institutionName":"",
+                            "accountName":"",
+                            "lastAccNo":"",
+                            "fullAccNo":"",
+                            "routingNumber":""
+                        }
+                    }
+                }
+            }
+        ]
     },
     "usersList":{
         "componentType": "table",
@@ -3647,9 +3867,17 @@
             {
                 "label": "Failure Response",
                 "valueMap": "processorFailureResponse"
+            },
+            {
+                "label": "Created Date",
+                "valueMap": "createdDate"
+            },
+            {
+                "label": "Last Modified Date",
+                "valueMap": "lastModifiedDate"
             }
         ],
-        "ignoreKeys": []
+        "ignoreKeys": ["clientName"]
     },
     "paymentDetails": {
         "componentType": "detailsList",
@@ -3783,6 +4011,10 @@
                 "valueMap": "paymentEndDate"
             },
             {
+                "label": "Group ID",
+                "valueMap": "groupId"
+            },
+            {
                 "label": "Payment Sub Status",
                 "valueMap": "paymentSubStatusTracking",
                 "renderProps": {
@@ -3818,6 +4050,18 @@
                         "hasColumnFiltering": false
                     }
                 }
+            },
+            {
+                "label": "Payment meta data",
+                "valueMap": "paymentMetadata",
+                "renderProps": {
+                    "listInfo": [
+                        
+                    ],
+                    "additionalProperties": {
+                        "hasColumnFiltering": false
+                    }
+                }
             }
         ],
         "ignoreKeys": [
@@ -3825,7 +4069,6 @@
             "payeeClientType",
             "payerPaymentAccountType",
             "payeePaymentAccountType",
-            "paymentMetadata",
             "paymentDescription",
             "remittanceData",
             "clientId",
