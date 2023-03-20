@@ -60,5 +60,8 @@
   "readyToProcess": "संसाधित करने के लिए तैयार",
   "activateCard": "कार्ड सक्रिय करें",
   "checkSubmitted": "स्थानीय डाकघर में जाँच करें",
-  "trackCheck": "पता चलाना चेक"
+  "trackCheck": "पता चलाना चेक",
+  "ddaToken": "डीडीए टोकन",
+  "achDailyLimit": "एसीएच दैनिक सीमा",
+  "achDailyLimitTooltip": "आवश्यक नहीं"
 }
