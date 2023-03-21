@@ -64,7 +64,8 @@
                                 "CREDIT_CARD": "CREDIT_CARD",
                                 "CENTIME_CARD": "CENTIME_CARD",
                                 "CENTIME_CASH": "CENTIME_CASH",
-                                "CENTIME_PAY":"CENTIME_PAY"
+                                "CENTIME_PAY":"CENTIME_PAY",
+                                "CENTIME_CASH_REPAY":"CENTIME_CASH_REPAY"
                             },
                             "tnsForOptions": false,
                             "multiple": true
@@ -76,7 +77,8 @@
                             "CREDIT_CARD",
                             "CENTIME_CARD",
                             "CENTIME_CASH",
-                            "CENTIME_PAY"
+                            "CENTIME_PAY",
+                            "CENTIME_CASH_REPAY"
                         ]
                     },
                     {
@@ -1034,7 +1036,6 @@
                 "valueMap":"accountType",
                 "editable": true,
                 "editType": "select",
-                "defaultValue":"Checking or Savings",
                 "enum": [
                     {
                         "label": "Credit Card",
@@ -1057,17 +1058,13 @@
                 "editable": true
             },
             {
-                "label":"Last 4 digits of A/C no",
-                "valueMap":"lastAccNo",
-                "editable": true,
-                "masterIds": {
-                    "accountType": ["Credit Card"]
-                },
-                "uiTypeWhenMasterDisabled":1
+                "label":"Account number(Last 4 digits only)",
+                "valueMap":"accountNumber",
+                "editable": true
             },
             {
-                "label":"Account number",
-                "valueMap":"fullAccNo",
+                "label":"Full Account number",
+                "valueMap":"fullAccountNumber",
                 "editable": true,
                 "masterIds": {
                     "accountType": ["Checking or Savings"]
@@ -1092,7 +1089,7 @@
             "submitButtonProps": {
                 "renderType": "Button",
                 "renderProps": {
-                    "label": "Save Edited Details"
+                    "label": "Save Bank Details"
                 }
             },
             "onSaveAction": {
@@ -1104,20 +1101,64 @@
                     "aggregate"
                 ],
                 "paramObj": {
-                    "templateId": ""
+                    "templateId": "AddBankAccount"
                 },
                 "paramObjMap": {
                     "clientId": "clientId",
+                    "accountNumber":"accountNumber",
                     "accountType":"accountType",
-                    "institutionName":"institutionName",
                     "accountName":"accountName",
-                    "lastAccNo":"lastAccNo",
-                    "fullAccNo":"fullAccNo",
+                    "accountGroup":{
+                        "type":"dynamic",
+                        "parentKey":"accountType",
+                        "values":{
+                            "Checking or Savings":"BANK ACCOUNTS",
+                            "Credit Card":"CREDIT CARDS"
+                        }
+                    },
+                    "balanceDate":{
+                        "type":"dynamic",
+                        "value":"date"
+                    },
+                    "currencyCode":{
+                        "type":"hardCoded",
+                        "value":"USD"
+                    },
+                    "institutionName":"institutionName",
+                    "fullAccountNumber":"fullAccountNumber",
                     "routingNumber":"routingNumber"  
+                },
+                "successNotificationObject": {
+                    "message": "Successfully Added"
                 },
                 "bodyObjMap": {}
             }
         }
+    },
+    "adminActionsQueryBuilder":{
+        "componentType": "detailsList",
+        "title": "Admin Actions",
+        "additionalContent": [
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Refresh cache",
+                    "fullWidth":true
+                },
+                "renderPosition": "bottom",
+                "gridSize":2,
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "RefreshCache"
+                    }
+                }
+            }
+        ]
     },
     "PendingPaymentsListWithName":{
         "componentType": "table",
@@ -3038,7 +3079,8 @@
         "currentBalance",
         "modifiedAccountName",
         "modifiedInstitutionName",
-        "modifiedAccountType"
+        "modifiedAccountType",
+        "accountInfo"
     ],
         "headersInfo":[
             {
@@ -3125,7 +3167,29 @@
         ],
         "additionalProperties": {
             "enableSearch": true,
-            "paginationNeeded": true
+            "paginationNeeded": true,
+            "deletableForm": true,
+            "editableForm":false,
+            "onDeleteAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "DeleteBankAccount"
+                },
+                "paramObjMap": {
+                    "accountId": "accountId",
+                    "institutionLoginId":"institutionLoginId",
+                    "institutionId":"institutionId"
+                },
+                "successNotificationObject": {
+                    "message": "Approval is pending"
+                }
+            }
         },
         "additionalContent": [
             {
@@ -3145,8 +3209,8 @@
                             "accountType":"",
                             "institutionName":"",
                             "accountName":"",
-                            "lastAccNo":"",
-                            "fullAccNo":"",
+                            "accountNumber":"",
+                            "fullAccountNumber":"",
                             "routingNumber":""
                         }
                     }
@@ -5891,6 +5955,65 @@
                     "clientKycStatus": "clientKycStatus",
                     "clientVerificationStatus": "clientVerificationStatus",
                     "glConnectionStatus": "glConnectionStatus"
+                },
+                "bodyObjMap": {}
+            }
+        }
+    },
+    "clientSettings":{
+        "componentType": "detailsList",
+        "title": "Client Settings",
+        "ignoreKeys":["glType","clientId"],
+        "listInfo":[
+            {
+                "label": "Enable Faster ACH",
+                "valueMap": "paymentSettings.fasterACH",
+                "formatType":"boolean",
+                "editType": "select",
+                "editable":true,
+                "enum":[
+                    {
+                        "label": "Yes",
+                        "value": true
+                    },
+                    {
+                        "label": "No",
+                        "value": false
+                    }
+                ],
+                "displayValueEnum":[
+                    {
+                        "label": "Yes",
+                        "value": true
+                    },
+                    {
+                        "label": "No",
+                        "value": false
+                    }
+                ]
+            }
+        ],
+        "additionalProperties": {
+            "editableForm": true,
+            "submitButtonProps": {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Save Edited Details"
+                }
+            },
+            "onSaveAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "ClientSettingsUpdate"
+                },
+                "paramObjMap": {
+                    "fasterACH": "paymentSettings.fasterACH"
                 },
                 "bodyObjMap": {}
             }

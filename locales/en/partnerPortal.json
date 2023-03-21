@@ -57,6 +57,5 @@
   "TBSCompanyIdTooltip": "TBS company ID needed for repayment",
   "activateCentimeCashFormHeader": "Activate CentimeCash for {{name}}",
   "ddaToken": "DDA token",
-  "achDailyLimit": "ACH daily limit",
-  "achDailyLimitTooltip": "NOT required"
+  "achDailyLimit": "ACH daily limit"
 }
