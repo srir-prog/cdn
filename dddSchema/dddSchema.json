@@ -5836,7 +5836,8 @@
                 "renderProps": {
                     "label": "Payments"
                 },
-                "renderPosition": "bottom",
+                "renderPosition": "top",
+                "className":"mb-10",
                 "action": {
                     "type": "drillDown",
                     "pathList": [
@@ -5856,7 +5857,7 @@
                 "renderProps": {
                     "label": "Bank details"
                 },
-                "renderPosition": "bottom",
+                "renderPosition": "top",
                 "action": {
                     "type": "drillDown",
                     "pathList": [
@@ -5876,7 +5877,7 @@
                 "renderProps": {
                     "label": "Open bills"
                 },
-                "renderPosition": "bottom",
+                "renderPosition": "top",
                 "action": {
                     "type": "drillDown",
                     "pathList": [
@@ -5896,7 +5897,7 @@
                 "renderProps": {
                     "label": "Product activation"
                 },
-                "renderPosition": "bottom",
+                "renderPosition": "top",
                 "action": {
                     "type": "drillDown",
                     "pathList": [
@@ -5917,7 +5918,7 @@
                   "label": "CF Validation",
                   "className":"ml-6"
                 },
-                "renderPosition": "bottom",
+                "renderPosition": "top",
                 "action": {
                     "type": "drillDownNewPage",
                     "data": {
