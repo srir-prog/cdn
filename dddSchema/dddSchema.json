@@ -1129,7 +1129,7 @@
                     "routingNumber":"routingNumber"  
                 },
                 "successNotificationObject": {
-                    "message": "Successfully Added"
+                    "message": "Successfully  Added Bank Account"
                 },
                 "bodyObjMap": {}
             }
@@ -1159,6 +1159,11 @@
                 }
             }
         ]
+    },
+    "refreshCache":{
+         "title": "Refresh Cache Details",
+         "label":"Cache refresh",
+         "defaultValue":"Successful"
     },
     "PendingPaymentsListWithName":{
         "componentType": "table",
@@ -1384,7 +1389,7 @@
             "enableSearch":true,
             "paginationNeeded":true,
             "defaultColumnToSort":0,
-            "defaultSortingOrder":"asc"
+            "defaultSortingOrder":"desc"
         }
     },
     "approvalListFromBops":{
@@ -1548,7 +1553,7 @@
             ],
             "editableForm":true,
             "defaultColumnToSort":0,
-            "defaultSortingOrder":"asc"
+            "defaultSortingOrder":"desc"
         }
     },
     "glActiveClientsList":{
@@ -5836,7 +5841,8 @@
                 "renderProps": {
                     "label": "Payments"
                 },
-                "renderPosition": "bottom",
+                "renderPosition": "top",
+                "className":"mb-10",
                 "action": {
                     "type": "drillDown",
                     "pathList": [
@@ -5856,7 +5862,7 @@
                 "renderProps": {
                     "label": "Bank details"
                 },
-                "renderPosition": "bottom",
+                "renderPosition": "top",
                 "action": {
                     "type": "drillDown",
                     "pathList": [
@@ -5876,7 +5882,7 @@
                 "renderProps": {
                     "label": "Open bills"
                 },
-                "renderPosition": "bottom",
+                "renderPosition": "top",
                 "action": {
                     "type": "drillDown",
                     "pathList": [
@@ -5896,7 +5902,7 @@
                 "renderProps": {
                     "label": "Product activation"
                 },
-                "renderPosition": "bottom",
+                "renderPosition": "top",
                 "action": {
                     "type": "drillDown",
                     "pathList": [
@@ -5917,7 +5923,7 @@
                   "label": "CF Validation",
                   "className":"ml-6"
                 },
-                "renderPosition": "bottom",
+                "renderPosition": "top",
                 "action": {
                     "type": "drillDownNewPage",
                     "data": {
@@ -6013,7 +6019,8 @@
                     "templateId": "ClientSettingsUpdate"
                 },
                 "paramObjMap": {
-                    "fasterACH": "paymentSettings.fasterACH"
+                    "fasterACH": "paymentSettings.fasterACH",
+                    "clientId":"clientId"
                 },
                 "bodyObjMap": {}
             }
@@ -6449,6 +6456,9 @@
                     "paramObjMap": {
                         "clientId": "clientId",
                         "sourceName": "sourceName"
+                    },
+                    "successNotificationObject": {
+                        "message": "Successfully  Synced"
                     }
                 }
             },
