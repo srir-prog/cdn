@@ -81,5 +81,6 @@
     "accountTemporarilyLockedFor30Min": "Incorrect password. You account is temporarily locked for security reasons. Please try again after 30 minutes",
     "wrongPasswordRetryLeft": "Incorrect password. You have {{retriesLeft}} more attempts before you are locked out",
     "pwCannotBeSameAsPrevious": "Invalid password : New password cannot be the same as one of the earlier passwords you used",
-    "pwCriteriaNotMet": "Invalid password : Password does not match required criteria"
+    "pwCriteriaNotMet": "Invalid password : Password does not match required criteria",
+    "registerToSee":"Register to see Centime in action."
 }
