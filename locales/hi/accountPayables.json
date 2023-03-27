@@ -342,7 +342,7 @@
     "payablesTable": "देय तालिका",
     "discountPercentage" : "छूट प्रतिशत",
     "plan": "योजना",
-    "icon-planned": "योजना"
+    "icon-planned": "योजना",
     "discountPaidBillsToolTip": "छूट राशि: {{discountAmount}}",
     "AccordionViewInvoiceHistory": "चालान इतिहास देखें",
     "pay": "भुगतान",
@@ -364,5 +364,6 @@
     "supplierIsWillingToAcceptedCardPayment": "आपूर्तिकर्ता कार्ड से भुगतान स्वीकार करने को तैयार है",
     "supplierIsNotWillingToAcceptedCardPayment": "आपूर्तिकर्ता कार्ड से भुगतान स्वीकार करने को तैयार नहीं है",
     "enrollmentContactName": "नामांकन संपर्क नाम",
-    "enrollmentContactEmails": "नामांकन संपर्क ईमेल"
+    "enrollmentContactEmails": "नामांकन संपर्क ईमेल",
+    "supplierDetailsUpdatedSuccessfully": "आपूर्तिकर्ता विवरण सफलतापूर्वक अपडेट किया गया"
 }
