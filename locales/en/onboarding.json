@@ -82,5 +82,10 @@
     "wrongPasswordRetryLeft": "Incorrect password. You have {{retriesLeft}} more attempts before you are locked out",
     "pwCannotBeSameAsPrevious": "Invalid password : New password cannot be the same as one of the earlier passwords you used",
     "pwCriteriaNotMet": "Invalid password : Password does not match required criteria",
-    "registerToSee":"Register to see Centime in action."
+    "registerToSee":"Register to see Centime in action.",
+    "defaultSignupTitle":"Our cash management suite enables you to:",
+    "defaultSignupText1":"Automatically create and continuously update a rolling 13-week cash forecast",
+    "defaultSignupText2":"Automate all aspects of the AP process: processing invoices to capture and approve invoices, planning payment runs to preserve cash, and making payments to suppliers",
+    "defaultSignupText3":"AR Automation improves collections effectiveness, reduces past due payments Get faster access to a working capital line of credit",
+    "defaultSignupText4":"Download extended remittance information"
 }
