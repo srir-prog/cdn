@@ -1094,6 +1094,7 @@
             },
             "onSaveAction": {
                 "type": "updateCall",
+                "closePanel":true,
                 "url": "fs/business-ops-service",
                 "method": "GET",
                 "pathList": [
@@ -3189,7 +3190,8 @@
                 "paramObjMap": {
                     "accountId": "accountId",
                     "institutionLoginId":"institutionLoginId",
-                    "institutionId":"institutionId"
+                    "institutionId":"institutionId",
+                    "clientId":"clientId"
                 },
                 "successNotificationObject": {
                     "message": "Approval is pending"
@@ -5969,7 +5971,7 @@
     "clientSettings":{
         "componentType": "detailsList",
         "title": "Client Settings",
-        "ignoreKeys":["glType","clientId"],
+        "ignoreKeys":["glType","clientId","clientName"],
         "listInfo":[
             {
                 "label": "Enable Faster ACH",
@@ -5978,16 +5980,6 @@
                 "editType": "select",
                 "editable":true,
                 "enum":[
-                    {
-                        "label": "Yes",
-                        "value": true
-                    },
-                    {
-                        "label": "No",
-                        "value": false
-                    }
-                ],
-                "displayValueEnum":[
                     {
                         "label": "Yes",
                         "value": true
