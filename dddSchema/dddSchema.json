@@ -891,7 +891,7 @@
     "nonGLListQueryBuilder":{
         "componentType": "detailsList",
         "title": "Non GL clients",
-        "ignoreKeys":["clientName"],
+        "ignoreKeys":["clientName","clientId","sourceName"],
         "additionalProperties": {
             "showQueryBuilder": true,
             "queryBuilderPosition": "bottom",
@@ -1027,7 +1027,7 @@
     "addBankAccountQueryBuilder":{
         "componentType": "detailsList",
         "title": "Add a bank account",
-        "ignoreKeys":["glType","clientId"],
+        "ignoreKeys":["glType","clientId","clientName","sourceName"],
         "detailsListFullWidth": true,
         "showCancelBtn":false,
         "listInfo": [
@@ -1875,7 +1875,7 @@
                         "sourceName": "dataSourceDetailEntity.sourceName",
                         "clientName":"clientEntity.clientName"
                     },
-                    "pageQueryParams": ["clientName"]
+                    "pageQueryParams": ["clientName","sourceName"]
                 },
                 "enableSort": true
             },
@@ -3066,7 +3066,10 @@
     },
     "bankAccountsByClientId":{
         "componentType": "table",
-        "title": "Accounts list",
+        "title": "Bank Accounts List",
+        "btnContainerGridProps":{
+            "justify":"flex-end"
+        },
         "ignoreKeys":
         [
         "accountStatus",
@@ -3087,7 +3090,7 @@
         "modifiedInstitutionName",
         "modifiedAccountType",
         "accountInfo"
-    ],
+        ],
         "headersInfo":[
             {
                 "title": "FI name",
@@ -3202,12 +3205,41 @@
             {
                 "renderType": "Button",
                 "renderProps": {
+                    "label": "Refresh accounts",
+                    "className":"mb-5"
+                },
+                "renderPosition": "top",
+                "className":"alignRight",
+                "gridSize":3,
+                "hideBtnFor":{
+                    "sourceName":["FNBO_Cash","FNBO_Card"]
+                },
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "RefreshCustomerAccounts"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId"
+                    }
+                },
+                "successNotificationObject": {
+                    "message": "Successfully  Refreshed Bank Accounts"
+                }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
                     "label": "Add account",
                     "className":"mb-5"
                 },
                 "renderPosition": "top",
                 "className":"alignRight",
-                "gridSize":12,
+                "gridSize":2,
                 "action": {
                     "type": "sidePanelData",
                     "noApiCall":true,
@@ -6759,8 +6791,10 @@
                         "templateId": "BankAccountsByClientId"
                     },
                     "paramObjMap": {
-                        "clientId": "clientId"
-                    }
+                        "clientId": "clientId",
+                        "sourceName": "sourceName"
+                    },
+                    "pageQueryParams":["clientId","sourceName"]
                 }
             }
         ],
