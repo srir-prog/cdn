@@ -361,5 +361,10 @@
     "plan": "Plan",
     "billsDetailsFetchingError": "Error while fetching invoice details. Please try again.",
     "supplierDetailsFetchingError": "Error while fetching supplier details. Please try again.",
-    "PaymentFailed": "Payment failed"
+    "PaymentFailed": "Payment failed",
+    "supplierIsWillingToAcceptedCardPayment": "Supplier is willing to accept card payments",
+    "supplierIsNotWillingToAcceptedCardPayment": "Supplier is not willing to accept card payments",
+    "enrollmentContactName": "Enrollment contact name",
+    "enrollmentContactEmails": "Enrollment contact emails",
+    "supplierDetailsUpdatedSuccessfully": "Supplier details updated successfully"
 }
