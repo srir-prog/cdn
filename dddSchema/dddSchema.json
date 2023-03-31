@@ -35,6 +35,7 @@
                                 "CANCELLED": "CANCELLED",
                                 "COMPLETED": "COMPLETED",
                                 "FAILED": "FAILED",
+                                "HOLD":"HOLD",
                                 "INITIATED": "INITIATED",
                                 "PROCESSING": "PROCESSING",
                                 "SCHEDULED": "SCHEDULED",
@@ -48,6 +49,7 @@
                             "COMPLETED",
                             "CANCELLED",
                             "FAILED",
+                            "HOLD",
                             "INITIATED",
                             "PROCESSING",
                             "SCHEDULED",
@@ -597,9 +599,9 @@
                         "title": "Job status",
                         "componentProps": {
                             "options": {
-                                "0": "Active",
-                                "1": "Pause",
-                                "2":"Deprecated"
+                                "0": "Running",
+                                "1": "Success",
+                                "2":"Failure"
                             },
                             "tnsForOptions": false,
                             "multiple": true
@@ -891,7 +893,7 @@
     "nonGLListQueryBuilder":{
         "componentType": "detailsList",
         "title": "Non GL clients",
-        "ignoreKeys":["clientName"],
+        "ignoreKeys":["clientName","clientId","sourceName"],
         "additionalProperties": {
             "showQueryBuilder": true,
             "queryBuilderPosition": "bottom",
@@ -1027,7 +1029,7 @@
     "addBankAccountQueryBuilder":{
         "componentType": "detailsList",
         "title": "Add a bank account",
-        "ignoreKeys":["glType","clientId"],
+        "ignoreKeys":["glType","clientId","clientName","sourceName"],
         "detailsListFullWidth": true,
         "showCancelBtn":false,
         "listInfo": [
@@ -1094,6 +1096,7 @@
             },
             "onSaveAction": {
                 "type": "updateCall",
+                "closePanel":true,
                 "url": "fs/business-ops-service",
                 "method": "GET",
                 "pathList": [
@@ -1874,7 +1877,7 @@
                         "sourceName": "dataSourceDetailEntity.sourceName",
                         "clientName":"clientEntity.clientName"
                     },
-                    "pageQueryParams": ["clientName"]
+                    "pageQueryParams": ["clientName","sourceName"]
                 },
                 "enableSort": true
             },
@@ -3065,7 +3068,10 @@
     },
     "bankAccountsByClientId":{
         "componentType": "table",
-        "title": "Accounts list",
+        "title": "Bank Accounts List",
+        "btnContainerGridProps":{
+            "justify":"flex-end"
+        },
         "ignoreKeys":
         [
         "accountStatus",
@@ -3086,7 +3092,7 @@
         "modifiedInstitutionName",
         "modifiedAccountType",
         "accountInfo"
-    ],
+        ],
         "headersInfo":[
             {
                 "title": "FI name",
@@ -3189,7 +3195,8 @@
                 "paramObjMap": {
                     "accountId": "accountId",
                     "institutionLoginId":"institutionLoginId",
-                    "institutionId":"institutionId"
+                    "institutionId":"institutionId",
+                    "clientId":"clientId"
                 },
                 "successNotificationObject": {
                     "message": "Approval is pending"
@@ -3200,12 +3207,41 @@
             {
                 "renderType": "Button",
                 "renderProps": {
+                    "label": "Refresh accounts",
+                    "className":"mb-5"
+                },
+                "renderPosition": "top",
+                "className":"alignRight",
+                "gridSize":3,
+                "hideBtnFor":{
+                    "sourceName":["FNBO_Cash","FNBO_Card"]
+                },
+                "action": {
+                    "type": "updateCall",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "RefreshCustomerAccounts"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId"
+                    }
+                },
+                "successNotificationObject": {
+                    "message": "Successfully  Refreshed Bank Accounts"
+                }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
                     "label": "Add account",
                     "className":"mb-5"
                 },
                 "renderPosition": "top",
                 "className":"alignRight",
-                "gridSize":12,
+                "gridSize":2,
                 "action": {
                     "type": "sidePanelData",
                     "noApiCall":true,
@@ -4165,6 +4201,78 @@
                         "paymentId": "paymentId"
                     },
                     "pageQueryParams": ["clientId"]
+                }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Allow"
+                },
+                "hideBtnFor":{
+                    "paymentStatus":[
+                        "COMPLETED",
+                        "CANCELLED",
+                        "FAILED",
+                        "INITIATED",
+                        "PROCESSING",
+                        "SCHEDULED",
+                        "UNKNOWN"
+                    ]
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "updateCall",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "AllowOrRejectPaymentsOnHold"
+                    },
+                    "paramObjMap": {
+                        "clientId": "payerReferenceId",
+                        "paymentId": "paymentId",
+                        "boStatus":{
+                            "type":"hardCoded",
+                            "value":"ALLOW"
+                        }
+                    }
+                }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Reject"
+                },
+                "hideBtnFor":{
+                    "paymentStatus":[
+                        "COMPLETED",
+                        "CANCELLED",
+                        "FAILED",
+                        "INITIATED",
+                        "PROCESSING",
+                        "SCHEDULED",
+                        "UNKNOWN"
+                    ]
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "updateCall",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "AllowOrRejectPaymentsOnHold"
+                    },
+                    "paramObjMap": {
+                        "clientId": "payerReferenceId",
+                        "paymentId": "paymentId",
+                        "boStatus":{
+                            "type":"hardCoded",
+                            "value":"REJECT"
+                        }
+                    }
                 }
             }
         ]
@@ -5969,7 +6077,7 @@
     "clientSettings":{
         "componentType": "detailsList",
         "title": "Client Settings",
-        "ignoreKeys":["glType","clientId"],
+        "ignoreKeys":["glType","clientId","clientName"],
         "listInfo":[
             {
                 "label": "Enable Faster ACH",
@@ -5978,16 +6086,6 @@
                 "editType": "select",
                 "editable":true,
                 "enum":[
-                    {
-                        "label": "Yes",
-                        "value": true
-                    },
-                    {
-                        "label": "No",
-                        "value": false
-                    }
-                ],
-                "displayValueEnum":[
                     {
                         "label": "Yes",
                         "value": true
@@ -6767,8 +6865,10 @@
                         "templateId": "BankAccountsByClientId"
                     },
                     "paramObjMap": {
-                        "clientId": "clientId"
-                    }
+                        "clientId": "clientId",
+                        "sourceName": "sourceName"
+                    },
+                    "pageQueryParams":["clientId","sourceName"]
                 }
             }
         ],
