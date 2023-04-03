@@ -59,7 +59,7 @@
     "backToLogin": "Back to login",
     "WorkEmail": "Work email",
     "logoutMessage": "You have been logged out",
-    "link1Text": "Privacy policy",
+    "link1Text": "Centime's Privacy policy",
     "link2Text": " Terms of service",
     "Welcome": "Welcome",
     "maximumAttemptText": "You have exceeded the maximum number password reset retries",
@@ -84,8 +84,11 @@
     "pwCriteriaNotMet": "Invalid password : Password does not match required criteria",
     "registerToSee":"Register to see Centime in action.",
     "defaultSignupTitle":"Our cash management suite enables you to:",
-    "defaultSignupText1":"Automatically create and continuously update a rolling 13-week cash forecast",
-    "defaultSignupText2":"Automate all aspects of the AP process: processing invoices to capture and approve invoices, planning payment runs to preserve cash, and making payments to suppliers",
-    "defaultSignupText3":"AR Automation improves collections effectiveness, reduces past due payments Get faster access to a working capital line of credit",
-    "defaultSignupText4":"Download extended remittance information"
+    "defaultSignupText1":"Forecast Cash: Gain insights into future cash flows. Plan and manage liquidity. Mitigate risk of business failure.",
+    "defaultSignupText2":"Automate Accounts Payable: Save money. Boost efficiency. Mitigate fraud. Improve cash flow. ",
+    "defaultSignupText3":"Automate Accounts Receivable: Improve collections effectiveness. Reduce past due payments. Boost working capital.",
+    "defaultSignupText4":"Get CentimeCredit™: Apply easily. Qualify quickly. Fund immediately. Meet operating needs. Finance growth.",
+    "defaultSignupText5":"Track and Monitor KPIs: Identify and compare trends. Use standardized benchmarks. Share findings with key stakeholders.",
+    "signUpLeftSideTitle":"Centime Cash Management",
+    "signUpLeftSideSubTitle":"Please create your profile to explore Centime's entire cash management suite"
 }
