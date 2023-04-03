@@ -534,5 +534,14 @@
     "duplicateInvoice":"Potential duplicate found",
     "department":"Department",
     "location":"Location",
-    "class": "Class"
+    "class": "Class",
+    "cashflow" : "Cash inflows / outflows",
+    "cashInTotal": "Cash In",
+    "cashOutTotal" : "Cash Out",
+    "totalReceivables": "AR",
+    "totalPayables" : "AP",
+    "otherInflows": "Other inflows",
+    "otherOutflows": "Other outflows",
+    "openingCashBalance": "Opening balance",
+    "cashFlowGraphTrendLine": "Waterfall cash impact"
 }
