@@ -10,7 +10,7 @@
     "Password": "पासवर्ड",
     "ShowPassword": "पासवर्ड दिखाए",
     "HidePassword": "पासवर्ड छिपाएं",
-    "Complete your profile": "अपनी प्रोफाइल पूरी कीजिए",
+    "completeYourProfile": "अपनी प्रोफाइल पूरी कीजिए",
     "Create your profile": "अपनी प्रोफाइल बनाए",
     "NotUser": "{{fullName}} नहीं ?",
     "agreeConditions": "साइन अप करके, मैं सेनटीम <Link1></Link1> और <Link2></Link2>",
@@ -91,7 +91,9 @@
     "signUpLeftSideTitle":"सेंटीम कैश मैनेजमेंट",
     "signUpLeftSideSubTitle":"Centime के संपूर्ण नकद प्रबंधन सूट का पता लगाने के लिए कृपया अपना प्रोफ़ाइल बनाएं",
     "secureSignupTitle":"<bold>CentimeSecure</bold> FNBO और Centime की एक संयुक्त पहल है",
-    "secureSignupText1":"यह सुरक्षित और सुरक्षित है। यह कैसे काम करता है इसका संक्षिप्त विवरण पढ़ें।",
+    "secureSignupText1":"यह सुरक्षित और सुरक्षित है। यह कैसे काम करता है इसका एक <link></link> पढ़ें।",
     "secureSignupText2":"यह कई बैंकों द्वारा पेश किया जाने वाला एक मानक बैंकिंग उत्पाद है",
-    "secureSignupText3":"CentimeSecure सुविधाएँ और लाभ"
+    "secureSignupText3":"सेंटीमेसिक्योर <link></link>",
+    "shortDesc":"संक्षिप्त वर्णन",
+    "featuresAndBenefits":"विशेषतायें एवं फायदे"
 }
