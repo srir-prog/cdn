@@ -532,5 +532,14 @@
     "duplicateInvoice":"संभावित डुप्लिकेट मिला",
     "department":"विभाग",
     "location":"जगह",
-    "class": "वर्गीकरण"
+    "class": "वर्गीकरण",
+    "cashflow" : "नकदी प्रवाह / बहिर्वाह",
+    "cashInTotal": "नकद में",
+    "cashOutTotal" : "नकदी निकलना",
+    "totalReceivables": "AR",
+    "totalPayables" : "AP",
+    "otherInflows": "अन्य अंतर्वाह",
+    "otherOutflows": "अन्य निकासी",
+    "openingCashBalance": "प्रारंभिक जमा",
+    "cashFlowGraphTrendLine": "झरना नकद प्रभाव"
 }

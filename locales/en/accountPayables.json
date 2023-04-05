@@ -365,5 +365,8 @@
     "supplierIsWillingToAcceptedCardPayment": "Supplier is willing to accept card payments",
     "supplierIsNotWillingToAcceptedCardPayment": "Supplier is not willing to accept card payments",
     "enrollmentContactName": "Enrollment contact name",
-    "enrollmentContactEmails": "Enrollment contact emails"
+    "enrollmentContactEmails": "Enrollment contact emails",
+    "supplierDetailsUpdatedSuccessfully": "Supplier details updated successfully",
+    "billNotesUpdateFailure": "Error encountered while updating notes. Try again or contact us if the problem persists.",
+    "billNotesUpdateSuccess": "Notes updated successfully"
 }

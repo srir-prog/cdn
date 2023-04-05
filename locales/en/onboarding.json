@@ -59,7 +59,7 @@
     "backToLogin": "Back to login",
     "WorkEmail": "Work email",
     "logoutMessage": "You have been logged out",
-    "link1Text": "Privacy policy",
+    "link1Text": "Centime's Privacy policy",
     "link2Text": " Terms of service",
     "Welcome": "Welcome",
     "maximumAttemptText": "You have exceeded the maximum number password reset retries",
@@ -81,5 +81,18 @@
     "accountTemporarilyLockedFor30Min": "Incorrect password. You account is temporarily locked for security reasons. Please try again after 30 minutes",
     "wrongPasswordRetryLeft": "Incorrect password. You have {{retriesLeft}} more attempts before you are locked out",
     "pwCannotBeSameAsPrevious": "Invalid password : New password cannot be the same as one of the earlier passwords you used",
-    "pwCriteriaNotMet": "Invalid password : Password does not match required criteria"
+    "pwCriteriaNotMet": "Invalid password : Password does not match required criteria",
+    "registerToSee":"Register to see Centime in action.",
+    "defaultSignupTitle":"Our cash management suite enables you to:",
+    "defaultSignupText1":"Forecast Cash: Gain insights into future cash flows. Plan and manage liquidity. Mitigate risk of business failure.",
+    "defaultSignupText2":"Automate Accounts Payable: Save money. Boost efficiency. Mitigate fraud. Improve cash flow. ",
+    "defaultSignupText3":"Automate Accounts Receivable: Improve collections effectiveness. Reduce past due payments. Boost working capital.",
+    "defaultSignupText4":"Get CentimeCredit™: Apply easily. Qualify quickly. Fund immediately. Meet operating needs. Finance growth.",
+    "defaultSignupText5":"Track and Monitor KPIs: Identify and compare trends. Use standardized benchmarks. Share findings with key stakeholders.",
+    "signUpLeftSideTitle":"Centime Cash Management",
+    "signUpLeftSideSubTitle":"Please create your profile to explore Centime's entire cash management suite",
+    "secureSignupTitle":"<bold>CentimeSecure</bold> is a joint initiative of FNBO and Centime",
+    "secureSignupText1":"It is safe and secure. Read a short description of how it works.",
+    "secureSignupText2":"It is a standard banking product offered by many banks",
+    "secureSignupText3":"CentimeSecure Features and Benefits"
 }
