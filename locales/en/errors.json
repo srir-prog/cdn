@@ -38,5 +38,8 @@
   "unableToSignUpNoticeHeaderText": "Unable to SignUp",
   "glConnectionStepUserRestrict":"To proceed, help us understand your business needs to provide you with a seamless integration experience.<Link></Link>",
   "sandboxConnectionUserRestrict":"This is your Centime cash management suite sandbox. <Link>scheduleTime</Link> now to discuss your needs and go live.",
-  "connectNow":"Connect now"
+  "connectNow":"Connect now",
+  "AskAdminToConnectNetsuiteAccount": "This is your Centime cash management suite sandbox. Please contact your Admin to connect your Netsuite account.",
+  "AskAdminToInviteToConnectedNetsuiteAccount": "This is your Centime cash management suite sandbox. Contact your Admin to provide access to your business entity.",
+  "NoSubsidiariesToConnect": "All subsidiaries are connected to Centime. No more subsidiaries to connect."
 }
