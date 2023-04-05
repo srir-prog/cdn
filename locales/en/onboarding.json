@@ -90,5 +90,9 @@
     "defaultSignupText4":"Get CentimeCredit™: Apply easily. Qualify quickly. Fund immediately. Meet operating needs. Finance growth.",
     "defaultSignupText5":"Track and Monitor KPIs: Identify and compare trends. Use standardized benchmarks. Share findings with key stakeholders.",
     "signUpLeftSideTitle":"Centime Cash Management",
-    "signUpLeftSideSubTitle":"Please create your profile to explore Centime's entire cash management suite"
+    "signUpLeftSideSubTitle":"Please create your profile to explore Centime's entire cash management suite",
+    "secureSignupTitle":"<bold>CentimeSecure</bold> is a joint initiative of FNBO and Centime",
+    "secureSignupText1":"It is safe and secure. Read a short description of how it works.",
+    "secureSignupText2":"It is a standard banking product offered by many banks",
+    "secureSignupText3":"CentimeSecure Features and Benefits"
 }
