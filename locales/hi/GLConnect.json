@@ -298,5 +298,10 @@
     "NetSuiteRedirectConnectHeader": "नेटसुइट खाता जुड़ा हुआ है",
     "NetSuiteRedirectConnectInfo2": "कृपया Centime के भीतर एक व्यावसायिक इकाई बनाने की प्रक्रिया को पूरा करने के लिए जारी रखें पर क्लिक करें। आपको अपने नेटसुइट खाते में फिर से लॉगिन करने के लिए कहा जाएगा और फिर प्रक्रिया को पूरा करने के लिए Centime SuiteApp पर पुनर्निर्देशित किया जाएगा।",
     "selectSubsidiary": "सहायक का चयन करें",
-    "SubsidiaryList": "सहायक सूची"
+    "SubsidiaryList": "सहायक सूची",
+    "+AddCentimeSecure": "+ व्यवसाय जानकारी जोड़ें",
+    "BusinessInfo": "Business Information",
+    "confirmBusinessName": "Confirm your business name",
+    "accountingSystem": "Accounting System",
+    "chooseYourAccSys": "Choose your accounting system"
 }
