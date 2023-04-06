@@ -441,6 +441,17 @@
                         },
                         "default":["1"],
                         "queryName": "userVerified"
+                    },
+                    {
+                        "type": "Dropdown",
+                        "title": "User source",
+                        "componentProps": {
+                            "options": {
+                                "secure": "Secure"
+                            },
+                            "tnsForOptions": false
+                        },
+                        "queryName": "source"
                     }
                 ]
             }
@@ -481,6 +492,10 @@
                         "userVerified":{
                             "type": "queryBuilder",
                             "value":"userVerified"
+                        },
+                        "source":{
+                            "type": "queryBuilder",
+                            "value":"source"
                         }
                     },
                     "successNotificationObject": {
