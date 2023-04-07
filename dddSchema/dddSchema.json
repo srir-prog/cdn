@@ -496,10 +496,12 @@
                         "title": "User source",
                         "componentProps": {
                             "options": {
-                                "secure": "Secure"
+                                "secure": "Secure",
+                                "default":"Default"
                             },
                             "tnsForOptions": false
                         },
+                        "default":["default"],
                         "queryName": "source"
                     }
                 ]
