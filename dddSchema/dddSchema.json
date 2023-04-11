@@ -2205,7 +2205,7 @@
                         "sourceName": "dataSourceDetailEntity.sourceName",
                         "clientName":"clientEntity.clientName"
                     },
-                    "pageQueryParams": ["clientName","sourceName"]
+                    "pageQueryParams": ["clientName","sourceName","clientId"]
                 },
                 "enableSort": true
             },
