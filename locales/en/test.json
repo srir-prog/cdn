@@ -24,7 +24,7 @@
   "salary": "Salary",
   "joiningDate": "Joining Date",
   "Details": "Details",
-  "More": "More",
+  "More": "Click On More",
   "openingBalance": "Opening Balance",
   "Operating": "Cash from operations",
   "Investing": "Cash from investments",
@@ -34,5 +34,7 @@
   "cashOut": "Cash Out",
   "8oh0e8b59r2": "MYY",
   "position": "Position",
-  "designation": "Designation"
+  "designation": "Designation",
+  "key7": "Hi {{name}}, click on {{count}} row",
+  "key7_plural": "Hi {{name}}, click on {{count}} rows"
 }

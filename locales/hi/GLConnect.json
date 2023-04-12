@@ -2,7 +2,7 @@
     "SyncInProgress": "प्रगति में सिंक",
     "EnterCredentials": "क्रेडेंशियल दर्ज करें",
     "SyncFailed": "डेटा सिंक विफल",
-    "+connectEntity": "+ एक व्यवसाय इकाई कनेक्ट करें",
+    "+ConnectEntity": "+ एक व्यवसाय इकाई कनेक्ट करें",
     "ConnectEntity": "एक व्यवसाय इकाई कनेक्ट करें",
     "SelectEntity": "एक व्यवसाय इकाई का चयन करें",
     "AddEntity": "एक व्यवसाय इकाई जोड़ें",
@@ -18,6 +18,7 @@
     "Connected": "जुड़े हुए",
     "Next": "आगे",
     "Previous": "पिछला",
+    "Cancel": "रद्द करना",
     "WhatsTheNeed": "मुझे ऐसा करने की आवश्यकता क्यों है?",
     "SelectGLTitle": "कृपया द्वारा उपयोग किए जाने वाले सामान्य लेज़र एप्लिकेशन का चयन करें",
     "DontSeeApp": "अपना आवेदन सूचीबद्ध न देखें?",
@@ -79,7 +80,6 @@
     "ContactUs": "सहयोग टीम से संपर्क करें",
     "ConfirmAccess": "पहुँच विशेषाधिकार की पुष्टि करें",
     "ConfirmConfiguration": "एप्लिकेशन कॉन्फ़िगरेशन की पुष्टि करें",
-    "EnterCredentials": "क्रेडेंशियल दर्ज करें",
     "CheckAccess": "एक्सेस प्रिविलेज की जाँच करना",
     "ConfirmAccessTitle": "कृपया ध्यान दें कि {{GLType}} से कनेक्ट करने के लिए इन अधिकारों की आवश्यकता होगी",
     " ConfirmAccessTitleQBD": "In order to access Quickbooks Desktop you will need to have Administrator privileges.",
@@ -299,5 +299,11 @@
     "NetSuiteRedirectConnectHeader": "नेटसुइट खाता जुड़ा हुआ है",
     "NetSuiteRedirectConnectInfo2": "कृपया Centime के भीतर एक व्यावसायिक इकाई बनाने की प्रक्रिया को पूरा करने के लिए जारी रखें पर क्लिक करें। आपको अपने नेटसुइट खाते में फिर से लॉगिन करने के लिए कहा जाएगा और फिर प्रक्रिया को पूरा करने के लिए Centime SuiteApp पर पुनर्निर्देशित किया जाएगा।",
     "selectSubsidiary": "सहायक का चयन करें",
-    "SubsidiaryList": "सहायक सूची"
+    "SubsidiaryList": "सहायक सूची",
+    "+AddCentimeSecure": "+ व्यवसाय जानकारी जोड़ें",
+    "AddCentimeSecure": "व्यवसाय जानकारी जोड़ें",
+    "BusinessInfo": "Business Information",
+    "confirmBusinessName": "Confirm your business name",
+    "accountingSystem": "Accounting System",
+    "chooseYourAccSys": "Choose your accounting system"
 }
