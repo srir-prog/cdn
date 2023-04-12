@@ -283,6 +283,7 @@
     "CanelPhoneVerificationError": "Error cancelling phone verification",
     "Next": "Next",
     "Previous": "Previous",
+    "Cancel": "Cancel",
     "InviteEmailPostScript":"Please click on the button to sign up.",
     "InviteAdmin": "Invite admin",
     "ThanksTextEmailWithComma": "Thanks,",
