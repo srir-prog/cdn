@@ -543,5 +543,6 @@
     "otherInflows": "Other inflows",
     "otherOutflows": "Other outflows",
     "openingCashBalance": "Opening balance",
-    "cashFlowGraphTrendLine": "Waterfall cash impact"
+    "cashFlowGraphTrendLine": "Waterfall cash impact",
+    "SavingsAfterLogin": "Savings After Login"
 }
