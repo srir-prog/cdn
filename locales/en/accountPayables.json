@@ -47,6 +47,7 @@
     "PayFromAccount": "Pay from account",
     "Status": "Status",
     "totalAP": "Total payables",
+    "totalOverdue": "Total overdue",
     "totalSuppliers": "Total suppliers",
     "totalInvoices": "Total invoices",
     "totalPayablesOutstanding": "Total outstanding",
