@@ -292,6 +292,8 @@
     "surchargeDropDownPlaceHolder": "Select surcharge account",
     "errorOnSurchargeAccountUpdate": "There was an issue encountered in setting surcharge account. Please try again",
     "surchargeUpdated": "Surcharge is updated",
+    "invoiceAmountUpdated": "Invoice amount is updated",
+    "cardDeliverySettingUpdated": "Card delivery setting is updated",
     "usdAmount": "USD Amount",
     "usdAmountTooltip": "The USD amount would be used to determine the exchange rate",
     "discountAccordion": "Early payment discounts",
@@ -366,5 +368,7 @@
     "supplierIsNotWillingToAcceptedCardPayment": "Supplier is not willing to accept card payments",
     "enrollmentContactName": "Enrollment contact name",
     "enrollmentContactEmails": "Enrollment contact emails",
-    "supplierDetailsUpdatedSuccessfully": "Supplier details updated successfully"
+    "supplierDetailsUpdatedSuccessfully": "Supplier details updated successfully",
+    "billNotesUpdateFailure": "Error encountered while updating notes. Try again or contact us if the problem persists.",
+    "billNotesUpdateSuccess": "Notes updated successfully"
 }

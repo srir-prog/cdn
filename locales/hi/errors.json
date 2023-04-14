@@ -36,5 +36,6 @@
   "unableToSignUpNoticeHeaderText": "साइनअप करने में असमर्थ",
   "glConnectionStepUserRestrict":"आगे बढ़ने के लिए, हमें यह समझने में सहायता करें कि आपके व्यवसाय को आपको एक सहज एकीकरण अनुभव प्रदान करने की आवश्यकता है।<Link></Link>",
   "sandboxConnectionUserRestrict":"यह आपका Centime कैश मैनेजमेंट सुइट सैंडबॉक्स है। <Link>scheduleTime</Link> अपनी आवश्यकताओं पर चर्चा करने और लाइव होने के लिए ",
-  "connectNow":"अब जोड़ो"
+  "connectNow":"अब जोड़ो",
+  "noDataFound": "दिखाने के लिए कोई डेटा नहीं है"
 }
