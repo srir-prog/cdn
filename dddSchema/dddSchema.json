@@ -4542,11 +4542,13 @@
                 },
                 "hideBtnFor":{
                     "paymentStatus":[
+                        "APPROVED",
                         "COMPLETED",
                         "CANCELLED",
                         "FAILED",
                         "INITIATED",
                         "PROCESSING",
+                        "REJECTED",
                         "SCHEDULED",
                         "UNKNOWN"
                     ]
@@ -4578,11 +4580,13 @@
                 },
                 "hideBtnFor":{
                     "paymentStatus":[
+                        "APPROVED",
                         "COMPLETED",
                         "CANCELLED",
                         "FAILED",
                         "INITIATED",
                         "PROCESSING",
+                        "REJECTED",
                         "SCHEDULED",
                         "UNKNOWN"
                     ]
