@@ -32,12 +32,14 @@
                         "title": "Status",
                         "componentProps": {
                             "options": {
+                                "APPROVED":"APPROVED",
                                 "CANCELLED": "CANCELLED",
                                 "COMPLETED": "COMPLETED",
                                 "FAILED": "FAILED",
                                 "HOLD":"HOLD",
                                 "INITIATED": "INITIATED",
                                 "PROCESSING": "PROCESSING",
+                                "REJECTED":"REJECTED",
                                 "SCHEDULED": "SCHEDULED",
                                 "UNKNOWN": "UNKNOWN"
                             },
@@ -46,12 +48,14 @@
                         },
                         "queryName": "status",
                         "default": [
+                            "APPROVED",
                             "COMPLETED",
                             "CANCELLED",
                             "FAILED",
                             "HOLD",
                             "INITIATED",
                             "PROCESSING",
+                            "REJECTED",
                             "SCHEDULED",
                             "UNKNOWN"
                         ]
