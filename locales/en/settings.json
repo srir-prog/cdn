@@ -583,6 +583,7 @@
     "groupInvoicePaymentPanel":"Group payments made on same payment date",
     "errorAddingApprover":"Errors encountered in adding the user as invoice approver. Please try again.",
     "successfullyAddedApprover":"User successfully added as invoice approver.",
+    "existingUserError":"User already exists",
     "sourceName": "Name",
     "cashFlowType": "Inflow / Outflow",
     "groupName": "Group",
