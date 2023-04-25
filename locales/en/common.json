@@ -546,5 +546,6 @@
     "cashFlowGraphTrendLine": "Waterfall cash impact",
     "SavingsAfterLogin": "Savings After Login",
     "errorAddingApprover":"Errors encountered in adding the user as invoice approver. Please try again.",
-    "successfullyAddedApprover":"User successfully added as invoice approver."
+    "successfullyAddedApprover":"User successfully added as invoice approver.",
+    "existingUserError": "User already exists"
 }

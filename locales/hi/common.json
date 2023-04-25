@@ -544,5 +544,6 @@
     "cashFlowGraphTrendLine": "झरना नकद प्रभाव",
     "SavingsAfterLogin": "लॉगिन के बाद बचत",
     "errorAddingApprover":"उपयोगकर्ता को इनवॉइस अनुमोदक के रूप में जोड़ने में त्रुटियां आईं. कृपया पुन: प्रयास करें।",
-    "successfullyAddedApprover":"उपयोगकर्ता सफलतापूर्वक इनवॉयस अनुमोदक के रूप में जोड़ा गया।"
+    "successfullyAddedApprover":"उपयोगकर्ता सफलतापूर्वक इनवॉयस अनुमोदक के रूप में जोड़ा गया।",
+    "existingUserError": "उपयोगकर्ता पहले से मौजूद है"
 }
