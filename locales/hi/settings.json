@@ -577,5 +577,9 @@
     "groupInvoicePaymentPanel":"एक ही भुगतान तिथि पर किए गए समूह भुगतान",
     "errorAddingApprover":"उपयोगकर्ता को इनवॉइस अनुमोदक के रूप में जोड़ने में त्रुटियां आईं. कृपया पुन: प्रयास करें।",
     "successfullyAddedApprover":"उपयोगकर्ता सफलतापूर्वक इनवॉयस अनुमोदक के रूप में जोड़ा गया।",
-    "existingUserError":"उपयोगकर्ता पहले से मौजूद है"
+    "existingUserError":"उपयोगकर्ता पहले से मौजूद है",
+    "sourceName": "नाम",
+    "cashFlowType": "अंतर्वाह / बहिर्वाह",
+    "groupName": "समूह",
+    "entityType": "इकाई प्रकार"
 }
