@@ -99,6 +99,7 @@
     "Name": "Name",
     "Type": "Type",
     "Number": "Number",
+    "number": "Number",
     "ExpandPanel": "Expand panel",
     "CollapsePanel": "Collapse panel",
     "AccountDetails": "Account details",
@@ -427,5 +428,7 @@
     "noDataFound": "No data found",
     "allAccounts": "All accounts",
     "operatingAccounts": "Operating accounts",
-    "centimeCashSuspendReasonTooltip": "CentimeCash account is suspended due to insufficient funds. To reactivate, reach out to Centime Customer Success."
+    "centimeCashSuspendReasonTooltip": "CentimeCash account is suspended due to insufficient funds. To reactivate, reach out to Centime Customer Success.",
+    "invoicePayments": "Invoice payments",
+    "supplier": "Supplier"
 }
