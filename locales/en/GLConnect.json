@@ -1,7 +1,7 @@
 {
     "SyncInProgress": "Sync in progress",
     "SyncFailed": "Data sync failed",
-    "+connectEntity": "+ Connect a business entity",
+    "+ConnectEntity": "+ Connect a business entity",
     "ConnectEntity": "Connect a business entity",
     "---ADD GL PAGE----": "---------------ADD GL PAGE--------------------",
     "SelectEntity": "Select a business entity",
@@ -29,8 +29,8 @@
     "WillAddSupport": "Centime is always adapting to help more businesses better control and manage cash flow. We'll let you know as soon as we add support for your General Ledger application {{GL}}.",
     "QBDUnsupported": "Your version of QuickBooks Desktop is not currently supported. However, we would like to help you use Centime.",
     "CCWillReachOut": "Our Customer Success team will contact you to advise on options for upgrading to a supported version of QuickBooks.",
-    "ConnectToNetsuiteHeader": "Connect Netsuite using Centime SuiteApp",
-    "ConnectToNetsuiteBody": "Centime SuiteApp allows you to access the application within Netsuite. <newLine/> You can connect to Centime by installing the Centime SuiteApp and connecting your Netsuite subsidiary. <newLine/> Install the Centime SuiteApp by <clickLink>clickingHere</clickLink>, searching for ‘Centime’ Suite bundle and installing.",
+    "ConnectToNetsuiteHeader": "Contact Centime to go live",
+    "ConnectToNetsuiteBody": "Great to know you are ready to connect your Netsuite account to Centime. <newLine/> Centime can be accessed within Netsuite using the Centime Cash Management SuiteApp. Click <clickLink>here</clickLink> to install the SuiteApp. <newLine/> Please <scheduleLink>scheduleTime</scheduleLink> with our team to help you connect your Netsuite account and go live.",
     "clickingHere": "clicking here",
     "---PHONE VERIFICATION----": "---------PHONE VERIFICATION----------------",
     "VerifyPhone": "Verify phone number",
@@ -283,6 +283,7 @@
     "CanelPhoneVerificationError": "Error cancelling phone verification",
     "Next": "Next",
     "Previous": "Previous",
+    "Cancel": "Cancel",
     "InviteEmailPostScript":"Please click on the button to sign up.",
     "InviteAdmin": "Invite admin",
     "ThanksTextEmailWithComma": "Thanks,",
@@ -315,5 +316,11 @@
     "NetSuiteRedirectConnectHeader": "Netsuite account connected",
     "NetSuiteRedirectConnectInfo2": "Please click Continue to complete the process of creating a business entity within Centime. You will be asked to re-login to your Netsuite account and then redirected to the Centime SuiteApp to complete the process.",
     "selectSubsidiary": "Select Subsidiary",
-    "SubsidiaryList": "Subsidiary list"
+    "SubsidiaryList": "Subsidiary list",
+    "+AddCentimeSecure": "+ Add Business Information",
+    "AddCentimeSecure": "Add Business Information",
+    "BusinessInfo": "Business Information",
+    "confirmBusinessName": "Confirm your business name",
+    "accountingSystem": "Accounting System",
+    "chooseYourAccSys": "Choose your accounting system"
 }

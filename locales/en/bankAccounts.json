@@ -99,6 +99,7 @@
     "Name": "Name",
     "Type": "Type",
     "Number": "Number",
+    "number": "Number",
     "ExpandPanel": "Expand panel",
     "CollapsePanel": "Collapse panel",
     "AccountDetails": "Account details",
@@ -229,10 +230,14 @@
     "overdueAmount": "Overdue amount",
     "CfCategoryValue": "Cash flow category",
     "ForecastTotal": "Forecast total",
+    "forecastedAmount": "Forecast total",
     "OverdueAmount": "Overdue amount",
     "SourceName": "Name",
+    "sourceName": "Name",
     "GroupName": "Group",
+    "groupName": "Group",
     "SupplierType": "type",
+    "entityType": "Type",
     "include": "Include",
     "totals": "Totals",
     "weekCount": "{{timePeriod}} Weeks",
@@ -423,5 +428,7 @@
     "noDataFound": "No data found",
     "allAccounts": "All accounts",
     "operatingAccounts": "Operating accounts",
-    "centimeCashSuspendReasonTooltip": "CentimeCash account is suspended due to insufficient funds. To reactivate, reach out to Centime Customer Success."
+    "centimeCashSuspendReasonTooltip": "CentimeCash account is suspended due to insufficient funds. To reactivate, reach out to Centime Customer Success.",
+    "invoicePayments": "Invoice payments",
+    "supplier": "Supplier"
 }
