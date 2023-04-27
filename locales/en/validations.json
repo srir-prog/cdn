@@ -56,6 +56,7 @@
     "inValidIDNumber": "Invalid ID number",
     "supplierCentimeCardPrimaryCardDetailsError": "Primary contact details are not available for the supplier",
     "isValidAccountNumber": "Invalid account number",
+    "inValidAccountNumber": "Invalid account number",
     "inValidRoutingNumber": "Invalid routing number",
     "restrictedTransactionKeywords": "Invalid transaction name. Please try a different name",
     "exceedsAvailableCredits": "Exceeds available credits",
