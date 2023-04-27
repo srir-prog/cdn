@@ -55,6 +55,7 @@
     "inValidVISA": "अमान्य वीज़ा",
     "inValidIDNumber": "अमान्य आईडी नंबर",
     "supplierCentimeCardPrimaryCardDetailsError": "विवरण सहेजने में त्रुटि क्योंकि आपूर्तिकर्ता के लिए प्राथमिक संपर्क विवरण उपलब्ध नहीं है",
+    "inValidAccountNumber": "अमान्य खाता संख्या",
     "isValidAccountNumber": "अमान्य खाता संख्या",
     "inValidRoutingNumber": "अमान्य रूटिंग नंबर",
     "restrictedTransactionKeywords": "अमान्य लेन-देन का नाम. कृपया कोई दूसरा नाम आज़माएं",
