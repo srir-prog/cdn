@@ -359,5 +359,6 @@
     "cashFlowGraph": "प्राप्य नकद प्रभाव",
     "cashFlowGraphBar": "प्राप्य नकद प्रभाव",
     "HeaderLabelDaysPastDue": "पिछले दिनों देय",
-    "PartnerName": "पार्टनर नाम"
+    "PartnerName": "पार्टनर नाम",
+    "EmailOptionCompanyLegalName": "<कंपनी कानूनी नाम>"
 }

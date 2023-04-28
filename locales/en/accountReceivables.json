@@ -359,5 +359,6 @@
     "cashFlowGraph": "Receivables cash impact",
     "cashFlowGraphBar": "Receivables cash impact",
     "HeaderLabelDaysPastDue": "Days past due",
-    "PartnerName": "Partner Name"
+    "PartnerName": "Partner Name",
+    "EmailOptionCompanyLegalName": "<company legal name>"
 }
