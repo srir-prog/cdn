@@ -40,5 +40,7 @@
   "noDataFound": "दिखाने के लिए कोई डेटा नहीं है",
   "AskAdminToConnectNetsuiteAccount": "यह आपका Centime कैश मैनेजमेंट सुइट सैंडबॉक्स है। अपने नेटसुइट खाते को जोड़ने के लिए कृपया अपने व्यवस्थापक से संपर्क करें।",
   "AskAdminToInviteToConnectedNetsuiteAccount": "यह आपका Centime कैश मैनेजमेंट सुइट सैंडबॉक्स है। अपनी व्यावसायिक इकाई तक पहुँच प्रदान करने के लिए अपने व्यवस्थापक से संपर्क करें।",
-  "NoSubsidiariesToConnect": "सभी सहायक कंपनियां Centime से जुड़ी हैं। कनेक्ट करने के लिए और सहायक कंपनियां नहीं हैं"
+  "NoSubsidiariesToConnect": "सभी सहायक कंपनियां Centime से जुड़ी हैं। कनेक्ट करने के लिए और सहायक कंपनियां नहीं हैं",
+  "CannotSelectMoreRows": "Cannot select more than {{n}} rows.",
+  "CannotSelectReduceWithFilter": "Cannot select more than {{n}} rows. Please use filters to reduce the table rows to less than or equal to {{n}} and then click select all."
 }
