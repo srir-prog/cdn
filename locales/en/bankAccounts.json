@@ -99,6 +99,7 @@
     "Name": "Name",
     "Type": "Type",
     "Number": "Number",
+    "number": "Number",
     "ExpandPanel": "Expand panel",
     "CollapsePanel": "Collapse panel",
     "AccountDetails": "Account details",
@@ -393,7 +394,10 @@
     "SCHEDULED": "Scheduled",
     "Posted": "Posted",
     "adjustedCashBalance": "Adjusted cash balance",
-    "totalPayables": "Total payables",
+    "totalPayables": "AP",
+    "totalReceivables": "AR",
+    "otherInflows": "Other inflows",
+    "otherOutflows": "Other outflows",
     "centimeCardBalanceTooltip": "CentimeCard balance",
     "centimeCashBalanceTooltip": "CentimeCash balance",
     "availableBalanceCashTransfer": "Available balance : {{amount}}",
@@ -427,5 +431,8 @@
     "noDataFound": "No data found",
     "allAccounts": "All accounts",
     "operatingAccounts": "Operating accounts",
-    "centimeCashSuspendReasonTooltip": "CentimeCash account is suspended due to insufficient funds. To reactivate, reach out to Centime Customer Success."
+    "centimeCashSuspendReasonTooltip": "CentimeCash account is suspended due to insufficient funds. To reactivate, reach out to Centime Customer Success.",
+    "invoicePayments": "Invoice payments",
+    "supplier": "Supplier",
+    "cfCategoryValue": "Cash flow category"
 }
