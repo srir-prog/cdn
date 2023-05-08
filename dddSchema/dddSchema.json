@@ -1109,13 +1109,14 @@
                 "editable": true,
                 "editType": "select",
                 "enum": [
+                   
                     {
-                        "label": "Credit Card",
-                        "value": "Credit Card"
+                        "label": "CHECKING",
+                        "value": "CHECKING"
                     },
                     {
-                        "label": "Checking or Savings",
-                        "value": "Checking or Savings"
+                        "label": "CREDIT CARD",
+                        "value": "CREDIT CARD"
                     }
                 ]
             },
@@ -1139,7 +1140,7 @@
                 "valueMap":"fullAccountNumber",
                 "editable": true,
                 "masterIds": {
-                    "accountType": ["Checking or Savings"]
+                    "accountType": ["CHECKING"]
                 },
                 "uiTypeWhenMasterDisabled":1
             },
@@ -1148,7 +1149,7 @@
                 "valueMap":"routingNumber",
                 "editable": true,
                 "masterIds": {
-                    "accountType": ["Checking or Savings"]
+                    "accountType": ["CHECKING"]
                 },
                 "uiTypeWhenMasterDisabled":1
             }
@@ -1185,8 +1186,8 @@
                         "type":"dynamic",
                         "parentKey":"accountType",
                         "values":{
-                            "Checking or Savings":"BANK ACCOUNTS",
-                            "Credit Card":"CREDIT CARDS"
+                            "CHECKING":"Bank Accounts",
+                            "CREDIT CARD":"Credit Card Accounts"
                         }
                     },
                     "balanceDate":{
