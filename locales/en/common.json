@@ -547,5 +547,13 @@
     "SavingsAfterLogin": "Savings After Login",
     "errorAddingApprover":"Errors encountered in adding the user as invoice approver. Please try again.",
     "successfullyAddedApprover":"User successfully added as invoice approver.",
-    "existingUserError": "User already exists"
+    "existingUserError": "User already exists",
+    "agingGraph": "AP Aging Graph",
+    "cashFlowGraphBar": "Payables cash impact",
+    "downloadPlan": "Download Plan",
+    "savePlan": "Save Plan",
+    "totalOverdue": "Total overdue",
+    "totalAP": "Total payables",
+    "totalAR": "Total Receivables",
+    "cashFlowInfo": "Set a future expected date to include overdue invoices in the cash flow forecast"
 }
