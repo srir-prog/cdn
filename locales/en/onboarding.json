@@ -104,5 +104,7 @@
     "guidelinesMsg":"Fill in the required information in each step to submit your CentimeSecure application successfully",
     "businessInformation":"Business information",
     "ownershipInformation":"Ownership information",
-    "apply":"Apply"
+    "apply":"Apply",
+    "centimeSecureInProgress":"Your application submission is successful and is under review. You will be able to access all features of CentimeSecure after approval.<Link></Link>",
+    "talkToUs":"Talk to us"
 }
