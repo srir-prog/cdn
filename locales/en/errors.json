@@ -18,6 +18,7 @@
   "NoEntitlements": "You have not been provided with any Centime permissions yet. Speak with your administrator or contact us for help.",
   "AccountLockedWithMultipleAttempts":"Your account has been locked due to too many failed login attempts. Please reset your password by going back to the log in page or contact us for help.",
   "NoDataToShow": "No available data to display",
+  "FetchingData": "Fetching data to display",
   "BackToHome": "Back to previous page",
   "AccountLocked": "This account has been locked",
   "PageNotFound": "Page not found",
@@ -43,6 +44,5 @@
   "AskAdminToConnectNetsuiteAccount": "This is your Centime cash management suite sandbox. Please contact your Admin to connect your Netsuite account.",
   "AskAdminToInviteToConnectedNetsuiteAccount": "This is your Centime cash management suite sandbox. Contact your Admin to provide access to your business entity.",
   "NoSubsidiariesToConnect": "All subsidiaries are connected to Centime. No more subsidiaries to connect.",
-  "CannotSelectMoreRows": "Cannot select more than {{n}} rows.",
-  "CannotSelectReduceWithFilter": "Cannot select more than {{n}} rows. Please use filters to reduce the table rows to less than or equal to {{n}} and then click select all."
+  "CannotSelectMoreRows": "Cannot select more than {{n}} rows."
 }
