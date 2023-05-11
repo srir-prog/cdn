@@ -18,6 +18,7 @@
   "NoEntitlements": "You have not been provided with any Centime permissions yet. Speak with your administrator or contact us for help.",
   "AccountLockedWithMultipleAttempts":"Your account has been locked due to too many failed login attempts. Please reset your password by going back to the log in page or contact us for help.",
   "NoDataToShow": "No available data to display",
+  "FetchingData": "Fetching data to display",
   "BackToHome": "Back to previous page",
   "AccountLocked": "This account has been locked",
   "PageNotFound": "Page not found",
