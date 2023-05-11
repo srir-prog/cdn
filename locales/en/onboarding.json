@@ -108,5 +108,5 @@
     "centimeSecureInProgress":"Your application submission is successful and is under review. You will be able to access all features of CentimeSecure after approval.<Link></Link>",
     "talkToUs":"Talk to us",
     "nsSessionTimeout":"Session Timeout",
-    "nsSessionTimeoutSummary":"You've been logged out due to inactivity. To start a new session, click on 'Centime' from the menu bar and select 'Application' and 'Open'"
+    "nsSessionTimeoutSummary":"You've been logged out due to inactivity. To start a new session, click on 'Centime' from the menu bar and select 'Application' and 'Open'."
 }
