@@ -1523,9 +1523,10 @@
                         "aggregate"
                     ],
                     "paramObj": {
-                        "templateId": "Transactions"
+                        "templateId": "PaymentDetails"
                     },
                     "paramObjMap": {
+                        "clientName":"clientName",
                         "paymentId": "payment.paymentId"
                     }
                 }
