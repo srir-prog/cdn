@@ -162,7 +162,7 @@
     "clientsListQueryBuilder": {
         "componentType": "detailsList",
         "title": "Clients",
-        "ignoreKeys": ["clientId","glType","paymentId","clientName"],
+        "ignoreKeys": ["clientId","glType","paymentId","clientName","sourceName"],
         "additionalProperties": {
             "showQueryBuilder": true,
             "queryBuilderPosition": "bottom",
@@ -1203,7 +1203,7 @@
                     "routingNumber":"routingNumber"  
                 },
                 "successNotificationObject": {
-                    "message": "Successfully  Added Bank Account"
+                    "message": "Approval is pending"
                 },
                 "bodyObjMap": {}
             }
@@ -5884,7 +5884,7 @@
             "enableSearch": true,
             "paginationNeeded": true
         },
-        "ignoreKeys": [],
+        "ignoreKeys": ["dataSourceDetailEntity.sourceName"],
         "additionalContent": [
         ]
     },
@@ -6428,7 +6428,7 @@
     "clientSettings":{
         "componentType": "detailsList",
         "title": "Client Settings",
-        "ignoreKeys":["glType","clientId","clientName"],
+        "ignoreKeys":["glType","clientId","clientName","sourceName"],
         "listInfo":[
             {
                 "label": "Enable Faster ACH",
