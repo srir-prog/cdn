@@ -2720,6 +2720,7 @@
                             "label":"Linked Txns",
                             "valueMap":"linkedTxns",
                             "renderProps":{
+                                "ignoreKeys":["credits"],
                                 "headersInfo":[
                                     {
                                         "title": "Txn Id",
@@ -2741,6 +2742,48 @@
                                         "renderType": "text",
                                         "align":"left",
                                         "enableSort": true
+                                    },
+                                    {
+                                        "title": "Credits",
+                                        "valueMap": "",
+                                        "align":"left",
+                                        "enableSort": true,
+                                        "enableAccordion":true,
+                                        "renderType": "AccordionLink",
+                                        "renderProps":{
+                                            "label":"Get details"
+                                        },
+                                        "accordionProps":{
+                                            "renderType":"table",
+                                            "renderMeta":{
+                                                "valueMap":"credits",
+                                                "ignoreKeys":[],
+                                                "headersInfo":[
+                                                    {
+                                                            "title":"Credit Id",
+                                                            "valueMap":"creditId",
+                                                            "enableSort":true,
+                                                            "align":"left",
+                                                            "renderProps":{
+                                                                "className":"pl-2"
+                                                            }
+                                                    },
+                                                    {
+                                                            "title":"Credit type",
+                                                            "valueMap":"creditType",
+                                                            "enableSort":true,
+                                                            "align":"left"
+                                                    },
+                                                    {
+                                                            "title":"Credit amount",
+                                                            "valueMap":"creditAmount",
+                                                            "enableSort":true,
+                                                            "align":"left",
+                                                            "formatType":"currency"
+                                                    }
+                                                 ]
+                                            }
+                                        }
                                     }
                                 ]
                             }
