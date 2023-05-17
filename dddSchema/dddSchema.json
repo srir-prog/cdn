@@ -1660,17 +1660,11 @@
                     "label":"Get details"
                 },
                 "accordionProps":{
-                    "renderType":"Tabs",
-                    "tabsInfo":[
-                    {
-                        "tabTitle":"Request details",
+                    "renderType":"detailsList",
+                    "renderMeta":{
                         "valueMap":"request",
-                        "renderType":"detailsList",
-                        "renderMeta":{
-                            "listInfo":[]
-                        }
+                        "listInfo":[]
                     }
-                 ]
                 }
             },
             {
@@ -1713,7 +1707,7 @@
                 "enableSort": true
             },
             {
-                "title": "Approve by",
+                "title": "Approver",
                 "valueMap": "approvedBy",
                 "renderType": "text",
                 "align":"left",
@@ -1762,17 +1756,11 @@
                     "label":"Get details"
                 },
                 "accordionProps":{
-                    "renderType":"Tabs",
-                    "tabsInfo":[
-                    {
-                        "tabTitle":"Request details",
+                    "renderType":"detailsList",
+                    "renderMeta":{
                         "valueMap":"request",
-                        "renderType":"detailsList",
-                        "renderMeta":{
-                            "listInfo":[]
-                        }
+                        "listInfo":[]
                     }
-                 ]
                 }
             },
             {
@@ -7494,7 +7482,8 @@
                 "title": "Id",
                 "valueMap": "id",
                 "enableSort": true,
-                "width": "10%"
+                "width": "10%",
+                "align":"left"
             },
             {
                 "title": "Email",
@@ -7513,6 +7502,7 @@
                 "title": "Last Name",
                 "valueMap": "lastName",
                 "enableSort": true,
+                "align":"left",
                 "width": "20%"
             }
         ],
@@ -7570,7 +7560,8 @@
                     "id": "id"
                 },
                 "bodyObjMap": {}
-            }
+            },
+            "paginationNeeded":true
         }
     },
     "errors": [],
