@@ -557,5 +557,13 @@
     "totalAR": "Total Receivables",
     "cashFlowInfo": "Set a future expected date to include overdue invoices in the cash flow forecast",
     "creditsAvailable": "Credits available",
-    "creditsApplied": "Credits applied"
+    "creditsApplied": "Credits applied",
+    "glAccountShortHand": "GL Account",
+    "addNewExpense":"+ Add new expense",
+    "itemCode":"Item code",
+    "unitPrice":"Unit price",
+    "qty": "Qty.",
+    "moveExpenseToItem":"Move to items",
+    "moveItemToExpense": "Move to expense",
+    "addNewItem": "+ Add new item"
 }
