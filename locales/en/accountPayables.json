@@ -274,7 +274,7 @@
     "closingCashBalance": "Cash Balance",
     "totalPayables": "Payment Amount",
     "cashFlowGraph": "Payables cash impact",
-    "cashFlowGraphBar": "Payables cash impact",
+    "cashFlowGraphBar": "Cash impact bars",
     "LowCash": "Low Cash",
     "TargetCash": "Target Cash",
     "surchargeAmount": "Includes surcharge of {{surcharge}}",
@@ -372,5 +372,6 @@
     "enrollmentContactEmails": "Enrollment contact emails",
     "supplierDetailsUpdatedSuccessfully": "Supplier details updated successfully",
     "billNotesUpdateFailure": "Error encountered while updating notes. Try again or contact us if the problem persists.",
-    "billNotesUpdateSuccess": "Notes updated successfully"
+    "billNotesUpdateSuccess": "Notes updated successfully",
+    "ReadyToPayFailed": "Ready to pay"
 }

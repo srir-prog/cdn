@@ -434,5 +434,9 @@
     "centimeCashSuspendReasonTooltip": "CentimeCash account is suspended due to insufficient funds. To reactivate, reach out to Centime Customer Success.",
     "invoicePayments": "Invoice payments",
     "supplier": "Supplier",
-    "cfCategoryValue": "Cash flow category"
+    "cfCategoryValue": "Cash flow category",
+    "secureHeading":"Complete your application to unlock full range of CentimeSecure features :",
+    "secureText1":"Diversify your deposits across multiple FDIC insured accounts.",
+    "secureText2":"Maximize yield, with interest rates up to 40x the average.",
+    "secureText3":"Keep cash liquid, and easily transfer between accounts."
 }

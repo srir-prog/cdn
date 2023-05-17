@@ -206,5 +206,8 @@
     "Submit": "Submit",
     "To": "To",
     "Continue": "Continue",
-    "fnbo-logo": "FNBO-Logo"
+    "fnbo-logo": "FNBO-Logo",
+    "ColumnMenu": "Column Menu",
+    "IconFilter": "Icon Filter",
+    "ConfirmModal": "Confirmation Modal"
 }

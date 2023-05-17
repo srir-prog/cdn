@@ -162,7 +162,7 @@
     "clientsListQueryBuilder": {
         "componentType": "detailsList",
         "title": "Clients",
-        "ignoreKeys": ["clientId","glType","paymentId","clientName"],
+        "ignoreKeys": ["clientId","glType","paymentId","clientName","sourceName"],
         "additionalProperties": {
             "showQueryBuilder": true,
             "queryBuilderPosition": "bottom",
@@ -1109,13 +1109,14 @@
                 "editable": true,
                 "editType": "select",
                 "enum": [
+                   
                     {
-                        "label": "Credit Card",
-                        "value": "Credit Card"
+                        "label": "CHECKING",
+                        "value": "CHECKING"
                     },
                     {
-                        "label": "Checking or Savings",
-                        "value": "Checking or Savings"
+                        "label": "CREDIT CARD",
+                        "value": "CREDIT CARD"
                     }
                 ]
             },
@@ -1139,7 +1140,7 @@
                 "valueMap":"fullAccountNumber",
                 "editable": true,
                 "masterIds": {
-                    "accountType": ["Checking or Savings"]
+                    "accountType": ["CHECKING"]
                 },
                 "uiTypeWhenMasterDisabled":1
             },
@@ -1148,7 +1149,7 @@
                 "valueMap":"routingNumber",
                 "editable": true,
                 "masterIds": {
-                    "accountType": ["Checking or Savings"]
+                    "accountType": ["CHECKING"]
                 },
                 "uiTypeWhenMasterDisabled":1
             }
@@ -1185,8 +1186,8 @@
                         "type":"dynamic",
                         "parentKey":"accountType",
                         "values":{
-                            "Checking or Savings":"BANK ACCOUNTS",
-                            "Credit Card":"CREDIT CARDS"
+                            "CHECKING":"Bank Accounts",
+                            "CREDIT CARD":"Credit Card Accounts"
                         }
                     },
                     "balanceDate":{
@@ -1202,7 +1203,7 @@
                     "routingNumber":"routingNumber"  
                 },
                 "successNotificationObject": {
-                    "message": "Successfully  Added Bank Account"
+                    "message": "Approval is pending"
                 },
                 "bodyObjMap": {}
             }
@@ -1522,9 +1523,10 @@
                         "aggregate"
                     ],
                     "paramObj": {
-                        "templateId": "Transactions"
+                        "templateId": "PaymentDetails"
                     },
                     "paramObjMap": {
+                        "clientName":"clientName",
                         "paymentId": "payment.paymentId"
                     }
                 }
@@ -2718,6 +2720,7 @@
                             "label":"Linked Txns",
                             "valueMap":"linkedTxns",
                             "renderProps":{
+                                "ignoreKeys":["credits"],
                                 "headersInfo":[
                                     {
                                         "title": "Txn Id",
@@ -2739,6 +2742,48 @@
                                         "renderType": "text",
                                         "align":"left",
                                         "enableSort": true
+                                    },
+                                    {
+                                        "title": "Credits",
+                                        "valueMap": "",
+                                        "align":"left",
+                                        "enableSort": true,
+                                        "enableAccordion":true,
+                                        "renderType": "AccordionLink",
+                                        "renderProps":{
+                                            "label":"Get details"
+                                        },
+                                        "accordionProps":{
+                                            "renderType":"table",
+                                            "renderMeta":{
+                                                "valueMap":"credits",
+                                                "ignoreKeys":[],
+                                                "headersInfo":[
+                                                    {
+                                                            "title":"Credit Id",
+                                                            "valueMap":"creditId",
+                                                            "enableSort":true,
+                                                            "align":"left",
+                                                            "renderProps":{
+                                                                "className":"pl-2"
+                                                            }
+                                                    },
+                                                    {
+                                                            "title":"Credit type",
+                                                            "valueMap":"creditType",
+                                                            "enableSort":true,
+                                                            "align":"left"
+                                                    },
+                                                    {
+                                                            "title":"Credit amount",
+                                                            "valueMap":"creditAmount",
+                                                            "enableSort":true,
+                                                            "align":"left",
+                                                            "formatType":"currency"
+                                                    }
+                                                 ]
+                                            }
+                                        }
                                     }
                                 ]
                             }
@@ -5882,7 +5927,7 @@
             "enableSearch": true,
             "paginationNeeded": true
         },
-        "ignoreKeys": [],
+        "ignoreKeys": ["dataSourceDetailEntity.sourceName"],
         "additionalContent": [
         ]
     },
@@ -6426,7 +6471,7 @@
     "clientSettings":{
         "componentType": "detailsList",
         "title": "Client Settings",
-        "ignoreKeys":["glType","clientId","clientName"],
+        "ignoreKeys":["glType","clientId","clientName","sourceName"],
         "listInfo":[
             {
                 "label": "Enable Faster ACH",
