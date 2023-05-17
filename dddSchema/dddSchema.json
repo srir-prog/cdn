@@ -4117,7 +4117,7 @@
                         "templateId": "PaymentDetails"
                     },
                     "paramObjMap": {
-                        "paymentId": "paymentId",
+                        "paymentId": "groupPaymentId",
                         "clientName": "clientName"
                     },
                     "pageQueryParams": ["paymentId","clientName"]
