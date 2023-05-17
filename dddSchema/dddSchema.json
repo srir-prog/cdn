@@ -132,7 +132,12 @@
                         "paymentMethod":{
                             "type": "queryBuilder",
                             "value": "paymentMethod"
+                        },
+                        "groupId":{
+                            "type":"hardCoded",
+                            "value":"0,1"
                         }
+    
                     }
                 }
             },
@@ -4096,6 +4101,28 @@
                 "valueMap": "paymentMethod",
                 "enableSort": true,
                 "width": "10%"
+            },
+            {
+                "title": "Group PaymentId",
+                "valueMap": "groupPaymentId",
+                "width": "10%",
+                "renderType": "Link",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "PaymentDetails"
+                    },
+                    "paramObjMap": {
+                        "paymentId": "paymentId",
+                        "clientName": "clientName"
+                    },
+                    "pageQueryParams": ["paymentId","clientName"]
+                },
+                "enableSort": true
             },
             {
                 "title": "Amount",
