@@ -104,7 +104,7 @@
     "businessInformation":"व्यवसाय जानकारी जोड़ें",
     "ownershipInformation":"स्वामित्व जानकारी जोड़ें",
     "reviewSubmit":"समीक्षा करें और सबमिट करें",
-    "centimeSecureInProgress":"आपका आवेदन जमा करना सफल है और समीक्षाधीन है। अनुमोदन के बाद आप CentimeSecure की सभी सुविधाओं का उपयोग कर सकेंगे।<Link></Link>",
+    "centimeSecureInProgress":"आपका आवेदन समीक्षाधीन है",
     "talkToUs":"हमसे बात करें",
     "nsSessionTimeout":"सेशन खत्म",
     "nsSessionTimeoutSummary":"आप निष्क्रियता के कारण लॉग आउट हो गए हैं। एक नया सत्र शुरू करने के लिए, मेनू बार से 'सेंटटाइम' पर क्लिक करें और 'एप्लिकेशन' और 'ओपन' चुनें",

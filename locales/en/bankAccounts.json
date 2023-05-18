@@ -438,5 +438,7 @@
     "secureHeading":"Complete your application to unlock full range of CentimeSecure features :",
     "secureText1":"Diversify your deposits across multiple FDIC insured accounts.",
     "secureText2":"Maximize yield, with interest rates up to 40x the average.",
-    "secureText3":"Keep cash liquid, and easily transfer between accounts."
+    "secureText3":"Keep cash liquid, and easily transfer between accounts.",
+    "applicationSubmitted":"Start connecting your accounts to Centime",
+    "applicationSubmittedSubText":"Once your application is approved,you can initiate funds transfer from your connected accounts"
 }
