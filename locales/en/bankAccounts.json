@@ -496,5 +496,7 @@
     "PostingInProgress": "Posting in progress",
     "PartiallyPaid": "Partially paid",
     "UnPaid": "Unpaid",
-    "Paid": "Paid"
+    "Paid": "Paid",
+    "applicationSubmitted":"Start connecting your accounts to Centime",
+    "applicationSubmittedSubText":"Once your application is approved,you can initiate funds transfer from your connected accounts"
 }
