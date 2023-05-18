@@ -303,7 +303,9 @@
     "+AddCentimeSecure": "+ व्यवसाय जानकारी जोड़ें",
     "AddCentimeSecure": "व्यवसाय जानकारी जोड़ें",
     "BusinessInfo": "Business Information",
-    "confirmBusinessName": "Confirm your business name",
+    "confirmBusinessName": "व्यवसाय का नाम",
     "accountingSystem": "Accounting System",
-    "chooseYourAccSys": "Choose your accounting system"
+    "chooseYourAccSys": "Choose your accounting system",
+    "secureVerificationTitle":"अपने खाते के लिए दो-कारक प्रमाणीकरण सक्षम करें",
+    "secureProvideMobileNumber":"कृपया एक मोबाइल नंबर प्रदान करें"
 }
