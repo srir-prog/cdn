@@ -372,5 +372,16 @@
     "supplierDetailsUpdatedSuccessfully": "आपूर्तिकर्ता विवरण सफलतापूर्वक अपडेट किया गया",
     "billNotesUpdateFailure": "नोट्स अपडेट करते समय त्रुटि हुई। पुन: प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें।",
     "billNotesUpdateSuccess": "नोट्स सफलतापूर्वक अपडेट किए गए",
-    "ReadyToPayFailed": "रेडी टू पे"
+    "ReadyToPayFailed": "रेडी टू पे",
+    "planHistoryActionPaymentDateChanged": "योजना: भुगतान दिनांक परिवर्तित",
+    "planHistoryActionPaymentAmountChanged": "योजना: भुगतान राशि परिवर्तित",
+    "planHistoryActionPaymentMethodChanged": "योजना: भुगतान का तरीका बदला गया",
+    "planHistoryActionFundingAccountChanged": "योजना: फंडिंग खाता परिवर्तन",
+    "planHistoryActionPaymentCreditsApplied": "योजना: क्रेडिट लागू",
+    "planHistoryActionPaymentDiscountApplied": "योजना: छूट लागू",
+    "planHistoryActionPaymentDiscountRemoved": "योजना: छूट हटाई गई",
+    "planHistoryActionCampaignPaused": "योजना: अभियान {{campaignName}} रोका गया",
+    "planHistoryActionCampaignResumed": "योजना: अभियान {{campaignName}} फिर से शुरू किया गया",
+    "planHistoryActionExpectedPaymentDateUpdated": "योजना: अपेक्षित भुगतान तिथि अपडेट की गई",
+    "planHistoryActionInvoiceStatusUpdated": "योजना: चालान की स्थिति अपडेट की गई"
 }
