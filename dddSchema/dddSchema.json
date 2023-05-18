@@ -1577,61 +1577,6 @@
             "paginationNeeded":true
         }
     },
-    "transactions":{
-        "componentType": "table",
-        "title": "Pending payment transactions list",
-        "ignoreKeys":["currencyCode","paymentId","amount","lastModifiedDate","payeeClientType"
-        ,"payerClientType","payerReferenceId","payeeReferenceId","paymentProcessorType","processorStatus"],
-        "headersInfo":[
-            {
-                "title": "Id",
-                "valueMap": "uid",
-                "renderType": "Link",
-                "action": {
-                    "type": "sidePanelData",
-                    "pathList": [
-                        "1.0",
-                        "aggregate"
-                    ],
-                    "paramObj": {
-                        "templateId": "TransactionDetails"
-                    },
-                    "paramObjMap": {
-                        "transactionId": "uid"
-                    }
-                }
-            },
-            {
-                "title": "Created date",
-                "valueMap": "createdDate",
-                "align":"left"
-            },
-            {
-                "title": "Start date",
-                "valueMap": "transactionStartDate",
-                "align":"left"
-            },
-            {
-                "title": "Status",
-                "valueMap": "transactionStatus",
-                "align":"left"
-            },
-            {
-                "title": "Type",
-                "valueMap": "transactionType",
-                "align":"left"
-            },
-            {
-                "title": "Trx Id",
-                "valueMap": "processorTxnId",
-                "align":"left"
-            }
-        ],
-        "additionalProperties":{
-            "enableSearch":true,
-            "paginationNeeded":true
-        }
-    },
     "approvalList":{
         "componentType": "table",
         "title": "Approvals Status List",
@@ -3584,7 +3529,7 @@
                 "className":"alignRight",
                 "gridSize":3,
                 "hideBtnFor":{
-                    "sourceName":["FNBO_Cash","FNBO_Card","0","2","3","4"]
+                    "sourceName":["FNBO_Cash","FNBO_Card","QuickBooks_Online","Oracle_NetSuite","QuickBooks_Desktop"]
                 },
                 "action": {
                     "type": "updateCall",
@@ -3626,6 +3571,23 @@
                         }
                     }
                 }
+            }
+        ]
+    },
+    "clientValidation":{
+        "componentType": "detailsList",
+        "title":"Client Validation Details",
+        "ignoreKeys":["sourceName","glType","clientId"],
+        "listInfo":[
+            {
+                "label":"Open invoice",
+                "formatType":"boolean",
+                "valueMap":"OpenInvoice"
+            },
+            {
+                "label":"Open bills",
+                "formatType":"boolean",
+                "valueMap":"OpenBills"
             }
         ]
     },
@@ -5707,7 +5669,7 @@
                     "paramObjMap": {
                         "clientId": "clientEntity.clientId",
                         "glType":"clientEntity.glType",
-                        "sourceName":"clientEntity.glType"
+                        "sourceName":"dataSourceDetailEntity.sourceName"
                     },
                     "pageQueryParams": ["clientId","glType","sourceName"]
                 },
@@ -6356,6 +6318,7 @@
                 "renderProps": {
                     "label": "Payments"
                 },
+                "gridSize":2,
                 "renderPosition": "top",
                 "className":"mb-10",
                 "action": {
@@ -6377,6 +6340,7 @@
                 "renderProps": {
                     "label": "Bank details"
                 },
+                "gridSize":2,
                 "renderPosition": "top",
                 "action": {
                     "type": "drillDown",
@@ -6399,6 +6363,7 @@
                 "renderProps": {
                     "label": "Open bills"
                 },
+                "gridSize":2,
                 "renderPosition": "top",
                 "action": {
                     "type": "drillDown",
@@ -6419,6 +6384,7 @@
                 "renderProps": {
                     "label": "Product activation"
                 },
+                "gridSize":2,
                 "renderPosition": "top",
                 "action": {
                     "type": "drillDown",
@@ -6438,8 +6404,9 @@
                 "renderType": "Button",
                 "renderProps": {
                   "label": "CF Validation",
-                  "className":"ml-6"
+                  "className":"ml-4"
                 },
+                "gridSize":2,
                 "renderPosition": "top",
                 "action": {
                     "type": "drillDownNewPage",
@@ -6451,6 +6418,28 @@
                         "glType":"glType"
                     },
                     "pageQueryParams":["clientId","glType"]
+                }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Validate Client"
+                },
+                "gridSize":2,
+                "renderPosition": "top",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "ClientValidation"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId",
+                        "sourceName":"sourceName"
+                    }
                 }
             }
         ],
