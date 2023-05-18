@@ -373,5 +373,16 @@
     "supplierDetailsUpdatedSuccessfully": "Supplier details updated successfully",
     "billNotesUpdateFailure": "Error encountered while updating notes. Try again or contact us if the problem persists.",
     "billNotesUpdateSuccess": "Notes updated successfully",
-    "ReadyToPayFailed": "Ready to pay"
+    "ReadyToPayFailed": "Ready to pay",
+    "planHistoryActionPaymentDateChanged": "Plan: Payment date changed",
+    "planHistoryActionPaymentAmountChanged": "Plan: Payment amount changed",
+    "planHistoryActionPaymentMethodChanged": "Plan: Payment method changed",
+    "planHistoryActionFundingAccountChanged": "Plan: Funding account changed",
+    "planHistoryActionPaymentCreditsApplied": "Plan: Credits applied",
+    "planHistoryActionPaymentDiscountApplied": "Plan: Discount applied",
+    "planHistoryActionPaymentDiscountRemoved": "Plan: Discount removed",
+    "planHistoryActionCampaignPaused": "Plan: Campaign {{campaignName}} paused",
+    "planHistoryActionCampaignResumed": "Plan: Campaign {{campaignName}} resumed",
+    "planHistoryActionExpectedPaymentDateUpdated": "Plan: Expected date changed",
+    "planHistoryActionInvoiceStatusUpdated": "Plan: Invoice status updated"
 }
