@@ -547,7 +547,7 @@
     "successfullyAddedApprover":"उपयोगकर्ता सफलतापूर्वक इनवॉयस अनुमोदक के रूप में जोड़ा गया।",
     "existingUserError": "उपयोगकर्ता पहले से मौजूद है",
     "agingGraph": "एपी एजिंग ग्राफ",
-    "cashFlowGraphBar": "देय नकद प्रभाव",
+    "cashFlowGraphBar": "नकद प्रभाव बार",
     "downloadPlan": "डाउनलोड योजना",
     "savePlan": "योजना सहेजें",
     "totalOverdue": "कुल अतिदेय",
