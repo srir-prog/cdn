@@ -275,7 +275,7 @@
     "closingCashBalance": "कैश बैलेंस",
     "totalPayables": "भुगतान राशि",
     "cashFlowGraph": "देय नकद प्रभाव",
-    "cashFlowGraphBar": "देय नकद प्रभाव",
+    "cashFlowGraphBar": "नकद प्रभाव बार",
     "LowCash": "लो कैश",
     "TargetCash": "लक्षित कैश",
     "agingGraph": "एपी एजिंग ग्राफ़",
@@ -371,5 +371,6 @@
     "enrollmentContactEmails": "नामांकन संपर्क ईमेल",
     "supplierDetailsUpdatedSuccessfully": "आपूर्तिकर्ता विवरण सफलतापूर्वक अपडेट किया गया",
     "billNotesUpdateFailure": "नोट्स अपडेट करते समय त्रुटि हुई। पुन: प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें।",
-    "billNotesUpdateSuccess": "नोट्स सफलतापूर्वक अपडेट किए गए"
+    "billNotesUpdateSuccess": "नोट्स सफलतापूर्वक अपडेट किए गए",
+    "ReadyToPayFailed": "रेडी टू पे"
 }
