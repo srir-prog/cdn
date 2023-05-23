@@ -94,9 +94,9 @@
     "signUpLeftSideTitle":"Centime Cash Management",
     "signUpLeftSideSubTitle":"Please create your profile to explore Centime's entire cash management suite",
     "secureSignupTitle":"Get started with CentimeSecure today and start diversifying deposits and managing risk without compromising on convenience, liquidity, or yield. ",
-    "secureSignupText1":"Diversify your deposits across multiple FDIC insured accounts.",
-    "secureSignupText2":"Maximize yield, with interest rates up to 40x the average.",
-    "secureSignupText3":"Keep cash liquid, and easily transfer between accounts.",
+    "secureSignupText1":"Diversify your deposits across multiple FDIC insured accounts",
+    "secureSignupText2":"Maximize yield, with interest rates up to 40x the average",
+    "secureSignupText3":"Keep cash liquid, and easily transfer between accounts",
     "secureSignupBottom":"Free signup. No cost to you, and no credit card required.",
     "quickBooksSignupTitle":"Centime integrates seamlessly with QuickBooks and enables you to:",
     "warnMsg":"Application in progress",
@@ -109,6 +109,6 @@
     "talkToUs":"Talk to us",
     "nsSessionTimeout":"Session Timeout",
     "nsSessionTimeoutSummary":"You've been logged out due to inactivity. To start a new session, click on 'Centime' from the menu bar and select 'Application' and 'Open'.",
-    "entityNameExists":"Business entity already exists. Please use a different name.",
-    "commonErrorAddSecureEntity":"Error in adding Business entity.Try again or contact us via email at cs@centime.com or chat if the problem persists."
+    "secureEntityNameExists":"Business entity already exists. Please use a different name.",
+    "commonErrorAddSecureEntity":"Unable to save details.Please try again"
 }
