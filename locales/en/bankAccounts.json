@@ -498,5 +498,6 @@
     "UnPaid": "Unpaid",
     "Paid": "Paid",
     "applicationSubmitted":"Start connecting your accounts to Centime",
-    "applicationSubmittedSubText":"Once your application is approved,you can initiate funds transfer from your connected accounts"
+    "applicationSubmittedSubText":"Once your application is approved,you can initiate funds transfer from your connected accounts",
+    "NoActivePaymentMethods": "You can make invoice payments after activating payment methods in the payment and credit solutions page. <ourLink></ourLink>"
 }
