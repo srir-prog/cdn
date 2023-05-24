@@ -209,5 +209,6 @@
     "fnbo-logo": "FNBO-Logo",
     "ColumnMenu": "Column Menu",
     "IconFilter": "Icon Filter",
-    "ConfirmModal": "Confirmation Modal"
+    "ConfirmModal": "Confirmation Modal",
+    "invalidBusinessEntityTaxId":"Unable to process application as the Tax ID is invalid. Please review the Tax ID and try again"
 }
