@@ -59,5 +59,11 @@
   "ddaToken": "डीडीए टोकन",
   "achDailyLimit": "एसीएच दैनिक सीमा",
   "centimeSecure":"सेंटीमेसिक्योर",
-  "centimeSecureAccountDetails": "कृपया इसके लिए CentimeSecure खाता विवरण दर्ज करें {{name}}"
+  "centimeSecureAccountDetails": "कृपया इसके लिए CentimeSecure खाता विवरण दर्ज करें {{name}}",
+  "achAccountNumber":"ACH खाता संख्या",
+  "achCompanyId":"ACH कंपनी आईडी",
+  "achDdaToken":"ACH DDA टोकन",
+  "achRoutingNumber":"ACH राउटिंग नम्बर",
+  "centimeSecureAccountNumber":"CentimeSecure खाता संख्या",
+  "centimeSecureRoutingNumber":"CentimeSecure राउटिंग नम्बर"
 }

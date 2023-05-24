@@ -203,6 +203,7 @@
     "fnbo-logo": "FNBO-Logo",
     "ColumnMenu": "Column Menu",
     "IconFilter": "Icon Filter",
-    "ConfirmModal": "Confirmation Modal"
+    "ConfirmModal": "Confirmation Modal",
+    "invalidBusinessEntityTaxId":"कर आईडी अमान्य होने के कारण आवेदन संसाधित करने में असमर्थ। कृपया कर आईडी की समीक्षा करें और पुन: प्रयास करें"
 }
 
