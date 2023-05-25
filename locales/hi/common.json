@@ -555,5 +555,11 @@
     "totalAR": "कुल प्राप्य",
     "cashFlowInfo": "नकदी प्रवाह पूर्वानुमान में अतिदेय चालानों को शामिल करने के लिए भविष्य की अपेक्षित तिथि निर्धारित करें",
     "creditsAvailable": "क्रेडिट उपलब्ध",
-    "creditsApplied": "क्रेडिट एप्लाइड"
+    "creditsApplied": "क्रेडिट एप्लाइड",
+    "notesAvailable": "नोट्स जोड़े गए",
+    "discountsAvailable": "छूट उपलब्ध हैं",
+    "discountsApplied": "छूट लागू",
+    "discountsExpired": "छूट समाप्त हो गई",
+    "creditCardPayments": "आपूर्तिकर्ता क्रेडिट कार्ड से भुगतान स्वीकार करता है",
+    "nonCreditCardPayments": "क्रेडिट कार्ड स्वीकृति स्थिति निर्धारित नहीं की जा सकती"
 }
