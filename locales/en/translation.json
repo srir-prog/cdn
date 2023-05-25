@@ -210,5 +210,6 @@
     "ColumnMenu": "Column Menu",
     "IconFilter": "Icon Filter",
     "ConfirmModal": "Confirmation Modal",
-    "invalidBusinessEntityTaxId":"Unable to process application as the Tax ID is invalid. Please review the Tax ID and try again"
+    "invalidBusinessEntityTaxId":"Unable to process application as the Tax ID is invalid. Please review the Tax ID and try again",
+    "ownershipError":"You need to define a Benificial officer in 'Ownership and control' under your 'Company information' to apply for this payment method. To define, please click on 'Settings'"
 }
