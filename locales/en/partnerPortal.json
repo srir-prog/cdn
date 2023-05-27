@@ -57,5 +57,13 @@
   "TBSCompanyIdTooltip": "TBS company ID needed for repayment",
   "activateCentimeCashFormHeader": "Activate CentimeCash for {{name}}",
   "ddaToken": "DDA token",
-  "achDailyLimit": "ACH daily limit"
+  "achDailyLimit": "ACH daily limit",
+  "centimeSecure":"CentimeSecure",
+  "centimeSecureAccountDetails": "Please enter CentimeSecure account details for {{name}}",
+  "achAccountNumber":"ACH A/C number",
+  "achCompanyId":"ACH Company Id",
+  "achDdaToken":"ACH DDA Token",
+  "achRoutingNumber":"ACH Routing Number",
+  "centimeSecureAccountNumber":"CentimeSecure A/C Number",
+  "centimeSecureRoutingNumber":"CentimeSecure Routing Number"
 }
