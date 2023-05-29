@@ -563,5 +563,10 @@
     "qty": "मात्रा।",
     "moveExpenseToItem":"मदों पर ले जाएँ",
     "moveItemToExpense": "व्यय पर जाएं",
-    "addNewItem": "+ नया आइटम जोड़ें"
+    "addNewItem": "+ नया आइटम जोड़ें",
+    "items":"सामान",
+    "expense":"व्यय",
+    "header":"हैडर",
+    "deleteItems": "आइटम हटाएं",
+    "deleteExpense":"व्यय हटाएं"
 }

@@ -565,5 +565,10 @@
     "qty": "Qty.",
     "moveExpenseToItem":"Move to items",
     "moveItemToExpense": "Move to expense",
-    "addNewItem": "+ Add new item"
+    "addNewItem": "+ Add new item",
+    "items":"Items",
+    "expense":"Expense",
+    "header":"Header",
+    "deleteItems": "Delete items",
+    "deleteExpense":"Delete expense"
 }
