@@ -587,5 +587,15 @@
     "sourceName": "Name",
     "cashFlowType": "Inflow / Outflow",
     "groupName": "Group",
-    "entityType": "Type"
+    "entityType": "Type",
+    "predictionOutputSettings": "Prediction output settings",
+    "aggregationPeriod": "Aggregation type",
+    "hidePredictionsInNext": "Hide predictions in the next",
+    "hideManualTransactionHideDays": "Hide manual transactions in the next",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "cashIn": "Cash in",
+    "cashOut": "Cash out",
+    "cfCategoryValue": "Type"
 }

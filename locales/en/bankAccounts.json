@@ -498,5 +498,8 @@
     "UnPaid": "Unpaid",
     "Paid": "Paid",
     "applicationSubmitted":"Start connecting your accounts to Centime",
-    "applicationSubmittedSubText":"Once your application is approved,you can initiate funds transfer from your connected accounts"
+    "applicationSubmittedSubText":"Once your application is approved,you can initiate funds transfer from your connected accounts",
+    "aggregationPeriod": "Aggregation type",
+    "hidePredictionsInNext": "Hide predictions in the next",
+    "hideManualTransactionHideDays": "Hide manual transactions in the next"
 }
