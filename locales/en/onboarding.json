@@ -109,6 +109,6 @@
     "talkToUs":"Talk to us",
     "nsSessionTimeout":"Session Timeout",
     "nsSessionTimeoutSummary":"You've been logged out due to inactivity. To start a new session, click on 'Centime' from the menu bar and select 'Application' and 'Open'.",
-    "secureEntityNameExists":"Business entity already exists. Please use a different name.",
+    "secureEntityNameExists":"Company already exists.If you need access to the Centime business entity, please contact your administrator.",
     "commonErrorAddSecureEntity":"Unable to save details.Please try again"
 }
