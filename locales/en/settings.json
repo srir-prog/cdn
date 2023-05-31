@@ -597,5 +597,9 @@
     "monthly": "Monthly",
     "cashIn": "Cash in",
     "cashOut": "Cash out",
-    "cfCategoryValue": "Type"
+    "cfCategoryValue": "Type",
+    "predictionSettings": "Prediction settings",
+    "hasPredictionSettings": "Has prediction settings",
+    "addNewGroup": "Add new group",
+    "groupNamePlaceholder": "Group name"
 }
