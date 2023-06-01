@@ -587,5 +587,7 @@
     "sourceName": "Name",
     "cashFlowType": "Inflow / Outflow",
     "groupName": "Group",
-    "entityType": "Type"
+    "entityType": "Type",
+    "invalidApprovalLimit": "Invalid approval limit",
+    "approverDetailsRequired": "Approver details required"
 }
