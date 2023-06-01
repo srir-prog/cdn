@@ -581,5 +581,7 @@
     "sourceName": "नाम",
     "cashFlowType": "अंतर्वाह / बहिर्वाह",
     "groupName": "समूह",
-    "entityType": "इकाई प्रकार"
+    "entityType": "इकाई प्रकार",
+    "invalidApprovalLimit": "अमान्य स्वीकृति सीमा",
+    "approverDetailsRequired": "अनुमोदक विवरण आवश्यक है"
 }
