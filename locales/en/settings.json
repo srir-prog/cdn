@@ -570,5 +570,7 @@
     "selectOperationalGLs": "Select the bank accounts that you use for operating purposes",
     "selectOperationGLsInfo": "Cash flows associated with the selected accounts will be grouped under the 'Operating' label in the Cash Flow table",
     "payrollAccounts": "Payroll accounts",
-    "operationalBankAccounts": "Operational bank accounts"
+    "operationalBankAccounts": "Operational bank accounts",
+    "deleteAChConfirmationText": "Are you sure you want to delete ACH account details.",
+    "deleteCreditCardConfirmationText": "Are you sure you want to delete Saved credit card from Credit card payments."
 }
