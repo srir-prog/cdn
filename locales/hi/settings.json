@@ -567,5 +567,16 @@
     "deletePolicyWarningHeader": "{{policyName}} हटाएं?",
     "deletePolicyWarningMessage": "अनुमोदन की प्रतीक्षा कर रहे चालानों को वापस बुलाया जाएगा और अनुमोदन के लिए फिर से भेजने की आवश्यकता होगी",
     "errorDeletingApprovalPolicy": "मंज़ूरी नीति मिटाते समय गड़बड़ी हुई",
-    "successfullyDeletedApprovalPolicy": "अनुमोदन नीति को सफलतापूर्वक हटा दिया गया"
+    "successfullyDeletedApprovalPolicy": "अनुमोदन नीति को सफलतापूर्वक हटा दिया गया",
+    "deleteCreditCardConfirmationText": "क्या आप सहेजी हुई क्रेडिट कार्ड को क्रेडिट कार्ड भुगतान से हटाना चाहते हैं?",
+    "deleteACHAccount": "ACH खाता हटाएं",
+    "SaveCreditCardText": "क्रेडिट कार्ड टेक्स्ट सहेजें",
+    "fasterPaymentsText": "तेज़ भुगतान के लिए",
+    "accountEndingText": "खाता अंत *{{savedACHAccountNum}}",
+    "cardEndingText": "कार्ड अंत *{{savedCardNum}}",
+    "savedCreditCard": "सहेजा हुआ क्रेडिट कार्ड",
+    "deleteSavedCard": "सहेजा हुआ कार्ड हटाएं",
+    "saveAnACHAccountText": "ACH खाता सहेजें",
+    "savedPayFromAccountText": "सहेजी हुई भुगतान करने के लिए खाता",
+    "defaultPaymentMethod": "डिफ़ॉल्ट भुगतान विधि"
 }
