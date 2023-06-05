@@ -21,5 +21,7 @@
   "ACHAccountDetails": "एचसी विवरण",
   "basedOnSurchrage": "{{surchargePercentage}} के आधार पर",
   "addACHAccount": "एचसी खाता जोड़ें",
-  "addCreditCard": "क्रेडिट कार्ड जोड़ें"
+  "addCreditCard": "क्रेडिट कार्ड जोड़ें",
+  "invoiceDocumentTooltipMsg": "चालान दस्तावेज़",
+  "earlyPayDiscountsTooltipMsg": "शीघ्र भुगतान छूट"
 }
