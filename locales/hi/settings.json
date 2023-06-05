@@ -584,8 +584,6 @@
     "entityType": "इकाई प्रकार",
     "invalidApprovalLimit": "अमान्य स्वीकृति सीमा",
     "approverDetailsRequired": "अनुमोदक विवरण आवश्यक है",
-    "groupInvoicePaymentPanel":"एक ही भुगतान तिथि पर किए गए समूह भुगतान",
-    "successfullyDeletedApprovalPolicy": "अनुमोदन नीति को सफलतापूर्वक हटा दिया गया",
     "deleteCreditCardConfirmationText": "क्या आप सहेजी हुई क्रेडिट कार्ड को क्रेडिट कार्ड भुगतान से हटाना चाहते हैं?",
     "deleteACHAccount": "ACH खाता हटाएं",
     "SaveCreditCardText": "क्रेडिट कार्ड टेक्स्ट सहेजें",
