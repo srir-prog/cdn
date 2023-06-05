@@ -596,5 +596,8 @@
     "deleteSavedCard": "सहेजा हुआ कार्ड हटाएं",
     "saveAnACHAccountText": "ACH खाता सहेजें",
     "savedPayFromAccountText": "सहेजी हुई भुगतान करने के लिए खाता",
-    "defaultPaymentMethod": "डिफ़ॉल्ट भुगतान विधि"
+    "defaultPaymentMethod": "डिफ़ॉल्ट भुगतान विधि",
+    "successNotificationAfterDeletingACH": "ACH विवरण सफलतापूर्वक हटाए गए हैं",
+    "successNotificationAfterDeletingCredit": "क्रेडिट कार्ड विवरण सफलतापूर्वक हटाए गए हैं",
+    "successfullyUpdatedPaymentMethod": "भुगतान विधि सफलतापूर्वक अपडेट की गई है"
 }

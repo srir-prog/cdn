@@ -603,5 +603,8 @@
     "deleteSavedCard": "Delete saved Card",
     "saveAnACHAccountText": "Save an ACH account",
     "savedPayFromAccountText": "Saved pay from account",
-    "defaultPaymentMethod": "Default payment method"
+    "defaultPaymentMethod": "Default payment method",
+    "successNotificationAfterDeletingACH": "ACH details deleted successfully",
+    "successNotificationAfterDeletingCredit": "Credit card details deleted successfully",
+    "successfullyUpdatedPaymentMethod": "Payment method successfully updated"
 }
