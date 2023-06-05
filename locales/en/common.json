@@ -570,5 +570,7 @@
     "expense":"Expense",
     "header":"Header",
     "deleteItems": "Delete items",
-    "deleteExpense":"Delete expense"
+    "deleteExpense":"Delete expense",
+    "itemsAccordionLabel": "Items ({{total}})",
+    "expenseAccordionLabel":"Expense ({{total}})"
 }

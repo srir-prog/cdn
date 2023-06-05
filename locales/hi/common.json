@@ -568,5 +568,7 @@
     "expense":"व्यय",
     "header":"हैडर",
     "deleteItems": "आइटम हटाएं",
-    "deleteExpense":"व्यय हटाएं"
+    "deleteExpense":"व्यय हटाएं",
+    "itemsAccordionLabel": "हैडर ({{total}})",
+    "expenseAccordionLabel":"व्यय ({{total}})"
 }
