@@ -132,7 +132,12 @@
                         "paymentMethod":{
                             "type": "queryBuilder",
                             "value": "paymentMethod"
+                        },
+                        "groupId":{
+                            "type":"hardCoded",
+                            "value":"0,1"
                         }
+    
                     }
                 }
             },
@@ -154,6 +159,24 @@
                     },
                     "paramObjMap": {
                         "clientId": "clientId"
+                    }
+                }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Struck payments"
+                },
+                "renderPosition": "bottom",
+                "gridSize":3,
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "StuckPayments"
                     }
                 }
             }
@@ -709,6 +732,23 @@
                         }
                     }
                 }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Struck Job(s)"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "FailedJobs"
+                    }
+                }
             }
         ]
     },
@@ -1234,6 +1274,120 @@
             }
         ]
     },
+    "stuckPayments":{
+        "componentType": "table",
+        "title": "Struck Payments list",
+        "ignoreKeys":["currencyCode","matchedRuleIds"],
+        "headersInfo": [
+            {
+              "title": "Payer Client type",
+              "valueMap": "payerClientType",
+              "renderType": "text",
+              "align": "left",
+              "enableSort": true
+            },
+            {
+              "title": "Payment Id",
+              "valueMap": "paymentId",
+              "align": "left",
+              "enableSort": true,
+              "renderType": "Link",
+              "action": {
+                "type": "drillDown",
+                "pathList": [
+                  "1.0",
+                  "aggregate"
+                ],
+                "paramObj": {
+                  "templateId": "PaymentDetails"
+                },
+                "paramObjMap": {
+                  "paymentId": "paymentId",
+                  "clientName": "clientName"
+                },
+                "pageQueryParams": [
+                  "paymentId",
+                  "clientName"
+                ]
+              }
+            },
+            {
+              "title": "Payer Ref Id",
+              "valueMap": "payerReferenceId",
+              "renderType": "text",
+              "align": "left",
+              "enableSort": true
+            },
+            {
+              "title": "Payer A/C Id",
+              "valueMap": "payerPaymentAccountId",
+              "renderType": "text",
+              "align": "left",
+              "enableSort": true
+            },
+            {
+              "title": "Payer A/C type",
+              "valueMap": "payerPaymentAccountType",
+              "renderType": "text",
+              "align": "left",
+              "enableSort": true
+            },
+            {
+              "title": "Payment method",
+              "valueMap": "paymentMethod",
+              "renderType": "text",
+              "align": "left",
+              "enableSort": true
+            },
+            {
+              "title": "Description",
+              "valueMap": "paymentDescription",
+              "renderType": "text",
+              "align": "left",
+              "enableSort": true
+            },
+            {
+              "title": "Amount",
+              "valueMap": "amount",
+              "renderType": "text",
+              "align": "left",
+              "enableSort": true,
+              "formatType": "currency"
+            },
+            {
+              "title": "Payment status",
+              "valueMap": "paymentStatus",
+              "renderType": "text",
+              "align": "left",
+              "enableSort": true
+            },
+            {
+              "title": "Start date",
+              "valueMap": "paymentStartDate",
+              "renderType": "text",
+              "align": "left",
+              "enableSort": true
+            },
+            {
+              "title": "Capture date",
+              "valueMap": "paymentCaptureDate",
+              "renderType": "text",
+              "align": "left",
+              "enableSort": true
+            },
+            {
+              "title": "Group Id",
+              "valueMap": "groupId",
+              "renderType": "text",
+              "align": "left",
+              "enableSort": true
+            }
+          ],
+        "additionalProperties":{
+            "enableSearch":true,
+            "paginationNeeded":true
+        }
+    },
     "refreshCache":{
          "title": "Refresh Cache Details",
          "label":"Cache refresh",
@@ -1572,61 +1726,6 @@
             "paginationNeeded":true
         }
     },
-    "transactions":{
-        "componentType": "table",
-        "title": "Pending payment transactions list",
-        "ignoreKeys":["currencyCode","paymentId","amount","lastModifiedDate","payeeClientType"
-        ,"payerClientType","payerReferenceId","payeeReferenceId","paymentProcessorType","processorStatus"],
-        "headersInfo":[
-            {
-                "title": "Id",
-                "valueMap": "uid",
-                "renderType": "Link",
-                "action": {
-                    "type": "sidePanelData",
-                    "pathList": [
-                        "1.0",
-                        "aggregate"
-                    ],
-                    "paramObj": {
-                        "templateId": "TransactionDetails"
-                    },
-                    "paramObjMap": {
-                        "transactionId": "uid"
-                    }
-                }
-            },
-            {
-                "title": "Created date",
-                "valueMap": "createdDate",
-                "align":"left"
-            },
-            {
-                "title": "Start date",
-                "valueMap": "transactionStartDate",
-                "align":"left"
-            },
-            {
-                "title": "Status",
-                "valueMap": "transactionStatus",
-                "align":"left"
-            },
-            {
-                "title": "Type",
-                "valueMap": "transactionType",
-                "align":"left"
-            },
-            {
-                "title": "Trx Id",
-                "valueMap": "processorTxnId",
-                "align":"left"
-            }
-        ],
-        "additionalProperties":{
-            "enableSearch":true,
-            "paginationNeeded":true
-        }
-    },
     "approvalList":{
         "componentType": "table",
         "title": "Approvals Status List",
@@ -1655,17 +1754,11 @@
                     "label":"Get details"
                 },
                 "accordionProps":{
-                    "renderType":"Tabs",
-                    "tabsInfo":[
-                    {
-                        "tabTitle":"Request details",
+                    "renderType":"detailsList",
+                    "renderMeta":{
                         "valueMap":"request",
-                        "renderType":"detailsList",
-                        "renderMeta":{
-                            "listInfo":[]
-                        }
+                        "listInfo":[]
                     }
-                 ]
                 }
             },
             {
@@ -1708,7 +1801,7 @@
                 "enableSort": true
             },
             {
-                "title": "Approve by",
+                "title": "Approver",
                 "valueMap": "approvedBy",
                 "renderType": "text",
                 "align":"left",
@@ -1757,17 +1850,11 @@
                     "label":"Get details"
                 },
                 "accordionProps":{
-                    "renderType":"Tabs",
-                    "tabsInfo":[
-                    {
-                        "tabTitle":"Request details",
+                    "renderType":"detailsList",
+                    "renderMeta":{
                         "valueMap":"request",
-                        "renderType":"detailsList",
-                        "renderMeta":{
-                            "listInfo":[]
-                        }
+                        "listInfo":[]
                     }
-                 ]
                 }
             },
             {
@@ -2853,6 +2940,105 @@
             }
         ]
     },
+    "failedJobs":{
+        "componentType": "table",
+        "title": "Failed Jobs list",
+        "ignoreKeys":["retryConfig"],
+        "headersInfo":[
+            {
+                "title": "Id",
+                "valueMap": "jobId",
+                "renderType": "Link",
+                "align":"left",
+                "width": "5%",
+                "enableSort": true,
+                "action":{
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "JobHistory"
+                    },
+                    "paramObjMap": {
+                        "jobId":"job_id"
+                    }
+                }
+            },
+            {
+                "title": "Name",
+                "valueMap": "jobName",
+                "renderType": "text",
+                "align":"left",
+                "width": "30%",
+                "enableSort": true
+            },
+            {
+                "title": "Cron",
+                "valueMap": "cron",
+                "renderType": "text",
+                "formatType":"cron",
+                "align":"left",
+                "width": "18%",
+                "enableSort": true
+            },
+            {
+                "title": "Status",
+                "valueMap": "status",
+                "renderType": "text",
+                "align":"left",
+                "width": "10.6%",
+                "enableSort": true,
+                "displayValueEnum":[
+                    {
+                        "label":"Running",
+                        "value":0
+                    },
+                    {
+                        "label":"Success",
+                        "value":1
+                    },
+                    {
+                        "label":"Failure",
+                        "value":2
+                    }
+            ]
+            },
+            {
+                "title": "Description",
+                "valueMap": "description",
+                "renderType": "text",
+                "align":"left",
+                "width": "26.4%",
+                "enableSort": false
+            }
+        ],
+        "additionalProperties": {
+            "enableSearch": true,
+            "paginationNeeded":true,
+            "editableForm": true,
+            "deletableForm": false,
+            "onSaveAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "UpdateJob"
+                },
+                "paramObjMap": {
+                    "jobId":"job_id",
+                    "status":"status"
+                },
+                "bodyObjMap": {}
+            }
+        }
+
+    },
     "jobsByFilters":{
         "componentType": "table",
         "title": "Jobs list",
@@ -3591,7 +3777,7 @@
                 "className":"alignRight",
                 "gridSize":3,
                 "hideBtnFor":{
-                    "sourceName":["FNBO_Cash","FNBO_Card","0","2","3","4"]
+                    "sourceName":["FNBO_Cash","FNBO_Card","QuickBooks_Online","Oracle_NetSuite","QuickBooks_Desktop"]
                 },
                 "action": {
                     "type": "updateCall",
@@ -3633,6 +3819,23 @@
                         }
                     }
                 }
+            }
+        ]
+    },
+    "clientValidation":{
+        "componentType": "detailsList",
+        "title":"Client Validation Details",
+        "ignoreKeys":["sourceName","glType","clientId"],
+        "listInfo":[
+            {
+                "label":"Open invoice",
+                "formatType":"boolean",
+                "valueMap":"OpenInvoice"
+            },
+            {
+                "label":"Open bills",
+                "formatType":"boolean",
+                "valueMap":"OpenBills"
             }
         ]
     },
@@ -4096,6 +4299,28 @@
                 "valueMap": "paymentMethod",
                 "enableSort": true,
                 "width": "10%"
+            },
+            {
+                "title": "Group PaymentId",
+                "valueMap": "groupPaymentId",
+                "width": "10%",
+                "renderType": "Link",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "PaymentDetails"
+                    },
+                    "paramObjMap": {
+                        "paymentId": "groupPaymentId",
+                        "clientName": "clientName"
+                    },
+                    "pageQueryParams": ["paymentId","clientName"]
+                },
+                "enableSort": true
             },
             {
                 "title": "Amount",
@@ -5692,7 +5917,7 @@
                     "paramObjMap": {
                         "clientId": "clientEntity.clientId",
                         "glType":"clientEntity.glType",
-                        "sourceName":"clientEntity.glType"
+                        "sourceName":"dataSourceDetailEntity.sourceName"
                     },
                     "pageQueryParams": ["clientId","glType","sourceName"]
                 },
@@ -6341,6 +6566,7 @@
                 "renderProps": {
                     "label": "Payments"
                 },
+                "gridSize":2,
                 "renderPosition": "top",
                 "className":"mb-10",
                 "action": {
@@ -6362,6 +6588,7 @@
                 "renderProps": {
                     "label": "Bank details"
                 },
+                "gridSize":2,
                 "renderPosition": "top",
                 "action": {
                     "type": "drillDown",
@@ -6384,6 +6611,7 @@
                 "renderProps": {
                     "label": "Open bills"
                 },
+                "gridSize":2,
                 "renderPosition": "top",
                 "action": {
                     "type": "drillDown",
@@ -6404,6 +6632,7 @@
                 "renderProps": {
                     "label": "Product activation"
                 },
+                "gridSize":2,
                 "renderPosition": "top",
                 "action": {
                     "type": "drillDown",
@@ -6423,8 +6652,9 @@
                 "renderType": "Button",
                 "renderProps": {
                   "label": "CF Validation",
-                  "className":"ml-6"
+                  "className":"ml-4"
                 },
+                "gridSize":2,
                 "renderPosition": "top",
                 "action": {
                     "type": "drillDownNewPage",
@@ -6436,6 +6666,28 @@
                         "glType":"glType"
                     },
                     "pageQueryParams":["clientId","glType"]
+                }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Validate Client"
+                },
+                "gridSize":2,
+                "renderPosition": "top",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "ClientValidation"
+                    },
+                    "paramObjMap": {
+                        "clientId": "clientId",
+                        "sourceName":"sourceName"
+                    }
                 }
             }
         ],
@@ -7467,7 +7719,8 @@
                 "title": "Id",
                 "valueMap": "id",
                 "enableSort": true,
-                "width": "10%"
+                "width": "10%",
+                "align":"left"
             },
             {
                 "title": "Email",
@@ -7486,6 +7739,7 @@
                 "title": "Last Name",
                 "valueMap": "lastName",
                 "enableSort": true,
+                "align":"left",
                 "width": "20%"
             }
         ],
@@ -7543,7 +7797,8 @@
                     "id": "id"
                 },
                 "bodyObjMap": {}
-            }
+            },
+            "paginationNeeded":true
         }
     },
     "errors": [],

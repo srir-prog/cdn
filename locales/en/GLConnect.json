@@ -320,7 +320,10 @@
     "+AddCentimeSecure": "+ Add Business Information",
     "AddCentimeSecure": "Add Business Information",
     "BusinessInfo": "Business Information",
-    "confirmBusinessName": "Confirm your business name",
+    "confirmBusinessName": "Business name",
     "accountingSystem": "Accounting System",
-    "chooseYourAccSys": "Choose your accounting system"
+    "chooseYourAccSys": "Choose your accounting system",
+    "legalNameandTaxId":"Enter the legal name and tax ID for your business",
+    "secureVerificationTitle":"Enable two-factor authentication for your account",
+    "secureProvideMobileNumber":"Please provide a mobile number"
 }

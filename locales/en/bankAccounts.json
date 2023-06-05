@@ -436,9 +436,6 @@
     "supplier": "Supplier",
     "cfCategoryValue": "Cash flow category",
     "secureHeading":"Complete your application to unlock full range of CentimeSecure features :",
-    "secureText1":"Diversify your deposits across multiple FDIC insured accounts.",
-    "secureText2":"Maximize yield, with interest rates up to 40x the average.",
-    "secureText3":"Keep cash liquid, and easily transfer between accounts.",
     "cashPlan": "Cash Plan",
     "cashPlanNoAction": "Cash Plan No Action",
     "receivablesContent": "Receivables Content",
@@ -496,5 +493,11 @@
     "PostingInProgress": "Posting in progress",
     "PartiallyPaid": "Partially paid",
     "UnPaid": "Unpaid",
-    "Paid": "Paid"
+    "Paid": "Paid",
+    "secureText1":"Diversify your deposits across multiple FDIC insured accounts",
+    "secureText2":"Maximize yield, with interest rates up to 40x the average",
+    "secureText3":"Keep cash liquid, and easily transfer between accounts",
+    "applicationSubmitted":"Start connecting your accounts to Centime",
+    "applicationSubmittedSubText":"Once your application is approved,you can initiate funds transfer from your connected accounts",
+    "NoActivePaymentMethods": "You can make invoice payments after activating payment methods in the payment and credit solutions page. <ourLink></ourLink>"
 }
