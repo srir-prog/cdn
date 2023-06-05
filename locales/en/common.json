@@ -555,7 +555,6 @@
     "totalOverdue": "Total overdue",
     "totalAP": "Total payables",
     "totalAR": "Total Receivables",
-    "cashFlowInfo": "Set a future expected date to include overdue invoices in the cash flow forecast",
     "creditsAvailable": "Credits available",
     "creditsApplied": "Credits applied",
     "notesAvailable": "Notes added",
