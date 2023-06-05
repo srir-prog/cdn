@@ -55,6 +55,7 @@
     "inValidVISA": "Invalid VISA",
     "inValidIDNumber": "Invalid ID number",
     "supplierCentimeCardPrimaryCardDetailsError": "Primary contact details are not available for the supplier",
+    "isValidAccountNumber": "Invalid account number",
     "inValidAccountNumber": "Invalid account number",
     "inValidRoutingNumber": "Invalid routing number",
     "restrictedTransactionKeywords": "Invalid transaction name. Please try a different name",
@@ -79,5 +80,6 @@
     "minAmountGreaterThanSecondLevelLimit": "Value must be greater than second approval limit",
     "required": "Required",
     "amountMinAndMaxGenericErrorMessage": "Amount must be between {{minAmount}} and {{maxAmount}}, both inclusive.",
-    "periodMinAndMaxGenericErrorMessage":"Period must be between {{minPeriod}} and {{maxPeriod}}, both inclusive."
+    "periodMinAndMaxGenericErrorMessage":"Period must be between {{minPeriod}} and {{maxPeriod}}, both inclusive.",
+    "noWhiteSpace": "Please remove leading or trailing spaces"
 }

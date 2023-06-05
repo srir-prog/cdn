@@ -200,6 +200,11 @@
     "Submit": "जमा करना",
     "To": "से",
     "Continue": "जारी रखना",
-    "fnbo-logo": "FNBO-Logo"
+    "fnbo-logo": "FNBO-Logo",
+    "ColumnMenu": "Column Menu",
+    "IconFilter": "Icon Filter",
+    "ConfirmModal": "Confirmation Modal",
+    "invalidBusinessEntityTaxId":"कर आईडी अमान्य होने के कारण आवेदन संसाधित करने में असमर्थ। कृपया कर आईडी की समीक्षा करें और पुन: प्रयास करें",
+    "ownershipError":"इस भुगतान विधि के लिए आवेदन करने के लिए आपको अपनी 'कंपनी जानकारी' के तहत 'स्वामित्व और नियंत्रण' में एक लाभकारी अधिकारी को परिभाषित करना होगा। परिभाषित करने के लिए, कृपया 'सेटिंग्स' पर क्लिक करें"
 }
 
