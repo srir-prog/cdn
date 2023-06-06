@@ -161,6 +161,24 @@
                         "clientId": "clientId"
                     }
                 }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Struck payments"
+                },
+                "renderPosition": "bottom",
+                "gridSize":3,
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "StuckPayments"
+                    }
+                }
             }
         ]
     },
@@ -714,6 +732,23 @@
                         }
                     }
                 }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Struck Job(s)"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "FailedJobs"
+                    }
+                }
             }
         ]
     },
@@ -1238,6 +1273,120 @@
                 }
             }
         ]
+    },
+    "stuckPayments":{
+        "componentType": "table",
+        "title": "Struck Payments list",
+        "ignoreKeys":["currencyCode","matchedRuleIds"],
+        "headersInfo": [
+            {
+              "title": "Payer Client type",
+              "valueMap": "payerClientType",
+              "renderType": "text",
+              "align": "left",
+              "enableSort": true
+            },
+            {
+              "title": "Payment Id",
+              "valueMap": "paymentId",
+              "align": "left",
+              "enableSort": true,
+              "renderType": "Link",
+              "action": {
+                "type": "drillDown",
+                "pathList": [
+                  "1.0",
+                  "aggregate"
+                ],
+                "paramObj": {
+                  "templateId": "PaymentDetails"
+                },
+                "paramObjMap": {
+                  "paymentId": "paymentId",
+                  "clientName": "clientName"
+                },
+                "pageQueryParams": [
+                  "paymentId",
+                  "clientName"
+                ]
+              }
+            },
+            {
+              "title": "Payer Ref Id",
+              "valueMap": "payerReferenceId",
+              "renderType": "text",
+              "align": "left",
+              "enableSort": true
+            },
+            {
+              "title": "Payer A/C Id",
+              "valueMap": "payerPaymentAccountId",
+              "renderType": "text",
+              "align": "left",
+              "enableSort": true
+            },
+            {
+              "title": "Payer A/C type",
+              "valueMap": "payerPaymentAccountType",
+              "renderType": "text",
+              "align": "left",
+              "enableSort": true
+            },
+            {
+              "title": "Payment method",
+              "valueMap": "paymentMethod",
+              "renderType": "text",
+              "align": "left",
+              "enableSort": true
+            },
+            {
+              "title": "Description",
+              "valueMap": "paymentDescription",
+              "renderType": "text",
+              "align": "left",
+              "enableSort": true
+            },
+            {
+              "title": "Amount",
+              "valueMap": "amount",
+              "renderType": "text",
+              "align": "left",
+              "enableSort": true,
+              "formatType": "currency"
+            },
+            {
+              "title": "Payment status",
+              "valueMap": "paymentStatus",
+              "renderType": "text",
+              "align": "left",
+              "enableSort": true
+            },
+            {
+              "title": "Start date",
+              "valueMap": "paymentStartDate",
+              "renderType": "text",
+              "align": "left",
+              "enableSort": true
+            },
+            {
+              "title": "Capture date",
+              "valueMap": "paymentCaptureDate",
+              "renderType": "text",
+              "align": "left",
+              "enableSort": true
+            },
+            {
+              "title": "Group Id",
+              "valueMap": "groupId",
+              "renderType": "text",
+              "align": "left",
+              "enableSort": true
+            }
+          ],
+        "additionalProperties":{
+            "enableSearch":true,
+            "paginationNeeded":true
+        }
     },
     "refreshCache":{
          "title": "Refresh Cache Details",
@@ -2790,6 +2939,105 @@
                 }
             }
         ]
+    },
+    "failedJobs":{
+        "componentType": "table",
+        "title": "Failed Jobs list",
+        "ignoreKeys":["retryConfig"],
+        "headersInfo":[
+            {
+                "title": "Id",
+                "valueMap": "jobId",
+                "renderType": "Link",
+                "align":"left",
+                "width": "5%",
+                "enableSort": true,
+                "action":{
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "JobHistory"
+                    },
+                    "paramObjMap": {
+                        "jobId":"job_id"
+                    }
+                }
+            },
+            {
+                "title": "Name",
+                "valueMap": "jobName",
+                "renderType": "text",
+                "align":"left",
+                "width": "30%",
+                "enableSort": true
+            },
+            {
+                "title": "Cron",
+                "valueMap": "cron",
+                "renderType": "text",
+                "formatType":"cron",
+                "align":"left",
+                "width": "18%",
+                "enableSort": true
+            },
+            {
+                "title": "Status",
+                "valueMap": "status",
+                "renderType": "text",
+                "align":"left",
+                "width": "10.6%",
+                "enableSort": true,
+                "displayValueEnum":[
+                    {
+                        "label":"Running",
+                        "value":0
+                    },
+                    {
+                        "label":"Success",
+                        "value":1
+                    },
+                    {
+                        "label":"Failure",
+                        "value":2
+                    }
+            ]
+            },
+            {
+                "title": "Description",
+                "valueMap": "description",
+                "renderType": "text",
+                "align":"left",
+                "width": "26.4%",
+                "enableSort": false
+            }
+        ],
+        "additionalProperties": {
+            "enableSearch": true,
+            "paginationNeeded":true,
+            "editableForm": true,
+            "deletableForm": false,
+            "onSaveAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "UpdateJob"
+                },
+                "paramObjMap": {
+                    "jobId":"job_id",
+                    "status":"status"
+                },
+                "bodyObjMap": {}
+            }
+        }
+
     },
     "jobsByFilters":{
         "componentType": "table",

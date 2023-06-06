@@ -555,7 +555,12 @@
     "totalOverdue": "Total overdue",
     "totalAP": "Total payables",
     "totalAR": "Total Receivables",
-    "cashFlowInfo": "Set a future expected date to include overdue invoices in the cash flow forecast",
     "creditsAvailable": "Credits available",
-    "creditsApplied": "Credits applied"
+    "creditsApplied": "Credits applied",
+    "notesAvailable": "Notes added",
+    "discountsAvailable": "Discounts available",
+    "discountsApplied": "Discounts applied",
+    "discountsExpired": "Discounts expired",
+    "creditCardPayments": "Supplier accepts credit card payments",
+    "nonCreditCardPayments": "Credit card acceptance status can not be determined"
 }
