@@ -589,9 +589,9 @@
     "groupName": "Group",
     "entityType": "Type",
     "predictionOutputSettings": "Prediction output settings",
-    "aggregationPeriod": "Aggregation type",
-    "hidePredictionsInNext": "Hide predictions in the next",
-    "hideManualTransactionHideDays": "Hide manual transactions in the next",
+    "aggregationPeriod": "Consolidate predictions by",
+    "hidePredictionsInNext": "Exclude predictions for the next",
+    "hideManualTransactionHideDays": "Exclude manual transactions for the next ",
     "daily": "Daily",
     "weekly": "Weekly",
     "monthly": "Monthly",
@@ -599,7 +599,10 @@
     "cashOut": "Cash out",
     "cfCategoryValue": "Type",
     "predictionSettings": "Prediction settings",
-    "hasPredictionSettings": "Has prediction settings",
+    "hasPredictionSettings": "Hide prediction settings",
     "addNewGroup": "Add new group",
-    "groupNamePlaceholder": "Group name"
+    "groupNamePlaceholder": "Group name",
+    "hideManualTransactionHideDaysTooltip": "Any manual transaction within this period for customers and suppliers who pay or get paid via invoices will be automatically hidden by Centime in order to avoid double counting",
+    "hidePredictionsInNextTooltip": "Centime will automatically hide any manual inflow or outflow transaction for this period to avoid double counting",
+    "hasPredictionSettingsTooltip": "Centime will automatically hide any inflow or outflow predictions for this period to avoid double counting with the corresponding invoice"
 }
