@@ -58,12 +58,12 @@
   "activateCentimeCashFormHeader": "Activate CentimeCash for {{name}}",
   "ddaToken": "DDA token",
   "achDailyLimit": "ACH daily limit",
-  "centimeSecure":"CentimeSecure",
-  "centimeSecureAccountDetails": "Please enter CentimeSecure account details for {{name}}",
+  "centimeBanking":"Centime Banking",
+  "centimeBankingAccountDetails": "Please enter Centime Banking account details for {{name}}",
   "achAccountNumber":"ACH A/C number",
   "achCompanyId":"ACH Company Id",
   "achDdaToken":"ACH DDA Token",
   "achRoutingNumber":"ACH Routing Number",
-  "centimeSecureAccountNumber":"CentimeSecure A/C Number",
-  "centimeSecureRoutingNumber":"CentimeSecure Routing Number"
+  "centimeBankingAccountNumber":"Centime Banking A/C Number",
+  "centimeBankingRoutingNumber":"Centime Banking Routing Number"
 }
