@@ -58,12 +58,12 @@
   "activateCentimeCashFormHeader": "{{name}} के लिए CentimeCash सक्रिय करें",
   "ddaToken": "डीडीए टोकन",
   "achDailyLimit": "एसीएच दैनिक सीमा",
-  "centimeSecure":"सेंटीमेसिक्योर",
-  "centimeSecureAccountDetails": "कृपया इसके लिए CentimeSecure खाता विवरण दर्ज करें {{name}}",
+  "centimeBanking":"सेंटीमेसिक्योर",
+  "centimeBankingAccountDetails": "कृपया इसके लिए CentimeBanking खाता विवरण दर्ज करें {{name}}",
   "achAccountNumber":"ACH खाता संख्या",
   "achCompanyId":"ACH कंपनी आईडी",
   "achDdaToken":"ACH DDA टोकन",
   "achRoutingNumber":"ACH राउटिंग नम्बर",
-  "centimeSecureAccountNumber":"CentimeSecure खाता संख्या",
-  "centimeSecureRoutingNumber":"CentimeSecure राउटिंग नम्बर"
+  "centimeBankingAccountNumber":"CentimeBanking खाता संख्या",
+  "centimeBankingRoutingNumber":"CentimeBanking राउटिंग नम्बर"
 }
