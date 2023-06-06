@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="280px" height="778px" viewBox="0 0 280 778" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>gradient@3x</title>
-    <defs>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="102.966124%" id="linearGradient-1">
-            <stop stop-color="#FFFEFB" offset="0%"></stop>
-            <stop stop-color="#FEEDF4" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="12-May-2023" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="23_12-May-2023" transform="translate(-266.000000, -256.000000)" fill="url(#linearGradient-1)">
-            <g id="Group-9-Copy-3" transform="translate(266.000000, 256.000000)">
-                <path d="M8,0 L280,0 L280,0 L280,778 L8,778 C3.581722,778 4.09379668e-15,774.418278 0,770 L0,8 C-5.41083001e-16,3.581722 3.581722,-6.29380286e-15 8,0 Z" id="gradient"></path>
-            </g>
-        </g>
-    </g>
+<svg version="1.1" viewBox="0 0 280 778" xmlns="http://www.w3.org/2000/svg">
+<title>gradient@3x</title>
+<defs>
+<linearGradient id="a" x1="50%" x2="50%" y2="102.97%">
+<stop stop-color="#FFFEFB" offset="0"/>
+<stop stop-color="#FEEDF4" offset="1"/>
+</linearGradient>
+</defs>
+<g fill="none" fill-rule="evenodd">
+<g transform="translate(-266 -256)" fill="url(#a)">
+<g transform="translate(266 256)">
+<path d="m8 0h272v778h-272c-4.4183 0-8-3.5817-8-8v-762c-5.4108e-16 -4.4183 3.5817-8 8-8z"/>
+</g>
+</g>
+</g>
 </svg>
