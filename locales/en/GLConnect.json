@@ -320,7 +320,7 @@
     "+AddCentimeBanking": "+ Add Business Information",
     "AddCentimeBanking": "Add Business Information",
     "BusinessInfo": "Business Information",
-    "confirmBusinessName": "Business name",
+    "confirmBusinessName": "Legal name",
     "accountingSystem": "Accounting System",
     "chooseYourAccSys": "Choose your accounting system",
     "legalNameandTaxId":"Enter the legal name and tax ID for your business",
