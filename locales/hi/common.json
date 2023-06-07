@@ -559,6 +559,6 @@
     "discountsAvailable": "छूट उपलब्ध हैं",
     "discountsApplied": "छूट लागू",
     "discountsExpired": "छूट समाप्त हो गई",
-    "creditCardPayments": "आपूर्तिकर्ता क्रेडिट कार्ड से भुगतान स्वीकार करता है",
-    "nonCreditCardPayments": "क्रेडिट कार्ड स्वीकृति स्थिति निर्धारित नहीं की जा सकती"
+    "creditCardPayments": "क्रेडिट कार्ड स्वीकार करने वाला आपूर्तिकर्ता",
+    "nonCreditCardPayments": "क्रेडिट कार्ड स्वीकृति स्थिति अज्ञात"
 }
