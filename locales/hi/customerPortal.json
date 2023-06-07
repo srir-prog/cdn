@@ -23,5 +23,7 @@
   "addACHAccount": "एचसी खाता जोड़ें",
   "addCreditCard": "क्रेडिट कार्ड जोड़ें",
   "invoiceDocumentTooltipMsg": "चालान दस्तावेज़",
-  "earlyPayDiscountsTooltipMsg": "शीघ्र भुगतान छूट"
+  "earlyPayDiscountsTooltipMsg": "शीघ्र भुगतान छूट",
+  "readyToPay": "भुगतान के लिए तैयार",
+  "processing": "प्रसंस्करण हो रहा है"
 }

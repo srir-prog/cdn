@@ -25,5 +25,7 @@
   "payablesSummary": "Payables summary",
   "earlyPayDiscountToolTip": "Early Pay Discount amount: {{discountAmount}} <br> Expiry date: {{expiryDate}}",
   "invoiceDocumentTooltipMsg": "Invoice document",
-  "earlyPayDiscountsTooltipMsg": "Early Pay Discounts"
+  "earlyPayDiscountsTooltipMsg": "Early Pay Discounts",
+  "readyToPay": "Ready to pay",
+  "processing": "Processing"
 }
