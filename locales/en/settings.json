@@ -608,5 +608,20 @@
     "hidePredictionsInNextTooltip": "Centime will automatically exclude any inflow or outflow predictions for this period to avoid double counting with the corresponding invoice",
     "hasPredictionSettingsTooltip": "Centime will automatically hide any inflow or outflow predictions for this period to avoid double counting with the corresponding invoice",
     "invalidApprovalLimit": "Invalid approval limit",
-    "approverDetailsRequired": "Approver details required"
+    "approverDetailsRequired": "Approver details required",
+    "deleteAChConfirmationText": "Are you sure you want to delete ACH account details.",
+    "deleteCreditCardConfirmationText": "Are you sure you want to delete Saved credit card from Credit card payments.",
+    "deleteACHAccount": "Delete ACH Account",
+    "SaveCreditCardText": "Save a credit card text",
+    "fasterPaymentsText": "for faster payments",
+    "accountEndingText": "Account ending *{{savedACHAccountNum}}",
+    "cardEndingText": "Card ending *{{savedCardNum}}",
+    "savedCreditCard": "Saved credit card",
+    "deleteSavedCard": "Delete saved Card",
+    "saveAnACHAccountText": "Save an ACH account",
+    "savedPayFromAccountText": "Saved pay from account",
+    "defaultPaymentMethod": "Default payment method",
+    "successNotificationAfterDeletingACH": "ACH details deleted successfully",
+    "successNotificationAfterDeletingCredit": "Credit card details deleted successfully",
+    "successfullyUpdatedPaymentMethod": "Payment method successfully updated"
 }
