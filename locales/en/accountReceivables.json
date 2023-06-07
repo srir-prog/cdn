@@ -361,5 +361,13 @@
     "HeaderLabelDaysPastDue": "Days past due",
     "PartnerName": "Partner Name",
     "EmailOptionCompanyLegalName": "<company legal name>",
-    "phoneNumber": "Phone number"
+    "phoneNumber": "Phone number",
+    "contacts": "Contacts",
+    "customerContacts": "Customer contacts",
+    "roleName": "Role name",
+    "PaymentMethod": "Payment method",
+    "customerContactRoles": "Customer contact roles",
+    "isCommunicationContact": "Communication contact",
+    "createdBy": "Created by",
+    "actions": "Actions"
 }

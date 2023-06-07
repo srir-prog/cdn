@@ -589,5 +589,6 @@
     "groupName": "Group",
     "entityType": "Type",
     "invalidApprovalLimit": "Invalid approval limit",
-    "approverDetailsRequired": "Approver details required"
+    "approverDetailsRequired": "Approver details required",
+    "customerContactRoles": "Customer contact roles"
 }

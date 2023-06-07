@@ -361,5 +361,13 @@
     "HeaderLabelDaysPastDue": "पिछले दिनों देय",
     "PartnerName": "पार्टनर नाम",
     "EmailOptionCompanyLegalName": "<कंपनी कानूनी नाम>",
-    "phoneNumber": "फ़ोन नंबर"
+    "phoneNumber": "फ़ोन नंबर",
+    "contacts": "संपर्क",
+    "customerContacts": "ग्राहक संपर्क",
+    "roleName": "भूमिका का नाम",
+    "PaymentMethod": "भुगतान विधि",
+    "customerContactRoles": "ग्राहक संपर्क भूमिकाएँ",
+    "isCommunicationContact": "संचार संपर्क",
+    "createdBy": "के द्वारा बनाई गई",
+    "actions": "कार्रवाई"
 }

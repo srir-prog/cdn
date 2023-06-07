@@ -583,5 +583,6 @@
     "groupName": "समूह",
     "entityType": "इकाई प्रकार",
     "invalidApprovalLimit": "अमान्य स्वीकृति सीमा",
-    "approverDetailsRequired": "अनुमोदक विवरण आवश्यक है"
+    "approverDetailsRequired": "अनुमोदक विवरण आवश्यक है",
+    "customerContactRoles": "ग्राहक संपर्क भूमिकाएँ"
 }
