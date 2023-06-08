@@ -545,5 +545,20 @@
     "SavingsAfterLogin": "लॉगिन के बाद बचत",
     "errorAddingApprover":"उपयोगकर्ता को इनवॉइस अनुमोदक के रूप में जोड़ने में त्रुटियां आईं. कृपया पुन: प्रयास करें।",
     "successfullyAddedApprover":"उपयोगकर्ता सफलतापूर्वक इनवॉयस अनुमोदक के रूप में जोड़ा गया।",
-    "existingUserError": "उपयोगकर्ता पहले से मौजूद है"
+    "existingUserError": "उपयोगकर्ता पहले से मौजूद है",
+    "agingGraph": "एपी एजिंग ग्राफ",
+    "cashFlowGraphBar": "नकद प्रभाव बार",
+    "downloadPlan": "डाउनलोड योजना",
+    "savePlan": "योजना सहेजें",
+    "totalOverdue": "कुल अतिदेय",
+    "totalAP": "कुल देय",
+    "totalAR": "कुल प्राप्य",
+    "creditsAvailable": "क्रेडिट उपलब्ध",
+    "creditsApplied": "क्रेडिट एप्लाइड",
+    "notesAvailable": "नोट्स जोड़े गए",
+    "discountsAvailable": "छूट उपलब्ध हैं",
+    "discountsApplied": "छूट लागू",
+    "discountsExpired": "छूट समाप्त हो गई",
+    "creditCardPayments": "क्रेडिट कार्ड स्वीकार करने वाला आपूर्तिकर्ता",
+    "nonCreditCardPayments": "क्रेडिट कार्ड स्वीकृति स्थिति अज्ञात"
 }

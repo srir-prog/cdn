@@ -317,10 +317,13 @@
     "NetSuiteRedirectConnectInfo2": "Please click Continue to complete the process of creating a business entity within Centime. You will be asked to re-login to your Netsuite account and then redirected to the Centime SuiteApp to complete the process.",
     "selectSubsidiary": "Select Subsidiary",
     "SubsidiaryList": "Subsidiary list",
-    "+AddCentimeSecure": "+ Add Business Information",
-    "AddCentimeSecure": "Add Business Information",
+    "+AddCentimeBanking": "+ Add Business Information",
+    "AddCentimeBanking": "Add Business Information",
     "BusinessInfo": "Business Information",
-    "confirmBusinessName": "Confirm your business name",
+    "confirmBusinessName": "Legal name",
     "accountingSystem": "Accounting System",
-    "chooseYourAccSys": "Choose your accounting system"
+    "chooseYourAccSys": "Choose your accounting system",
+    "legalNameandTaxId":"Enter the legal name and tax ID for your business",
+    "secureVerificationTitle":"Enable two-factor authentication for your account",
+    "secureProvideMobileNumber":"Please provide a mobile number"
 }
