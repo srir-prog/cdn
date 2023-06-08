@@ -53,10 +53,17 @@
   "DebitCardDetailErrorMessage":"डेबिट कार्ड विवरण सहेजते समय त्रुटि। पुन: प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें।",
   "CentimeCashFinalOnBoardErrorMessage":"सेंटटाइम कैश में सवार होते समय त्रुटि। पुन: प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें।",
   "centimeCash": "सेन्टीम कैश",
-  "centimeCard": "केंद्र कार्ड",
   "TBSCompanyId": "टीबीएस कंपनी आईडी",
   "TBSCompanyIdTooltip": "पुनर्भुगतान के लिए आवश्यक टीबीएस कंपनी आईडी",
   "activateCentimeCashFormHeader": "{{name}} के लिए CentimeCash सक्रिय करें",
   "ddaToken": "डीडीए टोकन",
-  "achDailyLimit": "एसीएच दैनिक सीमा"
+  "achDailyLimit": "एसीएच दैनिक सीमा",
+  "centimeBanking":"सेंटीमेसिक्योर",
+  "centimeBankingAccountDetails": "कृपया इसके लिए CentimeBanking खाता विवरण दर्ज करें {{name}}",
+  "achAccountNumber":"ACH खाता संख्या",
+  "achCompanyId":"ACH कंपनी आईडी",
+  "achDdaToken":"ACH DDA टोकन",
+  "achRoutingNumber":"ACH राउटिंग नम्बर",
+  "centimeBankingAccountNumber":"CentimeBanking खाता संख्या",
+  "centimeBankingRoutingNumber":"CentimeBanking राउटिंग नम्बर"
 }

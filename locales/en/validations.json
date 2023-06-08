@@ -56,6 +56,7 @@
     "inValidIDNumber": "Invalid ID number",
     "supplierCentimeCardPrimaryCardDetailsError": "Primary contact details are not available for the supplier",
     "isValidAccountNumber": "Invalid account number",
+    "inValidAccountNumber": "Invalid account number",
     "inValidRoutingNumber": "Invalid routing number",
     "restrictedTransactionKeywords": "Invalid transaction name. Please try a different name",
     "exceedsAvailableCredits": "Exceeds available credits",
@@ -82,5 +83,7 @@
     "periodMinAndMaxGenericErrorMessage": "Period must be between {{minPeriod}} and {{maxPeriod}}, both inclusive.",
     "minSurchargeError": "Amount chosen is lesser than applicable credit card amount",
     "maxSurchargeError": "Amount chosen is greater than applicable credit card amount",
-    "surchargePercentageRange": "Surcharge % should be between 0% - {{maxSurchargePecentage}}%"
+    "surchargePercentageRange": "Surcharge % should be between 0% - {{maxSurchargePecentage}}%",
+    "noWhiteSpace": "Please remove leading or trailing spaces",
+    "paymentDateHasPassed": "Payment date has passed"
 }
