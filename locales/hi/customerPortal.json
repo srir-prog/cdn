@@ -25,5 +25,13 @@
   "invoiceDocumentTooltipMsg": "चालान दस्तावेज़",
   "earlyPayDiscountsTooltipMsg": "शीघ्र भुगतान छूट",
   "readyToPay": "भुगतान के लिए तैयार",
-  "processing": "प्रसंस्करण हो रहा है"
+  "processing": "प्रसंस्करण हो रहा है",
+  "verificationCode": "सत्यापन कोड",
+  "customerPortalInfoDisplayHeader": "आपके भुगतान हब आपको यह सुविधा प्रदान करता है",
+  "customerPortalInfoDisplayInfo1": "बकाया चालानों को देखें और भुगतान करें",
+  "customerPortalInfoDisplayInfo2": "योग्य छूट के साथ चालानों को पहचानें",
+  "customerPortalInfoDisplayInfo3": "डिफ़ॉल्ट भुगतान विकल्प सेट करें और सहेजें",
+  "customerPortalInfoDisplayInfo4": "एक साथ कई चालानों का भुगतान करें",
+  "pleaseCheckSpamFolder": "कृपया अपने स्पैम फ़ोल्डर भी जांचें",
+  "paymentHub": "भुगतान हब"
 }
