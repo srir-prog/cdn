@@ -79,5 +79,8 @@
     "amountMinAndMaxGenericErrorMessage": "राशि {{minAmount}} और {{maxAmount}} दोनों के बीच होनी चाहिए।",
     "periodMinAndMaxGenericErrorMessage":"अवधि {{minPeriod}} और {{maxPeriod}} के बीच होनी चाहिए, दोनों समावेशी।",
     "noWhiteSpace": "कृपया अग्रणी या अनुगामी रिक्त स्थान निकालें",
-    "paymentDateHasPassed": "भुगतान की तिथि बीत चुकी है"
+    "paymentDateHasPassed": "भुगतान की तिथि बीत चुकी है",
+    "minSurchargeError": "चुनी गई राशि लागू क्रेडिट कार्ड राशि से कम है",
+    "maxSurchargeError": "चुनी गई राशि लागू क्रेडिट कार्ड राशि से अधिक है",
+    "surchargePercentageRange": "अधिभार % 0% - {{maxSurchargePecentage}}% के बीच होना चाहिए"
 }
