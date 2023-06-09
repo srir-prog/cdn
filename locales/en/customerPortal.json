@@ -27,5 +27,13 @@
   "invoiceDocumentTooltipMsg": "Invoice document",
   "earlyPayDiscountsTooltipMsg": "Early Pay Discounts",
   "readyToPay": "Ready to pay",
-  "processing": "Processing"
+  "processing": "Processing",
+  "verificationCode": "Verification code",
+  "customerPortalInfoDisplayHeader": "Your payment hub enables you to",
+  "customerPortalInfoDisplayInfo1": "View and pay outstanding invoices",
+  "customerPortalInfoDisplayInfo2": "Identify invoices with eligible discounts",
+  "customerPortalInfoDisplayInfo3": "Set and save default payment options",
+  "customerPortalInfoDisplayInfo4": "Pay multiple invoices at once",
+  "pleaseCheckSpamFolder": "Please check your spam folder also",
+  "paymentHub": "payment hub"
 }
