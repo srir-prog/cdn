@@ -638,7 +638,7 @@
     "earlyPaymentDiscounts": "Early payment discounts",
     "activateCentimePayCreditCardSettings": "Activate CentimePay in the payment and credit solutions page to receive online payments by credit card or ACH",
     "surchargeTermsInfoLine": "By adding surcharge fees, you agree to the surcharge terms",
-    "surchargePercentageInfoLine": "Fee incurred is 2.5% on credit card transactions",
+    "surchargePercentageInfoLine": "Fee incurred is {{surchargeRate}}% on credit card transactions",
     "always": "Always",
     "onOrBeforeDueDate": "Before and on due date",
     "afterDueDate": "After due date",
