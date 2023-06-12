@@ -615,5 +615,7 @@
     "afterDueDate": "देय तिथि के बाद",
     "never": "कभी नहीँ",
     "greaterThanOrEquals": "{{amount}} इससे बड़ा या इसके बराबर",
-    "lessThan": "{{amount}} से कम"
+    "lessThan": "{{amount}} से कम",
+    "errorUpdatingApprovalPolicyPriority": "मंज़ूरी नीति की प्राथमिकता अपडेट करते समय गड़बड़ी हुई",
+    "successfullyUpdatedApprovalPolicyPriority": "अनुमोदन नीति प्राथमिकता को सफलतापूर्वक अपडेट किया गया"
 }
