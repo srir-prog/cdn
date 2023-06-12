@@ -2591,7 +2591,8 @@
                         "clientId":"clientId",
                         "txnRefId":"txnRefId",
                         "txnType":"txnType"
-                    }
+                    },
+                    "pageQueryParams":["clientId"]
                 }
             },
             {
@@ -2755,7 +2756,22 @@
                         },
                         {
                             "label": "Supplier Id",
-                            "valueMap": "supplierId"
+                            "valueMap": "supplierId",
+                            "renderType": "Link",
+                            "action": {
+                                "type": "sidePanelData",
+                                "pathList": [
+                                    "1.0",
+                                    "aggregate"
+                                ],
+                                "paramObj": {
+                                    "templateId": "SupplierInfo"
+                                },
+                                "paramObjMap": {
+                                    "clientId": "clientId",
+                                    "supplierId": "supplierId"
+                                }
+                            }
                         },
                         {
                             "label": "Txn date",
@@ -2939,6 +2955,14 @@
                 }
             }
         ]
+    },
+    "supplierInfo":{
+        "componentType": "detailsList",
+        "title": "Supplier Details",
+        "ignoreKeys":["billAddress","history","notes","paymentAccountConfiguration","primaryEmails",
+    "billIds","electronicPaymentAlternatePrimaryEmails","remittanceAlternatePrimaryEmails",
+    "approvalAlternatePrimaryEmails","settingsData"],
+    "listInfo":[]
     },
     "failedJobs":{
         "componentType": "table",
@@ -4880,8 +4904,47 @@
                         }
                     }
                 }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Fraud Check"
+                },
+                "hideBtnFor":{
+                    "paymentStatus":[
+                        "APPROVED",
+                        "COMPLETED",
+                        "CANCELLED",
+                        "FAILED",
+                        "INITIATED",
+                        "PROCESSING",
+                        "SCHEDULED",
+                        "UNKNOWN"
+                    ]
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "FraudCheckResults"
+                    },
+                    "paramObjMap": {
+                        "clientId": "payerReferenceId",
+                        "paymentId": "paymentId"
+                    }
+                }
             }
         ]
+    },
+    "fraudCheckResults":{
+        "componentType": "detailsList",
+        "title": "Fraud Check Results",
+        "ignoreKeys":["paymentId","clientName"],
+        "listInfo":[]
     },
     "supplierDetails": {
         "componentType": "detailsList",

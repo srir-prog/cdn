@@ -33,5 +33,7 @@
   "customerPortalInfoDisplayInfo3": "डिफ़ॉल्ट भुगतान विकल्प सेट करें और सहेजें",
   "customerPortalInfoDisplayInfo4": "एक साथ कई चालानों का भुगतान करें",
   "pleaseCheckSpamFolder": "कृपया अपने स्पैम फ़ोल्डर भी जांचें",
-  "paymentHub": "भुगतान हब"
+  "paymentHub": "भुगतान हब",
+  "welcomeTo": "स्वागत है",
+  "paymentHubLoginPageHeader": "{{subdomain}} का भुगतान हब"
 }
