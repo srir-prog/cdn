@@ -612,6 +612,7 @@
     "hasPredictionSettingsTooltip": "Centime will automatically hide any inflow or outflow predictions for this period to avoid double counting with the corresponding invoice",
     "invalidApprovalLimit": "Invalid approval limit",
     "approverDetailsRequired": "Approver details required",
+    "customerContactRoles": "Customer contact roles",
     "deleteAChConfirmationText": "Are you sure you want to delete ACH account details.",
     "deleteCreditCardConfirmationText": "Are you sure you want to delete Saved credit card from Credit card payments.",
     "deleteACHAccount": "Delete ACH Account",
