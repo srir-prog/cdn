@@ -562,6 +562,5 @@
     "discountsApplied": "Discounts applied",
     "discountsExpired": "Discounts expired",
     "creditCardPayments": "Credit card accepting supplier",
-    "nonCreditCardPayments": "Credit card acceptance status unknown",
-    "copied": "Copied"
+    "nonCreditCardPayments": "Credit card acceptance status unknown"
 }
