@@ -644,5 +644,7 @@
     "afterDueDate": "After due date",
     "never": "Never",
     "greaterThanOrEquals": "Greater than or equal to {{amount}}",
-    "lessThan": "Less than {{amount}}"
+    "lessThan": "Less than {{amount}}",
+    "errorUpdatingApprovalPolicyPriority": "Error while updating the approval policy priority",
+    "successfullyUpdatedApprovalPolicyPriority": "Successfully updated the approval policy priority"
 }
