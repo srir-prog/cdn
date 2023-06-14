@@ -181,5 +181,6 @@
     "payablesTurnOverRatio": "Turnover ratio",
     "supplierInvoiceTableLabel": "Supplier Invoice Table",
     "DaysToPay": "Days to pay",
-    "PaymentStatus": "Payment status"
+    "PaymentStatus": "Payment status",
+    "selectADiffTimePeriod": "Select a different time period"
 }

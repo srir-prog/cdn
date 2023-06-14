@@ -186,5 +186,6 @@
     "supplierInvoiceTableLabel": "आपूर्तिकर्ता चालान तालिका",
     "DaysToPay": "भुगतान करने के लिए दिन",
     "PaymentStatus": "भुगतान की स्थिति",
-    "noOfCustomers": "ग्राहकों"
+    "noOfCustomers": "ग्राहकों",
+    "selectADiffTimePeriod": "कोई भिन्न समयावधि चुनें"
 }

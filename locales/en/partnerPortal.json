@@ -22,7 +22,7 @@
   "centimeCard":"CentimeCard",
   "successNotification": "Onboarding for {{name}} successfully completed",
   "errorNotification": "Unable to save the details for {{name}}. Please try again or contact us via email or chat for help.",
-  "partnerPortalModuleHeader": "Payment and credit solutions onboarding",
+  "partnerPortalModuleHeader": "Banking and Payment solutions onboarding",
   "activate": "Activate",
   "bankCompanyId": "Company id",
   "clientBusinessId": "RCN alias",
@@ -55,5 +55,15 @@
   "centimeCash": "CentimeCash",
   "TBSCompanyId": "TBS Company Id",
   "TBSCompanyIdTooltip": "TBS company ID needed for repayment",
-  "activateCentimeCashFormHeader": "Activate CentimeCash for {{name}}"
+  "activateCentimeCashFormHeader": "Activate CentimeCash for {{name}}",
+  "ddaToken": "DDA token",
+  "achDailyLimit": "ACH daily limit",
+  "centimeCheckingPlus":"Centime Checking Plus",
+  "centimeBankingAccountDetails": "Please enter Centime Checking Plus account details for {{name}}",
+  "achAccountNumber":"ACH A/C number",
+  "achCompanyId":"ACH Company Id",
+  "achDdaToken":"ACH DDA Token",
+  "achRoutingNumber":"ACH Routing Number",
+  "centimeBankingAccountNumber":"Centime Checking Plus A/C Number",
+  "centimeBankingRoutingNumber":"Centime Checking Plus Routing Number"
 }
