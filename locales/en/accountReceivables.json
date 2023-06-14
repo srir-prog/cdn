@@ -384,5 +384,7 @@
     "createRoleError": "An error occurred during the customer contact role creation",
     "rolesError": "An error occurred during fetching the customer contact roles",
     "roleDeleted": "Customer contact role successfully deleted",
-    "addRole": "Add Role"
+    "addRole": "Add Role",
+    "ContactUpdateNotificationSuccess": "Successfully updated contact details",
+    "ContactUpdateNotificationError": "An error occurred while updating contact details"
 }
