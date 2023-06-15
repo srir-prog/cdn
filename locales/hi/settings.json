@@ -584,7 +584,8 @@
     "entityType": "इकाई प्रकार",
     "invalidApprovalLimit": "अमान्य स्वीकृति सीमा",
     "approverDetailsRequired": "अनुमोदक विवरण आवश्यक है",
-    "deleteCreditCardConfirmationText": "क्या आप सहेजी हुई क्रेडिट कार्ड को क्रेडिट कार्ड भुगतान से हटाना चाहते हैं?",
+    "deleteAChConfirmationText": "क्या आप वाकई इस सहेजे गए भुगतान विधि को हटाना चाहते हैं?",
+    "deleteCreditCardConfirmationText": "क्या आप वाकई इस सहेजे गए भुगतान विधि को हटाना चाहते हैं?",
     "deleteACHAccount": "ACH खाता हटाएं",
     "SaveCreditCardText": "क्रेडिट कार्ड टेक्स्ट सहेजें",
     "fasterPaymentsText": "तेज़ भुगतान के लिए",
@@ -595,7 +596,7 @@
     "saveAnACHAccountText": "ACH खाता सहेजें",
     "savedPayFromAccountText": "सहेजी हुई भुगतान करने के लिए खाता",
     "defaultPaymentMethod": "डिफ़ॉल्ट भुगतान विधि",
-    "successNotificationAfterDeletingACH": "ACH विवरण सफलतापूर्वक हटाए गए हैं",
-    "successNotificationAfterDeletingCredit": "क्रेडिट कार्ड विवरण सफलतापूर्वक हटाए गए हैं",
+    "successNotificationAfterDeletingACH": "भुगतान विधि सफलतापूर्वक हटा दी गई",
+    "successNotificationAfterDeletingCredit": "भुगतान विधि सफलतापूर्वक हटा दी गई",
     "successfullyUpdatedPaymentMethod": "भुगतान विधि सफलतापूर्वक अपडेट की गई है"
 }
