@@ -435,7 +435,7 @@
     "invoicePayments": "Invoice payments",
     "supplier": "Supplier",
     "cfCategoryValue": "Cash flow category",
-    "secureHeading":"Complete your application to unlock full range of CentimeSecure features :",
+    "secureHeading":"Complete your application to unlock full range of Centime Banking features :",
     "cashPlan": "Cash Plan",
     "cashPlanNoAction": "Cash Plan No Action",
     "receivablesContent": "Receivables Content",
@@ -499,5 +499,10 @@
     "secureText3":"Keep cash liquid, and easily transfer between accounts",
     "applicationSubmitted":"Start connecting your accounts to Centime",
     "applicationSubmittedSubText":"Once your application is approved,you can initiate funds transfer from your connected accounts",
-    "NoActivePaymentMethods": "You can make invoice payments after activating payment methods in the payment and credit solutions page. <ourLink></ourLink>"
+    "aggregationPeriod": "Aggregation type",
+    "hidePredictionsInNext": "Hide predictions in the next",
+    "hideManualTransactionHideDays": "Hide manual transactions in the next",
+    "NoActivePaymentMethods": "You can make invoice payments after activating payment methods in the payment and credit solutions page. <ourLink></ourLink>",
+    "updateSourceCffSettingErrorMsg": "Error while saving prediction settings. Try again or contact us if the problem persists.",
+    "updateSourceCffSettingSuccessMsg": "Prediction setting saved successfully"
 }
