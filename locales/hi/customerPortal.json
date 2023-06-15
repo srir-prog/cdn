@@ -35,5 +35,9 @@
   "pleaseCheckSpamFolder": "कृपया अपने स्पैम फ़ोल्डर भी जांचें",
   "paymentHub": "भुगतान हब",
   "welcomeTo": "स्वागत है",
-  "paymentHubLoginPageHeader": "{{subdomain}} का भुगतान हब"
+  "paymentHubLoginPageHeader": "{{subdomain}} का भुगतान हब",
+  "card": "कार्ड",
+  "account": "खाता",
+  "invoice": "चालान",
+  "paymentStatus": "भुगतान स्थिति"
 }

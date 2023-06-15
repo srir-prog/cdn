@@ -37,5 +37,9 @@
   "pleaseCheckSpamFolder": "Please check your spam folder also",
   "paymentHub": "Payment hub",
   "welcomeTo": "Welcome to",
-  "paymentHubLoginPageHeader": "{{subdomain}}'s payment hub"
+  "paymentHubLoginPageHeader": "{{subdomain}}'s payment hub",
+  "card": "Card",
+  "account": "Account",
+  "invoice": "Invoice",
+  "paymentStatus": "Payment status"
 }
