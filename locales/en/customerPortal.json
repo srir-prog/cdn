@@ -35,7 +35,11 @@
   "customerPortalInfoDisplayInfo3": "Set and save default payment options",
   "customerPortalInfoDisplayInfo4": "Pay multiple invoices at once",
   "pleaseCheckSpamFolder": "Please check your spam folder also",
-  "paymentHub": "payment hub",
+  "paymentHub": "Payment hub",
   "welcomeTo": "Welcome to",
-  "paymentHubLoginPageHeader": "{{subdomain}}'s payment hub"
+  "paymentHubLoginPageHeader": "{{subdomain}}'s payment hub",
+  "card": "Card",
+  "account": "Account",
+  "invoice": "Invoice",
+  "paymentStatus": "Payment status"
 }
