@@ -601,7 +601,7 @@
     "successfullyUpdatedPaymentMethod": "भुगतान विधि सफलतापूर्वक अपडेट की गई है",
     "creditCardPreferences": "क्रेडिट कार्ड वरीयताएँ",
     "paymentHubLink": "पेमेंट हब लिंक",
-    "receiveOnlinePayments": "के माध्यम से ऑनलाइन भुगतान प्राप्त करें",
+    "receiveOnlinePayments": "ऑनलाइन भुगतान प्राप्त करें",
     "allowCreditCardsPayments": "क्रेडिट कार्ड भुगतान की अनुमति दें",
     "enableCreditCardPayments": "चालान राशियों के लिए सक्षम करें",
     "enableCreditCardSurcharge": "क्रेडिट कार्ड अधिभार सक्षम करें",
@@ -609,7 +609,7 @@
     "surchargePercentage": "अधिभार प्रतिशत",
     "earlyPaymentDiscounts": "प्रारंभिक भुगतान छूट",
     "activateCentimePayCreditCardSettings": "क्रेडिट कार्ड या ACH द्वारा ऑनलाइन भुगतान प्राप्त करने के लिए भुगतान और क्रेडिट समाधान पृष्ठ में CentimePay को सक्रिय करें",
-    "surchargeTermsInfoLine": "अधिभार शुल्क जोड़कर, आप अधिभार की शर्तों से सहमत होते हैं",
+    "surchargeTermsInfoLine": "अधिभार शुल्क जोड़कर, आप अधिभार की शर्तों से सहमत होते हैं। <termsLink>learnMore</termsLink>",
     "surchargePercentageInfoLine": "क्रेडिट कार्ड लेनदेन पर शुल्क {{surchargeRate}}% है",
     "always": "हमेशा",
     "onOrBeforeDueDate": "देय तिथि से पहले और पर",
@@ -618,5 +618,8 @@
     "greaterThanOrEquals": "{{amount}} इससे बड़ा या इसके बराबर",
     "lessThan": "{{amount}} से कम",
     "errorUpdatingApprovalPolicyPriority": "मंज़ूरी नीति की प्राथमिकता अपडेट करते समय गड़बड़ी हुई",
-    "successfullyUpdatedApprovalPolicyPriority": "अनुमोदन नीति प्राथमिकता को सफलतापूर्वक अपडेट किया गया"
+    "successfullyUpdatedApprovalPolicyPriority": "अनुमोदन नीति प्राथमिकता को सफलतापूर्वक अपडेट किया गया",
+    "learnMore": "और अधिक जानें",
+    "surchargeAccountInfoLine": "लागू चालान पोस्ट करने के लिए एक अधिभार खाते की पहचान करें",
+    "discountAccountInfoLine": "छूट शर्तों के साथ चालान पोस्ट करने के लिए छूट खाते की पहचान करें"
 }

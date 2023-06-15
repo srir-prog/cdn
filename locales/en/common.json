@@ -563,5 +563,19 @@
     "discountsExpired": "Discounts expired",
     "creditCardPayments": "Credit card accepting supplier",
     "nonCreditCardPayments": "Credit card acceptance status unknown",
-    "copied": "Copied"
+    "glAccountShortHand": "GL Account",
+    "addNewExpense":"+ Add new expense",
+    "itemCode":"Item code",
+    "unitPrice":"Unit price",
+    "qty": "Qty.",
+    "moveExpenseToItem":"Move to items",
+    "moveItemToExpense": "Move to expense",
+    "addNewItem": "+ Add new item",
+    "items":"Items",
+    "expense":"Expense",
+    "header":"Header",
+    "deleteItems": "Delete items",
+    "deleteExpense":"Delete expense",
+    "itemsAccordionLabel": "Items ({{total}})",
+    "expenseAccordionLabel":"Expense ({{total}})"
 }
