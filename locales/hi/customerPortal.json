@@ -39,5 +39,7 @@
   "card": "कार्ड",
   "account": "खाता",
   "invoice": "चालान",
-  "paymentStatus": "भुगतान स्थिति"
+  "paymentStatus": "भुगतान स्थिति",
+  "disableCreditCardTooltipInfo": "आपके आपूर्ति वितरक ने इस चालान के लिए क्रेडिट कार्ड भुगतान को अक्षम कर दिया है",
+  "addACHOrCardDetailsText": "तेज़ भुगतान के लिए एक खाता जोड़ें और सहेजें"
 }
