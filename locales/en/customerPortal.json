@@ -41,5 +41,7 @@
   "card": "Card",
   "account": "Account",
   "invoice": "Invoice",
-  "paymentStatus": "Payment status"
+  "paymentStatus": "Payment status",
+  "disableCreditCardTooltipInfo": "Your supplier has disabled credit card payments for this invoice",
+  "addACHOrCardDetailsText": "Add and save an account for faster payments"
 }
