@@ -1,6 +1,6 @@
 {
   "invoiceDetails": "Invoice details",
-  "invoicesWithDiscounts": "Invoices with discounts",
+  "invoicesWithDiscounts": "Available discounts",
   "payToLabel": "Pay to",
   "companyContactLabel": "Contact",
   "actionTabsSelection": "Action tabs selection",
@@ -17,13 +17,13 @@
   "accountHolderName": "Account holder name",
   "ABARoutingNumber": "ABA Routing number",
   "confirmYourBillingAddress": "Confirm your billing address",
-  "saveCheckBoxLabel": "save for future transactions",
+  "saveCheckBoxLabel": "Save details securely for future transactions",
   "ACHAccountDetails": "ACH details",
-  "basedOnSurchrage": "based on surchrage of {{surchargePercentage}}",
+  "basedOnSurcharge": "based on surcharge of {{surchargePercentage}}",
   "addACHAccount": "Add ACH account",
   "addCreditCard": "Add credit card",
   "payablesSummary": "Payables summary",
-  "earlyPayDiscountToolTip": "Early Pay Discount amount: {{discountAmount}} <br> Expiry date: {{expiryDate}}",
+  "earlyPayDiscountToolTip": "Discount amount: {{discountAmount}} <br> Expiry date: {{expiryDate}}",
   "invoiceDocumentTooltipMsg": "Invoice document",
   "earlyPayDiscountsTooltipMsg": "Early Pay Discounts",
   "readyToPay": "Ready to pay",
@@ -43,5 +43,12 @@
   "invoice": "Invoice",
   "paymentStatus": "Payment status",
   "disableCreditCardTooltipInfo": "Your supplier has disabled credit card payments for this invoice",
-  "addACHOrCardDetailsText": "Add and save an account for faster payments"
+  "addACHOrCardDetailsText": "Add and save an account for faster payments",
+  "phone": "Phone:",
+  "name": "Name:",
+  "email": "Email:",
+  "payButtonText": "Pay {{amount}}",
+  "inValidRoutingNumberWithoutBank": "Invalid routing number",
+  "selectAPaymentMethod": "Select a payment method",
+  "invoiceOverdue": "Invoice overdue"
 }
