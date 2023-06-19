@@ -386,5 +386,12 @@
     "roleDeleted": "Customer contact role successfully deleted",
     "addRole": "Add Role",
     "ContactUpdateNotificationSuccess": "Successfully updated contact details",
-    "ContactUpdateNotificationError": "An error occurred while updating contact details"
+    "ContactUpdateNotificationError": "An error occurred while updating contact details",
+    "paymentOptions": "Payment options",
+    "receiveOnlinePaymentsVia": "Receive online payments via",
+    "paymentHubLink": "Payment hub link",
+    "paymentHub": "Payment hub",
+    "uniquePaymentLinks": "Unique payment links",
+    "none": "None",
+    "HistoryActionPaymentSettingsUpdated": "Payment settings updated"
 }
