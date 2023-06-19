@@ -82,5 +82,9 @@
     "amountMinAndMaxGenericErrorMessage": "Amount must be between {{minAmount}} and {{maxAmount}}, both inclusive.",
     "periodMinAndMaxGenericErrorMessage":"Period must be between {{minPeriod}} and {{maxPeriod}}, both inclusive.",
     "noWhiteSpace": "Please remove leading or trailing spaces",
-    "paymentDateHasPassed": "Payment date has passed"
+    "paymentDateHasPassed": "Payment date has passed",
+    "minSurchargeError": "Amount chosen is lesser than applicable credit card amount",
+    "maxSurchargeError": "Amount chosen is greater than applicable credit card amount",
+    "surchargePercentageRange": "Value should be less than {{maxSurchargePercentage}}%",
+    "inValidRoutingNumberWithoutBank": "Invalid routing number"
 }

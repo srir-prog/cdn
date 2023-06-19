@@ -560,5 +560,20 @@
     "discountsApplied": "छूट लागू",
     "discountsExpired": "छूट समाप्त हो गई",
     "creditCardPayments": "क्रेडिट कार्ड स्वीकार करने वाला आपूर्तिकर्ता",
-    "nonCreditCardPayments": "क्रेडिट कार्ड स्वीकृति स्थिति अज्ञात"
+    "nonCreditCardPayments": "क्रेडिट कार्ड स्वीकृति स्थिति अज्ञात",
+    "glAccountShortHand": "जीएल खाता",
+    "addNewExpense":"+ नया खर्च जोड़ें",
+    "itemCode":"आइटम कोड",
+    "unitPrice":"यूनिट मूल्य",
+    "qty": "मात्रा।",
+    "moveExpenseToItem":"मदों पर ले जाएँ",
+    "moveItemToExpense": "व्यय पर जाएं",
+    "addNewItem": "+ नया आइटम जोड़ें",
+    "items":"सामान",
+    "expense":"व्यय",
+    "header":"हैडर",
+    "deleteItems": "आइटम हटाएं",
+    "deleteExpense":"व्यय हटाएं",
+    "itemsAccordionLabel": "हैडर ({{total}})",
+    "expenseAccordionLabel":"व्यय ({{total}})"
 }
