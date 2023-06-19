@@ -49,5 +49,6 @@
   "payButtonText": "Pay {{amount}}",
   "inValidRoutingNumberWithoutBank": "Invalid routing number",
   "selectAPaymentMethod": "Select a payment method",
-  "invoiceOverdue": "Invoice overdue"
+  "invoiceOverdue": "Invoice overdue",
+  "addACHOrCardDetailsText": "Add and save an account for faster payments"
 }
