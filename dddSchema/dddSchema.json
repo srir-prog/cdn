@@ -2591,7 +2591,8 @@
                         "clientId":"clientId",
                         "txnRefId":"txnRefId",
                         "txnType":"txnType"
-                    }
+                    },
+                    "pageQueryParams":["clientId"]
                 }
             },
             {
@@ -2755,7 +2756,22 @@
                         },
                         {
                             "label": "Supplier Id",
-                            "valueMap": "supplierId"
+                            "valueMap": "supplierId",
+                            "renderType": "Link",
+                            "action": {
+                                "type": "sidePanelData",
+                                "pathList": [
+                                    "1.0",
+                                    "aggregate"
+                                ],
+                                "paramObj": {
+                                    "templateId": "SupplierInfo"
+                                },
+                                "paramObjMap": {
+                                    "clientId": "clientId",
+                                    "supplierId": "supplierId"
+                                }
+                            }
                         },
                         {
                             "label": "Txn date",
@@ -2939,6 +2955,14 @@
                 }
             }
         ]
+    },
+    "supplierInfo":{
+        "componentType": "detailsList",
+        "title": "Supplier Details",
+        "ignoreKeys":["billAddress","history","notes","paymentAccountConfiguration","primaryEmails",
+    "billIds","electronicPaymentAlternatePrimaryEmails","remittanceAlternatePrimaryEmails",
+    "approvalAlternatePrimaryEmails","settingsData"],
+    "listInfo":[]
     },
     "failedJobs":{
         "componentType": "table",
@@ -4880,6 +4904,133 @@
                         }
                     }
                 }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Fraud Check"
+                },
+                "hideBtnFor":{
+                    "paymentStatus":[
+                        "APPROVED",
+                        "COMPLETED",
+                        "CANCELLED",
+                        "FAILED",
+                        "INITIATED",
+                        "PROCESSING",
+                        "SCHEDULED",
+                        "UNKNOWN"
+                    ]
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "FraudCheckResults"
+                    },
+                    "paramObjMap": {
+                        "clientId": "payerReferenceId",
+                        "paymentId": "paymentId"
+                    }
+                }
+            }
+        ]
+    },
+    "fraudCheckResults":{
+        "componentType": "detailsList",
+        "title": "Fraud Check Results",
+        "ignoreKeys":["paymentId","clientName"],
+        "transformToTableDataValueMap":["response.matchedRuleIds"],
+        "enumObj":{
+            "1": "Portfolio level amount limit",
+            "2": "Client level amount limit",
+            "3": "Daily amount limit",
+            "4": "Daily payments count limit",
+            "5": "Daily ACH amount limit",
+            "6": "Daily amount limit",
+            "7": "Daily payments count limit",
+            "8": "Daily ACH amount limit"
+        },
+        "listInfo":[
+            {
+                "label": "Request",
+                "valueMap": "paymentValidationRequest",
+                "componentType": "detailsList",
+                "renderProps": {
+                    "listInfo": [
+                        {
+                            "label":"Async",
+                            "valueMap":"async",
+                            "formatType":"boolean"
+                        },
+                        {
+                            "label":"Payment amount",
+                            "valueMap":"paymentAmount",
+                            "formatType":"currency"
+                        },
+                        {
+                            "label":"Payment method",
+                            "valueMap":"paymentMethod"
+                        },
+                        {
+                            "label":"No of payments already in process for the day",
+                            "valueMap":"noOfPaymentsAlreadyInProcessForTheDay"
+                        },
+                        {
+                            "label":"Amount already being processed for the day",
+                            "valueMap":"amountAlreadyBeingProcessedForTheDay",
+                            "formatType":"currency"
+                        },
+                        {
+                            "label":"Amount already being processed for the day for ACH",
+                            "valueMap":"amountAlreadyBeingProcessedForTheDayForACH",
+                            "formatType":"currency"
+                        },
+                        {
+                            "label":"Limits",
+                            "valueMap":"limits",
+                            "componentType": "detailsList",
+                            "renderProps": {
+                                "listInfo": [
+                                    {
+                                        "label":"Portfolio level amount limit",
+                                        "valueMap":"portfolioLevelAmountLimit",
+                                        "formatType":"currency"
+                                    },
+                                    {
+                                        "label":"Client level amount limit",
+                                        "valueMap":"clientLevelAmountLimit",
+                                        "formatType":"currency"
+                                    },
+                                    {
+                                        "label":"No of payments over a day's Limit",
+                                        "valueMap":"noOfPaymentsOverADayLimit",
+                                        "formatType":"currency"
+                                    },
+                                    {
+                                        "label":"Total amount over a day's limit",
+                                        "valueMap":"amountSumOverADayLimit",
+                                        "formatType":"currency"
+                                    },
+                                    {
+                                        "label":"ACH daily limit",
+                                        "valueMap":"achDailyLimit",
+                                        "formatType":"currency"
+                                    }
+                                ]
+                            }
+                        }
+
+                    ]
+                }
+            },
+            {
+                "label":"Match Rule Ids",
+                "valueMap":"response.matchedRuleIds"
             }
         ]
     },
