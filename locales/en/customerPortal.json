@@ -43,7 +43,6 @@
   "invoice": "Invoice",
   "paymentStatus": "Payment status",
   "disableCreditCardTooltipInfo": "Your supplier has disabled credit card payments for this invoice",
-  "addACHOrCardDetailsText": "Add and save an account for faster payments",
   "phone": "Phone:",
   "name": "Name:",
   "email": "Email:",
