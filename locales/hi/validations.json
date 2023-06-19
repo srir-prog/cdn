@@ -82,6 +82,6 @@
     "paymentDateHasPassed": "भुगतान की तिथि बीत चुकी है",
     "minSurchargeError": "चुनी गई राशि लागू क्रेडिट कार्ड राशि से कम है",
     "maxSurchargeError": "चुनी गई राशि लागू क्रेडिट कार्ड राशि से अधिक है",
-    "surchargePercentageRange": "अधिभार % {{minSurchargePercentage}}% - {{maxSurchargePercentage}}% के बीच होना चाहिए",
+    "surchargePercentageRange": "मान इससे कम होना चाहिए {{maxSurchargePercentage}}%",
     "inValidRoutingNumberWithoutBank": "अमान्य रूटिंग नंबर"
 }

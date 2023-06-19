@@ -630,7 +630,7 @@
     "successfullyUpdatedPaymentMethod": "Payment method successfully updated",
     "creditCardPreferences": "Credit card preferences",
     "paymentHubLink": "Payment hub link",
-    "receiveOnlinePayments": "Receive online payments via",
+    "receiveOnlinePayments": "Receive online payments",
     "allowCreditCardsPayments": "Allow credit card payments",
     "enableCreditCardPayments": "Enable for invoice amounts",
     "enableCreditCardSurcharge": "Enable credit card surcharge",
@@ -638,7 +638,7 @@
     "surchargePercentage": "Surcharge percentage",
     "earlyPaymentDiscounts": "Early payment discounts",
     "activateCentimePayCreditCardSettings": "Activate CentimePay in the payment and credit solutions page to receive online payments by credit card or ACH",
-    "surchargeTermsInfoLine": "By adding surcharge fees, you agree to the surcharge terms",
+    "surchargeTermsInfoLine": "By adding surcharge fees, you agree to the surcharge terms. <termsLink>learnMore</termsLink>",
     "surchargePercentageInfoLine": "Fee incurred is {{surchargeRate}}% on credit card transactions",
     "always": "Always",
     "onOrBeforeDueDate": "Before and on due date",
@@ -646,6 +646,9 @@
     "never": "Never",
     "greaterThanOrEquals": "Greater than or equal to {{amount}}",
     "lessThan": "Less than {{amount}}",
-    "errorUpdatingApprovalPolicyPriority": "Error while updating the approval policy priority",
-    "successfullyUpdatedApprovalPolicyPriority": "Successfully updated the approval policy priority"
+    "errorUpdatingApprovalPolicyPriority": "Error encountered in updating the priority order. Please try again.",
+    "successfullyUpdatedApprovalPolicyPriority": "Successfully updated the priority order",
+    "learnMore": "Learn more",
+    "surchargeAccountInfoLine": "Identify a surcharge account to post applicable invoices",
+    "discountAccountInfoLine": "Identify a discount account to post invoices with discount terms"
 }
