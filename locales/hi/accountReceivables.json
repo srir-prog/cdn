@@ -390,5 +390,12 @@
     "allContactsAreInvalid":"कोई ग्राहक संपर्क ईमेल मान्य नहीं है",
     "someContactsAreInvalid":"एक या अधिक ग्राहक ईमेल अमान्य हैं",
     "maxContactReachedMsg":"30 भूमिकाओं की अधिकतम सीमा पूरी हो गई है.",
-    "noCommunicationContacts": "कोई संचार संपर्क उपलब्ध नहीं है"
+    "noCommunicationContacts": "कोई संचार संपर्क उपलब्ध नहीं है",
+    "paymentOptions": "भुगतान विकल्प",
+    "receiveOnlinePaymentsVia": "के माध्यम से ऑनलाइन भुगतान प्राप्त करें",
+    "paymentHubLink": "पेमेंट हब लिंक",
+    "paymentHub": "भुगतान हब",
+    "uniquePaymentLinks": "अद्वितीय भुगतान लिंक",
+    "none": "कोई नहीं",
+    "HistoryActionPaymentSettingsUpdated": "भुगतान सेटिंग अपडेट की गईं"
 }

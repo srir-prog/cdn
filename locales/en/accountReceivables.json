@@ -391,5 +391,12 @@
     "allContactsAreInvalid":"No customer contact emails valid",
     "someContactsAreInvalid":"One or more customer emails invalid",
     "maxContactReachedMsg":"Maximum limit of 30 roles reached.",
-    "noCommunicationContacts": "No Communication contacts available"
+    "noCommunicationContacts": "No Communication contacts available",
+    "paymentOptions": "Payment options",
+    "receiveOnlinePaymentsVia": "Receive online payments via",
+    "paymentHubLink": "Payment hub link",
+    "paymentHub": "Payment hub",
+    "uniquePaymentLinks": "Unique payment links",
+    "none": "None",
+    "HistoryActionPaymentSettingsUpdated": "Payment settings updated"
 }

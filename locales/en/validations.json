@@ -85,5 +85,6 @@
     "paymentDateHasPassed": "Payment date has passed",
     "minSurchargeError": "Amount chosen is lesser than applicable credit card amount",
     "maxSurchargeError": "Amount chosen is greater than applicable credit card amount",
-    "surchargePercentageRange": "Value should be less than {{maxSurchargePercentage}}%"
+    "surchargePercentageRange": "Value should be less than {{maxSurchargePercentage}}%",
+    "inValidRoutingNumberWithoutBank": "Invalid routing number"
 }
