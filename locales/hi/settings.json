@@ -605,7 +605,7 @@
     "receiveOnlinePayments": "ऑनलाइन भुगतान प्राप्त करें",
     "allowCreditCardsPayments": "क्रेडिट कार्ड भुगतान की अनुमति दें",
     "enableCreditCardPayments": "चालान राशियों के लिए सक्षम करें",
-    "enableCreditCardSurcharge": "क्रेडिट कार्ड अधिभार सक्षम करें",
+    "enableCreditCardSurcharge": "क्रेडिट कार्ड अधिभार जोड़ें",
     "includeSurchargeForAmounts": "राशियों के लिए अधिभार शामिल करें",
     "surchargePercentage": "अधिभार प्रतिशत",
     "earlyPaymentDiscounts": "प्रारंभिक भुगतान छूट",
