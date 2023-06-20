@@ -633,7 +633,7 @@
     "receiveOnlinePayments": "Receive online payments",
     "allowCreditCardsPayments": "Allow credit card payments",
     "enableCreditCardPayments": "Enable for invoice amounts",
-    "enableCreditCardSurcharge": "Enable credit card surcharge",
+    "enableCreditCardSurcharge": "Add credit card surcharge",
     "includeSurchargeForAmounts": "Include surcharge for amounts",
     "surchargePercentage": "Surcharge percentage",
     "earlyPaymentDiscounts": "Early payment discounts",
@@ -650,5 +650,6 @@
     "successfullyUpdatedApprovalPolicyPriority": "Successfully updated the priority order",
     "learnMore": "Learn more",
     "surchargeAccountInfoLine": "Identify a surcharge account to post applicable invoices",
-    "discountAccountInfoLine": "Identify a discount account to post invoices with discount terms"
+    "discountAccountInfoLine": "Identify a discount account to post invoices with discount terms",
+    "onlinePaymentPreferences": "Online payment preferences"
 }
