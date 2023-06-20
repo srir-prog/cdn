@@ -633,7 +633,7 @@
     "receiveOnlinePayments": "Receive online payments",
     "allowCreditCardsPayments": "Allow credit card payments",
     "enableCreditCardPayments": "Enable for invoice amounts",
-    "enableCreditCardSurcharge": "Enable credit card surcharge",
+    "enableCreditCardSurcharge": "Add credit card surcharge",
     "includeSurchargeForAmounts": "Include surcharge for amounts",
     "surchargePercentage": "Surcharge percentage",
     "earlyPaymentDiscounts": "Early payment discounts",
