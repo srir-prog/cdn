@@ -50,6 +50,7 @@
   "inValidRoutingNumberWithoutBank": "Invalid routing number",
   "selectAPaymentMethod": "Select a payment method",
   "invoiceOverdue": "Invoice overdue",
-  "addACHOrCardDetailsText": "Add and save an account for faster payments",
+  "addACHDetailsText": "Add and save an account for faster payments",
+  "addCardDetailsText": "Add and save a credit card for faster payments",
   "creditCardPayments": "Credit card payments"
 }
