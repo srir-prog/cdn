@@ -605,7 +605,7 @@
     "receiveOnlinePayments": "ऑनलाइन भुगतान प्राप्त करें",
     "allowCreditCardsPayments": "क्रेडिट कार्ड भुगतान की अनुमति दें",
     "enableCreditCardPayments": "चालान राशियों के लिए सक्षम करें",
-    "enableCreditCardSurcharge": "क्रेडिट कार्ड अधिभार सक्षम करें",
+    "enableCreditCardSurcharge": "क्रेडिट कार्ड अधिभार जोड़ें",
     "includeSurchargeForAmounts": "राशियों के लिए अधिभार शामिल करें",
     "surchargePercentage": "अधिभार प्रतिशत",
     "earlyPaymentDiscounts": "प्रारंभिक भुगतान छूट",
@@ -622,5 +622,6 @@
     "successfullyUpdatedApprovalPolicyPriority": "प्राथमिकता क्रम को सफलतापूर्वक अपडेट किया गया",
     "learnMore": "और अधिक जानें",
     "surchargeAccountInfoLine": "लागू चालान पोस्ट करने के लिए एक अधिभार खाते की पहचान करें",
-    "discountAccountInfoLine": "छूट शर्तों के साथ चालान पोस्ट करने के लिए छूट खाते की पहचान करें"
+    "discountAccountInfoLine": "छूट शर्तों के साथ चालान पोस्ट करने के लिए छूट खाते की पहचान करें",
+    "onlinePaymentPreferences": "ऑनलाइन भुगतान वरीयताएँ"
 }
