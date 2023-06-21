@@ -44,10 +44,11 @@
   "addACHOrCardDetailsText": "तेज़ भुगतान के लिए एक खाता जोड़ें और सहेजें",
   "phone": "फोन:",
   "name": "नाम:",
-  "email": "ईमेल:",
+  "emailColon": "ईमेल:",
   "payButtonText": "{{amount}} भुगतान करें",
   "inValidRoutingNumberWithoutBank": "अमान्य रूटिंग नंबर",
   "selectAPaymentMethod": "भुगतान विधि का चयन करें",
   "invoiceOverdue": "चालान समय से पहले भुगतान नहीं हुआ",
-  "earlyPayDiscountToolTip": "डिस्काउंट राशि: {{discountAmount}} <br> समाप्ति तिथि: {{expiryDate}}"
+  "earlyPayDiscountToolTip": "डिस्काउंट राशि: {{discountAmount}} <br> समाप्ति तिथि: {{expiryDate}}",
+  "creditCardPayments": "क्रेडिट कार्ड से भुगतान"
 }
