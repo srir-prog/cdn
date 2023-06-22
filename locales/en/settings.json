@@ -651,5 +651,6 @@
     "learnMore": "Learn more",
     "surchargeAccountInfoLine": "Identify a surcharge account to post applicable invoices",
     "discountAccountInfoLine": "Identify a discount account to post invoices with discount terms",
+    "CustomerPortalSettings": "Payment hub settings",
     "onlinePaymentPreferences": "Online payment preferences"
 }
