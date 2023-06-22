@@ -622,5 +622,6 @@
     "successfullyUpdatedApprovalPolicyPriority": "प्राथमिकता क्रम को सफलतापूर्वक अपडेट किया गया",
     "learnMore": "और अधिक जानें",
     "surchargeAccountInfoLine": "लागू चालान पोस्ट करने के लिए एक अधिभार खाते की पहचान करें",
-    "discountAccountInfoLine": "छूट शर्तों के साथ चालान पोस्ट करने के लिए छूट खाते की पहचान करें"
+    "discountAccountInfoLine": "छूट शर्तों के साथ चालान पोस्ट करने के लिए छूट खाते की पहचान करें",
+    "CustomerPortalSettings": "भुगतान हब सेटिंग्स"
 }
