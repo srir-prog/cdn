@@ -111,5 +111,13 @@
     "secureEntityNameExists":"Business name already exists",
     "taxIdExists":"Tax ID already exists",
     "commonErrorAddSecureEntity":"Unable to save details.Please try again",
-    "verifyCentimeBankingAccount":"Please verify your account to continue with Centime Banking"
+    "verifyCentimeBankingAccount":"Please verify your account to continue with Centime Banking",
+    "registration":"Registration",
+    "descRegistration":"Create your profile",
+    "businessInfo":"Business information",
+    "descBusinessInfo":"Add legal business name, tax ID, other necessary information",
+    "ownershipInfo":"Ownership information",
+    "descOwnershipInfo":"Identify the Business Owner, Controller and Authorized Signatory",
+    "reviewAndSubmit":"Review and Submit",
+    "descReviewAndSubmit":"Review and submit your application"
 }
