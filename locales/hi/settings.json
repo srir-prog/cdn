@@ -623,5 +623,6 @@
     "learnMore": "और अधिक जानें",
     "surchargeAccountInfoLine": "लागू चालान पोस्ट करने के लिए एक अधिभार खाता निर्दिष्ट करें",
     "discountAccountInfoLine": "छूट शर्तों के साथ चालान पोस्ट करने के लिए एक डिस्काउंट खाता निर्दिष्ट करें",
-    "onlinePaymentPreferences": "ऑनलाइन भुगतान वरीयताएँ"
+    "onlinePaymentPreferences": "ऑनलाइन भुगतान वरीयताएँ",
+    "CustomerPortalSettings": "भुगतान हब सेटिंग्स"
 }

@@ -27,7 +27,7 @@
   "readyToPay": "भुगतान के लिए तैयार",
   "processing": "प्रसंस्करण हो रहा है",
   "verificationCode": "सत्यापन कोड",
-  "customerPortalInfoDisplayHeader": "आपके भुगतान हब आपको यह सुविधा प्रदान करता है",
+  "customerPortalInfoDisplayHeader": "आपके भुगतान हब आपको निम्न कार्यों की सुविधा प्रदान करता है:",
   "customerPortalInfoDisplayInfo1": "बकाया चालानों को देखें और भुगतान करें",
   "customerPortalInfoDisplayInfo2": "योग्य छूट के साथ चालानों को पहचानें",
   "customerPortalInfoDisplayInfo3": "डिफ़ॉल्ट भुगतान विकल्प सेट करें और सहेजें",
@@ -41,13 +41,15 @@
   "invoice": "चालान",
   "paymentStatus": "भुगतान स्थिति",
   "disableCreditCardTooltipInfo": "आपके आपूर्ति वितरक ने इस चालान के लिए क्रेडिट कार्ड भुगतान को अक्षम कर दिया है",
-  "addACHOrCardDetailsText": "तेज़ भुगतान के लिए एक खाता जोड़ें और सहेजें",
+  "addACHDetailsText": "जल्दी पेमेंट के लिए खाता जोड़ें और सहेजें",
+  "addCardDetailsText": "जल्दी पेमेंट के लिए क्रेडिट कार्ड जोड़ें और सहेजें",
   "phone": "फोन:",
   "name": "नाम:",
-  "email": "ईमेल:",
+  "emailColon": "ईमेल:",
   "payButtonText": "{{amount}} भुगतान करें",
   "inValidRoutingNumberWithoutBank": "अमान्य रूटिंग नंबर",
   "selectAPaymentMethod": "भुगतान विधि का चयन करें",
   "invoiceOverdue": "चालान समय से पहले भुगतान नहीं हुआ",
-  "earlyPayDiscountToolTip": "डिस्काउंट राशि: {{discountAmount}} <br> समाप्ति तिथि: {{expiryDate}}"
+  "earlyPayDiscountToolTip": "डिस्काउंट राशि: {{discountAmount}} <br> समाप्ति तिथि: {{expiryDate}}",
+  "creditCardPayments": "क्रेडिट कार्ड से भुगतान"
 }
