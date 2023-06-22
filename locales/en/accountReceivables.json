@@ -387,11 +387,11 @@
     "addRole": "Add Role",
     "ContactUpdateNotificationSuccess": "Successfully updated contact details",
     "ContactUpdateNotificationError": "An error occurred while updating contact details",
-    "paymentOptions": "Payment options",
-    "receiveOnlinePaymentsVia": "Receive online payments via",
+    "paymentOptions": "Payment settings",
+    "onlinePaymentOptions": "Online payment options",
     "paymentHubLink": "Payment hub link",
     "paymentHub": "Payment hub",
-    "uniquePaymentLinks": "Unique payment links",
-    "none": "None",
+    "paymentLinks": "Payment links",
+    "disableOnlinePayments": "Disable online payments",
     "HistoryActionPaymentSettingsUpdated": "Payment settings updated"
 }

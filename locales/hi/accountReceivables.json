@@ -387,11 +387,11 @@
     "addRole": "भूमिका जोड़ें",
     "ContactUpdateNotificationSuccess":"संपर्क विवरण सफलतापूर्वक अपडेट किया गया",
     "ContactUpdateNotificationError": "संपर्क विवरण अपडेट करते समय एक त्रुटि हुई",
-    "paymentOptions": "भुगतान विकल्प",
-    "receiveOnlinePaymentsVia": "के माध्यम से ऑनलाइन भुगतान प्राप्त करें",
+    "paymentOptions": "भुगतान सेटिंग",
+    "onlinePaymentOptions": "ऑनलाइन भुगतान विकल्प",
     "paymentHubLink": "पेमेंट हब लिंक",
     "paymentHub": "भुगतान हब",
-    "uniquePaymentLinks": "अद्वितीय भुगतान लिंक",
-    "none": "कोई नहीं",
+    "paymentLinks": "भुगतान लिंक",
+    "disableOnlinePayments": "ऑनलाइन भुगतान अक्षम करें",
     "HistoryActionPaymentSettingsUpdated": "भुगतान सेटिंग अपडेट की गईं"
 }
