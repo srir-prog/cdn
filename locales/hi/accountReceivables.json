@@ -386,5 +386,12 @@
     "roleDeleted": "ग्राहक संपर्क भूमिका सफलतापूर्वक हटाई गई",
     "addRole": "भूमिका जोड़ें",
     "ContactUpdateNotificationSuccess":"संपर्क विवरण सफलतापूर्वक अपडेट किया गया",
-    "ContactUpdateNotificationError": "संपर्क विवरण अपडेट करते समय एक त्रुटि हुई"
+    "ContactUpdateNotificationError": "संपर्क विवरण अपडेट करते समय एक त्रुटि हुई",
+    "paymentOptions": "भुगतान विकल्प",
+    "receiveOnlinePaymentsVia": "के माध्यम से ऑनलाइन भुगतान प्राप्त करें",
+    "paymentHubLink": "पेमेंट हब लिंक",
+    "paymentHub": "भुगतान हब",
+    "uniquePaymentLinks": "अद्वितीय भुगतान लिंक",
+    "none": "कोई नहीं",
+    "HistoryActionPaymentSettingsUpdated": "भुगतान सेटिंग अपडेट की गईं"
 }

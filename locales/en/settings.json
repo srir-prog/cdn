@@ -616,13 +616,13 @@
     "deleteAChConfirmationText": "Are you sure you want to delete this saved payment method?",
     "deleteCreditCardConfirmationText": "Are you sure you want to delete this saved payment method?",
     "deleteACHAccount": "Delete ACH Account",
-    "SaveCreditCardText": "Add a credit card",
+    "SaveCreditCardText": "Save a credit card text",
     "fasterPaymentsText": "for faster payments",
     "accountEndingText": "Account ending *{{savedACHAccountNum}}",
     "cardEndingText": "Card ending *{{savedCardNum}}",
     "savedCreditCard": "Saved credit card",
     "deleteSavedCard": "Delete saved Card",
-    "saveAnACHAccountText": "Add an ACH account",
+    "saveAnACHAccountText": "Save an ACH account",
     "savedPayFromAccountText": "Saved pay from account",
     "defaultPaymentMethod": "Default payment method",
     "successNotificationAfterDeletingACH": "Payment method successfully deleted",
@@ -633,7 +633,7 @@
     "receiveOnlinePayments": "Receive online payments",
     "allowCreditCardsPayments": "Allow credit card payments",
     "enableCreditCardPayments": "Enable for invoice amounts",
-    "enableCreditCardSurcharge": "Enable credit card surcharge",
+    "enableCreditCardSurcharge": "Add credit card surcharge",
     "includeSurchargeForAmounts": "Include surcharge for amounts",
     "surchargePercentage": "Surcharge percentage",
     "earlyPaymentDiscounts": "Early payment discounts",
@@ -651,5 +651,6 @@
     "learnMore": "Learn more",
     "surchargeAccountInfoLine": "Identify a surcharge account to post applicable invoices",
     "discountAccountInfoLine": "Identify a discount account to post invoices with discount terms",
-    "CustomerPortalSettings": "Payment hub settings"
+    "CustomerPortalSettings": "Payment hub settings",
+    "onlinePaymentPreferences": "Online payment preferences"
 }
