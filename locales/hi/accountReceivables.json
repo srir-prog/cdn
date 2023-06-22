@@ -220,7 +220,6 @@
     "CampaignPausedToolTip": "{{campaignName}} रोक दिया गया है",
     "CampaignPausedToolTipPlain": "इस अभियान को रोक दिया गया था",
     "CampaignEmailInValidationToolTip": "{{campaignName}} को अक्षम कर दिया गया था क्योंकि ईमेल ग्राहक के ईमेल पते पर वितरित नहीं किए जा सकते थे",
-    "CampaignEmailInValidationToolTipPlain": "इस अभियान को अक्षम कर दिया गया था क्योंकि ईमेल ग्राहक के ईमेल पते पर वितरित नहीं किए जा सकते थे",
     "CampaignPausedAccordionMessage": "{{campaignName}} रोक दिया गया है",
     "CampaignEmailInValidationAccordionMessage": "ईमेल डिलीवर न होने के कारण अभियान को रोक दिया गया है। कृपया ईमेल की पुष्टि करें और अभियान फिर से शुरू करें",
     "addressLine": "पता पंक्ति",
