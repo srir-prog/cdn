@@ -201,6 +201,7 @@
     "PayablesPanel": "देय",
     "supplierCommunications": "आपूर्तिकर्ता संचार",
     "emailCommunicationSettings": "आपूर्तिकर्ता ईमेल सूचनाएं",
+    "supplierEmailCommunications": "आपूर्तिकर्ता ईमेल संचार",
     "notifyWhenPaymentApproved": "भुगतान स्वीकृत होने पर सूचना भेजें",
     "sendRemittance": "भुगतान भेजे जाने पर प्रेषण भेजें",
     "senderProfileForEmails": "ईमेल के लिए प्रेषक प्रोफ़ाइल",
