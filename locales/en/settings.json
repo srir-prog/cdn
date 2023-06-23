@@ -197,6 +197,7 @@
     "PayablesPanel": "Payables",
     "supplierCommunications": "Supplier communications",
     "emailCommunicationSettings": "Supplier email notifications",
+    "supplierEmailCommunications": "Supplier email communications",
     "notifyWhenPaymentApproved": "Send notification when payment is scheduled",
     "sendRemittance": "Send remittance when payment is sent",
     "senderProfileForEmails": "Sender profile for emails",
@@ -649,7 +650,8 @@
     "errorUpdatingApprovalPolicyPriority": "Error encountered in updating the priority order. Please try again.",
     "successfullyUpdatedApprovalPolicyPriority": "Successfully updated the priority order",
     "learnMore": "Learn more",
-    "surchargeAccountInfoLine": "Identify a surcharge account to post applicable invoices",
-    "discountAccountInfoLine": "Identify a discount account to post invoices with discount terms",
+    "surchargeAccountInfoLine": "Specify a surcharge account to post applicable invoices",
+    "discountAccountInfoLine": "Specify a discount account to post invoices with discount terms",
+    "CustomerPortalSettings": "Payment hub settings",
     "onlinePaymentPreferences": "Online payment preferences"
 }

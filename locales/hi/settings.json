@@ -201,6 +201,7 @@
     "PayablesPanel": "देय",
     "supplierCommunications": "आपूर्तिकर्ता संचार",
     "emailCommunicationSettings": "आपूर्तिकर्ता ईमेल सूचनाएं",
+    "supplierEmailCommunications": "आपूर्तिकर्ता ईमेल संचार",
     "notifyWhenPaymentApproved": "भुगतान स्वीकृत होने पर सूचना भेजें",
     "sendRemittance": "भुगतान भेजे जाने पर प्रेषण भेजें",
     "senderProfileForEmails": "ईमेल के लिए प्रेषक प्रोफ़ाइल",
@@ -621,7 +622,8 @@
     "errorUpdatingApprovalPolicyPriority": "प्राथमिकता क्रम को अपडेट करने में त्रुटि हुई। कृपया पुन: प्रयास करें।",
     "successfullyUpdatedApprovalPolicyPriority": "प्राथमिकता क्रम को सफलतापूर्वक अपडेट किया गया",
     "learnMore": "और अधिक जानें",
-    "surchargeAccountInfoLine": "लागू चालान पोस्ट करने के लिए एक अधिभार खाते की पहचान करें",
-    "discountAccountInfoLine": "छूट शर्तों के साथ चालान पोस्ट करने के लिए छूट खाते की पहचान करें",
-    "onlinePaymentPreferences": "ऑनलाइन भुगतान वरीयताएँ"
+    "surchargeAccountInfoLine": "लागू चालान पोस्ट करने के लिए एक अधिभार खाता निर्दिष्ट करें",
+    "discountAccountInfoLine": "छूट शर्तों के साथ चालान पोस्ट करने के लिए एक डिस्काउंट खाता निर्दिष्ट करें",
+    "onlinePaymentPreferences": "ऑनलाइन भुगतान वरीयताएँ",
+    "CustomerPortalSettings": "भुगतान हब सेटिंग्स"
 }
