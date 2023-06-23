@@ -197,6 +197,7 @@
     "PayablesPanel": "Payables",
     "supplierCommunications": "Supplier communications",
     "emailCommunicationSettings": "Supplier email notifications",
+    "supplierEmailCommunications": "Supplier email communications",
     "notifyWhenPaymentApproved": "Send notification when payment is scheduled",
     "sendRemittance": "Send remittance when payment is sent",
     "senderProfileForEmails": "Sender profile for emails",
