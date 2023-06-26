@@ -626,9 +626,6 @@
     "saveAnACHAccountText": "Save an ACH account",
     "savedPayFromAccountText": "Saved pay from account",
     "defaultPaymentMethod": "Default payment method",
-    "successNotificationAfterDeletingACH": "Payment method successfully deleted",
-    "successNotificationAfterDeletingCredit": "Payment method successfully deleted",
-    "successfullyUpdatedPaymentMethod": "Payment method successfully updated",
     "creditCardPreferences": "Credit card preferences",
     "paymentHubLink": "Payment hub link",
     "receiveOnlinePayments": "Receive online payments",
@@ -653,5 +650,9 @@
     "surchargeAccountInfoLine": "Specify a surcharge account to post applicable invoices",
     "discountAccountInfoLine": "Specify a discount account to post invoices with discount terms",
     "CustomerPortalSettings": "Payment hub settings",
-    "onlinePaymentPreferences": "Online payment preferences"
+    "onlinePaymentPreferences": "Online payment preferences",
+    "successNotificationAfterDeletingACH": "ACH details deleted successfully",
+    "successNotificationAfterDeletingCredit": "Credit card details deleted successfully",
+    "successfullyUpdatedPaymentMethod": "Payment method successfully updated",
+    "cashFlowSettingUpdateConfirmText": "All existing predictions will regenerate according to the new settings. Are you sure you want to proceed?"
 }
