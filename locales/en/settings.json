@@ -626,5 +626,6 @@
     "defaultPaymentMethod": "Default payment method",
     "successNotificationAfterDeletingACH": "ACH details deleted successfully",
     "successNotificationAfterDeletingCredit": "Credit card details deleted successfully",
-    "successfullyUpdatedPaymentMethod": "Payment method successfully updated"
+    "successfullyUpdatedPaymentMethod": "Payment method successfully updated",
+    "cashFlowSettingUpdateConfirmText": "All existing predictions will regenerate according to the new settings. Are you sure you want to proceed?"
 }
