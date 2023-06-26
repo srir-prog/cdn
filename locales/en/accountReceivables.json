@@ -397,6 +397,6 @@
     "deleteRoleError": "An error occurred during the customer contact role deletion",
     "allContactsAreInvalid":"No customer contact emails valid",
     "someContactsAreInvalid":"One or more customer emails invalid",
-    "maxContactReachedMsg":"Maximum limit of 30 roles reached.",
+    "maxContactReachedMsg":"Maximum limit of {{count}} roles reached.",
     "noCommunicationContacts": "No Communication contacts available"
 }
