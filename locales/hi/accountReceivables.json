@@ -392,5 +392,10 @@
     "paymentHub": "भुगतान हब",
     "paymentLinks": "भुगतान लिंक",
     "disableOnlinePayments": "ऑनलाइन भुगतान अक्षम करें",
-    "HistoryActionPaymentSettingsUpdated": "भुगतान सेटिंग अपडेट की गईं"
+    "HistoryActionPaymentSettingsUpdated": "भुगतान सेटिंग अपडेट की गईं",
+    "deleteRoleError": "ग्राहक संपर्क भूमिका हटाने के दौरान एक त्रुटि हुई",
+    "allContactsAreInvalid":"कोई ग्राहक संपर्क ईमेल मान्य नहीं है",
+    "someContactsAreInvalid":"एक या अधिक ग्राहक ईमेल अमान्य हैं",
+    "maxContactReachedMsg":"30 भूमिकाओं की अधिकतम सीमा पूरी हो गई है.",
+    "noCommunicationContacts": "कोई संचार संपर्क उपलब्ध नहीं है"
 }
