@@ -393,5 +393,10 @@
     "paymentHub": "Payment hub",
     "paymentLinks": "Payment links",
     "disableOnlinePayments": "Disable online payments",
-    "HistoryActionPaymentSettingsUpdated": "Payment settings updated"
+    "HistoryActionPaymentSettingsUpdated": "Payment settings updated",
+    "deleteRoleError": "An error occurred during the customer contact role deletion",
+    "allContactsAreInvalid":"No customer contact emails valid",
+    "someContactsAreInvalid":"One or more customer emails invalid",
+    "maxContactReachedMsg":"Maximum limit of {{count}} roles reached.",
+    "noCommunicationContacts": "No Communication contacts available"
 }
