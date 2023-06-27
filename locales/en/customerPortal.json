@@ -20,7 +20,7 @@
   "saveCheckBoxLabel": "Save details securely for future transactions",
   "ACHAccountDetails": "ACH details",
   "basedOnSurcharge": "based on surcharge of {{surchargePercentage}}",
-  "addACHAccount": "Add ACH account",
+  "addACHAccount": "Add an ACH account",
   "addCreditCard": "Add credit card",
   "payablesSummary": "Payables summary",
   "earlyPayDiscountToolTip": "Discount amount: {{discountAmount}} <br> Expiry date: {{expiryDate}}",
@@ -28,6 +28,7 @@
   "earlyPayDiscountsTooltipMsg": "Early Pay Discounts",
   "readyToPay": "Ready to pay",
   "processing": "Processing",
+  "failed": "Failed",
   "verificationCode": "Verification code",
   "customerPortalInfoDisplayHeader": "Your payment hub enables you to:",
   "customerPortalInfoDisplayInfo1": "View and pay outstanding invoices",
@@ -52,5 +53,11 @@
   "invoiceOverdue": "Invoice overdue",
   "addACHDetailsText": "Add and save an account for faster payments",
   "addCardDetailsText": "Add and save a credit card for faster payments",
-  "creditCardPayments": "Credit card payments"
+  "creditCardPayments": "Credit card payments",
+  "onlinePaymentNotConfigured": "No Online payment options configured by the supplier",
+  "notPartOfAccessList": "User is not part of a payment-hub access user list",
+  "noAccessForUser": "Payment hub access is not provided for the user",
+  "moreThanOnePaymentHubSupplier": "More then one payment hub supplier config found for user",
+  "supplierDisabledAccess": "The supplier has disabled access for payment-hub",
+  "defaultErrorMessageForEmailValidation": "Please try again or contact us if the problem persists"
 }
