@@ -503,6 +503,6 @@
     "hidePredictionsInNext": "Hide predictions in the next",
     "hideManualTransactionHideDays": "Hide manual transactions in the next",
     "NoActivePaymentMethods": "You can make invoice payments after activating payment methods in the payment and credit solutions page. <ourLink></ourLink>",
-    "updateSourceCffSettingErrorMsg": "Error while saving prediction settings. Try again or contact us if the problem persists.",
-    "updateSourceCffSettingSuccessMsg": "Prediction setting saved successfully"
+    "updateSourceCffSettingErrorMsg": "Error while saving changes. Try again or contact us if the problem persists.",
+    "updateSourceCffSettingSuccessMsg": "You will be able to modify prediction settings after predictions are successfully regenerated"
 }
