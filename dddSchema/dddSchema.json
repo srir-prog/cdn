@@ -1036,7 +1036,8 @@
                             "options": {
                                 "Finicity": "Finicity",
                                 "FNBO Cash": "FNBO Cash",
-                                "FNBO Card": "FNBO Card"
+                                "FNBO Card": "FNBO Card",
+                                "Centime Banking":"Centime Banking"
                             },
                             "tnsForOptions": false,
                             "multiple": true
@@ -1044,7 +1045,8 @@
                         "default": [
                             "Finicity",
                             "FNBO Cash",
-                            "FNBO Card"
+                            "FNBO Card",
+                            "Centime Banking"
                         ],
                         "queryName": "sourceName"
                     },
@@ -3810,7 +3812,7 @@
                 "className":"alignRight",
                 "gridSize":3,
                 "hideBtnFor":{
-                    "sourceName":["FNBO_Cash","FNBO_Card","QuickBooks_Online","Oracle_NetSuite","QuickBooks_Desktop"]
+                    "sourceName":["FNBO_Cash","FNBO_Card","QuickBooks_Online","Oracle_NetSuite","QuickBooks_Desktop","Centime_Banking"]
                 },
                 "action": {
                     "type": "updateCall",
