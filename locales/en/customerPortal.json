@@ -11,7 +11,7 @@
   "cPSaveTermsAndConditions": "By clicking \"Save,\" you agree to our <clickLink></clickLink>",
   "cPPayTermsAndConditions": "By clicking \"Pay,\" you agree to our <clickLink></clickLink>",
   "termsAndConditionsLinkText": "Terms & Conditions",
-  "surchargeInfo": "Total amount = {{totalSelectedAmount}} + {{totalSurchargeAmount}} (card fee {{surchargePercentage}})",
+  "surchargeInfo": "Total amount = {{totalSelectedAmount}} + {{totalSurchargeAmount}} (surcharge {{surchargePercentage}})",
   "successNotificationForPaymentMethodChange": "Payment method successfully updated",
   "bankAccountInfoLabel": "Bank account",
   "accountHolderName": "Account holder name",
