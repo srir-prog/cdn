@@ -231,7 +231,7 @@
     "middleName": "Middle name",
     "lastName": "Last name",
     "familyName": "Family name",
-    "CustomerSummaryEmailSetUpWarning": "Please set an email to enable communications",
+    "CustomerSummaryEmailSetUpWarning": "Please set an communication contact to enable communications",
     "CustomerSummaryNotificationSuccess": "Customer {{buyerName}} has been saved",
     "InvoiceNotificationSuccess": "Invoice {{invoiceId}} has been saved",
     "CustomerSummaryNotificationError": "Error while saving details for {{buyerName}}. Try again or contact us if the problem persists.",
@@ -390,7 +390,6 @@
     "deleteRoleError": "An error occurred during the customer contact role deletion",
     "allContactsAreInvalid":"No customer contact emails valid",
     "someContactsAreInvalid":"One or more customer emails invalid",
-    "maxContactReachedMsg":"Maximum limit of 30 roles reached.",
     "noCommunicationContacts": "No Communication contacts available",
     "paymentOptions": "Payment options",
     "receiveOnlinePaymentsVia": "Receive online payments via",
@@ -399,4 +398,5 @@
     "uniquePaymentLinks": "Unique payment links",
     "none": "None",
     "HistoryActionPaymentSettingsUpdated": "Payment settings updated"
+    "enableCommunicationContact": "Please set atleast one communication contact to enable all communications"
 }

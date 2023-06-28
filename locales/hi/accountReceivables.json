@@ -397,5 +397,6 @@
     "paymentHub": "भुगतान हब",
     "uniquePaymentLinks": "अद्वितीय भुगतान लिंक",
     "none": "कोई नहीं",
-    "HistoryActionPaymentSettingsUpdated": "भुगतान सेटिंग अपडेट की गईं"
+    "HistoryActionPaymentSettingsUpdated": "भुगतान सेटिंग अपडेट की गईं",
+    "enableCommunicationContact":"कृपया सभी संचार सक्षम करने के लिए कम से कम एक संचार संपर्क सेट करें"
 }
