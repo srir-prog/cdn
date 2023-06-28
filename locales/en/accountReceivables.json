@@ -387,10 +387,12 @@
     "addRole": "Add Role",
     "contactUpdateNotificationSuccess": "Successfully updated contact details",
     "contactUpdateNotificationError": "An error occurred while updating contact details",
+    "onlinePaymentOptions": "Online payment options",
+    "paymentLinks": "Payment links",
+    "disableOnlinePayments": "Disable online payments",
     "deleteRoleError": "An error occurred during the customer contact role deletion",
     "allContactsAreInvalid":"No customer contact emails valid",
     "someContactsAreInvalid":"One or more customer emails invalid",
-    "noCommunicationContacts": "No Communication contacts available",
     "paymentOptions": "Payment options",
     "receiveOnlinePaymentsVia": "Receive online payments via",
     "paymentHubLink": "Payment hub link",
@@ -399,4 +401,6 @@
     "none": "None",
     "HistoryActionPaymentSettingsUpdated": "Payment settings updated"
     "enableCommunicationContact": "Please set atleast one communication contact to enable all communications"
+    "maxContactReachedMsg":"Maximum limit of {{count}} roles reached.",
+    "noCommunicationContacts": "No Communication contacts available"
 }

@@ -1036,7 +1036,8 @@
                             "options": {
                                 "Finicity": "Finicity",
                                 "FNBO Cash": "FNBO Cash",
-                                "FNBO Card": "FNBO Card"
+                                "FNBO Card": "FNBO Card",
+                                "Centime Banking":"Centime Banking"
                             },
                             "tnsForOptions": false,
                             "multiple": true
@@ -1044,7 +1045,8 @@
                         "default": [
                             "Finicity",
                             "FNBO Cash",
-                            "FNBO Card"
+                            "FNBO Card",
+                            "Centime Banking"
                         ],
                         "queryName": "sourceName"
                     },
@@ -1663,7 +1665,8 @@
             {
                 "title": "Client name",
                 "valueMap": "clientName",
-                "align":"left"
+                "align":"left",
+                "enableSort": true
             },
             {
                 "title": "Payment Id",
@@ -1683,42 +1686,50 @@
                         "clientName":"clientName",
                         "paymentId": "payment.paymentId"
                     }
-                }
+                },
+                "enableSort": true
             },
             {
                 "title": "Payment status",
                 "valueMap": "payment.paymentStatus",
-                "align":"left"
+                "align":"left",
+                "enableSort": true
             },
             {
                 "title": "Payment method",
                 "valueMap": "payment.paymentMethod",
-                "align":"left"
+                "align":"left",
+                "enableSort": true
             },
             {
                 "title": "Payment start date",
                 "valueMap": "payment.paymentStartDate",
-                "align":"left"
+                "align":"left",
+                "enableSort": true
             },
             {
                 "title": "Payment capture date",
                 "valueMap": "payment.paymentCaptureDate",
-                "align":"left"
+                "align":"left", 
+                "enableSort": true
             },
             {
                 "title": "Payer RefId",
                 "valueMap": "payment.payerReferenceId",
-                "align":"left"
+                "align":"left",
+                "enableSort": true
             },
             {
                 "title": "Payee RefId",
                 "valueMap": "payment.payeeReferenceId",
-                "align":"left"
+                "align":"left",
+                "enableSort": true
             },
             {
                 "title": "Payment substatus tracking",
                 "valueMap": "payment.payeeReferenceId",
-                "align":"left"
+                "align":"left",
+                "enableSort": true
             }
         ],
         "additionalProperties":{
@@ -3801,7 +3812,7 @@
                 "className":"alignRight",
                 "gridSize":3,
                 "hideBtnFor":{
-                    "sourceName":["FNBO_Cash","FNBO_Card","QuickBooks_Online","Oracle_NetSuite","QuickBooks_Desktop"]
+                    "sourceName":["FNBO_Cash","FNBO_Card","QuickBooks_Online","Oracle_NetSuite","QuickBooks_Desktop","Centime_Banking"]
                 },
                 "action": {
                     "type": "updateCall",
