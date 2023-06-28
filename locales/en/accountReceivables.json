@@ -385,13 +385,20 @@
     "rolesError": "An error occurred during fetching the customer contact roles",
     "roleDeleted": "Customer contact role successfully deleted",
     "addRole": "Add Role",
-    "ContactUpdateNotificationSuccess": "Successfully updated contact details",
-    "ContactUpdateNotificationError": "An error occurred while updating contact details",
+    "contactUpdateNotificationSuccess": "Successfully updated contact details",
+    "contactUpdateNotificationError": "An error occurred while updating contact details",
     "paymentOptions": "Payment settings",
     "onlinePaymentOptions": "Online payment options",
     "paymentHubLink": "Payment hub link",
     "paymentHub": "Payment hub",
     "paymentLinks": "Payment links",
     "disableOnlinePayments": "Disable online payments",
-    "HistoryActionPaymentSettingsUpdated": "Payment settings updated"
+    "HistoryActionPaymentSettingsUpdated": "Payment settings updated",
+    "deleteRoleError": "An error occurred during the customer contact role deletion",
+    "allContactsAreInvalid":"No customer contact emails valid",
+    "someContactsAreInvalid":"One or more customer emails invalid",
+    "enableCommunicationContact": "Please set atleast one communication contact to enable all communications",
+    "maxContactReachedMsg":"Maximum limit of {{count}} roles reached.",
+    "noCommunicationContacts": "No Communication contacts available"
 }
+
