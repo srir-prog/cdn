@@ -399,8 +399,8 @@
     "paymentHub": "Payment hub",
     "uniquePaymentLinks": "Unique payment links",
     "none": "None",
-    "HistoryActionPaymentSettingsUpdated": "Payment settings updated"
-    "enableCommunicationContact": "Please set atleast one communication contact to enable all communications"
+    "HistoryActionPaymentSettingsUpdated": "Payment settings updated",
+    "enableCommunicationContact": "Please set atleast one communication contact to enable all communications",
     "maxContactReachedMsg":"Maximum limit of {{count}} roles reached.",
     "noCommunicationContacts": "No Communication contacts available"
 }
