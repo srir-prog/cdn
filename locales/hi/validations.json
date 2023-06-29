@@ -84,5 +84,5 @@
     "maxSurchargeError": "राशि लागू क्रेडिट कार्ड राशि से अधिक है",
     "surchargePercentageRange": "मान {{maxSurchargePercentage}}% या उससे कम होना चाहिए",
     "inValidRoutingNumberWithoutBank": "अमान्य रूटिंग नंबर",
-    "minPaymentSettingsAmount": "मूल्य $1 या अधिक होना चाहिए"
+    "minPaymentSettingsAmount": "मूल्य {{minPaymentAmount}} या अधिक होना चाहिए"
 }
