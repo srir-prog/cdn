@@ -86,5 +86,6 @@
     "minSurchargeError": "The amount is less than the applicable credit card amount",
     "maxSurchargeError": "The amount exceeds the applicable credit card amount",
     "surchargePercentageRange": "The value should be {{maxSurchargePercentage}}% or less",
-    "inValidRoutingNumberWithoutBank": "Invalid routing number"
+    "inValidRoutingNumberWithoutBank": "Invalid routing number",
+    "minPaymentSettingsAmount": "The value should be $1 or more"
 }
