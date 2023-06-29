@@ -200,12 +200,13 @@
                             "options": {
                                 "QuickBooks Online": "QuickBooks Online",
                                 "Oracle NetSuite": "Oracle NetSuite",
-                                "QuickBooks Desktop": "QuickBooks Desktop"
+                                "QuickBooks Desktop": "QuickBooks Desktop",
+                                "Centime Banking": "Centime Banking"
                             },
                             "tnsForOptions": false,
                             "multiple": true
                         },
-                        "default":["QuickBooks Online","Oracle NetSuite","QuickBooks Desktop"],
+                        "default":["QuickBooks Online","Oracle NetSuite","QuickBooks Desktop","Centime Banking"],
                         "queryName": "sourceName"
                     },
                     {
@@ -1648,6 +1649,30 @@
                     {
                         "label": "centime-full-suite",
                         "value": 32
+                    },
+                    {
+                        "label": "centime-customer-portal",
+                        "value": 33
+                    },
+                    {
+                        "label": "centime-secure",
+                        "value": 34
+                    },
+                    {
+                        "label": "centime-secure-sandbox",
+                        "value": 35
+                    },
+                    {
+                        "label": "centime-vault-all",
+                        "value": 36
+                    },
+                    {
+                        "label": "centime-vault-read",
+                        "value": 37
+                    },
+                    {
+                        "label": "vaultsandboxtest1",
+                        "value": 39
                     }
                 ]
             }
@@ -2262,6 +2287,30 @@
                     {
                         "label": "centime-full-suite",
                         "value": 32
+                    },
+                    {
+                        "label": "centime-customer-portal",
+                        "value": 33
+                    },
+                    {
+                        "label": "centime-secure",
+                        "value": 34
+                    },
+                    {
+                        "label": "centime-secure-sandbox",
+                        "value": 35
+                    },
+                    {
+                        "label": "centime-vault-all",
+                        "value": 36
+                    },
+                    {
+                        "label": "centime-vault-read",
+                        "value": 37
+                    },
+                    {
+                        "label": "vaultsandboxtest1",
+                        "value": 39
                     }
                 ]
             },
@@ -2548,6 +2597,30 @@
                     {
                         "label": "centime-full-suite",
                         "value": 32
+                    },
+                    {
+                        "label": "centime-customer-portal",
+                        "value": 33
+                    },
+                    {
+                        "label": "centime-secure",
+                        "value": 34
+                    },
+                    {
+                        "label": "centime-secure-sandbox",
+                        "value": 35
+                    },
+                    {
+                        "label": "centime-vault-all",
+                        "value": 36
+                    },
+                    {
+                        "label": "centime-vault-read",
+                        "value": 37
+                    },
+                    {
+                        "label": "vaultsandboxtest1",
+                        "value": 39
                     }
                 ]
             },
@@ -6235,6 +6308,30 @@
                     {
                         "label": "centime-full-suite",
                         "value": 32
+                    },
+                    {
+                        "label": "centime-customer-portal",
+                        "value": 33
+                    },
+                    {
+                        "label": "centime-secure",
+                        "value": 34
+                    },
+                    {
+                        "label": "centime-secure-sandbox",
+                        "value": 35
+                    },
+                    {
+                        "label": "centime-vault-all",
+                        "value": 36
+                    },
+                    {
+                        "label": "centime-vault-read",
+                        "value": 37
+                    },
+                    {
+                        "label": "vaultsandboxtest1",
+                        "value": 39
                     }
                 ],
                 "enableSort": true,
@@ -6261,6 +6358,10 @@
                     {
                         "label": "QuickBooks Desktop",
                         "value": 4
+                    },
+                    {
+                        "label": "Centime Banking",
+                        "value": 39
                     }
                 ],
                 "action": {
@@ -6646,6 +6747,30 @@
                     {
                         "label": "centime-full-suite",
                         "value": 32
+                    },
+                    {
+                        "label": "centime-customer-portal",
+                        "value": 33
+                    },
+                    {
+                        "label": "centime-secure",
+                        "value": 34
+                    },
+                    {
+                        "label": "centime-secure-sandbox",
+                        "value": 35
+                    },
+                    {
+                        "label": "centime-vault-all",
+                        "value": 36
+                    },
+                    {
+                        "label": "centime-vault-read",
+                        "value": 37
+                    },
+                    {
+                        "label": "vaultsandboxtest1",
+                        "value": 39
                     }
                 ],
                 "editType": "select",
