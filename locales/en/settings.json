@@ -653,5 +653,6 @@
     "surchargeAccountInfoLine": "Specify a surcharge account to post applicable invoices",
     "discountAccountInfoLine": "Specify a discount account to post invoices with discount terms",
     "CustomerPortalSettings": "Payment hub settings",
-    "onlinePaymentPreferences": "Online payment preferences"
+    "onlinePaymentPreferences": "Online payment preferences",
+    "cffGenerationInProgressErrorMsg" : "You will be able to modify prediction settings after predictions are successfully regenerated"
 }
