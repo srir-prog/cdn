@@ -653,7 +653,7 @@
     "successNotificationAfterDeletingACH": "ACH details deleted successfully",
     "successNotificationAfterDeletingCredit": "Credit card details deleted successfully",
     "successfullyUpdatedPaymentMethod": "Payment method successfully updated",
-    "cashFlowSettingUpdateConfirmText": "All existing predictions will regenerate according to the new settings. Are you sure you want to proceed?"
+    "cashFlowSettingUpdateConfirmText": "All existing predictions will regenerate according to the new settings. Are you sure you want to proceed?",
     "onlinePaymentPreferences": "Online payment preferences",
     "cffGenerationInProgressErrorMsg" : "You will be able to modify prediction settings after predictions are successfully regenerated"
 }
