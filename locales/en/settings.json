@@ -597,9 +597,9 @@
     "aggregationPeriod": "Consolidate predictions by",
     "hidePredictionsInNext": "Exclude predictions for the next",
     "hideManualTransactionHideDays": "Exclude manual transactions for the next ",
-    "daily": "Daily",
-    "weekly": "Weekly",
-    "monthly": "Monthly",
+    "daily": "Day",
+    "weekly": "Week",
+    "monthly": "Month",
     "cashIn": "Cash in",
     "cashOut": "Cash out",
     "cfCategoryValue": "Type",
@@ -654,5 +654,6 @@
     "successNotificationAfterDeletingACH": "ACH details deleted successfully",
     "successNotificationAfterDeletingCredit": "Credit card details deleted successfully",
     "successfullyUpdatedPaymentMethod": "Payment method successfully updated",
-    "cashFlowSettingUpdateConfirmText": "All existing predictions will regenerate according to the new settings. Are you sure you want to proceed?"
+    "cashFlowSettingUpdateConfirmText": "These settings impact existing and new predictions. Are you sure you want to proceed?",
+    "cffSettingSidePanelWarningText": "These settings impact existing and new predictions"
 }
