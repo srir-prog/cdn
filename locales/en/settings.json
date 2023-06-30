@@ -655,6 +655,11 @@
     "successfullyUpdatedPaymentMethod": "Payment method successfully updated",
     "cashFlowSettingUpdateConfirmText": "These settings impact existing and new predictions. Are you sure you want to proceed?",
     "cffSettingSidePanelWarningText": "These settings impact existing and new predictions",
-     "onlinePaymentPreferences": "Online payment preferences",
-    "cffGenerationInProgressErrorMsg" : "You will be able to modify prediction settings after predictions are successfully regenerated"
+    "onlinePaymentPreferences": "Online payment preferences",
+    "cffGenerationInProgressErrorMsg" : "You will be able to modify prediction settings after predictions are successfully regenerated",
+    "invoiceFields": "Invoice fields",
+    "invoiceFieldsDescription": "Required fields by General Ledger set as required by default. Select additional fields as required or visible in Centime.",
+    "fields": "Fields",
+    "showThisFieldFor": "Show this field for",
+    "mandatoryFor": "Mandatory for"
 }
