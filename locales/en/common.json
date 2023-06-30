@@ -580,5 +580,6 @@
     "deleteItems": "Delete items",
     "deleteExpense":"Delete expense",
     "itemsAccordionLabel": "Items ({{total}})",
-    "expenseAccordionLabel":"Expense ({{total}})"
+    "expenseAccordionLabel":"Expense ({{total}})",
+    "businessAddress":"Business address"
 }

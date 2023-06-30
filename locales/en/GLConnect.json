@@ -1,8 +1,8 @@
 {
     "SyncInProgress": "Sync in progress",
     "SyncFailed": "Data sync failed",
-    "+ConnectEntity": "+ Connect a business entity",
-    "ConnectEntity": "Connect a business entity",
+    "+ConnectEntity": "+ Add a company",
+    "ConnectEntity": "Add a company",
     "---ADD GL PAGE----": "---------------ADD GL PAGE--------------------",
     "SelectEntity": "Select a business entity",
     "AddEntity": "Add a business entity",
@@ -318,7 +318,6 @@
     "selectSubsidiary": "Select Subsidiary",
     "SubsidiaryList": "Subsidiary list",
     "+AddCentimeBanking": "+ Add Business Information",
-    "AddCentimeBanking": "Add Business Information",
     "BusinessInfo": "Business Information",
     "confirmBusinessName": "Legal name",
     "accountingSystem": "Accounting System",
