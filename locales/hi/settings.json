@@ -602,7 +602,7 @@
     "successNotificationAfterDeletingCredit": "भुगतान विधि सफलतापूर्वक हटा दी गई",
     "successfullyUpdatedPaymentMethod": "भुगतान विधि सफलतापूर्वक अपडेट की गई है",
     "creditCardPreferences": "क्रेडिट कार्ड वरीयताएँ",
-    "paymentHubLink": "पेमेंट हब लिंक",
+    "paymentHub": "पेमेंट हब",
     "receiveOnlinePayments": "ऑनलाइन भुगतान प्राप्त करें",
     "allowCreditCardsPayments": "क्रेडिट कार्ड भुगतान की अनुमति दें",
     "enableCreditCardPayments": "चालान राशियों के लिए सक्षम करें",
@@ -625,5 +625,6 @@
     "surchargeAccountInfoLine": "लागू चालान पोस्ट करने के लिए एक अधिभार खाता निर्दिष्ट करें",
     "discountAccountInfoLine": "छूट शर्तों के साथ चालान पोस्ट करने के लिए एक डिस्काउंट खाता निर्दिष्ट करें",
     "onlinePaymentPreferences": "ऑनलाइन भुगतान वरीयताएँ",
-    "CustomerPortalSettings": "भुगतान हब सेटिंग्स"
+    "CustomerPortalSettings": "भुगतान हब सेटिंग्स",
+    "epdHeaderTooltip": "चालान भुगतान शर्तों द्वारा निर्धारित"
 }

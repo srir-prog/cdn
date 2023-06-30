@@ -627,7 +627,7 @@
     "savedPayFromAccountText": "Saved pay from account",
     "defaultPaymentMethod": "Default payment method",
     "creditCardPreferences": "Credit card preferences",
-    "paymentHubLink": "Payment hub link",
+    "paymentHub": "Payment hub",
     "receiveOnlinePayments": "Receive online payments",
     "allowCreditCardsPayments": "Allow credit card payments",
     "enableCreditCardPayments": "Enable for invoice amounts",
@@ -654,5 +654,6 @@
     "successNotificationAfterDeletingACH": "ACH details deleted successfully",
     "successNotificationAfterDeletingCredit": "Credit card details deleted successfully",
     "successfullyUpdatedPaymentMethod": "Payment method successfully updated",
-    "cashFlowSettingUpdateConfirmText": "All existing predictions will regenerate according to the new settings. Are you sure you want to proceed?"
+    "cashFlowSettingUpdateConfirmText": "All existing predictions will regenerate according to the new settings. Are you sure you want to proceed?",
+    "epdHeaderTooltip": "Determined by invoice payment terms"
 }
