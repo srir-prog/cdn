@@ -628,7 +628,7 @@
     "savedPayFromAccountText": "Saved pay from account",
     "defaultPaymentMethod": "Default payment method",
     "creditCardPreferences": "Credit card preferences",
-    "paymentHubLink": "Payment hub link",
+    "paymentHub": "Payment hub",
     "receiveOnlinePayments": "Receive online payments",
     "allowCreditCardsPayments": "Allow credit card payments",
     "enableCreditCardPayments": "Enable for invoice amounts",
@@ -657,6 +657,7 @@
     "cashFlowSettingUpdateConfirmText": "These settings impact existing and new predictions. Are you sure you want to proceed?",
     "cffSettingSidePanelWarningText": "These settings impact existing and new predictions",
     "aggregationPeriodInfoTooltip": "Predictions will be aggregated at the end of the period",
+    "epdHeaderTooltip": "Determined by invoice payment terms",
      "onlinePaymentPreferences": "Online payment preferences",
     "cffGenerationInProgressErrorMsg" : "You will be able to modify prediction settings after predictions are successfully regenerated"
 }
