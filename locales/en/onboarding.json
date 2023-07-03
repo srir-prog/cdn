@@ -137,5 +137,9 @@
     "annualRevenue":"Annual revenue",
     "accountingSystem":"Accounting system",
     "selectStateOfIncorporation":"Choose your State of incorporation",
-    "selectBusinessLegalStructure":"Choose your Business legal structure"
+    "selectBusinessLegalStructure":"Choose your Business legal structure",
+    "selectIndustry":"Choose your Industry",
+    "addAuthorizedSignatoryAndControllingOfficer":"Add an Authorized signatory and a Controlling officer to proceed to the next step",
+    "networkErrorMessage": "Unable to process application due to a technical error. Please try again later",
+    "submitSummary":"You will be directed outside of Centime Banking to submit your application"
 }

@@ -324,5 +324,5 @@
     "chooseYourAccSys": "Choose your accounting system",
     "legalNameandTaxId":"Enter the legal name and tax ID for your business",
     "secureVerificationTitle":"Enable two-factor authentication for your account",
-    "secureProvideMobileNumber":"Please provide a mobile number"
+    "secureProvideMobileNumber":"Please enter your mobile number to receive the verification code"
 }
