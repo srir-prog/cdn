@@ -2,8 +2,8 @@
     "SyncInProgress": "प्रगति में सिंक",
     "EnterCredentials": "क्रेडेंशियल दर्ज करें",
     "SyncFailed": "डेटा सिंक विफल",
-    "+ConnectEntity": "+ एक व्यवसाय इकाई कनेक्ट करें",
-    "ConnectEntity": "एक व्यवसाय इकाई कनेक्ट करें",
+    "+ConnectEntity": "+ एक कंपनी जोड़ें",
+    "ConnectEntity": "एक कंपनी जोड़ें",
     "SelectEntity": "एक व्यवसाय इकाई का चयन करें",
     "AddEntity": "एक व्यवसाय इकाई जोड़ें",
     "NameEntity": "व्यवसाय इकाई का नाम बताइए",
@@ -307,5 +307,5 @@
     "accountingSystem": "Accounting System",
     "chooseYourAccSys": "Choose your accounting system",
     "secureVerificationTitle":"अपने खाते के लिए दो-कारक प्रमाणीकरण सक्षम करें",
-    "secureProvideMobileNumber":"कृपया एक मोबाइल नंबर प्रदान करें"
+    "secureProvideMobileNumber":"सत्यापन कोड प्राप्त करने के लिए कृपया अपना मोबाइल नंबर दर्ज करें"
 }
