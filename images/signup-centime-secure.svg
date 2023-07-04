@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="712px" height="900px" viewBox="0 0 712 900" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Right Pane_bg_blues</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="712" height="900"></rect>
+        <linearGradient x1="73.689387%" y1="-11.944442%" x2="53.735806%" y2="102.222222%" id="linearGradient-3">
+            <stop stop-color="#4194E7" offset="0%"></stop>
+            <stop stop-color="#3D5899" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-4" x="0" y="0" width="712" height="900"></rect>
+        <linearGradient x1="68.4210494%" y1="19.112958%" x2="72.192982%" y2="71.9932292%" id="linearGradient-6">
+            <stop stop-color="#4194E7" offset="0%"></stop>
+            <stop stop-color="#3D5899" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-7" x="0" y="0" width="712" height="900"></rect>
+        <linearGradient x1="36.5789523%" y1="61.4447495%" x2="56.1403521%" y2="25.7316067%" id="linearGradient-9">
+            <stop stop-color="#4BA5FF" offset="0%"></stop>
+            <stop stop-color="#213D80" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-10" x="0" y="0" width="712" height="900"></rect>
+        <linearGradient x1="74.5346907%" y1="24.9582473%" x2="85.7021981%" y2="65.0781918%" id="linearGradient-12">
+            <stop stop-color="#4194E7" offset="0%"></stop>
+            <stop stop-color="#3D5899" stop-opacity="0.400000006" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-13" x="0" y="0" width="712" height="900"></rect>
+        <linearGradient x1="102.826088%" y1="17.1644628%" x2="33.0434889%" y2="71.2665405%" id="linearGradient-15">
+            <stop stop-color="#4194E7" offset="0%"></stop>
+            <stop stop-color="#3D5899" stop-opacity="0.400000006" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-16" x="0" y="0" width="712" height="900"></rect>
+        <linearGradient x1="74.5346884%" y1="24.9582479%" x2="80.9649098%" y2="56.5497086%" id="linearGradient-18">
+            <stop stop-color="#4194E7" offset="0%"></stop>
+            <stop stop-color="#3D5899" stop-opacity="0.400000006" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-19" x="0" y="0" width="712" height="900"></rect>
+        <linearGradient x1="16.0564897%" y1="44.424456%" x2="41.8410112%" y2="52.4241971%" id="linearGradient-21">
+            <stop stop-color="#4194E7" stop-opacity="0.800000012" offset="0%"></stop>
+            <stop stop-color="#4194E7" stop-opacity="0.800000012" offset="12.0828532%"></stop>
+            <stop stop-color="#3D5899" stop-opacity="0.300000012" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-22" x="0" y="0" width="712" height="900"></rect>
+        <linearGradient x1="63.9215653%" y1="37.399303%" x2="14.5097991%" y2="53.9347321%" id="linearGradient-24">
+            <stop stop-color="#4194E7" offset="0%"></stop>
+            <stop stop-color="#3D5899" stop-opacity="0.100000001" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-25" x="0" y="0" width="712" height="900"></rect>
+        <linearGradient x1="81.2928395%" y1="-1.23599048e-15%" x2="42.726502%" y2="61.0677697%" id="linearGradient-27">
+            <stop stop-color="#C3DDFF" offset="0%"></stop>
+            <stop stop-color="#BED4FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Centime-Bankning-16-June-2023" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1" transform="translate(-740, 0)">
+            <g id="Right-Pane_bg_blues" transform="translate(740, 0)">
+                <g id="right">
+                    <g id="Rectangle-Clipped">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="path-1"></g>
+                        <rect id="Rectangle" fill="url(#linearGradient-3)" fill-rule="nonzero" mask="url(#mask-2)" x="0" y="0" width="712" height="900"></rect>
+                    </g>
+                    <g id="Vector-1-Clipped">
+                        <mask id="mask-5" fill="white">
+                            <use xlink:href="#path-4"></use>
+                        </mask>
+                        <g id="path-1"></g>
+                        <polygon id="Vector-1" fill="url(#linearGradient-6)" fill-rule="nonzero" mask="url(#mask-5)" points="-11 311 559 -137 -11 -137"></polygon>
+                    </g>
+                    <g id="Vector-20-Clipped">
+                        <mask id="mask-8" fill="white">
+                            <use xlink:href="#path-7"></use>
+                        </mask>
+                        <g id="path-1"></g>
+                        <polygon id="Vector-20" fill="url(#linearGradient-9)" fill-rule="nonzero" mask="url(#mask-8)" transform="translate(656, 362) rotate(-180) translate(-656, -362)" points="370.99998 585.999964 940.99998 137.999964 370.99998 137.999964"></polygon>
+                    </g>
+                    <g id="Vector-17-Clipped">
+                        <mask id="mask-11" fill="white">
+                            <use xlink:href="#path-10"></use>
+                        </mask>
+                        <g id="path-1"></g>
+                        <polygon id="Vector-17" fill="url(#linearGradient-12)" fill-rule="nonzero" mask="url(#mask-11)" points="-68 237 502 -211 -68 -211"></polygon>
+                    </g>
+                    <g id="Vector-18-Clipped">
+                        <mask id="mask-14" fill="white">
+                            <use xlink:href="#path-13"></use>
+                        </mask>
+                        <g id="path-1"></g>
+                        <polygon id="Vector-18" fill="url(#linearGradient-15)" fill-rule="nonzero" mask="url(#mask-14)" points="495 777 725 597 725 777 661.551726 777 661.551726 722.21739 598.103451 777"></polygon>
+                    </g>
+                    <g id="Vector-16-Clipped">
+                        <mask id="mask-17" fill="white">
+                            <use xlink:href="#path-16"></use>
+                        </mask>
+                        <g id="path-1"></g>
+                        <polygon id="Vector-16" fill="url(#linearGradient-18)" fill-rule="nonzero" mask="url(#mask-17)" points="142 828 712 380 712 828 554.758606 828 554.758606 691.652182 397.517242 828"></polygon>
+                    </g>
+                    <g id="Vector-12-Clipped">
+                        <mask id="mask-20" fill="white">
+                            <use xlink:href="#path-19"></use>
+                        </mask>
+                        <g id="path-1"></g>
+                        <path d="M-146,771.500034 C-90.1666679,739.333366 60.8000031,687.400038 218,737.000036 C414.5,799.000036 596,842.5 810,838.5 L810,927.5 L-146,927.5 L-146,771.500034 Z" id="Vector-12" fill="url(#linearGradient-21)" fill-rule="nonzero" mask="url(#mask-20)"></path>
+                    </g>
+                    <g id="Vector-13-Clipped">
+                        <mask id="mask-23" fill="white">
+                            <use xlink:href="#path-22"></use>
+                        </mask>
+                        <g id="path-1"></g>
+                        <path d="M-27.5,772.499977 C27.3333321,806.333309 227,850.199975 587,754.999978 C947,659.799981 1177.33334,1038.99997 1247.5,1240.49997 L-27.5,1240.49997 L-27.5,772.499977 Z" id="Vector-13" fill="url(#linearGradient-24)" fill-rule="nonzero" mask="url(#mask-23)"></path>
+                    </g>
+                    <g id="Ellipse-8-Clipped">
+                        <mask id="mask-26" fill="white">
+                            <use xlink:href="#path-25"></use>
+                        </mask>
+                        <g id="path-1"></g>
+                    </g>
+                </g>
+                <rect id="Rectangle" fill="url(#linearGradient-27)" fill-rule="nonzero" opacity="0.400000006" style="mix-blend-mode: hard-light;" x="0" y="0" width="712" height="900"></rect>
+                <rect id="Rectangle" fill="#08255D" fill-rule="nonzero" opacity="0.400000006" style="mix-blend-mode: hard-light;" x="0" y="0" width="712" height="900"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
