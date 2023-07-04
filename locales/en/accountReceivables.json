@@ -371,7 +371,7 @@
     "createdBy": "Created by",
     "actions": "Actions",
     "deleteConfirmMsg" : "Are you sure you want to delete it?",
-    "deleteInfoMsg": "Contacts associated with this role will get moved to the default role",
+    "deleteInfoMsg": "Contacts associated with this role will get moved to the company contact role",
     "isCommunicationContactInfo": "Communication contacts receive automated reminder emails and statements",
     "phone": "Phone",
     "roles": "Role",
