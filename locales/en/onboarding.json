@@ -104,7 +104,7 @@
     "businessInformation":"Add business information",
     "ownershipInformation":"Add ownership information",
     "reviewSubmit":"Review & Submit",
-    "centimeBankingInProgress":"Your application is under review",
+    "centimeBankingInProgress":"Your application is being reviewed. In the meantime, connect your other accounts.",
     "talkToUs":"Talk to us",
     "nsSessionTimeout":"Session Timeout",
     "nsSessionTimeoutSummary":"You've been logged out due to inactivity. To start a new session, click on 'Centime' from the menu bar and select 'Application' and 'Open'.",
@@ -137,5 +137,9 @@
     "annualRevenue":"Annual revenue",
     "accountingSystem":"Accounting system",
     "selectStateOfIncorporation":"Choose your State of incorporation",
-    "selectBusinessLegalStructure":"Choose your Business legal structure"
+    "selectBusinessLegalStructure":"Choose your Business legal structure",
+    "selectIndustry":"Choose your Industry",
+    "addAuthorizedSignatoryAndControllingOfficer":"Add an Authorized signatory and a Controlling officer to proceed to the next step",
+    "networkErrorMessage": "Unable to process application due to a technical error. Please try again later",
+    "submitSummary":"You will be directed outside of Centime Banking to submit your application"
 }
