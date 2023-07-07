@@ -659,5 +659,10 @@
     "aggregationPeriodInfoTooltip": "Predictions will be aggregated at the end of the period",
     "epdHeaderTooltip": "Determined by invoice payment terms",
      "onlinePaymentPreferences": "Online payment preferences",
-    "cffGenerationInProgressErrorMsg" : "You will be able to modify prediction settings after predictions are successfully regenerated"
+    "cffGenerationInProgressErrorMsg" : "You will be able to modify prediction settings after predictions are successfully regenerated",
+    "invoiceFields": "Invoice fields",
+    "invoiceFieldsDescription": "Required fields by General Ledger set as required by default. Select additional fields as required or visible in Centime.",
+    "fields": "Fields",
+    "showThisFieldFor": "Show this field for",
+    "mandatoryFor": "Mandatory for"
 }
