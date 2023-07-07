@@ -581,5 +581,8 @@
     "deleteExpense":"Delete expense",
     "itemsAccordionLabel": "Items ({{total}})",
     "expenseAccordionLabel":"Expense ({{total}})",
-    "businessAddress":"Business address"
+    "businessAddress":"Business address",
+    "invoiceCapture": "Invoice capture",
+    "combineDocumentLines": "Combine all lines into one",
+    "historyActionCombineDocumentLines": "Combine all lines into one setting updated"
 }
