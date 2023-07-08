@@ -575,7 +575,8 @@
     "expense":"Expense",
     "header":"Header",
     "deleteItems": "Delete items",
-    "deleteExpense":"Delete expense",
+    "deleteExpenses":"Delete expenses",
     "itemsAccordionLabel": "Items ({{total}})",
-    "expenseAccordionLabel":"Expense ({{total}})"
+    "expensesAccordionLabel":"Expenses ({{total}})",
+    "businessAddress":"Business address"
 }

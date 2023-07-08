@@ -573,7 +573,8 @@
     "expense":"व्यय",
     "header":"हैडर",
     "deleteItems": "आइटम हटाएं",
-    "deleteExpense":"व्यय हटाएं",
+    "deleteExpenses":"खर्च हटाएं",
     "itemsAccordionLabel": "हैडर ({{total}})",
-    "expenseAccordionLabel":"व्यय ({{total}})"
+    "expensesAccordionLabel":"व्यय ({{total}})",
+    "businessAddress":"व्यावसायिक पता"
 }
