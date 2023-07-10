@@ -635,5 +635,8 @@
     "showThisFieldFor": "के लिए यह फ़ील्ड दिखाएँ",
     "mandatoryFor": "के लिए अनिवार्य है",
     "addFieldWithPlusPrefix": "+ फ़ील्ड जोड़ें",
-    "addField": "फ़ील्ड जोड़ें"
+    "addField": "फ़ील्ड जोड़ें",
+    "fieldRequiredByGeneralLedger": "यह फ़ील्ड आपके सामान्य लेजर के लिए आवश्यक है",
+    "successFullyUpdatedInvoiceFields": "सेटिंग्स सफलतापूर्वक अपडेट की गईं",
+    "errorsUpdatingInvoiceFields": "सेटिंग्स को अद्यतन करने में त्रुटियाँ आईं। कृपया पुन: प्रयास करें।"
 }
