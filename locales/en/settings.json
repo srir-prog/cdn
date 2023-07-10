@@ -664,5 +664,7 @@
     "invoiceFieldsDescription": "Required fields by General Ledger set as required by default. Select additional fields as required or visible in Centime.",
     "fields": "Fields",
     "showThisFieldFor": "Show this field for",
-    "mandatoryFor": "Mandatory for"
+    "mandatoryFor": "Mandatory for",
+    "addFieldWithPlusPrefix": "+ Add field",
+    "addField": "Add field"
 }
