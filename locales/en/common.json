@@ -581,5 +581,6 @@
     "deleteExpense":"Delete expense",
     "itemsAccordionLabel": "Items ({{total}})",
     "expenseAccordionLabel":"Expense ({{total}})",
-    "businessAddress":"Business address"
+    "businessAddress":"Business address",
+    "icon-planned": "Payment is planned"
 }
