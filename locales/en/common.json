@@ -584,5 +584,7 @@
     "businessAddress":"Business address",
     "invoiceCapture": "Invoice capture",
     "combineDocumentLines": "Combine all lines into one",
-    "historyActionCombineDocumentLines": "Combine all lines into one setting updated"
+    "historyActionCombineDocumentLines": "Combine all lines into one setting updated",
+    "expenseAccordionLabel":"Expense ({{total}})",
+    "icon-planned": "Payment is planned"
 }
