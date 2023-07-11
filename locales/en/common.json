@@ -575,11 +575,16 @@
     "moveItemToExpense": "Move to expense",
     "addNewItem": "+ Add new item",
     "items":"Items",
-    "expense":"Expense",
+    "expenses":"Expenses",
     "header":"Header",
     "deleteItems": "Delete items",
-    "deleteExpense":"Delete expense",
+    "deleteExpenses":"Delete expenses",
     "itemsAccordionLabel": "Items ({{total}})",
+    "expensesAccordionLabel":"Expenses ({{total}})",
+    "businessAddress":"Business address",
+    "invoiceCapture": "Invoice capture",
+    "combineDocumentLines": "Combine all lines into one",
+    "historyActionCombineDocumentLines": "Combine all lines into one setting updated",
     "expenseAccordionLabel":"Expense ({{total}})",
-    "businessAddress":"Business address"
+    "icon-planned": "Payment is planned"
 }

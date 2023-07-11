@@ -576,8 +576,13 @@
     "expense":"व्यय",
     "header":"हैडर",
     "deleteItems": "आइटम हटाएं",
-    "deleteExpense":"व्यय हटाएं",
+    "deleteExpenses": "खर्च हटाएं",
     "itemsAccordionLabel": "हैडर ({{total}})",
+    "expensesAccordionLabel":"व्यय ({{total}})",
+    "businessAddress":"व्यावसायिक पता",
+    "invoiceCapture": "चालान पर कब्जा",
+    "combineDocumentLines": "सभी पंक्तियों को एक में मिला दें",
+    "historyActionCombineDocumentLines": "अद्यतन की गई सभी पंक्तियों को एक सेटिंग में संयोजित करें",
     "expenseAccordionLabel":"व्यय ({{total}})",
-    "businessAddress":"व्यावसायिक पता"
+    "icon-planned": "भुगतान की योजना बनाई गई है"
 }
