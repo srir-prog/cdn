@@ -4878,10 +4878,24 @@
             {
                 "title": "A/C Id",
                 "valueMap": "accountId",
-                "renderType": "text",
+                "renderType": "Link",
                 "align":"left",
                 "width":"15%",
-                "enableSort": true
+                "enableSort": true,
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "BankAccountDetailsByAccountId"
+                    },
+                    "paramObjMap": {
+                        "clientId":"clientId",
+                        "accountId": "accountId"
+                    }
+                }
             },
             {
                 "title": "A/C name",
@@ -6348,9 +6362,41 @@
             {
                 "label": "Account Number",
                 "valueMap": "accountNumber"
+            },
+            {
+                "label": "Full Account Number",
+                "valueMap": "fullAccountNumber",
+                "editable": true
+            },
+            {
+                "label": "Routing Number",
+                "valueMap": "routingNumber",
+                "editable": true
             }
         ],
-        "ignoreKeys": ["clientName","paymentId", "clientId","glType"]
+        "ignoreKeys": ["clientName","paymentId", "clientId","glType","sourceName"],
+        "additionalProperties": {
+            "editableForm": true,
+            "onSaveAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "UpdateBankAccount"
+                },
+                "paramObjMap": {
+                    "clientId": "clientId",
+                    "accountId": "accountId",
+                    "fullAccountNumber": "fullAccountNumber",
+                    "routingNumber": "routingNumber"
+                },
+                "bodyObjMap": {}
+            }
+        }
     },
     "Bill Details": {
         "componentType": "detailsList",
@@ -8835,7 +8881,16 @@
                     },
                     "paramObjMap": {
                         "clientId": "clientId",
-                        "sourceName": "sourceName"
+                        "sourceName": "sourceName",
+                        "startDate":{
+                            "type":"dynamic",
+                            "value":"date",
+                            "range":7
+                        },
+                        "endDate":{
+                            "type":"dynamic",
+                            "value":"date"
+                        }
                     }
                 }
             },
