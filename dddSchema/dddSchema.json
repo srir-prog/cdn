@@ -1260,7 +1260,7 @@
                 "renderType": "Button",
                 "renderProps": {
                     "label": "Refresh cache",
-                    "fullWidth":true
+                    "fullWidth":false
                 },
                 "renderPosition": "bottom",
                 "gridSize":2,
@@ -1272,6 +1272,25 @@
                     ],
                     "paramObj": {
                         "templateId": "RefreshCache"
+                    }
+                }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Refresh Approval Policies",
+                    "fullWidth":true
+                },
+                "renderPosition": "bottom",
+                "gridSize":3,
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "RefreshApprovalPolicies"
                     }
                 }
             }
@@ -7515,8 +7534,28 @@
             }
         ],
         "additionalProperties": {
+            "deletableForm": true,
+            "editableForm":false,
             "enableSearch": true,
-            "paginationNeeded": true
+            "paginationNeeded": true,
+            "onDeleteAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "DeactivateClient"
+                },
+                "paramObjMap": {
+                    "clientId": "clientEntity.clientId"
+                },
+                "successNotificationObject": {
+                    "message": "Approval is pending"
+                }
+            }
         },
         "ignoreKeys": ["dataSourceDetailEntity.sourceName"],
         "additionalContent": [
