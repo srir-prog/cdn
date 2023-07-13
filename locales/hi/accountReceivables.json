@@ -399,8 +399,9 @@
     "uniquePaymentLinks": "अद्वितीय भुगतान लिंक",
     "none": "कोई नहीं",
     "HistoryActionPaymentSettingsUpdated": "भुगतान सेटिंग अपडेट की गईं",
-    "enableCommunicationContact":"कृपया सभी संचार सक्षम करने के लिए कम से कम एक संचार संपर्क सेट करें",
     "enableCommunicationContact": "कृपया सभी संचार सक्षम करने के लिए कम से कम एक संचार संपर्क सेट करें",
     "maxContactReachedMsg":"{{count}} भूमिकाओं की अधिकतम सीमा पूरी हो गई है.",
-    "noCommunicationContacts": "कोई संचार संपर्क उपलब्ध नहीं है"
+    "noCommunicationContacts": "कोई संचार संपर्क उपलब्ध नहीं है",
+    "planHistoryActionExpectedPaymentDateUpdated": "योजना: अपेक्षित भुगतान तिथि अपडेट की गई",
+    "planHistoryActionInvoiceStatusUpdated": "योजना: चालान की स्थिति अपडेट की गई"
 }
