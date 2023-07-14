@@ -1552,6 +1552,14 @@
             }
         ]
     },
+    "billPaymentScheduleQueryBuilder":{
+        "componentType": "detailsList",
+        "title": "Bill Payment Schedule Information",
+        "ignoreKeys": [],
+        "listInfo":[
+            
+        ]
+    },
     "buyerInfo":{
         "componentType": "detailsList",
         "title":"Buyer Information",
@@ -2194,8 +2202,132 @@
     "billPaymentSchedule":{
         "componentType": "table",
         "title":"Bill Payment Schedule",
-        "ignoreKeys":[""],
-        "headersInfo":[]
+        "ignoreKeys":["id","subPaymentMethod","clientId","payerPaymentAccountId","payeePaymentAccountId","paymentId","actionByUser",
+        "actionDate","approvalLevel","subStatus","glStatus","notes","history","exchangeRate","approvalEmailSent",
+    "paymentInformation","activeStatus","glAccountId","postingCounter","payerPaymentAccountName","planStatus","groupId"],
+        "headersInfo":[
+            {
+                "title": "Bill Id",
+                "valueMap": "billId",
+                "renderType": "Link",
+                "action": {
+                    "type": "drillDownNewPage",
+                    "dataKey":"billPaymentSchedule",
+                    "data": {
+                        "billPaymentScheduleQueryBuilder": {}
+                    }
+                  },
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Supplier Id",
+                "valueMap": "supplierId",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Payment Amount",
+                "valueMap": "paymentAmount",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true,
+                "formatType":"currency"
+            },
+            {
+                "title": "Payment Method",
+                "valueMap": "paymentMethod",
+                "displayValueEnum": [
+                    {
+                        "label": "CHECK",
+                        "value": 1
+                    },
+                    {
+                        "label": "ACH",
+                        "value": 2
+                    },
+                    {
+                        "label": "CENTIME_CARD",
+                        "value": 3
+                    },
+                    {
+                        "label": "CREDIT_CARD",
+                        "value": 4
+                    },
+                    {
+                        "label": "OTHER",
+                        "value": 5
+                    },
+                    {
+                        "label": "FX_PAYMENT",
+                        "value": 6
+                    },
+                    {
+                        "label": "CENTIME_PAY",
+                        "value": 7
+                    },
+                    {
+                        "label": "CENTIME_CASH",
+                        "value": 8
+                    }
+                ]
+            },
+            {
+                "title": "Payment Date",
+                "valueMap": "paymentDate",
+                "renderType": "text",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Payment Status",
+                "valueMap": "paymentStatus",
+                "displayValueEnum": [
+                    {
+                        "label": "ReadyToPay",
+                        "value": 0
+                    },
+                    {
+                        "label": "AwaitingForApproval",
+                        "value": 1
+                    },
+                    {
+                        "label": "Rejected",
+                        "value": 2
+                    },
+                    {
+                        "label": "Scheduled",
+                        "value": 3
+                    },
+                    {
+                        "label": "Failed",
+                        "value": 4
+                    },
+                    {
+                        "label": "Paid",
+                        "value": 5
+                    },
+                    {
+                        "label": "markedPaid",
+                        "value": 6
+                    },
+                    {
+                        "label": "paidInGeneralLedger",
+                        "value": 7
+                    },
+                    {
+                        "label": "userActionNeeded",
+                        "value": 8
+                    },
+                    {
+                        "label": "inProcess",
+                        "value": 9
+                    }
+                ],
+                "enableSort": true
+            }
+        ]
     },
     "billPayment":{
         "componentType": "table",
