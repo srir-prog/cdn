@@ -508,5 +508,6 @@
     "cffSettingSidePanelWarningText": "These settings impact existing and new predictions",
     "aggregationPeriodInfoTooltip": "Predictions will be aggregated at the end of the period",
     "hideManualTransactionHideDaysTooltip": "Centime will hide all transactions for this period to avoid overcounting",
-    "hidePredictionsInNextTooltip": "Centime will hide all predictions for this period to avoid overcounting"
+    "hidePredictionsInNextTooltip": "Centime will hide all predictions for this period to avoid overcounting",
+    "cffGenerationInProgressErrorMsg" : "You will be able to modify prediction settings after predictions are successfully regenerated"
 }
