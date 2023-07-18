@@ -402,7 +402,6 @@
     "HistoryActionPaymentSettingsUpdated": "Payment settings updated",
     "enableCommunicationContact": "Please set atleast one communication contact to enable all communications",
     "maxContactReachedMsg":"Maximum limit of {{count}} roles reached.",
-    "noCommunicationContacts": "No Communication contacts available"
-    "phoneNumber": "Phone number",
+    "noCommunicationContacts": "No Communication contacts available",
     "expectedDateHasPassed": "Expected date has passed"
 }
