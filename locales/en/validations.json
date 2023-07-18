@@ -89,5 +89,6 @@
     "inValidRoutingNumberWithoutBank": "Invalid routing number",
     "minPaymentSettingsAmount": "The value should be {{minPaymentAmount}} or more",
     "minValue": "Value must be greater than zero",
-    "maxValue": "Value must be less than or equal to {{amountLimit}}"
+    "maxValue": "Value must be less than or equal to {{amountLimit}}",
+    "expectedDateHasPassed": "Expected date has passed"
 }
