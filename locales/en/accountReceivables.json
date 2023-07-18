@@ -361,5 +361,6 @@
     "HeaderLabelDaysPastDue": "Days past due",
     "PartnerName": "Partner Name",
     "EmailOptionCompanyLegalName": "<company legal name>",
-    "phoneNumber": "Phone number"
+    "phoneNumber": "Phone number",
+    "expectedDateHasPassed": "Expected date has passed"
 }

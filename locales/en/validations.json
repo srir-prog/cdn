@@ -82,5 +82,6 @@
     "amountMinAndMaxGenericErrorMessage": "Amount must be between {{minAmount}} and {{maxAmount}}, both inclusive.",
     "periodMinAndMaxGenericErrorMessage":"Period must be between {{minPeriod}} and {{maxPeriod}}, both inclusive.",
     "noWhiteSpace": "Please remove leading or trailing spaces",
-    "paymentDateHasPassed": "Payment date has passed"
+    "paymentDateHasPassed": "Payment date has passed",
+    "expectedDateHasPassed": "Expected date has passed"
 }
