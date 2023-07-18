@@ -86,5 +86,6 @@
     "inValidRoutingNumberWithoutBank": "अमान्य रूटिंग नंबर",
     "minPaymentSettingsAmount": "मूल्य {{minPaymentAmount}} या अधिक होना चाहिए",
     "minValue": "मान शून्य से अधिक होना चाहिए",
-    "maxValue": "मान इससे कम या बराबर होना चाहिए {{amountLimit}}"
+    "maxValue": "मान इससे कम या बराबर होना चाहिए {{amountLimit}}",
+    "expectedDateHasPassed": "अपेक्षित तारीख निघून गेली"
 }
