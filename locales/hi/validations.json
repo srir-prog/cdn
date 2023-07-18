@@ -80,5 +80,12 @@
     "periodMinAndMaxGenericErrorMessage":"अवधि {{minPeriod}} और {{maxPeriod}} के बीच होनी चाहिए, दोनों समावेशी।",
     "noWhiteSpace": "कृपया अग्रणी या अनुगामी रिक्त स्थान निकालें",
     "paymentDateHasPassed": "भुगतान की तिथि बीत चुकी है",
+    "minSurchargeError": "राशि लागू क्रेडिट कार्ड राशि से कम है",
+    "maxSurchargeError": "राशि लागू क्रेडिट कार्ड राशि से अधिक है",
+    "surchargePercentageRange": "मान {{maxSurchargePercentage}}% या उससे कम होना चाहिए",
+    "inValidRoutingNumberWithoutBank": "अमान्य रूटिंग नंबर",
+    "minPaymentSettingsAmount": "मूल्य {{minPaymentAmount}} या अधिक होना चाहिए",
+    "minValue": "मान शून्य से अधिक होना चाहिए",
+    "maxValue": "मान इससे कम या बराबर होना चाहिए {{amountLimit}}",
     "expectedDateHasPassed": "अपेक्षित तारीख निघून गेली"
 }

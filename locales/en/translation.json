@@ -211,5 +211,7 @@
     "IconFilter": "Icon Filter",
     "ConfirmModal": "Confirmation Modal",
     "invalidBusinessEntityTaxId":"Unable to process application as the Tax ID is invalid. Please review the Tax ID and try again",
-    "ownershipError":"You need to specify a <ROLE - Ownership, Controlling officer, Authorised Signatory> in the 'Ownership and control' section under your company information to apply for CentimeBanking."
+    "ownershipError":"You need to specify a <ROLE - Ownership, Controlling officer, Authorised Signatory> in the 'Ownership and control' section under your company information to apply for CentimeBanking.",
+    "copied": "Copied",
+    "incompleteBusinessInfo":"Incomplete company information. You need to specify all mandatory details under the 'Company information' section under your company profile to apply."
 }
