@@ -659,5 +659,5 @@
     "aggregationPeriodInfoTooltip": "Predictions will be aggregated at the end of the period",
     "epdHeaderTooltip": "Determined by invoice payment terms",
      "onlinePaymentPreferences": "Online payment preferences",
-    "cffGenerationInProgressErrorMsg" : "You will be able to modify prediction settings after predictions are successfully regenerated"
+    "cffGenerationInProgressErrorMsg" : "Please wait for predictions to generate completely before modifying these settings"
 }
