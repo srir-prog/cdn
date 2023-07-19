@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1452px" height="365px" viewBox="0 0 1452 365" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bg</title>
+    <defs>
+        <linearGradient x1="50%" y1="0.877562076%" x2="50%" y2="76.2591228%" id="linearGradient-1">
+            <stop stop-color="#F6E5FF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Centime-Bankning-16-June-2023" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="5" transform="translate(0, -64)" fill="url(#linearGradient-1)">
+            <rect id="bg" style="mix-blend-mode: darken;" x="0" y="64" width="1452" height="365"></rect>
+        </g>
+    </g>
+</svg>
