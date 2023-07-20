@@ -216,5 +216,6 @@
     "selectView":"Select View",
     "saveView": "Save View",
     "saveViewAs":"Save View As",
-    "deleteViews": "Delete Views"
+    "deleteViews": "Delete Views",
+    "incompleteBusinessInfo":"Incomplete company information. You need to specify all mandatory details under the 'Company information' section under your company profile to apply."
 }

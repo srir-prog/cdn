@@ -84,5 +84,10 @@
     "maxSurchargeError": "राशि लागू क्रेडिट कार्ड राशि से अधिक है",
     "surchargePercentageRange": "मान {{maxSurchargePercentage}}% या उससे कम होना चाहिए",
     "inValidRoutingNumberWithoutBank": "अमान्य रूटिंग नंबर",
-    "minPaymentSettingsAmount": "मूल्य {{minPaymentAmount}} या अधिक होना चाहिए"
+    "minPaymentSettingsAmount": "मूल्य {{minPaymentAmount}} या अधिक होना चाहिए",
+    "minValue": "मान शून्य से अधिक होना चाहिए",
+    "maxValue": "मान इससे कम या बराबर होना चाहिए {{amountLimit}}",
+    "expectedDateIsInThePast": "अपेक्षित तारीख भूतकाळातील आहे",
+    "expectedDateIsNotChanged": "अपेक्षित तारीख बदललेली नाही",
+    "changeStatusBeforeSettingAnExpectedDate": "अपेक्षित तारीख सेट करण्यापूर्वी स्थिती बदला"
 }

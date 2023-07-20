@@ -4,7 +4,7 @@
   "payToLabel": "को भुगतान करें",
   "companyContactLabel": "कंपनी संपर्क",
   "actionTabsSelection": "कार्रवाई टैब चयन",
-  "successNotificationAfterPayment": "भुगतान प्रगति में है। भुगतान सफल होने के बाद आपको केवल ईमेल पुष्टि प्राप्त होगी",
+  "successNotificationAfterPayment": "भुगतान प्रगति में है। अपनी स्क्रीन के शीर्ष बाएं में \"भुगतान हब\" पर क्लिक करें ताकि स्थिति स्तंभ को रिफ्रेश कर सकें।",
   "genericErrorNotification": "कुछ गड़बड़ हो गई है, कृपया पुनः प्रयास करें",
   "errorNotificationAfterPayment": "भुगतान विफल हुआ है। भुगतान की स्थिति की जांच करें",
   "invalidCardCredDetails":"अमान्य कार्ड विवरण",
@@ -60,5 +60,8 @@
   "moreThanOnePaymentHubSupplier": "एक त्रुटि हुई है। कृपया संपर्क करें <ourLink></ourLink>",
   "supplierDisabledAccess": "भुगतान हब का उपयोग करने के लिए अपने आपूर्तिकर्ता से संपर्क करें",
   "defaultErrorMessageForEmailValidation": "एक त्रुटि हुई है। कृपया संपर्क करें <ourLink></ourLink>",
-  "failed": "विफल"
+  "failed": "विफल",
+  "noDataMessageForInvoicesTable": "आपके पास {{clientName}} के साथ कोई खुली चालान नहीं हैं।",
+  "infoAboutNextStep": "आपको अगली स्क्रीन पर अपनी भुगतान जानकारी दर्ज करने के लिए कहा जाएगा।",
+  "disabledInvoiceSelectionCheckBoxTooltip": "चालानों को केवल एक भुगतान विधि का उपयोग करके भुगतान किया जा सकता है।"
 }

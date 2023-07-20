@@ -104,7 +104,7 @@
     "businessInformation":"Add business information",
     "ownershipInformation":"Add ownership information",
     "reviewSubmit":"Review & Submit",
-    "centimeBankingInProgress":"Your application is under review",
+    "centimeBankingInProgress":"Your application is being reviewed. In the meantime, connect your other accounts.",
     "talkToUs":"Talk to us",
     "nsSessionTimeout":"Session Timeout",
     "nsSessionTimeoutSummary":"You've been logged out due to inactivity. To start a new session, click on 'Centime' from the menu bar and select 'Application' and 'Open'.",
