@@ -82,6 +82,7 @@
     "PostToGLAccount": "Post to GL account",
     "clickHere": "Click here",
     "PaymentModalBottomMessage": "<ourLink></ourLink> for a breakdown of the fee structure",
+    "markPaidUnsupportedToolTip": "Payments executed through Centime can not be marked paid",
     "NoPaymentTooltip": "Payment details are not added for the supplier",
     "SentToApprovalSuccess": "{{successfulInvoicesCount}} out of {{totalInvoicesCount}} invoices sent for approval",
     "ApprovalSuccess": "Payments for {{successfulInvoicesCount}} out of {{totalInvoicesCount}} invoices approved successfully",
