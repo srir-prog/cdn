@@ -153,6 +153,7 @@
     "secondApprovalPending": "दूसरी स्वीकृति लंबित",
     "thirdApprovalPending": "तीसरी स्वीकृति लंबित",
     "paymentFailed": "भुगतान विफल",
+    "voidPaymentInGL": "सामान्य खाता बही में इस भुगतान को रद्द करें",
     "unknown": "अनजान",
     "systemFailure": "प्रणाली की विफलता",
     "paymentAmountShouldBeTill2DecimalPlaces": "भुगतान राशि 2 दशमलव स्थानों तक होनी चाहिए",

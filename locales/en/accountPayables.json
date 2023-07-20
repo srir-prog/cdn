@@ -166,6 +166,7 @@
     "secondApprovalPending": "Second approval pending",
     "thirdApprovalPending": "Third approval pending",
     "paymentFailed": "Payment failed",
+    "voidPaymentInGL": "Void this payment in the General Ledger",
     "unknown": "Unknown",
     "systemFailure": "System failure",
     "paymentAmountShouldBeTill2DecimalPlaces": "Payment amount cannot have more than 2 decimal places",
