@@ -581,5 +581,8 @@
     "deleteExpense":"Delete expense",
     "itemsAccordionLabel": "Items ({{total}})",
     "expenseAccordionLabel":"Expense ({{total}})",
-    "businessAddress":"Business address"
+    "businessAddress":"Business address",
+    "discardUnsavedViewChanges":"There are unsaved changes to the table which will be lost. Please confirm if you want to continue switching your view ?",
+    "saveViewAs":  "Save View As",
+    "deleteViews": "Delete Views"
 }

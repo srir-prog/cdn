@@ -579,5 +579,8 @@
     "deleteExpense":"व्यय हटाएं",
     "itemsAccordionLabel": "हैडर ({{total}})",
     "expenseAccordionLabel":"व्यय ({{total}})",
-    "businessAddress":"व्यावसायिक पता"
+    "businessAddress":"व्यावसायिक पता",
+    "discardUnsavedViewChanges":"तालिका में सहेजे न गए परिवर्तन हैं जो खो जाएंगे। कृपया पुष्टि करें कि क्या आप अपना दृश्य बदलना जारी रखना चाहते हैं?",
+    "saveViewAs":"दृश्य को इस रूप में सहेजें",
+    "deleteViews": "दृश्य हटाएँ"
 }
