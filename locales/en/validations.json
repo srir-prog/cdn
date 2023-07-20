@@ -90,5 +90,7 @@
     "minPaymentSettingsAmount": "The value should be {{minPaymentAmount}} or more",
     "minValue": "Value must be greater than zero",
     "maxValue": "Value must be less than or equal to {{amountLimit}}",
-    "expectedDateHasPassed": "Expected date has passed"
+    "expectedDateIsInThePast": "Expected date is in the past",
+    "expectedDateIsNotChanged" : "Expected date is not changed",
+    "changeStatusBeforeSettingAnExpectedDate": "Change status before setting an expected date"
 }
