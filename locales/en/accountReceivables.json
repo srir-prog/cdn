@@ -402,8 +402,5 @@
     "HistoryActionPaymentSettingsUpdated": "Payment settings updated",
     "enableCommunicationContact": "Please set atleast one communication contact to enable all communications",
     "maxContactReachedMsg":"Maximum limit of {{count}} roles reached.",
-    "noCommunicationContacts": "No Communication contacts available",
-    "expectedDatIsInThePast": "Expected date is in the past",
-    "expectedDateIsNotChanged" : "Expected date is not changed",
-    "changeStatusBeforeSettingAnExpectedDate": "Change status before setting an expected date"
+    "noCommunicationContacts": "No Communication contacts available"
 }

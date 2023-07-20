@@ -401,8 +401,5 @@
     "HistoryActionPaymentSettingsUpdated": "भुगतान सेटिंग अपडेट की गईं",
     "enableCommunicationContact":"कृपया सभी संचार सक्षम करने के लिए कम से कम एक संचार संपर्क सेट करें",
     "maxContactReachedMsg":"{{count}} भूमिकाओं की अधिकतम सीमा पूरी हो गई है.",
-    "noCommunicationContacts": "कोई संचार संपर्क उपलब्ध नहीं है",
-    "expectedDatIsInThePast": "अपेक्षित तारीख भूतकाळातील आहे",
-    "expectedDateIsNotChanged": "अपेक्षित तारीख बदललेली नाही",
-    "changeStatusBeforeSettingAnExpectedDate": "अपेक्षित तारीख सेट करण्यापूर्वी स्थिती बदला"
+    "noCommunicationContacts": "कोई संचार संपर्क उपलब्ध नहीं है"
 }
