@@ -82,6 +82,7 @@
     "PostToGLAccount": "Post to GL account",
     "clickHere": "Click here",
     "PaymentModalBottomMessage": "<ourLink></ourLink> for a breakdown of the fee structure",
+    "markPaidUnsupportedToolTip": "Payments executed through Centime can not be marked paid",
     "NoPaymentTooltip": "Payment details are not added for the supplier",
     "SentToApprovalSuccess": "{{successfulInvoicesCount}} out of {{totalInvoicesCount}} invoices sent for approval",
     "ApprovalSuccess": "Payments for {{successfulInvoicesCount}} out of {{totalInvoicesCount}} invoices approved successfully",
@@ -165,6 +166,7 @@
     "secondApprovalPending": "Second approval pending",
     "thirdApprovalPending": "Third approval pending",
     "paymentFailed": "Payment failed",
+    "voidPaymentInGL": "Void this payment in the General Ledger",
     "unknown": "Unknown",
     "systemFailure": "System failure",
     "paymentAmountShouldBeTill2DecimalPlaces": "Payment amount cannot have more than 2 decimal places",
@@ -383,9 +385,5 @@
     "planHistoryActionFundingAccountChanged": "Plan: Funding account changed",
     "planHistoryActionPaymentCreditsApplied": "Plan: Credits applied",
     "planHistoryActionPaymentDiscountApplied": "Plan: Discount applied",
-    "planHistoryActionPaymentDiscountRemoved": "Plan: Discount removed",
-    "planHistoryActionCampaignPaused": "Plan: Campaign {{campaignName}} paused",
-    "planHistoryActionCampaignResumed": "Plan: Campaign {{campaignName}} resumed",
-    "planHistoryActionExpectedPaymentDateUpdated": "Plan: Expected date changed",
-    "planHistoryActionInvoiceStatusUpdated": "Plan: Invoice status updated"
+    "planHistoryActionPaymentDiscountRemoved": "Plan: Discount removed"
 }

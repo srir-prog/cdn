@@ -87,5 +87,7 @@
     "minPaymentSettingsAmount": "मूल्य {{minPaymentAmount}} या अधिक होना चाहिए",
     "minValue": "मान शून्य से अधिक होना चाहिए",
     "maxValue": "मान इससे कम या बराबर होना चाहिए {{amountLimit}}",
-    "expectedDateHasPassed": "अपेक्षित तारीख निघून गेली"
+    "selectACurrentOrFutureDate": "वर्तमान किंवा भविष्यातील तारीख निवडा",
+    "changeTheDateToModifyThePlan" : "योजना सुधारण्यासाठी तारीख बदला",
+    "changeStatusToPlanOnThisInvoice": "या इन्व्हॉइसवर योजनेसाठी स्थिती बदला"
 }
