@@ -1558,7 +1558,7 @@
         "ignoreKeys": [],
         "listInfo":[
             {
-                "label":"",
+                "label":"History",
                 "valueMap":"history",
                 "componentType":"table",
                 "renderProps":{
