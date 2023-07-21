@@ -1557,7 +1557,16 @@
         "title": "Bill Payment Schedule Information",
         "ignoreKeys": [],
         "listInfo":[
-            
+            {
+                "label":"",
+                "valueMap":"history",
+                "componentType":"table",
+                "renderProps":{
+                    "headersInfo":[],
+                    "title":"History",
+                    "ignoreKeys":["personalizeParams"]
+                } 
+            }
         ]
     },
     "buyerInfo":{
@@ -4297,10 +4306,91 @@
     "supplierInfo":{
         "componentType": "detailsList",
         "title": "Supplier Details",
-        "ignoreKeys":["billAddress","history","notes","paymentAccountConfiguration","primaryEmails",
-    "billIds","electronicPaymentAlternatePrimaryEmails","remittanceAlternatePrimaryEmails",
-    "approvalAlternatePrimaryEmails","settingsData"],
-    "listInfo":[]
+        "ignoreKeys":[],
+        "listInfo":[
+            {
+                "valueMap":"approvalNotificationFlag",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"sendRemittanceFlag",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"approvalAlternateContactEnabled",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"remittanceAlternateContactEnabled",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"defaultOption",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"groupPayments",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"globalDefault",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"creditAmountAvailable",
+                "formatType":"currency"
+            },
+            {
+                "valueMap":"creditApplied",
+                "formatType":"currency"
+            },
+            {
+                "valueMap":"electronicPaymentEnabled",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"historyAvailable",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"notesAvailable",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"cardAcceptingMerchant",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"combineDocumentLines",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"electronicPaymentAlternateContactEnable",
+                "formatType":"boolean"
+            },
+            {
+                "label":"Notes",
+                "valueMap":"notes",
+                "renderProps":{
+                    "headersInfo":[],
+                    "ignoreKeys":["personalizeParams"],
+                    "additionalProperties":{
+                        "paginationNeeded":true
+                    }
+                }
+            },
+            {
+                "label":"History",
+                "valueMap":"history",
+                "renderProps":{
+                    "headersInfo":[],
+                    "ignoreKeys":["personalizeParams"],
+                    "additionalProperties":{
+                        "paginationNeeded":true
+                    }
+                }
+            }
+        ]
     },
     "failedJobs":{
         "componentType": "table",
