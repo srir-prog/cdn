@@ -8095,7 +8095,22 @@
             },
             {
                 "label": "Tax Number",
-                "valueMap": "taxNumber"
+                "valueMap": "taxNumber",
+                "renderType":"Link",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "GetClientTaxIdInfo"
+                    },
+                    "paramObjMap": {
+                        "taxId":"taxNumber",
+                        "taxIdType":"taxIdType"
+                    }
+                }
             },
             {
                 "label": "GL Type",
@@ -8280,6 +8295,11 @@
                 "bodyObjMap": {}
             }
         }
+    },
+    "getClientTaxIdInfo":{
+        "componentType": "detailsList",
+        "title": "Tax Id Information",
+        "listInfo":[]
     },
     "clientSettings":{
         "componentType": "detailsList",
