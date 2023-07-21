@@ -384,5 +384,8 @@
     "planHistoryActionFundingAccountChanged": "योजना: फंडिंग खाता परिवर्तन",
     "planHistoryActionPaymentCreditsApplied": "योजना: क्रेडिट लागू",
     "planHistoryActionPaymentDiscountApplied": "योजना: छूट लागू",
-    "planHistoryActionPaymentDiscountRemoved": "योजना: छूट हटाई गई"
+    "planHistoryActionPaymentDiscountRemoved": "योजना: छूट हटाई गई",
+    "validAccount": "वैध खाता",
+    "invalidAccount": "अमान्य खाता",
+    "validationInProgress": "सत्यापन प्रगति पर है"
 }

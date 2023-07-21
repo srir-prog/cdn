@@ -385,5 +385,8 @@
     "planHistoryActionFundingAccountChanged": "Plan: Funding account changed",
     "planHistoryActionPaymentCreditsApplied": "Plan: Credits applied",
     "planHistoryActionPaymentDiscountApplied": "Plan: Discount applied",
-    "planHistoryActionPaymentDiscountRemoved": "Plan: Discount removed"
+    "planHistoryActionPaymentDiscountRemoved": "Plan: Discount removed",
+    "validAccount": "Valid account",
+    "invalidAccount": "Invalid account",
+    "validationInProgress": "Validation in progress"
 }
