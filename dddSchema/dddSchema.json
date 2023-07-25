@@ -1572,229 +1572,44 @@
     "buyerInfo":{
         "componentType": "detailsList",
         "title":"Buyer Information",
-        "ignoreKeys":["classId","locationId","departmentId","description","contactRoleDetails"],
         "listInfo":[
             {
-                "label": "Client Id",
-                "valueMap": "clientId"
+                "valueMap":"notificationStatus",
+                "formatType":"boolean"
             },
             {
-                "label": "Batch Id",
-                "valueMap": "batchId"
+                "valueMap":"monthlyStatementFlag",
+                "formatType":"boolean"
             },
             {
-                "label": "Invoice Id",
-                "valueMap": "invoiceId"
+                "valueMap":"paymentConfirmationFlag",
+                "formatType":"boolean"
             },
             {
-                "label": "Invoice Number",
-                "valueMap": "invoiceNumber"
+                "valueMap":"accessPaymentHub",
+                "formatType":"boolean"
             },
             {
-                "label": "AR Account Id",
-                "valueMap": "arAccountId"
-            },
-            {
-                "label": "Buyer Id",
-                "valueMap": "buyerId"
-            },
-            {
-                "label": "Billing Address",
-                "valueMap": "billingAddress",
-                "renderProps": {
-                    "ignoreKeys":["latitude","longitude"],
-                    "listInfo": [
-                        {
-                            "label": "Address Line",
-                            "valueMap": "addressLine"
-                        },
-                        {
-                            "label": "Zip Code",
-                            "valueMap": "zipCode"
-                        },
-                        {
-                            "label": "State",
-                            "valueMap": "state"
-                        },
-                        {
-                            "label": "City",
-                            "valueMap": "city"
-                        },
-                        {
-                            "label": "Country",
-                            "valueMap": "country"
-                        }
-                    ],
-                    "additionalProperties": {
-                        "editableForm": false,
-                        "seperateSection": false
-                    },
-                    "detailsListFullWidth": true
+                "label":"Primary Email Ids",
+                "valueMap":"primaryEmails",
+                "renderProps":{
+                    "headersInfo":[]
                 }
             },
             {
-                "label": "Buyer name",
-                "valueMap": "buyerName"
-            },
-            {
-                "label": "Term Id",
-                "valueMap": "termId"
-            },
-            {
-                "label": "Txn Date",
-                "valueMap": "txnDate"
-            },
-            {
-                "label": "Due Date",
-                "valueMap": "dueDate"
-            },
-            {
-                "label": "Currency code",
-                "valueMap": "currencyCode"
-            },
-            {
-                "label": "Txn deposit",
-                "valueMap": "txnDeposit",
-                "formatType":"currency"
-            },
-            {
-                "label": "Txn Total Tax",
-                "valueMap": "txnTotalTax",
-                "formatType":"currency"
-            },
-            {
-                "label": "Txn Total Amount",
-                "valueMap": "txnTotalAmount",
-                "formatType":"currency"
-            },
-            {
-                "label": "Txn Balance",
-                "valueMap": "txnBalance",
-                "formatType":"currency"
-            },
-            {
-                "label": "Exchange rate",
-                "valueMap": "exchangeRate"
-            },
-            {
-                "label": "Home Total Amount",
-                "valueMap": "homeTotalAmount",
-                "formatType":"currency"
-            },
-            {
-                "label": "Home Balance",
-                "valueMap": "homeBalance",
-                "formatType":"currency"
-            },
-            {
-                "label": "Bill Active Status",
-                "valueMap": "billActiveStatus"
-            },
-            {
-                "label": "Bill Payment Status",
-                "valueMap": "billPaymentStatus"
-            },
-            {
-                "label": "Bill Process Status",
-                "valueMap": "billProcessStatus"
-            },
-            {
-                "label": "Created Time",
-                "valueMap": "createdTime"
-            },
-            {
-                "label": "Updated Time",
-                "valueMap": "updatedTime"
-            },
-            {
-                "label": "Invoice Lines",
-                "valueMap": "invoiceLines",
-                "renderType": "table",
+                "label":"Contact Role Details",
+                "valueMap":"contactRoleDetails",
                 "renderProps":{
-                    "ignoreKeys":["lineType","itemId","quantity","unitPrice","classId",
-                "locationId","departmentId","paymentMethodId","entityId","entityType",
-                "description","payrollItemId","homeAmount","txnAmount","subsidiaryExchangeRate",
-                "subsidiaryCurrencyCode","subLines","subsidiaryId"],
+                    "ignoreKeys":["communicationContact","glSync","emailValidationStatus"],
                     "headersInfo":[
-                        {
-                            "title": "Line Id",
-                            "valueMap": "lineId",
-                            "renderType": "text",
-                            "align":"left",
-                            "enableSort": true
-                        },
-                        {
-                            "title": "A/C Id",
-                            "valueMap": "accountId",
-                            "renderType": "text",
-                            "align":"left",
-                            "enableSort": true
-                        },
-                        {
-                            "title": "Amount",
-                            "valueMap": "amount",
-                            "renderType": "text",
-                            "align":"left",
-                            "enableSort": true,
-                            "formatType":"currency"
-                        },
-                        {
-                            "title": "Billable",
-                            "valueMap": "billable",
-                            "renderType": "text",
-                            "align":"left",
-                            "enableSort": true,
-                            "formatType":"boolean"
-                        }
                     ]
                 }
             },
             {
-                "label": "Invoice Linked Txns",
-                "valueMap": "invoiceLinkedTxns",
-                "renderType": "table",
-                "renderProps":{
-                    "ignoreKeys":[],
-                    "headersInfo":[
-                        {
-                            "title": "Txn Id",
-                            "valueMap": "txnId",
-                            "renderType": "text",
-                            "align":"left",
-                            "enableSort": true
-                        },
-                        {
-                            "title": "Txn Type",
-                            "valueMap": "txnType",
-                            "renderType": "text",
-                            "align":"left",
-                            "enableSort": true
-                        },
-                        {
-                            "title": "Txn Number",
-                            "valueMap": "txnNumber",
-                            "renderType": "text",
-                            "align":"left",
-                            "enableSort": true
-                        },
-                        {
-                            "title": "Txn Amount",
-                            "valueMap": "txnAmount",
-                            "renderType": "text",
-                            "align":"left",
-                            "enableSort": true,
-                            "formatType":"currency"
-                        },
-                        {
-                            "title": "Txn Date",
-                            "valueMap": "txnDate",
-                            "renderType": "text",
-                            "align":"left",
-                            "enableSort": true
-                        }
-                    ]
-                }
+                "valueMap":"enableOnlinePayments",
+                "formatType":"boolean"
             }
+
         ]
     },
     "invoiceInformation":{
