@@ -84,6 +84,8 @@
     "PaymentModalBottomMessage": "<ourLink></ourLink> for a breakdown of the fee structure",
     "markPaidUnsupportedToolTip": "Payments executed through Centime can not be marked paid",
     "NoPaymentTooltip": "Payment details are not added for the supplier",
+    "supplierAccountInvalid": "Supplier account invalid",
+    "accountValidationInProgress": "Account validation in progress",
     "SentToApprovalSuccess": "{{successfulInvoicesCount}} out of {{totalInvoicesCount}} invoices sent for approval",
     "ApprovalSuccess": "Payments for {{successfulInvoicesCount}} out of {{totalInvoicesCount}} invoices approved successfully",
     "RejectionSuccess": "Payments for {{successfulInvoicesCount}} out of {{totalInvoicesCount}} invoices rejected successfully",
@@ -385,5 +387,8 @@
     "planHistoryActionFundingAccountChanged": "Plan: Funding account changed",
     "planHistoryActionPaymentCreditsApplied": "Plan: Credits applied",
     "planHistoryActionPaymentDiscountApplied": "Plan: Discount applied",
-    "planHistoryActionPaymentDiscountRemoved": "Plan: Discount removed"
+    "planHistoryActionPaymentDiscountRemoved": "Plan: Discount removed",
+    "validAccount": "Valid account",
+    "invalidAccount": "Invalid account",
+    "validationInProgress": "Validation in progress"
 }
