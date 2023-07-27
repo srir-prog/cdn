@@ -591,5 +591,6 @@
     "deleteViews": "Delete Views",
     "icon-planned": "Payment is planned",
     "multiplePolicyMatchedHeader": "Multiple matching approval policies found",
-    "multiplePolicyMatchedText": "Based on the details provided, multiple matching approval policies are identified. Please set approvers manually to continue."
+    "multiplePolicyMatchedText": "Based on the details provided, multiple matching approval policies are identified. Please set approvers manually to continue.",
+    "planned": "Planned"
 }
