@@ -307,5 +307,7 @@
     "accountingSystem": "Accounting System",
     "chooseYourAccSys": "Choose your accounting system",
     "secureVerificationTitle":"अपने खाते के लिए दो-कारक प्रमाणीकरण सक्षम करें",
-    "secureProvideMobileNumber":"सत्यापन कोड प्राप्त करने के लिए कृपया अपना मोबाइल नंबर दर्ज करें"
+    "secureProvideMobileNumber":"सत्यापन कोड प्राप्त करने के लिए कृपया अपना मोबाइल नंबर दर्ज करें",
+    "accountTransferVerfCode":"",
+    "verifyPhoneSubHeading":"Please enter the verification code sent to the phone number <b>{{phoneNumber}}</b> to continue with the transfer of <b>{{amount}}</b>"
 }
