@@ -385,9 +385,5 @@
     "planHistoryActionFundingAccountChanged": "Plan: Funding account changed",
     "planHistoryActionPaymentCreditsApplied": "Plan: Credits applied",
     "planHistoryActionPaymentDiscountApplied": "Plan: Discount applied",
-    "planHistoryActionPaymentDiscountRemoved": "Plan: Discount removed",
-    "planHistoryActionCampaignPaused": "Plan: Campaign {{campaignName}} paused",
-    "planHistoryActionCampaignResumed": "Plan: Campaign {{campaignName}} resumed",
-    "planHistoryActionExpectedPaymentDateUpdated": "Plan: Expected date changed",
-    "planHistoryActionInvoiceStatusUpdated": "Plan: Invoice status updated"
+    "planHistoryActionPaymentDiscountRemoved": "Plan: Discount removed"
 }
