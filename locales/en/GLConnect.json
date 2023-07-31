@@ -325,6 +325,6 @@
     "legalNameandTaxId":"Enter the legal name and tax ID for your business",
     "secureVerificationTitle":"Enable two-factor authentication for your account",
     "secureProvideMobileNumber":"Please enter your mobile number to receive the verification code",
-    "accountTransferVerfCode":"खाता स्थानांतरण सत्यापन कोड",
-    "verifyPhoneSubHeading":"कृपया <b>{{राशि}}</b> का स्थानांतरण जारी रखने के लिए फ़ोन नंबर <b>{{phoneNumber}}</b> पर भेजा गया सत्यापन कोड दर्ज करें"
+    "accountTransferVerfCode":"Account transfer verification code",
+    "verifyPhoneSubHeading":"Please enter the verification code sent to the phone number <b>{{{phoneNumber}}</b> to continue with the transfer of <b>{{amount}}</b>."
 }
