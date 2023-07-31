@@ -308,6 +308,6 @@
     "chooseYourAccSys": "Choose your accounting system",
     "secureVerificationTitle":"अपने खाते के लिए दो-कारक प्रमाणीकरण सक्षम करें",
     "secureProvideMobileNumber":"सत्यापन कोड प्राप्त करने के लिए कृपया अपना मोबाइल नंबर दर्ज करें",
-    "accountTransferVerfCode":"",
-    "verifyPhoneSubHeading":"Please enter the verification code sent to the phone number <b>{{phoneNumber}}</b> to continue with the transfer of <b>{{amount}}</b>"
+    "accountTransferVerfCode":"खाता स्थानांतरण सत्यापन कोड",
+    "verifyPhoneSubHeading":"कृपया <b>{{राशि}}</b> का स्थानांतरण जारी रखने के लिए फ़ोन नंबर <b>{{phoneNumber}}</b> पर भेजा गया सत्यापन कोड दर्ज करें"
 }
