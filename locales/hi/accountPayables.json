@@ -390,10 +390,6 @@
     "validAccount": "वैध खाता",
     "invalidAccount": "अमान्य खाता",
     "validationInProgress": "सत्यापन प्रगति पर है",
-    "planHistoryActionCampaignPaused": "योजना: अभियान {{campaignName}} रोका गया",
-    "planHistoryActionCampaignResumed": "योजना: अभियान {{campaignName}} फिर से शुरू किया गया",
-    "planHistoryActionExpectedPaymentDateUpdated": "योजना: अपेक्षित भुगतान तिथि अपडेट की गई",
-    "planHistoryActionInvoiceStatusUpdated": "योजना: चालान की स्थिति अपडेट की गई",
     "creditsAppliedAmount": "क्रेडिट लागू राशि",
     "discountsAppliedAmount": "छूट लागू राशि",
     "discountDate": "छूट की तारीख"
