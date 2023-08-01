@@ -5858,8 +5858,10 @@
         "componentType": "table",
         "title": "Payments List",
         "ignoreKeys": [
-            "clientId","payerClientType","groupId","matchedRuleIds",
-            "currencyCode","payerPaymentAccountId","payerPaymentAccountType","paymentDescription"
+            "clientId","payerClientType","groupId","matchedRuleIds","payeeReferenceId","payeeClientType",
+            "currencyCode","payerPaymentAccountId","payerPaymentAccountType","paymentDescription","payeePaymentAccountId",
+            "payeePaymentAccountType","paymentSubStatusTracking","paymentMetadata"
+
         ],
         "headersInfo": [
             {
