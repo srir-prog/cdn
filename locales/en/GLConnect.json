@@ -324,5 +324,7 @@
     "chooseYourAccSys": "Choose your accounting system",
     "legalNameandTaxId":"Enter the legal name and tax ID for your business",
     "secureVerificationTitle":"Enable two-factor authentication for your account",
-    "secureProvideMobileNumber":"Please enter your mobile number to receive the verification code"
+    "secureProvideMobileNumber":"Please enter your mobile number to receive the verification code",
+    "accountTransferVerfCode":"Account transfer verification code",
+    "verifyPhoneSubHeading":"Please enter the verification code sent to the phone number <b>{{{phoneNumber}}</b> to continue with the transfer of <b>{{amount}}</b>."
 }
