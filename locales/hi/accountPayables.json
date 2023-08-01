@@ -389,5 +389,8 @@
     "planHistoryActionPaymentDiscountRemoved": "योजना: छूट हटाई गई",
     "validAccount": "वैध खाता",
     "invalidAccount": "अमान्य खाता",
-    "validationInProgress": "सत्यापन प्रगति पर है"
+    "validationInProgress": "सत्यापन प्रगति पर है",
+    "creditsAppliedAmount": "क्रेडिट लागू राशि",
+    "discountsAppliedAmount": "छूट लागू राशि",
+    "discountDate": "छूट की तारीख"
 }

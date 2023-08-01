@@ -390,5 +390,8 @@
     "planHistoryActionPaymentDiscountRemoved": "Plan: Discount removed",
     "validAccount": "Valid account",
     "invalidAccount": "Invalid account",
-    "validationInProgress": "Validation in progress"
+    "validationInProgress": "Validation in progress",
+    "creditsAppliedAmount": "Credits applied amount",
+    "discountsAppliedAmount": "Discounts applied amount",
+    "discountDate": "Discount date"
 }
