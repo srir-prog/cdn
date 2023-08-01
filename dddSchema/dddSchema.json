@@ -161,24 +161,6 @@
                         "clientId": "clientId"
                     }
                 }
-            },
-            {
-                "renderType": "Button",
-                "renderProps": {
-                    "label": "Struck payments"
-                },
-                "renderPosition": "bottom",
-                "gridSize":3,
-                "action": {
-                    "type": "drillDown",
-                    "pathList": [
-                        "1.0",
-                        "aggregate"
-                    ],
-                    "paramObj": {
-                        "templateId": "StuckPayments"
-                    }
-                }
             }
         ]
     },
@@ -1566,6 +1548,133 @@
                     "title":"History",
                     "ignoreKeys":["personalizeParams"]
                 } 
+            }
+        ]
+    },
+    "clientPaymentConfigQueryBuilder":{ 
+        "componentType": "detailsList",
+        "title": "Client Payment Config Information",
+        "ignoreKeys": [""],
+        "listInfo":[
+            {
+                "valueMap":"paymentMethod",
+                "displayValueEnum": [
+                    {
+                        "label": "CHECK",
+                        "value": "1"
+                    },
+                    {
+                        "label": "ACH",
+                        "value": "2"
+                    },
+                    {
+                        "label": "CENTIME_CARD",
+                        "value": "3"
+                    },
+                    {
+                        "label": "CREDIT_CARD",
+                        "value": "4"
+                    },
+                    {
+                        "label": "OTHER",
+                        "value": "5"
+                    },
+                    {
+                        "label": "FX_PAYMENT",
+                        "value":"6"
+                    },
+                    {
+                        "label": "CENTIME_PAY",
+                        "value": "7"
+                    },
+                    {
+                        "label": "CENTIME_CASH",
+                        "value": "8"
+                    }
+                ]
+            },
+            {
+                "valueMap":"alternateMailingAddressEnabled",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"checkNameEditedByUser",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"shareOnCentimePaymentPortal",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"payDirectlyOnSupplierWebsite",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"defaultOption",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"groupPayments",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"globalDefault",
+                "formatType":"boolean"
+            }
+        ]
+    },
+    "paymentIssuesFilterQueryBuilder":{
+        "componentType": "detailsList",
+        "title": "Payment Issues",
+        "ignoreKeys": ["clientId","glType","paymentId","clientName"],
+        "additionalProperties": {
+            "showQueryBuilder": true,
+            "queryBuilderPosition": "bottom",
+            "queryBuilderParams": {
+                "orientation": "row",
+                "showChooseFilterInQueryBuilder": false,
+                "elementsInfo": [
+                    {
+                        "type": "Dropdown",
+                        "title": "Filter By Issue",
+                        "gridSize":4,
+                        "componentProps": {
+                            "options": {
+                                "STUCK_PAYMENTS": "STUCK_PAYMENTS",
+                                "FASTER_ACH_CONVERTED": "FASTER_ACH_CONVERTED",
+                                "FASTER_ACH_DELAYED": "FASTER_ACH_DELAYED"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
+                        },
+                        "queryName": "filters"
+                    }
+                ]
+            }
+        },
+        "additionalContent": [
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Get Issue(s)"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "PaymentsWithFilters"
+                    },
+                    "paramObjMap": {
+                        "filters": {
+                            "type": "queryBuilder",
+                            "value": "filters"
+                        }
+                    }
+                }
             }
         ]
     },
@@ -4121,6 +4230,8 @@
     "supplierInfo":{
         "componentType": "detailsList",
         "title": "Supplier Details",
+        "transformToTableDataValueMap":["paymentAccountConfiguration"],
+        "insertValueMapIntoObj":["paymentMethod"],
         "ignoreKeys":[],
         "listInfo":[
             {
@@ -4182,6 +4293,63 @@
             {
                 "valueMap":"electronicPaymentAlternateContactEnable",
                 "formatType":"boolean"
+            },
+            {
+                "label":"Payment Accounts Config",
+                "valueMap":"paymentAccountConfiguration",
+                "renderProps":{
+                    "headersInfo":[
+                        {
+                            "valueMap": "paymentMethod",
+                            "renderType":"Link",
+                            "action": {
+                                "type": "drillDownNewPage",
+                                "data": {
+                                    "clientPaymentConfigQueryBuilder": {}
+                                }
+                              },
+                            "displayValueEnum": [
+                                {
+                                    "label": "CHECK",
+                                    "value": "1"
+                                },
+                                {
+                                    "label": "ACH",
+                                    "value": "2"
+                                },
+                                {
+                                    "label": "CENTIME_CARD",
+                                    "value": "3"
+                                },
+                                {
+                                    "label": "CREDIT_CARD",
+                                    "value": "4"
+                                },
+                                {
+                                    "label": "OTHER",
+                                    "value": "5"
+                                },
+                                {
+                                    "label": "FX_PAYMENT",
+                                    "value":"6"
+                                },
+                                {
+                                    "label": "CENTIME_PAY",
+                                    "value": "7"
+                                },
+                                {
+                                    "label": "CENTIME_CASH",
+                                    "value": "8"
+                                }
+                            ]
+                        }
+                    ],
+                    "ignoreKeys":["alternateMailingAddressEnabled","checkMailingAddress","checkNameEditedByUser","defaultOption",
+                "globalDefault","groupPayments","payDirectlyOnSupplierWebsite","shareOnCentimePaymentPortal","defaultFundingAccountPaymentId"],
+                    "additionalProperties":{
+                        "paginationNeeded":true
+                    }
+                }
             },
             {
                 "label":"Notes",
@@ -5675,6 +5843,121 @@
         "ignoreKeys": [
             "clientId",
             "currencyCode"
+        ],
+        "additionalProperties": {
+            "defaultSortingOrder": "desc",
+            "defaultColumnToSort": 6,
+            "enableSearch": true,
+            "paginationNeeded": true,
+            "rowsPerPageOptions": [
+                20
+            ]
+        }
+    },
+    "paymentsWithFilters": {
+        "componentType": "table",
+        "title": "Payments List",
+        "ignoreKeys": [
+            "clientId","payerClientType","groupId","matchedRuleIds",
+            "currencyCode","payerPaymentAccountId","payerPaymentAccountType","paymentDescription"
+        ],
+        "headersInfo": [
+            {
+                "title": "Payment Id",
+                "valueMap": "paymentId",
+                "renderType": "Link",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "PaymentDetails"
+                    },
+                    "paramObjMap": {
+                        "paymentId": "paymentId",
+                        "clientName": "clientName"
+                    },
+                    "pageQueryParams": ["paymentId","clientName"]
+                },
+                "enableSort": true
+            },
+            {
+                "title": "Client Id",
+                "valueMap": "payerReferenceId",
+                "enableSort": true,
+                "align":"left"
+            },
+            {
+                "title": "Method",
+                "valueMap": "paymentMethod",
+                "enableSort": true
+            },
+            {
+                "title": "Amount",
+                "valueMap": "amount",
+                "formatType": "currency",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Status",
+                "valueMap": "paymentStatus",
+                "enableSort": true,
+                "displayValueEnum": [
+                    {
+                        "label": "ReadyToPay",
+                        "value": 0
+                    },
+                    {
+                        "label": "AwaitingForApproval",
+                        "value": 1
+                    },
+                    {
+                        "label": "Rejected",
+                        "value": 2
+                    },
+                    {
+                        "label": "Scheduled",
+                        "value": 3
+                    },
+                    {
+                        "label": "Failed",
+                        "value": 4
+                    },
+                    {
+                        "label": "Paid",
+                        "value": 5
+                    },
+                    {
+                        "label": "markedPaid",
+                        "value": 6
+                    },
+                    {
+                        "label": "paidInGeneralLedger",
+                        "value": 7
+                    },
+                    {
+                        "label": "userActionNeeded",
+                        "value": 8
+                    },
+                    {
+                        "label": "inProcess",
+                        "value": 9
+                    }
+                ]
+            },
+            {
+                "title": "Capture Date",
+                "valueMap": "paymentCaptureDate",
+                "enableSort": true
+            },
+            {
+                "title": "Payment Start Date",
+                "valueMap": "paymentStartDate",
+                "enableSort": true
+            }
         ],
         "additionalProperties": {
             "defaultSortingOrder": "desc",
