@@ -87,5 +87,10 @@
     "maxSurchargeError": "The amount exceeds the applicable credit card amount",
     "surchargePercentageRange": "The value should be {{maxSurchargePercentage}}% or less",
     "inValidRoutingNumberWithoutBank": "Invalid routing number",
-    "minPaymentSettingsAmount": "The value should be {{minPaymentAmount}} or more"
+    "minPaymentSettingsAmount": "The value should be {{minPaymentAmount}} or more",
+    "minValue": "Value must be greater than zero",
+    "maxValue": "Value must be less than or equal to {{amountLimit}}",
+    "selectACurrentOrFutureDate": "Select a current or future date",
+    "changeTheDateToModifyThePlan" : "Change the date to modify the plan",
+    "changeStatusToPlanOnThisInvoice": "Change status to plan on this invoice"
 }

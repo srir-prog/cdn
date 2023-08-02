@@ -384,9 +384,5 @@
     "planHistoryActionFundingAccountChanged": "योजना: फंडिंग खाता परिवर्तन",
     "planHistoryActionPaymentCreditsApplied": "योजना: क्रेडिट लागू",
     "planHistoryActionPaymentDiscountApplied": "योजना: छूट लागू",
-    "planHistoryActionPaymentDiscountRemoved": "योजना: छूट हटाई गई",
-    "planHistoryActionCampaignPaused": "योजना: अभियान {{campaignName}} रोका गया",
-    "planHistoryActionCampaignResumed": "योजना: अभियान {{campaignName}} फिर से शुरू किया गया",
-    "planHistoryActionExpectedPaymentDateUpdated": "योजना: अपेक्षित भुगतान तिथि अपडेट की गई",
-    "planHistoryActionInvoiceStatusUpdated": "योजना: चालान की स्थिति अपडेट की गई"
+    "planHistoryActionPaymentDiscountRemoved": "योजना: छूट हटाई गई"
 }
