@@ -109,7 +109,7 @@
     "nsSessionTimeout":"Session Timeout",
     "nsSessionTimeoutSummary":"You've been logged out due to inactivity. To start a new session, click on 'Centime' from the menu bar and select 'Application' and 'Open'.",
     "secureEntityNameExists":"Business name already exists",
-    "taxIdExists":"Company name/Tax Id already exists",
+    "taxIdExists":"Company name/Tax ID already exists",
     "commonErrorAddSecureEntity":"Unable to save details.Please try again",
     "verifyCentimeBankingAccount":"Please verify your account to continue with Centime Banking",
     "registration":"Registration",
