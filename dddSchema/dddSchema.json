@@ -155,7 +155,7 @@
                         "aggregate"
                     ],
                     "paramObj": {
-                        "templateId": "PendingPaymentsListWithName"
+                        "templateId": "PendingPayments"
                     },
                     "paramObjMap": {
                         "clientId": "clientId"
@@ -2825,17 +2825,11 @@
             "paginationNeeded":true
         }
     },
-    "PendingPaymentsListWithName":{
+    "pendingPayments":{
         "componentType": "table",
         "title": "Pending Payment List",
         "ignoreKeys":["payment.paymentSubStatusTracking"],
         "headersInfo":[
-            {
-                "title": "Client name",
-                "valueMap": "clientName",
-                "align":"left",
-                "enableSort": true
-            },
             {
                 "title": "Payment Id",
                 "valueMap": "payment.paymentId",
