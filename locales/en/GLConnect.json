@@ -325,6 +325,6 @@
     "legalNameandTaxId":"Enter the legal name and tax ID for your business",
     "secureVerificationTitle":"Enable two-factor authentication for your account",
     "secureProvideMobileNumber":"Please enter your mobile number to receive the verification code",
-    "accountTransferVerfCode":"Account transfer verification code",
-    "verifyPhoneSubHeading":"Please enter the verification code sent to the phone number <b>{{{phoneNumber}}</b> to continue with the transfer of <b>{{amount}}</b>."
+    "accountTransferVerfCode":"Transfer verification",
+    "verifyPhoneSubHeading":"Your transfer request has exceeded the security threshold for your account.Please enter the verification code sent to phone number (<b>{{phoneNumber}}</b>) to confirm this transaction."
 }
