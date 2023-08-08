@@ -8491,7 +8491,14 @@
     "getClientTaxIdInfo":{
         "componentType": "detailsList",
         "title": "Tax Id Information",
-        "listInfo":[]
+        "listInfo":[
+            {
+                "valueMap":"evercResponse",
+                "renderProps":{
+                    "ignoreKeys":["riskDetails"]
+                }
+            }
+        ]
     },
     "clientSettings":{
         "componentType": "detailsList",
