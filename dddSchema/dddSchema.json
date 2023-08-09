@@ -8318,6 +8318,13 @@
                         "value": 4
                     }
                 ]
+            },
+            {
+                "label":"Transfer Limit",
+                "valueMap":"transferLimit",
+                "editable": true,
+                "editType": "text",
+                "formatType":"currency"
             }
         ],
         "additionalContent": [
@@ -8474,7 +8481,8 @@
                     "clientId": "clientId",
                     "clientKycStatus": "clientKycStatus",
                     "clientVerificationStatus": "clientVerificationStatus",
-                    "glConnectionStatus": "glConnectionStatus"
+                    "glConnectionStatus": "glConnectionStatus",
+                    "transferLimit":"transferLimit"
                 },
                 "bodyObjMap": {}
             }
@@ -8483,7 +8491,14 @@
     "getClientTaxIdInfo":{
         "componentType": "detailsList",
         "title": "Tax Id Information",
-        "listInfo":[]
+        "listInfo":[
+            {
+                "valueMap":"evercResponse",
+                "renderProps":{
+                    "ignoreKeys":["riskDetails"]
+                }
+            }
+        ]
     },
     "clientSettings":{
         "componentType": "detailsList",
