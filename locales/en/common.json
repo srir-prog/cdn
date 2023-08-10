@@ -599,6 +599,5 @@
     "fileUploaderTitle" : "<ourLink></ourLink> a file or drag it here to upload",
     "chooseFile": "Choose",
     "logoSupportedFileFormat" : "The image cannot be uploaded as the format is not supported",
-    "exceededLogoSizeLimit": "The image cannot be uploaded as the file size is more than {{fileSizeLimit}}MB",
-
+    "exceededLogoSizeLimit": "The image cannot be uploaded as the file size is more than {{fileSizeLimit}}MB"
 }
