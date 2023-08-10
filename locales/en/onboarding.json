@@ -144,5 +144,7 @@
     "submitSummary":"You will be directed outside of Centime Banking to submit your application",
     "selectAProduct":"Select a product",
     "centimeBankingDesc":"Diversify your deposits across multiple FDIC-insured accounts. Maximize yield, interest rates up to 40x the average.",
-    "cashFlowDesc":"Explore the only all-in-one cash management solution for AP, AR, cash flow forecasting, and more."
+    "cashFlowDesc":"Explore the only all-in-one cash management solution for AP, AR, cash flow forecasting, and more.",
+    "companyLogo": "Company logo",
+    "companyLogoInfoTooltip": "Manage Receivables clients can add their logo to customize the Payment hub. It is recommended to use a high-quality image"
 }

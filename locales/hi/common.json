@@ -592,5 +592,10 @@
     "multiplePolicyMatchedText": "प्रदान किए गए विवरण के आधार पर, एकाधिक मिलान अनुमोदन नीतियों की पहचान की जाती है। जारी रखने के लिए कृपया अनुमोदकों को मैन्युअल रूप से सेट करें।",
     "planned": "की योजना बनाई",
     "detailsMissingForNegativeAmount": "चालान राशि {{amount}} से अधिक होनी चाहिए",
-    "memo":"ज्ञापन"
+    "memo":"ज्ञापन",
+    "maxSizeAndSupportsImageTypes": "समर्थन करता है: JPEG, SVG, PNG {{size}}MB तक",
+    "fileUploaderTitle" : "कोई फ़ाइल <ourLink></ourLink> या अपलोड करने के लिए उसे यहां खींचें",
+    "chooseFile": "चुनें",
+    "logoSupportedFileFormat" : "छवि अपलोड नहीं की जा सकती क्योंकि प्रारूप समर्थित नहीं है",
+    "exceededLogoSizeLimit": "छवि अपलोड नहीं की जा सकती क्योंकि फ़ाइल का आकार {{fileSizeLimit}}MB से अधिक है"
 }
