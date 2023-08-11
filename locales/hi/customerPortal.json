@@ -63,5 +63,6 @@
   "failed": "विफल",
   "noDataMessageForInvoicesTable": "आपके पास {{clientName}} के साथ कोई खुली चालान नहीं हैं।",
   "infoAboutNextStep": "आपको अगली स्क्रीन पर अपनी भुगतान जानकारी दर्ज करने के लिए कहा जाएगा।",
-  "disabledInvoiceSelectionCheckBoxTooltip": "चालानों को केवल एक भुगतान विधि का उपयोग करके भुगतान किया जा सकता है।"
+  "disabledInvoiceSelectionCheckBoxTooltip": "चालानों को केवल एक भुगतान विधि का उपयोग करके भुगतान किया जा सकता है।",
+  "totalWithColon": "कुल:"
 }
