@@ -14,6 +14,7 @@
   "cPPayTermsAndConditions": "By clicking \"Pay,\" you agree to our <clickLink></clickLink>",
   "termsAndConditionsLinkText": "Terms & Conditions",
   "surchargeInfo": "Total amount = {{totalSelectedAmount}} + {{totalSurchargeAmount}} (surcharge {{surchargePercentage}})",
+  "totalCredAmountInfo": "Total amount = {{totalSelectedAmount}}",
   "successNotificationForPaymentMethodChange": "Payment method successfully updated",
   "bankAccountInfoLabel": "Bank account",
   "accountHolderName": "Account holder name",
