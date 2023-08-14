@@ -66,5 +66,13 @@
   "noDataMessageForPaidInvoicesTable": "You have no paid invoices with {{clientName}}",
   "infoAboutNextStep": "You will be prompted to enter your payment information on the next screen",
   "disabledInvoiceSelectionCheckBoxTooltip": "Invoices can only be paid using one payment method at a time",
-  "totalWithColon": "Total:"
+  "totalWithColon": "Total:",
+  "outstandingAmount": "Outstanding amount",
+  "discount": "discount",
+  "surcharge": "surcharge",
+  "paymentTerms": "Payment Terms",
+  "lastPaymentAmount": "Last payment amount",
+  "lastPaymentDate": "Last payment date",
+  "paymentDate": "Payment date",
+  "dueDate": "Due date"
 }
