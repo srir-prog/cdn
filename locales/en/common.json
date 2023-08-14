@@ -586,9 +586,13 @@
     "combineDocumentLines": "Aggregate invoice lines into one",
     "historyActionCombineDocumentLines": "Combine all lines into one setting updated",
     "expenseAccordionLabel":"Expense ({{total}})",
+    "discardUnsavedViewChanges":"There are unsaved changes to the table which will be lost. Please confirm if you want to continue switching your view ?",
+    "saveViewAs":  "Save View As",
+    "deleteViews": "Delete Views",
     "icon-planned": "Payment is planned",
     "multiplePolicyMatchedHeader": "Multiple matching approval policies found",
     "multiplePolicyMatchedText": "Based on the details provided, multiple matching approval policies are identified. Please set approvers manually to continue.",
     "planned": "Planned",
-    "detailsMissingForNegativeAmount": "Invoice amount should be greater than {{amount}}"
+    "detailsMissingForNegativeAmount": "Invoice amount should be greater than {{amount}}",
+    "memo":"Memo"
 }
