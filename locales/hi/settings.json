@@ -639,5 +639,8 @@
     "fieldRequiredByGeneralLedger": "यह फ़ील्ड आपके सामान्य लेजर के लिए आवश्यक है",
     "successFullyUpdatedInvoiceFields": "सेटिंग्स सफलतापूर्वक अपडेट की गईं",
     "errorsUpdatingInvoiceFields": "सेटिंग्स को अद्यतन करने में त्रुटियाँ आईं। कृपया पुन: प्रयास करें।",
-    "email":"ईमेल"
+    "email":"ईमेल",
+    "accountPayableAccount":"देय खाता",
+    "generalLedgerAccountSettings": "सामान्य लेजर खाता सेटिंग्स",
+    "selectAnOption": "कोई विकल्प चुनें"
 }
