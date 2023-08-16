@@ -122,7 +122,7 @@
     "descReviewAndSubmit":"Review and submit your application",
     "nextOwnershipInfo":"Next: Add Ownership Information",
     "proceedToReview":"Proceed to review",
-    "signAndSubmit":"Sign and Submit",
+    "signAndSubmit":"SEND TO SIGNATORY",
     "addIndividual":"Add Individual",
     "companyName":"Company name",
     "legalBusinessName":"Legal business name",
@@ -141,5 +141,6 @@
     "selectIndustry":"Choose your Industry",
     "addAuthorizedSignatoryAndControllingOfficer":"Add an Authorized signatory and a Controlling officer to proceed to the next step",
     "networkErrorMessage": "Unable to process application due to a technical error. Please try again later",
-    "submitSummary":"You will be directed outside of Centime Banking to submit your application"
+    "submitSummary":"Please click 'Send to Signatory' to email your Centime Banking application to the authorized signatories",
+    "submitStatusUser":"Your Centime Banking application is in progress and has been emailed to the Signatory {{noOfUsers}} - <link>{{email}}</link>"
 }
