@@ -671,7 +671,7 @@
     "successFullyUpdatedInvoiceFields": "Successfully updated the settings",
     "errorsUpdatingInvoiceFields": "Errors encountered in updating the settings. Please try again.",
     "email":"Email",
-    "accountPayableAccount":"Account Payable account",
-    "generalLedgerAccountSettings": "General Ledger Account settings",
+    "accountPayableAccount":"Accounts payable default",
+    "generalLedgerAccountSettings": "General Ledger account",
     "selectAnOption": "Select an option"
 }
