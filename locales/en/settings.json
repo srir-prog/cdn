@@ -670,5 +670,8 @@
     "fieldRequiredByGeneralLedger": "This field is required by your General Ledger",
     "successFullyUpdatedInvoiceFields": "Successfully updated the settings",
     "errorsUpdatingInvoiceFields": "Errors encountered in updating the settings. Please try again.",
-    "email":"Email"
+    "email":"Email",
+    "accountPayableAccount":"Accounts payable default",
+    "generalLedgerAccountSettings": "General Ledger account",
+    "selectAnOption": "Select an option"
 }
