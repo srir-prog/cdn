@@ -3980,7 +3980,7 @@
                             "valueMap": "supplierId",
                             "renderType": "Link",
                             "action": {
-                                "type": "sidePanelData",
+                                "type": "drillDown",
                                 "pathList": [
                                     "1.0",
                                     "aggregate"
@@ -8507,18 +8507,21 @@
         "listInfo":[
             {
                 "label": "Enable Faster ACH",
-                "valueMap": "paymentSettings.fasterACH",
-                "formatType":"boolean",
+                "valueMap": "paymentSettings.achPaymentMode",
                 "editType": "select",
                 "editable":true,
                 "enum":[
                     {
-                        "label": "Yes",
-                        "value": true
+                        "label": "GOOD_FUNDS",
+                        "value": "GOOD_FUNDS"
                     },
                     {
-                        "label": "No",
-                        "value": false
+                        "label": "FASTER_ACH",
+                        "value": "FASTER_ACH"
+                    },
+                    {
+                        "label": "FUND_AND_PAY",
+                        "value": "FUND_AND_PAY"
                     }
                 ]
             }
