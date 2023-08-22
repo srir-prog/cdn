@@ -8504,9 +8504,11 @@
         "componentType": "detailsList",
         "title": "Client Settings",
         "ignoreKeys":["glType","clientId","clientName","sourceName"],
+        "addValueMap":"paymentSettings.achPaymentMode",
+        "defaultValue":"GOOD_FUNDS",
         "listInfo":[
             {
-                "label": "Enable Faster ACH",
+                "label": "ACH Payment Mode",
                 "valueMap": "paymentSettings.achPaymentMode",
                 "editType": "select",
                 "editable":true,
@@ -8546,7 +8548,7 @@
                     "templateId": "ClientSettingsUpdate"
                 },
                 "paramObjMap": {
-                    "fasterACH": "paymentSettings.fasterACH",
+                    "fasterACH": "paymentSettings.achPaymentMode",
                     "clientId":"clientId"
                 },
                 "bodyObjMap": {}
