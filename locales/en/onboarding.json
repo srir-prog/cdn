@@ -109,7 +109,7 @@
     "nsSessionTimeout":"Session Timeout",
     "nsSessionTimeoutSummary":"You've been logged out due to inactivity. To start a new session, click on 'Centime' from the menu bar and select 'Application' and 'Open'.",
     "secureEntityNameExists":"Business name already exists",
-    "taxIdExists":"Tax ID already exists",
+    "taxIdExists":"Company name/Tax ID already exists",
     "commonErrorAddSecureEntity":"Unable to save details.Please try again",
     "verifyCentimeBankingAccount":"Please verify your account to continue with Centime Banking",
     "registration":"Registration",
@@ -122,7 +122,7 @@
     "descReviewAndSubmit":"Review and submit your application",
     "nextOwnershipInfo":"Next: Add Ownership Information",
     "proceedToReview":"Proceed to review",
-    "signAndSubmit":"Sign and Submit",
+    "signAndSubmit":"SEND TO SIGNATORY",
     "addIndividual":"Add Individual",
     "companyName":"Company name",
     "legalBusinessName":"Legal business name",
@@ -141,5 +141,9 @@
     "selectIndustry":"Choose your Industry",
     "addAuthorizedSignatoryAndControllingOfficer":"Add an Authorized signatory and a Controlling officer to proceed to the next step",
     "networkErrorMessage": "Unable to process application due to a technical error. Please try again later",
-    "submitSummary":"You will be directed outside of Centime Banking to submit your application"
+    "submitSummary":"Please click 'Send to Signatory' to email your Centime Banking application to the authorized signatories",
+    "submitStatusUser":"Your Centime Banking application is in progress and has been emailed to the Signatory {{noOfUsers}} - <link>{{email}}</link>",
+    "selectAProduct":"Select a product",
+    "centimeBankingDesc":"Diversify your deposits across multiple FDIC-insured accounts. Maximize yield, interest rates up to 40x the average.",
+    "cashFlowDesc":"Explore the only all-in-one cash management solution for AP, AR, cash flow forecasting, and more."
 }

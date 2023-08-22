@@ -118,7 +118,7 @@
     "View outstanding payments": "View outstanding payments",
     "View outstanding collections": "View outstanding collections",
     "Follow-up with customers": "Follow-up with customers",
-    "Finance invoices using CentimeCash": "Finance invoices using CentimeCash",
+    "Finance invoices using Centime Credit Line": "Finance invoices using Centime Credit Line",
     "Review Bank balances and account balances": "Review Bank balances and account balances",
     "Review working capital metrics": "Review working capital metrics",
     "Analyze profit and loss statement": "Analyze profit and loss statement",
@@ -406,7 +406,7 @@
     "eachAdditionalUser": "Each additional user",
     "perUserPerMonth": "/user/month",
     "yourCreditCard": "Your credit card*",
-    "centimeCard": "CentimeCard**",
+    "centimeCard": "Centime Credit Card**",
     "halfPercentRebate": "0.5% rebate",
     "yourCreditCardAstrixExplanation": "Use select MasterCard or Visa cards to pay any supplier",
     "centimeCardAstrixExplanation": " As rebate/cash back using Centime issued credit card to pay card accepting suppliers",
@@ -661,7 +661,7 @@
      "onlinePaymentPreferences": "Online payment preferences",
     "cffGenerationInProgressErrorMsg" : "Please wait for predictions to generate completely before modifying these settings",
     "invoiceFields": "Invoice fields",
-    "invoiceFieldsDescription": "Required fields by General Ledger set as required by default. Select additional fields as required or visible in Centime.",
+    "invoiceFieldsDescription": "Invoices are coded against these fields. Fields that are required in the General Ledger are set as mandatory by default. Additional fields can be configured using the Add Field button.",
     "fields": "Fields",
     "showThisFieldFor": "Show this field for",
     "mandatoryFor": "Mandatory for",
@@ -669,5 +669,9 @@
     "addField": "Add field",
     "fieldRequiredByGeneralLedger": "This field is required by your General Ledger",
     "successFullyUpdatedInvoiceFields": "Successfully updated the settings",
-    "errorsUpdatingInvoiceFields": "Errors encountered in updating the settings. Please try again."
+    "errorsUpdatingInvoiceFields": "Errors encountered in updating the settings. Please try again.",
+    "email":"Email",
+    "accountPayableAccount":"Accounts payable default",
+    "generalLedgerAccountSettings": "General Ledger account",
+    "selectAnOption": "Select an option"
 }

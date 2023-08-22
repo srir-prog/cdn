@@ -124,7 +124,7 @@
     "View outstanding payments": "View outstanding payments",
     "View outstanding collections": "View outstanding collections",
     "Follow-up with customers": "Follow-up with customers",
-    "Finance invoices using CentimeCash": "Finance invoices using CentimeCash",
+    "Finance invoices using CentimeCash": "Finance invoices using Centime Credit Line",
     "Review Bank balances and account balances": "Review Bank balances and account balances",
     "Review working capital metrics": "Review working capital metrics",
     "Analyze profit and loss statement": "Analyze profit and loss statement",
@@ -630,7 +630,7 @@
     "cffSettingSidePanelWarningText": "ये सेटिंग्स मौजूदा और नई भविष्यवाणियों को प्रभावित करती हैं",
     "epdHeaderTooltip": "चालान भुगतान शर्तों द्वारा निर्धारित",
     "invoiceFields": "चालान फ़ील्ड",
-    "invoiceFieldsDescription": "सामान्य लेजर द्वारा आवश्यक फ़ील्ड डिफ़ॉल्ट रूप से आवश्यकतानुसार सेट की जाती हैं। आवश्यकतानुसार या सेंटाइम में दृश्यमान अतिरिक्त फ़ील्ड का चयन करें।",
+    "invoiceFieldsDescription": "इनवॉइस को इन फ़ील्ड के विरुद्ध कोडित किया गया है। सामान्य लेजर में आवश्यक फ़ील्ड डिफ़ॉल्ट रूप से अनिवार्य के रूप में सेट की जाती हैं। अतिरिक्त फ़ील्ड को फ़ील्ड जोड़ें बटन का उपयोग करके कॉन्फ़िगर किया जा सकता है।",
     "fields": "खेत",
     "showThisFieldFor": "के लिए यह फ़ील्ड दिखाएँ",
     "mandatoryFor": "के लिए अनिवार्य है",
@@ -638,5 +638,9 @@
     "addField": "फ़ील्ड जोड़ें",
     "fieldRequiredByGeneralLedger": "यह फ़ील्ड आपके सामान्य लेजर के लिए आवश्यक है",
     "successFullyUpdatedInvoiceFields": "सेटिंग्स सफलतापूर्वक अपडेट की गईं",
-    "errorsUpdatingInvoiceFields": "सेटिंग्स को अद्यतन करने में त्रुटियाँ आईं। कृपया पुन: प्रयास करें।"
+    "errorsUpdatingInvoiceFields": "सेटिंग्स को अद्यतन करने में त्रुटियाँ आईं। कृपया पुन: प्रयास करें।",
+    "email":"ईमेल",
+    "accountPayableAccount":"देय खाते डिफ़ॉल्ट",
+    "generalLedgerAccountSettings": "सामान्य बही खाता",
+    "selectAnOption": "कोई विकल्प चुनें"
 }
