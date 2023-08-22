@@ -217,5 +217,6 @@
     "saveView": "Save view",
     "saveViewAs":"Save view as",
     "deleteViews": "Delete views",
-    "incompleteBusinessInfo":"Incomplete company information. You need to specify all mandatory details under the 'Company information' section under your company profile to apply."
+    "incompleteBusinessInfo":"Incomplete company information. You need to specify all mandatory details under the 'Company information' section under your company profile to apply.",
+    "noEmailError":"Add the Authorized Signatory email in the Ownership and beneficiary settings page to send the Centime Banking application for signing."
 }
