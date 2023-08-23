@@ -8548,7 +8548,7 @@
                     "templateId": "ClientSettingsUpdate"
                 },
                 "paramObjMap": {
-                    "fasterACH": "paymentSettings.achPaymentMode",
+                    "achPaymentMode": "paymentSettings.achPaymentMode",
                     "clientId":"clientId"
                 },
                 "bodyObjMap": {}
