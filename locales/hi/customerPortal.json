@@ -60,6 +60,7 @@
   "moreThanOnePaymentHubSupplier": "एक त्रुटि हुई है। कृपया संपर्क करें <ourLink></ourLink>",
   "supplierDisabledAccess": "भुगतान हब का उपयोग करने के लिए अपने आपूर्तिकर्ता से संपर्क करें",
   "defaultErrorMessageForEmailValidation": "एक त्रुटि हुई है। कृपया संपर्क करें <ourLink></ourLink>",
+  "onlyForCustomers": "केवल आपके ग्राहक ही इस हब तक पहुँच सकते हैं",
   "failed": "विफल",
   "noDataMessageForInvoicesTable": "आपके पास {{clientName}} के साथ कोई खुली चालान नहीं हैं।",
   "infoAboutNextStep": "आपको अगली स्क्रीन पर अपनी भुगतान जानकारी दर्ज करने के लिए कहा जाएगा।",
