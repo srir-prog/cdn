@@ -654,5 +654,12 @@
     "applicationArea": "आवेदन क्षेत्र",
     "createNewTask": "नया कार्य बनाएं",
     "ar": "एआर",
-    "accountsReceivable": "प्राप्य खाते"
+    "accountsReceivable": "प्राप्य खाते",
+    "createTaskTemplatesSuccessMsg": "कार्य टेम्पलेट सफलतापूर्वक बनाया गया",
+    "updateTaskTemplateSuccessMsg": "कार्य टेम्पलेट को सफलतापूर्वक अद्यतन किया गया",
+    "deleteTaskTemplateSuccessMsg": "कार्य टेम्पलेट सफलतापूर्वक हटा दिया गया",
+    "taskTemplatesErrorMsg": "कार्य टेम्पलेट लाते समय त्रुटि",
+    "creatTaskTemplatesErrorMsg": "कार्य टेम्पलेट बनाते समय त्रुटि",
+    "deleteTaskTemplateErrorMsg": "कार्य टेम्पलेट हटाते समय त्रुटि",
+    "updateTaskTemplateErrorMsg": "कार्य टेम्पलेट अद्यतन करते समय त्रुटि"
 }

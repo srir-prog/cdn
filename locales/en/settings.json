@@ -685,5 +685,12 @@
     "applicationArea": "Application area",
     "createNewTask": "Create new task",
     "ar": "AR",
-    "accountsReceivable": "Accounts receivable"
+    "accountsReceivable": "Accounts receivable",
+    "createTaskTemplatesSuccessMsg": "Successfully created the task template",
+    "updateTaskTemplateSuccessMsg": "Successfully updated the task template",
+    "deleteTaskTemplateSuccessMsg": "Successfully deleted the task template",
+    "taskTemplatesErrorMsg": "Error while fetching the task template",
+    "creatTaskTemplatesErrorMsg": "Error while creating the task template",
+    "deleteTaskTemplateErrorMsg": "Error while deleting the task template",
+    "updateTaskTemplateErrorMsg": "Error while updating the task template"
 }
