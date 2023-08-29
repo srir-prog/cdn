@@ -155,28 +155,10 @@
                         "aggregate"
                     ],
                     "paramObj": {
-                        "templateId": "PendingPaymentsListWithName"
+                        "templateId": "PendingPayments"
                     },
                     "paramObjMap": {
                         "clientId": "clientId"
-                    }
-                }
-            },
-            {
-                "renderType": "Button",
-                "renderProps": {
-                    "label": "Struck payments"
-                },
-                "renderPosition": "bottom",
-                "gridSize":3,
-                "action": {
-                    "type": "drillDown",
-                    "pathList": [
-                        "1.0",
-                        "aggregate"
-                    ],
-                    "paramObj": {
-                        "templateId": "StuckPayments"
                     }
                 }
             }
@@ -1557,235 +1539,186 @@
         "title": "Bill Payment Schedule Information",
         "ignoreKeys": [],
         "listInfo":[
-            
+            {
+                "label":"History",
+                "valueMap":"history",
+                "componentType":"table",
+                "renderProps":{
+                    "headersInfo":[],
+                    "title":"History",
+                    "ignoreKeys":["personalizeParams"]
+                } 
+            }
+        ]
+    },
+    "clientPaymentConfigQueryBuilder":{ 
+        "componentType": "detailsList",
+        "title": "Client Payment Config Information",
+        "ignoreKeys": [""],
+        "listInfo":[
+            {
+                "valueMap":"paymentMethod",
+                "displayValueEnum": [
+                    {
+                        "label": "CHECK",
+                        "value": "1"
+                    },
+                    {
+                        "label": "ACH",
+                        "value": "2"
+                    },
+                    {
+                        "label": "CENTIME_CARD",
+                        "value": "3"
+                    },
+                    {
+                        "label": "CREDIT_CARD",
+                        "value": "4"
+                    },
+                    {
+                        "label": "OTHER",
+                        "value": "5"
+                    },
+                    {
+                        "label": "FX_PAYMENT",
+                        "value":"6"
+                    },
+                    {
+                        "label": "CENTIME_PAY",
+                        "value": "7"
+                    },
+                    {
+                        "label": "CENTIME_CASH",
+                        "value": "8"
+                    }
+                ]
+            },
+            {
+                "valueMap":"alternateMailingAddressEnabled",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"checkNameEditedByUser",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"shareOnCentimePaymentPortal",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"payDirectlyOnSupplierWebsite",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"defaultOption",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"groupPayments",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"globalDefault",
+                "formatType":"boolean"
+            }
+        ]
+    },
+    "paymentIssuesFilterQueryBuilder":{
+        "componentType": "detailsList",
+        "title": "Payment Issues",
+        "ignoreKeys": ["clientId","glType","paymentId","clientName"],
+        "additionalProperties": {
+            "showQueryBuilder": true,
+            "queryBuilderPosition": "bottom",
+            "queryBuilderParams": {
+                "orientation": "row",
+                "showChooseFilterInQueryBuilder": false,
+                "elementsInfo": [
+                    {
+                        "type": "Dropdown",
+                        "title": "Filter By Issue",
+                        "gridSize":4,
+                        "componentProps": {
+                            "options": {
+                                "STUCK_PAYMENTS": "STUCK_PAYMENTS",
+                                "FASTER_ACH_CONVERTED": "FASTER_ACH_CONVERTED",
+                                "FASTER_ACH_DELAYED": "FASTER_ACH_DELAYED"
+                            },
+                            "tnsForOptions": false,
+                            "multiple": true
+                        },
+                        "queryName": "filters"
+                    }
+                ]
+            }
+        },
+        "additionalContent": [
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Get Issue(s)"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "PaymentsWithFilters"
+                    },
+                    "paramObjMap": {
+                        "filters": {
+                            "type": "queryBuilder",
+                            "value": "filters"
+                        }
+                    }
+                }
+            }
         ]
     },
     "buyerInfo":{
         "componentType": "detailsList",
         "title":"Buyer Information",
-        "ignoreKeys":["classId","locationId","departmentId","description","contactRoleDetails"],
         "listInfo":[
             {
-                "label": "Client Id",
-                "valueMap": "clientId"
+                "valueMap":"notificationStatus",
+                "formatType":"boolean"
             },
             {
-                "label": "Batch Id",
-                "valueMap": "batchId"
+                "valueMap":"monthlyStatementFlag",
+                "formatType":"boolean"
             },
             {
-                "label": "Invoice Id",
-                "valueMap": "invoiceId"
+                "valueMap":"paymentConfirmationFlag",
+                "formatType":"boolean"
             },
             {
-                "label": "Invoice Number",
-                "valueMap": "invoiceNumber"
+                "valueMap":"accessPaymentHub",
+                "formatType":"boolean"
             },
             {
-                "label": "AR Account Id",
-                "valueMap": "arAccountId"
-            },
-            {
-                "label": "Buyer Id",
-                "valueMap": "buyerId"
-            },
-            {
-                "label": "Billing Address",
-                "valueMap": "billingAddress",
-                "renderProps": {
-                    "ignoreKeys":["latitude","longitude"],
-                    "listInfo": [
-                        {
-                            "label": "Address Line",
-                            "valueMap": "addressLine"
-                        },
-                        {
-                            "label": "Zip Code",
-                            "valueMap": "zipCode"
-                        },
-                        {
-                            "label": "State",
-                            "valueMap": "state"
-                        },
-                        {
-                            "label": "City",
-                            "valueMap": "city"
-                        },
-                        {
-                            "label": "Country",
-                            "valueMap": "country"
-                        }
-                    ],
-                    "additionalProperties": {
-                        "editableForm": false,
-                        "seperateSection": false
-                    },
-                    "detailsListFullWidth": true
+                "label":"Primary Email Ids",
+                "valueMap":"primaryEmails",
+                "renderProps":{
+                    "headersInfo":[]
                 }
             },
             {
-                "label": "Buyer name",
-                "valueMap": "buyerName"
-            },
-            {
-                "label": "Term Id",
-                "valueMap": "termId"
-            },
-            {
-                "label": "Txn Date",
-                "valueMap": "txnDate"
-            },
-            {
-                "label": "Due Date",
-                "valueMap": "dueDate"
-            },
-            {
-                "label": "Currency code",
-                "valueMap": "currencyCode"
-            },
-            {
-                "label": "Txn deposit",
-                "valueMap": "txnDeposit",
-                "formatType":"currency"
-            },
-            {
-                "label": "Txn Total Tax",
-                "valueMap": "txnTotalTax",
-                "formatType":"currency"
-            },
-            {
-                "label": "Txn Total Amount",
-                "valueMap": "txnTotalAmount",
-                "formatType":"currency"
-            },
-            {
-                "label": "Txn Balance",
-                "valueMap": "txnBalance",
-                "formatType":"currency"
-            },
-            {
-                "label": "Exchange rate",
-                "valueMap": "exchangeRate"
-            },
-            {
-                "label": "Home Total Amount",
-                "valueMap": "homeTotalAmount",
-                "formatType":"currency"
-            },
-            {
-                "label": "Home Balance",
-                "valueMap": "homeBalance",
-                "formatType":"currency"
-            },
-            {
-                "label": "Bill Active Status",
-                "valueMap": "billActiveStatus"
-            },
-            {
-                "label": "Bill Payment Status",
-                "valueMap": "billPaymentStatus"
-            },
-            {
-                "label": "Bill Process Status",
-                "valueMap": "billProcessStatus"
-            },
-            {
-                "label": "Created Time",
-                "valueMap": "createdTime"
-            },
-            {
-                "label": "Updated Time",
-                "valueMap": "updatedTime"
-            },
-            {
-                "label": "Invoice Lines",
-                "valueMap": "invoiceLines",
-                "renderType": "table",
+                "label":"Contact Role Details",
+                "valueMap":"contactRoleDetails",
                 "renderProps":{
-                    "ignoreKeys":["lineType","itemId","quantity","unitPrice","classId",
-                "locationId","departmentId","paymentMethodId","entityId","entityType",
-                "description","payrollItemId","homeAmount","txnAmount","subsidiaryExchangeRate",
-                "subsidiaryCurrencyCode","subLines","subsidiaryId"],
+                    "ignoreKeys":["communicationContact","glSync","emailValidationStatus"],
                     "headersInfo":[
-                        {
-                            "title": "Line Id",
-                            "valueMap": "lineId",
-                            "renderType": "text",
-                            "align":"left",
-                            "enableSort": true
-                        },
-                        {
-                            "title": "A/C Id",
-                            "valueMap": "accountId",
-                            "renderType": "text",
-                            "align":"left",
-                            "enableSort": true
-                        },
-                        {
-                            "title": "Amount",
-                            "valueMap": "amount",
-                            "renderType": "text",
-                            "align":"left",
-                            "enableSort": true,
-                            "formatType":"currency"
-                        },
-                        {
-                            "title": "Billable",
-                            "valueMap": "billable",
-                            "renderType": "text",
-                            "align":"left",
-                            "enableSort": true,
-                            "formatType":"boolean"
-                        }
                     ]
                 }
             },
             {
-                "label": "Invoice Linked Txns",
-                "valueMap": "invoiceLinkedTxns",
-                "renderType": "table",
-                "renderProps":{
-                    "ignoreKeys":[],
-                    "headersInfo":[
-                        {
-                            "title": "Txn Id",
-                            "valueMap": "txnId",
-                            "renderType": "text",
-                            "align":"left",
-                            "enableSort": true
-                        },
-                        {
-                            "title": "Txn Type",
-                            "valueMap": "txnType",
-                            "renderType": "text",
-                            "align":"left",
-                            "enableSort": true
-                        },
-                        {
-                            "title": "Txn Number",
-                            "valueMap": "txnNumber",
-                            "renderType": "text",
-                            "align":"left",
-                            "enableSort": true
-                        },
-                        {
-                            "title": "Txn Amount",
-                            "valueMap": "txnAmount",
-                            "renderType": "text",
-                            "align":"left",
-                            "enableSort": true,
-                            "formatType":"currency"
-                        },
-                        {
-                            "title": "Txn Date",
-                            "valueMap": "txnDate",
-                            "renderType": "text",
-                            "align":"left",
-                            "enableSort": true
-                        }
-                    ]
-                }
+                "valueMap":"enableOnlinePayments",
+                "formatType":"boolean"
             }
+
         ]
     },
     "invoiceInformation":{
@@ -2892,17 +2825,11 @@
             "paginationNeeded":true
         }
     },
-    "PendingPaymentsListWithName":{
+    "pendingPayments":{
         "componentType": "table",
         "title": "Pending Payment List",
         "ignoreKeys":["payment.paymentSubStatusTracking"],
         "headersInfo":[
-            {
-                "title": "Client name",
-                "valueMap": "clientName",
-                "align":"left",
-                "enableSort": true
-            },
             {
                 "title": "Payment Id",
                 "valueMap": "payment.paymentId",
@@ -4053,7 +3980,7 @@
                             "valueMap": "supplierId",
                             "renderType": "Link",
                             "action": {
-                                "type": "sidePanelData",
+                                "type": "drillDown",
                                 "pathList": [
                                     "1.0",
                                     "aggregate"
@@ -4297,10 +4224,150 @@
     "supplierInfo":{
         "componentType": "detailsList",
         "title": "Supplier Details",
-        "ignoreKeys":["billAddress","history","notes","paymentAccountConfiguration","primaryEmails",
-    "billIds","electronicPaymentAlternatePrimaryEmails","remittanceAlternatePrimaryEmails",
-    "approvalAlternatePrimaryEmails","settingsData"],
-    "listInfo":[]
+        "transformToTableDataValueMap":["paymentAccountConfiguration"],
+        "insertValueMapIntoObj":["paymentMethod"],
+        "ignoreKeys":[],
+        "listInfo":[
+            {
+                "valueMap":"approvalNotificationFlag",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"sendRemittanceFlag",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"approvalAlternateContactEnabled",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"remittanceAlternateContactEnabled",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"defaultOption",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"groupPayments",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"globalDefault",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"creditAmountAvailable",
+                "formatType":"currency"
+            },
+            {
+                "valueMap":"creditApplied",
+                "formatType":"currency"
+            },
+            {
+                "valueMap":"electronicPaymentEnabled",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"historyAvailable",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"notesAvailable",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"cardAcceptingMerchant",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"combineDocumentLines",
+                "formatType":"boolean"
+            },
+            {
+                "valueMap":"electronicPaymentAlternateContactEnable",
+                "formatType":"boolean"
+            },
+            {
+                "label":"Payment Accounts Config",
+                "valueMap":"paymentAccountConfiguration",
+                "renderProps":{
+                    "headersInfo":[
+                        {
+                            "valueMap": "paymentMethod",
+                            "renderType":"Link",
+                            "action": {
+                                "type": "drillDownNewPage",
+                                "data": {
+                                    "clientPaymentConfigQueryBuilder": {}
+                                }
+                              },
+                            "displayValueEnum": [
+                                {
+                                    "label": "CHECK",
+                                    "value": "1"
+                                },
+                                {
+                                    "label": "ACH",
+                                    "value": "2"
+                                },
+                                {
+                                    "label": "CENTIME_CARD",
+                                    "value": "3"
+                                },
+                                {
+                                    "label": "CREDIT_CARD",
+                                    "value": "4"
+                                },
+                                {
+                                    "label": "OTHER",
+                                    "value": "5"
+                                },
+                                {
+                                    "label": "FX_PAYMENT",
+                                    "value":"6"
+                                },
+                                {
+                                    "label": "CENTIME_PAY",
+                                    "value": "7"
+                                },
+                                {
+                                    "label": "CENTIME_CASH",
+                                    "value": "8"
+                                }
+                            ]
+                        }
+                    ],
+                    "ignoreKeys":["alternateMailingAddressEnabled","checkMailingAddress","checkNameEditedByUser","defaultOption",
+                "globalDefault","groupPayments","payDirectlyOnSupplierWebsite","shareOnCentimePaymentPortal","defaultFundingAccountPaymentId"],
+                    "additionalProperties":{
+                        "paginationNeeded":true
+                    }
+                }
+            },
+            {
+                "label":"Notes",
+                "valueMap":"notes",
+                "renderProps":{
+                    "headersInfo":[],
+                    "ignoreKeys":["personalizeParams"],
+                    "additionalProperties":{
+                        "paginationNeeded":true
+                    }
+                }
+            },
+            {
+                "label":"History",
+                "valueMap":"history",
+                "renderProps":{
+                    "headersInfo":[],
+                    "ignoreKeys":["personalizeParams"],
+                    "additionalProperties":{
+                        "paginationNeeded":true
+                    }
+                }
+            }
+        ]
     },
     "failedJobs":{
         "componentType": "table",
@@ -5770,6 +5837,123 @@
         "ignoreKeys": [
             "clientId",
             "currencyCode"
+        ],
+        "additionalProperties": {
+            "defaultSortingOrder": "desc",
+            "defaultColumnToSort": 6,
+            "enableSearch": true,
+            "paginationNeeded": true,
+            "rowsPerPageOptions": [
+                20
+            ]
+        }
+    },
+    "paymentsWithFilters": {
+        "componentType": "table",
+        "title": "Payments List",
+        "ignoreKeys": [
+            "clientId","payerClientType","groupId","matchedRuleIds","payeeReferenceId","payeeClientType",
+            "currencyCode","payerPaymentAccountId","payerPaymentAccountType","paymentDescription","payeePaymentAccountId",
+            "payeePaymentAccountType","paymentSubStatusTracking","paymentMetadata"
+
+        ],
+        "headersInfo": [
+            {
+                "title": "Payment Id",
+                "valueMap": "paymentId",
+                "renderType": "Link",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "PaymentDetails"
+                    },
+                    "paramObjMap": {
+                        "paymentId": "paymentId",
+                        "clientName": "clientName"
+                    },
+                    "pageQueryParams": ["paymentId","clientName"]
+                },
+                "enableSort": true
+            },
+            {
+                "title": "Client Id",
+                "valueMap": "payerReferenceId",
+                "enableSort": true,
+                "align":"left"
+            },
+            {
+                "title": "Method",
+                "valueMap": "paymentMethod",
+                "enableSort": true
+            },
+            {
+                "title": "Amount",
+                "valueMap": "amount",
+                "formatType": "currency",
+                "align":"left",
+                "enableSort": true
+            },
+            {
+                "title": "Status",
+                "valueMap": "paymentStatus",
+                "enableSort": true,
+                "displayValueEnum": [
+                    {
+                        "label": "ReadyToPay",
+                        "value": 0
+                    },
+                    {
+                        "label": "AwaitingForApproval",
+                        "value": 1
+                    },
+                    {
+                        "label": "Rejected",
+                        "value": 2
+                    },
+                    {
+                        "label": "Scheduled",
+                        "value": 3
+                    },
+                    {
+                        "label": "Failed",
+                        "value": 4
+                    },
+                    {
+                        "label": "Paid",
+                        "value": 5
+                    },
+                    {
+                        "label": "markedPaid",
+                        "value": 6
+                    },
+                    {
+                        "label": "paidInGeneralLedger",
+                        "value": 7
+                    },
+                    {
+                        "label": "userActionNeeded",
+                        "value": 8
+                    },
+                    {
+                        "label": "inProcess",
+                        "value": 9
+                    }
+                ]
+            },
+            {
+                "title": "Capture Date",
+                "valueMap": "paymentCaptureDate",
+                "enableSort": true
+            },
+            {
+                "title": "Payment Start Date",
+                "valueMap": "paymentStartDate",
+                "enableSort": true
+            }
         ],
         "additionalProperties": {
             "defaultSortingOrder": "desc",
@@ -8095,7 +8279,22 @@
             },
             {
                 "label": "Tax Number",
-                "valueMap": "taxNumber"
+                "valueMap": "taxNumber",
+                "renderType":"Link",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "GetClientTaxIdInfo"
+                    },
+                    "paramObjMap": {
+                        "taxId":"taxNumber",
+                        "taxIdType":"taxIdType"
+                    }
+                }
             },
             {
                 "label": "GL Type",
@@ -8119,6 +8318,13 @@
                         "value": 4
                     }
                 ]
+            },
+            {
+                "label":"Transfer Limit",
+                "valueMap":"transferLimit",
+                "editable": true,
+                "editType": "text",
+                "formatType":"currency"
             }
         ],
         "additionalContent": [
@@ -8275,31 +8481,49 @@
                     "clientId": "clientId",
                     "clientKycStatus": "clientKycStatus",
                     "clientVerificationStatus": "clientVerificationStatus",
-                    "glConnectionStatus": "glConnectionStatus"
+                    "glConnectionStatus": "glConnectionStatus",
+                    "transferLimit":"transferLimit"
                 },
                 "bodyObjMap": {}
             }
         }
     },
+    "getClientTaxIdInfo":{
+        "componentType": "detailsList",
+        "title": "Tax Id Information",
+        "listInfo":[
+            {
+                "valueMap":"evercResponse",
+                "renderProps":{
+                    "ignoreKeys":["riskDetails"]
+                }
+            }
+        ]
+    },
     "clientSettings":{
         "componentType": "detailsList",
         "title": "Client Settings",
         "ignoreKeys":["glType","clientId","clientName","sourceName"],
+        "addValueMap":"paymentSettings.achPaymentMode",
+        "defaultValue":"GOOD_FUNDS",
         "listInfo":[
             {
-                "label": "Enable Faster ACH",
-                "valueMap": "paymentSettings.fasterACH",
-                "formatType":"boolean",
+                "label": "ACH Payment Mode",
+                "valueMap": "paymentSettings.achPaymentMode",
                 "editType": "select",
                 "editable":true,
                 "enum":[
                     {
-                        "label": "Yes",
-                        "value": true
+                        "label": "GOOD_FUNDS",
+                        "value": "GOOD_FUNDS"
                     },
                     {
-                        "label": "No",
-                        "value": false
+                        "label": "FASTER_ACH",
+                        "value": "FASTER_ACH"
+                    },
+                    {
+                        "label": "FUND_AND_PAY",
+                        "value": "FUND_AND_PAY"
                     }
                 ]
             }
@@ -8324,7 +8548,7 @@
                     "templateId": "ClientSettingsUpdate"
                 },
                 "paramObjMap": {
-                    "fasterACH": "paymentSettings.fasterACH",
+                    "achPaymentMode": "paymentSettings.achPaymentMode",
                     "clientId":"clientId"
                 },
                 "bodyObjMap": {}

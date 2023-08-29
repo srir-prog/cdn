@@ -90,7 +90,7 @@
     "minPaymentSettingsAmount": "The value should be {{minPaymentAmount}} or more",
     "minValue": "Value must be greater than zero",
     "maxValue": "Value must be less than or equal to {{amountLimit}}",
-    "expectedDateIsInThePast": "Expected date is in the past",
-    "expectedDateIsNotChanged" : "Expected date is not changed",
-    "changeStatusBeforeSettingAnExpectedDate": "Change status before setting an expected date"
+    "selectACurrentOrFutureDate": "Select a current or future date",
+    "changeTheDateToModifyThePlan" : "Change the date to modify the plan",
+    "changeStatusToPlanOnThisInvoice": "Change status to plan on this invoice"
 }
