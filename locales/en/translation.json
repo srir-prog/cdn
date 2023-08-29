@@ -221,5 +221,6 @@
     "noEmailError9":"Add the Authorized Signatory email in the Ownership and beneficiary settings page to send the Centime Banking application for signing.",
     "noEmailError":"Add the Authorized Signatory email in the Ownership and beneficiary settings page to send the application for signing.",
     "applicationSent":"Application has been sent via email to the authorised signatory.",
-    "emailSentTo":"Signer - {{email}}"
+    "emailSentTo":"Signer - {{email}}",
+    "Export": "Export"
 }
