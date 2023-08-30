@@ -593,6 +593,7 @@
     "planned": "की योजना बनाई",
     "detailsMissingForNegativeAmount": "चालान राशि {{amount}} से अधिक होनी चाहिए",
     "memo":"ज्ञापन",
+    "invoicePayments":"{{count}} चालान भुगतान प्राप्त हुआ.",
     "ExportReport": "निर्यात रिपोर्ट",
     "ScopeOfExport": "निर्यात का दायरा",
     "CurrentPage": "वर्तमान पृष्ठ",
