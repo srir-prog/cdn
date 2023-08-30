@@ -404,5 +404,7 @@
     "maxContactReachedMsg":"Maximum limit of {{count}} roles reached.",
     "noCommunicationContacts": "No Communication contacts available",
     "planHistoryActionExpectedPaymentDateUpdated": "Plan: Expected date changed",
-    "planHistoryActionInvoiceStatusUpdated": "Plan: Invoice status updated"
+    "planHistoryActionInvoiceStatusUpdated": "Plan: Invoice status updated",
+    "termName": "Term name",
+    "monthlyStatementFlag": "Monthly statement"
 }
