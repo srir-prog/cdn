@@ -406,5 +406,7 @@
     "noCommunicationContacts": "No Communication contacts available",
     "planHistoryActionExpectedPaymentDateUpdated": "Plan: Expected date changed",
     "planHistoryActionInvoiceStatusUpdated": "Plan: Invoice status updated",
+    "termName": "Term name",
+    "monthlyStatementFlag": "Monthly statement",
     "buyerCustomError": "Error while fetching customer"
 }
