@@ -597,6 +597,6 @@
     "ExportReport": "निर्यात रिपोर्ट",
     "ScopeOfExport": "निर्यात का दायरा",
     "CurrentPage": "वर्तमान पृष्ठ",
-    "AllPages": "सभी पेज",
-    "SelectFormat": "प्रारूप का चयन करें"
+    "All": "सभी",
+    "Format": "प्रारूप का चयन करें"
 }

@@ -599,6 +599,6 @@
     "ExportReport": "Export report",
     "ScopeOfExport": "Scope of export",
     "CurrentPage": "Current page",
-    "AllPages": "All pages",
-    "SelectFormat": "Select format"
+    "All": "All",
+    "Format": "Format"
 }
