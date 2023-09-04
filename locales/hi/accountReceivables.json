@@ -405,5 +405,7 @@
     "planHistoryActionExpectedPaymentDateUpdated": "योजना: अपेक्षित भुगतान तिथि अपडेट की गई",
     "planHistoryActionInvoiceStatusUpdated": "योजना: चालान की स्थिति अपडेट की गई",
     "termName": "अवधि का नाम",
-    "monthlyStatementFlag": "मासिक विवरण"
+    "monthlyStatementFlag": "मासिक विवरण",
+    "planSaveSuccess": "योजना सफलतापूर्वक सहेजी गई",
+    "planSaveFail":"योजना को सहेजते समय एक समस्या हुई"
 }
