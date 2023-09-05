@@ -408,5 +408,6 @@
     "termName": "Term name",
     "monthlyStatementFlag": "Monthly statement",
     "planSaveSuccess": "Plan saved successfully",
-    "planSaveFail":"There was a problem while saving the plan"
+    "planSaveFail":"There was a problem while saving the plan",
+    "headerLabelGlPostStatus": "General ledger post status"
 }
