@@ -673,5 +673,7 @@
     "email":"Email",
     "accountPayableAccount":"Accounts payable default",
     "generalLedgerAccountSettings": "General Ledger account",
-    "selectAnOption": "Select an option"
+    "selectAnOption": "Select an option",
+    "companyDataPartialSavedFailToSaveImage": "Error encountered while saving the image. Please try again.",
+    "companyDataPartialSavedFailToSaveDetails": "Error encountered while saving the details. Please try again."
 }
