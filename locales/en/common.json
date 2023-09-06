@@ -600,5 +600,10 @@
     "ScopeOfExport": "Scope of export",
     "CurrentPage": "Current page",
     "AllPages": "All pages",
-    "SelectFormat": "Select format"
+    "SelectFormat": "Select format",
+    "maxSizeAndSupportsImageTypes": "Supports: JPEG, SVG, PNG up to {{size}}MB",
+    "fileUploaderTitle" : "<ourLink></ourLink> a file or drag it here to upload",
+    "chooseFile": "Choose",
+    "logoSupportedFileFormat" : "The image cannot be uploaded as the format is not supported",
+    "exceededLogoSizeLimit": "The image cannot be uploaded as the file size is more than {{fileSizeLimit}}MB"
 }

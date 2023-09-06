@@ -598,5 +598,10 @@
     "ScopeOfExport": "निर्यात का दायरा",
     "CurrentPage": "वर्तमान पृष्ठ",
     "AllPages": "सभी पेज",
-    "SelectFormat": "प्रारूप का चयन करें"
+    "SelectFormat": "प्रारूप का चयन करें",
+    "maxSizeAndSupportsImageTypes": "समर्थन करता है: JPEG, SVG, PNG {{size}}MB तक",
+    "fileUploaderTitle" : "कोई फ़ाइल <ourLink></ourLink> या अपलोड करने के लिए उसे यहां खींचें",
+    "chooseFile": "चुनें",
+    "logoSupportedFileFormat" : "छवि अपलोड नहीं की जा सकती क्योंकि प्रारूप समर्थित नहीं है",
+    "exceededLogoSizeLimit": "छवि अपलोड नहीं की जा सकती क्योंकि फ़ाइल का आकार {{fileSizeLimit}}MB से अधिक है"
 }
