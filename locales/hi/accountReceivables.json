@@ -377,6 +377,7 @@
     "glSyncContactError": "अब जीएल के साथ सिंक नहीं हो रहा है",
     "glSyncContactSuccess": "जीएल के साथ सक्रिय रूप से समन्वयित करना",
     "editIconContactMsg": "संपादित करने पर, संपर्क जीएल के साथ सिंक खो देगा",
+    "editIconContactDisabledMsg": "प्राथमिक संपर्क भूमिका केवल जीएल में संपादित की जा सकती है",
     "roleUpdated":"ग्राहक संपर्क भूमिका सफलतापूर्वक अपडेट की गई",
     "updateRoleError": "ग्राहक संपर्क भूमिका अद्यतन करने के दौरान एक त्रुटि हुई",
     "roleCreated":"ग्राहक संपर्क भूमिका सफलतापूर्वक बनाई गई",
@@ -408,5 +409,6 @@
     "monthlyStatementFlag": "मासिक विवरण",
     "planSaveSuccess": "योजना सफलतापूर्वक सहेजी गई",
     "planSaveFail":"योजना को सहेजते समय एक समस्या हुई",
-    "headerLabelGlPostStatus": "सामान्य खाता बही की स्थिति"
+    "headerLabelGlPostStatus": "सामान्य खाता बही की स्थिति",
+    "buyerCustomError":"ग्राहक लाते समय त्रुटि"
 }

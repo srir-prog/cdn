@@ -326,5 +326,8 @@
     "secureVerificationTitle":"Enable two-factor authentication for your account",
     "secureProvideMobileNumber":"Please enter your mobile number to receive the verification code",
     "accountTransferVerfCode":"Transfer verification",
-    "verifyPhoneSubHeading":"Your transfer request has exceeded the security threshold for your account.Please enter the verification code sent to phone number (<b>{{phoneNumber}}</b>) to confirm this transaction."
+    "verifyPhoneSubHeading":"Your transfer request has exceeded the security threshold for your account.Please enter the verification code sent to phone number (<b>{{phoneNumber}}</b>) to confirm this transaction.",
+    "CompanyId": "Company Id",
+    "UserId": "User Id",
+    "EntityId": "Entity Id"
 }
