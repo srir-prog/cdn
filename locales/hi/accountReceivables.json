@@ -407,5 +407,8 @@
     "planHistoryActionInvoiceStatusUpdated": "योजना: चालान की स्थिति अपडेट की गई",
     "termName": "अवधि का नाम",
     "monthlyStatementFlag": "मासिक विवरण",
+    "planSaveSuccess": "योजना सफलतापूर्वक सहेजी गई",
+    "planSaveFail":"योजना को सहेजते समय एक समस्या हुई",
+    "headerLabelGlPostStatus": "सामान्य खाता बही की स्थिति",
     "buyerCustomError":"ग्राहक लाते समय त्रुटि"
 }
