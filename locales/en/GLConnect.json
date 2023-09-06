@@ -87,7 +87,7 @@
     "QBDTab4Line2": "Your consent is needed in order to establish the connection between Centime and your company file.",
     "QBDTab4Line3": "Click “NEXT” after you have provided the consent.",
     "QBDTab5Title": "Complete connection to your company",
-    "QBDTab5Line1": "Your consent was successfully received and we can now completed the connection to your company to Centime and start the initial sync. ",
+    "QBDTab5Line1": "Your consent was successfully received and we can now complete the connection to your company to Centime and start the initial sync. ",
     "QBDTab5Line2": "IMPORTANT : If you normally use your QuickBooks Desktop in multi-user mode, please revert your QuickBooks Desktop to this mode, as you may not be able to make this change while the initial sync is going on. ",
     "QBDTab5Line3": "Click “NEXT” to complete connecting to your company",
     "NotReceivedConsent" : "Not received consent popup?  <link></link>",
