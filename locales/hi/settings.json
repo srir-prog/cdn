@@ -642,5 +642,7 @@
     "email":"ईमेल",
     "accountPayableAccount":"देय खाते डिफ़ॉल्ट",
     "generalLedgerAccountSettings": "सामान्य बही खाता",
-    "selectAnOption": "कोई विकल्प चुनें"
+    "selectAnOption": "कोई विकल्प चुनें",
+    "companyDataPartialSavedFailToSaveImage": "छवि सहेजते समय त्रुटि आई। कृपया पुन: प्रयास करें।",
+    "companyDataPartialSavedFailToSaveDetails": "विवरण सहेजते समय त्रुटि आई। कृपया पुन: प्रयास करें।"
 }
