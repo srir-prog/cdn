@@ -410,5 +410,6 @@
     "planSaveSuccess": "योजना सफलतापूर्वक सहेजी गई",
     "planSaveFail":"योजना को सहेजते समय एक समस्या हुई",
     "headerLabelGlPostStatus": "सामान्य खाता बही की स्थिति",
+    "headerLabelPartnerName": "पार्टनर नाम",
     "buyerCustomError":"ग्राहक लाते समय त्रुटि"
 }
