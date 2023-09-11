@@ -324,9 +324,9 @@
     "noDataHeader": "Beneficial owners, controlling officers and authorized signatories",
     "ownershipDescription": "Federal law requires that we collect some key information about individuals that have certain roles and responsibilities in the business.",
     "beneficialOwners": "Beneficial owners:",
-    "BODescription": "Individuals who own 25% or more of the business",
+    "BODescription": "Each individual, if any, who owns, directly or indirectly, 25 percent or more of the equity interests of the legal entity customer (e.g., each natural person that owns 25 percent or more of the shares of a corporation)",
     "controllingOfficers": "Controlling officers:",
-    "CODescription": "Individuals who can make materially significant decisions on behalf of the business",
+    "CODescription": "An individual with significant responsibility for managing the legal entity customer (e.g., Chief Executive Officer, Chief Financial Officer, Chief Operating Officer, Managing Member, General Partner, President, Vice President or Treasurer).",
     "authorizedSignatories": "Authorized signatories:",
     "ASDescription": "Individuals who are authorized to legally bind the business to contracts",
     "footerText": "To make full use of Centime, you <bold> must </bold> provide information about all beneficial owners and at least one controlling officer and one authorized signatory.",
@@ -692,5 +692,8 @@
     "taskTemplatesErrorMsg": "Error while fetching the task template",
     "creatTaskTemplatesErrorMsg": "Error while creating the task template",
     "deleteTaskTemplateErrorMsg": "Error while deleting the task template",
-    "updateTaskTemplateErrorMsg": "Error while updating the task template"
+    "updateTaskTemplateErrorMsg": "Error while updating the task template",
+    "companyDataPartialSavedFailToSaveImage": "Error encountered while saving the image. Please try again.",
+    "companyDataPartialSavedFailToSaveDetails": "Error encountered while saving the details. Please try again."
+
 }

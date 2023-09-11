@@ -661,5 +661,7 @@
     "taskTemplatesErrorMsg": "कार्य टेम्पलेट लाते समय त्रुटि",
     "creatTaskTemplatesErrorMsg": "कार्य टेम्पलेट बनाते समय त्रुटि",
     "deleteTaskTemplateErrorMsg": "कार्य टेम्पलेट हटाते समय त्रुटि",
-    "updateTaskTemplateErrorMsg": "कार्य टेम्पलेट अद्यतन करते समय त्रुटि"
+    "updateTaskTemplateErrorMsg": "कार्य टेम्पलेट अद्यतन करते समय त्रुटि",
+    "companyDataPartialSavedFailToSaveImage": "छवि सहेजते समय त्रुटि आई। कृपया पुन: प्रयास करें।",
+    "companyDataPartialSavedFailToSaveDetails": "विवरण सहेजते समय त्रुटि आई। कृपया पुन: प्रयास करें।"
 }
