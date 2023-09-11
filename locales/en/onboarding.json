@@ -140,6 +140,7 @@
     "selectBusinessLegalStructure":"Choose your Business legal structure",
     "selectIndustry":"Choose your Industry",
     "addAuthorizedSignatoryAndControllingOfficer":"Add an Authorized signatory and a Controlling officer to proceed to the next step",
+    "addAuthorizedSignatory":"Add an Authorized signatory to proceed to the next step",
     "networkErrorMessage": "Unable to process application due to a technical error. Please try again later",
     "submitSummary":"Please click 'Send to Signatory' to email your Centime Banking application to the authorized signatories",
     "submitStatusUser":"Your Centime Banking application is in progress and has been emailed to the Signatory {{noOfUsers}} - <link>{{email}}</link>",
@@ -147,5 +148,8 @@
     "centimeBankingDesc":"Diversify your deposits across multiple FDIC-insured accounts. Maximize yield, interest rates up to 40x the average.",
     "cashFlowDesc":"Explore the only all-in-one cash management solution for AP, AR, cash flow forecasting, and more.",
     "companyLogo": "Company logo",
-    "companyLogoInfoTooltip": "Manage Receivables clients can add their logo to customize the Payment hub. It is recommended to use a high-quality image."
+    "companyLogoInfoTooltip": "Manage Receivables clients can add their logo to customize the Payment hub. It is recommended to use a high-quality image.",
+    "noPoBox":"(No PO Box)",
+    "businessPhysicalAddress":"Business physical address",
+    "sameAsPhysicalAddress":"Same as physical address"
 }
