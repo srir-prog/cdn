@@ -302,6 +302,7 @@
     "invoiceAmountUpdated": "Invoice amount is updated",
     "cardDeliverySettingUpdated": "Card delivery setting is updated",
     "exceededPaymentLimit": "Exceeded payment limit",
+    "clientDeclinedPayment": "Client declined payment",
     "usdAmount": "USD Amount",
     "usdAmountTooltip": "The USD amount would be used to determine the exchange rate",
     "discountAccordion": "Early payment discounts",
