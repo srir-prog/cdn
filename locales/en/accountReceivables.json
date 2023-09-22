@@ -412,5 +412,14 @@
     "planSaveFail":"There was a problem while saving the plan",
     "headerLabelGlPostStatus": "General ledger post status",
     "headerLabelPartnerName": "Partner name",
-    "buyerCustomError": "Error while fetching customer"
+    "buyerCustomError": "Error while fetching customer",
+    "hierarchyPreferences": "Hierarchy preferences",
+    "hierarchyPreferencesTooltip": "Select the entity responsible for payment. Only the selected entity’s contacts will receive communications.",
+    "hierarchyBillTo": "Bill to",
+    "hierarchyCustomer": "Purchasing customer",
+    "hierarchyParent": "Immediate parent",
+    "hierarchyTopLevel": "Top-level parent",
+    "historyActionHierarchicalPreference": "Hierarchy preference set",
+    "hierarchyWarningContacts": "These contacts will not receive communications due to hierarchy settings. Please check the “Bill to” column for the responsible entity and their contacts.",
+    "hierarchyWarningPayments": "This entity is not responsible for payment. Access the responsible entity’s payment settings from the “Bill to” column."
 }
