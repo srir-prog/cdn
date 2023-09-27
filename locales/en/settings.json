@@ -675,5 +675,9 @@
     "generalLedgerAccountSettings": "General Ledger account",
     "selectAnOption": "Select an option",
     "companyDataPartialSavedFailToSaveImage": "Error encountered while saving the image. Please try again.",
-    "companyDataPartialSavedFailToSaveDetails": "Error encountered while saving the details. Please try again."
+    "companyDataPartialSavedFailToSaveDetails": "Error encountered while saving the details. Please try again.",
+    "approverEditAccess": "Approver edit access",
+    "enableApproversDisplayLabel": "Enable approvers to edit invoice details",
+    "onlyApproversListLabel":"Only for following approvers",
+    "onlyApproversListLabelTransObj": "Only for following approvers: {{approversList}}"
 }
