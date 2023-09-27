@@ -411,5 +411,14 @@
     "planSaveFail":"योजना को सहेजते समय एक समस्या हुई",
     "headerLabelGlPostStatus": "सामान्य खाता बही की स्थिति",
     "headerLabelPartnerName": "पार्टनर नाम",
-    "buyerCustomError":"ग्राहक लाते समय त्रुटि"
+    "buyerCustomError":"ग्राहक लाते समय त्रुटि",
+    "hierarchyPreferences": "पदानुक्रम प्राथमिकताएँ",
+    "hierarchyPreferencesTooltip": "भुगतान के लिए उत्तरदायी इकाई का चयन करें. केवल चयनित इकाई के संपर्कों को ही संचार प्राप्त होगा।",
+    "hierarchyBillTo": "बिल प्राप्तकर्ता",
+    "hierarchyCustomer": "ग्राहक खरीद रहा है",
+    "hierarchyParent": "तत्काल अभिभावक",
+    "hierarchyTopLevel": "शीर्ष स्तर के अभिभावक",
+    "historyActionHierarchicalPreference": "पदानुक्रम वरीयता सेट",
+    "hierarchyWarningContacts": "पदानुक्रम सेटिंग्स के कारण इन संपर्कों को संचार प्राप्त नहीं होगा। कृपया जिम्मेदार इकाई और उनके संपर्कों के लिए “बिल टू” कॉलम की जाँच करें।",
+    "hierarchyWarningPayments": "यह इकाई भुगतान के लिए ज़िम्मेदार नहीं है. “बिल टू” कॉलम से जिम्मेदार इकाई की भुगतान सेटिंग्स तक पहुंचें।"
 }

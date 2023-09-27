@@ -142,7 +142,7 @@
     "CAPRadioTitle1": "Please confirm you have {{GLType}} administrative privileges",
     "CAPRadio1": "Yes, I have admin privileges",
     "CAPRadio2": "No, I don't have admin privileges",
-    "CAPRadio2Subtext": "I will invite a colleague with QuickBooks admin privileges",
+    "CAPRadio2Subtext": "I will invite a colleague with {{glType}} admin privileges",
     "CopiedToClipboard": "Copied to clipboard",
     "InviteCopiedToClipboard": "Invite copied to clipboard",
     "CopyInvite": "Copy invite",
