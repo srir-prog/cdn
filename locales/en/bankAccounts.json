@@ -70,6 +70,7 @@
     "amount": "Amount",
     "date": "Date",
     "description": "Description",
+    "category":"Category",
     "payerOrPayee": "Payer / Payee",
     "openingBalance": "Opening balance",
     "totalDeposits": "Total deposits",
