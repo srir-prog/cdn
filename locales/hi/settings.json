@@ -648,5 +648,6 @@
     "approverEditAccess": "संपादन पहुंच स्वीकृत करें",
     "enableApproversDisplayLabel": "इनवॉइस विवरण संपादित करने के लिए अनुमोदनकर्ताओं को सक्षम करें",
     "onlyApproversListLabel":"केवल निम्नलिखित अनुमोदकों के लिए",
-    "onlyApproversListLabelTransObj": "केवल निम्नलिखित अनुमोदकों के लिए: {{approversList}}"
+    "onlyApproversListLabelTransObj": "केवल निम्नलिखित अनुमोदकों के लिए: {{approversList}}",
+    "errorFetchingApprovalList":"अनुमोदन सूची लाने में त्रुटियाँ आईं। कृपया पुन: प्रयास करें।"
 }
