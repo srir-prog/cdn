@@ -61,6 +61,7 @@
     "amount": "रकम",
     "date": "दिनांक",
     "description": "विवरण",
+    "category":"वर्ग",
     "payerOrPayee": "भुगतानकर्ता / आदाता",
     "openingBalance": "प्रारंभिक शेष",
     "totalDeposits": "कुल जमा",
