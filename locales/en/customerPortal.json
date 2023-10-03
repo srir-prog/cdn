@@ -78,5 +78,6 @@
   "dueDate": "Due date",
   "company": "Company",
   "parent": "Parent",
-  "billTo": "Bill to"
+  "billTo": "Bill to",
+  "unableToSelectProcessingInvoices": "Unable to select processing invoices"
 }
