@@ -603,5 +603,12 @@
     "fileUploaderTitle" : "कोई फ़ाइल <ourLink></ourLink> या अपलोड करने के लिए उसे यहां खींचें",
     "chooseFile": "चुनें",
     "logoSupportedFileFormat" : "छवि अपलोड नहीं की जा सकती क्योंकि प्रारूप समर्थित नहीं है",
-    "exceededLogoSizeLimit": "छवि अपलोड नहीं की जा सकती क्योंकि फ़ाइल का आकार {{fileSizeLimit}}MB से अधिक है"
+    "exceededLogoSizeLimit": "छवि अपलोड नहीं की जा सकती क्योंकि फ़ाइल का आकार {{fileSizeLimit}}MB से अधिक है",
+    "readyToPostDuplicateStatusHeader": "पोस्ट करने के लिए तैयार: संभावित डुप्लिकेट मिला",
+    "postingFailedDuplicateHeader": "पोस्टिंग विफल: संभावित डुप्लिकेट मिला",
+    "needsApproversDuplicateHeader": "अनुमोदकों की आवश्यकता: संभावित डुप्लिकेट मिला",
+    "readyForApprovalDuplicateHeader": "अनुमोदन के लिए तैयार: संभावित डुप्लिकेट मिला",
+    "awaitingApprovalDuplicateHeader": "अनुमोदन की प्रतीक्षा में: संभावित डुप्लिकेट मिला",
+    "rejectedDuplicateHeader":"अस्वीकृत: संभावित डुप्लिकेट मिला",
+    "onHoldDuplicateHeader":"होल्ड पर: संभावित डुप्लिकेट मिला"
 }
