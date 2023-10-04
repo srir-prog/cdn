@@ -5854,7 +5854,7 @@
         "ignoreKeys": [
             "clientId","payerClientType","groupId","matchedRuleIds","payeeReferenceId","payeeClientType",
             "currencyCode","payerPaymentAccountId","payerPaymentAccountType","paymentDescription","payeePaymentAccountId",
-            "payeePaymentAccountType","paymentSubStatusTracking","paymentMetadata"
+            "payeePaymentAccountType","paymentSubStatusTracking","paymentMetadata","remittanceData","paymentEndDate"
 
         ],
         "headersInfo": [
