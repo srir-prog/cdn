@@ -420,7 +420,7 @@
     "hierarchyParent": "Immediate parent",
     "hierarchyTopLevel": "Top-level parent",
     "historyActionHierarchicalPreference": "Hierarchy preference set",
-    "hierarchyWarningContacts": "These contacts will not receive communications due to current hierarchy settings. Please check the 'Bill to' column for the responsible entity and contacts.",
+    "hierarchyWarningContacts": "These contacts will not receive any communications due to the hierarchy preferences. For the responsible entity and contacts, please refer to the ‘Bill to’ column.",
     "hierarchyWarningPayments": "This customer is not responsible for payment. For the responsible entity, refer to the ‘Bill to’ column.",
     "headerLabelBillTo": "Bill to",
     "headerLabelParent": "Parent",
