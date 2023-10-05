@@ -5721,32 +5721,27 @@
                     },
                     "pageQueryParams": ["paymentId","clientName"]
                 },
-                "enableSort": true,
-                "width": "15%"
+                "enableSort": true
             },
             {
                 "title": "Client Id",
                 "valueMap": "payerReferenceId",
                 "enableSort": true,
-                "width": "12%",
                 "align":"left"
             },
             {
                 "title": "Client Name",
                 "valueMap": "clientName",
-                "enableSort": true,
-                "width":"20%"
+                "enableSort": true
             },
             {
                 "title": "Method",
                 "valueMap": "paymentMethod",
-                "enableSort": true,
-                "width": "10%"
+                "enableSort": true
             },
             {
                 "title": "Group PaymentId",
                 "valueMap": "groupPaymentId",
-                "width": "10%",
                 "renderType": "Link",
                 "action": {
                     "type": "drillDown",
@@ -5770,14 +5765,12 @@
                 "valueMap": "amount",
                 "formatType": "currency",
                 "align":"left",
-                "enableSort": true,
-                "width":"8%"
+                "enableSort": true
             },
             {
                 "title": "Status",
                 "valueMap": "paymentStatus",
                 "enableSort": true,
-                "width": "15%",
                 "displayValueEnum": [
                     {
                         "label": "ReadyToPay",
@@ -5822,16 +5815,19 @@
                 ]
             },
             {
+                "title": "Invoice Id",
+                "valueMap": "paymentMetadata.invoiceDetails",
+                "enableSort": true
+            },
+            {
                 "title": "Capture Date",
                 "valueMap": "paymentCaptureDate",
-                "enableSort": true,
-                "width": "17%"
+                "enableSort": true
             },
             {
                 "title": "Payment Start Date",
                 "valueMap": "paymentStartDate",
-                "enableSort": true,
-                "width": "18%"
+                "enableSort": true
             }
         ],
         "ignoreKeys": [
@@ -8346,7 +8342,11 @@
                         "templateId": "PaymentListWithName"
                     },
                     "paramObjMap": {
-                        "clientId": "clientId"
+                        "clientId": "clientId",
+                         "groupId":{
+                            "type":"hardCoded",
+                            "value":"0,1"
+                        }
                     }
                 }
             },
