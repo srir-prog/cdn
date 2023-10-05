@@ -8346,7 +8346,11 @@
                         "templateId": "PaymentListWithName"
                     },
                     "paramObjMap": {
-                        "clientId": "clientId"
+                        "clientId": "clientId",
+                         "groupId":{
+                            "type":"hardCoded",
+                            "value":"0,1"
+                        }
                     }
                 }
             },
