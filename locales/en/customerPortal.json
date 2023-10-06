@@ -75,5 +75,9 @@
   "lastPaymentAmount": "Last payment amount",
   "lastPaymentDate": "Last payment date",
   "paymentDate": "Payment date",
-  "dueDate": "Due date"
+  "dueDate": "Due date",
+  "company": "Company",
+  "parent": "Parent",
+  "billTo": "Bill to",
+  "unableToSelectProcessingInvoices": "Unable to select processing invoices"
 }
