@@ -30,7 +30,7 @@
     "MinimumReminderAmount": "न्यूनतम एआर अनुस्मारक राशि",
     "MonthlyStatementEmails": "मासिक विवरण ईमेल",
     "SendStatements": "मासिक विवरण सक्षम करें",
-    "SendTransactionStatement": "यदि ग्राहक के पास आखिरी में चालान है तो केवल एक बयान भेजें",
+    "SendTransactionStatement": "अंतिम में भुगतान किए गए चालान शामिल करें",
     "StatementSentDay": "पर बयान भेजा गया",
     "ConfigureTemplate": "टेम्पलेट कॉन्फ़िगर करें",
     "PaymentConfirmationEmails": "भुगतान की पुष्टि ईमेल",

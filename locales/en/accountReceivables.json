@@ -30,7 +30,7 @@
     "MinimumReminderAmount": "Minimum invoice reminder amount",
     "MonthlyStatementEmails": "Monthly statement emails",
     "SendStatements": "Enable monthly statements",
-    "SendTransactionStatement": "Only send a statement if the customer has invoices in the last",
+    "SendTransactionStatement": "Include paid invoices in the last",
     "StatementSentDay": "Statement sent on",
     "ConfigureTemplate": "Configure template",
     "PaymentConfirmationEmails": "Payment confirmation emails",
