@@ -90,5 +90,7 @@
     "applicationSentForSign": "आवेदन पत्र भेजा गया है {{companyName}} हस्ताक्षर के लिए",
     "additionalProducts": "अतिरिक्त उत्पाद",
     "sentForSingature": "हस्ताक्षर हेतु भेजा गया",
-    "applicationSubmitted": "आवेदन जमा किया गया"
+    "applicationSubmitted": "आवेदन जमा किया गया",
+    "commercialBanking":  "वाणिज्यिक बैंकिंग",
+    "productsSolutions": "उत्पाद और समाधान"
   }

@@ -90,5 +90,7 @@
     "applicationSentForSign":"Application sent to {{companyName}} for signature",
     "additionalProducts":"Additional products",
     "sentForSingature":"Sent for signature",
-    "applicationSubmitted":"Application submitted"
+    "applicationSubmitted":"Application submitted",
+    "commercialBanking":  "Commercial Banking",
+    "productsSolutions": "Products and Solutions"
 }
