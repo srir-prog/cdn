@@ -93,5 +93,6 @@
     "maxValue": "Value must be less than or equal to {{amountLimit}}",
     "selectACurrentOrFutureDate": "Select a current or future date",
     "changeTheDateToModifyThePlan" : "Change the date to modify the plan",
-    "changeStatusToPlanOnThisInvoice": "Change status to plan on this invoice"
+    "changeStatusToPlanOnThisInvoice": "Change status to plan on this invoice",
+    "recheckAccountNumber": "Account number does not match"
 }
