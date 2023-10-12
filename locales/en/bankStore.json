@@ -92,5 +92,8 @@
     "sentForSingature":"Sent for signature",
     "applicationSubmitted":"Application submitted",
     "commercialBanking":  "Commercial Banking",
-    "productsSolutions": "Products and Solutions"
+    "productsSolutions": "Products and Solutions",
+    "verification":"Verification",
+    "onBoarding":"Onboarding",
+    "primaryContact":"Primary contact"
 }
