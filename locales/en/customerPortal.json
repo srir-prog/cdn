@@ -79,5 +79,6 @@
   "company": "Company",
   "parent": "Parent",
   "billTo": "Bill to",
-  "unableToSelectProcessingInvoices": "Unable to select processing invoices"
+  "unableToSelectProcessingInvoices": "Unable to select processing invoices",
+  "recheckAccountNumber": "Re-enter account number"
 }
