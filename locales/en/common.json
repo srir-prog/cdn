@@ -649,5 +649,6 @@
   "templateCreatedSuccessfully": "Template created successfully",
   "failedToSaveTheTemplatePleaseTryAgain": "Failed to save the template. Please try again.",
   "deleteTaskConfirmMsg": "Deleting the task will remove it from your task list, and any associated data or notes will be lost.",
-  "deleteTaskTitleMsg": "Are you sure you want to remove this task?"
+  "deleteTaskTitleMsg": "Are you sure you want to remove this task?",
+  "taskNotesPlaceHolderText": "Task notes"
 }
