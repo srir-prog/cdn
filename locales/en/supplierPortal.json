@@ -57,5 +57,7 @@
   "acceptPaymentViaCreditCard": "Accept payment via credit card",
   "offerDiscounts": "Offer discounts",
   "paymentProfile": "Payment profile",
-  "daysFromInvoiceDate": "Days from invoice date"
+  "daysFromInvoiceDate": "Days from invoice date",
+  "accessCreditCardDetailsOptionOne": "On Centime supplier hub",
+  "accessCreditCardDetailsOptionTwo": "Flexcore to process the card payment on website"
 }
