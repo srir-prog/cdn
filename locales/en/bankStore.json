@@ -20,7 +20,7 @@
     "mailingAddress":"Mailing address",
     "businessEmailAddress":"Business email address",
     "businessPhoneNumber":"Business phone number",
-    "businessStructureAndType":"Business Structure and type",
+    "businessStructureAndType":"Business Structure and Type",
     "ownershipInformation":"Ownership Information",
     "save":"Save",
     "federalTaxId":"Federal Tax ID",
@@ -95,5 +95,7 @@
     "productsSolutions": "Products and Solutions",
     "verification":"Verification",
     "onBoarding":"Onboarding",
-    "primaryContact":"Primary contact"
+    "primaryContact":"Primary contact",
+    "businessContact":"Business Name and Contact",
+    "ownershipAndControl":"Ownership and Control"
 }
