@@ -654,7 +654,7 @@
     "applicationArea": "आवेदन क्षेत्र",
     "createNewTask": "नया कार्य बनाएं",
     "ar": "एआर",
-    "accountsReceivable": "प्राप्य खाते",
+    "accountReceivable": "प्राप्य खाते",
     "createTaskTemplatesSuccessMsg": "कार्य टेम्पलेट सफलतापूर्वक बनाया गया",
     "updateTaskTemplateSuccessMsg": "कार्य टेम्पलेट को सफलतापूर्वक अद्यतन किया गया",
     "deleteTaskTemplateSuccessMsg": "कार्य टेम्पलेट सफलतापूर्वक हटा दिया गया",
