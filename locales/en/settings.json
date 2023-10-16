@@ -685,7 +685,7 @@
   "applicationArea": "Application area",
   "createNewTask": "Create new task",
   "ar": "AR",
-  "accountsReceivable": "Accounts receivable",
+  "accountReceivable": "Accounts receivable",
   "createTaskTemplatesSuccessMsg": "Successfully created the task template",
   "updateTaskTemplateSuccessMsg": "Successfully updated the task template",
   "deleteTaskTemplateSuccessMsg": "Successfully deleted the task template",
