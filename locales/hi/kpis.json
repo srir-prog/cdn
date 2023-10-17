@@ -13,7 +13,7 @@
     "addToCompare": "तुलना करने के लिए जोड़ें",
     "kpiPageTitle": "आपकी कंपनी के नकद प्रदर्शन में गहरी डुबकी",
     "kpiPageSubTitle": "एक गहन विश्लेषण के लिए एक प्रदर्शन श्रेणी और एक मूल्यांकन अवधि का चयन करें",
-    "collectionsPerformance": "संग्रह प्रदर्शन",
+    "collectionsPerformance": "प्राप्तियों",
     "netCashFlow": "शुद्ध नकदी प्रवाह",
     "cashBufferDays": "नकद बफर दिन",
     "cashRunway": "नकद रन वे",
@@ -51,7 +51,6 @@
     "Delay": "विलंब",
     "Customer": "ग्राहक",
     "paid": "भुगतान किया",
-    "unpaid": "अवैतनिक",
     "partiallyPaid": "आंशिक रूप से भुगतान किया",
     "onTime": "समय पर",
     "impact": "प्रभाव",
@@ -77,8 +76,8 @@
     "Months": "महीने",
     "Quarters": "क्वार्टरों",
     "Years": "वर्षों",
-    "collectionsByTime": "समय के हिसाब से संग्रह",
-    "collectionsByCustomer": "ग्राहक द्वारा संग्रह",
+    "collectionsByTime": "समय के अनुसार प्राप्य",
+    "collectionsByCustomer": "ग्राहक द्वारा प्राप्तियां",
     "collectionsByInvoiceAmount": "चालान राशि द्वारा संग्रह",
     "cashFlowOverTime": "समय के साथ नकदी का प्रवाह",
     "cashFlowStatement": "नकदी प्रवाह विवरण",
@@ -162,7 +161,6 @@
     "operatingCashFlowTooltipInfo": "कंपनी के सामान्य व्यवसाय संचालन द्वारा उत्पन्न नकदी की मात्रा का माप",
     "payables": "देय",
     "daysPayableOutStanding": "दिन देय बकाया",
-    "turnOverRatio": "कारोबार अनुपात",
     "percentagePaidEarly": "% जल्दी भुगतान किया गया",
     "percentagePaidLate": "% देर से भुगतान किया",
     "paymentsDue":  "भुगतान देय",
@@ -188,5 +186,6 @@
     "supplierInvoiceTableLabel": "आपूर्तिकर्ता चालान तालिका",
     "DaysToPay": "भुगतान करने के लिए दिन",
     "PaymentStatus": "भुगतान की स्थिति",
-    "noOfCustomers": "ग्राहकों"
+    "noOfCustomers": "ग्राहकों",
+    "selectADiffTimePeriod": "कोई भिन्न समयावधि चुनें"
 }

@@ -1,6 +1,6 @@
 {
-  "creditPaymentSolutions": "Payment and credit solutions",
-  "centimeSolutions": "Payment and credit solutions",
+  "creditPaymentSolutions": "Banking and payment solutions",
+  "centimeSolutions": "Banking and payment solutions",
   "allSolutions": "All solutions",
   "description": "Description",
   "status": "Status",
@@ -64,7 +64,7 @@
   "defaultCheckLabel": "Make this the default account for check payments",
   "defaultCreditCardLabel": "Make this the default account for credit card",
   "allRequired": "Card details are mandatory",
-  "CENTIME_CARD": "CentimeCard",
+  "CENTIME_CARD": "Centime Credit Card",
   "CENTIME_PAY": "CentimePay",
   "ACTIVE": "Active",
   "INACTIVE": "Not applied",
