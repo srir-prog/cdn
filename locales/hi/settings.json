@@ -654,7 +654,7 @@
     "applicationArea": "आवेदन क्षेत्र",
     "createNewTask": "नया कार्य बनाएं",
     "ar": "एआर",
-    "accountsReceivable": "प्राप्य खाते",
+    "accountReceivable": "प्राप्य खाते",
     "createTaskTemplatesSuccessMsg": "कार्य टेम्पलेट सफलतापूर्वक बनाया गया",
     "updateTaskTemplateSuccessMsg": "कार्य टेम्पलेट को सफलतापूर्वक अद्यतन किया गया",
     "deleteTaskTemplateSuccessMsg": "कार्य टेम्पलेट सफलतापूर्वक हटा दिया गया",
@@ -668,5 +668,6 @@
     "enableApproversDisplayLabel": "इनवॉइस विवरण संपादित करने के लिए अनुमोदनकर्ताओं को सक्षम करें",
     "onlyApproversListLabel":"केवल निम्नलिखित अनुमोदकों के लिए",
     "onlyApproversListLabelTransObj": "केवल निम्नलिखित अनुमोदकों के लिए: {{approversList}}",
-    "errorFetchingApprovalList":"अनुमोदन सूची लाने में त्रुटियाँ आईं। कृपया पुन: प्रयास करें।"
+    "errorFetchingApprovalList":"अनुमोदन सूची लाने में त्रुटियाँ आईं। कृपया पुन: प्रयास करें।",
+    "selectApprovers": "अनुमोदकों का चयन करें"
 }
