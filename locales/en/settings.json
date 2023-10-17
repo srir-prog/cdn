@@ -685,7 +685,7 @@
   "applicationArea": "Application area",
   "createNewTask": "Create new task",
   "ar": "AR",
-  "accountsReceivable": "Accounts receivable",
+  "accountReceivable": "Accounts receivable",
   "createTaskTemplatesSuccessMsg": "Successfully created the task template",
   "updateTaskTemplateSuccessMsg": "Successfully updated the task template",
   "deleteTaskTemplateSuccessMsg": "Successfully deleted the task template",
@@ -699,5 +699,6 @@
   "enableApproversDisplayLabel": "Enable approvers to edit invoice details",
   "onlyApproversListLabel": "Only for following approvers",
   "onlyApproversListLabelTransObj": "Only for following approvers: {{approversList}}",
-  "errorFetchingApprovalList": "Errors encountered in fetching the Approvar list. Please try again."
+  "errorFetchingApprovalList": "Errors encountered in fetching the Approvar list. Please try again.",
+  "createNewTaskTemplate": "Create new task template"
 }
