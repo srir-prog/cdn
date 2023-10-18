@@ -424,5 +424,6 @@
     "hierarchyWarningPayments": "This customer is not responsible for payment due to the hierarchy preferences. For the responsible entity, please refer to the ‘Bill to’ column.",
     "headerLabelBillTo": "Bill to",
     "headerLabelParent": "Parent",
-    "headerLabelConsolidatedBalance": "Consolidated"
+    "headerLabelConsolidatedBalance": "Consolidated",
+    "defaultWorkflowId": "- No Workflow -"
 }
