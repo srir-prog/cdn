@@ -30,12 +30,10 @@
   "addACHDetailsText": "Add and save an account for faster payments",
   "addCardDetailsText": "Add and save a credit card for faster payments",
   "creditCardPayments": "Credit card payments",
-  "onlinePaymentNotConfigured": "Incorrect URL. Contact your supplier",
   "notPartOfAccessList": "Please sign in with a registered email",
-  "noAccessForUser": "Contact your supplier to use the Payment Hub",
-  "moreThanOnePaymentHubSupplier": "An error has occurred. Please contact <ourLink></ourLink>",
-  "supplierDisabledAccess": "Contact your supplier to use the Payment Hub",
+  "onlyForCustomers": "An error has occurred. Please contact <ourLink></ourLink>",
   "defaultErrorMessageForEmailValidation": "An error has occurred. Please contact <ourLink></ourLink>",
+  "moreThanOnePaymentHubSupplier": "An error has occurred. Please contact <ourLink></ourLink>",
   "noDataMessageForInvoicesTable": "You have no open invoices with {{clientName}}",
   "noDataMessageForPaidInvoicesTable": "You have no paid invoices with {{clientName}}",
   "infoAboutNextStep": "You will be prompted to enter your payment information on the next screen",
@@ -59,5 +57,9 @@
   "paymentProfile": "Payment profile",
   "daysFromInvoiceDate": "Days from invoice date",
   "accessCreditCardDetailsOptionOne": "On Centime supplier hub",
-  "accessCreditCardDetailsOptionTwo": "Flexcore to process the card payment on website"
+  "accessCreditCardDetailsOptionTwo": "Flexcore to process the card payment on website",
+  "discountDaysDisplayValue": "{{discountPercentage}}% paid in {{discountDays}} days",
+  "creditCardPayments": "Credit card payments",
+  "ACHPayments": "ACH payments",
+  "checkPayments": "Check payments"
 }
