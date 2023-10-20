@@ -78,5 +78,6 @@
   "parent": "मूल",
   "billTo": "बिल प्राप्तकर्ता",
   "unableToSelectProcessingInvoices": "प्रसंस्करण चालान का चयन करने में असमर्थ",
-  "recheckAccountNumber": "खाता संख्या फिर से एंटर करें"
+  "recheckAccountNumber": "खाता संख्या फिर से एंटर करें",
+  "disablePaymentForNonUSDInvoices": "You can only make payments for invoices in USD currency"
 }
