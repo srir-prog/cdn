@@ -70,7 +70,7 @@
   "BankConnectionLost": "Connection to {{fi_name}} is lost",
   "ReconnectBank": "Reconnect to the {{fi_name}}",
   "EmailServiceDown": "There is an email outage. All impacted workflows and customer communications would resume once the email service is up",
-  "CampaignNotificationsNotWorking": "Internal notifications for Workflow {{campaign_name}} could not be sent to the recipient",
+  "CampaignNotificationsNotWorking": "Internal notifications for workflow {{campaign_name}} could not be sent to the recipient",
   "AutofySyncLost": "The Centime agent is not responding. Please login to your server/desktop and restart the agent and sync again using \"Sync Now\".",
   "Reinstate": "How to restart agent",
   "CheckSync": "Check sync details",
