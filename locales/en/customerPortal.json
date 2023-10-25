@@ -80,5 +80,6 @@
   "parent": "Parent",
   "billTo": "Bill to",
   "unableToSelectProcessingInvoices": "Unable to select processing invoices",
-  "recheckAccountNumber": "Re-enter account number"
+  "recheckAccountNumber": "Re-enter account number",
+  "disablePaymentForNonUSDInvoices": "You can only make payments for invoices in USD currency"
 }

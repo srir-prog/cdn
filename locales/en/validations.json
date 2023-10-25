@@ -35,6 +35,7 @@
     "min9Len": "Value should be a number with 9 digits",
     "max9Len": "Maximum character limit 9 reached",
     "transactionNameDuplicate": "Transaction name already exists",
+    "taskTemplateNameDuplicate": "Task template name already exists",
     "min4Len": "Value should be a number with 4 digits or more",
     "minAmount": "Value must be greater than zero",
     "exceedsOutstanding": "Exceeds outstanding",
