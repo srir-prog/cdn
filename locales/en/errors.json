@@ -46,5 +46,6 @@
   "NoSubsidiariesToConnect": "All subsidiaries are connected to Centime. No more subsidiaries to connect.",
   "CannotSelectMoreRows": "Cannot select more than {{n}} rows.",
   "SelectAnotherClient": "Please go to sandbox and re-select this client again or contact us if the problem persists.",
-  "GoToSandbox": "Go to Sandbox"
+  "GoToSandbox": "Go to Sandbox",
+  "youDoNotHaveAnyPendingTask": "You do not have any pending task"
 }
