@@ -73,5 +73,11 @@
   "lastPaymentAmount": "अंतिम भुगतान राशि",
   "lastPaymentDate": "अंतिम भुगतान तिथि",
   "paymentDate": "भुगतान तिथि",
-  "dueDate": "नियत तिथि"
+  "dueDate": "नियत तिथि",
+  "company": "कंपनी",
+  "parent": "मूल",
+  "billTo": "बिल प्राप्तकर्ता",
+  "unableToSelectProcessingInvoices": "प्रसंस्करण चालान का चयन करने में असमर्थ",
+  "recheckAccountNumber": "खाता संख्या फिर से एंटर करें",
+  "disablePaymentForNonUSDInvoices": "आप केवल अमरीकी डॉलर मुद्रा में चालान के लिए भुगतान कर सकते हैं"
 }
