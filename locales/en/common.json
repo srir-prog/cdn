@@ -653,5 +653,6 @@
   "taskNotesPlaceHolderText": "Task notes",
   "passedDueDate": "Passed due date",
   "accountPayable": "Accounts payable",
-  "selectSupplier": "Select supplier"
+  "selectSupplier": "Select supplier",
+  "selectDocument": "Select document"
 }
