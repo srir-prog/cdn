@@ -1470,6 +1470,75 @@
             }
         ]
     },
+    "accuralReportQueryBuilder":{
+        "componentType": "detailsList",
+        "title": "Get Accural Report",
+        "ignoreKeys": [],
+        "additionalProperties": {
+            "showQueryBuilder": true,
+            "queryBuilderPosition": "bottom",
+            "queryBuilderParams": {
+                "orientation": "row",
+                "showChooseFilterInQueryBuilder": false,
+                "elementsInfo": [
+                    {
+                        "type": "Input",
+                        "title": "Client Id",
+                        "gridSize":4,
+                        "componentProps": {
+                            "fullWidth": true
+                        },
+                        "queryName": "clientId"
+                    },
+                    {
+                        "type": "DatesSelector",
+                        "componentProps": {
+                            "onlySingleDate": true,
+                            "inputProps":{
+                                "label":"End Date",
+                                "placeholder":"End Date",
+                                "size":"extraLarge44",
+                                "fullWidth": true
+                            }
+                        },
+                        "queryName": "endDate"
+                    }
+                ]
+            }
+        },
+        "additionalContent": [
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Get",
+                    "fullWidth":true
+                },
+                "renderPosition": "bottom",
+                "gridSize":2,
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "GetClientInvoiceAccrualReport"
+                    },
+                    "paramObjMap": {
+                        "clientId": {
+                            "type": "queryBuilder",
+                            "value": "clientId"
+                        },
+                        "endDate":{
+                            "type": "queryBuilder",
+                            "value": "endDate",
+                            "format":true
+                        }
+                    }
+                }
+            }
+        ]
+    },
     "invoiceListQueryBuilder":{
         "componentType": "detailsList",
         "title": "Get Invoice Information",
@@ -9594,6 +9663,21 @@
             },
             "paginationNeeded":true
         }
+    },
+    "getClientInvoiceAccrualReport":{
+            "title":"Click on below link to download the report",
+            "componentType": "detailsList",
+            "listInfo": [
+                {
+                    "label": "Url",
+                    "valueMap": "reportUrl",
+                    "renderType":"Link",
+                    "action": {
+                        "type": "openLink"
+                    }
+                }
+            ]
+
     },
     "errors": [],
     "status": "SUCCESS"
