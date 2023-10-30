@@ -651,5 +651,8 @@
   "deleteTaskConfirmMsg": "Deleting a task removes the task and its corresponding data from the task list.",
   "deleteTaskTitleMsg": "Are you sure you want to delete this task?",
   "taskNotesPlaceHolderText": "Task notes",
-  "passedDueDate": "Passed due date"
+  "passedDueDate": "Passed due date",
+  "accountPayable": "Accounts payable",
+  "selectSupplier": "Select supplier",
+  "selectDocument": "Select document"
 }
