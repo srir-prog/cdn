@@ -633,9 +633,9 @@
   "invoiceId": "Invoice",
   "selectCustomer": "Select customer",
   "selectInvoice": "Select invoice",
-  "selectUser": "Select user",
+  "selectUser": "Select assignee",
   "+addNewTask": "+ Add new task",
-  "selectRelatesTo": "Select relates to",
+  "selectRelatesTo": "Select option",
   "newTaskTemplate": "New task template",
   "nameOfTheTask": "Name of the task",
   "taskSuccessfullyAdded": "Task successfully added",
@@ -654,5 +654,6 @@
   "passedDueDate": "Passed due date",
   "accountPayable": "Accounts payable",
   "selectSupplier": "Select supplier",
-  "selectDocument": "Select document"
+  "selectDocument": "Select document",
+  "selectApplicationArea": "Select solution"
 }
