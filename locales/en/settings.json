@@ -675,6 +675,6 @@
     "generalLedgerAccountSettings": "General Ledger account",
     "selectAnOption": "Select an option",
     "ReceivablesPanelForSupplier": "Receivables",
-    "paymentProfile": "Payment profile"
-
+    "paymentProfile": "Payment profile",
+    "SupplierHubSettings": "Supplier hub settings"
 }
