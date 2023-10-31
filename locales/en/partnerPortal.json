@@ -65,5 +65,6 @@
   "achDdaToken":"ACH DDA Token",
   "achRoutingNumber":"ACH Routing Number",
   "centimeBankingAccountNumber":"Centime Checking Plus A/C Number",
-  "centimeBankingRoutingNumber":"Centime Checking Plus Routing Number"
+  "centimeBankingRoutingNumber":"Centime Checking Plus Routing Number",
+  "centimeBankingDDAToken":"Centime Banking DDA Token"
 }
