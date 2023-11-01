@@ -702,5 +702,6 @@
   "errorFetchingApprovalList": "Errors encountered in fetching the Approvar list. Please try again.",
   "selectApprovers": "Select approvers",
   "createNewTaskTemplate": "Create new task template",
-  "accountPayable": "Accounts payable"
+  "accountPayable": "Accounts payable",
+  "selectApplicationArea": "Select solution"
 }
