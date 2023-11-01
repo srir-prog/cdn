@@ -274,8 +274,8 @@
   "mediumRisk": "Medium risk",
   "lowRisk": "Low risk",
   "overallCentimeRisk": "Overall Centime risk",
-  "customers": "Customers",
-  "suppliers": "Suppliers",
+  "customers": "Customer",
+  "suppliers": "Supplier",
   "myBusiness": "My business",
   "centimeRiskAssessment": "Centime risk assessment",
   "lastRiskUpdated": "Last updated - {{lastSyncDate}}",
@@ -355,7 +355,7 @@
   "selectAnAccount": "Select an account",
   "salesTax": "Sales tax",
   "total": "Total",
-  "documents": "Documents",
+  "documents": "Document",
   "delete": "Delete",
   "backToDocuments": "Back To Documents",
   "add": "Add",
@@ -627,8 +627,8 @@
   "taskNotes": "Task notes",
   "relatesTo": "Relates to",
   "customer": "Customer",
-  "invoices": "Invoices",
-  "accountReceivable": "Account receivable",
+  "invoices": "Invoice",
+  "accountReceivable": "Accounts receivable",
   "selectTaskTemplate": "Select task template",
   "invoiceId": "Invoice",
   "selectCustomer": "Select customer",
@@ -655,5 +655,6 @@
   "accountPayable": "Accounts payable",
   "selectSupplier": "Select supplier",
   "selectDocument": "Select document",
-  "selectApplicationArea": "Select solution"
+  "selectApplicationArea": "Select solution",
+  "overdue": "Overdue"
 }
