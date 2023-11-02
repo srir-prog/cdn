@@ -153,7 +153,7 @@
     "businessPhysicalAddress":"Business physical address",
     "sameAsPhysicalAddress":"Same as physical address",
     "personalPhysicalAddress":"Personal physical address",
-    "enterCorrespondenceMail": "Enter your correspondence email",
+    "enterCorrespondenceMail": "Enter the email you use with your Supplier",
     "verificationCode": "Verification code",
-    "emailTooltipMessageForCustomerPortal": "Access the portal with the email used for communications with supplier"
+    "emailTooltipMessageForCustomerPortal": "You can securely access the Customer Portal only with the email you have provided to your Supplier and use for all invoice related communications such as invoice reminders or statements"
 }
