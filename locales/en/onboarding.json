@@ -154,5 +154,6 @@
     "sameAsPhysicalAddress":"Same as physical address",
     "personalPhysicalAddress":"Personal physical address",
     "enterCorrespondenceMail": "Enter your correspondence email",
-    "verificationCode": "Verification code"
+    "verificationCode": "Verification code",
+    "emailTooltipMessageForCustomerPortal": "Access the portal with the email used for communications with supplier"
 }

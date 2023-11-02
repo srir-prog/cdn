@@ -149,5 +149,6 @@
     "companyLogoInfoTooltip": "प्राप्य प्रबंधित करें ग्राहक भुगतान हब को अनुकूलित करने के लिए अपना लोगो जोड़ सकते हैं। उच्च गुणवत्ता वाली छवि का उपयोग करने की अनुशंसा की जाती है|",
     "personalPhysicalAddress":"व्यक्तिगत भौतिक पता",
     "enterCorrespondenceMail": "अपना पत्राचार ईमेल दर्ज करें",
-    "verificationCode": "सत्यापन कोड"
+    "verificationCode": "सत्यापन कोड",
+    "emailTooltipMessageForCustomerPortal": "पोर्टल तक पहुँचने के लिए उस ईमेल का उपयोग करें जिसे आपने आपूर्तिकर्ता के साथ संवाद के लिए किया है"
 }
