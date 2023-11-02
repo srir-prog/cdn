@@ -32,15 +32,15 @@
   "processing": "Processing",
   "failed": "Failed",
   "verificationCode": "Verification code",
-  "customerPortalInfoDisplayHeader": "The Payment Hub enables you to:",
+  "customerPortalInfoDisplayHeader": "The Customer Portal enables you to:",
   "customerPortalInfoDisplayInfo1": "View and pay outstanding invoices",
   "customerPortalInfoDisplayInfo2": "Identify invoices with eligible discounts",
   "customerPortalInfoDisplayInfo3": "Set and save default payment options",
   "customerPortalInfoDisplayInfo4": "Pay multiple invoices at once",
   "pleaseCheckSpamFolder": "Please check your spam folder also",
-  "paymentHub": "Payment Hub",
+  "customerPortal": "Customer portal",
   "welcomeTo": "Welcome to",
-  "paymentHubLoginPageHeader": "{{subdomain}} Payment Hub",
+  "customerPortalLoginPageHeader": "{{subdomain}} Customer Portal",
   "card": "Card",
   "account": "Account",
   "invoice": "Invoice",
@@ -80,5 +80,6 @@
   "parent": "Parent",
   "billTo": "Bill to",
   "unableToSelectProcessingInvoices": "Unable to select processing invoices",
-  "recheckAccountNumber": "Re-enter account number"
+  "recheckAccountNumber": "Re-enter account number",
+  "disablePaymentForNonUSDInvoices": "You can only make payments for invoices in USD currency"
 }
