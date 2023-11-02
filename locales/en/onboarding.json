@@ -152,5 +152,7 @@
     "noPoBox":"(No PO Box)",
     "businessPhysicalAddress":"Business physical address",
     "sameAsPhysicalAddress":"Same as physical address",
-    "personalPhysicalAddress":"Personal physical address"
+    "personalPhysicalAddress":"Personal physical address",
+    "enterCorrespondenceMail": "Enter your correspondence email",
+    "verificationCode": "Verification code"
 }
