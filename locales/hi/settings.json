@@ -602,7 +602,7 @@
     "successNotificationAfterDeletingCredit": "भुगतान विधि सफलतापूर्वक हटा दी गई",
     "successfullyUpdatedPaymentMethod": "भुगतान विधि सफलतापूर्वक अपडेट की गई है",
     "creditCardPreferences": "क्रेडिट कार्ड वरीयताएँ",
-    "paymentHub": "पेमेंट हब",
+    "customerPortal": "ग्राहक पोर्टल",
     "receiveOnlinePayments": "ऑनलाइन भुगतान प्राप्त करें",
     "allowCreditCardsPayments": "क्रेडिट कार्ड भुगतान की अनुमति दें",
     "enableCreditCardPayments": "चालान राशियों के लिए सक्षम करें",
@@ -625,7 +625,7 @@
     "surchargeAccountInfoLine": "लागू चालान पोस्ट करने के लिए एक अधिभार खाता निर्दिष्ट करें",
     "discountAccountInfoLine": "छूट शर्तों के साथ चालान पोस्ट करने के लिए एक डिस्काउंट खाता निर्दिष्ट करें",
     "onlinePaymentPreferences": "ऑनलाइन भुगतान वरीयताएँ",
-    "CustomerPortalSettings": "भुगतान हब सेटिंग्स",
+    "CustomerPortalSettings": "ग्राहक पोर्टल सेटिंग",
     "cashFlowSettingUpdateConfirmText": "सभी मौजूदा पूर्वानुमान नई सेटिंग्स के अनुसार पुन: उत्पन्न होंगे। क्या आप सुनिश्चित रूप से आगे बढ़ना चाहते हैं?",
     "cffSettingSidePanelWarningText": "ये सेटिंग्स मौजूदा और नई भविष्यवाणियों को प्रभावित करती हैं",
     "epdHeaderTooltip": "चालान भुगतान शर्तों द्वारा निर्धारित",
@@ -669,5 +669,6 @@
     "onlyApproversListLabel":"केवल निम्नलिखित अनुमोदकों के लिए",
     "onlyApproversListLabelTransObj": "केवल निम्नलिखित अनुमोदकों के लिए: {{approversList}}",
     "errorFetchingApprovalList":"अनुमोदन सूची लाने में त्रुटियाँ आईं। कृपया पुन: प्रयास करें।",
-    "selectApprovers": "अनुमोदकों का चयन करें"
+    "selectApprovers": "अनुमोदकों का चयन करें",
+    "SupplierHubSettings": "सप्लायर हब सेटिंग्स"
 }
