@@ -656,5 +656,6 @@
   "selectSupplier": "Select supplier",
   "selectDocument": "Select document",
   "selectApplicationArea": "Select solution",
-  "overdue": "Overdue"
+  "overdue": "Overdue",
+  "completed": "Completed"
 }
