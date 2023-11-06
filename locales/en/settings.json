@@ -706,5 +706,7 @@
   "ReceivablesPanelForSupplier": "Receivables",
   "paymentProfile": "Payment profile",
   "accountPayable": "Accounts payable",
-  "selectApplicationArea": "Select solution"
+  "selectApplicationArea": "Select solution",
+  "achPreferences": "ACH payment preferences",
+  "allowACHPayments":"Allow ACH payments"
 }
