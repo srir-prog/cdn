@@ -260,7 +260,7 @@
   "country": "Country",
   "zipcode": "Zipcode",
   "defaultEmailTemplates": "Default email templates",
-  "oneOffReminder": "One off reminder",
+  "oneOffEmail": "One-off email",
   "reminderAfterDueDate": "Reminder after due date",
   "reminderBeforeDueDate": "Reminder before due date",
   "reminderOnDueDate": "Reminder on due date",
