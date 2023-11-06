@@ -90,5 +90,7 @@
     "selectACurrentOrFutureDate": "वर्तमान किंवा भविष्यातील तारीख निवडा",
     "changeTheDateToModifyThePlan" : "योजना सुधारण्यासाठी तारीख बदला",
     "changeStatusToPlanOnThisInvoice": "या इन्व्हॉइसवर योजनेसाठी स्थिती बदला",
-    "recheckAccountNumber": "खाता संख्या मेल नहीं खाती"
+    "recheckAccountNumber": "खाता संख्या मेल नहीं खाती",
+    "creditsExceedsPaymentAmount":  "कुल क्रेडिट भुगतान राशि से अधिक नहीं होना चाहिए",
+    "creditsExceedsAvailableBalance": "लागू क्रेडिट उपलब्ध शेष राशि से अधिक नहीं होना चाहिए"
 }
