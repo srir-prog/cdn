@@ -99,5 +99,9 @@
     "businessContact":"Business Name and Contact",
     "ownershipAndControl":"Ownership and Control",
     "kybBtnLabel":"KYB/KYC report",
-    "onBoardingStatus":"Onboarding status"
+    "onBoardingStatus":"Onboarding status",
+    "suspend":"Suspend",
+    "group":"Group",
+    "ungroup":"Ungroup",
+    "delete":"Delete"
 }
