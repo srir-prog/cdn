@@ -185,8 +185,8 @@
                                 "QuickBooks Desktop": "QuickBooks Desktop",
                                 "Centime Banking": "Centime Banking"
                             },
-                            "tnsForOptions": false,
-                            "multiple": true
+                            "tnsForOptions": false
+                            
                         },
                         "default":["QuickBooks Online","Oracle NetSuite","QuickBooks Desktop","Centime Banking"],
                         "queryName": "sourceName"
@@ -202,16 +202,16 @@
                                 "4": "Closed",
                                 "5": "Invited"
                             },
-                            "tnsForOptions": false,
-                            "multiple": true
+                            "tnsForOptions": false
+                           
                         },
                         "queryName": "activeStatus"
                     },
                     {
                         "type": "Input",
                         "componentProps": {
-                            "fullWidth":  true,
-                            "placeholder": "All"
+                            "fullWidth":  true
+                           
                         },
                         "title": "Client Id",
                         "queryName": "clientId"
