@@ -47,5 +47,6 @@
   "CannotSelectMoreRows": "Cannot select more than {{n}} rows.",
   "SelectAnotherClient": "Please go to sandbox and re-select this client again or contact us if the problem persists.",
   "GoToSandbox": "Go to Sandbox",
-  "youDoNotHaveAnyPendingTask": "You do not have any pending task"
+  "youDoNotHaveAnyPendingTask": "You do not have any pending tasks",
+  "youDoNotHaveAnyArchive": "You do not have any archived tasks"
 }
