@@ -657,6 +657,8 @@
   "selectDocument": "Select document",
   "selectApplicationArea": "Select solution",
   "overdue": "Overdue",
+  "completed": "Completed",
+  "invoice": "Invoice",
   "creditDate": "Credit date",
   "availableCredit": "Available credit",
   "applyCredits": "Apply credits",
