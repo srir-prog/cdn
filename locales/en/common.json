@@ -657,5 +657,6 @@
   "selectDocument": "Select document",
   "selectApplicationArea": "Select solution",
   "overdue": "Overdue",
-  "completed": "Completed"
+  "completed": "Completed",
+  "invoice": "Invoice"
 }
