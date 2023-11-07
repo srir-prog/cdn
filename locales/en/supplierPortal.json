@@ -24,7 +24,7 @@
   "paymentProfile": "Payment profile",
   "daysFromInvoiceDate": "Days from invoice date",
   "accessCreditCardDetailsOptionOne": "On Centime supplier hub",
-  "accessCreditCardDetailsOptionTwo": "Flexcore to process the card payment on website",
+  "accessCreditCardDetailsOptionTwo": "{{companyName}} to process the card payment on website",
   "discountDaysDisplayValue": "{{discountPercentage}}% paid in {{discountDays}} days",
   "creditCardPayments": "Credit card payments",
   "ACHPayments": "ACH payments",
@@ -32,5 +32,11 @@
   "earlyPayDiscounts": "Early Payment Discounts",
   "welcomeTo": "Welcome to",
   "verificationCode": "Verification code",
-  "supplierHub": "Supplier hub"
+  "supplierHub": "Supplier hub",
+  "readyToEnroll": "Ready to enroll",
+  "enrollmentStarted": "Enrollment started",
+  "underReview": "Under review",
+  "inSync": "In sync",
+  "notInSync": "Not in sync",
+  "discountConfigDisplayValue": "{{discountPercentage}} paid in {{discountDays}} days"
 }
