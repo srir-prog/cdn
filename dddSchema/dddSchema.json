@@ -43,8 +43,7 @@
                                 "SCHEDULED": "SCHEDULED",
                                 "UNKNOWN": "UNKNOWN"
                             },
-                            "tnsForOptions": false,
-                            "multiple": true
+                            "tnsForOptions": false
                         },
                         "queryName": "status",
                         "default": [
@@ -73,8 +72,8 @@
                                 "CENTIME_PAY":"CENTIME_PAY",
                                 "CENTIME_CASH_REPAY":"CENTIME_CASH_REPAY"
                             },
-                            "tnsForOptions": false,
-                            "multiple": true
+                            "tnsForOptions": false
+                            
                         },
                         "queryName": "paymentMethod",
                         "default": [
@@ -185,8 +184,8 @@
                                 "QuickBooks Desktop": "QuickBooks Desktop",
                                 "Centime Banking": "Centime Banking"
                             },
-                            "tnsForOptions": false,
-                            "multiple": true
+                            "tnsForOptions": false
+                            
                         },
                         "default":["QuickBooks Online","Oracle NetSuite","QuickBooks Desktop","Centime Banking"],
                         "queryName": "sourceName"
@@ -202,16 +201,16 @@
                                 "4": "Closed",
                                 "5": "Invited"
                             },
-                            "tnsForOptions": false,
-                            "multiple": true
+                            "tnsForOptions": false
+                           
                         },
                         "queryName": "activeStatus"
                     },
                     {
                         "type": "Input",
                         "componentProps": {
-                            "fullWidth":  true,
-                            "placeholder": "All"
+                            "fullWidth":  true
+                           
                         },
                         "title": "Client Id",
                         "queryName": "clientId"
@@ -607,8 +606,8 @@
                                 "4":"Closed",
                                 "5":"Invited"
                             },
-                            "tnsForOptions": false,
-                            "multiple": true
+                            "tnsForOptions": false
+                            
                         },
                         "gridSize":4,
                         "queryName": "userStatus"
@@ -679,8 +678,8 @@
                                 "1": "Pause",
                                 "2":"Deprecated"
                             },
-                            "tnsForOptions": false,
-                            "multiple": true
+                            "tnsForOptions": false
+                            
                         },
                         "gridSize":6,
                         "queryName": "status"
@@ -775,8 +774,8 @@
                                 "VENDOR_CREDIT": "VENDOR_CREDIT",
                                 "SUPPLIER": "SUPPLIER"
                             },
-                            "tnsForOptions": false,
-                            "multiple": true
+                            "tnsForOptions": false
+                            
                         },
                         "queryName": "txnType"
                     },
@@ -792,8 +791,8 @@
                                 "5": "RETRY",
                                 "6": "NOTIFIED"
                             },
-                            "tnsForOptions": false,
-                            "multiple": true
+                            "tnsForOptions": false
+                            
                         },
                         "queryName": "txnStatus"
                     },
@@ -872,8 +871,8 @@
                                 "4": "Closed",
                                 "5": "Invited"
                             },
-                            "tnsForOptions": false,
-                            "multiple": true
+                            "tnsForOptions": false
+                            
                         },
                         "queryName": "activeStatus"
                     },
@@ -887,8 +886,8 @@
                                 "Oracle NetSuite": "Oracle NetSuite",
                                 "QuickBooks Desktop": "QuickBooks Desktop"
                             },
-                            "tnsForOptions": false,
-                            "multiple": true
+                            "tnsForOptions": false
+                            
                         },
                         "default": [
                             "QuickBooks Online",
@@ -907,8 +906,8 @@
                                 "2": "Connected",
                                 "3": "Disconnected"
                             },
-                            "tnsForOptions": false,
-                            "multiple": true
+                            "tnsForOptions": false
+                            
                         },
                         "queryName": "glConnectStatus"
                     },
@@ -923,8 +922,8 @@
                                 "3": "ERROR",
                                 "4":"DISCONNECTED"
                             },
-                            "tnsForOptions": false,
-                            "multiple": true
+                            "tnsForOptions": false
+                            
                         },
                         "queryName": "syncStatus"
                     },
@@ -1006,8 +1005,8 @@
                                 "4": "Closed",
                                 "5": "Invited"
                             },
-                            "tnsForOptions": false,
-                            "multiple": true
+                            "tnsForOptions": false
+                            
                         },
                         "queryName": "activeStatus"
                     },
@@ -1022,8 +1021,8 @@
                                 "FNBO Card": "FNBO Card",
                                 "Centime Banking":"Centime Banking"
                             },
-                            "tnsForOptions": false,
-                            "multiple": true
+                            "tnsForOptions": false
+                    
                         },
                         "default": [
                             "Finicity",
@@ -1043,8 +1042,8 @@
                                 "2": "Connected",
                                 "3": "Disconnected"
                             },
-                            "tnsForOptions": false,
-                            "multiple": true
+                            "tnsForOptions": false
+                            
                         },
                         "queryName": "glConnectStatus"
                     },
@@ -1059,8 +1058,8 @@
                                     "3": "ERROR",
                                     "4":"DISCONNECTED"
                             },
-                            "tnsForOptions": false,
-                            "multiple": true
+                            "tnsForOptions": false
+                        
                         },
                         "queryName": "syncStatus"
                     },
@@ -1644,8 +1643,8 @@
                                 "FASTER_ACH_CONVERTED": "FASTER_ACH_CONVERTED",
                                 "FASTER_ACH_DELAYED": "FASTER_ACH_DELAYED"
                             },
-                            "tnsForOptions": false,
-                            "multiple": true
+                            "tnsForOptions": false
+                            
                         },
                         "queryName": "filters"
                     }
