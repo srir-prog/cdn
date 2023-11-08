@@ -266,7 +266,7 @@
     "type": "प्रकार",
     "taxId": "टैक्स आईडी",
     "defaultEmailTemplates": "डिफ़ॉल्ट ईमेल टेम्प्लेट",
-    "oneOffReminder": "वन ऑफ रिमाइंडर",
+    "oneOffEmail": "एकमुश्त ईमेल",
     "reminderAfterDueDate": "नियत तारीख के बाद अनुस्मारक",
     "reminderBeforeDueDate": "नियत तारीख से पहले अनुस्मारक",
     "reminderOnDueDate": "नियत तारीख पर अनुस्मारक",
