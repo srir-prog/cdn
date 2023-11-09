@@ -675,5 +675,6 @@
   "creditsSuccess": "Credits successfully applied",
   "creditFail":"Credit application failed, Please try again",
   "getCreditFail": "There was an issue encountered in fetching the credits for invoice. Please try again",
-  "completed": "Completed"
+  "completed": "Completed",
+  "accountPayableAccounts": "Accounts payable account"
 }
