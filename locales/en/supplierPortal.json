@@ -38,5 +38,6 @@
   "underReview": "Under review",
   "inSync": "In sync",
   "notInSync": "Not in sync",
-  "discountConfigDisplayValue": "{{discountPercentage}} paid in {{discountDays}} days"
+  "discountConfigDisplayValue": "{{discountPercentage}} paid in {{discountDays}} days",
+  "surchargePercentageRange": "The value should be {{maxSurchargePercentage}}% or less"
 }

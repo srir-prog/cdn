@@ -38,5 +38,6 @@
   "inSync": "सिंक में है",
   "notInSync": "सिंक में नहीं है",
   "discountConfigDisplayValue": "{{discountDays}} दिनों में {{discountPercentage}} भुगतान किया गया",
-  "accessCreditCardDetailsOptionTwo": "{{companyName}} को वेबसाइट पर कार्ड भुगतान प्रोसेस करने के लिए"
+  "accessCreditCardDetailsOptionTwo": "{{companyName}} को वेबसाइट पर कार्ड भुगतान प्रोसेस करने के लिए",
+  "surchargePercentageRange": "मूल्य {{maxSurchargePercentage}}% या उससे कम होना चाहिए"
 }
