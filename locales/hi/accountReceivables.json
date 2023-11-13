@@ -280,9 +280,9 @@
     "manageTemplate": "टेम्पलेट प्रबंधित",
     "CampaignDetails": "कार्यप्रवाह विवरण - {{name}}",
     "LimitReachedForAddDate": "आपके पास ऐसी क्रियाएं की अधिकतम सीमा तक पहुँच चुके हैं",
-    "FormFieldSenderName": "नाम",
-    "FormFieldSenderEmail": "ईमेल",
-    "FormFieldSenderSignature": " हस्ताक्षर",
+    "FormFieldSenderName": "भेजने वाले का नाम",
+    "FormFieldSenderEmail": "प्रेषक ईमेल",
+    "FormFieldSenderSignature": "प्रेषक के हस्ताक्षर",
     "FormFieldRecipientName": "Rआंतरिक सूचनाओं के लिए प्राप्तकर्ता का नाम",
     "FormFieldRecipientEmail": "प्राप्तकर्ता का ई - मेल",
     "FormFieldRecipientEmails": "आंतरिक सूचनाओं के लिए प्राप्तकर्ता ईमेल",
@@ -424,5 +424,7 @@
     "headerLabelBillTo": "बिल प्राप्तकर्ता",
     "headerLabelParent": "माता-पिता",
     "headerLabelConsolidatedBalance": "समेकित",
-    "defaultWorkflowId": "- कोई वर्कफ़्लो नहीं -"
+    "defaultWorkflowId": "- कोई वर्कफ़्लो नहीं -",
+    "defaultAssigneeForTasks": "कार्यों के लिए डिफ़ॉल्ट असाइनी",
+    "ARUser": "AR User Demo"
 }
