@@ -426,6 +426,10 @@
     "headerLabelParent": "Parent",
     "headerLabelConsolidatedBalance": "Consolidated",
     "defaultWorkflowId": "- No Workflow -",
-    "defaultAssigneeForTasks": "Default Assignee for tasks",
-    "ARUser": "AR User Demo"
+    "defaultTaskAssignee": "Default task assignee",
+    "assignee": "Assignee",
+    "email": "Email",
+    "user": "User",
+    "contactRole": "Customer contact role",
+    "addAdditionalRecipients": "Add additional recipients"
 }
