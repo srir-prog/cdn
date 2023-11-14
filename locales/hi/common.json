@@ -671,5 +671,6 @@
     "creditsSuccess": "क्रेडिट सफलतापूर्वक लागू हो गया",
     "creditFail":"क्रेडिट आवेदन विफल, कृपया पुनः प्रयास करें",
     "getCreditFail": "चालान के लिए क्रेडिट लाने में एक समस्या का सामना करना पड़ा। कृपया पुन: प्रयास करें",
-    "accountPayableAccounts": "देय खाते"
+    "accountPayableAccounts": "देय खाते",
+    "historyMessageApAccountSetTo": "देय खाते पर सेट किया गया {{apAccountName}}"
 }
