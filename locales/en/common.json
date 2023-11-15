@@ -672,8 +672,9 @@
   "surchargeApplied": "Surcharge applicable: {{amount}}",
   "discountApplied": "Discount applied : {{amount}}",
   "appliedCredits": "Applied credits: {{amount}}",
-  "creditsSuccess": "Credits successfully applied",
+  "creditsSuccess": "Credits successfully applied. You can continue to make payment for this invoice.",
   "creditFail":"Credit application failed, Please try again",
   "getCreditFail": "There was an issue encountered in fetching the credits for invoice. Please try again",
-  "completed": "Completed"
+  "accountsPayableAccount": "Accounts payable account",
+  "historyMessageApAccountSetTo": "Accounts Payable account set to {{apAccountName}}"
 }

@@ -281,9 +281,9 @@
     "manageTemplate": "Manage template",
     "CampaignDetails": "Workflow details - {{name}}",
     "LimitReachedForAddDate": "You have reached the maximum limit of actions",
-    "FormFieldSenderName": "Name",
-    "FormFieldSenderEmail": "Email",
-    "FormFieldSenderSignature": "Signature",
+    "FormFieldSenderName": "Sender name",
+    "FormFieldSenderEmail": "Sender email",
+    "FormFieldSenderSignature": "Sender signature",
     "FormFieldRecipientName": "Recipient name for internal notifications",
     "FormFieldRecipientEmail": "Recipient email for internal notifications",
     "FormFieldRecipientEmails": "Recipient emails for internal notifications",
@@ -428,5 +428,11 @@
     "defaultWorkflowId": "- No Workflow -",
     "enrollAutoPay":"Enroll autopay",
     "enrollForAutoPay":"Enroll for autopay",
-    "sendEmailForEnrolment":"Send email for enrolment"
+    "sendEmailForEnrolment":"Send email for enrolment",
+    "defaultTaskAssignee": "Default task assignee",
+    "assignee": "Assignee",
+    "email": "Email",
+    "user": "User",
+    "contactRole": "Customer contact role",
+    "addAdditionalRecipients": "Add additional recipients"
 }

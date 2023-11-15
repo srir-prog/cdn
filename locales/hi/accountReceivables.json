@@ -280,9 +280,9 @@
     "manageTemplate": "टेम्पलेट प्रबंधित",
     "CampaignDetails": "कार्यप्रवाह विवरण - {{name}}",
     "LimitReachedForAddDate": "आपके पास ऐसी क्रियाएं की अधिकतम सीमा तक पहुँच चुके हैं",
-    "FormFieldSenderName": "नाम",
-    "FormFieldSenderEmail": "ईमेल",
-    "FormFieldSenderSignature": " हस्ताक्षर",
+    "FormFieldSenderName": "भेजने वाले का नाम",
+    "FormFieldSenderEmail": "प्रेषक ईमेल",
+    "FormFieldSenderSignature": "प्रेषक के हस्ताक्षर",
     "FormFieldRecipientName": "Rआंतरिक सूचनाओं के लिए प्राप्तकर्ता का नाम",
     "FormFieldRecipientEmail": "प्राप्तकर्ता का ई - मेल",
     "FormFieldRecipientEmails": "आंतरिक सूचनाओं के लिए प्राप्तकर्ता ईमेल",
@@ -427,5 +427,11 @@
     "defaultWorkflowId": "- कोई वर्कफ़्लो नहीं -",
     "enrollAutoPay": "ऑटोपे नामांकित करें",
     "enrollForAutoPay": "ऑटोपे के लिए नामांकन करें",
-    "sendEmailForEnrolment": "नामांकन के लिए ईमेल भेजें"
+    "sendEmailForEnrolment": "नामांकन के लिए ईमेल भेजें",
+    "defaultTaskAssignee": "अनुवाद कार्य समनुदेशिति",
+    "assignee": "संपत्ति-भागी",
+    "email": "ईमेल",
+    "user": "उपयोगकर्ता",
+    "contactRole": "ग्राहक संपर्क भूमिका",
+    "addAdditionalRecipients": "अतिरिक्त प्राप्तकर्ता जोड़ें"
 }
