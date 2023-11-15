@@ -209,8 +209,9 @@
                                 "4": "Closed",
                                 "5": "Invited"
                             },
-                            "tnsForOptions": false
-                           
+                            "multiple":true,
+                            "tnsForOptions": false,
+                            "placeholder":""
                         },
                         "queryName": "activeStatus"
                     },
