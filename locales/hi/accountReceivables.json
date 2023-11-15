@@ -424,5 +424,8 @@
     "headerLabelBillTo": "बिल प्राप्तकर्ता",
     "headerLabelParent": "माता-पिता",
     "headerLabelConsolidatedBalance": "समेकित",
-    "defaultWorkflowId": "- कोई वर्कफ़्लो नहीं -"
+    "defaultWorkflowId": "- कोई वर्कफ़्लो नहीं -",
+    "enrollAutoPay": "ऑटोपे नामांकित करें",
+    "enrollForAutoPay": "ऑटोपे के लिए नामांकन करें",
+    "sendEmailForEnrolment": "नामांकन के लिए ईमेल भेजें"
 }

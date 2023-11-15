@@ -425,5 +425,8 @@
     "headerLabelBillTo": "Bill to",
     "headerLabelParent": "Parent",
     "headerLabelConsolidatedBalance": "Consolidated",
-    "defaultWorkflowId": "- No Workflow -"
+    "defaultWorkflowId": "- No Workflow -",
+    "enrollAutoPay":"Enroll autopay",
+    "enrollForAutoPay":"Enroll for autopay",
+    "sendEmailForEnrolment":"Send email for enrolment"
 }
