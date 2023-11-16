@@ -44,11 +44,21 @@
                                 "SCHEDULED": "SCHEDULED",
                                 "UNKNOWN": "UNKNOWN"
                             },
+                            "multiple":true,
                             "tnsForOptions": false,
                             "placeholder":""
                         },
                         "queryName": "status",
-                        "default":["APPROVED"]
+                        "default":["APPROVED",
+                        "CANCELLED",
+                        "COMPLETED",
+                        "FAILED",
+                        "HOLD",
+                        "INITIATED",
+                        "PROCESSING",
+                        "REJECTED",
+                        "SCHEDULED",
+                        "UNKNOWN"]
                     },
                     {
                         "type": "Dropdown",
@@ -63,11 +73,18 @@
                                 "CENTIME_PAY":"CENTIME_PAY",
                                 "CENTIME_CASH_REPAY":"CENTIME_CASH_REPAY"
                             },
+                            "multiple":true,
                             "tnsForOptions": false,
                             "placeholder":""
                         },
                         "queryName": "paymentMethod",
-                        "default":["CREDIT_CARD"]
+                        "default":["ACH",
+                        "CHECK",
+                        "CREDIT_CARD",
+                        "CENTIME_CARD",
+                        "CENTIME_CASH",
+                        "CENTIME_PAY",
+                        "CENTIME_CASH_REPAY"]
                     },
                     {
                         "type": "Input",
@@ -167,12 +184,15 @@
                                 "QuickBooks Desktop": "QuickBooks Desktop",
                                 "Centime Banking": "Centime Banking"
                             },
-                           
+                            "multiple":true,
                             "tnsForOptions": false,
                             "placeholder":""
                         },
                         "queryName": "sourceName",
-                        "default":["QuickBooks Online"]
+                        "default":["QuickBooks Online",
+                         "Oracle NetSuite",
+                         "QuickBooks Desktop",
+                         "Centime Banking"]
                     },
                     {
                         "type": "Dropdown",
@@ -185,6 +205,7 @@
                                 "4": "Closed",
                                 "5": "Invited"
                             },
+                            "multiple":true,
                             "tnsForOptions": false,
                             "placeholder":""
                         },
