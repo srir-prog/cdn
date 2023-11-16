@@ -19,7 +19,7 @@
                             "defaultSelection":"today",
                             "inputProps":{
                                 "label":"Period",
-                                "placeholder":"All",
+                                "placeholder":"",
                                 "size":"extraLarge44",
                                 "fullWidth": true
                             },
@@ -45,21 +45,21 @@
                                 "SCHEDULED": "SCHEDULED",
                                 "UNKNOWN": "UNKNOWN"
                             },
-                            "tnsForOptions": false
+                            "multiple":true,
+                            "tnsForOptions": false,
+                            "placeholder":""
                         },
                         "queryName": "status",
-                        "default": [
-                            "APPROVED",
-                            "COMPLETED",
-                            "CANCELLED",
-                            "FAILED",
-                            "HOLD",
-                            "INITIATED",
-                            "PROCESSING",
-                            "REJECTED",
-                            "SCHEDULED",
-                            "UNKNOWN"
-                        ]
+                        "default":["APPROVED",
+                        "CANCELLED",
+                        "COMPLETED",
+                        "FAILED",
+                        "HOLD",
+                        "INITIATED",
+                        "PROCESSING",
+                        "REJECTED",
+                        "SCHEDULED",
+                        "UNKNOWN"]
                     },
                     {
                         "type": "Dropdown",
@@ -74,25 +74,24 @@
                                 "CENTIME_PAY":"CENTIME_PAY",
                                 "CENTIME_CASH_REPAY":"CENTIME_CASH_REPAY"
                             },
-                            "tnsForOptions": false
-                            
+                            "multiple":true,
+                            "tnsForOptions": false,
+                            "placeholder":""
                         },
                         "queryName": "paymentMethod",
-                        "default": [
-                            "ACH",
-                            "CHECK",
-                            "CREDIT_CARD",
-                            "CENTIME_CARD",
-                            "CENTIME_CASH",
-                            "CENTIME_PAY",
-                            "CENTIME_CASH_REPAY"
-                        ]
+                        "default":["ACH",
+                        "CHECK",
+                        "CREDIT_CARD",
+                        "CENTIME_CARD",
+                        "CENTIME_CASH",
+                        "CENTIME_PAY",
+                        "CENTIME_CASH_REPAY"]
                     },
                     {
                         "type": "Input",
                         "componentProps": {
                             "fullWidth": true,
-                            "placeholder": "All"
+                            "placeholder": ""
                         },
                         "title": "Client Id",
                         "queryName": "clientId"
@@ -187,8 +186,9 @@
                                 "Centime Banking": "Centime Banking",
                                 "Sage Intacct":"Sage Intacct"
                             },
-                            "tnsForOptions": false
-                            
+                            "multiple":true,
+                            "tnsForOptions": false,
+                            "placeholder":""
                         },
                         "queryName": "sourceName",
                         "default":[
@@ -209,16 +209,18 @@
                                 "4": "Closed",
                                 "5": "Invited"
                             },
-                            "tnsForOptions": false
-                           
+                            "multiple":true,
+                            "tnsForOptions": false,
+                            "placeholder":""
                         },
-                        "queryName": "activeStatus"
+                        "queryName": "activeStatus",
+                        "default":["2"]
                     },
                     {
                         "type": "Input",
                         "componentProps": {
-                            "fullWidth":  true
-                           
+                            "fullWidth":  true,
+                            "placeholder":""
                         },
                         "title": "Client Id",
                         "queryName": "clientId"
@@ -614,11 +616,12 @@
                                 "4":"Closed",
                                 "5":"Invited"
                             },
-                            "tnsForOptions": false
-                            
+                            "tnsForOptions": false,
+                            "placeholder":""
                         },
                         "gridSize":4,
-                        "queryName": "userStatus"
+                        "queryName": "userStatus",
+                        "default":["2"]
                     }
                 ]
             }
@@ -686,11 +689,12 @@
                                 "1": "Pause",
                                 "2":"Deprecated"
                             },
-                            "tnsForOptions": false
-                            
+                            "tnsForOptions": false,
+                            "placeholder":""
                         },
                         "gridSize":6,
-                        "queryName": "status"
+                        "queryName": "status",
+                        "default":["1"]
                     }
                 ]
             }
@@ -761,14 +765,15 @@
                             "endDate":"",
                             "inputProps":{
                                 "label":"Created time",
-                                "placeholder":"All",
+                                "placeholder":"",
                                 "size":"extraLarge44",
                                 "fullWidth": true
                             },
                             "quickSelectionType":"payment",
                             "tns":"businessOps"
                         },
-                        "queryName": "createdTime"
+                        "queryName": "createdTime",
+                        "default":""
                     },
                     {
                         "type": "Dropdown",
@@ -782,10 +787,11 @@
                                 "VENDOR_CREDIT": "VENDOR_CREDIT",
                                 "SUPPLIER": "SUPPLIER"
                             },
-                            "tnsForOptions": false
-                            
+                            "tnsForOptions": false,
+                            "placeholder":""
                         },
-                        "queryName": "txnType"
+                        "queryName": "txnType",
+                        "default":["BILL_PAYMENT"]
                     },
                     {
                         "type": "Dropdown",
@@ -799,16 +805,17 @@
                                 "5": "RETRY",
                                 "6": "NOTIFIED"
                             },
-                            "tnsForOptions": false
-                            
+                            "tnsForOptions": false,
+                            "placeholder":""
                         },
-                        "queryName": "txnStatus"
+                        "queryName": "txnStatus",
+                        "default":["3"]
                     },
                     {
                         "type": "Input",
                         "componentProps": {
                             "fullWidth": true,
-                            "placeholder": "All"
+                            "placeholder": ""
                         },
                         "title": "Client Id",
                         "queryName": "clientId"
@@ -879,10 +886,11 @@
                                 "4": "Closed",
                                 "5": "Invited"
                             },
-                            "tnsForOptions": false
-                            
-                        },
-                        "queryName": "activeStatus"
+                            "tnsForOptions": false,
+                            "placeholder":""
+                         },
+                        "queryName": "activeStatus",
+                        "default":["1"]
                     },
                     {
                         "type": "Dropdown",
@@ -894,15 +902,11 @@
                                 "Oracle NetSuite": "Oracle NetSuite",
                                 "QuickBooks Desktop": "QuickBooks Desktop"
                             },
-                            "tnsForOptions": false
-                            
+                            "tnsForOptions": false,
+                            "placeholder":""   
                         },
-                        "default": [
-                            "QuickBooks Online",
-                            "Oracle NetSuite",
-                            "QuickBooks Desktop"
-                        ],
-                        "queryName": "sourceName"
+                        "queryName": "sourceName",
+                        "default":["QuickBooks Online"]
                     },
                     {
                         "type": "Dropdown",
@@ -914,10 +918,11 @@
                                 "2": "Connected",
                                 "3": "Disconnected"
                             },
-                            "tnsForOptions": false
-                            
+                            "tnsForOptions": false,
+                            "placeholder":""                            
                         },
-                        "queryName": "glConnectStatus"
+                        "queryName": "glConnectStatus",
+                        "default":["2"]
                     },
                     {
                         "type": "Dropdown",
@@ -930,10 +935,11 @@
                                 "3": "ERROR",
                                 "4":"DISCONNECTED"
                             },
-                            "tnsForOptions": false
-                            
+                            "tnsForOptions": false,
+                            "placeholder":""   
                         },
-                        "queryName": "syncStatus"
+                        "queryName": "syncStatus",
+                        "default":["2"]
                     },
                     {
                         "type": "Input",
@@ -943,7 +949,7 @@
                             "placeholder": "All"
                         },
                         "title": "Client Id",
-                        "queryName": "clientId"
+                        "queryName": ""
                     }
                 ]
             }
@@ -1013,10 +1019,11 @@
                                 "4": "Closed",
                                 "5": "Invited"
                             },
-                            "tnsForOptions": false
-                            
+                            "tnsForOptions": false,
+                            "placeholder":""     
                         },
-                        "queryName": "activeStatus"
+                        "queryName": "activeStatus",
+                        "default":["2"]
                     },
                     {
                         "type": "Dropdown",
@@ -1029,16 +1036,11 @@
                                 "FNBO Card": "FNBO Card",
                                 "Centime Banking":"Centime Banking"
                             },
-                            "tnsForOptions": false
-                    
-                        },
-                        "default": [
-                            "Finicity",
-                            "FNBO Cash",
-                            "FNBO Card",
-                            "Centime Banking"
-                        ],
-                        "queryName": "sourceName"
+                            "tnsForOptions": false,
+                            "placeholder":""
+                    },
+                        "queryName": "sourceName",
+                        "default":["Centime Banking"]
                     },
                     {
                         "type": "Dropdown",
@@ -1050,10 +1052,11 @@
                                 "2": "Connected",
                                 "3": "Disconnected"
                             },
-                            "tnsForOptions": false
-                            
+                            "tnsForOptions": false,
+                            "placeholder":""
                         },
-                        "queryName": "glConnectStatus"
+                        "queryName": "glConnectStatus",
+                        "default":["2"]
                     },
                     {
                         "type": "Dropdown",
@@ -1066,10 +1069,11 @@
                                     "3": "ERROR",
                                     "4":"DISCONNECTED"
                             },
-                            "tnsForOptions": false
-                        
+                            "tnsForOptions": false,
+                            "placeholder":""
                         },
-                        "queryName": "syncStatus"
+                        "queryName": "syncStatus",
+                        "default":["2"]
                     },
                     {
                         "type": "Input",
@@ -1079,7 +1083,7 @@
                         },
                         "gridSize":2,
                         "title": "Client Id",
-                        "queryName": "clientId"
+                        "queryName": ""
                     }
                 ]
             }
@@ -1651,10 +1655,11 @@
                                 "FASTER_ACH_CONVERTED": "FASTER_ACH_CONVERTED",
                                 "FASTER_ACH_DELAYED": "FASTER_ACH_DELAYED"
                             },
-                            "tnsForOptions": false
-                            
+                            "tnsForOptions": false,
+                            "placeholder":""
                         },
-                        "queryName": "filters"
+                        "queryName": "filters",
+                        "default":["STUCK_PAYMENTS"]
                     }
                 ]
             }
