@@ -45,7 +45,8 @@
                                 "SCHEDULED": "SCHEDULED",
                                 "UNKNOWN": "UNKNOWN"
                             },
-                            "tnsForOptions": false
+                            "tnsForOptions": false,
+                            "multiple":true
                         },
                         "queryName": "status",
                         "default": [
@@ -74,8 +75,8 @@
                                 "CENTIME_PAY":"CENTIME_PAY",
                                 "CENTIME_CASH_REPAY":"CENTIME_CASH_REPAY"
                             },
-                            "tnsForOptions": false
-                            
+                            "tnsForOptions": false,
+                            "multiple":true
                         },
                         "queryName": "paymentMethod",
                         "default": [
@@ -187,8 +188,8 @@
                                 "Centime Banking": "Centime Banking",
                                 "Sage Intacct":"Sage Intacct"
                             },
-                            "tnsForOptions": false
-                            
+                            "tnsForOptions": false,
+                            "multiple":true
                         },
                         "queryName": "sourceName",
                         "default":[
@@ -213,7 +214,8 @@
                             "tnsForOptions": false,
                             "placeholder":""
                         },
-                        "queryName": "activeStatus"
+                        "queryName": "activeStatus",
+                        "default":["2"]
                     },
                     {
                         "type": "Input",
