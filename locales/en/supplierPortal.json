@@ -39,5 +39,8 @@
   "inSync": "In sync",
   "notInSync": "Not in sync",
   "discountConfigDisplayValue": "{{discountPercentage}} paid in {{discountDays}} days",
-  "surchargePercentageRange": "The value should be {{maxSurchargePercentage}}% or less"
+  "surchargePercentageRange": "The value should be {{maxSurchargePercentage}}% or less",
+  "updates": "Supplier update",
+  "current": "Current",
+  "defaultPaymentMethod": "default payment method"
 }
