@@ -16,6 +16,7 @@
                             "calendarLayout":"double",
                             "startDate":"",
                             "endDate":"",
+                            "defaultSelection":"today",
                             "inputProps":{
                                 "label":"Period",
                                 "placeholder":"",
@@ -26,7 +27,7 @@
                             "tns":"businessOps"
                         },
                         "queryName": "period",
-                        "default":""
+                        "default":"today"
                     },
                     {
                         "type": "Dropdown",
@@ -182,17 +183,20 @@
                                 "QuickBooks Online": "QuickBooks Online",
                                 "Oracle NetSuite": "Oracle NetSuite",
                                 "QuickBooks Desktop": "QuickBooks Desktop",
-                                "Centime Banking": "Centime Banking"
+                                "Centime Banking": "Centime Banking",
+                                "Sage Intacct":"Sage Intacct"
                             },
                             "multiple":true,
                             "tnsForOptions": false,
                             "placeholder":""
                         },
                         "queryName": "sourceName",
-                        "default":["QuickBooks Online",
+                        "default":[
+                         "QuickBooks Online",
                          "Oracle NetSuite",
                          "QuickBooks Desktop",
-                         "Centime Banking"]
+                         "Centime Banking","Sage Intacct"
+                        ]
                     },
                     {
                         "type": "Dropdown",
@@ -7804,6 +7808,10 @@
                     {
                         "label": "Centime Banking",
                         "value": 39
+                    },
+                    {
+                        "label": "Sage Intacct",
+                        "value": 17
                     }
                 ],
                 "action": {
