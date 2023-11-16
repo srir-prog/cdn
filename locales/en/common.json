@@ -672,7 +672,7 @@
   "surchargeApplied": "Surcharge applicable: {{amount}}",
   "discountApplied": "Discount applied : {{amount}}",
   "appliedCredits": "Applied credits: {{amount}}",
-  "creditsSuccess": "Credits selection is applied successfully. You can continue to make payment for this invoice",
+  "creditsSuccess": "Credits selection is applied successfully. You may proceed to complete the payment for this invoice",
   "creditFail":"Credit application failed, Please try again",
   "getCreditFail": "There was an issue encountered in fetching the credits for invoice. Please try again",
   "accountsPayableAccount": "Accounts payable account",
