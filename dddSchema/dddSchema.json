@@ -16,6 +16,7 @@
                             "calendarLayout":"double",
                             "startDate":"",
                             "endDate":"",
+                            "defaultSelection":"today",
                             "inputProps":{
                                 "label":"Period",
                                 "placeholder":"",
@@ -26,7 +27,7 @@
                             "tns":"businessOps"
                         },
                         "queryName": "period",
-                        "default":""
+                        "default":"today"
                     },
                     {
                         "type": "Dropdown",
@@ -44,11 +45,21 @@
                                 "SCHEDULED": "SCHEDULED",
                                 "UNKNOWN": "UNKNOWN"
                             },
+                            "multiple":true,
                             "tnsForOptions": false,
                             "placeholder":""
                         },
                         "queryName": "status",
-                        "default":["APPROVED"]
+                        "default":["APPROVED",
+                        "CANCELLED",
+                        "COMPLETED",
+                        "FAILED",
+                        "HOLD",
+                        "INITIATED",
+                        "PROCESSING",
+                        "REJECTED",
+                        "SCHEDULED",
+                        "UNKNOWN"]
                     },
                     {
                         "type": "Dropdown",
@@ -63,11 +74,18 @@
                                 "CENTIME_PAY":"CENTIME_PAY",
                                 "CENTIME_CASH_REPAY":"CENTIME_CASH_REPAY"
                             },
+                            "multiple":true,
                             "tnsForOptions": false,
                             "placeholder":""
                         },
                         "queryName": "paymentMethod",
-                        "default":["CREDIT_CARD"]
+                        "default":["ACH",
+                        "CHECK",
+                        "CREDIT_CARD",
+                        "CENTIME_CARD",
+                        "CENTIME_CASH",
+                        "CENTIME_PAY",
+                        "CENTIME_CASH_REPAY"]
                     },
                     {
                         "type": "Input",
@@ -146,6 +164,123 @@
             }
         ]
     },
+    "centimePayFilterQueryBuilder":{
+        "componentType": "detailsList",
+        "title": "Centime Pay Payments",
+        "additionalProperties": {
+            "showQueryBuilder": true,
+            "queryBuilderPosition": "bottom",
+            "queryBuilderParams": {
+                "orientation": "row",
+                "showChooseFilterInQueryBuilder": false,
+                "elementsInfo": [
+                    {
+                        "type": "DatesSelector",
+                        "componentProps": {
+                            "onlySingleDate": false,
+                            "calendarLayout":"double",
+                            "startDate":"",
+                            "endDate":"",
+                            "inputProps":{
+                                "label":"Period",
+                                "placeholder":"",
+                                "size":"extraLarge44",
+                                "fullWidth": true
+                            },
+                            "quickSelectionType":"payment",
+                            "tns":"businessOps"
+                        },
+                        "queryName": "period",
+                        "default":""
+                    },
+                    {
+                        "type": "Dropdown",
+                        "title": "Status",
+                        "componentProps": {
+                            "options": {
+                                "APPROVED":"APPROVED",
+                                "CANCELLED": "CANCELLED",
+                                "COMPLETED": "COMPLETED",
+                                "FAILED": "FAILED",
+                                "HOLD":"HOLD",
+                                "INITIATED": "INITIATED",
+                                "PROCESSING": "PROCESSING",
+                                "REJECTED":"REJECTED",
+                                "SCHEDULED": "SCHEDULED",
+                                "UNKNOWN": "UNKNOWN"
+                            },
+                            "multiple":true,
+                            "tnsForOptions": false,
+                            "placeholder":""
+                        },
+                        "queryName": "status",
+                        "default":["APPROVED",
+                        "CANCELLED",
+                        "COMPLETED",
+                        "FAILED",
+                        "HOLD",
+                        "INITIATED",
+                        "PROCESSING",
+                        "REJECTED",
+                        "SCHEDULED",
+                        "UNKNOWN"]
+                    },
+                    {
+                        "type": "Input",
+                        "componentProps": {
+                            "fullWidth": true,
+                            "placeholder": ""
+                        },
+                        "title": "Client Id",
+                        "queryName": "clientId"
+                    }
+                ]
+            }
+        },
+        "ignoreKeys": ["clientName","paymentId", "clientId"],
+        "additionalContent": [
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "List Payments"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "PaymentListWithNameForCentimePay"
+                    },
+                    "paramObjMap": {
+                        "period": {
+                            "type": "queryBuilder",
+                            "value": "period"
+                        },
+                        "status": {
+                            "type": "queryBuilder",
+                            "value": "status"
+                        },
+                        "clientId": {
+                            "type": "queryBuilder",
+                            "value": "clientId"
+                        },
+                        "paymentMethod":{
+                            "type": "hardCoded",
+                            "value": "CENTIME_PAY"
+                        },
+                        "groupId":{
+                            "type":"hardCoded",
+                            "value":"0,1"
+                        }
+    
+                    }
+                }
+            }
+        ]
+    },
     "clientsListQueryBuilder": {
         "componentType": "detailsList",
         "title": "Clients",
@@ -165,14 +300,20 @@
                                 "QuickBooks Online": "QuickBooks Online",
                                 "Oracle NetSuite": "Oracle NetSuite",
                                 "QuickBooks Desktop": "QuickBooks Desktop",
-                                "Centime Banking": "Centime Banking"
+                                "Centime Banking": "Centime Banking",
+                                "Sage Intacct":"Sage Intacct"
                             },
-                           
+                            "multiple":true,
                             "tnsForOptions": false,
                             "placeholder":""
                         },
                         "queryName": "sourceName",
-                        "default":["QuickBooks Online"]
+                        "default":[
+                         "QuickBooks Online",
+                         "Oracle NetSuite",
+                         "QuickBooks Desktop",
+                         "Centime Banking","Sage Intacct"
+                        ]
                     },
                     {
                         "type": "Dropdown",
@@ -185,6 +326,7 @@
                                 "4": "Closed",
                                 "5": "Invited"
                             },
+                            "multiple":true,
                             "tnsForOptions": false,
                             "placeholder":""
                         },
@@ -7783,6 +7925,10 @@
                     {
                         "label": "Centime Banking",
                         "value": 39
+                    },
+                    {
+                        "label": "Sage Intacct",
+                        "value": 17
                     }
                 ],
                 "action": {
@@ -9581,6 +9727,72 @@
             },
             "paginationNeeded":true
         }
+    },
+    "PaymentListWithNameForCentimePay":{
+        "componentType": "table",
+        "title": "Centime Pay List",
+        "ignoreKeys":["currencyCode","paymentMethod"],
+        "headersInfo": [
+            {
+                "title": "Client Name",
+                "valueMap": "clientName",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Payment Id",
+                "valueMap": "paymentId",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Payee RefId",
+                "valueMap": "payeeReferenceId",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Payer Ref Id",
+                "valueMap": "payerReferenceId",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Payment Capture Date",
+                "valueMap": "paymentCaptureDate",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true,
+                "formatType":"date"
+            },
+            {
+                "title": "Payment Start Date",
+                "valueMap": "paymentStartDate",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true,
+                "formatType":"date"
+            },
+            {
+                "title": "Payment Status",
+                "valueMap": "paymentStatus",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Amount",
+                "valueMap": "amount",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true,
+                "formatType":"currency"
+            }
+        ]
     },
     "errors": [],
     "status": "SUCCESS"
