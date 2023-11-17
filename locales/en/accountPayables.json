@@ -403,5 +403,11 @@
     "validationInProgress": "Validation in progress",
     "creditsAppliedAmount": "Credits applied amount",
     "discountsAppliedAmount": "Discounts applied amount",
-    "discountDate": "Discount date"
+    "discountDate": "Discount date",
+    "readyToEnroll": "Ready to enroll",
+    "enrollmentStarted": "Enrollment started",
+    "underReview": "Under review",
+    "inSync": "In sync",
+    "notInSync": "Not in sync",
+    "paymentProfile": "Payment profile"
 }
