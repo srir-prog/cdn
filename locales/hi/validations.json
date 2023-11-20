@@ -89,5 +89,8 @@
     "maxValue": "मान इससे कम या बराबर होना चाहिए {{amountLimit}}",
     "selectACurrentOrFutureDate": "वर्तमान किंवा भविष्यातील तारीख निवडा",
     "changeTheDateToModifyThePlan" : "योजना सुधारण्यासाठी तारीख बदला",
-    "changeStatusToPlanOnThisInvoice": "या इन्व्हॉइसवर योजनेसाठी स्थिती बदला"
+    "changeStatusToPlanOnThisInvoice": "या इन्व्हॉइसवर योजनेसाठी स्थिती बदला",
+    "recheckAccountNumber": "खाता संख्या मेल नहीं खाती",
+    "creditsExceedsOutstanding":  "लागू क्रेडिट बकाया राशि से अधिक नहीं हो सकता",
+    "creditsExceedsAvailableBalance": "लागू क्रेडिट उपलब्ध क्रेडिट शेष से अधिक नहीं हो सकता"
 }
