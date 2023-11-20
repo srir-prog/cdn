@@ -16,6 +16,7 @@
                             "calendarLayout":"double",
                             "startDate":"",
                             "endDate":"",
+                            "defaultSelection":"today",
                             "inputProps":{
                                 "label":"Period",
                                 "placeholder":"",
@@ -26,7 +27,7 @@
                             "tns":"businessOps"
                         },
                         "queryName": "period",
-                        "default":""
+                        "default":"today"
                     },
                     {
                         "type": "Dropdown",
@@ -307,11 +308,13 @@
                             "placeholder":""
                         },
                         "queryName": "sourceName",
-                        "default":["QuickBooks Online",
+                        "default":[
+                         "QuickBooks Online",
                          "Oracle NetSuite",
                          "QuickBooks Desktop",
                          "Centime Banking",
-                         "Sage Intacct"]
+                         "Sage Intacct"
+                        ]
                     },
                     {
                         "type": "Dropdown",
@@ -7924,6 +7927,10 @@
                     {
                         "label": "Centime Banking",
                         "value": 39
+                    },
+                    {
+                        "label": "Sage Intacct",
+                        "value": 17
                     }
                 ],
                 "action": {
