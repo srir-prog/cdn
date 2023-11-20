@@ -404,5 +404,7 @@
     "paymentAmount": "भुगतान राशि",
     "paymentMethod": "भुगतान विधि",
     "paymentReference": "भुगतान संदर्भ",
-    "remittanceMemo": "रेमिटेंसमेमो"
+    "remittanceMemo": "रेमिटेंसमेमो",
+    "sendRemittanceFailed": "प्रेषण भेजना विफल",
+    "sendRemittanceSuccess": "प्रेषण सफलतापूर्वक भेजा गया"
 }

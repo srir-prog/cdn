@@ -405,5 +405,7 @@
     "paymentAmount": "Payment amount",
     "paymentMethod": "Payment method",
     "paymentReference": "Payment reference",
-    "remittanceMemo": "Remittance memo"
+    "remittanceMemo": "Remittance memo",
+    "sendRemittanceFailed": "Send remittance failed",
+    "sendRemittanceSuccess": "Remittance sent successfully"
 }
