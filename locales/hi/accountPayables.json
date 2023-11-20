@@ -402,5 +402,17 @@
     "validationInProgress": "सत्यापन प्रगति पर है",
     "creditsAppliedAmount": "क्रेडिट लागू राशि",
     "discountsAppliedAmount": "छूट लागू राशि",
-    "discountDate": "छूट की तारीख"
+    "discountDate": "छूट की तारीख",
+    "EmailTo": "टू",
+    "EmailSubject": "विषय",
+    "invoice": "चालान",
+    "invoiceAmount": "चालान राशि",
+    "creditApplied": "क्रेडिट लागू",
+    "creditMemoNumber": "क्रेडिट मेमो नंबर",
+    "discountApplied": "छूट लागू",
+    "paymentAmount": "भुगतान राशि",
+    "paymentMethod": "भुगतान विधि",
+    "paymentReference": "भुगतान संदर्भ",
+    "sendRemittanceFailed": "प्रेषण भेजना विफल",
+    "sendRemittanceSuccess": "प्रेषण सफलतापूर्वक भेजा गया"
 }

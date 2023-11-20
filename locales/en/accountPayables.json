@@ -403,5 +403,17 @@
     "validationInProgress": "Validation in progress",
     "creditsAppliedAmount": "Credits applied amount",
     "discountsAppliedAmount": "Discounts applied amount",
-    "discountDate": "Discount date"
+    "discountDate": "Discount date",
+    "EmailTo": "To",
+    "EmailSubject": "Subject",
+    "invoice": "Invoice",
+    "invoiceAmount": "Invoice amount",
+    "creditApplied": "Credit applied",
+    "creditMemoNumber": "Credit memo number",
+    "discountApplied": "Discount applied",
+    "paymentAmount": "Payment amount",
+    "paymentMethod": "Payment method",
+    "paymentReference": "Payment reference",
+    "sendRemittanceFailed": "Send remittance failed",
+    "sendRemittanceSuccess": "Remittance sent successfully"
 }
