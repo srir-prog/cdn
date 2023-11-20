@@ -299,7 +299,8 @@
                                 "QuickBooks Online": "QuickBooks Online",
                                 "Oracle NetSuite": "Oracle NetSuite",
                                 "QuickBooks Desktop": "QuickBooks Desktop",
-                                "Centime Banking": "Centime Banking"
+                                "Centime Banking": "Centime Banking",
+                                "Sage Intacct":"Sage Intacct"
                             },
                             "multiple":true,
                             "tnsForOptions": false,
@@ -309,7 +310,8 @@
                         "default":["QuickBooks Online",
                          "Oracle NetSuite",
                          "QuickBooks Desktop",
-                         "Centime Banking"]
+                         "Centime Banking",
+                         "Sage Intacct"]
                     },
                     {
                         "type": "Dropdown",
@@ -1013,7 +1015,8 @@
                             "options": {
                                 "QuickBooks Online": "QuickBooks Online",
                                 "Oracle NetSuite": "Oracle NetSuite",
-                                "QuickBooks Desktop": "QuickBooks Desktop"
+                                "QuickBooks Desktop": "QuickBooks Desktop",
+                                "Sage Intacct":"Sage Intacct"
                             },
                             "tnsForOptions": false,
                             "placeholder":""   
