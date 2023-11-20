@@ -196,7 +196,8 @@
                          "QuickBooks Online",
                          "Oracle NetSuite",
                          "QuickBooks Desktop",
-                         "Centime Banking","Sage Intacct"
+                         "Centime Banking",
+                         "Sage Intacct"
                         ]
                     },
                     {
@@ -895,7 +896,8 @@
                             "options": {
                                 "QuickBooks Online": "QuickBooks Online",
                                 "Oracle NetSuite": "Oracle NetSuite",
-                                "QuickBooks Desktop": "QuickBooks Desktop"
+                                "QuickBooks Desktop": "QuickBooks Desktop",
+                                "Sage Intacct":"Sage Intacct"
                             },
                             "tnsForOptions": false
                             
@@ -903,7 +905,8 @@
                         "default": [
                             "QuickBooks Online",
                             "Oracle NetSuite",
-                            "QuickBooks Desktop"
+                            "QuickBooks Desktop",
+                            "Sage Intacct"
                         ],
                         "queryName": "sourceName"
                     },
