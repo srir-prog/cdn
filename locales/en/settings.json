@@ -707,5 +707,6 @@
   "ReceivablesPanelForSupplier": "Receivables",
   "paymentProfile": "Payment profile",
   "accountPayable": "Accounts payable",
-  "selectApplicationArea": "Select solution"
+  "selectApplicationArea": "Select solution",
+  "autoPayEnrollment":"Auto pay enrolment"
 }
