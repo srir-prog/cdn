@@ -707,5 +707,8 @@
   "ReceivablesPanelForSupplier": "Receivables",
   "paymentProfile": "Payment profile",
   "accountPayable": "Accounts payable",
-  "selectApplicationArea": "Select solution"
+  "selectApplicationArea": "Select solution",
+  "cashFlowForecastDesc": "View and customize your cash flow forecast and make informed financial",
+  "banking": "Banking",
+  "forecastingAndPlanning": "Forecasting and planning"
 }
