@@ -415,5 +415,7 @@
     "paymentMethod": "Payment method",
     "paymentReference": "Payment reference",
     "sendRemittanceFailed": "Send remittance failed",
-    "sendRemittanceSuccess": "Remittance sent successfully"
+    "sendRemittanceSuccess": "Remittance sent successfully",
+    "sendRemittanceSubLabel":"Confirm the email content and email address for the remittance details",
+    "sendRemittanceSmall": "Send remittance"
 }

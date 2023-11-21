@@ -414,5 +414,7 @@
     "paymentMethod": "भुगतान विधि",
     "paymentReference": "भुगतान संदर्भ",
     "sendRemittanceFailed": "प्रेषण भेजना विफल",
-    "sendRemittanceSuccess": "प्रेषण सफलतापूर्वक भेजा गया"
+    "sendRemittanceSuccess": "प्रेषण सफलतापूर्वक भेजा गया",
+    "sendRemittanceSubLabel":"प्रेषण विवरण के लिए ईमेल सामग्री और ईमेल पते की पुष्टि करें",
+    "sendRemittanceSmall": "प्रेषण भेजें"
 }
