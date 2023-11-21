@@ -417,5 +417,7 @@
     "sendRemittanceFailed": "Send remittance failed",
     "sendRemittanceSuccess": "Remittance sent successfully",
     "errorSavingChanges": "Error saving the changes",
-    "savedChangesSuccessfully": "Successfully saved the changes"
+    "savedChangesSuccessfully": "Successfully saved the changes",
+    "sendRemittanceSubLabel":"Confirm the email content and email address for the remittance details",
+    "sendRemittanceSmall": "Send remittance"
 }
