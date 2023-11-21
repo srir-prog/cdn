@@ -45,5 +45,6 @@
   "defaultPaymentMethod": "default payment method",
   "creditCardPaymentMethod": "Credit card",
   "achPaymentMethod": "ACH",
-  "checkPaymentMethod": "Check"
+  "checkPaymentMethod": "Check",
+  "PleaseReviewProfile": "Please review your payment profile and confirm"
 }
