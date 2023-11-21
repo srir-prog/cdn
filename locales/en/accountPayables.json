@@ -415,5 +415,7 @@
     "paymentMethod": "Payment method",
     "paymentReference": "Payment reference",
     "sendRemittanceFailed": "Send remittance failed",
-    "sendRemittanceSuccess": "Remittance sent successfully"
+    "sendRemittanceSuccess": "Remittance sent successfully",
+    "errorSavingChanges": "Error saving the changes",
+    "savedChangesSuccessfully": "Successfully saved the changes"
 }

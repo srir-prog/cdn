@@ -414,5 +414,7 @@
     "paymentMethod": "भुगतान विधि",
     "paymentReference": "भुगतान संदर्भ",
     "sendRemittanceFailed": "प्रेषण भेजना विफल",
-    "sendRemittanceSuccess": "प्रेषण सफलतापूर्वक भेजा गया"
+    "sendRemittanceSuccess": "प्रेषण सफलतापूर्वक भेजा गया",
+    "errorSavingChanges": "परिवर्तन सहेजने में त्रुटि",
+    "savedChangesSuccessfully": "परिवर्तनों को सफलतापूर्वक सहेजा गया"
 }
