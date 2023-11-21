@@ -42,5 +42,8 @@
   "surchargePercentageRange": "The value should be {{maxSurchargePercentage}}% or less",
   "updates": "Supplier update",
   "current": "Current",
-  "defaultPaymentMethod": "default payment method"
+  "defaultPaymentMethod": "default payment method",
+  "creditCardPaymentMethod": "Credit card",
+  "achPaymentMethod": "ACH",
+  "checkPaymentMethod": "Check"
 }
