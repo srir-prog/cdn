@@ -703,11 +703,12 @@
   "errorFetchingApprovalList": "Errors encountered in fetching the Approvar list. Please try again.",
   "selectApprovers": "Select approvers",
   "createNewTaskTemplate": "Create new task template",
-  "SupplierHubSettings": "Supplier hub settings",
+  "SupplierHubSettings": "Supplier portal settings",
   "ReceivablesPanelForSupplier": "Receivables",
   "paymentProfile": "Payment profile",
   "accountPayable": "Accounts payable",
   "selectApplicationArea": "Select solution",
+  "autoPayEnrollment":"Auto pay enrolment",
   "cashFlowForecastDesc": "View and customize your cash flow forecast and make informed financial",
   "banking": "Banking",
   "forecastingAndPlanning": "Forecasting and planning"
