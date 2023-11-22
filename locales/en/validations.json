@@ -94,5 +94,7 @@
     "selectACurrentOrFutureDate": "Select a current or future date",
     "changeTheDateToModifyThePlan" : "Change the date to modify the plan",
     "changeStatusToPlanOnThisInvoice": "Change status to plan on this invoice",
-    "recheckAccountNumber": "Account number does not match"
+    "recheckAccountNumber": "Account number does not match",
+    "creditsExceedsOutstanding": "Credits applied cannot exceed outstanding amount",
+    "creditsExceedsAvailableBalance": "Credits applied cannot exceed available credit balance"
 }
