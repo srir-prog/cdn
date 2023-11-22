@@ -708,5 +708,8 @@
   "paymentProfile": "Payment profile",
   "accountPayable": "Accounts payable",
   "selectApplicationArea": "Select solution",
-  "autoPayEnrollment":"Auto pay enrolment"
+  "autoPayEnrollment":"Auto pay enrolment",
+  "cashFlowForecastDesc": "View and customize your cash flow forecast and make informed financial",
+  "banking": "Banking",
+  "forecastingAndPlanning": "Forecasting and planning"
 }
