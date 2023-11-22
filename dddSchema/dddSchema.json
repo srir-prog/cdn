@@ -1024,8 +1024,13 @@
                             "tnsForOptions": false,
                             "placeholder":""   
                         },
-                        "queryName": "sourceName",
-                        "default":["QuickBooks Online"]
+                        "default": [
+                            "QuickBooks Online",
+                            "Oracle NetSuite",
+                            "QuickBooks Desktop",
+                            "Sage Intacct"
+                        ],
+                        "queryName": "sourceName"
                     },
                     {
                         "type": "Dropdown",
