@@ -46,5 +46,6 @@
   "creditCardPaymentMethod": "Credit card",
   "achPaymentMethod": "ACH",
   "checkPaymentMethod": "Check",
-  "PleaseReviewProfile": "Please review your payment profile and confirm"
+  "PleaseReviewProfile": "Please review your payment profile and confirm",
+  "otherPaymentMethod": "Others"
 }
