@@ -38,5 +38,10 @@
   "underReview": "Under review",
   "inSync": "In sync",
   "notInSync": "Not in sync",
-  "discountConfigDisplayValue": "{{discountPercentage}} paid in {{discountDays}} days"
+  "discountConfigDisplayValue": "{{discountPercentage}} paid in {{discountDays}} days",
+  "readyToEnrollNotification": "<b>Status:</b> Please provide all payment method details",
+  "enrollmentStartedNotification": "<b>Status:</b> Please provide all payment method details",
+  "underReviewNotification": "<b>Status:</b> Payment profile under review with the client",
+  "inSyncNotification": "<b>Status:</b> Payment profile in sync with the client",
+  "notInSyncNotification": "<b>Status:</b> Payment profile not in sync with the client"
 }
