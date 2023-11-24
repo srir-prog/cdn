@@ -81,5 +81,8 @@
   "recheckAccountNumber": "खाता संख्या फिर से एंटर करें",
   "disablePaymentForNonUSDInvoices": "आप केवल अमरीकी डॉलर मुद्रा में चालान के लिए भुगतान कर सकते हैं",
   "paymentAmount": "भुगतान राशि",
-  "paymentMethod": "भुगतान विधि"
+  "paymentMethod": "भुगतान विधि",
+  "ACH": "एसीएच",
+  "CreditCard": "क्रेडिट कार्ड",
+  "Credits": "क्रेडिट"
 }
