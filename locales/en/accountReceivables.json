@@ -291,7 +291,6 @@
     "EmailOptionOurCompanyName": "<our company name>",
     "EmailOptionCustomerName": "<customer name>",
     "SenderEmail": "<sender email>",
-    "RecipientName": "<primary contact name>",
     "SenderSignaturePlaceholder": "<sender signature>",
     "EnterEmail": "Enter email",
     "EnableCommunications": "Please set an email to enable all communications",
