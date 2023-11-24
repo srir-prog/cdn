@@ -433,5 +433,7 @@
     "email": "ईमेल",
     "user": "उपयोगकर्ता",
     "contactRole": "ग्राहक संपर्क भूमिका",
-    "addAdditionalRecipients": "अतिरिक्त प्राप्तकर्ता जोड़ें"
+    "addAdditionalRecipients": "अतिरिक्त प्राप्तकर्ता जोड़ें",
+    "termDiscount": "अवधि छूट",
+    "achDiscount": "ACH छूट"
 }
