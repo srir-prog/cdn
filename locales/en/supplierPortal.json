@@ -52,5 +52,6 @@
   "enrollmentStartedNotification": "<b>Status:</b> Please provide all payment method details",
   "underReviewNotification": "<b>Status:</b> Payment profile under review with the client",
   "inSyncNotification": "<b>Status:</b> Payment profile in sync with the client",
-  "notInSyncNotification": "<b>Status:</b> Payment profile not in sync with the client"
+  "notInSyncNotification": "<b>Status:</b> Payment profile not in sync with the client",
+  "mailingAddress": "Mailing Address"
 }
