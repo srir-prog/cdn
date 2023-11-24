@@ -83,8 +83,5 @@
   "recheckAccountNumber": "Re-enter account number",
   "disablePaymentForNonUSDInvoices": "You can only make payments for invoices in USD currency",
   "paymentAmount": "Payment amount",
-  "paymentMethod": "Payment method",
-  "ACH": "ACH",
-  "CreditCard": "Credit card",
-  "Credits": "Credits"
+  "paymentMethod": "Payment method"
 }
