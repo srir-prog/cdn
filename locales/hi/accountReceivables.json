@@ -424,5 +424,7 @@
     "headerLabelBillTo": "बिल प्राप्तकर्ता",
     "headerLabelParent": "माता-पिता",
     "headerLabelConsolidatedBalance": "समेकित",
-    "defaultWorkflowId": "- कोई वर्कफ़्लो नहीं -"
+    "defaultWorkflowId": "- कोई वर्कफ़्लो नहीं -",
+    "termDiscount": "अवधि छूट",
+    "achDiscount": "ACH छूट"
 }

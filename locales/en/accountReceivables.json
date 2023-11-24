@@ -425,5 +425,7 @@
     "headerLabelBillTo": "Bill to",
     "headerLabelParent": "Parent",
     "headerLabelConsolidatedBalance": "Consolidated",
-    "defaultWorkflowId": "- No Workflow -"
+    "defaultWorkflowId": "- No Workflow -",
+    "termDiscount": "Term discount",
+    "achDiscount": "ACH discount"
 }
