@@ -434,5 +434,7 @@
     "email": "Email",
     "user": "User",
     "contactRole": "Customer contact role",
-    "addAdditionalRecipients": "Add additional recipients"
+    "addAdditionalRecipients": "Add additional recipients",
+    "termDiscount": "Term discount",
+    "achDiscount": "ACH discount"
 }
