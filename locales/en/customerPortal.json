@@ -84,6 +84,7 @@
   "disablePaymentForNonUSDInvoices": "You can only make payments for invoices in USD currency",
   "paymentAmount": "Payment amount",
   "paymentMethod": "Payment method",
+  "negligibleAmount": "Negligible payment amount",
   "achDiscount": "ACH discount",
   "basedOnDiscount": "Based on discount of {{discountPercentage}}",
   "discountExpiresOn": "Discount expires on",
