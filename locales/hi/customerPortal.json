@@ -81,5 +81,9 @@
   "recheckAccountNumber": "खाता संख्या फिर से एंटर करें",
   "disablePaymentForNonUSDInvoices": "आप केवल अमरीकी डॉलर मुद्रा में चालान के लिए भुगतान कर सकते हैं",
   "paymentAmount": "भुगतान राशि",
-  "paymentMethod": "भुगतान विधि"
+  "paymentMethod": "भुगतान विधि",
+  "achDiscount": "ACH छूट",
+  "basedOnDiscount": "{{discountPercentage}} की छूट के आधार पर",
+  "discountExpiresOn": "छूट समाप्त हो रही है",
+  "termDiscount": "अवधि छूट"
 }
