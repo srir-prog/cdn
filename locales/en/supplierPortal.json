@@ -23,7 +23,7 @@
   "offerDiscounts": "Offer discounts",
   "paymentProfile": "Payment profile",
   "daysFromInvoiceDate": "Days from invoice date",
-  "accessCreditCardDetailsOptionOne": "On Centime supplier portal",
+  "accessCreditCardDetailsOptionOne": "Shared on the email",
   "accessCreditCardDetailsOptionTwo": "{{companyName}} to process the card payment on website",
   "discountDaysDisplayValue": "{{discountPercentage}}% paid in {{discountDays}} days",
   "creditCardPayments": "Credit card payments",
@@ -53,5 +53,6 @@
   "underReviewNotification": "<b>Status:</b> Payment profile under review with the client",
   "inSyncNotification": "<b>Status:</b> Payment profile in sync with the client",
   "notInSyncNotification": "<b>Status:</b> Payment profile not in sync with the client",
-  "mailingAddress": "Mailing Address"
+  "mailingAddress": "Mailing Address",
+  "recheckAccountNumber": "Re-enter account number"
 }
