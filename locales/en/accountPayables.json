@@ -414,10 +414,11 @@
     "paymentAmount": "Payment amount",
     "paymentMethod": "Payment method",
     "paymentReference": "Payment reference",
-    "sendRemittanceFailed": "Send remittance failed",
-    "sendRemittanceSuccess": "Remittance sent successfully",
-    "errorSavingChanges": "Error saving the changes",
+    "sendRemittanceFailed": "Error while sending remittance to the supplier",
+    "sendRemittanceSuccess": "Successfully sent the remittance to the supplier",
+    "errorSavingChanges": "Error while saving the changes",
     "savedChangesSuccessfully": "Successfully saved the changes",
     "sendRemittanceSubLabel":"Confirm the email content and email address for the remittance details",
-    "sendRemittanceSmall": "Send remittance"
+    "sendRemittanceSmall": "Send remittance",
+    "paymentDateWithColon": "Payment date :"
 }
