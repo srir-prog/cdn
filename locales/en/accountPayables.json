@@ -404,6 +404,12 @@
     "creditsAppliedAmount": "Credits applied amount",
     "discountsAppliedAmount": "Discounts applied amount",
     "discountDate": "Discount date",
+    "readyToEnroll" : "Ready to enroll",
+    "enrollmentStarted":"Enrollment started",
+    "underReview":"Under review",
+    "inSync":"In sync",
+    "notInSync":"Not in sync",
+    "paymentProfile": "Payment profile",
     "EmailTo": "To",
     "EmailSubject": "Subject",
     "invoice": "Invoice",
@@ -414,11 +420,10 @@
     "paymentAmount": "Payment amount",
     "paymentMethod": "Payment method",
     "paymentReference": "Payment reference",
-    "sendRemittanceFailed": "Error while sending remittance to the supplier",
-    "sendRemittanceSuccess": "Successfully sent the remittance to the supplier",
-    "errorSavingChanges": "Error while saving the changes",
+    "sendRemittanceFailed": "Send remittance failed",
+    "sendRemittanceSuccess": "Remittance sent successfully",
+    "errorSavingChanges": "Error saving the changes",
     "savedChangesSuccessfully": "Successfully saved the changes",
     "sendRemittanceSubLabel":"Confirm the email content and email address for the remittance details",
-    "sendRemittanceSmall": "Send remittance",
-    "paymentDateWithColon": "Payment date :"
+    "sendRemittanceSmall": "Send remittance"
 }
