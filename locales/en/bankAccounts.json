@@ -515,5 +515,7 @@
     "bankAccounts":"Bank accounts",
     "creditCardAndLoanAcs":"Credit card and Loan accounts",
     "connectAccounts":"Connect accounts",
-    "banking": "Banking"
+    "banking": "Banking",
+    "accountAggregationLabel": "Account aggregation",
+    "individualCashflow": "Individual cashflow"
 }
