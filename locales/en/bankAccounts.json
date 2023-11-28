@@ -516,6 +516,6 @@
     "creditCardAndLoanAcs":"Credit card and Loan accounts",
     "connectAccounts":"Connect accounts",
     "banking": "Banking",
-    "accountAggregationLabel": "Account aggregation",
-    "individualCashflow": "Individual cashflow"
+    "accountAggregationLabel": "Prediction level within each cash flow",
+    "individualCashflow": "Individual cash flow"
 }
