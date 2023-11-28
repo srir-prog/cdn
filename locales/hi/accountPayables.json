@@ -419,6 +419,7 @@
     "savedChangesSuccessfully": "परिवर्तनों को सफलतापूर्वक सहेजा गया",
     "sendRemittanceSubLabel":"प्रेषण विवरण के लिए ईमेल सामग्री और ईमेल पते की पुष्टि करें",
     "sendRemittanceSmall": "प्रेषण भेजें",
+    "paymentDateWithColon": "भुगतान की तारीख :",
     "readyToEnroll" : "रोल के लिए तैयार",
     "enrollmentStarted":"पंजीकरण शुरू हुआ",
     "underReview":"समीक्षा के तहत",
