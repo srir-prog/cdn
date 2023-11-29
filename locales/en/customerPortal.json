@@ -14,7 +14,7 @@
   "cPPayTermsAndConditions": "By clicking \"Pay,\" you agree to our <clickLink></clickLink>",
   "termsAndConditionsLinkText": "Terms & Conditions",
   "surchargeInfo": "Total amount = {{totalSelectedAmount}} + {{totalSurchargeAmount}} (surcharge {{surchargePercentage}})",
-  "successNotificationForPaymentMethodChange": "Payment method successfully updated",
+  "successNotificationForPaymentMethodChange": "Payment method is updated",
   "bankAccountInfoLabel": "Bank account",
   "accountHolderName": "Account holder name",
   "ABARoutingNumber": "ABA Routing number",
@@ -88,5 +88,6 @@
   "achDiscount": "ACH discount",
   "basedOnDiscount": "Based on discount of {{discountPercentage}}",
   "discountExpiresOn": "Discount expires on",
-  "termDiscount": "Term discount"
+  "termDiscount": "Term discount",
+  "paymentMethodErrorNotification": "Failed to update the payment method. Please try again"
 }
