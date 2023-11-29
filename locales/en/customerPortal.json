@@ -84,5 +84,5 @@
   "disablePaymentForNonUSDInvoices": "You can only make payments for invoices in USD currency",
   "paymentAmount": "Payment amount",
   "paymentMethod": "Payment method",
-  "negligibleAmount": "Negligible payment amount"
+  "negligibleAmount": "Invalid payment amount. Please ensure the amount is more than $0.02 to initiate a payment successfully."
 }
