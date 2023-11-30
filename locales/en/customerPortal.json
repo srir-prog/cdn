@@ -14,7 +14,7 @@
   "cPPayTermsAndConditions": "By clicking \"Pay,\" you agree to our <clickLink></clickLink>",
   "termsAndConditionsLinkText": "Terms & Conditions",
   "surchargeInfo": "Total amount = {{totalSelectedAmount}} + {{totalSurchargeAmount}} (surcharge {{surchargePercentage}})",
-  "successNotificationForPaymentMethodChange": "Payment method is updated",
+  "successNotificationForPaymentMethodChange": "Payment method successfully updated",
   "bankAccountInfoLabel": "Bank account",
   "accountHolderName": "Account holder name",
   "ABARoutingNumber": "ABA Routing number",
