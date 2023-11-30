@@ -671,5 +671,13 @@
     "errorFetchingApprovalList":"अनुमोदन सूची लाने में त्रुटियाँ आईं। कृपया पुन: प्रयास करें।",
     "selectApprovers": "अनुमोदकों का चयन करें",
     "SupplierHubSettings": "सप्लायर हब सेटिंग्स",
-    "autoPayEnrollment":"ऑटो भुगतान नामांकन"
+    "autoPayEnrollment":"ऑटो भुगतान नामांकन",
+    "credits": "क्रेडिट",
+    "achPreferences": "ACH भुगतान प्राथमिकताएँ",
+    "allowACHPayments": "ACH भुगतान की अनुमति दें",
+    "offerDiscounts": "छूट प्रदान करें",
+    "achDiscountPercentage": "छूट %",
+    "achDiscountAccount": "ACH छूट खाता",
+    "achDaysAfterDueDate": "नियत तारीख के बाद दिनों की संख्या",
+    "untilXDaysAfter": "नियत तारीख के बाद X दिन तक"
 }

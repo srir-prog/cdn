@@ -92,5 +92,6 @@
     "changeStatusToPlanOnThisInvoice": "या इन्व्हॉइसवर योजनेसाठी स्थिती बदला",
     "recheckAccountNumber": "खाता संख्या मेल नहीं खाती",
     "creditsExceedsOutstanding":  "लागू क्रेडिट बकाया राशि से अधिक नहीं हो सकता",
-    "creditsExceedsAvailableBalance": "लागू क्रेडिट उपलब्ध क्रेडिट शेष से अधिक नहीं हो सकता"
+    "creditsExceedsAvailableBalance": "लागू क्रेडिट उपलब्ध क्रेडिट शेष से अधिक नहीं हो सकता",
+    "daysAfterRange": "मान {{maxDaysAfter}} दिन या उससे कम होना चाहिए"
 }

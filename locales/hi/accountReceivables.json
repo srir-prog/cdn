@@ -290,7 +290,6 @@
     "EmailOptionOurCompanyName": "<हमारी कंपनी का नाम>",
     "EmailOptionCustomerName": "<ग्राहकों नाम>",
     "SenderEmail": "<प्रेषक ईमेल>",
-    "RecipientName": "<प्राथमिक संपर्क नाम>",
     "SenderSignaturePlaceholder": "<प्रेषक हस्ताक्षर>",
     "EnterEmail": "ईमेल दर्ज करें",
     "EnableCommunications": "कृपया सभी संचार सक्षम करने के लिए एक ईमेल सेट करें",
@@ -433,5 +432,7 @@
     "email": "ईमेल",
     "user": "उपयोगकर्ता",
     "contactRole": "ग्राहक संपर्क भूमिका",
-    "addAdditionalRecipients": "अतिरिक्त प्राप्तकर्ता जोड़ें"
+    "addAdditionalRecipients": "अतिरिक्त प्राप्तकर्ता जोड़ें",
+    "termDiscount": "अवधि छूट",
+    "achDiscount": "ACH छूट"
 }

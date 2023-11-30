@@ -96,5 +96,6 @@
     "changeStatusToPlanOnThisInvoice": "Change status to plan on this invoice",
     "recheckAccountNumber": "Account number does not match",
     "creditsExceedsOutstanding": "Credits applied cannot exceed outstanding amount",
-    "creditsExceedsAvailableBalance": "Credits applied cannot exceed available credit balance"
+    "creditsExceedsAvailableBalance": "Credits applied cannot exceed available credit balance",
+    "daysAfterRange": "The value should be {{maxDaysAfter}} days or less"
 }
