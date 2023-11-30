@@ -14,7 +14,7 @@
   "cPPayTermsAndConditions": "\"भुगतान\" पर क्लिक करके, आप हमारे साथ सहमत होते हैं <clickLink></clickLink>",
   "termsAndConditionsLinkText": "नियम और शर्तें।",
   "surchargeInfo": "कुल राशि = {{totalSelectedAmount}} + {{totalSurchargeAmount}} (सरचार्ज {{surchargePercentage}})",
-  "successNotificationForPaymentMethodChange": "भुगतान विधि अद्यतन हैै",
+  "successNotificationForPaymentMethodChange": "भुगतान विधि सफलतापूर्वक अपडेट की गई है",
   "bankAccountInfoLabel": "बैंक खाता",
   "accountHolderName": "खाताधारक का नाम",
   "ABARoutingNumber": "एबीए राउटिंग नंबर",
