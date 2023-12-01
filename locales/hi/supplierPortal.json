@@ -52,5 +52,7 @@
   "achPaymentMethod": "एचसीएच",
   "checkPaymentMethod": "चेक",
   "PleaseReviewProfile": "कृपया अपनी भुगतान प्रोफ़ाइल की समीक्षा करें और पुष्टि करें",
-  "otherPaymentMethod": "अन्य"
+  "otherPaymentMethod": "अन्य",
+  "choosePaymentMethod": "भुगतान विधि चुनें",
+  "updatedDetailsInfo": "{{updatedBy}} द्वारा अपडेट किया गया, {{updatedDate}}"
 }
