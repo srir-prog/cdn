@@ -223,5 +223,5 @@
     "applicationSent":"Application has been sent via email to the authorised signatory.",
     "emailSentTo":"Signer - {{email}}",
     "Export": "Export",
-    "okay": "Okay"
+    "ok": "OK"
 }
