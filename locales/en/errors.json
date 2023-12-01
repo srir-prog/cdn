@@ -49,5 +49,5 @@
   "GoToSandbox": "Go to Sandbox",
   "youDoNotHaveAnyPendingTask": "You do not have any pending tasks",
   "youDoNotHaveAnyArchive": "You do not have any archived tasks",
-  "cannotAbleToSelectMoreRows" : "You can make payments for a maximum of {{n}} invoices in a single transaction."
+  "cannotSelectMoreInvoices" : "You can make payments for a maximum of {{n}} invoices in a single transaction."
 }
