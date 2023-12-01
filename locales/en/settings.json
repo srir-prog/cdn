@@ -712,6 +712,8 @@
   "forecastingAndPlanningDesc": "View and customise your cash flow forecast and make informed financial decisions",
   "banking": "Banking",
   "forecastingAndPlanning": "Forecasting and planning",
+  "ccAmountGreaterThan": "Greater than or equal to",
+  "ccAmountLessThan": "Less than",
   "credits": "Credits",
   "achPreferences": "ACH payment preferences",
   "allowACHPayments": "Allow ACH payments",
