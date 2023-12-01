@@ -434,5 +434,7 @@
     "contactRole": "ग्राहक संपर्क भूमिका",
     "addAdditionalRecipients": "अतिरिक्त प्राप्तकर्ता जोड़ें",
     "termDiscount": "अवधि छूट",
-    "achDiscount": "ACH छूट"
+    "achDiscount": "ACH छूट",
+    "enrollAutoPayNotificationSuccess": "{{invoicesCount}} चालान के लिए ऑटोपे नामांकन मेल भेजा गया",
+    "enrollAutoPayNotificationFailure": "ऑटोपे नामांकन मेल भेजते समय त्रुटि। यदि समस्या बनी रहती है तो पुनः प्रयास करें या हमसे संपर्क करें।"
 }

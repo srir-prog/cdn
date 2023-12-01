@@ -85,6 +85,7 @@
     "HeaderLabelPercentageOverdue": "% Overdue",
     "HeaderLabelCampaign": "Workflow",
     "HeaderLabelCurrentReminderCampaign": "Current workflow",
+    "HeaderLabelEnrollAutoPay": "Autopay Status",
     "HeaderLabelDueDate": "Due date",
     "LastReminderSent": "Last workflow action",
     "NextReminder": "Next workflow action",
@@ -435,5 +436,7 @@
     "contactRole": "Customer contact role",
     "addAdditionalRecipients": "Add additional recipients",
     "termDiscount": "Term discount",
-    "achDiscount": "ACH discount"
+    "achDiscount": "ACH discount",
+    "enrollAutoPayNotificationSuccess": "Autopay enrollment mail sent for {{invoicesCount}} invoices.",
+    "enrollAutoPayNotificationFailure": "Error while sending Autopay enrollment mail(s). Try again or contact us if the problem persists."
 }

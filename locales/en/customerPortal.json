@@ -84,5 +84,15 @@
   "disablePaymentForNonUSDInvoices": "You can only make payments for invoices in USD currency",
   "paymentAmount": "Payment amount",
   "paymentMethod": "Payment method",
-  "negligibleAmount": "Negligible payment amount"
+  "negligibleAmount": "Negligible payment amount",
+  "autoPayPrefsHeading":"Auto pay preferences",
+  "autoPayPref":"Autopay preference",
+  "autoPayPaymentDate":"Auto pay payment date",
+  "autoPayAuthorisation":"Autopay authorisation",
+  "customer":"Customer",
+  "typeEmailAddress":"Type your email address",
+  "preferredPaymentMethod":"Preferred payment method",
+  "autoPayAuthorisationModal":"Autopay authorisation modal",
+  "alertInfo":"Please select your preferred payment method, enter payment details and click SAVE AND AUTHORIZE to finish. Your details will be securely recorded.",
+  "saveAuthorise":"Save and Authorise"
 }
