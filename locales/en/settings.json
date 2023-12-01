@@ -713,5 +713,13 @@
   "banking": "Banking",
   "forecastingAndPlanning": "Forecasting and planning",
   "ccAmountGreaterThan": "Greater than or equal to",
-  "ccAmountLessThan": "Less than"
+  "ccAmountLessThan": "Less than",
+  "credits": "Credits",
+  "achPreferences": "ACH payment preferences",
+  "allowACHPayments": "Allow ACH payments",
+  "offerDiscounts": "Offer discounts",
+  "achDiscountPercentage": "Discount %",
+  "achDiscountAccount": "ACH Discount account",
+  "achDaysAfterDueDate": "Number of days after due date",
+  "untilXDaysAfter": "Until X days after due date"
 }
