@@ -54,5 +54,7 @@
   "inSyncNotification": "<b>Status:</b> Payment profile in sync with the client",
   "notInSyncNotification": "<b>Status:</b> Payment profile not in sync with the client",
   "mailingAddress": "Mailing Address",
-  "recheckAccountNumber": "Re-enter account number"
+  "recheckAccountNumber": "Re-enter account number",
+  "choosePaymentMethod": "Choose payment method",
+  "updatedDetailsInfo": "Updated by {{updatedBy}}, {{updatedDate}}"
 }

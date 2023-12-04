@@ -45,5 +45,6 @@
   "CannotSelectMoreRows": "{{n}} से अधिक पंक्तियों का चयन नहीं कर सकते।",
   "SelectAnotherClient": "कृपया शीर्ष-दाहिने ड्रॉपडाउन से क्लाइंट को बदलें और इस क्लाइंट को फिर से चुनें या समस्या बनी रहने पर हमसे संपर्क करें।",
   "GoToSandbox": "Go to Sandbox",
-  "youDoNotHaveAnyPendingTask": "आपका कोई भी कार्य लंबित नहीं है"
+  "youDoNotHaveAnyPendingTask": "आपका कोई भी कार्य लंबित नहीं है",
+  "cannotSelectMoreInvoices" : "आप एक लेनदेन में अधिकतम {{n}} चालान के लिए भुगतान कर सकते हैं।"
 }
