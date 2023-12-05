@@ -518,5 +518,6 @@
     "banking": "Banking",
     "accountAggregationLabel": "Group predictions by",
     "generalLedgerAccount": "General Ledger account",
-    "individualCashflow": "Individual cash flow"
+    "individualCashflow": "Individual cash flow",
+    "predictionSettings": "Prediction settings"
 }
