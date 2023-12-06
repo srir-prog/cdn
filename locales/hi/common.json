@@ -676,5 +676,12 @@
     "getCreditFail": "चालान के लिए क्रेडिट लाने में एक समस्या का सामना करना पड़ा। कृपया पुन: प्रयास करें",
     "accountsPayableAccount": "देय खाते",
     "historyMessageApAccountSetTo": "देय खाते पर सेट किया गया {{apAccountName}}",
-    "supplierPaymentSettingsUpdatedNotification": "{{count}} आपूर्तिकर्ता ने अपनी भुगतान प्रोफ़ाइल अपडेट की है."
+    "supplierPaymentSettingsUpdatedNotification": "{{count}} आपूर्तिकर्ता ने अपनी भुगतान प्रोफ़ाइल अपडेट की है.",
+    "checkPaymentSettingUpdated": "चेक भुगतान सेटिंग अपडेट की गई है",
+    "ACHPaymentSettingUpdated": "ACH भुगतान सेटिंग अपडेट की गई है",
+    "creditCardSettingUpdated": "क्रेडिट कार्ड भुगतान सेटिंग अपडेट की गई है",
+    "paymentProfileAccepted": "भुगतान प्रोफ़ाइल स्वीकृत है",
+    "paymentProfileRejected": "भुगतान प्रोफ़ाइल अस्वीकृत है",
+    "paymentProfileStatusInSync": "भुगतान प्रोफ़ाइल स्थिति को 'इन सिंक' में सेट किया गया है",
+    "defaultPaymentMethodUpdated": "डिफ़ॉल्ट भुगतान विधि अपडेट की गई है"
 }

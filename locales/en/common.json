@@ -680,5 +680,12 @@
   "getCreditFail": "There was an issue encountered in fetching the credits for invoice. Please try again",
   "accountsPayableAccount": "Accounts payable account",
   "historyMessageApAccountSetTo": "Accounts Payable account set to {{apAccountName}}",
-  "supplierPaymentSettingsUpdatedNotification": "{{count}} suppliers updated their payment profile."
+  "supplierPaymentSettingsUpdatedNotification": "{{count}} suppliers updated their payment profile.",
+  "checkPaymentSettingUpdated": "Check payment setting updated",
+  "ACHPaymentSettingUpdated": "ACH payment setting updated",
+  "creditCardSettingUpdated": "Credit card payment setting updated",
+  "paymentProfileAccepted": "Payment profile accepted",
+  "paymentProfileRejected": "Payment profile rejected",
+  "paymentProfileStatusInSync": "Payment profile status set to In Sync",
+  "defaultPaymentMethodUpdated": "Default payment method updated"
 }
