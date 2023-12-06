@@ -48,5 +48,6 @@
   "SelectAnotherClient": "Please go to sandbox and re-select this client again or contact us if the problem persists.",
   "GoToSandbox": "Go to Sandbox",
   "youDoNotHaveAnyPendingTask": "You do not have any pending tasks",
-  "youDoNotHaveAnyArchive": "You do not have any archived tasks"
+  "youDoNotHaveAnyArchive": "You do not have any archived tasks",
+  "cannotSelectMoreInvoices" : "You can make payments for a maximum of {{n}} invoices in a single transaction."
 }

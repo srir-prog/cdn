@@ -85,5 +85,6 @@
   "achDiscount": "ACH छूट",
   "basedOnDiscount": "{{discountPercentage}} की छूट के आधार पर",
   "discountExpiresOn": "छूट समाप्त हो रही है",
-  "termDiscount": "अवधि छूट"
+  "termDiscount": "अवधि छूट",
+  "paymentMethodErrorNotification": "भुगतान विधि अद्यतन करने में विफल. कृपया पुन: प्रयास करें"
 }

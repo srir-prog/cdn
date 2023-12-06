@@ -516,6 +516,8 @@
     "creditCardAndLoanAcs":"Credit card and Loan accounts",
     "connectAccounts":"Connect accounts",
     "banking": "Banking",
-    "accountAggregationLabel": "Prediction level within each cash flow",
-    "individualCashflow": "Individual cash flow"
+    "accountAggregationLabel": "Group predictions by",
+    "generalLedgerAccount": "General Ledger account",
+    "individualCashflow": "Individual cash flow",
+    "predictionSettings": "Prediction settings"
 }

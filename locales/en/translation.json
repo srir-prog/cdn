@@ -222,5 +222,6 @@
     "noEmailError":"Add the Authorized Signatory email in the Ownership and beneficiary settings page to send the application for signing.",
     "applicationSent":"Application has been sent via email to the authorised signatory.",
     "emailSentTo":"Signer - {{email}}",
-    "Export": "Export"
+    "Export": "Export",
+    "ok": "OK"
 }
