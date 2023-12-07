@@ -676,5 +676,6 @@
     "getCreditFail": "चालान के लिए क्रेडिट लाने में एक समस्या का सामना करना पड़ा। कृपया पुन: प्रयास करें",
     "accountsPayableAccount": "देय खाते",
     "historyMessageApAccountSetTo": "देय खाते पर सेट किया गया {{apAccountName}}",
-    "supplierPaymentSettingsUpdatedNotification": "{{count}} आपूर्तिकर्ता ने अपनी भुगतान प्रोफ़ाइल अपडेट की है."
+    "supplierPaymentSettingsUpdatedNotification": "{{count}} आपूर्तिकर्ता ने अपनी भुगतान प्रोफ़ाइल अपडेट की है.",
+    "currentApprovers": "वर्तमान अनुमोदक"
 }
