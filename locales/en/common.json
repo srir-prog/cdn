@@ -690,5 +690,6 @@
   "paymentProfileRejected": "Payment profile rejected",
   "paymentProfileStatusInSync": "Payment profile status set to In Sync",
   "defaultPaymentMethodUpdated": "Default payment method updated",
-  "invoiceSummary": "Invoice summary"
+  "invoiceSummary": "Invoice summary",
+  "ApplyToSelectedRows": "Apply to all selected rows",
 }
