@@ -517,7 +517,7 @@
   "packageModalSubHeading": "Select one or more cash management solutions to start",
   "payablesDesc": "Schedule,authorize and execute your supplier payments",
   "receivablesDesc": "Stay in control of your account receivables by tracking open invoices and automating your customer follow ups",
-  "cashFlowPlanningDesc": "View and customize your cash flow forecast and make informed decisions",
+  "cashFlowPlanningDesc": "View and customise your cash flow forecast and make informed financial decisions",
   "cashFlowMonitoringDesc": "Monitor cash and track balances across your bank,credit and loan accounts",
   "cashMonitoring": "Cash monitoring",
   "cashPlanning": "Cash flow forecasting and planning",
@@ -682,5 +682,13 @@
   "historyMessageApAccountSetTo": "Accounts Payable account set to {{apAccountName}}",
   "supplierPaymentSettingsUpdatedNotification": "{{count}} suppliers updated their payment profile.",
   "centimeSecureDisclaimer": "Centime is a financial technology company, not a bank. Centime deposit accounts are with FNBO and are FDIC insured through FNBO. Member FDIC Centime is not a bank and is not authorized by any federal or state agency to engage directly in core banking activities. All banking products and services available through Centime are provided by FNBO and are governed by the applicable agreements and related disclosures provided to you by FNBO. While Centime facilitates traditional banking activities (such as the acceptance of deposits or extensions of credit), these services are actually provided by our banking partner, FNBO Centime may provide support services to FNBO, as permitted by applicable law, to facilitate the delivery of its bank products and services.",
-  "supplierPaymentSettingsUpdatedNotification": "{{count}} suppliers updated their payment profile."
+  "currentApprovers": "Current approvers",
+  "checkPaymentSettingUpdated": "Check payment setting updated",
+  "ACHPaymentSettingUpdated": "ACH payment setting updated",
+  "creditCardSettingUpdated": "Credit card payment setting updated",
+  "paymentProfileAccepted": "Payment profile accepted",
+  "paymentProfileRejected": "Payment profile rejected",
+  "paymentProfileStatusInSync": "Payment profile status set to In Sync",
+  "defaultPaymentMethodUpdated": "Default payment method updated",
+  "invoiceSummary": "Invoice summary"
 }

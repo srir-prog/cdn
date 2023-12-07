@@ -425,5 +425,7 @@
     "underReview":"समीक्षा के तहत",
     "inSync":"सिंक में",
     "notInSync":"सिंक में नहीं",
-    "paymentProfile": "भुगतान प्रोफ़ाइल"
+    "paymentProfile": "भुगतान प्रोफ़ाइल",
+    "notUpdated": "अपडेट नहीं किया गया",
+    "cardDelivery": "कार्ड डिलीवरी"
 }

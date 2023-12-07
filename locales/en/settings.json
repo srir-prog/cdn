@@ -677,7 +677,7 @@
   "selectAnOption": "Select an option",
   "deleteTaskTemplateWarning": "Are you sure you want to delete the task template '{{taskTemplateName}}'?",
   "tasks": "Tasks",
-  "taskTemplates": "Tasks templates",
+  "taskTemplates": "Task templates",
   "area": "Solution",
   "task": "Task",
   "taskNotes": "Task notes",
