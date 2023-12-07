@@ -71,7 +71,6 @@
                                 "CREDIT_CARD": "CREDIT_CARD",
                                 "CENTIME_CARD": "CENTIME_CARD",
                                 "CENTIME_CASH": "CENTIME_CASH",
-                                "CENTIME_PAY":"CENTIME_PAY",
                                 "CENTIME_CASH_REPAY":"CENTIME_CASH_REPAY"
                             },
                             "multiple":true,
@@ -181,6 +180,7 @@
                             "calendarLayout":"double",
                             "startDate":"",
                             "endDate":"",
+                            "defaultSelection":"today",
                             "inputProps":{
                                 "label":"Period",
                                 "placeholder":"",
@@ -191,7 +191,7 @@
                             "tns":"businessOps"
                         },
                         "queryName": "period",
-                        "default":""
+                        "default":"today"
                     },
                     {
                         "type": "Dropdown",
@@ -9751,19 +9751,27 @@
                 "title": "Payment Id",
                 "valueMap": "paymentId",
                 "align":"left",
-                "renderType": "text",
+                "renderType": "Link",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "PaymentDetails"
+                    },
+                    "paramObjMap": {
+                        "paymentId": "paymentId",
+                        "clientName": "clientName"
+                    },
+                    "pageQueryParams": ["paymentId","clientName"]
+                },
                 "enableSort": true
             },
             {
-                "title": "Payee RefId",
+                "title": "Client Id",
                 "valueMap": "payeeReferenceId",
-                "align":"left",
-                "renderType": "text",
-                "enableSort": true
-            },
-            {
-                "title": "Payer Ref Id",
-                "valueMap": "payerReferenceId",
                 "align":"left",
                 "renderType": "text",
                 "enableSort": true
