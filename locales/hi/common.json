@@ -685,5 +685,7 @@
     "paymentProfileRejected": "भुगतान प्रोफ़ाइल अस्वीकृत है",
     "paymentProfileStatusInSync": "भुगतान प्रोफ़ाइल स्थिति को 'इन सिंक' में सेट किया गया है",
     "defaultPaymentMethodUpdated": "डिफ़ॉल्ट भुगतान विधि अपडेट की गई है",
-    "invoiceSummary": "चालान सारांश"
+    "invoiceSummary": "चालान सारांश",
+    "rate": "दर",
+    "lineDescription": "पंक्ति विवरण"
 }
