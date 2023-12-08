@@ -1005,10 +1005,11 @@
                                 "5": "Invited"
                             },
                             "tnsForOptions": false,
-                            "placeholder":""
+                            "placeholder":"",
+                            "multiple":true
                          },
                         "queryName": "activeStatus",
-                        "default":["1"]
+                        "default":["2"]
                     },
                     {
                         "type": "Dropdown",
@@ -1022,7 +1023,8 @@
                                 "Sage Intacct":"Sage Intacct"
                             },
                             "tnsForOptions": false,
-                            "placeholder":""   
+                            "placeholder":"",
+                            "multiple":true  
                         },
                         "default": [
                             "QuickBooks Online",
@@ -1043,7 +1045,8 @@
                                 "3": "Disconnected"
                             },
                             "tnsForOptions": false,
-                            "placeholder":""                            
+                            "placeholder":"",
+                            "multiple":true                          
                         },
                         "queryName": "glConnectStatus",
                         "default":["2"]
@@ -1060,20 +1063,21 @@
                                 "4":"DISCONNECTED"
                             },
                             "tnsForOptions": false,
-                            "placeholder":""   
+                            "placeholder":"",
+                            "multiple":true  
                         },
                         "queryName": "syncStatus",
-                        "default":["2"]
+                        "default":["3"]
                     },
                     {
                         "type": "Input",
                         "gridSize":2,
                         "componentProps": {
                             "fullWidth":  true,
-                            "placeholder": "All"
+                            "placeholder": ""
                         },
                         "title": "Client Id",
-                        "queryName": ""
+                        "queryName": "clientId"
                     }
                 ]
             }
@@ -1144,7 +1148,8 @@
                                 "5": "Invited"
                             },
                             "tnsForOptions": false,
-                            "placeholder":""     
+                            "placeholder":"",
+                            "multiple":true    
                         },
                         "queryName": "activeStatus",
                         "default":["2"]
@@ -1161,10 +1166,14 @@
                                 "Centime Banking":"Centime Banking"
                             },
                             "tnsForOptions": false,
-                            "placeholder":""
+                            "placeholder":"",
+                            "multiple":true
                     },
                         "queryName": "sourceName",
-                        "default":["Centime Banking"]
+                        "default":["Centime Banking",
+                        "Finicity",
+                        "FNBO Cash",
+                        "FNBO Card"]
                     },
                     {
                         "type": "Dropdown",
@@ -1177,7 +1186,8 @@
                                 "3": "Disconnected"
                             },
                             "tnsForOptions": false,
-                            "placeholder":""
+                            "placeholder":"",
+                            "multiple":true
                         },
                         "queryName": "glConnectStatus",
                         "default":["2"]
@@ -1194,20 +1204,21 @@
                                     "4":"DISCONNECTED"
                             },
                             "tnsForOptions": false,
-                            "placeholder":""
+                            "placeholder":"",
+                            "multiple":true
                         },
                         "queryName": "syncStatus",
-                        "default":["2"]
+                        "default":["3"]
                     },
                     {
                         "type": "Input",
                         "componentProps": {
                             "fullWidth":  true,
-                            "placeholder": "All"
+                            "placeholder": ""
                         },
                         "gridSize":2,
                         "title": "Client Id",
-                        "queryName": ""
+                        "queryName": "clientId"
                     }
                 ]
             }
