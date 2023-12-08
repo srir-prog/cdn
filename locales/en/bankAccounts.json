@@ -514,5 +514,10 @@
     "cffGenerationInProgressErrorMsg" : "Please wait for predictions to generate completely before modifying these settings",
     "bankAccounts":"Bank accounts",
     "creditCardAndLoanAcs":"Credit card and Loan accounts",
-    "connectAccounts":"Connect accounts"
+    "connectAccounts":"Connect accounts",
+    "banking": "Banking",
+    "accountAggregationLabel": "Group predictions by",
+    "generalLedgerAccount": "General Ledger account",
+    "individualCashflow": "Individual cash flow",
+    "predictionSettings": "Prediction settings"
 }
