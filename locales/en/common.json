@@ -691,6 +691,7 @@
   "paymentProfileStatusInSync": "Payment profile status set to In Sync",
   "defaultPaymentMethodUpdated": "Default payment method updated",
   "invoiceSummary": "Invoice summary",
+  "ApplyToSelectedRows": "Apply to all selected rows",
   "rate": "Rate",
   "lineDescription": "Line description"
 }
