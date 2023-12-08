@@ -46,6 +46,7 @@
     "invoices": "Invoices",
     "Invoice": "Invoice",
     "NoAction": "No Action",
+    "plan": "Edit",
     "SetAutoReminder": "Set workflow",
     "setCampaign": "Set workflow",
     "sendStatement": "Send statement",
