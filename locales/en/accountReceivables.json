@@ -436,5 +436,10 @@
     "contactRole": "Customer contact role",
     "addAdditionalRecipients": "Add additional recipients",
     "termDiscount": "Term discount",
-    "achDiscount": "ACH discount"
+    "achDiscount": "ACH discount",
+    "deleteContactConfirmationMsg": "Are you sure you want to delete <b>{{name}}</b> from Customer contact?",
+    "newContactDetailsNotificationSuccess": "New contact successfully added.",
+    "newContactDetailsNotificationError": "Error occurred while trying to add a new contact. Please try again.",
+    "centimeContactDeleteNotificationSuccess": "Contact successfully deleted.",
+    "centimeContactDeleteNotificationError": "Error occurred while trying to delete contact. Please try again."
 }
