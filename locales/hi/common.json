@@ -688,5 +688,11 @@
     "invoiceSummary": "चालान सारांश",
     "ApplyToSelectedRows": "सभी चयनित पंक्तियों पर लागू करें",
     "rate": "दर",
-    "lineDescription": "पंक्ति विवरण"
+    "lineDescription": "पंक्ति विवरण",
+    "approve": "स्वीकार करें",
+    "reject": "अस्वीकार करें",
+    "recall": "रिकॉल",
+    "invoiceActions": "चालान कार्रवाई",
+    "openDocument": "दस्तावेज़ खोलें",
+    "post": "डाक"
 }
