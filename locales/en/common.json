@@ -693,5 +693,10 @@
   "invoiceSummary": "Invoice summary",
   "ApplyToSelectedRows": "Apply to all selected rows",
   "rate": "Rate",
-  "lineDescription": "Line description"
+  "lineDescription": "Line description",
+  "approve": "Approve",
+  "reject": "Reject",
+  "recall": "Recall",
+  "invoiceActions": "Invoice actions",
+  "openDocument": "Open document"
 }
