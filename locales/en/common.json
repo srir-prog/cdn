@@ -698,5 +698,6 @@
   "reject": "Reject",
   "recall": "Recall",
   "invoiceActions": "Invoice actions",
-  "openDocument": "Open document"
+  "openDocument": "Open document",
+  "post": "Post"
 }
