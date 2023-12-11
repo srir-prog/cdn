@@ -435,5 +435,10 @@
     "contactRole": "ग्राहक संपर्क भूमिका",
     "addAdditionalRecipients": "अतिरिक्त प्राप्तकर्ता जोड़ें",
     "termDiscount": "अवधि छूट",
-    "achDiscount": "ACH छूट"
+    "achDiscount": "ACH छूट",
+    "deleteContactConfirmationMsg": "क्या आप वाकई ग्राहक संपर्क से <b>{{name}}</b> हटाना चाहते हैं?",
+    "newContactDetailsNotificationSuccess": "नया संपर्क सफलतापूर्वक जोड़ा गया.",
+    "newContactDetailsNotificationError": "नया संपर्क जोड़ने का प्रयास करते समय त्रुटि उत्पन्न हुई. कृपया पुन: प्रयास करें।",
+    "centimeContactDeleteNotificationSuccess": "संपर्क सफलतापूर्वक हटा दिया गया.",
+    "centimeContactDeleteNotificationError": "संपर्क हटाने का प्रयास करते समय त्रुटि उत्पन्न हुई. कृपया पुन: प्रयास करें।"
 }

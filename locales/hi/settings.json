@@ -681,5 +681,10 @@
     "achDiscountPercentage": "छूट %",
     "achDiscountAccount": "ACH छूट खाता",
     "achDaysAfterDueDate": "नियत तारीख के बाद दिनों की संख्या",
-    "untilXDaysAfter": "नियत तारीख के बाद X दिन तक"
+    "untilXDaysAfter": "नियत तारीख के बाद X दिन तक",
+    "selectRole": "भूमिका चुनें",
+    "enterName": "नाम दर्ज करें",
+    "enterEmail": "ईमेल दर्ज करें",
+    "roles": "भूमिकाएँ",
+    "phone": "फ़ोन"
 }
