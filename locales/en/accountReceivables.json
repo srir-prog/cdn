@@ -438,5 +438,10 @@
     "termDiscount": "Term discount",
     "achDiscount": "ACH discount",
     "enrollAutoPayNotificationSuccess": "Autopay enrollment mail sent for {{invoicesCount}} invoices.",
-    "enrollAutoPayNotificationFailure": "Error while sending Autopay enrollment mail(s). Try again or contact us if the problem persists."
+    "enrollAutoPayNotificationFailure": "Error while sending Autopay enrollment mail(s). Try again or contact us if the problem persists.",
+    "notEnrolled":"Not enrolled",
+    "inProgress":"In progress",
+    "enrolled":"Enrolled",
+    "optedOut":"Opted out"
+    
 }

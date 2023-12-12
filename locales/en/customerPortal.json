@@ -85,13 +85,13 @@
   "paymentAmount": "Payment amount",
   "paymentMethod": "Payment method",
   "autoPayPrefsHeading":"Auto pay preferences",
-  "autoPayPref":"Autopay preference",
+  "autoPayPref":"Auto pay preference",
   "autoPayPaymentDate":"Auto pay payment date",
-  "autoPayAuthorisation":"Autopay authorisation",
+  "autoPayAuthorisation":"Auto pay authorisation",
   "customer":"Customer",
   "typeEmailAddress":"Type your email address",
   "preferredPaymentMethod":"Preferred payment method",
-  "autoPayAuthorisationModal":"Autopay authorisation modal",
+  "autoPayAuthorisationModal":"Auto pay authorisation modal",
   "alertInfo":"Please select your preferred payment method, enter payment details and click SAVE AND AUTHORIZE to finish. Your details will be securely recorded.",
   "saveAuthorise":"Save and Authorise",
   "negligibleAmount": "Invalid payment amount. Please ensure the amount is more than $0.02 to initiate a payment successfully.",
@@ -99,5 +99,10 @@
   "basedOnDiscount": "Based on discount of {{discountPercentage}}",
   "discountExpiresOn": "Discount expires on",
   "termDiscount": "Term discount",
-  "paymentMethodErrorNotification": "Failed to update the payment method. Please try again"
+  "paymentMethodErrorNotification": "Failed to update the payment method. Please try again",
+  "terms1":"By authorizing AutoPay, you grant us permission to automatically charge your preferred payment account on your preferred payment date for any new bills.",
+  "terms2":"You can choose to decline and opt-in at a later time.",
+  "optOutAutoPay":"Opt-out from Autopay",
+  "paymentDetails":"Payment details",
+  "creditCard":" Credit card"
 }
