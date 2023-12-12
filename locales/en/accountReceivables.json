@@ -46,6 +46,7 @@
     "invoices": "Invoices",
     "Invoice": "Invoice",
     "NoAction": "No Action",
+    "plan": "Edit",
     "SetAutoReminder": "Set workflow",
     "setCampaign": "Set workflow",
     "sendStatement": "Send statement",
@@ -442,6 +443,10 @@
     "notEnrolled":"Not enrolled",
     "inProgress":"In progress",
     "enrolled":"Enrolled",
-    "optedOut":"Opted out"
-    
+    "optedOut":"Opted out",
+    "deleteContactConfirmationMsg": "Are you sure you want to delete <b>{{name}}</b> from Customer contact?",
+    "newContactDetailsNotificationSuccess": "New contact successfully added.",
+    "newContactDetailsNotificationError": "Error occurred while trying to add a new contact. Please try again.",
+    "centimeContactDeleteNotificationSuccess": "Contact successfully deleted.",
+    "centimeContactDeleteNotificationError": "Error occurred while trying to delete contact. Please try again."
 }

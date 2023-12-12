@@ -46,6 +46,7 @@
     "invoices": "चालान",
     "Invoice": "बीजक",
     "NoAction": "कोई कार्रवाई नहीं",
+    "plan": "संपादन करना",
     "SetAutoReminder": "वर्कफ़्लो सेट करें",
     "setCampaign": "कार्यप्रवाह सेट करें",
     "sendStatement": "कथन भेजें",
@@ -440,5 +441,10 @@
     "notEnrolled": "दाखिला नहीं",
     "inProgress": "प्रगति पर है",
     "enrolled": "दाखिला लिया",
-    "optedOut": "बाहर जाने का विकल्प चुना"
+    "optedOut": "बाहर जाने का विकल्प चुना",
+    "deleteContactConfirmationMsg": "क्या आप वाकई ग्राहक संपर्क से <b>{{name}}</b> हटाना चाहते हैं?",
+    "newContactDetailsNotificationSuccess": "नया संपर्क सफलतापूर्वक जोड़ा गया.",
+    "newContactDetailsNotificationError": "नया संपर्क जोड़ने का प्रयास करते समय त्रुटि उत्पन्न हुई. कृपया पुन: प्रयास करें।",
+    "centimeContactDeleteNotificationSuccess": "संपर्क सफलतापूर्वक हटा दिया गया.",
+    "centimeContactDeleteNotificationError": "संपर्क हटाने का प्रयास करते समय त्रुटि उत्पन्न हुई. कृपया पुन: प्रयास करें।"
 }
