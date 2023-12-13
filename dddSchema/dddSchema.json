@@ -807,12 +807,13 @@
                                 "1": "Pause",
                                 "2":"Deprecated"
                             },
+                            "multiple":true,
                             "tnsForOptions": false,
                             "placeholder":""
                         },
                         "gridSize":6,
                         "queryName": "status",
-                        "default":["1"]
+                        "default":["0"]
                     }
                 ]
             }
@@ -879,6 +880,7 @@
                         "componentProps": {
                             "onlySingleDate": false,
                             "calendarLayout":"double",
+                            "defaultSelection":"today",
                             "startDate":"",
                             "endDate":"",
                             "inputProps":{
@@ -891,7 +893,7 @@
                             "tns":"businessOps"
                         },
                         "queryName": "createdTime",
-                        "default":""
+                        "default":"today"
                     },
                     {
                         "type": "Dropdown",
@@ -905,11 +907,16 @@
                                 "VENDOR_CREDIT": "VENDOR_CREDIT",
                                 "SUPPLIER": "SUPPLIER"
                             },
+                            "multiple":true,
                             "tnsForOptions": false,
                             "placeholder":""
                         },
                         "queryName": "txnType",
-                        "default":["BILL_PAYMENT"]
+                        "default":["BILL_PAYMENT",
+                        "JOURNAL_ENTRY",
+                        "INVOICE_PAYMENT",
+                        "VENDOR_CREDIT",
+                        "SUPPLIER"]
                     },
                     {
                         "type": "Dropdown",
@@ -923,11 +930,12 @@
                                 "5": "RETRY",
                                 "6": "NOTIFIED"
                             },
+                            "multiple":"true",
                             "tnsForOptions": false,
                             "placeholder":""
                         },
                         "queryName": "txnStatus",
-                        "default":["3"]
+                        "default":["4"]
                     },
                     {
                         "type": "Input",
