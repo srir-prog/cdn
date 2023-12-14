@@ -726,5 +726,9 @@
   "enterName": "Enter name",
   "enterEmail": "Enter email",
   "roles": "Roles",
-  "phone": "Phone"
+  "phone": "Phone",
+  "cancel": "Cancel",
+  "proceed": "Proceed",
+  "settingsImpactInvoices": "These settings impact the number of invoices payable through the customer portal.",
+  "wantToProceed": "Are you sure you want to proceed?"
 }
