@@ -807,12 +807,13 @@
                                 "1": "Pause",
                                 "2":"Deprecated"
                             },
+                            "multiple":true,
                             "tnsForOptions": false,
                             "placeholder":""
                         },
                         "gridSize":6,
                         "queryName": "status",
-                        "default":["1"]
+                        "default":["0"]
                     }
                 ]
             }
@@ -879,6 +880,7 @@
                         "componentProps": {
                             "onlySingleDate": false,
                             "calendarLayout":"double",
+                            "defaultSelection":"today",
                             "startDate":"",
                             "endDate":"",
                             "inputProps":{
@@ -891,7 +893,7 @@
                             "tns":"businessOps"
                         },
                         "queryName": "createdTime",
-                        "default":""
+                        "default":"today"
                     },
                     {
                         "type": "Dropdown",
@@ -905,11 +907,16 @@
                                 "VENDOR_CREDIT": "VENDOR_CREDIT",
                                 "SUPPLIER": "SUPPLIER"
                             },
+                            "multiple":true,
                             "tnsForOptions": false,
                             "placeholder":""
                         },
                         "queryName": "txnType",
-                        "default":["BILL_PAYMENT"]
+                        "default":["BILL_PAYMENT",
+                        "JOURNAL_ENTRY",
+                        "INVOICE_PAYMENT",
+                        "VENDOR_CREDIT",
+                        "SUPPLIER"]
                     },
                     {
                         "type": "Dropdown",
@@ -923,11 +930,12 @@
                                 "5": "RETRY",
                                 "6": "NOTIFIED"
                             },
+                            "multiple":"true",
                             "tnsForOptions": false,
                             "placeholder":""
                         },
                         "queryName": "txnStatus",
-                        "default":["3"]
+                        "default":["4"]
                     },
                     {
                         "type": "Input",
@@ -1005,10 +1013,11 @@
                                 "5": "Invited"
                             },
                             "tnsForOptions": false,
-                            "placeholder":""
+                            "placeholder":"",
+                            "multiple":true
                          },
                         "queryName": "activeStatus",
-                        "default":["1"]
+                        "default":["2"]
                     },
                     {
                         "type": "Dropdown",
@@ -1022,7 +1031,8 @@
                                 "Sage Intacct":"Sage Intacct"
                             },
                             "tnsForOptions": false,
-                            "placeholder":""   
+                            "placeholder":"",
+                            "multiple":true  
                         },
                         "default": [
                             "QuickBooks Online",
@@ -1043,7 +1053,8 @@
                                 "3": "Disconnected"
                             },
                             "tnsForOptions": false,
-                            "placeholder":""                            
+                            "placeholder":"",
+                            "multiple":true                          
                         },
                         "queryName": "glConnectStatus",
                         "default":["2"]
@@ -1060,20 +1071,21 @@
                                 "4":"DISCONNECTED"
                             },
                             "tnsForOptions": false,
-                            "placeholder":""   
+                            "placeholder":"",
+                            "multiple":true  
                         },
                         "queryName": "syncStatus",
-                        "default":["2"]
+                        "default":["3"]
                     },
                     {
                         "type": "Input",
                         "gridSize":2,
                         "componentProps": {
                             "fullWidth":  true,
-                            "placeholder": "All"
+                            "placeholder": ""
                         },
                         "title": "Client Id",
-                        "queryName": ""
+                        "queryName": "clientId"
                     }
                 ]
             }
@@ -1144,7 +1156,8 @@
                                 "5": "Invited"
                             },
                             "tnsForOptions": false,
-                            "placeholder":""     
+                            "placeholder":"",
+                            "multiple":true    
                         },
                         "queryName": "activeStatus",
                         "default":["2"]
@@ -1161,10 +1174,14 @@
                                 "Centime Banking":"Centime Banking"
                             },
                             "tnsForOptions": false,
-                            "placeholder":""
+                            "placeholder":"",
+                            "multiple":true
                     },
                         "queryName": "sourceName",
-                        "default":["Centime Banking"]
+                        "default":["Centime Banking",
+                        "Finicity",
+                        "FNBO Cash",
+                        "FNBO Card"]
                     },
                     {
                         "type": "Dropdown",
@@ -1177,7 +1194,8 @@
                                 "3": "Disconnected"
                             },
                             "tnsForOptions": false,
-                            "placeholder":""
+                            "placeholder":"",
+                            "multiple":true
                         },
                         "queryName": "glConnectStatus",
                         "default":["2"]
@@ -1194,20 +1212,21 @@
                                     "4":"DISCONNECTED"
                             },
                             "tnsForOptions": false,
-                            "placeholder":""
+                            "placeholder":"",
+                            "multiple":true
                         },
                         "queryName": "syncStatus",
-                        "default":["2"]
+                        "default":["3"]
                     },
                     {
                         "type": "Input",
                         "componentProps": {
                             "fullWidth":  true,
-                            "placeholder": "All"
+                            "placeholder": ""
                         },
                         "gridSize":2,
                         "title": "Client Id",
-                        "queryName": ""
+                        "queryName": "clientId"
                     }
                 ]
             }

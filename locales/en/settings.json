@@ -721,5 +721,14 @@
   "achDiscountPercentage": "Discount %",
   "achDiscountAccount": "ACH Discount account",
   "achDaysAfterDueDate": "Number of days after due date",
-  "untilXDaysAfter": "Until X days after due date"
+  "untilXDaysAfter": "Until X days after due date",
+  "selectRole": "Select role",
+  "enterName": "Enter name",
+  "enterEmail": "Enter email",
+  "roles": "Roles",
+  "phone": "Phone",
+  "cancel": "Cancel",
+  "proceed": "Proceed",
+  "settingsImpactInvoices": "These settings impact the number of invoices payable through the customer portal.",
+  "wantToProceed": "Are you sure you want to proceed?"
 }
