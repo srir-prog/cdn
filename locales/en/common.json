@@ -699,5 +699,6 @@
   "recall": "Recall",
   "invoiceActions": "Invoice actions",
   "openDocument": "Open document",
-  "post": "Post"
+  "post": "Post",
+  "postingPeriod":"Posting period"
 }

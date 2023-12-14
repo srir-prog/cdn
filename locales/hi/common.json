@@ -694,5 +694,6 @@
     "recall": "रिकॉल",
     "invoiceActions": "चालान कार्रवाई",
     "openDocument": "दस्तावेज़ खोलें",
-    "post": "डाक"
+    "post": "डाक",
+    "postingPeriod":"पोस्टिंग अवधि"
 }
