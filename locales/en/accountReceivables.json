@@ -387,8 +387,7 @@
     "rolesError": "An error occurred during fetching the customer contact roles",
     "roleDeleted": "Customer contact role successfully deleted",
     "addRole": "Add Role",
-    "contactUpdateNotificationSuccess": "Successfully updated contact details",
-    "contactUpdateNotificationError": "An error occurred while updating contact details",
+    "contactUpdateNotificationSuccess": "Changes successfully saved",
     "onlinePaymentOptions": "Online payment options",
     "paymentLinks": "Payment links",
     "disableOnlinePayments": "Disable online payments",
@@ -444,9 +443,8 @@
     "inProgress":"In progress",
     "enrolled":"Enrolled",
     "optedOut":"Opted out",
-    "deleteContactConfirmationMsg": "Are you sure you want to delete <b>{{name}}</b> from Customer contact?",
-    "newContactDetailsNotificationSuccess": "New contact successfully added.",
-    "newContactDetailsNotificationError": "Error occurred while trying to add a new contact. Please try again.",
+    "deleteContactConfirmationMsg": "Are you sure you want to delete <b>{{name}}</b> as a contact?",
+    "newContactDetailsNotificationSuccess": "Contact successfully created.",
     "centimeContactDeleteNotificationSuccess": "Contact successfully deleted.",
-    "centimeContactDeleteNotificationError": "Error occurred while trying to delete contact. Please try again."
+    "contactRelatedNotificationError": "Error occurred. Try again."
 }

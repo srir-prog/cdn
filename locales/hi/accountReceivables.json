@@ -385,8 +385,7 @@
     "rolesError": "ग्राहक संपर्क भूमिकाओं को लाने के दौरान एक त्रुटि हुई",
     "roleDeleted": "ग्राहक संपर्क भूमिका सफलतापूर्वक हटाई गई",
     "addRole": "भूमिका जोड़ें",
-    "contactUpdateNotificationSuccess":"संपर्क विवरण सफलतापूर्वक अपडेट किया गया",
-    "contactUpdateNotificationError": "संपर्क विवरण अपडेट करते समय एक त्रुटि हुई",
+    "contactUpdateNotificationSuccess":"परिवर्तन सफलतापूर्वक सहेजे गए।",
     "onlinePaymentOptions": "ऑनलाइन भुगतान विकल्प",
     "paymentLinks": "भुगतान लिंक",
     "disableOnlinePayments": "ऑनलाइन भुगतान अक्षम करें",
@@ -442,9 +441,8 @@
     "inProgress": "प्रगति पर है",
     "enrolled": "दाखिला लिया",
     "optedOut": "बाहर जाने का विकल्प चुना",
-    "deleteContactConfirmationMsg": "क्या आप वाकई ग्राहक संपर्क से <b>{{name}}</b> हटाना चाहते हैं?",
-    "newContactDetailsNotificationSuccess": "नया संपर्क सफलतापूर्वक जोड़ा गया.",
-    "newContactDetailsNotificationError": "नया संपर्क जोड़ने का प्रयास करते समय त्रुटि उत्पन्न हुई. कृपया पुन: प्रयास करें।",
-    "centimeContactDeleteNotificationSuccess": "संपर्क सफलतापूर्वक हटा दिया गया.",
-    "centimeContactDeleteNotificationError": "संपर्क हटाने का प्रयास करते समय त्रुटि उत्पन्न हुई. कृपया पुन: प्रयास करें।"
+    "deleteContactConfirmationMsg": "क्या आप वाकई <b>{{name}}</b> को संपर्क के रूप में हटाना चाहते हैं?",
+    "newContactDetailsNotificationSuccess": "संपर्क सफलतापूर्वक बनाया गया।",
+    "centimeContactDeleteNotificationSuccess": "संपर्क सफलतापूर्वक हटा दिया गया।",
+    "contactRelatedNotificationError": "त्रुटि हुई। पुनः प्रयास करें।"
 }
