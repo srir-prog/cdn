@@ -700,6 +700,6 @@
   "invoiceActions": "Invoice actions",
   "openDocument": "Open document",
   "post": "Post",
-  "postingPeriod":"Posting period",
-  "documentViewerSupplierLoaderText":"Centime AI is predicting coding based on past invoices, one moment please."
+  "postingPeriod": "Posting period",
+  "documentViewerSupplierLoaderText": "Centime AI is predicting coding based on past invoices, one moment please."
 }
