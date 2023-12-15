@@ -677,10 +677,10 @@
     "credits": "क्रेडिट",
     "achPreferences": "ACH भुगतान प्राथमिकताएँ",
     "allowACHPayments": "ACH भुगतान की अनुमति दें",
-    "offerDiscounts": "छूट प्रदान करें",
+    "offerDiscounts": "ACH छूट प्रदान करें",
     "achDiscountPercentage": "छूट %",
     "achDiscountAccount": "ACH छूट खाता",
-    "achDaysAfterDueDate": "नियत तारीख के बाद दिनों की संख्या",
+    "achDaysAfterDueDate": "नियत तारीख के बाद X दिन तक",
     "untilXDaysAfter": "नियत तारीख के बाद X दिन तक",
     "selectRole": "भूमिका चुनें",
     "enterName": "नाम दर्ज करें",
@@ -689,6 +689,6 @@
     "phone": "फ़ोन",
     "cancel": "रद्द करना",
     "proceed": "आगे बढ़ना",
-    "settingsImpactInvoices": "ये सेटिंग्स ग्राहक पोर्टल के माध्यम से देय चालानों की संख्या को प्रभावित करती हैं।",
+    "settingsImpactInvoices": "यदि ये सेटिंग्स सही ढंग से सेट नहीं की गई हैं तो इनवॉइस को भुगतान करने से रोका जा सकता है।",
     "wantToProceed": "क्या आप सुनिश्चित रूप से आगे बढ़ना चाहते हैं?"
 }
