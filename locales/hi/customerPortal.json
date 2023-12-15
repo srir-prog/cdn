@@ -21,7 +21,7 @@
   "confirmYourBillingAddress": "अपना बिलिंग पता पुष्टि करें",
   "saveCheckBoxLabel": "भविष्य की लेन-देन के लिए विवरण सुरक्षित रूप से सहेजें",
   "ACHAccountDetails": "एचसी विवरण",
-  "basedOnSurcharge": "{{surchargePercentage}} के आधार पर",
+  "basedOnSurcharge": "{{surchargePercentage}} अधिभार",
   "addACHAccount": "एक ACH खाता जोड़ें",
   "addCreditCard": "क्रेडिट कार्ड जोड़ें",
   "invoiceDocumentTooltipMsg": "चालान दस्तावेज़",
@@ -83,8 +83,8 @@
   "paymentAmount": "भुगतान राशि",
   "paymentMethod": "भुगतान विधि",
   "achDiscount": "ACH छूट",
-  "basedOnDiscount": "{{discountPercentage}} की छूट के आधार पर",
-  "discountExpiresOn": "छूट समाप्त हो रही है",
+  "basedOnDiscount": "{{discountPercentage}} छूट",
+  "discountExpiresOn": "ACH छूट समाप्त हो रही है",
   "termDiscount": "अवधि छूट",
   "paymentMethodErrorNotification": "भुगतान विधि अद्यतन करने में विफल. कृपया पुन: प्रयास करें"
 }

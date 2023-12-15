@@ -717,9 +717,18 @@
   "credits": "Credits",
   "achPreferences": "ACH payment preferences",
   "allowACHPayments": "Allow ACH payments",
-  "offerDiscounts": "Offer discounts",
+  "offerDiscounts": "Offer ACH discounts",
   "achDiscountPercentage": "Discount %",
-  "achDiscountAccount": "ACH Discount account",
-  "achDaysAfterDueDate": "Number of days after due date",
-  "untilXDaysAfter": "Until X days after due date"
+  "achDiscountAccount": "ACH discount account",
+  "achDaysAfterDueDate": "X days after due date",
+  "untilXDaysAfter": "Until X days after due date",
+  "selectRole": "Select role",
+  "enterName": "Enter name",
+  "enterEmail": "Enter email",
+  "roles": "Roles",
+  "phone": "Phone",
+  "cancel": "Cancel",
+  "proceed": "Proceed",
+  "settingsImpactInvoices": "These settings can prevent invoices from being paid if they are not set correctly.",
+  "wantToProceed": "Are you sure you want to proceed?"
 }

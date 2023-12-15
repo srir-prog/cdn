@@ -21,7 +21,7 @@
   "confirmYourBillingAddress": "Confirm your billing address",
   "saveCheckBoxLabel": "Save details securely for future transactions",
   "ACHAccountDetails": "ACH details",
-  "basedOnSurcharge": "Based on surcharge of {{surchargePercentage}}",
+  "basedOnSurcharge": "{{surchargePercentage}} surcharge",
   "addACHAccount": "Add an ACH account",
   "addCreditCard": "Add a credit card",
   "payablesSummary": "Payables summary",
@@ -86,8 +86,8 @@
   "paymentMethod": "Payment method",
   "negligibleAmount": "Invalid payment amount. Please ensure the amount is more than $0.02 to initiate a payment successfully.",
   "achDiscount": "ACH discount",
-  "basedOnDiscount": "Based on discount of {{discountPercentage}}",
-  "discountExpiresOn": "Discount expires on",
+  "basedOnDiscount": "{{discountPercentage}} discount",
+  "discountExpiresOn": "ACH discount expires on",
   "termDiscount": "Term discount",
   "paymentMethodErrorNotification": "Failed to update the payment method. Please try again"
 }
