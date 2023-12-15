@@ -730,5 +730,6 @@
   "cancel": "Cancel",
   "proceed": "Proceed",
   "settingsImpactInvoices": "These settings can prevent invoices from being paid if they are not set correctly.",
-  "wantToProceed": "Are you sure you want to proceed?"
+  "wantToProceed": "Are you sure you want to proceed?",
+  "achDiscountAccountInfoLine": "Specify a discount account to post applicable invoices"
 }
