@@ -688,5 +688,6 @@
   "paymentProfileAccepted": "Payment profile accepted",
   "paymentProfileRejected": "Payment profile rejected",
   "paymentProfileStatusInSync": "Payment profile status set to In Sync",
-  "defaultPaymentMethodUpdated": "Default payment method updated"
+  "defaultPaymentMethodUpdated": "Default payment method updated",
+  "supplierPortalContact": "Supplier portal contact"
 }
