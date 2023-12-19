@@ -684,6 +684,7 @@
     "paymentProfileAccepted": "भुगतान प्रोफ़ाइल स्वीकृत है",
     "paymentProfileRejected": "भुगतान प्रोफ़ाइल अस्वीकृत है",
     "paymentProfileStatusInSync": "भुगतान प्रोफ़ाइल स्थिति को 'इन सिंक' में सेट किया गया है",
+    "supplierPortalContact": "आपूर्ति पोर्टल संपर्क",
     "defaultPaymentMethodUpdated": "डिफ़ॉल्ट भुगतान विधि अपडेट की गई है",
     "invoiceSummary": "चालान सारांश",
     "ApplyToSelectedRows": "सभी चयनित पंक्तियों पर लागू करें",
