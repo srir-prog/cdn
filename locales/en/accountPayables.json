@@ -251,8 +251,8 @@
     "notStarted": "Not started",
     "enrolmentPopup": "Enrollment for credit card payments",
     "inputEnrolmentLabel": "Specify the best contact at your supplier to approach for credit card payments",
-    "contactName": "Enrollment contact name",
-    "contactEmail": "Enrollment contact email",
+    "contactName": "Contact name",
+    "contactEmail": "Contact email",
     "enrolmentStatus": "Enrollment status",
     "initiatedBy": "Initiated By",
     "stopEnrolment": "Stop Enrollment",
@@ -407,6 +407,7 @@
     "readyToEnroll" : "Ready to enroll",
     "enrollmentStarted":"Enrollment started",
     "underReview":"Under review",
+    "needsReview": "Needs review",
     "inSync":"In sync",
     "notInSync":"Not in sync",
     "paymentProfile": "Payment profile",
@@ -426,5 +427,12 @@
     "savedChangesSuccessfully": "Successfully saved the changes",
     "sendRemittanceSubLabel":"Confirm the email content and email address for the remittance details",
     "sendRemittanceSmall": "Send remittance",
-    "paymentDateWithColon": "Payment date :"
+    "paymentDateWithColon": "Payment date :",
+    "notUpdated": "Not updated",
+    "cardDelivery": "Card delivery",
+    "enrollmentInProgress": "Enrollment in progress",
+    "updatePaymentProfile": "Update payment profile",
+    "updatePaymentProfileEmailModalSubtext":"Please add the supplier contact responsible for updating the payment profile",
+    "contactEmails": "Contact email",
+    "emailTemplate": "Email template"
 }
