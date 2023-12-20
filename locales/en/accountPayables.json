@@ -404,6 +404,12 @@
     "creditsAppliedAmount": "Credits applied amount",
     "discountsAppliedAmount": "Discounts applied amount",
     "discountDate": "Discount date",
+    "readyToEnroll" : "Ready to enroll",
+    "enrollmentStarted":"Enrollment started",
+    "underReview":"Under review",
+    "inSync":"In sync",
+    "notInSync":"Not in sync",
+    "paymentProfile": "Payment profile",
     "EmailTo": "To",
     "EmailSubject": "Subject",
     "invoice": "Invoice",
@@ -420,5 +426,7 @@
     "savedChangesSuccessfully": "Successfully saved the changes",
     "sendRemittanceSubLabel":"Confirm the email content and email address for the remittance details",
     "sendRemittanceSmall": "Send remittance",
-    "paymentDateWithColon": "Payment date :"
+    "paymentDateWithColon": "Payment date :",
+    "notUpdated": "Not updated",
+    "cardDelivery": "Card delivery"
 }

@@ -71,7 +71,6 @@
                                 "CREDIT_CARD": "CREDIT_CARD",
                                 "CENTIME_CARD": "CENTIME_CARD",
                                 "CENTIME_CASH": "CENTIME_CASH",
-                                "CENTIME_PAY":"CENTIME_PAY",
                                 "CENTIME_CASH_REPAY":"CENTIME_CASH_REPAY"
                             },
                             "multiple":true,
@@ -181,6 +180,7 @@
                             "calendarLayout":"double",
                             "startDate":"",
                             "endDate":"",
+                            "defaultSelection":"today",
                             "inputProps":{
                                 "label":"Period",
                                 "placeholder":"",
@@ -191,7 +191,7 @@
                             "tns":"businessOps"
                         },
                         "queryName": "period",
-                        "default":""
+                        "default":"today"
                     },
                     {
                         "type": "Dropdown",
@@ -807,12 +807,13 @@
                                 "1": "Pause",
                                 "2":"Deprecated"
                             },
+                            "multiple":true,
                             "tnsForOptions": false,
                             "placeholder":""
                         },
                         "gridSize":6,
                         "queryName": "status",
-                        "default":["1"]
+                        "default":["0"]
                     }
                 ]
             }
@@ -879,6 +880,7 @@
                         "componentProps": {
                             "onlySingleDate": false,
                             "calendarLayout":"double",
+                            "defaultSelection":"today",
                             "startDate":"",
                             "endDate":"",
                             "inputProps":{
@@ -891,7 +893,7 @@
                             "tns":"businessOps"
                         },
                         "queryName": "createdTime",
-                        "default":""
+                        "default":"today"
                     },
                     {
                         "type": "Dropdown",
@@ -905,11 +907,16 @@
                                 "VENDOR_CREDIT": "VENDOR_CREDIT",
                                 "SUPPLIER": "SUPPLIER"
                             },
+                            "multiple":true,
                             "tnsForOptions": false,
                             "placeholder":""
                         },
                         "queryName": "txnType",
-                        "default":["BILL_PAYMENT"]
+                        "default":["BILL_PAYMENT",
+                        "JOURNAL_ENTRY",
+                        "INVOICE_PAYMENT",
+                        "VENDOR_CREDIT",
+                        "SUPPLIER"]
                     },
                     {
                         "type": "Dropdown",
@@ -923,11 +930,12 @@
                                 "5": "RETRY",
                                 "6": "NOTIFIED"
                             },
+                            "multiple":"true",
                             "tnsForOptions": false,
                             "placeholder":""
                         },
                         "queryName": "txnStatus",
-                        "default":["3"]
+                        "default":["4"]
                     },
                     {
                         "type": "Input",
@@ -9762,19 +9770,27 @@
                 "title": "Payment Id",
                 "valueMap": "paymentId",
                 "align":"left",
-                "renderType": "text",
+                "renderType": "Link",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "PaymentDetails"
+                    },
+                    "paramObjMap": {
+                        "paymentId": "paymentId",
+                        "clientName": "clientName"
+                    },
+                    "pageQueryParams": ["paymentId","clientName"]
+                },
                 "enableSort": true
             },
             {
-                "title": "Payee RefId",
+                "title": "Client Id",
                 "valueMap": "payeeReferenceId",
-                "align":"left",
-                "renderType": "text",
-                "enableSort": true
-            },
-            {
-                "title": "Payer Ref Id",
-                "valueMap": "payerReferenceId",
                 "align":"left",
                 "renderType": "text",
                 "enableSort": true
