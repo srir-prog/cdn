@@ -8822,9 +8822,59 @@
                 "label": "Preferences",
                 "valueMap": "preferences",
                 "renderType": "detailsList",
+                "ignoreKeys":["savedViews","filters"],
                 "renderProps": {
-                    "listInfo": [],
-                    "ignoreKeys": ["filters"]
+                    "listInfo": [
+                        {
+                            "label": "Default Entity",
+                            "valueMap": "defaultEntity"
+                        },
+                        {
+                            "label": "Sandbox Entity",
+                            "valueMap": "sandboxEntity"
+                        },
+                        {
+                            "label": "Notif Pref",
+                            "valueMap": "notificationPref"
+                        },
+                        {
+                            "label": "Entity Status",
+                            "valueMap": "defaultEntityStatus"
+                        },
+                        {
+                            "label": "Session Timeout",
+                            "valueMap": "defaultSessionTimeout"
+                        },
+                        {
+                            "label": "",
+                            "valueMap": "kpiPreference",
+                            "renderType": "detailsList",
+                            "renderProps":{
+                            "listInfo":[
+                                {
+                                    "label": "Eval Range",
+                                    "valueMap": "defaultEvaluationRange"
+                                },
+                                {
+                                    "label": "Comparision Range",
+                                    "valueMap": "defaultComparisionRange"
+                                },
+                                {
+                                    "label": "Comparison Period ",
+                                    "valueMap": "defaultComparisonPeriod"
+                                },
+                                {
+                                    "label": "Eval Period",
+                                    "valueMap": "defaultEvaluationPeriod"
+                                },
+                                {
+                                    "label": "Performance Category",
+                                    "valueMap": "defaultPerformanceCategory"
+                                }
+                            ]
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -8894,7 +8944,7 @@
                 "valueMap": "lastLoginFailedAttemptAt"
             }
         ],
-        "ignoreKeys": ["phone","password", "session", "accessToken", "refreshToken", "userPolicy", "glType","clientId","connectUri","mdmId","partnerName"],
+        "ignoreKeys": ["phone","password", "session", "accessToken", "refreshToken", "userPolicy", "glType","clientId","connectUri","mdmId","partnerName","preferences"],
         "additionalProperties": {
             "editableForm": true,
             "onSaveAction": {
