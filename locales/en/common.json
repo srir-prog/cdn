@@ -217,7 +217,7 @@
   "surCharge": "Surcharge",
   "cardDetails": "Card delivery",
   "payDirectlyOnSupplierWebsite": "We will pay on the supplier website",
-  "centimeWillShareCardDetailsWithSupplier": "Centime will securely share credit card details with the Supplier",
+  "sharedOnTheEmail": "By email",
   "creditCardPaymentsNotActive": "Activate credit card in the payment and credit solutions page",
   "otherPaymentsNotActive": "Set up other payments in settings > payables > payment settings",
   "historyActionSupplierOtherPayment": "Other payment setting updated",
@@ -702,5 +702,6 @@
   "openDocument": "Open document",
   "post": "Post",
   "postingPeriod": "Posting period",
-  "documentViewerSupplierLoaderText": "Centime AI is predicting coding based on past invoices, one moment please."
+  "documentViewerSupplierLoaderText": "Centime AI is predicting coding based on past invoices, one moment please.",
+  "alertForPaymentMethodAcceptance": "Supplier does not prefer to receive payment via {{paymentMethod}}"
 }
