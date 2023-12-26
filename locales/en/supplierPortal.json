@@ -46,7 +46,7 @@
   "creditCardPaymentMethod": "Credit card",
   "achPaymentMethod": "ACH",
   "checkPaymentMethod": "Check",
-  "PleaseReviewProfile": "Please review your payment profile and confirm",
+  "PleaseReviewProfile": "Please review supplier’s payment preferences",
   "otherPaymentMethod": "Others",
   "readyToEnrollNotification": "<b>Status:</b> Please provide your organization’s payment details",
   "enrollmentStartedNotification": "<b>Status:</b> Please provide your organization’s payment details",
@@ -58,5 +58,6 @@
   "choosePaymentMethod": "Choose payment method",
   "updatedDetailsInfo": "Updated by {{updatedBy}}, {{updatedDate}}",
   "checkImageACHDisplay": "Bank letter or check image",
-  "checkImageACHDisplayToolTip": "A bank-issued document validating your business account"
+  "checkImageACHDisplayToolTip": "A bank-issued document validating your business account",
+  "preferredPaymentMethod": "Preferred payment method"
 }
