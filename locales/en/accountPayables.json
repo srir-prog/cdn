@@ -439,4 +439,5 @@
     "cardDeliveryMethod": "Card delivery method",
     "sendCardInfoByEmail": "Send card information by email<br></br> {{displayString}}",
     "completePaymentOnWebsite": "Complete payment on website<br></br> {{displayString}}",
+    "reEnterAccountNumber": "Re-enter account number"
 }
