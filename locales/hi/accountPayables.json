@@ -434,5 +434,9 @@
     "contactEmails": "संपर्क ईमेल",
     "emailTemplate": "ईमेल टेम्पलेट",
     "needsReview": "समीक्षा की आवश्यकता है",
-    "displayRecipientName": "[प्राप्तकर्ता का नाम],"
+    "invitedToUpdate": "अपडेट के लिए आमंत्रित",
+    "cardDeliveryMethod": "कार्ड वितरण विधि",
+    "sendCardInfoByEmail": "कार्ड जानकारी ईमेल द्वारा भेजें<br></br> {{displayString}}",
+    "completePaymentOnWebsite": "वेबसाइट पर भुगतान पूरा करें<br></br> {{displayString}}",
+    "reEnterAccountNumber": "खाता संख्या फिर से दर्ज करें"
 }
