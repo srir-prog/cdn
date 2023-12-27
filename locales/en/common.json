@@ -704,6 +704,5 @@
   "post": "Post",
   "postingPeriod": "Posting period",
   "documentViewerSupplierLoaderText": "Centime AI is predicting coding based on past invoices, one moment please.",
-  "alertForPaymentMethodAcceptance": "Supplier does not prefer to receive payment via {{paymentMethod}}",
-  "supplierEnrolledPaymentProfile": "Supplier enrolled for updating payment profile"
+  "alertForPaymentMethodAcceptance": "Supplier does not prefer to receive payment via {{paymentMethod}}"
 }
