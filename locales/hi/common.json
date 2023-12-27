@@ -698,6 +698,7 @@
     "post": "डाक",
     "postingPeriod": "पोस्टिंग अवधि",
     "documentViewerSupplierLoaderText": "कृपया एक क्षण के लिए, सेंटाइम एआई पिछले चालानों के आधार पर कोडिंग की भविष्यवाणी कर रहा है।",
+    "alertForPaymentMethodAcceptance": "आपूर्तिकर्ता {{paymentMethod}} के माध्यम से भुगतान प्राप्त करना पसंद नहीं करता",
     "errorPostingDocumentInvoiceDetailsDocument": "जनरल लेजर में पोस्टिंग शुरू करते समय समस्या। कृपया पुनः प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें",
     "successfullyPostingDocumentInvoiceDetailsDocument": "दस्तावेज़ के लिए जनरल लेजर पर पोस्टिंग शुरू की गई है",
     "errorDeletingDocumentInvoiceDetailsDocument": "दस्तावेज़ हटाते समय समस्या. कृपया पुनः प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें",
