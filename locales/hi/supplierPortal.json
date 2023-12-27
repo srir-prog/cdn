@@ -55,5 +55,6 @@
   "choosePaymentMethod": "भुगतान विधि चुनें",
   "updatedDetailsInfo": "{{updatedBy}} द्वारा अपडेट किया गया, {{updatedDate}}",
   "checkImageACHDisplay": "बैंक पत्र या चेक छवि",
-  "checkImageACHDisplayToolTip": "आपके व्यापार खाते को सत्यापित करने वाला एक बैंक जारी दस्तावेज़"
+  "checkImageACHDisplayToolTip": "आपके व्यापार खाते को सत्यापित करने वाला एक बैंक जारी दस्तावेज़",
+  "surchargeRangeSupplierHub": "अत्यंतधर प्राविण्य {{minSurchargePercentage}} और {{maxSurchargePercentage}} के बीच होना चाहिए, जिसमें शामिल हैं"
 }
