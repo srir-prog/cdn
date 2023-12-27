@@ -724,5 +724,6 @@
   "documentsDeleteTitleDocument": "Delete document",
   "documentRejectTitleDocument": "Reject document",
   "documentOnHoldTitleDocument": "Hold document",
-  "saveToEnableInvoiceActions": "Please save the changes to enable invoice actions"
+  "saveToEnableInvoiceActions": "Please save the changes to enable invoice actions",
+  "surchargeRangeSupplierHub":"Surcharge must be between {{minSurchargePercentage}} and {{maxSurchargePercentage}}, both inclusive"
 }

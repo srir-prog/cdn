@@ -59,5 +59,6 @@
   "updatedDetailsInfo": "Updated by {{updatedBy}}, {{updatedDate}}",
   "checkImageACHDisplay": "Bank letter or check image",
   "checkImageACHDisplayToolTip": "A bank-issued document validating your business account",
-  "preferredPaymentMethod": "Preferred payment method"
+  "preferredPaymentMethod": "Preferred payment method",
+  "surchargeRangeSupplierHub":"Surcharge must be between {{minSurchargePercentage}} and {{maxSurchargePercentage}}, both inclusive"
 }
