@@ -446,5 +446,6 @@
     "deleteContactConfirmationMsg": "Are you sure you want to delete <b>{{name}}</b> as a contact?",
     "newContactDetailsNotificationSuccess": "Contact successfully created.",
     "centimeContactDeleteNotificationSuccess": "Contact successfully deleted.",
-    "contactRelatedNotificationError": "Error occurred. Try again."
+    "contactRelatedNotificationError": "Error occurred. Try again.",
+    "displayRecipientName": "[Recipient name],"
 }
