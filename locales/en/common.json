@@ -727,4 +727,8 @@
   "saveToEnableInvoiceActions": "Please save the changes to enable invoice actions",
   "documentInvoiceNavigationTooltip": "Please SAVE changes to enable the function",
   "surchargeRangeSupplierHub":"Surcharge must be between {{minSurchargePercentage}} and {{maxSurchargePercentage}}, both inclusive"
+  "invoiceTotal": "Invoice total",
+  "headerCoding": "Header coding",
+  "lineCoding": "Line coding",
+  "quantity": "Quantity"
 }
