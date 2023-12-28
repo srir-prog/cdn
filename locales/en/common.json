@@ -359,7 +359,7 @@
   "total": "Total",
   "documents": "Documents",
   "delete": "Delete",
-  "backToDocuments": "Back To Documents",
+  "backToDocuments": "Back",
   "add": "Add",
   "noValueAvailable": "No value available",
   "defaultThisAccountForAllInvoicesOfSupplier": "Mark as default for invoices from this supplier",
@@ -722,5 +722,6 @@
   "documentsDeleteTitleDocument": "Delete document",
   "documentRejectTitleDocument": "Reject document",
   "documentOnHoldTitleDocument": "Hold document",
-  "saveToEnableInvoiceActions": "Please save the changes to enable invoice actions"
+  "saveToEnableInvoiceActions": "Please save the changes to enable invoice actions",
+  "documentInvoiceNavigationTooltip": "Please SAVE changes to enable the function"
 }
