@@ -85,5 +85,6 @@
   "paymentProductsNotClientVerifiedActivate": "भुगतान उत्पादों को सक्रिय करने के लिए अपना कंपनी सत्यापन अभी पूरा करें",
   "paymentProductsNotClientVerifiedContinue": "भुगतान उत्पादों का उपयोग जारी रखने के लिए अपना कंपनी सत्यापन अभी पूरा करें",
   "paymentProductsNotClientVerifiedActivateWithLink": "भुगतान उत्पादों को सक्रिय करने के लिए अपना कंपनी सत्यापन अभी पूरा करें। <ourLink></ourLink> ",
-  "paymentProductsNotClientVerifiedContinueWithLink": "भुगतान उत्पादों का उपयोग जारी रखने के लिए अपना कंपनी सत्यापन अभी पूरा करें। <ourLink></ourLink>"
+  "paymentProductsNotClientVerifiedContinueWithLink": "भुगतान उत्पादों का उपयोग जारी रखने के लिए अपना कंपनी सत्यापन अभी पूरा करें। <ourLink></ourLink>",
+  "CENTIME_BANKING": "सेंटाइम चेकिंग प्लस"
 }
