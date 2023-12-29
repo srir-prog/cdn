@@ -438,5 +438,6 @@
     "cardDeliveryMethod": "कार्ड वितरण विधि",
     "sendCardInfoByEmail": "कार्ड जानकारी ईमेल द्वारा भेजें<br></br> {{displayString}}",
     "completePaymentOnWebsite": "वेबसाइट पर भुगतान पूरा करें<br></br> {{displayString}}",
-    "reEnterAccountNumber": "खाता संख्या फिर से दर्ज करें"
+    "reEnterAccountNumber": "खाता संख्या फिर से दर्ज करें",
+    "supplier": "प्रदायक"
 }
