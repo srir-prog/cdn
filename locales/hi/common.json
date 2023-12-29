@@ -719,6 +719,7 @@
     "documentRejectTitleDocument": "दस्तावेज़ अस्वीकार करें",
     "documentOnHoldTitleDocument": "दस्तावेज़ पकड़ो",
     "saveToEnableInvoiceActions": "कृपया चालान कार्रवाई सक्षम करने के लिए परिवर्तन सहेजें",
-    "documentInvoiceNavigationTooltip": "कृपया फ़ंक्शन को सक्षम करने के लिए परिवर्तन सहेजें",
-    "surchargeRangeSupplierHub": "अत्यंतधर प्राविण्य {{minSurchargePercentage}} और {{maxSurchargePercentage}} के बीच होना चाहिए, जिसमें शामिल हैं"
+    "surchargeRangeSupplierHub": "अत्यंतधर प्राविण्य {{minSurchargePercentage}} और {{maxSurchargePercentage}} के बीच होना चाहिए, जिसमें शामिल हैं",
+    "paymentSettingsDifferFromSupplierPrefs": "भुगतान सेटिंग्स आपूर्ति प्राथमिकता से भिन्न हैं",
+    "documentInvoiceNavigationTooltip": "कृपया फ़ंक्शन को सक्षम करने के लिए परिवर्तन सहेजें"
 }

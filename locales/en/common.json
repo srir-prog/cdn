@@ -726,5 +726,6 @@
   "documentOnHoldTitleDocument": "Hold document",
   "saveToEnableInvoiceActions": "Please save the changes to enable invoice actions",
   "documentInvoiceNavigationTooltip": "Please SAVE changes to enable the function",
-  "surchargeRangeSupplierHub":"Surcharge must be between {{minSurchargePercentage}} and {{maxSurchargePercentage}}, both inclusive"
+  "surchargeRangeSupplierHub":"Surcharge must be between {{minSurchargePercentage}} and {{maxSurchargePercentage}}, both inclusive",
+  "paymentSettingsDifferFromSupplierPrefs": "Payment settings differ from supplier preference"
 }
