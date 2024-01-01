@@ -104,5 +104,6 @@
   "terms2":"You can choose to decline and opt-in at a later time.",
   "optOutAutoPay":"Opt-out from Autopay",
   "paymentDetails":"Payment details",
-  "creditCard":" Credit card"
+  "creditCard":" Credit card",
+  "surchargeDisclaimer": "Surcharge does not exceed the payment processing cost"
 }
