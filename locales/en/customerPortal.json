@@ -104,5 +104,11 @@
   "terms2":"You can choose to decline and opt-in at a later time.",
   "optOutAutoPay":"Opt-out from Autopay",
   "paymentDetails":"Payment details",
-  "creditCard":" Credit card"
+  "creditCard":" Credit card",
+  "buyerEnrolled":"Buyer has already Enrolled or Opted out.",
+  "savedPaymentDetailsLine1":"Thank you for confirming your preferred payment method and payment details and authorizing autopay. Your choices have been securely saved under your Customer profile. You can now close this page.",
+  "savedPaymentDetailsLine2":"You can contact <b>{{email}}</b> for any queries",
+  "commonError":"Errors encountered in saving the details. Please try again.",
+  "cardEnding":"Card ending with *{{digits}}",
+  "accountEnding":"Account ending with *{{digits}}"
 }
