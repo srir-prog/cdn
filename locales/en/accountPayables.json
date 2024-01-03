@@ -440,5 +440,7 @@
     "sendCardInfoByEmail": "Send card information by email<br></br> {{displayString}}",
     "completePaymentOnWebsite": "Complete payment on website<br></br> {{displayString}}",
     "reEnterAccountNumber": "Re-enter account number",
-    "supplier": "Supplier"
+    "supplier": "Supplier",
+    "supplierPaymentPreference":"Supplier prefers to not accept {{paymentMethod}} payments",
+    "paymentSettingsUpdatedBySupplier": "Payment settings were updated by your supplier"
 }
