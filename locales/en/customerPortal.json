@@ -113,5 +113,7 @@
   "accountEnding":"Account ending with *{{digits}}",
   "generalError":"Something went wrong.Please try again later.",
   "billingAddress": "Billing address",
-  "optOutDetailsLine1":"Your selections have been securely saved. You can now close this page."
+  "optOutDetailsLine1":"Your selections have been securely saved. You can now close this page.",
+  "creditCardPaymentMethod": "Credit card",
+  "achPaymentMethod": "ACH"
 }
