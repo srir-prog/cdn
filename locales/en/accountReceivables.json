@@ -447,5 +447,6 @@
     "newContactDetailsNotificationSuccess": "Contact successfully created.",
     "centimeContactDeleteNotificationSuccess": "Contact successfully deleted.",
     "contactRelatedNotificationError": "Error occurred. Try again.",
-    "displayRecipientName": "[Recipient name],"
+    "displayRecipientName": "[Recipient name],",
+    "recipientsToolTipMsg": "Maximum of 15 recipients including communication contacts in the Customer Profile"
 }
