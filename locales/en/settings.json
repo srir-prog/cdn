@@ -732,5 +732,10 @@
   "settingsImpactInvoices": "These settings can prevent invoices from being paid if they are not set correctly.",
   "wantToProceed": "Are you sure you want to proceed?",
   "achDiscountAccountInfoLine": "Specify a discount account to post applicable invoices",
-  "includeDocumentInEmail": "Include invoice document as attachments on notification emails for approvals"
+  "includeDocumentInEmail": "Include invoice document as attachments on notification emails for approvals",
+  "arCustomFields":  "AR Custom Fields",
+  "fieldName": "Custom fields",
+  "centimeVisibility": "Centime",
+  "customerPortalVisibility": "Customer portal",
+  "gl": "General ledger"
 }
