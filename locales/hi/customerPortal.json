@@ -107,5 +107,10 @@
   "savedPaymentDetailsLine2": "आप सम्पर्क कर सकते है <b>{{email}}</b> किसी भी प्रश्न के लिए",
   "commonError": "विवरण सहेजने में त्रुटियाँ आईं। ",
   "cardEnding": "कार्ड के अंत में * ",
-  "accountEnding": "* से समाप्त होने वाला खाता "
+  "accountEnding": "* से समाप्त होने वाला खाता ",
+  "generalError": "कुछ गलत हो गया है। कृपया बाद में दोबारा प्रयास करें।",
+  "billingAddress": "बिल भेजने का पता",
+  "optOutDetailsLine1": "आपके चयन सुरक्षित रूप से सहेजे गए हैं. ",
+  "creditCardPaymentMethod": "क्रेडिट कार्ड",
+  "achPaymentMethod": "आक"
 }
