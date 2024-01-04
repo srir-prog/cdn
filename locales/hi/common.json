@@ -359,7 +359,7 @@
     "total": "कुल",
     "documents": "दस्तावेज़",
     "delete": "मिटाना",
-    "backToDocuments": "दस्तावेज़ों पर वापस जाएं",
+    "backToDocuments": "वापस",
     "add": "जोड़ें",
     "noValueAvailable": "कोई मूल्य उपलब्ध नहीं",
     "defaultThisAccountForAllInvoicesOfSupplier": "इस आपूर्तिकर्ता के चालानों के लिए डिफ़ॉल्ट के रूप में चिह्नित करें",
@@ -684,8 +684,10 @@
     "paymentProfileAccepted": "भुगतान प्रोफ़ाइल स्वीकृत है",
     "paymentProfileRejected": "भुगतान प्रोफ़ाइल अस्वीकृत है",
     "paymentProfileStatusInSync": "भुगतान प्रोफ़ाइल स्थिति को 'इन सिंक' में सेट किया गया है",
+    "supplierPortalContact": "आपूर्ति पोर्टल संपर्क",
     "defaultPaymentMethodUpdated": "डिफ़ॉल्ट भुगतान विधि अपडेट की गई है",
     "invoiceSummary": "चालान सारांश",
+    "ApplyToSelectedRows": "सभी चयनित पंक्तियों पर लागू करें",
     "rate": "दर",
     "lineDescription": "पंक्ति विवरण",
     "approve": "स्वीकार करें",
@@ -715,5 +717,6 @@
     "documentsDeleteTitleDocument": "दस्तावेज़ हटाएँ",
     "documentRejectTitleDocument": "दस्तावेज़ अस्वीकार करें",
     "documentOnHoldTitleDocument": "दस्तावेज़ पकड़ो",
-    "saveToEnableInvoiceActions": "कृपया चालान कार्रवाई सक्षम करने के लिए परिवर्तन सहेजें"
+    "saveToEnableInvoiceActions": "कृपया चालान कार्रवाई सक्षम करने के लिए परिवर्तन सहेजें",
+    "documentInvoiceNavigationTooltip": "कृपया फ़ंक्शन को सक्षम करने के लिए परिवर्तन सहेजें"
 }

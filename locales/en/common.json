@@ -359,7 +359,7 @@
   "total": "Total",
   "documents": "Documents",
   "delete": "Delete",
-  "backToDocuments": "Back To Documents",
+  "backToDocuments": "Back",
   "add": "Add",
   "noValueAvailable": "No value available",
   "defaultThisAccountForAllInvoicesOfSupplier": "Mark as default for invoices from this supplier",
@@ -681,7 +681,7 @@
   "accountsPayableAccount": "Accounts payable account",
   "historyMessageApAccountSetTo": "Accounts Payable account set to {{apAccountName}}",
   "supplierPaymentSettingsUpdatedNotification": "{{count}} suppliers updated their payment profile.",
-  "centimeSecureDisclaimer": "Centime is a financial technology company, not a bank. Centime deposit accounts are with FNBO and are FDIC insured through FNBO. Member FDIC. Centime is not a bank and is not authorized by any federal or state agency to engage directly in core banking activities. All banking products and services available through Centime are provided by FNBO and are governed by the applicable agreements and related disclosures provided to you by FNBO. While Centime facilitates traditional banking activities (such as the acceptance of deposits or extensions of credit), these services are actually provided by our banking partner, FNBO. Centime may provide support services to FNBO, as permitted by applicable law, to facilitate the delivery of its bank products and services.",
+  "centimeSecureDisclaimer": "*Centime is a financial technology company, not a bank. All banking products and solutions are provided by FNBO.  Member FDIC.",
   "currentApprovers": "Approver",
   "checkPaymentSettingUpdated": "Check payment setting updated",
   "ACHPaymentSettingUpdated": "ACH payment setting updated",
@@ -689,8 +689,10 @@
   "paymentProfileAccepted": "Payment profile accepted",
   "paymentProfileRejected": "Payment profile rejected",
   "paymentProfileStatusInSync": "Payment profile status set to In Sync",
+  "supplierPortalContact": "Supplier portal contact",
   "defaultPaymentMethodUpdated": "Default payment method updated",
   "invoiceSummary": "Invoice summary",
+  "ApplyToSelectedRows": "Apply to all selected rows",
   "rate": "Rate",
   "lineDescription": "Line description",
   "approve": "Approve",
@@ -720,5 +722,6 @@
   "documentsDeleteTitleDocument": "Delete document",
   "documentRejectTitleDocument": "Reject document",
   "documentOnHoldTitleDocument": "Hold document",
-  "saveToEnableInvoiceActions": "Please save the changes to enable invoice actions"
+  "saveToEnableInvoiceActions": "Please save the changes to enable invoice actions",
+  "documentInvoiceNavigationTooltip": "Please SAVE changes to enable the function"
 }
