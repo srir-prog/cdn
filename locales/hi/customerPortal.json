@@ -112,5 +112,9 @@
   "billingAddress": "बिल भेजने का पता",
   "optOutDetailsLine1": "आपके चयन सुरक्षित रूप से सहेजे गए हैं. ",
   "creditCardPaymentMethod": "क्रेडिट कार्ड",
-  "achPaymentMethod": "आक"
+  "achPaymentMethod": "आक",
+  "optIn": "में चुनें",
+  "optOut": "बाहर निकलना",
+  "invoiceDate": "चालान की तारीख",
+  "lastDay": "डिस्काउंट विंडो का आखिरी दिन"
 }
