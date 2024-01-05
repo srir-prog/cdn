@@ -728,5 +728,7 @@
   "documentInvoiceNavigationTooltip": "Please SAVE changes to enable the function",
   "surchargeRangeSupplierHub":"Surcharge must be between {{minSurchargePercentage}} and {{maxSurchargePercentage}}, both inclusive",
   "paymentSettingsDifferFromSupplierPrefs": "Payment settings differ from supplier preference",
-  "orDragAndDropFileHereWithLink": "<ourLink></ourLInk> or drag and drop file here"
+  "orDragAndDropFileHereWithLink": "<ourLink></ourLInk> or drag and drop file here",
+  "supplierEnrolledForUpdatingPaymentProfile": "Supplier enrolled for updating payment profile",
+  "supplierPortalContactUpdated": "Supplier portal contact updated"
 }
