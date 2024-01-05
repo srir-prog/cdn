@@ -217,6 +217,15 @@
     "applicationSent":"आवेदन अधिकृत हस्ताक्षरकर्ता को ईमेल के माध्यम से भेजा गया है।",
     "emailSentTo":"हस्ताक्षरकर्ता -{{email}}",
     "Export": "निर्यात",
-    "ok": "ठीक है"
+    "ok": "ठीक है",
+    "forecastPeriod": "पूर्वानुमान अवधि",
+    "currentWeek": "यह सप्ताह",
+    "twoWeeks": "दो सप्ताह",
+    "currentMonth": "अभी चल रहा माह",
+    "twoMonths": "दो महीने",
+    "threeMonths": "तीन महीने",
+    "currentQuarter": "चालू तिमाही",
+    "thirteenWeeks": "तेरह सप्ताह",
+    "sixMonths": "छह महीने"
 }
 
