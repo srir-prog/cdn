@@ -727,5 +727,6 @@
   "saveToEnableInvoiceActions": "Please save the changes to enable invoice actions",
   "documentInvoiceNavigationTooltip": "Please SAVE changes to enable the function",
   "surchargeRangeSupplierHub":"Surcharge must be between {{minSurchargePercentage}} and {{maxSurchargePercentage}}, both inclusive",
-  "paymentSettingsDifferFromSupplierPrefs": "Payment settings differ from supplier preference"
+  "paymentSettingsDifferFromSupplierPrefs": "Payment settings differ from supplier preference",
+  "orDragAndDropFileHereWithLink": "<ourLink></ourLInk> or drag and drop file here"
 }
