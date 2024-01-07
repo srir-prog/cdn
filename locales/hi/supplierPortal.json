@@ -14,10 +14,8 @@
   "noDataMessageForPaidInvoicesTable": "{{clientName}} के साथ आपके पास कोई भुगतान किए गए चालान नहीं हैं",
   "discount": "छूट",
   "surcharge": "अधिभार",
-  "acceptPaymentViaCheck": "चेक भुगतान स्वीकार करें",
   "checkImage": "चेक छवि",
   "transactionLimit": "लेन-देन सीमा",
-  "acceptPaymentViaACH": "ACH भुगतान स्वीकार करें",
   "accessCreditCardDetails": "कार्ड वितरण विधि",
   "offerDiscounts": "छूट प्रस्तुत करें",
   "paymentProfile": "भुगतान प्रोफ़ाइल",
@@ -55,5 +53,8 @@
   "choosePaymentMethod": "भुगतान विधि चुनें",
   "updatedDetailsInfo": "{{updatedBy}} द्वारा अपडेट किया गया, {{updatedDate}}",
   "checkImageACHDisplay": "बैंक पत्र या चेक छवि",
-  "checkImageACHDisplayToolTip": "आपके व्यापार खाते को सत्यापित करने वाला एक बैंक जारी दस्तावेज़"
+  "checkImageACHDisplayToolTip": "आपके व्यापार खाते को सत्यापित करने वाला एक बैंक जारी दस्तावेज़",
+  "acceptPaymentViaCheck": "चेक से भुगतान स्वीकृत करें",
+  "acceptPaymentViaACH": "ACH भुगतान स्वीकृत करें",
+  "acceptPaymentViaCreditCard": "क्रेडिट कार्ड से भुगतान स्वीकृत करें"
 }
