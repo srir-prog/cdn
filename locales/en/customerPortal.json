@@ -105,6 +105,7 @@
   "optOutAutoPay":"Opt out of Autopay",
   "paymentDetails":"Payment details",
   "creditCard":" Credit card",
+  "surchargeDisclaimer": "Surcharge does not exceed the payment processing cost",
   "buyerEnrolled":"Buyer has already Enrolled or Opted out.",
   "savedPaymentDetailsLine1":"Thank you for confirming your payment preferences and authorizing Autopay. Your selections have been securely saved. You can now close this page.",
   "savedPaymentDetailsLine2":"Please contact <b>{{email}}</b> if you have any questions.",
