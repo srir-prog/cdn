@@ -106,6 +106,7 @@
   "paymentDetails":"Payment details",
   "creditCard":" Credit card",
   "buyerEnrolled":"Please contact <b>{{email}}</b> to enroll in autopay.",
+  "surchargeDisclaimer": "Surcharge does not exceed the payment processing cost",
   "savedPaymentDetailsLine1":"Thank you for confirming your payment preferences and authorizing Autopay. Your selections have been securely saved. You can now close this page.",
   "savedPaymentDetailsLine2":"Please contact <b>{{email}}</b> if you have any questions.",
   "commonError":"Your selections were not saved. Please try again.",
