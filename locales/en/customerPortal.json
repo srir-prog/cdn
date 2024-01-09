@@ -120,5 +120,7 @@
   "optIn":"Opt in",
   "optOut":"Opt out",
   "invoiceDate": "Invoice date",
-  "lastDay": "Last day of discount window"
+  "lastDay": "Last day of discount window",
+  "autoPaySaveSettings":"Your Autopay settings have been saved.",
+  "autoPaySaveSettingsFail":"Failed to save Autopay settings. Please try again."
 }
