@@ -665,6 +665,8 @@
     "creditsAvailableTooltip":"क्रेडिट उपलब्ध हैं",
     "creditsAppliedTooltip": "क्रेडिट लागू होते हैं",
     "selectApplyLink": "<ourLink> </ourLink>",
+    "reviewLink": "<ourLink> </ourLink>",
+    "specificCreditsApplied": "विशिष्ट क्रेडिट लागू होते हैं: <ourLink>समीक्षा</ourLink>",
     "selectApply":"चयन करें और आवेदन करें",
     "modifyCredits":"लागू क्रेडिट संशोधित करें",
     "outstandingPart":"असाधारण: ${{amount}}",
@@ -719,6 +721,8 @@
     "documentRejectTitleDocument": "दस्तावेज़ अस्वीकार करें",
     "documentOnHoldTitleDocument": "दस्तावेज़ पकड़ो",
     "saveToEnableInvoiceActions": "कृपया चालान कार्रवाई सक्षम करने के लिए परिवर्तन सहेजें",
+    "surchargeRangeSupplierHub": "अत्यंतधर प्राविण्य {{minSurchargePercentage}} और {{maxSurchargePercentage}} के बीच होना चाहिए, जिसमें शामिल हैं",
+    "paymentSettingsDifferFromSupplierPrefs": "भुगतान सेटिंग्स आपूर्ति प्राथमिकता से भिन्न हैं",
     "documentInvoiceNavigationTooltip": "कृपया फ़ंक्शन को सक्षम करने के लिए परिवर्तन सहेजें",
-    "surchargeRangeSupplierHub": "अत्यंतधर प्राविण्य {{minSurchargePercentage}} और {{maxSurchargePercentage}} के बीच होना चाहिए, जिसमें शामिल हैं"
+    "orDragAndDropFileHereWithLink": "<ourLink></ourLink> या यहाँ फ़ाइल खींचें और छोड़ें"
 }
