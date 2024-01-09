@@ -6474,6 +6474,27 @@
                 "valueMap": "paymentMetadata",
                 "renderProps": {
                     "listInfo": [
+                        {
+                            "label":"Invoice Details",
+                            "valueMap":"invoiceDetails"
+                        },
+                        {
+                            "label":"Payer Name",
+                            "valueMap":"payerName"
+                        },
+                        {
+                            "label":"Payee Name",
+                            "valueMap":"payeeName"
+                        },
+                        {
+                            "label":"Payer FI Funding AccountId",
+                            "valueMap":"payerFIFundingAccountId"
+                        },
+                        {
+                            "label":"Ap AccountId",
+                            "valueMap":"apAccountId"
+                        }
+
                         
                     ],
                     "additionalProperties": {
