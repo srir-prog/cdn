@@ -732,5 +732,11 @@
   "settingsImpactInvoices": "These settings can prevent invoices from being paid if they are not set correctly.",
   "wantToProceed": "Are you sure you want to proceed?",
   "achDiscountAccountInfoLine": "Specify a discount account to post applicable invoices",
-  "includeDocumentInEmail": "Include invoice document as attachments on notification emails for approvals"
+  "includeDocumentInEmail": "Include invoice document as attachments on notification emails for approvals",
+  "fraudControl": "Fraud control",
+  "checkPositivePay": "Check Positive Pay",
+  "bankAccountsSetup": "Bank accounts set-up",
+  "positivePayFiles": "Positive pay files",
+  "institutionName": "Institution name",
+  "fileDelivery": "File delivery"
 }
