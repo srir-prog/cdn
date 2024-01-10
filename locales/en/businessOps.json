@@ -77,7 +77,7 @@
     "sourceSyncStatus": "Source Sync Status",
     "confirmDelete": "Are you sure you want to delete the row ?",
     "generateSignup": "Generate Signup Link",
-    "commonPaymentHeaderLabel":"Common Payment Id",
+    "commonPaymentHeaderLabel":"Group Payment Id",
     "paymentIdHeaderLabel":"Payment Id",
     "clientIdHeaderLabel":"Client Id",
     "clientNameHeaderLabel":"Client Name",
