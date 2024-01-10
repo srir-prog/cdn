@@ -665,6 +665,8 @@
     "creditsAvailableTooltip":"क्रेडिट उपलब्ध हैं",
     "creditsAppliedTooltip": "क्रेडिट लागू होते हैं",
     "selectApplyLink": "<ourLink> </ourLink>",
+    "reviewLink": "<ourLink> </ourLink>",
+    "specificCreditsApplied": "विशिष्ट क्रेडिट लागू होते हैं: <ourLink>समीक्षा</ourLink>",
     "selectApply":"चयन करें और आवेदन करें",
     "modifyCredits":"लागू क्रेडिट संशोधित करें",
     "outstandingPart":"असाधारण: ${{amount}}",
@@ -723,5 +725,6 @@
     "paymentSettingsDifferFromSupplierPrefs": "भुगतान सेटिंग्स आपूर्ति प्राथमिकता से भिन्न हैं",
     "documentInvoiceNavigationTooltip": "कृपया फ़ंक्शन को सक्षम करने के लिए परिवर्तन सहेजें",
     "addTask": "कार्य जोड़ें",
-    "taskToolTip": "कार्य: {{taskName}} <br> देय तिथि: {{dueDate}} <br> असाइनी: {{assignee}}"
+    "taskToolTip": "कार्य: {{taskName}} <br> देय तिथि: {{dueDate}} <br> असाइनी: {{assignee}}",
+    "orDragAndDropFileHereWithLink": "<ourLink></ourLink> या यहाँ फ़ाइल खींचें और छोड़ें"
 }

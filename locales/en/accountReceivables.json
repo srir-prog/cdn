@@ -86,7 +86,7 @@
     "HeaderLabelPercentageOverdue": "% Overdue",
     "HeaderLabelCampaign": "Workflow",
     "HeaderLabelCurrentReminderCampaign": "Current workflow",
-    "HeaderLabelEnrollAutoPay": "Autopay Status",
+    "HeaderLabelEnrollAutoPay": "Autopay",
     "HeaderLabelDueDate": "Due date",
     "LastReminderSent": "Last workflow action",
     "NextReminder": "Next workflow action",
@@ -426,9 +426,9 @@
     "headerLabelParent": "Parent",
     "headerLabelConsolidatedBalance": "Consolidated",
     "defaultWorkflowId": "- No Workflow -",
-    "enrollAutoPay":"Enroll autopay",
+    "enrollAutoPay":"Autopay enrollment",
     "enrollForAutoPay":"Enroll for autopay",
-    "sendEmailForEnrolment":"Send email for enrolment",
+    "sendEmailForEnrolment":"Send enrollment email",
     "defaultTaskAssignee": "Default task assignee",
     "assignee": "Assignee",
     "email": "Email",
@@ -437,7 +437,7 @@
     "addAdditionalRecipients": "Add additional recipients",
     "termDiscount": "Term discount",
     "achDiscount": "ACH discount",
-    "enrollAutoPayNotificationSuccess": "Autopay enrolled for {{invoicesCount}} customer(s).",
+    "enrollAutoPayNotificationSuccess": "Email(s) sent for Autopay enrollment",
     "enrollAutoPayNotificationFailure": "Error while enrolling Autopay. Try again or contact us if the problem persists.",
     "notEnrolled":"Not enrolled",
     "inProgress":"In progress",
@@ -447,5 +447,6 @@
     "newContactDetailsNotificationSuccess": "Contact successfully created.",
     "centimeContactDeleteNotificationSuccess": "Contact successfully deleted.",
     "contactRelatedNotificationError": "Error occurred. Try again.",
-    "displayRecipientName": "[Recipient name],"
+    "displayRecipientName": "[Recipient name],",
+    "recipientsToolTipMsg": "Maximum of 15 recipients including communication contacts in the Customer Profile"
 }

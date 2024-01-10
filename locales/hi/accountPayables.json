@@ -439,5 +439,7 @@
     "sendCardInfoByEmail": "कार्ड जानकारी ईमेल द्वारा भेजें<br></br> {{displayString}}",
     "completePaymentOnWebsite": "वेबसाइट पर भुगतान पूरा करें<br></br> {{displayString}}",
     "reEnterAccountNumber": "खाता संख्या फिर से दर्ज करें",
-    "supplier": "प्रदायक"
+    "supplier": "प्रदायक",
+    "supplierPaymentPreference": "प्रदाता {{paymentMethod}} भुगतान स्वीकृत नहीं करना पसंद करता है",
+    "paymentSettingsUpdatedBySupplier": "आपके प्रदाता ने भुगतान सेटिंग्स को अपडेट किया गया था"
 }
