@@ -426,7 +426,7 @@
     "headerLabelParent": "Parent",
     "headerLabelConsolidatedBalance": "Consolidated",
     "defaultWorkflowId": "- No Workflow -",
-    "enrollAutoPay":"Autopay enrollment",
+    "enrollAutoPay":"Enroll autopay",
     "enrollForAutoPay":"Enroll for autopay",
     "sendEmailForEnrolment":"Send enrollment email",
     "defaultTaskAssignee": "Default task assignee",
