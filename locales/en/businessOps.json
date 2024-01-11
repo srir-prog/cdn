@@ -94,6 +94,7 @@
     "matchedFraudRulesHeaderLabel":"Matched Rule ids",
     "a2aHeaderLabel":"A2A",
     "requestedByHeaderLabel":"Requested by",
-    "approvedByHeaderLabel":"Approved by"
+    "approvedByHeaderLabel":"Approved by",
+    "clearTransactions":"Clear transactions"
 }
 
