@@ -451,5 +451,5 @@
     "recipientsToolTipMsg": "Maximum of 15 recipients including communication contacts in the Customer Profile",
     "notStarted":"Not started",
     "active":"Active",
-    "enrollAutopayNoEmail":"Autopay enrollment initiated"
+    "enrollAutoPayNoEmail":"Autopay enrollment initiated"
 }
