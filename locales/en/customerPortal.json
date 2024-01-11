@@ -122,5 +122,6 @@
   "invoiceDate": "Invoice date",
   "lastDay": "Last day of discount window",
   "autoPaySaveSettings":"Your Autopay settings have been saved.",
-  "autoPaySaveSettingsFail":"Failed to save Autopay settings. Please try again."
+  "autoPaySaveSettingsFail":"Failed to save Autopay settings. Please try again.",
+  "noPaymentDetailsError":"No ACH or Credit card payment method is configured to enroll autopay."
 }
