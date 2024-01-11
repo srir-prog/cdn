@@ -446,5 +446,8 @@
     "centimeContactDeleteNotificationSuccess": "संपर्क सफलतापूर्वक हटा दिया गया।",
     "contactRelatedNotificationError": "त्रुटि हुई। पुनः प्रयास करें।",
     "displayRecipientName": "[प्राप्तकर्ता का नाम],",
-    "recipientsToolTipMsg": "ग्राहक प्रोफ़ाइल में संचार संपर्कों सहित अधिकतम 15 प्राप्तकर्ता"
+    "recipientsToolTipMsg": "ग्राहक प्रोफ़ाइल में संचार संपर्कों सहित अधिकतम 15 प्राप्तकर्ता",
+    "notStarted":"शुरू नहीं",
+    "active":"सक्रिय",
+    "enrollAutopayNoEmail":"ऑटोपे नामांकन प्रारंभ किया गया."
 }
