@@ -76,6 +76,24 @@
     "syncEnd":"Sync End",
     "sourceSyncStatus": "Source Sync Status",
     "confirmDelete": "Are you sure you want to delete the row ?",
-    "generateSignup": "Generate Signup Link"
+    "generateSignup": "Generate Signup Link",
+    "groupPaymentIdHeaderLabel":"Group Payment Id",
+    "paymentIdHeaderLabel":"Payment Id",
+    "clientIdHeaderLabel":"Client Id",
+    "clientNameHeaderLabel":"Client Name",
+    "paymentMethodHeaderLabel":"Method",
+    "potentialGroupPaymentHeaderLabel":"Potential Group Payment",
+    "amountHeaderLabel":"Amount",
+    "statusHeaderLabel":"Status",
+    "invoiceIdHeaderLabel":"Invoice Id",
+    "captureDateHeaderLabel":"Capture Date",
+    "paymentStartDateHeaderLabel":"Payment Start Date",
+    "billIdHeaderLabel":"Bill ID",
+    "billNumberHeaderLabel":"Bill No",
+    "supplierNameHeaderLabel":"Supplier Name",
+    "matchedFraudRulesHeaderLabel":"Matched Rule ids",
+    "a2aHeaderLabel":"A2A",
+    "requestedByHeaderLabel":"Requested by",
+    "approvedByHeaderLabel":"Approved by"
 }
 
