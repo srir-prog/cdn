@@ -737,6 +737,9 @@
   "checkPositivePay": "Check Positive Pay",
   "bankAccountsSetup": "Bank accounts set-up",
   "positivePayFiles": "Positive pay files",
-  "institutionName": "Institution name",
-  "fileDelivery": "File delivery"
+  "bankName": "Institution name",
+  "fileDelivery": "File delivery",
+  "notSupportedWithComma": "Not supported,",
+  "requestSupport": "Request support",
+  "includePositivePay": "Include positive pay"
 }
