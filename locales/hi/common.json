@@ -724,5 +724,7 @@
     "surchargeRangeSupplierHub": "अत्यंतधर प्राविण्य {{minSurchargePercentage}} और {{maxSurchargePercentage}} के बीच होना चाहिए, जिसमें शामिल हैं",
     "paymentSettingsDifferFromSupplierPrefs": "भुगतान सेटिंग्स आपूर्ति प्राथमिकता से भिन्न हैं",
     "documentInvoiceNavigationTooltip": "कृपया फ़ंक्शन को सक्षम करने के लिए परिवर्तन सहेजें",
-    "orDragAndDropFileHereWithLink": "<ourLink></ourLink> या यहाँ फ़ाइल खींचें और छोड़ें"
+    "orDragAndDropFileHereWithLink": "<ourLink></ourLink> या यहाँ फ़ाइल खींचें और छोड़ें",
+    "supplierEnrolledForUpdatingPaymentProfile": "भुगतान प्रोफ़ाइल अपडेट करने के लिए आपूर्तिकर्ता नामांकित हुआ",
+    "supplierPortalContactUpdated": "आपूर्तिकर्ता पोर्टल संपर्क अपडेट हुआ"
 }
