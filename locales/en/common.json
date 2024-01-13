@@ -731,6 +731,8 @@
   "surchargeRangeSupplierHub":"Surcharge must be between {{minSurchargePercentage}} and {{maxSurchargePercentage}}, both inclusive",
   "paymentSettingsDifferFromSupplierPrefs": "Payment settings differ from supplier preference",
   "orDragAndDropFileHereWithLink": "<ourLink></ourLInk> or drag and drop file here",
+  "supplierEnrolledForUpdatingPaymentProfile": "Supplier enrolled for updating payment profile",
+  "supplierPortalContactUpdated": "Supplier portal contact updated",
   "invoiceTotal": "Invoice total",
   "headerCoding": "Header coding",
   "lineCoding": "Line coding",
