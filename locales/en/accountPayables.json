@@ -431,8 +431,16 @@
     "notUpdated": "Not updated",
     "cardDelivery": "Card delivery",
     "enrollmentInProgress": "Enrollment in progress",
-    "updatePaymentProfile": "Update payment profile",
+    "updatePaymentProfile": "Update Payment Profile",
     "updatePaymentProfileEmailModalSubtext":"Please add the supplier contact responsible for updating the payment profile",
     "contactEmails": "Contact email",
-    "emailTemplate": "Email template"
+    "emailTemplate": "Email template",
+    "invitedToUpdate": "Invited to update",
+    "cardDeliveryMethod": "Card delivery method",
+    "sendCardInfoByEmail": "Send card information by email<br></br> {{displayString}}",
+    "completePaymentOnWebsite": "Complete payment on website<br></br> {{displayString}}",
+    "reEnterAccountNumber": "Re-enter account number",
+    "supplier": "Supplier",
+    "supplierPaymentPreference":"Supplier prefers to not accept {{paymentMethod}} payments",
+    "paymentSettingsUpdatedBySupplier": "Payment settings were updated by your supplier"
 }
