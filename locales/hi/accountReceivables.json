@@ -446,5 +446,9 @@
     "centimeContactDeleteNotificationSuccess": "संपर्क सफलतापूर्वक हटा दिया गया।",
     "contactRelatedNotificationError": "त्रुटि हुई। पुनः प्रयास करें।",
     "displayRecipientName": "[प्राप्तकर्ता का नाम],",
-    "recipientsToolTipMsg": "ग्राहक प्रोफ़ाइल में संचार संपर्कों सहित अधिकतम 15 प्राप्तकर्ता"
+    "recipientsToolTipMsg": "ग्राहक प्रोफ़ाइल में संचार संपर्कों सहित अधिकतम 15 प्राप्तकर्ता",
+    "taskDetailsUpdatedSuccessfully": "कार्य विवरण सफलतापूर्वक अपडेट किया गया",
+    "failedToUpdateTheTaskDetails": "कार्य विवरण अद्यतन करने में विफल",
+    "taskDeletedSuccessfully": "कार्य सफलतापूर्वक हटा दिया गया",
+    "failedToDeleteTheTaskPleaseTryAgain": "कार्य हटाने में विफल. कृपया पुन: प्रयास करें।"
 }

@@ -448,5 +448,9 @@
     "centimeContactDeleteNotificationSuccess": "Contact successfully deleted.",
     "contactRelatedNotificationError": "Error occurred. Try again.",
     "displayRecipientName": "[Recipient name],",
-    "recipientsToolTipMsg": "Maximum of 15 recipients including communication contacts in the Customer Profile"
+    "recipientsToolTipMsg": "Maximum of 15 recipients including communication contacts in the Customer Profile",
+    "taskDetailsUpdatedSuccessfully": "Task details updated successfully",
+    "failedToUpdateTheTaskDetails": "Failed to update the task details",
+    "taskDeletedSuccessfully": "Task deleted successfully",
+    "failedToDeleteTheTaskPleaseTryAgain": "Failed to delete the task. Please try again."
 }
