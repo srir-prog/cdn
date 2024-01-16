@@ -726,5 +726,7 @@
     "documentInvoiceNavigationTooltip": "कृपया फ़ंक्शन को सक्षम करने के लिए परिवर्तन सहेजें",
     "addTask": "एक नया कार्य जोड़ें",
     "taskToolTip": "कार्य: {{taskName}} <br> देय तिथि: {{dueDate}} <br> असाइनी: {{assignee}}",
-    "orDragAndDropFileHereWithLink": "<ourLink></ourLink> या यहाँ फ़ाइल खींचें और छोड़ें"
+    "orDragAndDropFileHereWithLink": "<ourLink></ourLink> या यहाँ फ़ाइल खींचें और छोड़ें",
+    "supplierEnrolledForUpdatingPaymentProfile": "भुगतान प्रोफ़ाइल अपडेट करने के लिए आपूर्तिकर्ता नामांकित हुआ",
+    "supplierPortalContactUpdated": "आपूर्तिकर्ता पोर्टल संपर्क अपडेट हुआ"
 }

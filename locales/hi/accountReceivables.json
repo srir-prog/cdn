@@ -450,5 +450,8 @@
     "taskDetailsUpdatedSuccessfully": "कार्य विवरण सफलतापूर्वक अपडेट किया गया",
     "failedToUpdateTheTaskDetails": "कार्य विवरण अद्यतन करने में विफल",
     "taskDeletedSuccessfully": "कार्य सफलतापूर्वक हटा दिया गया",
-    "failedToDeleteTheTaskPleaseTryAgain": "कार्य हटाने में विफल. कृपया पुन: प्रयास करें।"
+    "failedToDeleteTheTaskPleaseTryAgain": "कार्य हटाने में विफल. कृपया पुन: प्रयास करें।",
+    "notStarted":"शुरू नहीं",
+    "active":"सक्रिय",
+    "enrollAutoPayNoEmail":"ऑटोपे नामांकन प्रारंभ किया गया."
 }

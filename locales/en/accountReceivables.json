@@ -426,7 +426,7 @@
     "headerLabelParent": "Parent",
     "headerLabelConsolidatedBalance": "Consolidated",
     "defaultWorkflowId": "- No Workflow -",
-    "enrollAutoPay":"Autopay enrollment",
+    "enrollAutoPay":"Enroll autopay",
     "enrollForAutoPay":"Enroll for autopay",
     "sendEmailForEnrolment":"Send enrollment email",
     "defaultTaskAssignee": "Default task assignee",
@@ -452,5 +452,8 @@
     "taskDetailsUpdatedSuccessfully": "Task details updated successfully",
     "failedToUpdateTheTaskDetails": "Failed to update the task details",
     "taskDeletedSuccessfully": "Task deleted successfully",
-    "failedToDeleteTheTaskPleaseTryAgain": "Failed to delete the task. Please try again."
+    "failedToDeleteTheTaskPleaseTryAgain": "Failed to delete the task. Please try again.",
+    "notStarted":"Not started",
+    "active":"Active",
+    "enrollAutoPayNoEmail":"Autopay enrollment initiated"
 }
