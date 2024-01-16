@@ -102,6 +102,7 @@
   "optOutAutoPay": "ऑटोपे से ऑप्ट-आउट करें",
   "paymentDetails": "भुगतान विवरण",
   "creditCard": " क्रेडिट कार्ड",
+  "surchargeDisclaimer": "अधिभार भुगतान प्रसंस्करण लागत से अधिक नहीं है",
   "buyerEnrolled": "क्रेता पहले ही नामांकन कर चुका है या बाहर निकल चुका है।",
   "savedPaymentDetailsLine1": "अपनी पसंदीदा भुगतान विधि और भुगतान विवरण की पुष्टि करने और ऑटोपे को अधिकृत करने के लिए धन्यवाद। ",
   "savedPaymentDetailsLine2": "आप सम्पर्क कर सकते है <b>{{email}}</b> किसी भी प्रश्न के लिए",
@@ -112,5 +113,12 @@
   "billingAddress": "बिल भेजने का पता",
   "optOutDetailsLine1": "आपके चयन सुरक्षित रूप से सहेजे गए हैं. ",
   "creditCardPaymentMethod": "क्रेडिट कार्ड",
-  "achPaymentMethod": "आक"
+  "achPaymentMethod": "आक",
+  "optIn": "में चुनें",
+  "optOut": "बाहर निकलना",
+  "invoiceDate": "चालान की तारीख",
+  "lastDay": "डिस्काउंट विंडो का आखिरी दिन",
+  "autoPaySaveSettings": "आपकी ऑटोपे सेटिंग सहेज ली गई है.",
+  "autoPaySaveSettingsFail": "ऑटोपे सेटिंग सहेजने में विफल. ",
+  "noPaymentDetailsError":"ऑटोपे को नामांकित करने के लिए कोई ACH या क्रेडिट कार्ड भुगतान विधि कॉन्फ़िगर नहीं की गई है।"
 }
