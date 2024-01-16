@@ -692,5 +692,14 @@
     "settingsImpactInvoices": "यदि ये सेटिंग्स सही ढंग से सेट नहीं की गई हैं तो इनवॉइस को भुगतान करने से रोका जा सकता है।",
     "wantToProceed": "क्या आप सुनिश्चित रूप से आगे बढ़ना चाहते हैं?",
     "achDiscountAccountInfoLine": "लागू चालान पोस्ट करने के लिए एक डिस्काउंट खाता निर्दिष्ट करें",
-    "includeDocumentInEmail": "अनुमोदन के लिए अधिसूचना ईमेल पर संलग्नक के रूप में चालान दस्तावेज़ शामिल करें"
+    "includeDocumentInEmail": "अनुमोदन के लिए अधिसूचना ईमेल पर संलग्नक के रूप में चालान दस्तावेज़ शामिल करें",
+    "fraudControl": "धोखाधड़ी नियंत्रण",
+    "checkPositivePay": "सकारात्मक वेतन की जाँच करें",
+    "bankAccountsSetup": "बैंक खातों की स्थापना",
+    "positivePayFiles": "सकारात्मक वेतन फ़ाइलें",
+    "bankName": "संस्था का नाम",
+    "fileDelivery": "फ़ाइल वितरण",
+    "notSupportedWithComma": "समर्थित नहीं,",
+    "requestSupport": "समर्थन का अनुरोध करें",
+    "includePositivePay": "सकारात्मक वेतन शामिल करें"
 }
