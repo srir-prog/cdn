@@ -741,5 +741,11 @@
   "fileDelivery": "File delivery",
   "notSupportedWithComma": "Not supported,",
   "requestSupport": "Request support",
-  "includePositivePay": "Include positive pay"
+  "includePositivePay": "Include positive pay",
+  "connectionType": "Connection type",
+  "hostName": "Host name",
+  "password": "Password",
+  "username": "Username",
+  "destinationDirectory": "Destination directory",
+  "retry": "Retry"
 }
