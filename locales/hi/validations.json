@@ -94,5 +94,6 @@
     "creditsExceedsOutstanding":  "लागू क्रेडिट बकाया राशि से अधिक नहीं हो सकता",
     "creditsExceedsAvailableBalance": "लागू क्रेडिट उपलब्ध क्रेडिट शेष से अधिक नहीं हो सकता",
     "daysAfterRange": "मान {{maxDaysAfter}} दिन या उससे कम होना चाहिए",
-    "maxRecipientsAllowed": "अधिकतम {{limit}} प्राप्तकर्ता"
+    "maxRecipientsAllowed": "अधिकतम {{limit}} प्राप्तकर्ता",
+    "surchargeRangeSupplierHub": "सरचार्ज {{minSurchargePercentage}} और {{maxSurchargePercentage}} के बीच होना चाहिए, जो कि दोनों समाहित हैं।"
 }

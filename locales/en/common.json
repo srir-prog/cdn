@@ -625,7 +625,7 @@
   "dueDate": "Due date",
   "relatedTo": "Related to",
   "assignee": "Assignee",
-  "createNewTask": "Add a new task",
+  "createNewTask": "Create new task",
   "applicationArea": "Solution",
   "taskNotes": "Task notes",
   "relatesTo": "Relates to",
@@ -670,6 +670,8 @@
   "creditsAvailableTooltip":"Credits are available",
   "creditsAppliedTooltip": "Credits are applied",
   "selectApplyLink": "<ourLink> </ourLink>",
+  "reviewLink": "<ourLink> </ourLink>",
+  "specificCreditsApplied": "Specific credits are applied: <ourLink>Review</ourLink>",
   "selectApply":"Select and apply credits",
   "modifyCredits":"Modify applied credits",
   "outstandingPart":"Outstanding: ${{amount}}",
@@ -727,5 +729,10 @@
   "saveToEnableInvoiceActions": "Please save the changes to enable invoice actions",
   "documentInvoiceNavigationTooltip": "Please SAVE changes to enable the function",
   "surchargeRangeSupplierHub":"Surcharge must be between {{minSurchargePercentage}} and {{maxSurchargePercentage}}, both inclusive",
-  "paymentSettingsDifferFromSupplierPrefs": "Payment settings differ from supplier preference"
+  "paymentSettingsDifferFromSupplierPrefs": "Payment settings differ from supplier preference",
+  "addTask": "Add a new task",
+  "taskToolTip": "Task: {{taskName}} <br> Due date: {{dueDate}} <br> Assignee: {{assignee}}",
+  "orDragAndDropFileHereWithLink": "<ourLink></ourLInk> or drag and drop file here",
+  "supplierEnrolledForUpdatingPaymentProfile": "Supplier enrolled for updating payment profile",
+  "supplierPortalContactUpdated": "Supplier portal contact updated"
 }

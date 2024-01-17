@@ -98,5 +98,6 @@
     "creditsExceedsOutstanding": "Credits applied cannot exceed outstanding amount",
     "creditsExceedsAvailableBalance": "Credits applied cannot exceed available credit balance",
     "daysAfterRange": "The value should be {{maxDaysAfter}} days or less",
-    "maxRecipientsAllowed": "Maximum of {{limit}} recipients"
+    "maxRecipientsAllowed": "Maximum of {{limit}} recipients",
+    "surchargeRangeSupplierHub":"Surcharge must be between {{minSurchargePercentage}} and {{maxSurchargePercentage}}, both inclusive"
 }
