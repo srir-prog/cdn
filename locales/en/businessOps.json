@@ -98,6 +98,8 @@
     "clearTransactions":"Clear transactions",
     "countOfTransactions":"Count of transactions",
     "sumOfAmount":"Sum of Amount",
-    "status":"Status"
+    "status":"Status",
+    "clientIdHeaderLabel":"Client Id",
+    "groupIdHeaderLabel":"Group Id"
 }
 
