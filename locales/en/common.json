@@ -738,5 +738,6 @@
   "invoiceTotal": "Invoice total",
   "headerCoding": "Header coding",
   "lineCoding": "Line coding",
-  "quantity": "Quantity"
+  "quantity": "Quantity",
+  "lineType": "Line type"
 }
