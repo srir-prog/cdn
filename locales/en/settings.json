@@ -732,5 +732,12 @@
   "settingsImpactInvoices": "These settings can prevent invoices from being paid if they are not set correctly.",
   "wantToProceed": "Are you sure you want to proceed?",
   "achDiscountAccountInfoLine": "Specify a discount account to post applicable invoices",
-  "includeDocumentInEmail": "Include invoice document as attachments on notification emails for approvals"
+  "includeDocumentInEmail": "Include invoice document as attachments on notification emails for approvals",
+  "arCustomFields":  "AR Custom Fields",
+  "fieldName": "Custom fields",
+  "centimeVisibility": "In Centime",
+  "customerPortalVisibility": "In Customer portal",
+  "gl": "General ledger",
+  "customFieldsLimitMessage": "Maximum limit of {{total}} custom fields",
+  "arCustomFieldsDescription":"Custom AR fields are created in your General Ledger. When added here, they will appear on Invoice or Customer tables. Enable editing to modify values directly in the table."
 }
