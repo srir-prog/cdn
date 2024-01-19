@@ -453,5 +453,13 @@
     "failedToDeleteTheTaskPleaseTryAgain": "कार्य हटाने में विफल. कृपया पुन: प्रयास करें।",
     "notStarted":"शुरू नहीं",
     "active":"सक्रिय",
-    "enrollAutoPayNoEmail":"ऑटोपे नामांकन प्रारंभ किया गया."
+    "enrollAutoPayNoEmail":"ऑटोपे नामांकन प्रारंभ किया गया.",
+    "taskType": "कार्य का प्रकार",
+    "addNotes": "नोट्स जोड़ें",
+    "selectAssignee": "समनुदेशिती का चयन करें",
+    "selectTask": "कार्य चुनें",
+    "taskNotes": "कार्य नोट्स",
+    "manageTask": "कार्य प्रबंधित करें",
+    "defaultAssignee": "प्राप्य उपयोगकर्ता",
+    "defaultTaskAssigneeError": "डिफ़ॉल्ट कार्य समनुदेशिती निर्दिष्ट नहीं है"
 }
