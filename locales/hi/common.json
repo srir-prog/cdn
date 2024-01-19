@@ -733,5 +733,6 @@
     "headerCoding": "हेडर कोडिंग",
     "lineCoding": "लाइन कोडिंग",
     "quantity": "मात्रा",
-    "lineType": "रेखा प्रकार"
+    "lineType": "रेखा प्रकार",
+    "coding": "कोडन"
 }

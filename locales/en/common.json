@@ -739,5 +739,6 @@
   "headerCoding": "Header coding",
   "lineCoding": "Line coding",
   "quantity": "Quantity",
-  "lineType": "Line type"
+  "lineType": "Line type",
+  "coding": "Coding"
 }
