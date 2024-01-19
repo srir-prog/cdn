@@ -698,7 +698,7 @@
     "post": "डाक",
     "postingPeriod": "पोस्टिंग अवधि",
     "documentViewerSupplierLoaderText": "कृपया एक क्षण के लिए, सेंटाइम एआई पिछले चालानों के आधार पर कोडिंग की भविष्यवाणी कर रहा है।",
-    "alertForPaymentMethodAcceptance": "आपूर्तिकर्ता {{paymentMethod}} के माध्यम से भुगतान प्राप्त करना पसंद नहीं करता",
+    "alertForPaymentMethodAcceptance": "{{paymentMethod}} भुगतान को स्वीकृत करने की पसंद नहीं करता है",
     "errorPostingDocumentInvoiceDetailsDocument": "जनरल लेजर में पोस्टिंग शुरू करते समय समस्या। कृपया पुनः प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें",
     "successfullyPostingDocumentInvoiceDetailsDocument": "दस्तावेज़ के लिए जनरल लेजर पर पोस्टिंग शुरू की गई है",
     "errorDeletingDocumentInvoiceDetailsDocument": "दस्तावेज़ हटाते समय समस्या. कृपया पुनः प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें",
@@ -721,5 +721,6 @@
     "saveToEnableInvoiceActions": "कृपया चालान कार्रवाई सक्षम करने के लिए परिवर्तन सहेजें",
     "surchargeRangeSupplierHub": "अत्यंतधर प्राविण्य {{minSurchargePercentage}} और {{maxSurchargePercentage}} के बीच होना चाहिए, जिसमें शामिल हैं",
     "paymentSettingsDifferFromSupplierPrefs": "भुगतान सेटिंग्स आपूर्ति प्राथमिकता से भिन्न हैं",
-    "documentInvoiceNavigationTooltip": "कृपया फ़ंक्शन को सक्षम करने के लिए परिवर्तन सहेजें"
+    "documentInvoiceNavigationTooltip": "कृपया फ़ंक्शन को सक्षम करने के लिए परिवर्तन सहेजें",
+    "enterName": "नाम दर्ज करें"
 }
