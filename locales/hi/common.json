@@ -728,5 +728,10 @@
     "taskToolTip": "कार्य: {{taskName}} <br> देय तिथि: {{dueDate}} <br> असाइनी: {{assignee}}",
     "orDragAndDropFileHereWithLink": "<ourLink></ourLink> या यहाँ फ़ाइल खींचें और छोड़ें",
     "supplierEnrolledForUpdatingPaymentProfile": "भुगतान प्रोफ़ाइल अपडेट करने के लिए आपूर्तिकर्ता नामांकित हुआ",
-    "supplierPortalContactUpdated": "आपूर्तिकर्ता पोर्टल संपर्क अपडेट हुआ"
+    "supplierPortalContactUpdated": "आपूर्तिकर्ता पोर्टल संपर्क अपडेट हुआ",
+    "invoiceTotal": "कुल बिल",
+    "headerCoding": "हेडर कोडिंग",
+    "lineCoding": "लाइन कोडिंग",
+    "quantity": "मात्रा",
+    "lineType": "रेखा प्रकार"
 }
