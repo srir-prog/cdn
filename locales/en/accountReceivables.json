@@ -455,5 +455,13 @@
     "failedToDeleteTheTaskPleaseTryAgain": "Failed to delete the task. Please try again.",
     "notStarted":"Not started",
     "active":"Active",
-    "enrollAutoPayNoEmail":"Autopay enrollment initiated"
+    "enrollAutoPayNoEmail":"Autopay enrollment initiated",
+    "taskType": "Task type",
+    "addNotes": "Add notes",
+    "selectAssignee": "Select assignee",
+    "selectTask": "Select task",
+    "taskNotes": "Task notes",
+    "manageTask": "Manage task",
+    "defaultAssignee": "Receivables User",
+    "defaultTaskAssigneeError": "Default task assignee not specified"
 }
