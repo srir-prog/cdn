@@ -735,5 +735,10 @@
     "lineCoding": "लाइन कोडिंग",
     "quantity": "मात्रा",
     "lineType": "रेखा प्रकार",
-    "coding": "कोडन"
+    "coding": "कोडन",
+    "onTime": "समय पर",
+    "assignedToOthers": "दूसरों को सौंपा गया",
+    "noTasks": "कोई कार्य नहीं",
+    "associatedTasks": "{{taskCount}} इस {{entityType}} से जुड़े और भी कार्य। <taskLink></taskLink>",
+    "viewAll": "सभी को देखें।"
 }
