@@ -732,5 +732,10 @@
   "settingsImpactInvoices": "These settings can prevent invoices from being paid if they are not set correctly.",
   "wantToProceed": "Are you sure you want to proceed?",
   "achDiscountAccountInfoLine": "Specify a discount account to post applicable invoices",
-  "includeDocumentInEmail": "Include invoice document as attachments on notification emails for approvals"
+  "includeDocumentInEmail": "Include invoice document as attachments on notification emails for approvals",
+  "taskEmailPreferences": "Task email preferences",
+  "dailySummaryEmailLabel": "Send daily summary email",
+  "assignmentEmailNotificationLabel": "Send assignment email notification",
+  "updateEmailNotificationsLabel": "Send update email notifications",
+  "taskSettings": "Task settings"
 }
