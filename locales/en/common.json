@@ -741,5 +741,10 @@
   "lineCoding": "Line coding",
   "quantity": "Quantity",
   "lineType": "Line type",
-  "coding": "Coding"
+  "coding": "Coding",
+  "onTime": "On time",
+  "assignedToOthers": "Assigned to others",
+  "noTasks": "No tasks",
+  "associatedTasks": "{{taskCount}} other tasks associated with this {{entityType}}. <taskLink></taskLink>",
+  "viewAll": "View all."
 }
