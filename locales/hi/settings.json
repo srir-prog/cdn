@@ -692,5 +692,10 @@
     "settingsImpactInvoices": "यदि ये सेटिंग्स सही ढंग से सेट नहीं की गई हैं तो इनवॉइस को भुगतान करने से रोका जा सकता है।",
     "wantToProceed": "क्या आप सुनिश्चित रूप से आगे बढ़ना चाहते हैं?",
     "achDiscountAccountInfoLine": "लागू चालान पोस्ट करने के लिए एक डिस्काउंट खाता निर्दिष्ट करें",
-    "includeDocumentInEmail": "अनुमोदन के लिए अधिसूचना ईमेल पर संलग्नक के रूप में चालान दस्तावेज़ शामिल करें"
+    "includeDocumentInEmail": "अनुमोदन के लिए अधिसूचना ईमेल पर संलग्नक के रूप में चालान दस्तावेज़ शामिल करें",
+    "taskEmailPreferences": "कार्य ईमेल प्राथमिकताएँ",
+    "dailySummaryEmailLabel": "दैनिक सारांश ईमेल भेजें",
+    "assignmentEmailNotificationLabel": "असाइनमेंट ईमेल अधिसूचना भेजें",
+    "updateEmailNotificationsLabel": "अद्यतन ईमेल सूचनाएं भेजें",
+    "taskSettings": "कार्य सेटिंग्स"
 }
