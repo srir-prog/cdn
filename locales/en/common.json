@@ -734,5 +734,10 @@
   "taskToolTip": "Task: {{taskName}} <br> Due date: {{dueDate}} <br> Assignee: {{assignee}}",
   "orDragAndDropFileHereWithLink": "<ourLink></ourLInk> or drag and drop file here",
   "supplierEnrolledForUpdatingPaymentProfile": "Supplier enrolled for updating payment profile",
-  "supplierPortalContactUpdated": "Supplier portal contact updated"
+  "supplierPortalContactUpdated": "Supplier portal contact updated",
+  "onTime": "On time",
+  "assignedToOthers": "Assigned to others",
+  "noTasks": "No tasks",
+  "associatedTasks": "{{taskCount}} other tasks associated with this {{entityType}}. <taskLink></taskLink>",
+  "viewAll": "View all."
 }

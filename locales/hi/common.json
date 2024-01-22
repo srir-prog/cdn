@@ -728,5 +728,10 @@
     "taskToolTip": "कार्य: {{taskName}} <br> देय तिथि: {{dueDate}} <br> असाइनी: {{assignee}}",
     "orDragAndDropFileHereWithLink": "<ourLink></ourLink> या यहाँ फ़ाइल खींचें और छोड़ें",
     "supplierEnrolledForUpdatingPaymentProfile": "भुगतान प्रोफ़ाइल अपडेट करने के लिए आपूर्तिकर्ता नामांकित हुआ",
-    "supplierPortalContactUpdated": "आपूर्तिकर्ता पोर्टल संपर्क अपडेट हुआ"
+    "supplierPortalContactUpdated": "आपूर्तिकर्ता पोर्टल संपर्क अपडेट हुआ",
+    "onTime": "समय पर",
+    "assignedToOthers": "दूसरों को सौंपा गया",
+    "noTasks": "कोई कार्य नहीं",
+    "associatedTasks": "{{taskCount}} इस {{entityType}} से जुड़े और भी कार्य। <taskLink></taskLink>",
+    "viewAll": "सभी को देखें।"
 }
