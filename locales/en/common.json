@@ -732,7 +732,7 @@
   "paymentSettingsDifferFromSupplierPrefs": "Payment settings differ from supplier preference",
   "addTask": "Add a new task",
   "taskToolTip": "Task: {{taskName}} <br> Due date: {{dueDate}} <br> Assignee: {{assignee}}",
-  "orDragAndDropFileHereWithLink": "<ourLink></ourLInk> or drag and drop file here",
+  "orDragAndDropFileHereWithLink": "<ourLink></ourLink> or drag and drop file here",
   "supplierEnrolledForUpdatingPaymentProfile": "Supplier enrolled for updating payment profile",
   "supplierPortalContactUpdated": "Supplier portal contact updated",
   "enterName": "Enter name",
