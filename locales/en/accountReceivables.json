@@ -305,7 +305,7 @@
     "InvoiceAmountPlaceholder": "<invoice amount>",
     "ReceivedPlaceholder": "<received>",
     "GeneralSettings": "General settings",
-    "cannotUpdateReminderCampaigns": "Cannot update workflows",
+    "cannotUpdateReminderCampaigns": "Cannot update workflow. Please try again",
     "Cannot delete Reminder Campaigns": "Cannot delete workflows",
     "sendCustomerEmail": "Send reminder email",
     "sendInternalNotification": "Send internal notification",
@@ -463,5 +463,6 @@
     "taskNotes": "Task notes",
     "manageTask": "Manage task",
     "defaultAssignee": "Receivables User",
-    "defaultTaskAssigneeError": "Default task assignee not specified"
+    "defaultTaskAssigneeError": "Select a default task assignee",
+    "missingDefaultTaskAssignee": "Default task assignee not specified"
 }
