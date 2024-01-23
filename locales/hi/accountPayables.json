@@ -441,5 +441,10 @@
     "reEnterAccountNumber": "खाता संख्या फिर से दर्ज करें",
     "supplier": "प्रदायक",
     "supplierPaymentPreference": "प्रदाता {{paymentMethod}} भुगतान स्वीकृत नहीं करना पसंद करता है",
-    "paymentSettingsUpdatedBySupplier": "आपके प्रदाता ने भुगतान सेटिंग्स को अपडेट किया गया था"
+    "paymentSettingsUpdatedBySupplier": "आपके प्रदाता ने भुगतान सेटिंग्स को अपडेट किया गया था",
+    "creditNote": "क्रेडिट नोट",
+    "issuedDate": "जारी करने की तिथि",
+    "available": "उपलब्ध",
+    "applied": "लागू",
+    "applyCredits": "क्रेडिट लागू करें"
 }

@@ -31,6 +31,7 @@
   "readyToPay": "Ready to pay",
   "processing": "Processing",
   "failed": "Failed",
+  "scheduled":"Scheduled",
   "verificationCode": "Verification code",
   "customerPortalInfoDisplayHeader": "The Customer Portal enables you to:",
   "customerPortalInfoDisplayInfo1": "View and pay outstanding invoices",
@@ -123,5 +124,7 @@
   "lastDay": "Last day of discount window",
   "autoPaySaveSettings":"Your Autopay settings have been saved.",
   "autoPaySaveSettingsFail":"Failed to save Autopay settings. Please try again.",
-  "noPaymentDetailsError":"No ACH or Credit card payment method is configured to enroll autopay."
+  "noPaymentDetailsError":"No ACH or Credit card payment method is configured to enroll autopay.",
+  "saveAndAuthorize":"Save and authorise",
+  "optoutAutopaySuccess":"Your selections have been securely saved."
 }
