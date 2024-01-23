@@ -31,6 +31,7 @@
   "verificationCode": "सत्यापन कोड",
   "customerPortalInfoDisplayHeader": "ग्राहक पोर्टल आपको निम्न कार्यों का संचालन करने की सुविधा प्रदान करता है:",
   "customerPortalInfoDisplayInfo1": "बकाया चालानों को देखें और भुगतान करें",
+  "scheduled":"अनुसूचित",
   "customerPortalInfoDisplayInfo2": "योग्य छूट के साथ चालानों को पहचानें",
   "customerPortalInfoDisplayInfo3": "डिफ़ॉल्ट भुगतान विकल्प सेट करें और सहेजें",
   "customerPortalInfoDisplayInfo4": "एक साथ कई चालानों का भुगतान करें",
@@ -120,5 +121,7 @@
   "lastDay": "डिस्काउंट विंडो का आखिरी दिन",
   "autoPaySaveSettings": "आपकी ऑटोपे सेटिंग सहेज ली गई है.",
   "autoPaySaveSettingsFail": "ऑटोपे सेटिंग सहेजने में विफल. ",
-  "noPaymentDetailsError":"ऑटोपे को नामांकित करने के लिए कोई ACH या क्रेडिट कार्ड भुगतान विधि कॉन्फ़िगर नहीं की गई है।"
+  "noPaymentDetailsError":"ऑटोपे को नामांकित करने के लिए कोई ACH या क्रेडिट कार्ड भुगतान विधि कॉन्फ़िगर नहीं की गई है।",
+  "saveAndAuthorize":"सहेजें और अधिकृत करें",
+  "optoutAutopaySuccess":"आपके चयन सुरक्षित रूप से सहेजे गए हैं."
 }
