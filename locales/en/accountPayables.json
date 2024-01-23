@@ -442,5 +442,10 @@
     "reEnterAccountNumber": "Re-enter account number",
     "supplier": "Supplier",
     "supplierPaymentPreference":"Supplier prefers to not accept {{paymentMethod}} payments",
-    "paymentSettingsUpdatedBySupplier": "Payment settings were updated by your supplier"
+    "paymentSettingsUpdatedBySupplier": "Payment settings were updated by your supplier",
+    "creditNote": "Credit note",
+    "issuedDate": "Issued date",
+    "available": "Available",
+    "applied": "Applied",
+    "applyCredits": "Apply credits"
 }
