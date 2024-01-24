@@ -745,6 +745,6 @@
   "onTime": "On time",
   "assignedToOthers": "Assigned to others",
   "noTasks": "No tasks",
-  "associatedTasks": "{{taskCount}} other tasks associated with this {{entityType}}. <taskLink></taskLink>",
-  "viewAll": "View all."
+  "associatedTasks": "<b>{{taskCount}}</b> other tasks associated with this {{entityType}}. <taskLink></taskLink>",
+  "viewAll": "View all"
 }
