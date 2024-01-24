@@ -17,7 +17,7 @@
   "successNotificationForPaymentMethodChange": "भुगतान विधि सफलतापूर्वक अपडेट की गई है",
   "bankAccountInfoLabel": "बैंक खाता",
   "accountHolderName": "खाताधारक का नाम",
-  "ABARoutingNumber": "एबीए राउटिंग नंबर",
+  "achRoutingNumber": "ACH रूटिंग नंबर",
   "confirmYourBillingAddress": "अपना बिलिंग पता पुष्टि करें",
   "saveCheckBoxLabel": "भविष्य की लेन-देन के लिए विवरण सुरक्षित रूप से सहेजें",
   "ACHAccountDetails": "एचसी विवरण",
@@ -123,5 +123,7 @@
   "autoPaySaveSettingsFail": "ऑटोपे सेटिंग सहेजने में विफल. ",
   "noPaymentDetailsError":"ऑटोपे को नामांकित करने के लिए कोई ACH या क्रेडिट कार्ड भुगतान विधि कॉन्फ़िगर नहीं की गई है।",
   "saveAndAuthorize":"सहेजें और अधिकृत करें",
-  "optoutAutopaySuccess":"आपके चयन सुरक्षित रूप से सहेजे गए हैं."
+  "optoutAutopaySuccess":"आपके चयन सुरक्षित रूप से सहेजे गए हैं.",
+  "accountHolderNameHint":"(नाम वही दर्ज करें जो आपके खाते में दिखाई देता है)",
+  "achRoutingNumberHint":"(वायर रूटिंग नंबर दर्ज न करें)"
 }
