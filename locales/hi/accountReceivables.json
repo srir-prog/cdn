@@ -303,7 +303,7 @@
     "InvoiceAmountPlaceholder": "<बीजक राशि>",
     "ReceivedPlaceholder": "<प्राप्त किया था>",
     "GeneralSettings": "सामान्य सेटिंग्स",
-    "cannotUpdateReminderCampaigns": "कार्यप्रवाह अपडेट नहीं कर सकते",
+    "cannotUpdateReminderCampaigns": "वर्कफ़्लो अपडेट नहीं किया जा सकता. कृपया पुन: प्रयास करें",
     "Cannot delete Reminder Campaigns": "कार्यप्रवाह नहीं हटा सकते",
     "sendCustomerEmail": "अनुस्मारक ईमेल भेजें",
     "sendInternalNotification": "आंतरिक सूचना भेजें",
@@ -461,5 +461,6 @@
     "taskNotes": "कार्य नोट्स",
     "manageTask": "कार्य प्रबंधित करें",
     "defaultAssignee": "प्राप्य उपयोगकर्ता",
-    "defaultTaskAssigneeError": "डिफ़ॉल्ट कार्य समनुदेशिती निर्दिष्ट नहीं है"
+    "defaultTaskAssigneeError": "एक डिफ़ॉल्ट कार्य समनुदेशिती का चयन करें",
+    "missingDefaultTaskAssignee": "डिफ़ॉल्ट कार्य समनुदेशिती निर्दिष्ट नहीं है"
 }
