@@ -739,6 +739,6 @@
     "onTime": "समय पर",
     "assignedToOthers": "दूसरों को सौंपा गया",
     "noTasks": "कोई कार्य नहीं",
-    "associatedTasks": "{{taskCount}} इस {{entityType}} से जुड़े और भी कार्य। <taskLink></taskLink>",
-    "viewAll": "सभी को देखें।"
+    "associatedTasks": "<b>{{taskCount}}</b> इस {{entityType}} से जुड़े और भी कार्य। <taskLink></taskLink>",
+    "viewAll": "सभी को देखें"
 }
