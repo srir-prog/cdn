@@ -17,7 +17,7 @@
   "successNotificationForPaymentMethodChange": "Payment method successfully updated",
   "bankAccountInfoLabel": "Bank account",
   "accountHolderName": "Account holder name",
-  "ABARoutingNumber": "ABA Routing number",
+  "achRoutingNumber": "ACH routing number",
   "confirmYourBillingAddress": "Confirm your billing address",
   "saveCheckBoxLabel": "Save details securely for future transactions",
   "ACHAccountDetails": "ACH details",
@@ -126,5 +126,7 @@
   "autoPaySaveSettingsFail":"Failed to save Autopay settings. Please try again.",
   "noPaymentDetailsError":"No ACH or Credit card payment method is configured to enroll autopay.",
   "saveAndAuthorize":"Save and authorise",
-  "optoutAutopaySuccess":"Your selections have been securely saved."
+  "optoutAutopaySuccess":"Your selections have been securely saved.",
+  "accountHolderNameHint":"(Enter name as it appears on your account)",
+  "achRoutingNumberHint":"(Do not enter a wire routing number)"
 }
