@@ -462,7 +462,6 @@
     "selectTask": "Select task",
     "taskNotes": "Task notes",
     "manageTask": "Manage task",
-    "defaultAssignee": "Receivables User",
     "defaultTaskAssigneeError": "Select a default task assignee",
     "missingDefaultTaskAssignee": "Default task assignee not specified"
 }
