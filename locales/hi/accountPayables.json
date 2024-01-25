@@ -446,5 +446,6 @@
     "issuedDate": "जारी करने की तिथि",
     "available": "उपलब्ध",
     "applied": "लागू",
-    "applyCredits": "क्रेडिट लागू करें"
+    "applyCredits": "क्रेडिट लागू करें",
+    "noCreditsToApply": "आवेदन करने के लिए कोई क्रेडिट उपलब्ध नहीं है"
 }
