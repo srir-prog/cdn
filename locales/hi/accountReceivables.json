@@ -460,7 +460,6 @@
     "selectTask": "कार्य चुनें",
     "taskNotes": "कार्य नोट्स",
     "manageTask": "कार्य प्रबंधित करें",
-    "defaultAssignee": "प्राप्य उपयोगकर्ता",
     "defaultTaskAssigneeError": "एक डिफ़ॉल्ट कार्य समनुदेशिती का चयन करें",
     "missingDefaultTaskAssignee": "डिफ़ॉल्ट कार्य समनुदेशिती निर्दिष्ट नहीं है"
 }
