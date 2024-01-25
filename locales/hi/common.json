@@ -740,5 +740,6 @@
     "assignedToOthers": "दूसरों को सौंपा गया",
     "noTasks": "कोई कार्य नहीं",
     "associatedTasks": "<b>{{taskCount}}</b> इस {{entityType}} से जुड़े और भी कार्य। <taskLink></taskLink>",
-    "viewAll": "सभी को देखें"
+    "viewAll": "सभी को देखें",
+    "noCreditsToApply": "आवेदन करने के लिए कोई क्रेडिट उपलब्ध नहीं है"
 }
