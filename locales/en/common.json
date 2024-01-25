@@ -746,5 +746,6 @@
   "assignedToOthers": "Assigned to others",
   "noTasks": "No tasks",
   "associatedTasks": "<b>{{taskCount}}</b> other tasks associated with this {{entityType}}. <taskLink></taskLink>",
-  "viewAll": "View all"
+  "viewAll": "View all",
+  "noCreditsToApply": "No credits available to apply"
 }

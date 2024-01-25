@@ -447,5 +447,6 @@
     "issuedDate": "Issued date",
     "available": "Available",
     "applied": "Applied",
-    "applyCredits": "Apply credits"
+    "applyCredits": "Apply credits",
+    "noCreditsToApply": "No credits available to apply"
 }
