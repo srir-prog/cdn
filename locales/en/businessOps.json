@@ -100,6 +100,7 @@
     "sumOfAmount":"Sum of Amount",
     "status":"Status",
     "clientIdHeaderLabel":"Client Id",
-    "groupIdHeaderLabel":"Group Id"
+    "groupIdHeaderLabel":"Group Id",
+    "potentialDuplicateHeaderLabel":"Potential Duplicate"
 }
 
