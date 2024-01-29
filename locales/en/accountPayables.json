@@ -224,6 +224,7 @@
     "processThePaymentAndMarkAsPaid": "Process the payment and mark the invoice as Paid to post payment details to General Ledger",
     "supplierCommonError": "Error while updating supplier details. Try again or contact us if the problem persists.",
     "supplierCentimeCardPrimaryCardDetailsError": "Primary contact details not available for the supplier",
+    "supplierCentimeCardVCNEmailDetailsError": "Email details not available for the supplier",
     "ExchangeRate2": "Exchange rate",
     "payFrom": "Paid from {{account}}",
     "fees": "fees",
