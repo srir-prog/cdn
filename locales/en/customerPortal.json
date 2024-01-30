@@ -128,5 +128,6 @@
   "saveAndAuthorize":"Save and authorise",
   "optoutAutopaySuccess":"Your selections have been securely saved.",
   "accountHolderNameHint":"(Enter name as it appears on your account)",
-  "achRoutingNumberHint":"(Do not enter a wire routing number)"
+  "achRoutingNumberHint":"(Do not enter a wire routing number)",
+  "savedPaymentDetails":"Thank you for confirming your payment preferences and authorizing Autopay. Your selections have been securely saved."
 }
