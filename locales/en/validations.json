@@ -100,5 +100,6 @@
     "creditsExceedsAvailableBalance": "Credits applied cannot exceed available credit balance",
     "daysAfterRange": "The value should be {{maxDaysAfter}} days or less",
     "maxRecipientsAllowed": "Maximum of {{limit}} recipients",
-    "surchargeRangeSupplierHub":"Surcharge must be between {{minSurchargePercentage}} and {{maxSurchargePercentage}}, both inclusive"
+    "surchargeRangeSupplierHub":"Surcharge must be between {{minSurchargePercentage}} and {{maxSurchargePercentage}}, both inclusive",
+    "taskTemplateHasBeenDeleted": "Task type no longer exists. Select a new type"
 }
