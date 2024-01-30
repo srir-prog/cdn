@@ -224,6 +224,7 @@
     "processThePaymentAndMarkAsPaid": "Process the payment and mark the invoice as Paid to post payment details to General Ledger",
     "supplierCommonError": "Error while updating supplier details. Try again or contact us if the problem persists.",
     "supplierCentimeCardPrimaryCardDetailsError": "Primary contact details not available for the supplier",
+    "supplierCentimeCardVCNEmailDetailsError": "Email details not available for the supplier",
     "ExchangeRate2": "Exchange rate",
     "payFrom": "Paid from {{account}}",
     "fees": "fees",
@@ -442,5 +443,11 @@
     "reEnterAccountNumber": "Re-enter account number",
     "supplier": "Supplier",
     "supplierPaymentPreference":"Supplier prefers to not accept {{paymentMethod}} payments",
-    "paymentSettingsUpdatedBySupplier": "Payment settings were updated by your supplier"
+    "paymentSettingsUpdatedBySupplier": "Payment settings were updated by your supplier",
+    "creditNote": "Credit note",
+    "issuedDate": "Issued date",
+    "available": "Available",
+    "applied": "Applied",
+    "applyCredits": "Apply credits",
+    "noCreditsToApply": "No credits available to apply"
 }

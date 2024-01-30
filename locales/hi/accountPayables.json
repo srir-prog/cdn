@@ -224,6 +224,7 @@
     "Note": "नोट: ",
     "supplierCommonError": "आपूर्तिकर्ता विवरण अपडेट करने में त्रुटि हुई है। कृपया केंद्र सहायता से संपर्क करें",
     "supplierCentimeCardPrimaryCardDetailsError": "विवरण सहेजने में त्रुटि क्योंकि आपूर्तिकर्ता के लिए प्राथमिक संपर्क विवरण उपलब्ध नहीं है",
+    "supplierCentimeCardVCNEmailDetailsError": "आपूर्तिकर्ता के लिए ईमेल विवरण उपलब्ध नहीं है",
     "ExchangeRate2": "विनिमय दर",
     "payFrom": "{{account}} से भुगतान किया",
     "fees": "फीस",
@@ -441,5 +442,11 @@
     "reEnterAccountNumber": "खाता संख्या फिर से दर्ज करें",
     "supplier": "प्रदायक",
     "supplierPaymentPreference": "प्रदाता {{paymentMethod}} भुगतान स्वीकृत नहीं करना पसंद करता है",
-    "paymentSettingsUpdatedBySupplier": "आपके प्रदाता ने भुगतान सेटिंग्स को अपडेट किया गया था"
+    "paymentSettingsUpdatedBySupplier": "आपके प्रदाता ने भुगतान सेटिंग्स को अपडेट किया गया था",
+    "creditNote": "क्रेडिट नोट",
+    "issuedDate": "जारी करने की तिथि",
+    "available": "उपलब्ध",
+    "applied": "लागू",
+    "applyCredits": "क्रेडिट लागू करें",
+    "noCreditsToApply": "आवेदन करने के लिए कोई क्रेडिट उपलब्ध नहीं है"
 }
