@@ -705,5 +705,6 @@
     "arCustomFieldsSyncInProgress": "समन्वयन प्रगति पर है. एक बार पूरा होने पर, कस्टम फ़ील्ड प्राप्य में उपलब्ध होंगे।",
     "customFieldErrorMsg": "सेटिंग अपडेट करने में त्रुटि हुई. कृपया पुन: प्रयास करें।",
     "disableAddCustomFieldsMsg": "जब सिंक चल रहा हो तो फ़ील्ड नहीं जोड़ा जा सकता",
-    "invalidARCustomFieldEditMsg": "दोनों फ़ील्ड मान अदृश्य नहीं हो सकते."
+    "invalidARCustomFieldEditMsg": "दोनों फ़ील्ड मान अदृश्य नहीं हो सकते.",
+    "ReceivablesPanelForSupplier": "सेटिंग्स"
 }
