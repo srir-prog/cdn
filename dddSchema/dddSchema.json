@@ -1854,6 +1854,59 @@
                 "formatType":"boolean"
             },
             {
+                
+                    "label":"Credit Card Preferences",
+                    "valueMap":"creditCardPreferences",
+                    "renderType":"detailsList",
+                    "renderProps":{
+                        "listInfo":[
+                            {
+                                "label":"Enabled",
+                                "valueMap":"enabled"
+                            },
+                            {
+                                "label":"Due Date Criteria",
+                                "valueMap":"dueDateCriteria"
+                            },
+                            {
+                                "label":"Amount Criteria",
+                                "valueMap":"amountCriteria"
+                            },
+                            {
+                                "label":"Amount Criteria Value",
+                                "valueMap":"amountCriteriaValue"
+                            }
+                        ]
+                    }
+                
+            },
+            {
+                "label":"Surcharge Preferences",
+                    "valueMap":"surchargePreferences",
+                    "renderType":"detailsList",
+                    "renderProps":{
+                        "listInfo":[
+                            {
+                                "label":"Due Date Criteria",
+                                "valueMap":"dueDateCriteria"
+                            }
+                        ]
+                    }
+            },
+            {
+                "label":"Ach Discount Preferences",
+                    "valueMap":"achDiscountPreferences",
+                    "renderType":"detailsList",
+                    "renderProps":{
+                        "listInfo":[
+                            {
+                                "label":"Due Date Criteria",
+                                "valueMap":"dueDateCriteria"
+                            }
+                        ]
+                    }
+            },
+            {
                 "label":"Primary Email Ids",
                 "valueMap":"primaryEmails",
                 "renderProps":{
@@ -6487,8 +6540,8 @@
                             "valueMap":"payeeName"
                         },
                         {
-                            "label":"Payer FI Funding AccountId",
-                            "valueMap":"payerFIFundingAccountId"
+                            "label":"Check Number",
+                            "valueMap":"checkNumber"
                         },
                         {
                             "label":"Ap AccountId",
@@ -6771,7 +6824,32 @@
                         },
                         {
                             "label": "Mailing Address",
-                            "valueMap": "checkMailingAddress"
+                            "valueMap": "checkMailingAddress",
+                            "renderType":"detailsList",
+                            "renderProps":{
+                                "listInfo":[
+                                    {
+                                        "label":"Address Line",
+                                        "valueMap":"addressLine"
+                                    },
+                                    {
+                                        "label":"City",
+                                        "valueMap":"city"
+                                    },
+                                    {
+                                        "label":"State",
+                                        "valueMap":"state"
+                                    },
+                                    {
+                                        "label":"Country",
+                                        "valueMap":"country"
+                                    },
+                                    {
+                                        "label":"Zip Code",
+                                        "valueMap":"zipCode"
+                                    }
+                                ]
+                            }
                         },
                         {
                             "label": "Alternate Mailing Address Enabled",
@@ -8501,6 +8579,43 @@
                 "editable": true,
                 "editType": "text",
                 "formatType":"currency"
+            },
+            {
+                "label":"Client Profile",
+                "valueMap":"clientProfile",
+                "renderType":"detailsList",
+                "renderProps":{
+                    "listInfo":[
+                        {
+                            "label":"Ap Paid",
+                            "valueMap":"apPaid"
+                        },
+                        {
+                            "label":"Ap Unpaid",
+                            "valueMap": "apUnpaid"
+                        },
+                        {
+                            "label":"Ap Supplier",
+                            "valueMap":"apSupplier"
+                        },
+                        {
+                            "label":"Ap Documents",
+                            "valueMap":"apDocuments"
+                        },
+                        {
+                            "label":"Ar Customers",
+                            "valueMap":"arCustomers"
+                        },
+                        {
+                            "label":"Ar Paid",
+                            "valueMap":"arPaid"
+                        },
+                        {
+                            "label":"Ar Unpaid",
+                            "valueMap":"arUnpaid"
+                        }
+                    ]
+                }
             }
         ],
         "additionalContent": [
