@@ -463,6 +463,6 @@
     "selectTask": "Select task",
     "taskNotes": "Task notes",
     "manageTask": "Manage task",
-    "defaultTaskAssigneeError": "Select a default task assignee",
+    "defaultTaskAssigneeError": "Save a default task assignee in the workflow to proceed",
     "missingDefaultTaskAssignee": "Default task assignee not specified"
 }
