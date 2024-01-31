@@ -735,5 +735,17 @@
   "orDragAndDropFileHereWithLink": "<ourLink></ourLink> or drag and drop file here",
   "supplierEnrolledForUpdatingPaymentProfile": "Supplier enrolled for updating payment profile",
   "supplierPortalContactUpdated": "Supplier portal contact updated",
-  "enterName": "Enter name"
+  "enterName": "Enter name",
+  "invoiceTotal": "Invoice total",
+  "headerCoding": "Header coding",
+  "lineCoding": "Line coding",
+  "quantity": "Quantity",
+  "lineType": "Line type",
+  "coding": "Coding",
+  "onTime": "On time",
+  "assignedToOthers": "Assigned to others",
+  "noTasks": "No tasks",
+  "associatedTasks": "<b>{{taskCount}}</b> other tasks associated with this {{entityType}}. <taskLink></taskLink>",
+  "viewAll": "View all",
+  "noCreditsToApply": "No credits available to apply"
 }
