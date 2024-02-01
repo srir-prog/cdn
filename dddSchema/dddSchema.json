@@ -8587,31 +8587,31 @@
                 "renderProps":{
                     "listInfo":[
                         {
-                            "label":"Ap Paid",
+                            "label":"AP Paid",
                             "valueMap":"apPaid"
                         },
                         {
-                            "label":"Ap Unpaid",
+                            "label":"AP Unpaid",
                             "valueMap": "apUnpaid"
                         },
                         {
-                            "label":"Ap Supplier",
+                            "label":"AP Supplier",
                             "valueMap":"apSupplier"
                         },
                         {
-                            "label":"Ap Documents",
+                            "label":"AP Documents",
                             "valueMap":"apDocuments"
                         },
                         {
-                            "label":"Ar Customers",
+                            "label":"AR Customers",
                             "valueMap":"arCustomers"
                         },
                         {
-                            "label":"Ar Paid",
+                            "label":"AR Paid",
                             "valueMap":"arPaid"
                         },
                         {
-                            "label":"Ar Unpaid",
+                            "label":"AR Unpaid",
                             "valueMap":"arUnpaid"
                         }
                     ]
