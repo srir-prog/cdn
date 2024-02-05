@@ -450,5 +450,5 @@
     "applied": "लागू",
     "applyCredits": "क्रेडिट लागू करें",
     "noCreditsToApply": "आवेदन करने के लिए कोई क्रेडिट उपलब्ध नहीं है",
-    "totalFooterInPopup": "कुल भुगतान राशि: {{amount}}"
+    "totalFooterInPopup": "कुल भुगतान राशि: <b>{{amount}}</b>"
 }

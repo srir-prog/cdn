@@ -451,5 +451,5 @@
     "applied": "Applied",
     "applyCredits": "Apply credits",
     "noCreditsToApply": "No credits available to apply",
-    "totalFooterInPopup": "Total payment amount: {{amount}}"
+    "totalFooterInPopup": "Total payment amount: <b>{{amount}}</b>"
 }
