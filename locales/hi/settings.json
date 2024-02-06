@@ -706,5 +706,6 @@
     "customFieldErrorMsg": "सेटिंग अपडेट करने में त्रुटि हुई. कृपया पुन: प्रयास करें।",
     "disableAddCustomFieldsMsg": "जब सिंक चल रहा हो तो फ़ील्ड नहीं जोड़ा जा सकता",
     "invalidARCustomFieldEditMsg": "दोनों फ़ील्ड मान अदृश्य नहीं हो सकते.",
-    "customerPortalInvitation": "ग्राहक पोर्टल आमंत्रण"
+    "customerPortalInvitation": "ग्राहक पोर्टल आमंत्रण",
+    "ReceivablesPanelForSupplier": "सेटिंग्स"
 }

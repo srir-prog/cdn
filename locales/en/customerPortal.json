@@ -129,5 +129,8 @@
   "optoutAutopaySuccess":"Your selections have been securely saved.",
   "accountHolderNameHint":"(Enter name as it appears on your account)",
   "achRoutingNumberHint":"(Do not enter a wire routing number)",
-  "savedPaymentDetails":"Thank you for confirming your payment preferences and authorizing Autopay. Your selections have been securely saved."
+  "savedPaymentDetails":"Thank you for confirming your payment preferences and authorizing Autopay. Your selections have been securely saved.",
+  "validAccountNumberLyons": "Valid account number",
+  "accountNumberValidationInProgressLyons": "Account number not validated. Proceed with caution",
+  "accountNumberNotValidatedLyons": "Account number not validated. Proceed with caution"
 }
