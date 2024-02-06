@@ -461,5 +461,12 @@
     "taskNotes": "कार्य नोट्स",
     "manageTask": "कार्य प्रबंधित करें",
     "defaultTaskAssigneeError": "एक डिफ़ॉल्ट कार्य समनुदेशिती का चयन करें",
-    "missingDefaultTaskAssignee": "डिफ़ॉल्ट कार्य समनुदेशिती निर्दिष्ट नहीं है"
+    "missingDefaultTaskAssignee": "डिफ़ॉल्ट कार्य समनुदेशिती निर्दिष्ट नहीं है",
+    "inviteToCustomerPortal": "ग्राहक पोर्टल पर आमंत्रित करें",
+    "historyActionCustomerPortalInviteSent": "ग्राहक पोर्टल पर आमंत्रण भेजा गया",
+    "inviteToCustomerPortalNotificationSuccess": "ग्राहक पोर्टल के लिए ईमेल आमंत्रण भेजा गया",
+    "inviteToCustomerPortalNotificationFailure": "ग्राहक पोर्टल के लिए आमंत्रण भेजते समय त्रुटि. यदि समस्या बनी रहती है तो पुनः प्रयास करें या हमसे संपर्क करें।",
+    "inviteUsersToCustomerPortal": "उपयोगकर्ताओं को ग्राहक पोर्टल पर आमंत्रित करें",
+    "accessCustomerPortal": "अपने समर्पित भुगतान केंद्र तक पहुंचें",
+    "customerPortalEmailLink": "अपने बकाया चालान देखने और ऑनलाइन भुगतान करने के लिए <ourLink>accessCustomerPortal</ourLink>।"
 }

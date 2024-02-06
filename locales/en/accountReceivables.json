@@ -463,5 +463,12 @@
     "taskNotes": "Task notes",
     "manageTask": "Manage task",
     "defaultTaskAssigneeError": "Select a default task assignee",
-    "missingDefaultTaskAssignee": "Default task assignee not specified"
+    "missingDefaultTaskAssignee": "Default task assignee not specified",
+    "inviteToCustomerPortal": "Invite to Customer Portal",
+    "historyActionCustomerPortalInvite": "Customer Portal invite email status",
+    "inviteToCustomerPortalNotificationSuccess": "Invite email(s) sent for Customer Portal access",
+    "inviteToCustomerPortalNotificationFailure": "An error occurred. Please try again later",
+    "inviteUsersToCustomerPortal": "Invite users to Customer Portal",
+    "accessCustomerPortal": "Access your dedicated Customer Portal",
+    "customerPortalEmailLink": "<ourLink>accessCustomerPortal</ourLink> to view your outstanding invoices and make online payments."
 }

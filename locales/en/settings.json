@@ -745,5 +745,6 @@
   "arCustomFieldsSyncInProgress": "Sync in progress. Once complete, custom fields will be available in Receivables.",
   "customFieldErrorMsg": "Error occurred updating settings. Please try again.",
   "disableAddCustomFieldsMsg": "Cannot add fields when sync is in progress",
-  "invalidARCustomFieldEditMsg": "Both field values cannot be invisible."
+  "invalidARCustomFieldEditMsg": "Both field values cannot be invisible.",
+  "customerPortalInvitation": "Customer Portal invitation"
 }
