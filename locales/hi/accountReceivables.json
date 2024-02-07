@@ -406,8 +406,8 @@
     "planHistoryActionInvoiceStatusUpdated": "योजना: चालान की स्थिति अपडेट की गई",
     "termName": "अवधि का नाम",
     "monthlyStatementFlag": "मासिक विवरण",
-    "planSaveSuccess": "योजना सफलतापूर्वक सहेजी गई",
-    "planSaveFail":"योजना को सहेजते समय एक समस्या हुई",
+    "planSaveSuccess": "परिवर्तनों को सफलतापूर्वक सहेजा",
+    "planSaveFail":"परिवर्तनों को सहेजते समय एक समस्या हुई",
     "headerLabelGlPostStatus": "सामान्य खाता बही की स्थिति",
     "headerLabelPartnerName": "पार्टनर नाम",
     "buyerCustomError":"ग्राहक लाते समय त्रुटि",
@@ -462,5 +462,6 @@
     "taskNotes": "कार्य नोट्स",
     "manageTask": "कार्य प्रबंधित करें",
     "defaultTaskAssigneeError": "आगे बढ़ने के लिए वर्कफ़्लो में एक डिफ़ॉल्ट कार्य असाइनी को सहेजें",
-    "missingDefaultTaskAssignee": "डिफ़ॉल्ट कार्य समनुदेशिती निर्दिष्ट नहीं है"
+    "missingDefaultTaskAssignee": "डिफ़ॉल्ट कार्य समनुदेशिती निर्दिष्ट नहीं है",
+    "customFieldsSyncBackToGL": "कस्टम फ़ील्ड को अद्यतन करने के लिए अपने सामान्य लेजर को पुन: समन्वयित करें"
 }
