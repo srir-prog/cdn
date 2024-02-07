@@ -464,5 +464,6 @@
     "taskNotes": "Task notes",
     "manageTask": "Manage task",
     "defaultTaskAssigneeError": "Save a default task assignee in the workflow to proceed",
-    "missingDefaultTaskAssignee": "Default task assignee not specified"
+    "missingDefaultTaskAssignee": "Default task assignee not specified",
+    "defaultWorkflow":"Default workflow for all new customers"
 }
