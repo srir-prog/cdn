@@ -733,7 +733,7 @@
   "wantToProceed": "Are you sure you want to proceed?",
   "achDiscountAccountInfoLine": "Specify a discount account to post applicable invoices",
   "includeDocumentInEmail": "Include invoice document as attachments on notification emails for approvals",
-  "arCustomFields":  "AR Custom Fields",
+  "arCustomFields":  "Custom Fields",
   "fieldName": "Custom fields",
   "centimeVisibility": "In Centime",
   "customerPortalVisibility": "In Customer portal",

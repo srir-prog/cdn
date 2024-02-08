@@ -408,8 +408,8 @@
     "planHistoryActionInvoiceStatusUpdated": "Plan: Invoice status updated",
     "termName": "Term name",
     "monthlyStatementFlag": "Monthly statement",
-    "planSaveSuccess": "Plan saved successfully",
-    "planSaveFail":"There was a problem while saving the plan",
+    "planSaveSuccess": "Changes saved successfully",
+    "planSaveFail":"There was a problem while saving the changes",
     "headerLabelGlPostStatus": "General ledger post status",
     "headerLabelPartnerName": "Partner name",
     "buyerCustomError": "Error while fetching customer",
@@ -471,5 +471,7 @@
     "inviteToCustomerPortalNotificationFailure": "An error occurred. Please try again later",
     "inviteUsersToCustomerPortal": "Invite users to Customer Portal",
     "accessCustomerPortal": "Access your Portal",
-    "customerPortalEmailLink": "<ourLink>accessCustomerPortal</ourLink> to view your outstanding invoices and make online payments."
+    "customerPortalEmailLink": "<ourLink>accessCustomerPortal</ourLink> to view your outstanding invoices and make online payments.",
+    "defaultWorkflow":"Default workflow for all new customers",
+    "customFieldsSyncBackToGL": "Resync your General Ledger to update custom fields"
 }

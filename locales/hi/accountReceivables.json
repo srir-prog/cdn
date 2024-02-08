@@ -406,8 +406,8 @@
     "planHistoryActionInvoiceStatusUpdated": "योजना: चालान की स्थिति अपडेट की गई",
     "termName": "अवधि का नाम",
     "monthlyStatementFlag": "मासिक विवरण",
-    "planSaveSuccess": "योजना सफलतापूर्वक सहेजी गई",
-    "planSaveFail":"योजना को सहेजते समय एक समस्या हुई",
+    "planSaveSuccess": "परिवर्तनों को सफलतापूर्वक सहेजा",
+    "planSaveFail":"परिवर्तनों को सहेजते समय एक समस्या हुई",
     "headerLabelGlPostStatus": "सामान्य खाता बही की स्थिति",
     "headerLabelPartnerName": "पार्टनर नाम",
     "buyerCustomError":"ग्राहक लाते समय त्रुटि",
@@ -469,5 +469,7 @@
     "inviteToCustomerPortalNotificationFailure": "ग्राहक पोर्टल के लिए आमंत्रण भेजते समय त्रुटि. यदि समस्या बनी रहती है तो पुनः प्रयास करें या हमसे संपर्क करें।",
     "inviteUsersToCustomerPortal": "उपयोगकर्ताओं को ग्राहक पोर्टल पर आमंत्रित करें",
     "accessCustomerPortal": "अपने समर्पित भुगतान केंद्र तक पहुंचें",
-    "customerPortalEmailLink": "अपने बकाया चालान देखने और ऑनलाइन भुगतान करने के लिए <ourLink>accessCustomerPortal</ourLink>।"
+    "customerPortalEmailLink": "अपने बकाया चालान देखने और ऑनलाइन भुगतान करने के लिए <ourLink>accessCustomerPortal</ourLink>।",
+    "defaultWorkflow":"सभी नए ग्राहकों के लिए डिफ़ॉल्ट वर्कफ़्लो",
+    "customFieldsSyncBackToGL": "कस्टम फ़ील्ड को अद्यतन करने के लिए अपने सामान्य लेजर को पुन: समन्वयित करें"
 }

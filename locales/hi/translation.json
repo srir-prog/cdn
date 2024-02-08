@@ -77,6 +77,7 @@
     "NoResults":"कोई परिणाम नहीं मिला",
     "PerPage": "प्रति पृष्ठ",
     "TableRowsSelectedMessage": "{{selectLength}} से {{totalLength}} {{selectedItemLabel}} चयनित",
+    "SelectedCountWithAmountMessage": "{{selectedLength}} {{selectedItemLabel}}, <b>{{amount}} चयनित</b>",
     "From": "से",
     "Subject": "विषय",
     "CloseModal": "मोडल को बंद करें",
