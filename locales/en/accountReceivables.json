@@ -465,5 +465,5 @@
     "manageTask": "Manage task",
     "defaultTaskAssigneeError": "Save a default task assignee in the workflow to proceed",
     "missingDefaultTaskAssignee": "Default task assignee not specified",
-    "customFieldsSyncBackToGL": "Resync your General Ledger to update custom fields"
+    "customFieldsSyncBackToGL": "Initiate a sync to ensure custom field changes are updated in the General Ledger"
 }
