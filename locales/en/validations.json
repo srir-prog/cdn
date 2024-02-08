@@ -103,4 +103,5 @@
     "surchargeRangeSupplierHub":"Surcharge must be between {{minSurchargePercentage}} and {{maxSurchargePercentage}}, both inclusive",
     "taskTemplateHasBeenDeleted": "Task type no longer exists. Select a new type",
     "inValidAccountNumberLyons": "Invalid account number"
+    "validateDirectoryPath": "Please enter correct path or you may missing trailing slash at the end"
 }

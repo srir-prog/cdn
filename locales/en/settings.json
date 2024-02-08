@@ -761,6 +761,7 @@
   "requestSubmittedForSupportLabel": "Request submitted for support",
   "requestSubmittedForSupportMsg": "Request submitted. Our team will contact you in order to discuss next steps and support for your bank",
   "connectionType": "Connection type",
+  "fileDeliveryType": "File delivery type",
   "hostName": "Host name",
   "password": "Password",
   "username": "Username",
@@ -778,6 +779,12 @@
   "resend": "Resend",
   "downloadSuccessMsg": "Files downloaded successfully",
   "downloadErrorMsg": "Error while downloading the files",
-  "resendSuccessMsg": "Files resend successfully",
-  "resendErrorMsg": "Error while resending the files12"
+  "resendSuccessMsg": "File transmission attempted and individual file transmission status updated within table",
+  "resendErrorMsg": "Error while resending the files12",
+  "keyBasedDetailsTooltip": "Our team will contact you in order to discuss next steps to connect using key file",
+  "keyFileNeeded": "Key file is needed",
+  "noCheckPaymentsMadeYet": "No check payments have been made yet",
+  "accountsNotSetupTitle": "Bank accounts have not set-up yet",
+  "accountsNotSetupMsg": "No bank accounts have completed the set-up, complete the bank set-up for Positive-pay files transfer by providing the required details",
+  "isValidPort": "Please enter valid port number"
 }
