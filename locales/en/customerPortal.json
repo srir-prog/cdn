@@ -17,7 +17,7 @@
   "successNotificationForPaymentMethodChange": "Payment method successfully updated",
   "bankAccountInfoLabel": "Bank account",
   "accountHolderName": "Account holder name",
-  "ABARoutingNumber": "ABA Routing number",
+  "achRoutingNumber": "ACH routing number",
   "confirmYourBillingAddress": "Confirm your billing address",
   "saveCheckBoxLabel": "Save details securely for future transactions",
   "ACHAccountDetails": "ACH details",
@@ -31,6 +31,7 @@
   "readyToPay": "Ready to pay",
   "processing": "Processing",
   "failed": "Failed",
+  "scheduled":"Scheduled",
   "verificationCode": "Verification code",
   "customerPortalInfoDisplayHeader": "The Customer Portal enables you to:",
   "customerPortalInfoDisplayInfo1": "View and pay outstanding invoices",
@@ -123,5 +124,13 @@
   "lastDay": "Last day of discount window",
   "autoPaySaveSettings":"Your Autopay settings have been saved.",
   "autoPaySaveSettingsFail":"Failed to save Autopay settings. Please try again.",
-  "noPaymentDetailsError":"No ACH or Credit card payment method is configured to enroll autopay."
+  "noPaymentDetailsError":"No ACH or Credit card payment method is configured to enroll autopay.",
+  "saveAndAuthorize":"Save and authorise",
+  "optoutAutopaySuccess":"Your selections have been securely saved.",
+  "accountHolderNameHint":"(Enter name as it appears on your account)",
+  "achRoutingNumberHint":"(Do not enter a wire routing number)",
+  "savedPaymentDetails":"Thank you for confirming your payment preferences and authorizing Autopay. Your selections have been securely saved.",
+  "validAccountNumberLyons": "Valid account number",
+  "accountNumberValidationInProgressLyons": "Account number not validated. Proceed with caution",
+  "accountNumberNotValidatedLyons": "Account number not validated. Proceed with caution"
 }

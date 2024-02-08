@@ -56,6 +56,7 @@
     "inValidVISA": "Invalid VISA",
     "inValidIDNumber": "Invalid ID number",
     "supplierCentimeCardPrimaryCardDetailsError": "Primary contact details are not available for the supplier",
+    "supplierCentimeCardVCNEmailDetailsError": "Email details are not available for the supplier",
     "isValidAccountNumber": "Invalid account number",
     "inValidAccountNumber": "Invalid account number",
     "inValidRoutingNumber": "Invalid routing number",
@@ -99,5 +100,7 @@
     "creditsExceedsAvailableBalance": "Credits applied cannot exceed available credit balance",
     "daysAfterRange": "The value should be {{maxDaysAfter}} days or less",
     "maxRecipientsAllowed": "Maximum of {{limit}} recipients",
-    "surchargeRangeSupplierHub":"Surcharge must be between {{minSurchargePercentage}} and {{maxSurchargePercentage}}, both inclusive"
+    "surchargeRangeSupplierHub":"Surcharge must be between {{minSurchargePercentage}} and {{maxSurchargePercentage}}, both inclusive",
+    "taskTemplateHasBeenDeleted": "Task type no longer exists. Select a new type",
+    "inValidAccountNumberLyons": "Invalid account number"
 }

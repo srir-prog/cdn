@@ -77,6 +77,7 @@
     "NoResults": "No results found",
     "PerPage": "Per page",
     "TableRowsSelectedMessage": "{{selectedLength}} out of {{totalLength}} {{selectedItemLabel}} selected",
+    "SelectedCountWithAmountMessage": "{{selectedLength}} {{selectedItemLabel}}, <b>{{amount}} selected</b>",
     "From": "From",
     "Subject": "Subject",
     "CloseModal": "Close the modal",
@@ -223,5 +224,14 @@
     "applicationSent":"Application has been sent via email to the authorised signatory.",
     "emailSentTo":"Signer - {{email}}",
     "Export": "Export",
-    "ok": "OK"
+    "ok": "OK",
+    "forecastPeriod": "Forecast period",
+    "currentWeek": "Current week",
+    "twoWeeks": "Two weeks",
+    "currentMonth": "Current month",
+    "twoMonths": "Two months",
+    "threeMonths": "Three months",
+    "currentQuarter": "Current quarter",
+    "thirteenWeeks": "Thirteen weeks",
+    "sixMonths": "Six months"
 }
