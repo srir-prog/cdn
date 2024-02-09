@@ -740,7 +740,7 @@
   "gl": "General ledger",
   "customFieldsLimitMessage": "Maximum limit of {{total}} custom fields reached. Delete existing fields to add more. ",
   "customFieldsLimitWarning": "Maximum limit of {{total}} custom fields reached.",
-  "arCustomFieldsDescription":"Custom AR fields are created in your General Ledger. When added here, they will appear on Invoice or Customer tables. Enable editing to modify values directly in the table.",
+  "arCustomFieldsDescription":"Custom fields are created in your General Ledger. When added here, they will appear on Invoice or Customer tables. Enable editing to modify values directly in the table.",
   "enableCreditCardSurchargeTooltip": "Surcharge only applies to customers in unrestricted states",
   "arCustomFieldsStartSync": "Sync your General Ledger to view newly added custom fields in Centime.",
   "arCustomFieldsSyncInProgress": "Sync in progress. When complete, custom fields will be available in Receivables.",
