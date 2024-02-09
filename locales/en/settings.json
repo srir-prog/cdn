@@ -738,13 +738,14 @@
   "centimeVisibility": "In Centime",
   "customerPortalVisibility": "In Customer portal",
   "gl": "General ledger",
-  "customFieldsLimitMessage": "Maximum limit of {{total}} custom fields",
+  "customFieldsLimitMessage": "Maximum limit of {{total}} custom fields reached. Delete existing fields to add more. ",
+  "customFieldsLimitWarning": "Maximum limit of {{total}} custom fields reached.",
   "arCustomFieldsDescription":"Custom AR fields are created in your General Ledger. When added here, they will appear on Invoice or Customer tables. Enable editing to modify values directly in the table.",
   "enableCreditCardSurchargeTooltip": "Surcharge only applies to customers in unrestricted states",
-  "arCustomFieldsStartSync": "Resync your General Ledger to view custom fields in Centime.",
-  "arCustomFieldsSyncInProgress": "Sync in progress. Once complete, custom fields will be available in Receivables.",
+  "arCustomFieldsStartSync": "Sync your General Ledger to view newly added custom fields in Centime.",
+  "arCustomFieldsSyncInProgress": "Sync in progress. When complete, custom fields will be available in Receivables.",
   "customFieldErrorMsg": "Error occurred updating settings. Please try again.",
   "disableAddCustomFieldsMsg": "Cannot add fields when sync is in progress",
-  "invalidARCustomFieldEditMsg": "Both field values cannot be invisible.",
-  "customerPortalInvitation": "Customer Portal invitation"
+  "customerPortalInvitation": "Customer Portal invitation",
+  "invalidARCustomFieldEditMsg": "Field cannot be invisible in both Centime and Customer portal"
 }

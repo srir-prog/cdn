@@ -473,5 +473,5 @@
     "accessCustomerPortal": "Access your Portal",
     "customerPortalEmailLink": "<ourLink>accessCustomerPortal</ourLink> to view your outstanding invoices and make online payments.",
     "defaultWorkflow":"Default workflow for all new customers",
-    "customFieldsSyncBackToGL": "Resync your General Ledger to update custom fields"
+    "customFieldsSyncBackToGL": "Initiate a sync to ensure custom field changes are updated in the General Ledger"
 }
