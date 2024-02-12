@@ -102,5 +102,6 @@
     "maxRecipientsAllowed": "Maximum of {{limit}} recipients",
     "surchargeRangeSupplierHub":"Surcharge must be between {{minSurchargePercentage}} and {{maxSurchargePercentage}}, both inclusive",
     "taskTemplateHasBeenDeleted": "Task type no longer exists. Select a new type",
-    "inValidAccountNumberLyons": "Invalid account number"
+    "inValidAccountNumberLyons": "Invalid account number",
+    "arAssigneeHasBeenDeleted": "Assignee no longer exists. Select a new assignee"
 }
