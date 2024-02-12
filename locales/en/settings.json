@@ -746,5 +746,6 @@
   "arCustomFieldsSyncInProgress": "Sync in progress. When complete, custom fields will be available in Receivables.",
   "customFieldErrorMsg": "Error occurred updating settings. Please try again.",
   "disableAddCustomFieldsMsg": "Cannot add fields when sync is in progress",
+  "customerPortalInvitation": "Customer Portal invitation",
   "invalidARCustomFieldEditMsg": "Field cannot be invisible in both Centime and Customer portal"
 }
