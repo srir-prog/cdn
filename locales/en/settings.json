@@ -752,5 +752,11 @@
   "dailySummaryEmailLabel": "Send daily summary email",
   "assignmentEmailNotificationLabel": "Send assignment email notification",
   "updateEmailNotificationsLabel": "Send update email notifications",
-  "taskSettings": "Task settings"
+  "taskSettings": "Task settings",
+  "dailySummaryEmailTooltip": "Enable sending daily summary email",
+  "assignmentEmailNotificationTooltip": "Enable sending email notification to assignee",
+  "updateEmailNotificationsTooltip": "Enable sending email about update in task",
+  "errorLoadingTaskSetting": "Error occurred fetching task settings",
+  "errorUpdatingTaskSetting": "Error occurred while updating task settings",
+  "updateTaskSettingSuccessMsg": "Successfully updated the task settings"
 }
