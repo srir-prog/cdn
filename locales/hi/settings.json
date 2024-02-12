@@ -707,5 +707,17 @@
     "customFieldErrorMsg": "सेटिंग अपडेट करने में त्रुटि हुई. कृपया पुन: प्रयास करें।",
     "disableAddCustomFieldsMsg": "जब सिंक चल रहा हो तो फ़ील्ड नहीं जोड़ा जा सकता",
     "invalidARCustomFieldEditMsg": "दोनों फ़ील्ड मान अदृश्य नहीं हो सकते.",
-    "ReceivablesPanelForSupplier": "सेटिंग्स"
+    "customerPortalInvitation": "ग्राहक पोर्टल आमंत्रण",
+    "ReceivablesPanelForSupplier": "सेटिंग्स",
+    "taskEmailPreferences": "कार्य ईमेल प्राथमिकताएँ",
+    "dailySummaryEmailLabel": "दैनिक सारांश ईमेल भेजें",
+    "assignmentEmailNotificationLabel": "असाइनमेंट ईमेल अधिसूचना भेजें",
+    "updateEmailNotificationsLabel": "अद्यतन ईमेल सूचनाएं भेजें",
+    "taskSettings": "कार्य सेटिंग्स",
+    "dailySummaryEmailTooltip": "दैनिक सारांश ईमेल भेजना सक्षम करें",
+    "assignmentEmailNotificationTooltip": "असाइनी को ईमेल अधिसूचना भेजना सक्षम करें",
+    "updateEmailNotificationsTooltip": "कार्य में अद्यतन के बारे में ईमेल भेजना सक्षम करें",
+    "errorLoadingTaskSetting": "कार्य सेटिंग लाने में त्रुटि हुई",
+    "errorUpdatingTaskSetting": "कार्य सेटिंग अपडेट करते समय त्रुटि उत्पन्न हुई",
+    "updateTaskSettingSuccessMsg": "कार्य सेटिंग सफलतापूर्वक अपडेट की गईं"
 }
