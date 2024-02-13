@@ -786,5 +786,5 @@
   "noCheckPaymentsMadeYet": "No check payments have been made yet",
   "accountsNotSetupTitle": "Bank accounts have not set-up yet",
   "accountsNotSetupMsg": "No bank accounts have completed the set-up, complete the bank set-up for Positive-pay files transfer by providing the required details",
-  "isValidPort": "Please enter valid port number"
+  "manualDownloadSummary": "You can download positive pay files from here: <br> <b>Check positive pay > Positive pay files > Download</b>"
 }

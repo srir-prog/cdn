@@ -233,5 +233,6 @@
     "threeMonths": "Three months",
     "currentQuarter": "Current quarter",
     "thirteenWeeks": "Thirteen weeks",
-    "sixMonths": "Six months"
+    "sixMonths": "Six months",
+    "isValidPort": "Please enter valid port number"
 }
