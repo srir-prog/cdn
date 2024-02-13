@@ -753,10 +753,10 @@
   "assignmentEmailNotificationLabel": "Send assignment email notification",
   "updateEmailNotificationsLabel": "Send update email notifications",
   "taskSettings": "Task settings",
-  "dailySummaryEmailTooltip": "Enable sending daily summary email",
-  "assignmentEmailNotificationTooltip": "Email to assignee containing open and assigned tasks",
-  "updateEmailNotificationsTooltip": "Email to assignee when a new task is assigned",
-  "errorLoadingTaskSetting": "Email to creator when a task is updated or completed",
+  "dailySummaryEmailTooltip": "Email to assignee containing open and assigned tasks",
+  "assignmentEmailNotificationTooltip": "Email to assignee when a new task is assigned",
+  "updateEmailNotificationsTooltip": "Email to creator when a task is updated or completed",
+  "errorLoadingTaskSetting": "Error occurred fetching task settings",
   "errorUpdatingTaskSetting": "Error occurred while updating task settings",
   "updateTaskSettingSuccessMsg": "Successfully updated the task settings"
 }
