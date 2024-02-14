@@ -465,7 +465,7 @@
     "manageTask": "Manage task",
     "defaultTaskAssigneeError": "Save a default task assignee in the workflow to proceed",
     "missingDefaultTaskAssignee": "Default task assignee not specified",
-    "inviteToCustomerPortal": "Invite to Customer Portal",
+    "inviteToCustomerPortal": "Invite to Portal",
     "historyActionCustomerPortalInvite": "Customer Portal invite email status",
     "inviteToCustomerPortalNotificationSuccess": "Invite email(s) sent for Customer Portal access",
     "inviteToCustomerPortalNotificationFailure": "An error occurred. Please try again later",
