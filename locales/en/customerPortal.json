@@ -133,5 +133,6 @@
   "validAccountNumberLyons": "Valid account number",
   "accountNumberValidationInProgressLyons": "Account number not validated. Proceed with caution",
   "accountNumberNotValidatedLyons": "Account number not validated. Proceed with caution",
-  "inValidAccountNumber":"Invalid Account number"
+  "inValidAccountNumber":"Invalid Account number",
+  "autopayInProgress":"Autopay enrollment is already in progress."
 }
