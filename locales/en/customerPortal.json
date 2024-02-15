@@ -106,7 +106,7 @@
   "optOutAutoPay":"Opt out of Autopay",
   "paymentDetails":"Payment details",
   "creditCard":" Credit card",
-  "buyerEnrolled":"Please contact <b>{{email}}</b> to enroll in autopay.",
+  "buyerEnrolled":"Expired or invalid link. Please contact your supplier <b>{{email}}</b> to enroll in autopay",
   "surchargeDisclaimer": "Surcharge does not exceed the payment processing cost",
   "savedPaymentDetailsLine1":"Thank you for confirming your payment preferences and authorizing Autopay. Your selections have been securely saved. You can now close this page.",
   "savedPaymentDetailsLine2":"Please contact <b>{{email}}</b> if you have any questions.",
@@ -132,5 +132,7 @@
   "savedPaymentDetails":"Thank you for confirming your payment preferences and authorizing Autopay. Your selections have been securely saved.",
   "validAccountNumberLyons": "Valid account number",
   "accountNumberValidationInProgressLyons": "Account number not validated. Proceed with caution",
-  "accountNumberNotValidatedLyons": "Account number not validated. Proceed with caution"
+  "accountNumberNotValidatedLyons": "Account number not validated. Proceed with caution",
+  "inValidAccountNumber":"Invalid Account number",
+  "autopayInProgress":"Autopay enrollment is already in progress."
 }

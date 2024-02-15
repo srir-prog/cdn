@@ -747,5 +747,7 @@
   "noTasks": "No tasks",
   "associatedTasks": "<b>{{taskCount}}</b> other tasks associated with this {{entityType}}. <taskLink></taskLink>",
   "viewAll": "View all",
-  "noCreditsToApply": "No credits available to apply"
+  "noCreditsToApply": "No credits available to apply",
+  "headerPredictionLabel": "Predicted based on <ourTypo></ourTypo> header",
+  "linesPredictionLabel": "Predicted based on <ourTypo></ourTypo> line: {{lineDescription}}"
 }

@@ -465,7 +465,7 @@
     "manageTask": "Manage task",
     "defaultTaskAssigneeError": "Save a default task assignee in the workflow to proceed",
     "missingDefaultTaskAssignee": "Default task assignee not specified",
-    "inviteToCustomerPortal": "Invite to Customer Portal",
+    "inviteToCustomerPortal": "Invite to Portal",
     "historyActionCustomerPortalInvite": "Customer Portal invite email status",
     "inviteToCustomerPortalNotificationSuccess": "Invite email(s) sent for Customer Portal access",
     "inviteToCustomerPortalNotificationFailure": "An error occurred. Please try again later",
@@ -473,5 +473,6 @@
     "accessCustomerPortal": "Access your Portal",
     "customerPortalEmailLink": "<ourLink>accessCustomerPortal</ourLink> to view your outstanding invoices and make online payments.",
     "defaultWorkflow":"Default workflow for all new customers",
-    "customFieldsSyncBackToGL": "Initiate a sync to ensure custom field changes are updated in the General Ledger"
+    "customFieldsSyncBackToGL": "Initiate a sync to ensure custom field changes are updated in the General Ledger",
+    "paymentDetailsRequired":"Payment details required"
 }

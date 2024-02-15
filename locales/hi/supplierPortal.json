@@ -56,5 +56,6 @@
   "checkImageACHDisplayToolTip": "आपके व्यापार खाते को सत्यापित करने वाला एक बैंक जारी दस्तावेज़",
   "acceptPaymentViaCheck": "चेक से भुगतान स्वीकृत करें",
   "acceptPaymentViaACH": "ACH भुगतान स्वीकृत करें",
-  "acceptPaymentViaCreditCard": "क्रेडिट कार्ड से भुगतान स्वीकृत करें"
+  "acceptPaymentViaCreditCard": "क्रेडिट कार्ड से भुगतान स्वीकृत करें",
+  "welcomeMessageForSupplierSettings": "<b>सप्लायर पोर्टल में आपका स्वागत है।</b> कृपया {{clientName}} के साथ संबंधित सभी भुगतान विधियों का विवरण देखें, जैसा की आवश्यक हो तो संपादन करें और पुष्टि करें।"
 }
