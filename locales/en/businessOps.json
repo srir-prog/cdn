@@ -99,7 +99,6 @@
     "countOfTransactions":"Count of transactions",
     "sumOfAmount":"Sum of Amount",
     "status":"Status",
-    "clientIdHeaderLabel":"Client Id",
     "groupIdHeaderLabel":"Group Id",
     "potentialDuplicateHeaderLabel":"Potential Duplicate"
 }
