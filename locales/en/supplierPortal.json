@@ -46,7 +46,7 @@
   "creditCardPaymentMethod": "Credit card",
   "achPaymentMethod": "ACH",
   "checkPaymentMethod": "Check",
-  "PleaseReviewProfile": "Please review supplier’s payment preferences",
+  "PleaseReviewProfile": "Please review and update the payment profile",
   "otherPaymentMethod": "Others",
   "readyToEnrollNotification": "Please provide your organization’s payment details",
   "enrollmentStartedNotification": "Please provide your organization’s payment details",
@@ -59,6 +59,6 @@
   "updatedDetailsInfo": "Updated by {{updatedBy}}, {{updatedDate}}",
   "checkImageACHDisplay": "Bank letter or check image",
   "checkImageACHDisplayToolTip": "A bank-issued document validating your business account",
-  "preferredPaymentMethod": "Preferred payment method",
-  "welcomeMessageForSupplierSettings":"<b>Welcome to Supplier Portal.</b> Please check the details for all payment methods maintained with {{clientName}}, make edits as required and confirm"
+  "preferredPaymentMethod": "Default payment method",
+  "welcomeMessageForSupplierSettings": "Please update your payment profile by selecting the payment methods accepted by {{clientName}}"
 }
