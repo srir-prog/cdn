@@ -338,5 +338,7 @@
     "SageStep5Label1": "Select the desired entity from the drop-down to connect",
     "CompanyId": "कंपनी आईडी",
     "UserId": "उपयोगकर्ता पहचान",
-    "EntityId": "इकाई आईडी"
+    "EntityId": "इकाई आईडी",
+    "SignUpForCentime": "सेंटिम कैश प्रबंधन के लिए साइन अप करें",
+    "AddBillingInfo": "बिलिंग जानकारी जोड़ें"
 }
