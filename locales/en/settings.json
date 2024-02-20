@@ -618,6 +618,7 @@
   "customerContactRoles": "Customer contact roles",
   "deleteAChConfirmationText": "Are you sure you want to delete this saved payment method?",
   "deleteCreditCardConfirmationText": "Are you sure you want to delete this saved payment method?",
+  "activeAutoPayText":"This will pause all scheduled autopay invoices. You can add a new payment method later.",
   "deleteACHAccount": "Delete ACH Account",
   "SaveCreditCardText": "Add a credit card",
   "fasterPaymentsText": "for faster payments",
@@ -747,5 +748,16 @@
   "customFieldErrorMsg": "Error occurred while updating settings. Please try again.",
   "disableAddCustomFieldsMsg": "Cannot add fields when sync is in progress",
   "customerPortalInvitation": "Customer Portal invitation",
-  "invalidARCustomFieldEditMsg": "Field cannot be invisible in both Centime and Customer portal"
+  "invalidARCustomFieldEditMsg": "Field cannot be invisible in both Centime and Customer portal",
+  "taskEmailPreferences": "Task email preferences",
+  "dailySummaryEmailLabel": "Send daily summary email",
+  "assignmentEmailNotificationLabel": "Send assignment email notification",
+  "updateEmailNotificationsLabel": "Send update email notifications",
+  "taskSettings": "Task settings",
+  "dailySummaryEmailTooltip": "Email to assignee containing open and assigned tasks",
+  "assignmentEmailNotificationTooltip": "Email to assignee when a new task is assigned",
+  "updateEmailNotificationsTooltip": "Email to creator when a task is updated or completed",
+  "errorLoadingTaskSetting": "Error occurred fetching task settings",
+  "errorUpdatingTaskSetting": "Error occurred while updating task settings",
+  "updateTaskSettingSuccessMsg": "Successfully updated the task settings"
 }

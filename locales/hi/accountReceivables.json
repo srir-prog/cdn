@@ -113,7 +113,7 @@
     "Currency": "मुद्रा",
     "ViewHistory": "इतिहास देखे",
     "ViewInvoiceHistory": "चालान इतिहास देखें",
-    "Cannot view Reminder Campaigns": "कार्यप्रवाह नहीं देख सकते हैं",
+    "unableToPreviewReminderWorkflows": "कार्यप्रवाह नहीं देख सकते हैं",
     "ReminderCampaignsCustomerCount": "{{customers}} ग्राहकों द्वारा उपयोग किया जाता है",
     "ReminderCampaignsCustomerEmail": "ग्राहक ईमेल : <before></before> <after></after> <on></on>",
     "ReminderCampaignsInternalEmail": "आंतरिक ईमेल : <beforeInternal></beforeInternal> <afterInternal></afterInternal>",
@@ -304,10 +304,10 @@
     "ReceivedPlaceholder": "<प्राप्त किया था>",
     "GeneralSettings": "सामान्य सेटिंग्स",
     "cannotUpdateReminderCampaigns": "वर्कफ़्लो अपडेट नहीं किया जा सकता. कृपया पुन: प्रयास करें",
-    "Cannot delete Reminder Campaigns": "कार्यप्रवाह नहीं हटा सकते",
+    "unableToDeleteReminderWorkflows": "कार्यप्रवाह नहीं हटा सकते",
     "sendCustomerEmail": "अनुस्मारक ईमेल भेजें",
     "sendInternalNotification": "आंतरिक सूचना भेजें",
-    "Cannot add Reminder Campaigns": "कार्यप्रवाह नहीं जोड़ सकते",
+    "unableToCreateReminderWorkflows": "कार्यप्रवाह नहीं जोड़ सकते",
     "senderProfile": "एआर संपर्क",
     "internalNotificationsRecipientProfile": "आंतरिक सूचनाएं प्राप्तकर्ता प्रोफ़ाइल",
     "ReceivablesPanel": "प्राप्तियों",
@@ -471,5 +471,6 @@
     "accessCustomerPortal": "अपने समर्पित भुगतान केंद्र तक पहुंचें",
     "customerPortalEmailLink": "अपने बकाया चालान देखने और ऑनलाइन भुगतान करने के लिए <ourLink>accessCustomerPortal</ourLink>।",
     "defaultWorkflow":"सभी नए ग्राहकों के लिए डिफ़ॉल्ट वर्कफ़्लो",
-    "customFieldsSyncBackToGL": "सामान्य लेजर में कस्टम फ़ील्ड परिवर्तन अपडेट किए गए हैं यह सुनिश्चित करने के लिए एक सिंक आरंभ करें"
+    "customFieldsSyncBackToGL": "सामान्य लेजर में कस्टम फ़ील्ड परिवर्तन अपडेट किए गए हैं यह सुनिश्चित करने के लिए एक सिंक आरंभ करें",
+    "paymentDetailsRequired":"भुगतान विवरण आवश्यक है"
 }
