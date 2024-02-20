@@ -135,5 +135,6 @@
   "accountNumberNotValidatedLyons": "Account number not validated. Proceed with caution",
   "inValidAccountNumber":"Invalid Account number",
   "autopayInProgress":"Autopay enrollment is already in progress.",
-  "sessionFailure":"Failed to retrieve details.Please try again."
+  "sessionFailure":"Failed to retrieve details.Please try again.",
+  "sessionExpired":"The session has expired."
 }
