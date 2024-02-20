@@ -100,7 +100,7 @@
     "quickBooksSignupTitle":"Centime integrates seamlessly with QuickBooks and enables you to:",
     "warnMsg":"Application in progress",
     "actionMsg":"Apply for Centime Banking",
-    "guidelinesMsg":"Complete your application in 3 easy steps", 
+    "guidelinesMsg":"Complete your application in 3 easy steps",
     "businessInformation":"Add business information",
     "ownershipInformation":"Add ownership information",
     "reviewSubmit":"Review & Submit",
@@ -122,7 +122,7 @@
     "descReviewAndSubmit":"Review and submit your application",
     "nextOwnershipInfo":"Next: Add Ownership Information",
     "proceedToReview":"Proceed to review",
-    "signAndSubmit":"SEND TO SIGNATORY",
+    "signAndSubmit":"Sign and submit",
     "addIndividual":"Add Individual",
     "companyName":"Company name",
     "legalBusinessName":"Legal business name",
@@ -148,7 +148,7 @@
     "centimeBankingDesc":"Diversify your deposits across multiple FDIC-insured accounts. Maximize yield, interest rates up to 40x the average.",
     "cashFlowDesc":"Explore the only all-in-one cash management solution for AP, AR, cash flow forecasting, and more.",
     "companyLogo": "Company logo",
-    "companyLogoInfoTooltip": "Receivables users can add a high-quality image to customize their Customer Portal.",
+    "companyLogoInfoTooltip": "Add a high quality image to customize Customer and Supplier Portals",
     "noPoBox":"(No PO Box)",
     "businessPhysicalAddress":"Business physical address",
     "sameAsPhysicalAddress":"Same as physical address",
@@ -156,5 +156,9 @@
     "enterCorrespondenceMail": "Enter the email you use with your Supplier",
     "verificationCode": "Verification code",
     "emailTooltipMessageForCustomerPortal": "You can securely access the Customer Portal only with the email you have provided to your Supplier and use for all invoice related communications such as invoice reminders or statements",
-    "emailPlaceHolder": "Enter work email"
+    "emailPlaceHolder": "Enter work email",
+    "signupForCentimeCashManagement": "Signup for centime cash management",
+    "addBusinessInformation": "Add business information",
+    "selectCashManagementModules": "Select cash management modules",
+    "addBillingInformation": "Add billing information"
 }

@@ -55,6 +55,7 @@
     "inValidVISA": "अमान्य वीज़ा",
     "inValidIDNumber": "अमान्य आईडी नंबर",
     "supplierCentimeCardPrimaryCardDetailsError": "विवरण सहेजने में त्रुटि क्योंकि आपूर्तिकर्ता के लिए प्राथमिक संपर्क विवरण उपलब्ध नहीं है",
+    "supplierCentimeCardVCNEmailDetailsError": "आपूर्तिकर्ता के लिए ईमेल विवरण उपलब्ध नहीं है",
     "inValidAccountNumber": "अमान्य खाता संख्या",
     "isValidAccountNumber": "अमान्य खाता संख्या",
     "inValidRoutingNumber": "अमान्य रूटिंग नंबर",
@@ -82,7 +83,7 @@
     "paymentDateHasPassed": "भुगतान की तिथि बीत चुकी है",
     "minSurchargeError": "राशि लागू क्रेडिट कार्ड राशि से कम है",
     "maxSurchargeError": "राशि लागू क्रेडिट कार्ड राशि से अधिक है",
-    "surchargePercentageRange": "मान {{maxSurchargePercentage}}% या उससे कम होना चाहिए",
+    "surchargePercentageRange": "{{maxSurchargePercentage}}% व्यापारी प्रसंस्करण शुल्क से अधिक नहीं हो सकता",
     "inValidRoutingNumberWithoutBank": "अमान्य रूटिंग नंबर",
     "minPaymentSettingsAmount": "मूल्य {{minPaymentAmount}} या अधिक होना चाहिए",
     "minValue": "मान शून्य से अधिक होना चाहिए",
@@ -93,5 +94,10 @@
     "recheckAccountNumber": "खाता संख्या मेल नहीं खाती",
     "creditsExceedsOutstanding":  "लागू क्रेडिट बकाया राशि से अधिक नहीं हो सकता",
     "creditsExceedsAvailableBalance": "लागू क्रेडिट उपलब्ध क्रेडिट शेष से अधिक नहीं हो सकता",
-    "daysAfterRange": "मान {{maxDaysAfter}} दिन या उससे कम होना चाहिए"
+    "daysAfterRange": "मान {{maxDaysAfter}} दिन या उससे कम होना चाहिए",
+    "maxRecipientsAllowed": "अधिकतम {{limit}} प्राप्तकर्ता",
+    "surchargeRangeSupplierHub": "सरचार्ज {{minSurchargePercentage}} और {{maxSurchargePercentage}} के बीच होना चाहिए, जो कि दोनों समाहित हैं।",
+    "taskTemplateHasBeenDeleted": "कार्य प्रकार अब मौजूद नहीं है. एक नया प्रकार चुनें",
+    "inValidAccountNumberLyons": "अमान्य खाता संख्या",
+    "arAssigneeHasBeenDeleted": "असाइनी अब मौजूद नहीं है. एक नया समनुदेशिती चुनें"
 }
