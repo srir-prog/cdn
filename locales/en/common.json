@@ -638,6 +638,7 @@
   "selectInvoice": "Select invoice",
   "selectUser": "Select assignee",
   "+addNewTask": "+ Add new task",
+  "+addNewTaskTemplate": "+ Add new task template",
   "selectRelatesTo": "Select option",
   "newTaskTemplate": "New task template",
   "nameOfTheTask": "Name of the task",
