@@ -136,5 +136,6 @@
   "inValidAccountNumber":"Invalid Account number",
   "autopayInProgress":"Autopay enrollment is already in progress.",
   "sessionFailure":"Failed to retrieve details.Please try again.",
-  "sessionExpired":"The session has expired."
+  "sessionExpired":"The session has expired.",
+  "noMatchFoundForTheFilter": "No invoices match your filters. Adjust your filters to view invoices."
 }
