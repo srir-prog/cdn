@@ -470,7 +470,7 @@
     "inviteToCustomerPortalNotificationSuccess": "Invite email(s) sent for Customer Portal access",
     "inviteToCustomerPortalNotificationFailure": "An error occurred. Please try again later",
     "inviteUsersToCustomerPortal": "Invite users to Customer Portal",
-    "customerPortalPlaceholder": "<Customer portal link>",
+    "customerPortalPlaceholder": "<Customer Portal link>",
     "customerPortalEmailLink": "<ourLink>accessCustomerPortal</ourLink> to view your outstanding invoices and make online payments.",
     "defaultWorkflow":"Default workflow for all new customers",
     "customFieldsSyncBackToGL": "Initiate a sync to ensure custom field changes are updated in the General Ledger",
