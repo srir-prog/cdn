@@ -99,5 +99,6 @@
     "surchargeRangeSupplierHub": "सरचार्ज {{minSurchargePercentage}} और {{maxSurchargePercentage}} के बीच होना चाहिए, जो कि दोनों समाहित हैं।",
     "taskTemplateHasBeenDeleted": "कार्य प्रकार अब मौजूद नहीं है. एक नया प्रकार चुनें",
     "inValidAccountNumberLyons": "अमान्य खाता संख्या",
-    "arAssigneeHasBeenDeleted": "असाइनी अब मौजूद नहीं है. एक नया समनुदेशिती चुनें"
+    "arAssigneeHasBeenDeleted": "असाइनी अब मौजूद नहीं है. एक नया समनुदेशिती चुनें",
+    "maxLength": "अधिकतम वर्ण सीमा  {{charLimit}}"
 }
