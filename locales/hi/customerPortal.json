@@ -131,5 +131,7 @@
   "accountNumberValidationInProgressLyons": "खाता संख्या मान्य नहीं है. सावधानी के साथ आगे बढ़ना",
   "accountNumberNotValidatedLyons": "खाता संख्या मान्य नहीं है. सावधानी के साथ आगे बढ़ना",
   "inValidAccountNumber":"अमान्य खाता संख्या",
-  "autopayInProgress":"ऑटोपे नामांकन पहले से ही प्रगति पर है।"
+  "autopayInProgress":"ऑटोपे नामांकन पहले से ही प्रगति पर है।",
+  "sessionFailure":"विवरण पुनर्प्राप्त करने में विफल। कृपया पुनः प्रयास करें।",
+  "sessionExpired":"सत्र समाप्त हो गया है."
 }
