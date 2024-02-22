@@ -4,7 +4,7 @@
   "payToLabel": "Pay to",
   "companyContactLabel": "Contact",
   "actionTabsSelection": "Action tabs selection",
-  "successNotificationAfterPayment": "Payment in progress. Click “Customer Portal” on the top left of your screen to refresh the status column",
+  "successNotificationAfterPayment": "Payment Successful! Your invoice(s) have been successfully paid",
   "genericErrorNotification": "Something went wrong, Please try again",
   "errorNotificationAfterPayment": "Payment has failed. Check the payment status",
   "invalidCardCredDetails":"Invalid card details",

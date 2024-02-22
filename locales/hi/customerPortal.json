@@ -4,7 +4,7 @@
   "payToLabel": "को भुगतान करें",
   "companyContactLabel": "कंपनी संपर्क",
   "actionTabsSelection": "कार्रवाई टैब चयन",
-  "successNotificationAfterPayment": "भुगतान प्रगति में है। अपनी स्क्रीन के शीर्ष बाएं में \"ग्राहक पोर्टल\" पर क्लिक करें ताकि स्थिति स्तंभ को रिफ्रेश कर सकें।",
+  "successNotificationAfterPayment": "भुगतान सफल! आपके चालान का भुगतान सफलतापूर्वक कर दिया गया है",
   "genericErrorNotification": "कुछ गड़बड़ हो गई है, कृपया पुनः प्रयास करें",
   "errorNotificationAfterPayment": "भुगतान विफल हुआ है। भुगतान की स्थिति की जांच करें",
   "invalidCardCredDetails":"अमान्य कार्ड विवरण",
