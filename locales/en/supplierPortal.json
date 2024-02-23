@@ -40,7 +40,7 @@
   "notInSync": "Not in sync",
   "discountConfigDisplayValue": "{{discountPercentage}} paid in {{discountDays}} days",
   "surchargePercentageRange": "The value should be {{maxSurchargePercentage}}% or less",
-  "updates": "Supplier update",
+  "updates": "Supplier payment settings",
   "current": "Current settings",
   "defaultPaymentMethod": "default payment method",
   "creditCardPaymentMethod": "Credit card",

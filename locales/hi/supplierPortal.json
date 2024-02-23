@@ -42,7 +42,7 @@
   "inSyncNotification": "सेटिंग्स आपके ग्राहक के साथ सिंक हैं",
   "notInSyncNotification": "सेटिंग्स आपके ग्राहक के साथ सिंक नहीं हैं",
   "surchargePercentageRange": "मूल्य {{maxSurchargePercentage}}% या उससे कम होना चाहिए",
-  "updates": "आपूर्तिकर्ता अपडेट",
+  "updates": "आपूर्तिकर्ता भुगतान सेटिंग्स",
   "current": "वर्तमान सेटिंग्स",
   "defaultPaymentMethod": "डिफ़ॉल्ट भुगतान विधि",
   "creditCardPaymentMethod": "क्रेडिट कार्ड",
