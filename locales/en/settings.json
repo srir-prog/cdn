@@ -759,5 +759,6 @@
   "updateEmailNotificationsTooltip": "Email to creator when a task is updated or completed",
   "errorLoadingTaskSetting": "Error occurred fetching task settings",
   "errorUpdatingTaskSetting": "Error occurred while updating task settings",
-  "updateTaskSettingSuccessMsg": "Successfully updated the task settings"
+  "updateTaskSettingSuccessMsg": "Successfully updated the task settings",
+  "mandatoryWarning": "Editing this field without setting all required fields may cause sync failures with the general ledger."
 }
