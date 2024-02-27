@@ -137,5 +137,6 @@
   "autopayInProgress":"Autopay enrollment is already in progress.",
   "sessionFailure":"Failed to retrieve details.Please try again.",
   "sessionExpired":"The session has expired.",
-  "noMatchFoundForTheFilter": "No invoices match your filters. Adjust your filters to view invoices."
+  "noMatchFoundForTheFilter": "No invoices match your filters. Adjust your filters to view invoices.",
+  "optOutEmailAddress":"Please enter your email address to opt out of Autopay"
 }
