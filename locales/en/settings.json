@@ -618,6 +618,7 @@
   "customerContactRoles": "Customer contact roles",
   "deleteAChConfirmationText": "Are you sure you want to delete this saved payment method?",
   "deleteCreditCardConfirmationText": "Are you sure you want to delete this saved payment method?",
+  "activeAutoPayText":"This will pause all scheduled autopay invoices. You can add a new payment method later.",
   "deleteACHAccount": "Delete ACH Account",
   "SaveCreditCardText": "Add a credit card",
   "fasterPaymentsText": "for faster payments",
