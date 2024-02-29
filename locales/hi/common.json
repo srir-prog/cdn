@@ -741,5 +741,7 @@
     "noTasks": "कोई कार्य नहीं",
     "associatedTasks": "<b>{{taskCount}}</b> इस {{entityType}} से जुड़े और भी कार्य। <taskLink></taskLink>",
     "viewAll": "सभी को देखें",
-    "noCreditsToApply": "आवेदन करने के लिए कोई क्रेडिट उपलब्ध नहीं है"
+    "noCreditsToApply": "आवेदन करने के लिए कोई क्रेडिट उपलब्ध नहीं है",
+    "headerPredictionLabel": "के आधार पर भविष्यवाणी की गई <ourTypo></ourTypo> हैडर",
+    "linesPredictionLabel": "के आधार पर भविष्यवाणी की गई <ourTypo></ourTypo> रेखा: {{lineDescription}}"
 }

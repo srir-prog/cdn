@@ -4,7 +4,7 @@
   "payToLabel": "को भुगतान करें",
   "companyContactLabel": "कंपनी संपर्क",
   "actionTabsSelection": "कार्रवाई टैब चयन",
-  "successNotificationAfterPayment": "भुगतान प्रगति में है। अपनी स्क्रीन के शीर्ष बाएं में \"ग्राहक पोर्टल\" पर क्लिक करें ताकि स्थिति स्तंभ को रिफ्रेश कर सकें।",
+  "successNotificationAfterPayment": "भुगतान सफल! आपके चालान का भुगतान सफलतापूर्वक कर दिया गया है",
   "genericErrorNotification": "कुछ गड़बड़ हो गई है, कृपया पुनः प्रयास करें",
   "errorNotificationAfterPayment": "भुगतान विफल हुआ है। भुगतान की स्थिति की जांच करें",
   "invalidCardCredDetails":"अमान्य कार्ड विवरण",
@@ -129,5 +129,11 @@
   "savedPaymentDetails":"अपनी भुगतान प्राथमिकताओं की पुष्टि करने और ऑटोपे को अधिकृत करने के लिए धन्यवाद। आपके चयन सुरक्षित रूप से सहेजे गए हैं.",
   "validAccountNumberLyons": "वैध खाता संख्या",
   "accountNumberValidationInProgressLyons": "खाता संख्या मान्य नहीं है. सावधानी के साथ आगे बढ़ना",
-  "accountNumberNotValidatedLyons": "खाता संख्या मान्य नहीं है. सावधानी के साथ आगे बढ़ना"
+  "accountNumberNotValidatedLyons": "खाता संख्या मान्य नहीं है. सावधानी के साथ आगे बढ़ना",
+  "inValidAccountNumber":"अमान्य खाता संख्या",
+  "autopayInProgress":"ऑटोपे नामांकन पहले से ही प्रगति पर है।",
+  "sessionFailure":"विवरण पुनर्प्राप्त करने में विफल। कृपया पुनः प्रयास करें।",
+  "sessionExpired":"सत्र समाप्त हो गया है.",
+  "noMatchFoundForTheFilter": "कोई भी चालान आपके फ़िल्टर से मेल नहीं खाता. चालान देखने के लिए अपने फ़िल्टर समायोजित करें।",
+  "optOutEmailAddress":"ऑटोपे से बाहर निकलने के लिए कृपया अपना ईमेल पता दर्ज करें"
 }
