@@ -763,7 +763,7 @@
   "requestSubmittedForSupportMsg": "Request submitted. Our team will contact you in order to discuss next steps and support for your bank",
   "connectionType": "Connection type",
   "fileDeliveryType": "How will files be delivered to the bank?",
-  "fileDeliveryTypeTooltip": "fileDeliveryTypeTooltip",
+  "fileDeliveryTypeTooltip": "Most Banks offer automated file transmission through SFTP . This makes it easier for you to ensure your files are automatically sent by Centime to your Bank. Please speak to your Bank or let us know if you need any help. Alternatively you can always download files and manually share with your Bank (e.g upload to Bank portal)",
   "hostName": "Host name",
   "password": "Password",
   "username": "Username",
