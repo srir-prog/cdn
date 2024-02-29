@@ -763,5 +763,5 @@
     "accountsNotSetupTitle": "बैंक खाते अभी तक सेट नहीं हुए हैं",
     "accountsNotSetupMsg": "किसी भी बैंक खाते ने सेट-अप पूरा नहीं किया है, आवश्यक विवरण प्रदान करके सकारात्मक-भुगतान फ़ाइल स्थानांतरण के लिए बैंक सेट-अप पूरा करें",
     "activeBankAccountsHeader": "सकारात्मक वेतन के लिए सक्रिय बैंक खाते",
-    "activeAccountsLabel": "{{activeAccounts}}/{{totalAccounts}} खाते सक्रिय हैं",
+    "activeAccountsLabel": "{{activeAccounts}}/{{totalAccounts}} खाते सक्रिय हैं"
 }

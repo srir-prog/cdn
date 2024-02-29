@@ -105,5 +105,5 @@
     "inValidAccountNumberLyons": "Invalid account number",
     "arAssigneeHasBeenDeleted": "Assignee no longer exists. Select a new assignee",
     "maxLength": "Maximum character limit {{charLimit}}",
-    "validateDirectoryPath": "Please enter correct path or you may missing trailing slash at the end",
+    "validateDirectoryPath": "Please enter correct path or you may missing trailing slash at the end"
 }
