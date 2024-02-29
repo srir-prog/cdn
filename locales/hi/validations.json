@@ -100,5 +100,6 @@
     "taskTemplateHasBeenDeleted": "कार्य प्रकार अब मौजूद नहीं है. एक नया प्रकार चुनें",
     "inValidAccountNumberLyons": "अमान्य खाता संख्या",
     "arAssigneeHasBeenDeleted": "असाइनी अब मौजूद नहीं है. एक नया समनुदेशिती चुनें",
-    "maxLength": "अधिकतम वर्ण सीमा  {{charLimit}}"
+    "maxLength": "अधिकतम वर्ण सीमा  {{charLimit}}",
+    "validateDirectoryPath": "कृपया सही पथ दर्ज करें अन्यथा अंत में पिछला स्लैश छूट सकता है"
 }
