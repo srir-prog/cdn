@@ -750,5 +750,7 @@
   "viewAll": "View all",
   "noCreditsToApply": "No credits available to apply",
   "headerPredictionLabel": "Predicted based on <ourTypo></ourTypo> header",
-  "linesPredictionLabel": "Predicted based on <ourTypo></ourTypo> line: {{lineDescription}}"
+  "linesPredictionLabel": "Predicted based on <ourTypo></ourTypo> line: {{lineDescription}}",
+  "poNumber": "PO Number",
+  "poInvoice": "PO Invoice"
 }

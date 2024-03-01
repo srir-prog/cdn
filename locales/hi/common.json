@@ -743,5 +743,7 @@
     "viewAll": "सभी को देखें",
     "noCreditsToApply": "आवेदन करने के लिए कोई क्रेडिट उपलब्ध नहीं है",
     "headerPredictionLabel": "के आधार पर भविष्यवाणी की गई <ourTypo></ourTypo> हैडर",
-    "linesPredictionLabel": "के आधार पर भविष्यवाणी की गई <ourTypo></ourTypo> रेखा: {{lineDescription}}"
+    "linesPredictionLabel": "के आधार पर भविष्यवाणी की गई <ourTypo></ourTypo> रेखा: {{lineDescription}}",
+    "poNumber": "पीओ नंबर",
+    "poInvoice": "पीओ चालान"
 }
