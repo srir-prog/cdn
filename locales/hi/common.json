@@ -745,5 +745,6 @@
     "headerPredictionLabel": "के आधार पर भविष्यवाणी की गई <ourTypo></ourTypo> हैडर",
     "linesPredictionLabel": "के आधार पर भविष्यवाणी की गई <ourTypo></ourTypo> रेखा: {{lineDescription}}",
     "poNumber": "पीओ नंबर",
-    "poInvoice": "पीओ चालान"
+    "poInvoice": "पीओ चालान",
+    "invalidPostingPeriodError": "त्रुटि: अमान्य पोस्टिंग अवधि"
 }
