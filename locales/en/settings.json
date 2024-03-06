@@ -804,5 +804,11 @@
   "accountsNotSetupTitle": "Bank accounts have not set-up yet",
   "accountsNotSetupMsg": "No bank accounts have completed the set-up, complete the bank set-up for Positive-pay files transfer by providing the required details",
   "activeBankAccountsHeader": "Active bank accounts for Positive pay",
-  "activeAccountsLabel": "{{activeAccounts}}/{{totalAccounts}} accounts active"
+  "activeAccountsLabel": "{{activeAccounts}}/{{totalAccounts}} accounts active",
+  "addCustomField": "Add custom field",
+  "source": "Source",
+  "value": "Value",
+  "addNewWithPlusPrefix": "+ Add new",
+  "valuePlaceHolder": "Added value",
+  "limitOfValues": "Reached limit of {{total}}"
 }
