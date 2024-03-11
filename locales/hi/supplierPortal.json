@@ -7,7 +7,7 @@
   "supplierHubLoginPageHeader": "{{subdomain}} का आपूर्ति पोर्टल:",
   "inValidRoutingNumberWithoutBank": "अमान्य रूटिंग नंबर",
   "notPartOfAccessList": "कृपया एक पंजीकृत ईमेल के साथ साइन इन करें",
-  "onlyForCustomers": "कोई त्रुटि हुई है। कृपया <ourLink></ourLink> से संपर्क करें",
+  "onlyForCustomers": "केन्टीम उपयोगकर्ताओं को आपूर्तिकर्ता पोर्टल तक पहुँच नहीं हो सकती",
   "defaultErrorMessageForEmailValidation": "कोई त्रुटि हुई है। कृपया <ourLink></ourLink> से संपर्क करें",
   "moreThanOnePaymentHubSupplier": "कोई त्रुटि हुई है। कृपया <ourLink></ourLink> से संपर्क करें",
   "noDataMessageForInvoicesTable": "{{clientName}} के साथ आपके पास कोई खुले चालान नहीं हैं",

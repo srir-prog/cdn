@@ -477,5 +477,6 @@
     "customFieldsSyncBackToGL": "Initiate a sync to ensure custom field changes are updated in the General Ledger",
     "paymentDetailsRequired":"Payment details required",
     "autoPayEnrollment":"Autopay Enrollment",
-    "autopayLinkPlaceholder":"<autopay link>"
+    "autopayLinkPlaceholder":"<autopay link>",
+    "headerLabelOutstandingInHomeCurrency": "Outstanding (Home Currency)"
 }
