@@ -475,5 +475,6 @@
     "customFieldsSyncBackToGL": "सामान्य लेजर में कस्टम फ़ील्ड परिवर्तन अपडेट किए गए हैं यह सुनिश्चित करने के लिए एक सिंक आरंभ करें",
     "paymentDetailsRequired":"भुगतान विवरण आवश्यक है",
     "autoPayEnrollment":"स्वतः भुगतान नामांकन",
-    "autopayLinkPlaceholder":"<ऑटोपे लिंक>"
+    "autopayLinkPlaceholder":"<ऑटोपे लिंक>",
+    "headerLabelOutstandingInHomeCurrency": "बकाया (घरेलू मुद्रा)"
 }

@@ -7,7 +7,7 @@
   "supplierHubLoginPageHeader": "{{subdomain}}'s Supplier Portal:",
   "inValidRoutingNumberWithoutBank": "Invalid routing number",
   "notPartOfAccessList": "Please sign in with a registered email",
-  "onlyForCustomers": "An error has occurred. Please contact <ourLink></ourLink>",
+  "onlyForCustomers": "Centime users can not access the Supplier Portal",
   "defaultErrorMessageForEmailValidation": "An error has occurred. Please contact <ourLink></ourLink>",
   "moreThanOnePaymentHubSupplier": "An error has occurred. Please contact <ourLink></ourLink>",
   "noDataMessageForInvoicesTable": "You have no open invoices with {{clientName}}",
