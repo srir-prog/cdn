@@ -746,5 +746,8 @@
     "linesPredictionLabel": "के आधार पर भविष्यवाणी की गई <ourTypo></ourTypo> रेखा: {{lineDescription}}",
     "poNumber": "पीओ नंबर",
     "poInvoice": "पीओ चालान",
-    "invalidPostingPeriodError": "त्रुटि: अमान्य पोस्टिंग अवधि"
+    "invalidPostingPeriodError": "त्रुटि: अमान्य पोस्टिंग अवधि",
+    "acceptQuantityMisMatch": "भीतर अनुमोदन के बिना मात्रा बेमेल स्वीकार करें",
+    "acceptRateMisMatch": "भीतर अनुमोदन के बिना दर बेमेल स्वीकार करें",
+    "acceptAmountMisMatch": "भीतर अनुमोदन के बिना राशि बेमेल स्वीकार करें"
 }
