@@ -805,6 +805,7 @@
   "accountsNotSetupMsg": "No bank accounts have completed the set-up, complete the bank set-up for Positive-pay files transfer by providing the required details",
   "activeBankAccountsHeader": "Active bank accounts for Positive pay",
   "activeAccountsLabel": "{{activeAccounts}}/{{totalAccounts}} accounts active",
+  "workflows": "Workflows",
   "addCustomField": "Add custom field",
   "source": "Source",
   "value": "Value",
