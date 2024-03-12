@@ -760,7 +760,7 @@
   "errorLoadingTaskSetting": "Error occurred fetching task settings",
   "errorUpdatingTaskSetting": "Error occurred while updating task settings",
   "updateTaskSettingSuccessMsg": "Successfully updated the task settings",
-  "mandatoryWarning": "Editing without all required fields may cause sync failures.",
+  "mandatoryWarning": "Editing custom fields without filling all mandatory fields may disrupt general ledger sync. Verify all required fields are filled in the general ledger before editing.",
   "-------Positive-Pay------": "------------",
   "fraudControl": "Fraud controls",
   "checkPositivePay": "Check Positive Pay",
@@ -805,5 +805,11 @@
   "accountsNotSetupMsg": "No bank accounts have completed the set-up, complete the bank set-up for Positive-pay files transfer by providing the required details",
   "activeBankAccountsHeader": "Active bank accounts for Positive pay",
   "activeAccountsLabel": "{{activeAccounts}}/{{totalAccounts}} accounts active",
-  "workflows": "Workflows"
+  "workflows": "Workflows",
+  "addCustomField": "Add custom field",
+  "source": "Source",
+  "value": "Value",
+  "addNewWithPlusPrefix": "+ Add new",
+  "valuePlaceHolder": "Added value",
+  "limitOfValues": "Reached limit of {{total}}"
 }
