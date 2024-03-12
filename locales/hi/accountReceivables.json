@@ -474,5 +474,16 @@
     "customFieldsSyncBackToGL": "सामान्य लेजर में कस्टम फ़ील्ड परिवर्तन अपडेट किए गए हैं यह सुनिश्चित करने के लिए एक सिंक आरंभ करें",
     "paymentDetailsRequired":"भुगतान विवरण आवश्यक है",
     "autoPayEnrollment":"स्वतः भुगतान नामांकन",
-    "autopayLinkPlaceholder":"<ऑटोपे लिंक>"
+    "autopayLinkPlaceholder":"<ऑटोपे लिंक>",
+    "globalWorkflows": "वैश्विक कार्यप्रवाह",
+    "customerSegmentWorkflows": "ग्राहक खंड वर्कफ़्लो",
+    "automatedInvoicePresentment": "स्वचालित चालान प्रस्तुति",
+    "autoSendNewInvoices": "स्वचालित रूप से नए चालान भेजें",
+    "autoSendUpdatedInvoices": "अद्यतन चालान स्वचालित रूप से भेजें",
+    "invoicePresentmentEmailTemplates": "चालान प्रस्तुति ईमेल टेम्पलेट",
+    "newInvoice": "नया चालान टेम्पलेट",
+    "updatedInvoice": "अद्यतन चालान टेम्पलेट",
+    "monthlyStatementEmailTemplate": "मासिक विवरण ईमेल टेम्पलेट",
+    "defaultCustomerWorkflow": "डिफ़ॉल्ट ग्राहक वर्कफ़्लो",
+    "monthlyStatementTemplate": "मासिक विवरण टेम्पलेट"
 }
