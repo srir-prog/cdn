@@ -701,7 +701,7 @@
   "enableApproversDisplayLabel": "Enable approvers to edit invoice details",
   "onlyApproversListLabel": "Only for following approvers",
   "onlyApproversListLabelTransObj": "Only for following approvers: {{approversList}}",
-  "errorFetchingApprovalList": "Errors encountered in fetching the Approvar list. Please try again.",
+  "errorFetchingApprovalList": "Errors encountered in fetching the Approver list. Please try again.",
   "selectApprovers": "Select approvers",
   "createNewTaskTemplate": "Create new task template",
   "SupplierHubSettings": "Supplier portal settings",
@@ -810,5 +810,9 @@
   "value": "Value",
   "addNewWithPlusPrefix": "+ Add new",
   "valuePlaceHolder": "Added value",
-  "limitOfValues": "Reached limit of {{total}}"
+  "limitOfValues": "Reached limit of {{total}}",
+  "errorFetchingPoThresholdSettings": "Errors encountered in fetching the PO threshold settings. Please try again.",
+  "poThresholdSettingsHeader":"PO threshold settings",
+  "successfullyUpdatedPoSettings": "Successfully updated the PO threshold settings",
+  "errorUpdatingPoThresholdSettings": "Error while updating the PO threshold settings. Please try again."
 }
