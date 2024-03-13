@@ -355,5 +355,8 @@
     "SageStep5Label1": "Select the desired entity from the drop-down to connect",
     "CompanyId": "Company ID",
     "UserId": "User ID",
-    "EntityId": "Entity ID"
+    "EntityId": "Entity ID",
+    "SignUpForCentime": "Sign up for Centime cash management",
+    "SelectPackages": "Select cash management modules",
+    "AddBillingInfo": "Add billing information"
 }
