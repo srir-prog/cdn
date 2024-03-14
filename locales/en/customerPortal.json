@@ -32,6 +32,7 @@
   "processing": "Processing",
   "failed": "Failed",
   "scheduled":"Scheduled",
+  "pending": "Paused",
   "verificationCode": "Verification code",
   "customerPortalInfoDisplayHeader": "The Customer Portal enables you to:",
   "customerPortalInfoDisplayInfo1": "View and pay outstanding invoices",
@@ -138,5 +139,6 @@
   "sessionFailure":"Failed to retrieve details.Please try again.",
   "sessionExpired":"The session has expired.",
   "noMatchFoundForTheFilter": "No invoices match your filters. Adjust your filters to view invoices.",
-  "optOutEmailAddress":"Please enter your email address to opt out of Autopay"
+  "optOutEmailAddress":"Please enter your email address to opt out of Autopay",
+  "noPaymentDetailsAutoPay": "You're on autopay with no payment details on file. Go to settings and include ACH or credit card information to resume autopay."
 }

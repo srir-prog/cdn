@@ -477,5 +477,17 @@
     "customFieldsSyncBackToGL": "Initiate a sync to ensure custom field changes are updated in the General Ledger",
     "paymentDetailsRequired":"Payment details required",
     "autoPayEnrollment":"Autopay Enrollment",
-    "autopayLinkPlaceholder":"<autopay link>"
+    "autopayLinkPlaceholder":"<autopay link>",
+    "globalWorkflows": "Global workflows",
+    "customerSegmentWorkflows": "Customer segment workflows",
+    "automatedInvoicePresentment": "Automated invoice presentment",
+    "autoSendNewInvoices": "Automatically send new invoices",
+    "autoSendUpdatedInvoices": "Automatically send updated invoices",
+    "invoicePresentmentEmailTemplates": "Invoice presentment email templates",
+    "newInvoice": "New invoice template",
+    "updatedInvoice": "Updated invoice template",
+    "monthlyStatementEmailTemplate": "Monthly statement email template",
+    "defaultCustomerWorkflow": "Default customer workflow",
+    "monthlyStatementTemplate": "Monthly statement template",
+    "headerLabelOutstandingInHomeCurrency": "Outstanding (Home Currency)"
 }
