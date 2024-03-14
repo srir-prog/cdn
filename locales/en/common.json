@@ -753,5 +753,6 @@
   "linesPredictionLabel": "Predicted based on <ourTypo></ourTypo> line: {{lineDescription}}",
   "poNumber": "PO Number",
   "poInvoice": "PO Invoice",
-  "invalidPostingPeriodError": "Error: Invalid Posting Period"
+  "invalidPostingPeriodError": "Error: Invalid Posting Period",
+  "cashFlowGraphTable": "Cash impact table"
 }
