@@ -140,5 +140,6 @@
   "sessionExpired":"The session has expired.",
   "noMatchFoundForTheFilter": "No invoices match your filters. Adjust your filters to view invoices.",
   "optOutEmailAddress":"Please enter your email address to opt out of Autopay",
-  "noPaymentDetailsAutoPay": "You're on autopay with no payment details on file. Go to settings and include ACH or credit card information to resume autopay."
+  "noPaymentDetailsAutoPay": "You're on autopay with no payment details on file. Go to settings and include ACH or credit card information to resume autopay.",
+  "agreeTo": "By clicking on Save and Authorise, you agree to"
 }
