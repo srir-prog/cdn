@@ -727,7 +727,7 @@
     "bankAccountsSetup": "सकारात्मक वेतन व्यवस्था",
     "positivePayFiles": "सकारात्मक वेतन फ़ाइलें",
     "bankName": "संस्था का नाम",
-    "fileDelivery": "स्वचालित फ़ाइल ट्रांसमिशन बैंक",
+    "fileDelivery": "बैंक को स्वचालित फ़ाइल स्थानांतरण",
     "emailToRequestSupport": "समर्थन का अनुरोध करने के लिए <ourLink></ourLink> को ईमेल करें",
     "requestSupport": "समर्थन का अनुरोध करें",
     "addDetails": "विवरण जोड़ें",
