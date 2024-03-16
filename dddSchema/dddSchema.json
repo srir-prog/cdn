@@ -43,7 +43,10 @@
                                 "PROCESSING": "PROCESSING",
                                 "REJECTED":"REJECTED",
                                 "SCHEDULED": "SCHEDULED",
-                                "UNKNOWN": "UNKNOWN"
+                                "UNKNOWN": "UNKNOWN",
+                                "RETRY_PROCESSING":"RETRY_PROCESSING",
+                                "RETRY_REVIEWED":"RETRY_REVIEWED"
+                                
                             },
                             "multiple":true,
                             "tnsForOptions": false,
@@ -59,7 +62,9 @@
                         "PROCESSING",
                         "REJECTED",
                         "SCHEDULED",
-                        "UNKNOWN"]
+                        "UNKNOWN",
+                        "RETRY_PROCESSING",
+                        "RETRY_REVIEWED"]
                     },
                     {
                         "type": "Dropdown",
@@ -6484,6 +6489,10 @@
             {
                 "label": "Group ID",
                 "valueMap": "groupId"
+            }, 
+            {
+                "label": "Fraud Check Status",
+                "valueMap": "fraudCheckStatus"
             },
             {
                 "label": "Payment Sub Status",
@@ -6523,9 +6532,10 @@
                 }
             },
             {
-                "label": "Payment meta data",
+                "label": "Payment Meta Data",
                 "valueMap": "paymentMetadata",
                 "renderProps": {
+                    "ignoreKeys":["params"],
                     "listInfo": [
                         {
                             "label":"Invoice Details",
@@ -6536,17 +6546,18 @@
                             "valueMap":"payerName"
                         },
                         {
-                            "label":"Payee Name",
-                            "valueMap":"payeeName"
+                            "label":"Payer FI Funding AccountId",
+                            "valueMap":"payerFIFundingAccountId"
                         },
                         {
-                            "label":"Check Number",
-                            "valueMap":"checkNumber"
+                            "label":"Payee Name",
+                            "valueMap":"payeeName"
                         },
                         {
                             "label":"Ap AccountId",
                             "valueMap":"apAccountId"
                         }
+
 
                         
                     ],
@@ -6698,9 +6709,52 @@
                         "paymentId": "paymentId"
                     }
                 }
+            },
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Retry Payment",
+                    "className":"mb-5"
+                },
+                "hideBtnFor":{
+                    "paymentStatus":[
+                        "APPROVED",
+                        "CANCELLED",
+                        "COMPLETED",
+                        "FAILED",
+                        "HOLD",
+                        "INITIATED",
+                        "PROCESSING",
+                        "REJECTED",
+                        "SCHEDULED",
+                        "UNKNOWN",
+                        "RETRY_REVIEWED"
+                    ]
+                },
+                "renderPosition": "top",
+                "className":"right",
+                "gridSize":2,
+                "action": {
+                    "type": "updateCall",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "RetryPayment"
+                    },
+                    "paramObjMap": {
+                        "clientId": "payerReferenceId",
+                        "paymentId": "paymentId"
+                    },
+                    "successNotificationObject": {
+                        "message": "Success"
+                    }
+                }
             }
         ]
     },
+    
     "fraudCheckResults":{
         "componentType": "detailsList",
         "title": "Fraud Check Results",
@@ -10012,6 +10066,7 @@
                 "enableSort": true,
                 "formatType":"currency"
             }
+            
         ]
     },
     "errors": [],

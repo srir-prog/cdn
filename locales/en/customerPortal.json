@@ -4,9 +4,9 @@
   "payToLabel": "Pay to",
   "companyContactLabel": "Contact",
   "actionTabsSelection": "Action tabs selection",
-  "successNotificationAfterPayment": "Payment in progress. Click “Customer Portal” on the top left of your screen to refresh the status column",
+  "successNotificationAfterPayment": "Payment for the selected invoice(s) has been successfully processed. A receipt of your payment has been sent to your inbox",
   "genericErrorNotification": "Something went wrong, Please try again",
-  "errorNotificationAfterPayment": "Payment has failed. Check the payment status",
+  "errorNotificationAfterPayment": "Payment failed for the selected invoice(s) due to an error. Please try again or use a different payment method",
   "invalidCardCredDetails":"Invalid card details",
   "confirmPaymentModalLabel": "Confirm Payment",
   "creditCardDetails": "Credit card details",
@@ -137,5 +137,6 @@
   "autopayInProgress":"Autopay enrollment is already in progress.",
   "sessionFailure":"Failed to retrieve details.Please try again.",
   "sessionExpired":"The session has expired.",
+  "noMatchFoundForTheFilter": "No invoices match your filters. Adjust your filters to view invoices.",
   "optOutEmailAddress":"Please enter your email address to opt out of Autopay"
 }
