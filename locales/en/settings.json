@@ -812,6 +812,7 @@
   "addNewWithPlusPrefix": "+ Add new",
   "valuePlaceHolder": "Added value",
   "limitOfValues": "Reached limit of {{total}}",
+  "arWorkflows": "Workflows",
   "errorFetchingPoThresholdSettings": "Errors encountered in fetching the PO threshold settings. Please try again.",
   "poThresholdSettingsHeader": "PO threshold settings",
   "successfullyUpdatedPoSettings": "Successfully updated the PO threshold settings",
