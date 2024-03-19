@@ -767,7 +767,7 @@
   "bankAccountsSetup": "Positive pay set-up",
   "positivePayFiles": "Positive pay files",
   "bankName": "Institution name",
-  "fileDelivery": "Automated file transmission Bank",
+  "fileDelivery": "Automated file transmission to Bank",
   "emailToRequestSupport": "Email <ourLink></ourLink> to request support",
   "requestSupport": "Request support",
   "addDetails": "Add details",
@@ -811,5 +811,6 @@
   "value": "Value",
   "addNewWithPlusPrefix": "+ Add new",
   "valuePlaceHolder": "Added value",
-  "limitOfValues": "Reached limit of {{total}}"
+  "limitOfValues": "Reached limit of {{total}}",
+  "arWorkflows": "Workflows"
 }
