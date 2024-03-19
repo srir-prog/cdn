@@ -811,5 +811,6 @@
   "value": "Value",
   "addNewWithPlusPrefix": "+ Add new",
   "valuePlaceHolder": "Added value",
-  "limitOfValues": "Reached limit of {{total}}"
+  "limitOfValues": "Reached limit of {{total}}",
+  "arWorkflows": "Workflows"
 }

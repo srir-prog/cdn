@@ -771,5 +771,6 @@
     "value": "मूल्य",
     "addNewWithPlusPrefix": "+ नया जोड़ो",
     "valuePlaceHolder": "संवर्धित मूल्य",
-    "limitOfValues": "की सीमा तक पहुंच गया {{total}}"
+    "limitOfValues": "की सीमा तक पहुंच गया {{total}}",
+    "arWorkflows": "वर्कफ़्लो"
 }
