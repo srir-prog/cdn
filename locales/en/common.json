@@ -754,7 +754,7 @@
   "poNumber": "PO Number",
   "poInvoice": "PO Invoice",
   "invalidPostingPeriodError": "Error: Invalid Posting Period",
-  "lineMatching": "Line Matching",
+  "lineMatching": "Line matching",
   "received": "Received",
   "actions": "Actions",
   "link": "Link",
@@ -794,5 +794,12 @@
   "receiptRate": "Receipt rate",
   "receivedQuantity": "Received quantity",
   "billedQuantity": "Billed quantity",
-  "addNewLine": "Add new line"
+  "addNewLine": "Add new line",
+  "accept": "Accept",
+  "dispute": "Dispute",
+  "3Way": "3-Way",
+  "quantity2WayComparisonDescription": "Invoice quantity {{invoiceQuantity}} {{operator}} Unbilled quantity {{poUnBilled}}",
+  "quantity3WayComparisonDescription": "Invoice quantity {{invoiceQuantity}} {{operator}} Unbilled received quantity {{poUnBilled}}",
+  "rateComparisonDescription": "Invoice rate {{invoiceRate}} {{operator}} PO rate {{poRate}}",
+  "amountComparisonDescription": "Invoice amount {{invoiceAmount}} {{operator}} PO amount {{poAmount}}"
 }

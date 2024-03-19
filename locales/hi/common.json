@@ -787,5 +787,12 @@
     "receiptRate": "प्राप्ति दर",
     "receivedQuantity": "प्राप्त मात्रा",
     "billedQuantity": "बिल की गई मात्रा",
-    "addNewLine": "नई पंक्ति जोड़ें"
+    "addNewLine": "नई पंक्ति जोड़ें",
+    "accept": "सकारना",
+    "dispute": "विवाद",
+    "3Way": "3-रास्ता",
+    "quantity2WayComparisonDescription": "चालान मात्रा {{invoiceQuantity}} {{ऑपरेटर}} बिना बिल की गई मात्रा {{poUnBilled}}",
+    "quantity3WayComparisonDescription": "चालान मात्रा {{invoiceQuantity}} {{ऑपरेटर}} बिना बिल प्राप्त प्राप्त मात्रा {{poUnBilled}}",
+    "rateComparisonDescription": "चालान दर {{invoiceRate}} {{ऑपरेटर}} पीओ दर {{poRate}}",
+    "amountComparisonDescription": "चालान राशि {{invoiceAmount}} {{ऑपरेटर}} पीओ राशि {{poAmount}}"
 }
