@@ -780,5 +780,6 @@
     "poInvoiceApprovalRequired": "सभी PO चालानों पर अनुमोदन की आवश्यकता है",
     "acceptQuantityMisMatch": "भीतर अनुमोदन के बिना मात्रा बेमेल स्वीकार करें",
     "acceptRateMisMatch": "भीतर अनुमोदन के बिना दर बेमेल स्वीकार करें",
-    "acceptAmountMisMatch": "भीतर अनुमोदन के बिना राशि बेमेल स्वीकार करें"
+    "acceptAmountMisMatch": "भीतर अनुमोदन के बिना राशि बेमेल स्वीकार करें",
+    "select": "चुनना"
 }

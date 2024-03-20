@@ -795,5 +795,8 @@
     "quantity2WayComparisonDescription": "चालान मात्रा {{invoiceQuantity}} {{ऑपरेटर}} बिना बिल की गई मात्रा {{poUnBilled}}",
     "quantity3WayComparisonDescription": "चालान मात्रा {{invoiceQuantity}} {{ऑपरेटर}} बिना बिल प्राप्त प्राप्त मात्रा {{poUnBilled}}",
     "rateComparisonDescription": "चालान दर {{invoiceRate}} {{ऑपरेटर}} पीओ दर {{poRate}}",
-    "amountComparisonDescription": "चालान राशि {{invoiceAmount}} {{ऑपरेटर}} पीओ राशि {{poAmount}}"
+    "amountComparisonDescription": "चालान राशि {{invoiceAmount}} {{ऑपरेटर}} पीओ राशि {{poAmount}}",
+    "addressDiscrepancies": "कृपया तालिका में मौजूदा मुद्दों का समाधान करें",
+    "2Way": "2-रास्ता",
+    "clickToUnlink": "अनलिंक करने के लिए क्लिक करें"
 }
