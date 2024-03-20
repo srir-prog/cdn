@@ -796,5 +796,6 @@
     "rateComparisonDescription": "चालान दर {{invoiceRate}} {{ऑपरेटर}} पीओ दर {{poRate}}",
     "amountComparisonDescription": "चालान राशि {{invoiceAmount}} {{ऑपरेटर}} पीओ राशि {{poAmount}}",
     "addressDiscrepancies": "कृपया तालिका में मौजूदा मुद्दों का समाधान करें",
-    "2Way": "2-रास्ता"
+    "2Way": "2-रास्ता",
+    "clickToUnlink": "अनलिंक करने के लिए क्लिक करें"
 }
