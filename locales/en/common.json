@@ -801,5 +801,7 @@
   "quantity2WayComparisonDescription": "Invoice quantity {{invoiceQuantity}} {{operator}} Unbilled quantity {{poUnBilled}}",
   "quantity3WayComparisonDescription": "Invoice quantity {{invoiceQuantity}} {{operator}} Unbilled received quantity {{poUnBilled}}",
   "rateComparisonDescription": "Invoice rate {{invoiceRate}} {{operator}} PO rate {{poRate}}",
-  "amountComparisonDescription": "Invoice amount {{invoiceAmount}} {{operator}} PO amount {{poAmount}}"
+  "amountComparisonDescription": "Invoice amount {{invoiceAmount}} {{operator}} PO amount {{poAmount}}",
+  "addressDiscrepancies": "Please address the existing issues in the table",
+  "2Way": "2-Way"
 }

@@ -820,5 +820,6 @@
   "poInvoiceApprovalRequired": "Require approval on all PO Invoices",
   "acceptQuantityMisMatch": "Accept quantity mismatches without approval within",
   "acceptRateMisMatch": "Accept rate mismatches without approval within",
-  "acceptAmountMisMatch": "Accept amount mismatches without approval within"
+  "acceptAmountMisMatch": "Accept amount mismatches without approval within",
+  "select": "Select"
 }
