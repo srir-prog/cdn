@@ -754,6 +754,7 @@
   "poNumber": "PO Number",
   "poInvoice": "PO Invoice",
   "invalidPostingPeriodError": "Error: Invalid Posting Period",
+  "cashFlowGraphTable": "Cash impact table",
   "lineMatching": "Line matching",
   "received": "Received",
   "actions": "Actions",
