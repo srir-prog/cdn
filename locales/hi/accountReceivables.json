@@ -487,5 +487,6 @@
     "monthlyStatementEmailTemplate": "मासिक विवरण ईमेल टेम्पलेट",
     "defaultCustomerWorkflow": "डिफ़ॉल्ट ग्राहक वर्कफ़्लो",
     "monthlyStatementTemplate": "मासिक विवरण टेम्पलेट",
-    "headerLabelOutstandingInHomeCurrency": "बकाया (घरेलू मुद्रा)"
+    "headerLabelOutstandingInHomeCurrency": "बकाया (घरेलू मुद्रा)",
+    "reviewCardProfile": "समीक्षा कार्ड प्रोफ़ाइल"
 }
