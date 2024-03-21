@@ -787,5 +787,11 @@
     "receiptRate": "प्राप्ति दर",
     "receivedQuantity": "प्राप्त मात्रा",
     "billedQuantity": "बिल की गई मात्रा",
-    "addNewLine": "नई पंक्ति जोड़ें"
+    "addNewLine": "नई पंक्ति जोड़ें",
+    "greaterThanOrEqualTo": "इससे बड़ा या इसके बराबर",
+    "lessThanOrEqualTo": "से कम या बराबर",
+    "between": "बीच में",
+    "betweenOperationPlaceholder": "राशि 1: राशि 2",
+    "defaultLevelLimitError": "मूल्य आधार सीमा से कम",
+    "invoiceAmount": "बीजक राशि"
 }

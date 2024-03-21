@@ -794,5 +794,11 @@
   "receiptRate": "Receipt rate",
   "receivedQuantity": "Received quantity",
   "billedQuantity": "Billed quantity",
-  "addNewLine": "Add new line"
+  "addNewLine": "Add new line",
+  "greaterThanOrEqualTo": " Greater than or equal to",
+  "lessThanOrEqualTo": "Less than or equal to",
+  "between": "Between",
+  "betweenOperationPlaceholder": "Amount 1: Amount 2",
+  "invoiceAmount": "Invoice amount"
+
 }
