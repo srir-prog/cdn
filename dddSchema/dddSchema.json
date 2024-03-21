@@ -1837,6 +1837,52 @@
             }
         ]
     },
+    "autoPayEntriesQueryBuilder": {
+        "componentType": "detailsList",
+        "title": "Autopay Entries",
+        "ignoreKeys": [""],
+        "additionalProperties": {
+            "showQueryBuilder": true,
+            "queryBuilderPosition": "bottom",
+            "queryBuilderParams": {
+                "orientation": "row",
+                "showChooseFilterInQueryBuilder": false,
+                "elementsInfo": [
+                    {
+                        "type": "Input",
+                        "title": "Days",
+                        "queryName": "days"
+                    }
+                ]
+            }
+        },
+        "additionalContent": [
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Get Entry(s)"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "autoPayEntries"
+                    },
+                    "paramObjMap": {
+                        "days": {
+                            "type": "queryBuilder",
+                            "value": "days",
+                            "defaultValue": "0"
+                        }
+                    }
+                }
+            }
+        ]
+    },
     "buyerInfo":{
         "componentType": "detailsList",
         "title":"Buyer Information",
@@ -10067,6 +10113,12 @@
             }
             
         ]
+    },
+    "autoPayEntries": {
+        "componentType": "table",
+        "title": "Autopay Entries List",
+        "ignoreKeys":[""],
+        "headersInfo": []
     },
     "errors": [],
     "status": "SUCCESS"
