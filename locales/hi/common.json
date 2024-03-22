@@ -798,5 +798,11 @@
     "amountComparisonDescription": "चालान राशि {{invoiceAmount}} {{ऑपरेटर}} पीओ राशि {{poAmount}}",
     "addressDiscrepancies": "कृपया तालिका में मौजूदा मुद्दों का समाधान करें",
     "2Way": "2-रास्ता",
-    "clickToUnlink": "अनलिंक करने के लिए क्लिक करें"
+    "clickToUnlink": "अनलिंक करने के लिए क्लिक करें",
+    "greaterThanOrEqualTo": "इससे बड़ा या इसके बराबर",
+    "lessThanOrEqualTo": "से कम या बराबर",
+    "between": "बीच में",
+    "betweenOperationPlaceholder": "राशि 1: राशि 2",
+    "defaultLevelLimitError": "मूल्य आधार सीमा से कम",
+    "invoiceAmount": "बीजक राशि"
 }
