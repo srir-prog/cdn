@@ -88,7 +88,6 @@
                         "CREDIT_CARD",
                         "CENTIME_CARD",
                         "CENTIME_CASH",
-                        "CENTIME_PAY",
                         "CENTIME_CASH_REPAY"]
                     },
                     {

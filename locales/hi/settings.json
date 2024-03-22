@@ -772,6 +772,7 @@
     "addNewWithPlusPrefix": "+ नया जोड़ो",
     "valuePlaceHolder": "संवर्धित मूल्य",
     "limitOfValues": "की सीमा तक पहुंच गया {{total}}",
+    "arWorkflows": "वर्कफ़्लो",
     "errorFetchingPoThresholdSettings": "पीओ थ्रेशोल्ड सेटिंग लाने में त्रुटियां आईं। कृपया पुन: प्रयास करें।",
     "poThresholdSettingsHeader": "पीओ थ्रेसहोल्ड सेटिंग्स",
     "successfullyUpdatedPoSettings": "पीओ थ्रेशोल्ड सेटिंग्स को सफलतापूर्वक अपडेट किया गया",
@@ -779,5 +780,6 @@
     "poInvoiceApprovalRequired": "सभी PO चालानों पर अनुमोदन की आवश्यकता है",
     "acceptQuantityMisMatch": "भीतर अनुमोदन के बिना मात्रा बेमेल स्वीकार करें",
     "acceptRateMisMatch": "भीतर अनुमोदन के बिना दर बेमेल स्वीकार करें",
-    "acceptAmountMisMatch": "भीतर अनुमोदन के बिना राशि बेमेल स्वीकार करें"
+    "acceptAmountMisMatch": "भीतर अनुमोदन के बिना राशि बेमेल स्वीकार करें",
+    "select": "चुनना"
 }
