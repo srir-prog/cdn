@@ -101,5 +101,6 @@
     "inValidAccountNumberLyons": "अमान्य खाता संख्या",
     "arAssigneeHasBeenDeleted": "असाइनी अब मौजूद नहीं है. एक नया समनुदेशिती चुनें",
     "maxLength": "अधिकतम वर्ण सीमा  {{charLimit}}",
-    "validateDirectoryPath": "कृपया सही पथ दर्ज करें अन्यथा अंत में पिछला स्लैश छूट सकता है"
+    "validateDirectoryPath": "कृपया सही पथ दर्ज करें अन्यथा अंत में पिछला स्लैश छूट सकता है",
+    "defaultLevelLimitError": "मूल्य आधार सीमा से कम"
 }
