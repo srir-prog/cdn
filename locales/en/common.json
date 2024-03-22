@@ -755,7 +755,7 @@
   "poInvoice": "PO Invoice",
   "invalidPostingPeriodError": "Error: Invalid Posting Period",
   "cashFlowGraphTable": "Cash impact table",
-  "greaterThanOrEqualTo": " Greater than or equal to",
+  "greaterThanOrEqualTo": "Greater than or equal to",
   "lessThanOrEqualTo": "Less than or equal to",
   "between": "Between",
   "betweenOperationPlaceholder": "Amount 1: Amount 2",
