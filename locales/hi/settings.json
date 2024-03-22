@@ -781,5 +781,6 @@
     "acceptQuantityMisMatch": "भीतर अनुमोदन के बिना मात्रा बेमेल स्वीकार करें",
     "acceptRateMisMatch": "भीतर अनुमोदन के बिना दर बेमेल स्वीकार करें",
     "acceptAmountMisMatch": "भीतर अनुमोदन के बिना राशि बेमेल स्वीकार करें",
-    "select": "चुनना"
+    "select": "चुनना",
+    "supplierProfilePaymentsAcceptanceHeader": "निम्नलिखित भुगतान विधियों के लिए आपूर्तक प्रोफ़ाइल परिवर्तनों की स्पष्ट स्वीकृति की आवश्यकता"
 }
