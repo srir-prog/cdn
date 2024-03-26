@@ -747,5 +747,11 @@
     "poNumber": "पीओ नंबर",
     "poInvoice": "पीओ चालान",
     "invalidPostingPeriodError": "त्रुटि: अमान्य पोस्टिंग अवधि",
-    "cashFlowGraphTable": "नकद प्रभाव तालिका"
+    "cashFlowGraphTable": "नकद प्रभाव तालिका",
+    "greaterThanOrEqualTo": "इससे बड़ा या इसके बराबर",
+    "lessThanOrEqualTo": "से कम या बराबर",
+    "between": "बीच में",
+    "betweenOperationPlaceholder": "राशि 1: राशि 2",
+    "defaultLevelLimitError": "मूल्य आधार सीमा से कम",
+    "invoiceAmount": "बीजक राशि"
 }
