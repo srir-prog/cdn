@@ -804,5 +804,10 @@
     "between": "बीच में",
     "betweenOperationPlaceholder": "राशि 1: राशि 2",
     "defaultLevelLimitError": "मूल्य आधार सीमा से कम",
-    "invoiceAmount": "बीजक राशि"
+    "invoiceAmount": "बीजक राशि",
+    "inputMandatoryAndSave": "अनिवार्य फ़ील्ड इनपुट करें और परिवर्तन सहेजें",
+    "invoiceCaptureWarningHeader": "क्या आपको यकीन है?",
+    "invoiceCaptureWarning": "कृपया टैब बदलने से पहले अपने परिवर्तनों की पुष्टि करें।",
+    "backLinkModalHeader": "क्या आप अपने परिवर्तन सहेजना चाहेंगे?",
+    "backLinkModalHeaderWarning": "आपने दस्तावेज़ फ़ील्ड में परिवर्तन किए हैं. आगे बढ़ने से पहले परिवर्तन सहेजें या दस्तावेज़ का संपादन जारी रखने के लिए वापस जाएँ"
 }
