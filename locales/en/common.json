@@ -810,5 +810,6 @@
   "lessThanOrEqualTo": "Less than or equal to",
   "between": "Between",
   "betweenOperationPlaceholder": "Amount 1: Amount 2",
-  "invoiceAmount": "Invoice amount"
+  "invoiceAmount": "Invoice amount",
+  "inputMandatoryAndSave": "Input mandatory fields and SAVE changes"
 }
