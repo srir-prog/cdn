@@ -811,5 +811,9 @@
   "between": "Between",
   "betweenOperationPlaceholder": "Amount 1: Amount 2",
   "invoiceAmount": "Invoice amount",
-  "inputMandatoryAndSave": "Input mandatory fields and SAVE changes"
+  "inputMandatoryAndSave": "Input mandatory fields and SAVE changes",
+  "invoiceCaptureWarningHeader": "Are you sure?",
+  "invoiceCaptureWarning": "Please confirm your changes before changing the tab.",
+  "backLinkModalHeader": "Would you like to SAVE your changes?",
+  "backLinkModalHeaderWarning": "You have made changes to document fields. Save changes before proceeding or go back to continue editing the document"
 }
