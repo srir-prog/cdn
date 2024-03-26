@@ -352,7 +352,7 @@
     "generateLinkCardOnFileAR": "You need a valid card-on-file in order to generate payment links and get paid via CentimePay",
     "pleaseActivateCentimePay": "Please activate your CentimePay merchant account to send payment links and get paid faster",
     "cashFlowInfo": "Set a future expected date to include overdue invoices in the cash flow forecast",
-    "agingGraph": "AR Aging Graph",
+    "agingGraph": "AR aging graph",
     "totalReceivables": "Expected Amount",
     "adjustedCashBalance": "Previous Cash Balance",
     "closingCashBalance": "Cash Balance",
@@ -373,7 +373,7 @@
     "actions": "Actions",
     "deleteConfirmMsg" : "Are you sure you want to delete?",
     "deleteInfoMsg": "Contacts associated with this role will get moved to the company contact role",
-    "isCommunicationContactInfo": "Communication contacts receive automated reminder emails and statements",
+    "isCommunicationContactInfo": "<b>Invoice presentment:</b> exclusively receive invoice emails.<br/><b>Communication contact:</b> receive all other types of communications, including<br/>automated reminders and statements.",
     "phone": "Phone",
     "roles": "Role",
     "glSyncContactError": "No longer syncing with the GL",
@@ -489,5 +489,14 @@
     "monthlyStatementEmailTemplate": "Monthly statement email template",
     "defaultCustomerWorkflow": "Default customer workflow",
     "monthlyStatementTemplate": "Monthly statement template",
-    "headerLabelOutstandingInHomeCurrency": "Outstanding (Home Currency)"
+    "headerLabelOutstandingInHomeCurrency": "Outstanding (Home Currency)",
+    "addNewContactRole": "Add new contact role",
+    "invoiceDelivery": "Invoice delivery",
+    "otherCommunication": "Other communication",
+    "communicationContactType": "Communication type",
+    "enterRoleName": "Enter role name",
+    "selectCommunicationType": "select communication type",
+    "invoicePresentment":"Invoice presentment",
+    "communicationContact":  "Communication contact",
+    "communicationContactAndInvoicePresentment":"Communication contact and Invoice presentment"
 }

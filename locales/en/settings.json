@@ -760,7 +760,7 @@
   "errorLoadingTaskSetting": "Error occurred fetching task settings",
   "errorUpdatingTaskSetting": "Error occurred while updating task settings",
   "updateTaskSettingSuccessMsg": "Successfully updated the task settings",
-  "mandatoryWarning": "Editing custom fields without filling all mandatory fields may disrupt general ledger sync. Verify all required fields are filled in the general ledger before editing.",
+  "mandatoryWarning": "Editing custom fields without filling all mandatory fields may disrupt general ledger sync. Verify all mandatory fields are completed in the general ledger before editing.",
   "-------Positive-Pay------": "------------",
   "fraudControl": "Fraud controls",
   "checkPositivePay": "Check Positive Pay",
@@ -821,5 +821,6 @@
   "acceptQuantityMisMatch": "Accept quantity mismatches without approval within",
   "acceptRateMisMatch": "Accept rate mismatches without approval within",
   "acceptAmountMisMatch": "Accept amount mismatches without approval within",
-  "select": "Select"
+  "select": "Select",
+  "supplierProfilePaymentsAcceptanceHeader": "Require explicit acceptance of supplier profile changes for the following payment methods"
 }
