@@ -521,14 +521,15 @@
     "individualCashflow": "Individual cash flow",
     "predictionSettings": "Prediction settings",
     "sweepAccountPortfolio": "Sweep account portfolio",
-    "principalBalance": "Principal",
+    "principalBalance": "Principal balance",
     "rateAppliedToday": "Rate applied",
-    "accruedInterest": "Accrued Interest",
+    "accruedInterest": "Accrued interest",
     "interestPaidToday": "Interest Paid",
     "interestPaidMTD": "Interest Paid MTD",
     "interestPaidYTD": "Interest Paid YTD",
     "averageDailyBalanceYTD": "Average daily balance YTD",
     "feeExpenseYTD": "Fee expense YTD",
     "institute": "Institute",
-    "fdciCertificateNumber": "FDCI certificate number"
+    "institution": "Institution",
+    "fdicCertificateNumber": "FDIC Certificate Number"
 }
