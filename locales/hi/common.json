@@ -804,5 +804,6 @@
     "between": "बीच में",
     "betweenOperationPlaceholder": "राशि 1: राशि 2",
     "defaultLevelLimitError": "मूल्य आधार सीमा से कम",
-    "invoiceAmount": "बीजक राशि"
+    "invoiceAmount": "बीजक राशि",
+    "inputMandatoryAndSave": "अनिवार्य फ़ील्ड इनपुट करें और परिवर्तन सहेजें"
 }
