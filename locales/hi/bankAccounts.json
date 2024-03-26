@@ -411,5 +411,6 @@
     "averageDailyBalanceYTD": "औसत दैनिक शेष YTD",
     "feeExpenseYTD": "शुल्क व्यय YTD",
     "institute": "संस्थान",
-    "fdciCertificateNumber": "एफडीसीआई प्रमाणपत्र संख्या"
+    "institution": "संस्था",
+    "fdicCertificateNumber": "एफडीसीआई प्रमाणपत्र संख्या"
 }
