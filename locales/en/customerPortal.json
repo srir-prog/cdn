@@ -135,7 +135,7 @@
   "accountNumberValidationInProgressLyons": "Account number not validated. Proceed with caution",
   "accountNumberNotValidatedLyons": "Account number not validated. Proceed with caution",
   "inValidAccountNumber":"Invalid Account number",
-  "autopayInProgress":"Autopay enrollment is already in progress.",
+  "autopayInProgress":"Payment preferences are being applied to all invoices.",
   "sessionFailure":"Failed to retrieve details.Please try again.",
   "sessionExpired":"The session has expired.",
   "noMatchFoundForTheFilter": "No invoices match your filters. Adjust your filters to view invoices.",
