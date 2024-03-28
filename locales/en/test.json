@@ -36,5 +36,9 @@
   "position": "Position",
   "designation": "Designation",
   "key7": "Hi {{name}}, click on {{count}} row",
-  "key7_plural": "Hi {{name}}, click on {{count}} rows"
+  "key7_plural": "Hi {{name}}, click on {{count}} rows",
+  "type": "Type",
+  "visibility": "Visibility",
+  "uploadedBy": "Uploaded by",
+  "uploadedOn": "Uploaded on"
 }
