@@ -1837,6 +1837,52 @@
             }
         ]
     },
+    "autoPayEntriesQueryBuilder": {
+        "componentType": "detailsList",
+        "title": "Autopay Entries",
+        "ignoreKeys": [""],
+        "additionalProperties": {
+            "showQueryBuilder": true,
+            "queryBuilderPosition": "bottom",
+            "queryBuilderParams": {
+                "orientation": "row",
+                "showChooseFilterInQueryBuilder": false,
+                "elementsInfo": [
+                    {
+                        "type": "Input",
+                        "title": "Days",
+                        "queryName": "days"
+                    }
+                ]
+            }
+        },
+        "additionalContent": [
+            {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Get Entry(s)"
+                },
+                "renderPosition": "bottom",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "AutoPayEntries"
+                    },
+                    "paramObjMap": {
+                        "days": {
+                            "type": "queryBuilder",
+                            "value": "days",
+                            "defaultValue": "0"
+                        }
+                    }
+                }
+            }
+        ]
+    },
     "buyerInfo":{
         "componentType": "detailsList",
         "title":"Buyer Information",
@@ -10758,6 +10804,143 @@
             }
         }
     },
+    "autoPayEntries": {
+        "componentType": "table",
+        "title": "Autopay Entries List",
+        "ignoreKeys":["buyerInvoicesMap","reviewedBy","billTo","id"],
+        "headersInfo": [
+            {
+                "title": "Bill to name",
+                "valueMap": "billToName",
+                "align":"left",
+                "renderType": "Link",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "BuyerInvoiceInfo"
+                    },
+                    "paramObjMap": {
+                        "ids": "id"
+                    }
+                },
+                "enableSort": true
+            },
+            {
+                "title": "Job History Id",
+                "valueMap": "jobHistoryId",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Client Id",
+                "valueMap": "clientId",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Client Name",
+                "valueMap": "clientName",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Ref",
+                "valueMap": "reference",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Payment Method",
+                "valueMap": "paymentMethod",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true,
+                "displayValueEnum": [
+                    {
+                        "label": "ACH",
+                        "value": 1
+                    },
+                    {
+                        "label": "CREDIT CARD",
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "title": "Status",
+                "valueMap": "status",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true,
+                "displayValueEnum": [
+                    {
+                        "label": "IN_REVIEW",
+                        "value": 0
+                    },
+                    {
+                        "label": "HOLD",
+                        "value": 1
+                    },
+                    {
+                        "label": "PROCESSING",
+                        "value": 2
+                    },
+                    {
+                        "label": "SUCCESS",
+                        "value": 3
+                    },
+                    {
+                        "label": "FAILED",
+                        "value": 4
+                    },
+                    {
+                        "label": "SKIPPED",
+                        "value": 5
+                    }
+                ]
+            },
+            {
+                "title": "Invoice Amt",
+                "valueMap": "totalInvoiceAmount",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Total Payment Amt",
+                "valueMap": "totalPaymentAmount",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Payment Date Time",
+                "valueMap": "paymentDateTime",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Failure reason",
+                "valueMap": "failureReason",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            }
+        ],
+        "additionalProperties": {
+            "paginationNeeded":true,
+            "enableSearch":true
+        }
+    },
     "nonGlDataSyncTrack": {
         "componentType": "table",
         "title": "Data Sync Track",
@@ -11094,5 +11277,10 @@
         ]
     },
     "errors": [],
+    "buyerInvoiceInfo": {
+        "componentType": "table",
+        "title": "Invoice Information List",
+        "ignoreKeys":[]
+    },
     "status": "SUCCESS"
 }
