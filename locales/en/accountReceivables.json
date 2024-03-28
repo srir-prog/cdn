@@ -373,7 +373,7 @@
     "actions": "Actions",
     "deleteConfirmMsg" : "Are you sure you want to delete?",
     "deleteInfoMsg": "Contacts associated with this role will get moved to the company contact role",
-    "isCommunicationContactInfo": "<b>Invoice presentment:</b> exclusively receive invoice emails.<br/><b>Communication contact:</b> receive all other types of communications, including<br/>automated reminders and statements.",
+    "isCommunicationContactInfo": "<b>Invoice presentment:</b> exclusively receive invoice delivery emails.<br/><b>Communication contact:</b> receive all other types of communications, including<br/>automated reminders and statements.",
     "phone": "Phone",
     "roles": "Role",
     "glSyncContactError": "No longer syncing with the GL",
