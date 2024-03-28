@@ -10807,13 +10807,26 @@
     "autoPayEntries": {
         "componentType": "table",
         "title": "Autopay Entries List",
-        "ignoreKeys":["buyerInvoicesMap","reviewedBy"],
+        "ignoreKeys":["buyerInvoicesMap","reviewedBy","billTo","id"],
         "headersInfo": [
             {
-                "title": "Id",
-                "valueMap": "id",
+                "title": "Bill to name",
+                "valueMap": "billToName",
                 "align":"left",
-                "renderType": "text",
+                "renderType": "Link",
+                "action": {
+                    "type": "drillDown",
+                    "pathList": [
+                        "1.0",
+                        "aggregate"
+                    ],
+                    "paramObj": {
+                        "templateId": "BuyerInvoiceInfo"
+                    },
+                    "paramObjMap": {
+                        "ids": "id"
+                    }
+                },
                 "enableSort": true
             },
             {
@@ -10838,21 +10851,7 @@
                 "enableSort": true
             },
             {
-                "title": "Bill To",
-                "valueMap": "billTo",
-                "align":"left",
-                "renderType": "text",
-                "enableSort": true
-            },
-            {
-                "title": "Bill to name",
-                "valueMap": "billToName",
-                "align":"left",
-                "renderType": "text",
-                "enableSort": true
-            },
-            {
-                "title": "Reference",
+                "title": "Ref",
                 "valueMap": "reference",
                 "align":"left",
                 "renderType": "text",
@@ -11278,5 +11277,10 @@
         ]
     },
     "errors": [],
+    "buyerInvoiceInfo": {
+        "componentType": "table",
+        "title": "Invoice Information List",
+        "ignoreKeys":[]
+    },
     "status": "SUCCESS"
 }
