@@ -1870,7 +1870,7 @@
                         "aggregate"
                     ],
                     "paramObj": {
-                        "templateId": "autoPayEntries"
+                        "templateId": "AutoPayEntries"
                     },
                     "paramObjMap": {
                         "days": {
@@ -10804,6 +10804,144 @@
             }
         }
     },
+    "autoPayEntries": {
+        "componentType": "table",
+        "title": "Autopay Entries List",
+        "ignoreKeys":["buyerInvoicesMap","reviewedBy"],
+        "headersInfo": [
+            {
+                "title": "Id",
+                "valueMap": "id",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Job History Id",
+                "valueMap": "jobHistoryId",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Client Id",
+                "valueMap": "clientId",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Client Name",
+                "valueMap": "clientName",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Bill To",
+                "valueMap": "billTo",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Bill to name",
+                "valueMap": "billToName",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Reference",
+                "valueMap": "reference",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Payment Method",
+                "valueMap": "paymentMethod",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true,
+                "displayValueEnum": [
+                    {
+                        "label": "ACH",
+                        "value": 1
+                    },
+                    {
+                        "label": "CREDIT CARD",
+                        "value": 2
+                    }
+                ]
+            },
+            {
+                "title": "Status",
+                "valueMap": "status",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true,
+                "displayValueEnum": [
+                    {
+                        "label": "IN_REVIEW",
+                        "value": 0
+                    },
+                    {
+                        "label": "HOLD",
+                        "value": 1
+                    },
+                    {
+                        "label": "PROCESSING",
+                        "value": 2
+                    },
+                    {
+                        "label": "SUCCESS",
+                        "value": 3
+                    },
+                    {
+                        "label": "FAILED",
+                        "value": 4
+                    },
+                    {
+                        "label": "SKIPPED",
+                        "value": 5
+                    }
+                ]
+            },
+            {
+                "title": "Invoice Amt",
+                "valueMap": "totalInvoiceAmount",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Total Payment Amt",
+                "valueMap": "totalPaymentAmount",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Payment Date Time",
+                "valueMap": "paymentDateTime",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Failure reason",
+                "valueMap": "failureReason",
+                "align":"left",
+                "renderType": "text",
+                "enableSort": true
+            }
+        ],
+        "additionalProperties": {
+            "paginationNeeded":true,
+            "enableSearch":true
+        }
+    },
     "nonGlDataSyncTrack": {
         "componentType": "table",
         "title": "Data Sync Track",
@@ -11138,12 +11276,6 @@
             }
             
         ]
-    },
-    "autoPayEntries": {
-        "componentType": "table",
-        "title": "Autopay Entries List",
-        "ignoreKeys":[""],
-        "headersInfo": []
     },
     "errors": [],
     "status": "SUCCESS"
