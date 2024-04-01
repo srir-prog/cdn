@@ -496,5 +496,11 @@
     "selectCommunicationType": "संचार प्रकार चुनें",
     "invoicePresentment":"चालान प्रस्तुति",
     "communicationContact":  "संचार संपर्क",
-    "communicationContactAndInvoicePresentment":"संचार संपर्क और चालान प्रस्तुति"
+    "communicationContactAndInvoicePresentment":"संचार संपर्क और चालान प्रस्तुति",
+    "collections": "संग्रह",
+    "autopay": "ऑटो वेतन",
+    "paymentNotifFailure": "भुगतान अधिसूचना और विफलता",
+    "emailTemplates": "ईमेल टेम्प्लेट",
+    "upcomingPaymentNotification": "आगामी भुगतान अधिसूचना",
+    "unCollectedPaymentReminder": "असंग्रहीत भुगतान अनुस्मारक"
 }

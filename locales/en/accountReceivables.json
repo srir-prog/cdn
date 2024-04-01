@@ -498,5 +498,11 @@
     "selectCommunicationType": "select communication type",
     "invoicePresentment":"Invoice presentment",
     "communicationContact":  "Communication contact",
-    "communicationContactAndInvoicePresentment":"Communication contact and Invoice presentment"
+    "communicationContactAndInvoicePresentment":"Communication contact and Invoice presentment",
+    "collections": "Collections",
+    "autopay": "Auto-pay",
+    "paymentNotifFailure": "Payment notification and failure",
+    "emailTemplates": "Email templates",
+    "upcomingPaymentNotification": "Upcoming payment notification",
+    "unCollectedPaymentReminder": "Uncollected payment reminder"
 }
