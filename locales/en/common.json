@@ -817,5 +817,6 @@
   "backLinkModalHeader": "Would you like to SAVE your changes?",
   "backLinkModalHeaderWarning": "You have made changes to document fields. Save changes before proceeding or go back to continue editing the document",
   "receivedMinusBilled": "The received quantity minus the billed quantity",
-  "purchaseOrder": "Purchase order"
+  "purchaseOrder": "Purchase order",
+  "linkToPOLine": "Link to PO line"
 }
