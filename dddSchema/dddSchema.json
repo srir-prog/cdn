@@ -10825,7 +10825,8 @@
                     },
                     "paramObjMap": {
                         "ids": "id"
-                    }
+                    },
+                    "pageQueryParams": ["id","billTo"]
                 },
                 "enableSort": true
             },
@@ -11276,11 +11277,98 @@
             
         ]
     },
-    "errors": [],
     "buyerInvoiceInfo": {
         "componentType": "table",
         "title": "Invoice Information List",
-        "ignoreKeys":[]
+        "ignoreKeys": ["currencyCode"],
+        "headersInfo":[
+            {
+                "title": "Buyer Name",
+                "valueMap": "buyerName",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Buyer Id",
+                "valueMap": "buyerId",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Client Id",
+                "valueMap": "clientId",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Invoice Id",
+                "valueMap": "invoiceId",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Invoice Number",
+                "valueMap": "invoiceNumber",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Due date",
+                "valueMap": "dueDate",
+                "formatType":"datetime",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Txn date",
+                "valueMap": "txndate",
+                "formatType":"datetime",
+                "renderType": "text",
+                "enableSort": true
+            },
+            {
+                "title": "Total Txn Amount",
+                "renderType": "text",
+                "valueMap": "txnTotalAmount",
+                "formatType": "currency",
+                "enableSort": true
+            },
+            {
+                "title": "Txn Balance",
+                "renderType": "text",
+                "valueMap": "txnBalance",
+                "formatType": "currency",
+                "enableSort": true
+            },
+            {
+                "title": "Reason",
+                "renderType": "text",
+                "editable": "text"
+            }
+        ],
+        "additionalProperties":{
+            "editableForm": true,
+            "paginationNeeded":true,
+            "onSaveAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "OffHoldAutoPayEntries"
+                },
+                "paramObjMap": {
+                  "billTo": "billTo",
+                  "reason": "",
+                  "ids": "id"
+                },
+                "bodyObjMap": {}
+            }
+        }
     },
+    "errors": [],
     "status": "SUCCESS"
 }
