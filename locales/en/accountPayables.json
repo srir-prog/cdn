@@ -455,6 +455,5 @@
     "applied": "Applied",
     "applyCredits": "Apply credits",
     "noCreditsToApply": "No credits available to apply",
-    "totalFooterInPopup": "Total payment amount: <b>{{amount}}</b>",
-    "disabledTabMsg": "Resolve issues in line matching tab to {{tabName}}"
+    "totalFooterInPopup": "Total payment amount: <b>{{amount}}</b>"
 }
