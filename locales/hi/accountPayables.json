@@ -454,5 +454,6 @@
     "inSync":"प्रोफ़ाइल स्वीकृत है",
     "notInSync":"प्रोफ़ाइल अधिरोधित है",
     "invitedToUpdate": "अपडेट का निवेदन",
-    "reviewCardProfile": "समीक्षा कार्ड प्रोफ़ाइल"
+    "reviewCardProfile": "समीक्षा कार्ड प्रोफ़ाइल",
+    "disabledTabMsg": "{{tabName}} से लाइन मिलान टैब में समस्याओं का समाधान करें"
 }
