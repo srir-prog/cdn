@@ -819,5 +819,6 @@
   "receivedMinusBilled": "The received quantity minus the billed quantity",
   "purchaseOrder": "Purchase order",
   "linkToPOLine": "Link to PO line",
-  "disabledTabMsg": "Resolve issues in line matching tab to <ourTypo></ourTypo>"
+  "disabledTabMsg": "Resolve issues in line matching tab to <ourTypo></ourTypo>",
+  "documentViewerTypeLoaderText": "Centime is resetting the data, one moment please"
 }

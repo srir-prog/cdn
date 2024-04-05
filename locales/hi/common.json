@@ -813,5 +813,6 @@
     "receivedMinusBilled": "प्राप्त मात्रा से बिल की गई मात्रा घटा दी गई है",
     "purchaseOrder": "क्रय आदेश",
     "linkToPOLine": "पीओ लाइन से लिंक करें",
-    "disabledTabMsg": "<ourTypo></ourTypo> से लाइन मिलान टैब में समस्याओं का समाधान करें"
+    "disabledTabMsg": "<ourTypo></ourTypo> से लाइन मिलान टैब में समस्याओं का समाधान करें",
+    "documentViewerTypeLoaderText": "सेंटाइम डेटा रीसेट कर रहा है, कृपया एक मिनट रुकें"
 }
