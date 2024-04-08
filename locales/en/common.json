@@ -820,5 +820,8 @@
   "purchaseOrder": "Purchase order",
   "linkToPOLine": "Link to PO line",
   "disabledTabMsg": "Resolve issues in line matching tab to <ourTypo></ourTypo>",
-  "documentViewerTypeLoaderText": "Centime is resetting the data, one moment please"
+  "documentViewerTypeLoaderText": "Centime is resetting the data, one moment please",
+  "linkedPOResetWarning": "Changing the linked PO will reset in line matching.",
+  "cancel": "Cancel",
+  "proceed": "Proceed"
 }
