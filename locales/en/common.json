@@ -821,5 +821,8 @@
   "linkToPOLine": "Link to PO line",
   "disabledTabMsg": "Resolve issues in line matching tab to <ourTypo></ourTypo>",
   "documentViewerTypeLoaderText": "Centime is resetting the data, one moment please",
-  "errorPerformingAction": "Issue while performing action. Please try again or contact us if the issue persists"
+  "errorPerformingAction": "Issue while performing action. Please try again or contact us if the issue persists",
+  "reRunLinking": "Rerun Linking",
+  "resetLineMatching": "We have reset the line matching data",
+  "unableToReRunLinkingLogic": "Unable to re-run linking logic"
 }
