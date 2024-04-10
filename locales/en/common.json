@@ -824,5 +824,8 @@
   "errorPerformingAction": "Issue while performing action. Please try again or contact us if the issue persists",
   "reRunLinking": "Rerun Linking",
   "resetLineMatching": "We have reset the line matching data",
-  "unableToReRunLinkingLogic": "Unable to re-run linking logic"
+  "unableToReRunLinkingLogic": "Unable to re-run linking logic",
+  "linkedPOResetWarning": "Changing the linked PO will reset in line matching.",
+  "cancel": "Cancel",
+  "proceed": "Proceed"
 }
