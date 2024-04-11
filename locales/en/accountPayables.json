@@ -414,6 +414,7 @@
     "needsReview": "Review profile",
     "inSync":"Profile accepted",
     "notInSync":"Profile overridden",
+    "reviewCardProfile": "Review card profile",
     "paymentProfile": "Payment profile",
     "EmailTo": "To",
     "EmailSubject": "Subject",

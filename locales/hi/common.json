@@ -805,5 +805,15 @@
     "betweenOperationPlaceholder": "राशि 1: राशि 2",
     "defaultLevelLimitError": "मूल्य आधार सीमा से कम",
     "invoiceAmount": "बीजक राशि",
-    "inputMandatoryAndSave": "अनिवार्य फ़ील्ड इनपुट करें और परिवर्तन सहेजें"
+    "inputMandatoryAndSave": "अनिवार्य फ़ील्ड इनपुट करें और परिवर्तन सहेजें",
+    "invoiceCaptureWarningHeader": "क्या आपको यकीन है?",
+    "invoiceCaptureWarning": "कृपया टैब बदलने से पहले अपने परिवर्तनों की पुष्टि करें।",
+    "backLinkModalHeader": "क्या आप अपने परिवर्तन सहेजना चाहेंगे?",
+    "backLinkModalHeaderWarning": "आपने दस्तावेज़ फ़ील्ड में परिवर्तन किए हैं. आगे बढ़ने से पहले परिवर्तन सहेजें या दस्तावेज़ का संपादन जारी रखने के लिए वापस जाएँ",
+    "receivedMinusBilled": "प्राप्त मात्रा से बिल की गई मात्रा घटा दी गई है",
+    "purchaseOrder": "क्रय आदेश",
+    "linkToPOLine": "पीओ लाइन से लिंक करें",
+    "disabledTabMsg": "<ourTypo></ourTypo> से लाइन मिलान टैब में समस्याओं का समाधान करें",
+    "documentViewerTypeLoaderText": "सेंटाइम डेटा रीसेट कर रहा है, कृपया एक मिनट रुकें",
+    "errorPerformingAction": "कार्रवाई करते समय समस्या. कृपया पुनः प्रयास करें या यदि समस्या बनी रहती है तो हमसे संपर्क करें"
 }
