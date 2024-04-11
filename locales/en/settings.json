@@ -810,7 +810,7 @@
   "source": "Source",
   "value": "Value",
   "addNewWithPlusPrefix": "+ Add new",
-  "valuePlaceHolder": "Added value",
+  "valuePlaceHolder": "Enter value",
   "limitOfValues": "Reached limit of {{total}}",
   "arWorkflows": "Workflows",
   "errorFetchingPoThresholdSettings": "Errors encountered in fetching the PO threshold settings. Please try again.",
