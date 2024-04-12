@@ -502,5 +502,10 @@
     "paymentNotifFailure": "भुगतान अधिसूचना और विफलता",
     "emailTemplates": "ईमेल टेम्प्लेट",
     "upcomingPaymentNotification": "आगामी भुगतान अधिसूचना",
-    "unCollectedPaymentReminder": "असंग्रहीत भुगतान अनुस्मारक"
+    "unCollectedPaymentReminder": "असंग्रहीत भुगतान अनुस्मारक",
+    "edit": "संपादन करना",
+    "paymentDetails": "भुगतान विवरण",
+    "autopayPreferences": "स्वतःभुगतान प्राथमिकताएँ",
+    "autopayMethod": "ऑटोपे विधि",
+    "autopayTiming": "स्वतः भुगतान समय"
 }
