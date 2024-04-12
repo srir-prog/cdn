@@ -770,7 +770,7 @@
     "source": "स्रोत",
     "value": "मूल्य",
     "addNewWithPlusPrefix": "+ नया जोड़ो",
-    "valuePlaceHolder": "संवर्धित मूल्य",
+    "valuePlaceHolder": "मूल्य दर्ज करे",
     "limitOfValues": "की सीमा तक पहुंच गया {{total}}",
     "arWorkflows": "वर्कफ़्लो",
     "errorFetchingPoThresholdSettings": "पीओ थ्रेशोल्ड सेटिंग लाने में त्रुटियां आईं। कृपया पुन: प्रयास करें।",
