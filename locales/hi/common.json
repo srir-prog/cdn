@@ -821,5 +821,8 @@
     "unableToReRunLinkingLogic": "लिंकिंग तर्क को पुनः चलाने में असमर्थ",
     "linkedPOResetWarning": "लिंक किए गए पीओ को बदलने से लाइन मिलान रीसेट हो जाएगा।",
     "cancel": "रद्द करना",
-    "proceed": "आगे बढ़ना"
+    "proceed": "आगे बढ़ना",
+    "alertMsgOnSupplierChange": "आपूर्तिकर्ता का नाम बदलने से डेटा रीसेट हो जाएगा",
+    "alertMsgOnPoChange": "लिंक किए गए पीओ को बदलने से लाइन मिलान रीसेट हो जाएगा",
+    "alertMsgOnInvoiceChange": "चालान प्रकार बदलने से डेटा रीसेट हो जाएगा"
 }
