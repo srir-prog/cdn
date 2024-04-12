@@ -827,5 +827,6 @@
   "unableToReRunLinkingLogic": "Unable to re-run linking logic",
   "linkedPOResetWarning": "Changing the linked PO will reset in line matching.",
   "cancel": "Cancel",
-  "proceed": "Proceed"
+  "proceed": "Proceed",
+  "supplierPortal": "Supplier portal"
 }
