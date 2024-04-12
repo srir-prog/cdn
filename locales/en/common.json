@@ -827,5 +827,8 @@
   "unableToReRunLinkingLogic": "Unable to re-run linking logic",
   "linkedPOResetWarning": "Changing the linked PO will reset in line matching.",
   "cancel": "Cancel",
-  "proceed": "Proceed"
+  "proceed": "Proceed",
+  "alertMsgOnSupplierChange": "Changing the Supplier Name will reset the data",
+  "alertMsgOnPOChange": "Changing the linked PO will reset line matching",
+  "alertMsgOnInvoiceChange": "Changing the Invoice Type will reset the data"
 }
