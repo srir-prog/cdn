@@ -504,5 +504,6 @@
     "paymentNotifFailure": "Payment notification and failure",
     "emailTemplates": "Email templates",
     "upcomingPaymentNotification": "Upcoming payment notification",
-    "unCollectedPaymentReminder": "Uncollected payment reminder"
+    "unCollectedPaymentReminder": "Uncollected payment reminder",
+    "role": "Role"
 }

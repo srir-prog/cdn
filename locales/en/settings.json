@@ -822,5 +822,13 @@
   "acceptRateMisMatch": "Accept rate mismatches without approval within",
   "acceptAmountMisMatch": "Accept amount mismatches without approval within",
   "select": "Select",
-  "supplierProfilePaymentsAcceptanceHeader": "Require explicit acceptance of supplier profile changes for the following payment methods"
+  "supplierProfilePaymentsAcceptanceHeader": "Require explicit acceptance of supplier profile changes for the following payment methods",
+  "workflowPolicy": "Workflow Policy - {{policyName}}",
+  "arPolicies": "Policies",
+  "enterDescription": "Enter description",
+  "conditions": "Conditions",
+  "actions": "Actions",
+  "event": "Event",
+  "duplicatePolicy": "Duplicate policy",
+  "delete": "Delete"
 }
