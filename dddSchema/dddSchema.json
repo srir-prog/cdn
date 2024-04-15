@@ -10960,6 +10960,7 @@
                             "templateId": "HoldAutoPayEntries"
                         },
                         "paramObjMap": {
+                            "clientId": "clientId",
                             "billTo": "billTo",
                             "ids": "id"
                         },
@@ -10987,6 +10988,7 @@
                             "templateId": "OffHoldAutoPayEntries"
                         },
                         "paramObjMap": {
+                            "clientId": "clientId",
                             "billTo": "billTo",
                             "ids": "id"
                         },
