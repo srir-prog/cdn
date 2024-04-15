@@ -795,7 +795,7 @@
   "receiptRate": "Receipt rate",
   "receivedQuantity": "Received quantity",
   "billedQuantity": "Billed quantity",
-  "addNewLine": "Add new line",
+  "addNewLine": "Accept Line",
   "accept": "Accept",
   "dispute": "Dispute",
   "3Way": "3-Way",
@@ -820,6 +820,15 @@
   "purchaseOrder": "Purchase order",
   "linkToPOLine": "Link to PO line",
   "disabledTabMsg": "Resolve issues in line matching tab to <ourTypo></ourTypo>",
-  "documentViewerTypeLoaderText": "Centime is resetting the data, one moment please",
-  "errorPerformingAction": "Issue while performing action. Please try again or contact us if the issue persists"
+  "documentViewerTypeLoaderText": "One moment please",
+  "errorPerformingAction": "Issue while performing action. Please try again or contact us if the issue persists",
+  "reRunLinking": "Re-run line linking logic",
+  "resetLineMatching": "We have reset the line matching data",
+  "unableToReRunLinkingLogic": "Unable to re-run linking logic",
+  "linkedPOResetWarning": "Changing the linked PO will reset in line matching.",
+  "cancel": "Cancel",
+  "proceed": "Proceed",
+  "alertMsgOnSupplierChange": "Changing the Supplier Name will reset the data",
+  "alertMsgOnPOChange": "Changing the linked PO will reset line matching",
+  "alertMsgOnInvoiceChange": "Changing the Invoice Type will reset the data"
 }
