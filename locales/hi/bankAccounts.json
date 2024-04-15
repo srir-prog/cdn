@@ -399,5 +399,18 @@
     "NoActivePaymentMethods": "भुगतान और क्रेडिट समाधान पृष्ठ में भुगतान विधियों को सक्रिय करने के बाद आप चालान भुगतान कर सकते हैं. <ourLink></ourLink>",
     "bankAccounts":"बैंक खाते",
     "creditCardAndLoanAcs":"क्रेडिट कार्ड और ऋण खाते",
-    "connectAccounts":"खाते कनेक्ट करें"
+    "connectAccounts":"खाते कनेक्ट करें",
+    "predictionSettings": "पूर्वानुमान सेटिंग",
+    "sweepAccountPortfolio": "स्वीप खाता पोर्टफोलियो",
+    "principalBalance": "प्रिंसिपल",
+    "rateAppliedToday": "दर लागू",
+    "accruedInterest": "उपचित ब्याज",
+    "interestPaidToday": "ब्याज का भुगतान किया",
+    "interestPaidMTD": "ब्याज भुगतान एमटीडी",
+    "interestPaidYTD": "ब्याज भुगतान YTD",
+    "averageDailyBalanceYTD": "औसत दैनिक शेष YTD",
+    "feeExpenseYTD": "शुल्क व्यय YTD",
+    "institute": "संस्थान",
+    "institution": "संस्था",
+    "fdicCertificateNumber": "एफडीसीआई प्रमाणपत्र संख्या"
 }
