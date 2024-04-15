@@ -10814,6 +10814,7 @@
                 "valueMap": "billToName",
                 "align":"left",
                 "renderType": "Link",
+                "width": "25%",
                 "action": {
                     "type": "drillDown",
                     "pathList": [
@@ -10825,8 +10826,7 @@
                     },
                     "paramObjMap": {
                         "ids": "id"
-                    },
-                    "pageQueryParams": ["id","billTo"]
+                    }
                 },
                 "enableSort": true
             },
@@ -10913,6 +10913,7 @@
                 "valueMap": "totalInvoiceAmount",
                 "align":"left",
                 "renderType": "text",
+                "formatType":"currency",
                 "enableSort": true
             },
             {
@@ -10937,9 +10938,67 @@
                 "enableSort": true
             }
         ],
-        "additionalProperties": {
+        "additionalProperties":{
+            "enableSearch":true,
             "paginationNeeded":true,
-            "enableSearch":true
+            "actionsColumnIcons": [
+                {
+                    "iconName": "success",
+                    "componentProps": {
+                        "ariaLabel": "On Hold",
+                        "color": "primary"
+                    },
+                    "action": {
+                        "type": "updateCall",
+                        "url": "fs/business-ops-service",
+                        "method": "GET",
+                        "pathList": [
+                            "1.0",
+                            "aggregate"
+                        ],
+                        "paramObj": {
+                            "templateId": "HoldAutoPayEntries"
+                        },
+                        "paramObjMap": {
+                            "billTo": "billTo",
+                            "ids": "id"
+                        },
+                        "successNotificationObject": {
+                            "message": "Invoice is put on hold"
+                        },
+                        "bodyObjMap": {}
+                    }
+                },
+                {
+                    "iconName": "clear",
+                    "componentProps": {
+                        "ariaLabel": "Off Hold",
+                        "color": "secondary"
+                    },
+                    "action": {
+                        "type": "updateCall",
+                        "url": "fs/business-ops-service",
+                        "method": "GET",
+                        "pathList": [
+                            "1.0",
+                            "aggregate"
+                        ],
+                        "paramObj": {
+                            "templateId": "OffHoldAutoPayEntries"
+                        },
+                        "paramObjMap": {
+                            "billTo": "billTo",
+                            "ids": "id"
+                        },
+                        "successNotificationObject": {
+                            "message": "Invoice is put on back to review"
+                        }
+                    }
+                }
+            ],
+            "editableForm":true,
+            "defaultColumnToSort":0,
+            "defaultSortingOrder":"desc"
         }
     },
     "nonGlDataSyncTrack": {
@@ -11286,6 +11345,7 @@
                 "title": "Buyer Name",
                 "valueMap": "buyerName",
                 "renderType": "text",
+                "width": "25%",
                 "enableSort": true
             },
             {
@@ -11339,35 +11399,8 @@
                 "valueMap": "txnBalance",
                 "formatType": "currency",
                 "enableSort": true
-            },
-            {
-                "title": "Reason",
-                "renderType": "text",
-                "editable": "text"
             }
-        ],
-        "additionalProperties":{
-            "editableForm": true,
-            "paginationNeeded":true,
-            "onSaveAction": {
-                "type": "updateCall",
-                "url": "fs/business-ops-service",
-                "method": "GET",
-                "pathList": [
-                    "1.0",
-                    "aggregate"
-                ],
-                "paramObj": {
-                    "templateId": "OffHoldAutoPayEntries"
-                },
-                "paramObjMap": {
-                  "billTo": "billTo",
-                  "reason": "",
-                  "ids": "id"
-                },
-                "bodyObjMap": {}
-            }
-        }
+        ]
     },
     "errors": [],
     "status": "SUCCESS"
