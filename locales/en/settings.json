@@ -826,11 +826,13 @@
   "hierarchyChangeInfo": "Please wait while your hierarchy preferences are being applied",
   "onlinePaymentsChangeInfo": "Please wait while your payment preferences are being applied to all invoices",
   "workflowPolicy": "Workflow Policy - {{policyName}}",
-  "arPolicies": "Policies",
+  "automations": "Automations",
   "enterDescription": "Enter description",
   "conditions": "Conditions",
   "actions": "Actions",
   "event": "Event",
   "duplicatePolicy": "Duplicate policy",
-  "delete": "Delete"
+  "delete": "Delete",
+  "addAutomations": "Add automations",
+  "activeIn" : "Active in"
 }
