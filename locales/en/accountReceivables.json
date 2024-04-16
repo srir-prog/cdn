@@ -505,5 +505,10 @@
     "emailTemplates": "Email templates",
     "upcomingPaymentNotification": "Upcoming payment notification",
     "unCollectedPaymentReminder": "Uncollected payment reminder",
-    "role": "Role"
+    "role": "Role",
+    "edit": "Edit",
+    "paymentDetails": "Payment details",
+    "autopayPreferences": "Autopay preferences",
+    "autopayMethod": "Autopay Method",
+    "autopayTiming": "Autopay Timing"
 }
