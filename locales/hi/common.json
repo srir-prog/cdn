@@ -755,7 +755,7 @@
     "item": "वस्तु",
     "unBilled": "बिल रहित",
     "unlinked": "अनलिंक",
-    "newline": "नई पंक्ति",
+    "newline": "स्वीकृत पंक्ति",
     "perfectMatch": "बहतरीन मैच",
     "thresholdRate": "सीमा दर",
     "thresholdQuantity": "दहलीज मात्रा",
@@ -823,7 +823,7 @@
     "cancel": "रद्द करना",
     "proceed": "आगे बढ़ना",
     "alertMsgOnSupplierChange": "आपूर्तिकर्ता का नाम बदलने से डेटा रीसेट हो जाएगा",
-    "alertMsgOnPOChange": "लिंक किए गए पीओ को बदलने से लाइन मिलान रीसेट हो जाएगा",
+    "alertMsgOnPOChange": "लिंक किए गए पीओ को बदलने से डेटा रीसेट हो जाएगा",
     "alertMsgOnInvoiceChange": "चालान प्रकार बदलने से डेटा रीसेट हो जाएगा",
     "invoiceConfirmationAlert": "यह परिवर्तन लाइन मिलान और कोडिंग को प्रभावित करेगा"
 }
