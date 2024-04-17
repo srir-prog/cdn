@@ -810,7 +810,7 @@
   "source": "Source",
   "value": "Value",
   "addNewWithPlusPrefix": "+ Add new",
-  "valuePlaceHolder": "Added value",
+  "valuePlaceHolder": "Enter value",
   "limitOfValues": "Reached limit of {{total}}",
   "arWorkflows": "Workflows",
   "errorFetchingPoThresholdSettings": "Errors encountered in fetching the PO threshold settings. Please try again.",
@@ -822,5 +822,7 @@
   "acceptRateMisMatch": "Auto accept item rate mismatches within",
   "acceptAmountMisMatch": "Auto accept expense amount mismatches within",
   "select": "Select",
-  "supplierProfilePaymentsAcceptanceHeader": "Require explicit acceptance of supplier profile changes for the following payment methods"
+  "supplierProfilePaymentsAcceptanceHeader": "Require explicit acceptance of supplier profile changes for the following payment methods",
+  "hierarchyChangeInfo": "Please wait while your hierarchy preferences are being applied",
+  "onlinePaymentsChangeInfo": "Please wait while your payment preferences are being applied to all invoices"
 }

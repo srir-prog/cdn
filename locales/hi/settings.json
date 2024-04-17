@@ -770,7 +770,7 @@
     "source": "स्रोत",
     "value": "मूल्य",
     "addNewWithPlusPrefix": "+ नया जोड़ो",
-    "valuePlaceHolder": "संवर्धित मूल्य",
+    "valuePlaceHolder": "मूल्य दर्ज करे",
     "limitOfValues": "की सीमा तक पहुंच गया {{total}}",
     "arWorkflows": "वर्कफ़्लो",
     "errorFetchingPoThresholdSettings": "पीओ थ्रेशोल्ड सेटिंग लाने में त्रुटियां आईं। कृपया पुन: प्रयास करें।",
@@ -782,5 +782,7 @@
     "acceptRateMisMatch": "स्वतः स्वीकार आइटम दर बेमेल भीतर",
     "acceptAmountMisMatch": "स्वतः स्वीकार व्यय राशि बेमेल है",
     "select": "चुनना",
-    "supplierProfilePaymentsAcceptanceHeader": "निम्नलिखित भुगतान विधियों के लिए आपूर्तक प्रोफ़ाइल परिवर्तनों की स्पष्ट स्वीकृति की आवश्यकता"
+    "supplierProfilePaymentsAcceptanceHeader": "निम्नलिखित भुगतान विधियों के लिए आपूर्तक प्रोफ़ाइल परिवर्तनों की स्पष्ट स्वीकृति की आवश्यकता",
+    "hierarchyChangeInfo": "कृपया अपनी पदानुक्रम प्राथमिकताएँ लागू होने तक प्रतीक्षा करें",
+    "onlinePaymentsChangeInfo":"कृपया तब तक प्रतीक्षा करें जब तक आपकी भुगतान प्राथमिकताएँ सभी चालानों पर लागू नहीं हो जातीं"
 }

@@ -504,5 +504,10 @@
     "paymentNotifFailure": "Payment notification and failure",
     "emailTemplates": "Email templates",
     "upcomingPaymentNotification": "Upcoming payment notification",
-    "unCollectedPaymentReminder": "Uncollected payment reminder"
+    "unCollectedPaymentReminder": "Uncollected payment reminder",
+    "edit": "Edit",
+    "paymentDetails": "Payment details",
+    "autopayPreferences": "Autopay preferences",
+    "autopayMethod": "Autopay Method",
+    "autopayTiming": "Autopay Timing"
 }
