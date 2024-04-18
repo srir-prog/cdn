@@ -822,6 +822,7 @@
     "linkedPOResetWarning": "लिंक किए गए पीओ को बदलने से लाइन मिलान रीसेट हो जाएगा।",
     "cancel": "रद्द करना",
     "proceed": "आगे बढ़ना",
+    "supplierPortal": "आपूर्तिकर्ता पोर्टल",
     "alertMsgOnSupplierChange": "आपूर्तिकर्ता का नाम बदलने से डेटा रीसेट हो जाएगा",
     "alertMsgOnPOChange": "लिंक किए गए पीओ को बदलने से डेटा रीसेट हो जाएगा",
     "alertMsgOnInvoiceChange": "चालान प्रकार बदलने से डेटा रीसेट हो जाएगा",

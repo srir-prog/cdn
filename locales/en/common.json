@@ -828,6 +828,7 @@
   "linkedPOResetWarning": "Changing the linked PO will reset in line matching.",
   "cancel": "Cancel",
   "proceed": "Proceed",
+  "supplierPortal": "Supplier portal",
   "alertMsgOnSupplierChange": "Changing the Supplier Name will reset the data",
   "alertMsgOnPOChange": "Changing the linked PO will reset the data",
   "alertMsgOnInvoiceChange": "Changing the Invoice Type will reset the data",
