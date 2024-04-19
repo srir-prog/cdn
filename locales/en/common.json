@@ -832,5 +832,6 @@
   "alertMsgOnSupplierChange": "Changing the Supplier Name will reset the data",
   "alertMsgOnPOChange": "Changing the linked PO will reset the data",
   "alertMsgOnInvoiceChange": "Changing the Invoice Type will reset the data",
-  "invoiceConfirmationAlert": "This change will affect the line matching and coding"
+  "invoiceConfirmationAlert": "This change will affect the line matching and coding",
+  "multipleInvoiceDetected": "Multiple invoices detected for the same PO"
 }
