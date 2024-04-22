@@ -560,6 +560,7 @@
   "invoiceApprover": "Invoice Approver",
   "paymentApprover": "Payment Approver",
   "csRepresentative": "CS - Representative",
+  "POInvoiceApprover": "PO Invoice Approver",
   "userTypesDropdown": "Users type dropdown",
   "fullAccessUsersTable": "Full Access Users Table",
   "limitedAccessUsersTable": "Limited Access Users Table",
