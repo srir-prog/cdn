@@ -507,5 +507,6 @@
     "paymentDetails": "भुगतान विवरण",
     "autopayPreferences": "स्वतःभुगतान प्राथमिकताएँ",
     "autopayMethod": "ऑटोपे विधि",
-    "autopayTiming": "स्वतः भुगतान समय"
+    "autopayTiming": "स्वतः भुगतान समय",
+    "entityType": "इकाई प्रकार"
 }
