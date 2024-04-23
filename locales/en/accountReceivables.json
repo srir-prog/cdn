@@ -510,5 +510,6 @@
     "paymentDetails": "Payment details",
     "autopayPreferences": "Autopay preferences",
     "autopayMethod": "Autopay Method",
-    "autopayTiming": "Autopay Timing"
+    "autopayTiming": "Autopay Timing",
+    "entityType":"Entity type"
 }
