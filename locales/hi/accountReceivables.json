@@ -506,7 +506,9 @@
     "edit": "संपादन करना",
     "paymentDetails": "भुगतान विवरण",
     "autopayPreferences": "स्वतःभुगतान प्राथमिकताएँ",
-    "autopayMethod": "ऑटोपे विधि",
-    "autopayTiming": "स्वतः भुगतान समय",
-    "entityType": "इकाई प्रकार"
+    "headerLabelAutopayMethod": "ऑटोपे विधि",
+    "headerLabelAutopayTiming": "स्वतः भुगतान समय",
+    "entityType": "इकाई प्रकार",
+    "achAccEnding": "खाता समाप्त होने वाला {{accountNo}}",
+    "creditCardEnding": "कार्ड का अंत {{accountNo}}"
 }

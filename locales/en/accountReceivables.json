@@ -508,7 +508,9 @@
     "edit": "Edit",
     "paymentDetails": "Payment details",
     "autopayPreferences": "Autopay preferences",
-    "autopayMethod": "Autopay Method",
-    "autopayTiming": "Autopay Timing",
-    "entityType":"Entity type"
+    "headerLabelAutopayMethod": "Autopay Method",
+    "headerLabelAutopayTiming": "Autopay Timing",
+    "entityType":"Entity type",
+    "achAccEnding": "Account ending *{{accountNo}}",
+    "creditCardEnding": "Card ending *{{accountNo}}"
 }
