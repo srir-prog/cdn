@@ -512,5 +512,6 @@
     "headerLabelAutopayTiming": "Autopay Timing",
     "entityType":"Entity type",
     "achAccEnding": "Account ending *{{accountNo}}",
-    "creditCardEnding": "Card ending *{{accountNo}}"
+    "creditCardEnding": "Card ending *{{accountNo}}",
+    "headerLabelBilling": "Billing"
 }

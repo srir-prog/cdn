@@ -510,5 +510,6 @@
     "headerLabelAutopayTiming": "स्वतः भुगतान समय",
     "entityType": "इकाई प्रकार",
     "achAccEnding": "खाता समाप्त होने वाला {{accountNo}}",
-    "creditCardEnding": "कार्ड का अंत {{accountNo}}"
+    "creditCardEnding": "कार्ड का अंत {{accountNo}}",
+    "headerLabelBilling": "बिलिंग"
 }
