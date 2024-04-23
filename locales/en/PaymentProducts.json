@@ -53,7 +53,7 @@
   "cvv": "CVV",
   "billingAddress": "Billing address",
   "securityPolicy": "Our security policy",
-  "CREDIT_CARD": "Credit cards",
+  "CREDIT_CARD": "Credit Cards",
   "cardActivationSuccess": "You can now make invoice payments to suppliers from the registered credit card. Visit the payables module to start making payments.",
   "cardActivation": "<ourLink></ourLink> about how you can use your credit card in Centime and the benefits",
   "learnMore": "Learn more",
@@ -64,7 +64,7 @@
   "defaultCheckLabel": "Make this the default account for check payments",
   "defaultCreditCardLabel": "Make this the default account for credit card",
   "allRequired": "Card details are mandatory",
-  "CENTIME_CARD": "Centime Credit Card",
+  "CENTIME_CARD": "CentimeCredit",
   "CENTIME_PAY": "CentimePay",
   "ACTIVE": "Active",
   "INACTIVE": "Not applied",
@@ -85,5 +85,6 @@
   "paymentProductsNotClientVerifiedActivate": "Complete your company verification now to activate payment products",
   "paymentProductsNotClientVerifiedContinue": "Complete your company verification now to continue using payment products",
   "paymentProductsNotClientVerifiedActivateWithLink": "Complete your company verification now to activate payment products. <ourLink></ourLink> ",
-  "paymentProductsNotClientVerifiedContinueWithLink": "Complete your company verification now to continue using payment products. <ourLink></ourLink>"
+  "paymentProductsNotClientVerifiedContinueWithLink": "Complete your company verification now to continue using payment products. <ourLink></ourLink>",
+  "CENTIME_BANKING": "Centime Checking Plus"
 }

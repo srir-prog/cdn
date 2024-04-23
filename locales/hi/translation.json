@@ -71,12 +71,13 @@
     "Reconnect": "रिकनेक्ट",
     "BackLogin":"लॉगिन पर वापस जाएं",
     "GoBack":"वापस जाओ",
-    "ReminderCampaigns":"अनुस्मारक अभियान",
+    "ReminderCampaigns":"कार्यप्रवाह अभियान",
     "CustomerManagement":"ग्राहक प्रबंधन",
     "SaveContinue":"सहेजें और जारी रखें",
     "NoResults":"कोई परिणाम नहीं मिला",
     "PerPage": "प्रति पृष्ठ",
     "TableRowsSelectedMessage": "{{selectLength}} से {{totalLength}} {{selectedItemLabel}} चयनित",
+    "SelectedCountWithAmountMessage": "{{selectedLength}} {{selectedItemLabel}}, <b>{{amount}} चयनित</b>",
     "From": "से",
     "Subject": "विषय",
     "CloseModal": "मोडल को बंद करें",
@@ -216,6 +217,16 @@
     "noEmailError9":"हस्ताक्षर करने के लिए सेंटाइम बैंकिंग आवेदन भेजने के लिए स्वामित्व और लाभार्थी सेटिंग पृष्ठ में अधिकृत हस्ताक्षरकर्ता ईमेल जोड़ें।",
     "applicationSent":"आवेदन अधिकृत हस्ताक्षरकर्ता को ईमेल के माध्यम से भेजा गया है।",
     "emailSentTo":"हस्ताक्षरकर्ता -{{email}}",
-    "Export": "निर्यात"
+    "Export": "निर्यात",
+    "ok": "ठीक है",
+    "forecastPeriod": "पूर्वानुमान अवधि",
+    "currentWeek": "यह सप्ताह",
+    "twoWeeks": "दो सप्ताह",
+    "currentMonth": "अभी चल रहा माह",
+    "twoMonths": "दो महीने",
+    "threeMonths": "तीन महीने",
+    "currentQuarter": "चालू तिमाही",
+    "thirteenWeeks": "तेरह सप्ताह",
+    "sixMonths": "छह महीने"
 }
 

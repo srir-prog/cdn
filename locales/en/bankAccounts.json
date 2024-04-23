@@ -514,5 +514,22 @@
     "cffGenerationInProgressErrorMsg" : "Please wait for predictions to generate completely before modifying these settings",
     "bankAccounts":"Bank accounts",
     "creditCardAndLoanAcs":"Credit card and Loan accounts",
-    "connectAccounts":"Connect accounts"
+    "connectAccounts":"Connect accounts",
+    "banking": "Banking",
+    "accountAggregationLabel": "Group predictions by",
+    "generalLedgerAccount": "General Ledger account",
+    "individualCashflow": "Individual cash flow",
+    "predictionSettings": "Prediction settings",
+    "sweepAccountPortfolio": "Sweep account portfolio",
+    "principalBalance": "Principal balance",
+    "rateAppliedToday": "Rate applied",
+    "accruedInterest": "Accrued interest",
+    "interestPaidToday": "Interest Paid",
+    "interestPaidMTD": "Interest Paid MTD",
+    "interestPaidYTD": "Interest Paid YTD",
+    "averageDailyBalanceYTD": "Average daily balance YTD",
+    "feeExpenseYTD": "Fee expense YTD",
+    "institute": "Institute",
+    "institution": "Institution",
+    "fdicCertificateNumber": "FDIC Certificate Number"
 }
