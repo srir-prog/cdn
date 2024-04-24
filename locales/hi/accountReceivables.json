@@ -511,5 +511,10 @@
     "entityType": "इकाई प्रकार",
     "achAccEnding": "खाता समाप्त होने वाला {{accountNo}}",
     "creditCardEnding": "कार्ड का अंत {{accountNo}}",
-    "headerLabelBilling": "बिलिंग"
+    "headerLabelBilling": "बिलिंग",
+    "creditCard": "क्रेडिट कार्ड",
+    "invoiceDate": "चालान की तारीख",
+    "lastDay": "डिस्काउंट विंडो का आखिरी दिन",
+    "dueDate": "नियत तारीख",
+    "ach": "आक"
 }
