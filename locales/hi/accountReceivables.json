@@ -516,5 +516,7 @@
     "invoiceDate": "चालान की तारीख",
     "lastDay": "डिस्काउंट विंडो का आखिरी दिन",
     "dueDate": "नियत तारीख",
-    "ach": "आक"
+    "ach": "आक",
+    "autoPayPaymentTiming": "ऑटोपे भुगतान समय",
+    "autoPayPaymentMethod": "ऑटोपे भुगतान विधि"
 }
