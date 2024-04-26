@@ -518,5 +518,7 @@
     "invoiceDate": "Invoice date",
     "lastDay": "Last day of discount window",
     "dueDate": "Due date",
-    "ach": "ACH"
+    "ach": "ACH",
+    "autoPayPaymentTiming": "Autopay payment timing",
+    "autoPayPaymentMethod": "Autopay payment method"
 }
