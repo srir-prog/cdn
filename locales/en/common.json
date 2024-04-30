@@ -835,5 +835,6 @@
   "invoiceConfirmationAlert": "This change will affect the line matching and coding",
   "multipleInvoiceDetected": "Multiple invoices detected for the same PO",
   "poAccount": "PO Account",
-  "poItemCode": "PO Item code"
+  "poItemCode": "PO Item code",
+  "notesAndHistory":"Notes and History"
 }
