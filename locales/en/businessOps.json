@@ -102,6 +102,27 @@
     "groupIdHeaderLabel":"Group Id",
     "potentialDuplicateHeaderLabel":"Potential Duplicate",
     "paymentsDashboard": "Payments Dashboard",
-    "schedulingPayments": "Scheduling Payments"
+    "schedulingPayments": "Scheduling Payments",
+    "billToNameHeaderLabel": "Bill to name",
+    "jobHistoryIdHeaderLabel": "Job History Id",
+    "clientIdHeaderLabel": "Client Id",
+    "clientNameHeaderLabel": "Client Name",
+    "paymentMethodHeaderLabel": "Payment Method",
+    "statusHeaderLabel": "Status",
+    "totalInvoiceAmountHeaderLabel": "Invoice Amt",
+    "totalPaymentAmountHeaderLabel": "Total Payment Amt",
+    "paymentDateTimeHeaderLabel": "Payment Date",
+    "failureReasonHeaderLabel": "Failure Reason",
+    "txnTotalAmountHeaderLabel": "Txn Total Amount",
+    "invoiceIdHeaderLabel": "Invoice Id",
+    "buyerIdHeaderLabel": "Buyer Id",
+    "invoiceNumberHeaderLabel": "Invoice No",
+    "dueDateHeaderLabel": "Due Date",
+    "txnDateHeaderLabel": "Txn Date",
+    "txnBalanceHeaderLabel": "Txn Balance",
+    "currencyCodeHeaderLabel": "Currency Code",
+    "buyerNameHeaderLabel": "Buyer Name",
+    "billToHeaderLabel": "Bill To",
+    "autopay": "Autopay Dashboard"
 }
 
