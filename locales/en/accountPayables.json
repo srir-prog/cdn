@@ -84,6 +84,8 @@
     "PaymentModalBottomMessage": "<ourLink></ourLink> for a breakdown of the fee structure",
     "markPaidUnsupportedToolTip": "Payments executed through Centime can not be marked paid",
     "NoPaymentTooltip": "Payment details are not added for the supplier",
+    "noPFAToolTip": "Pay from account is not specified",
+    "inActivePaymentMethodToolTip": "Activate {{paymentMethod}} in the payment and credit solutions page",
     "supplierAccountInvalid": "Supplier account invalid",
     "accountValidationInProgress": "Account validation in progress",
     "SentToApprovalSuccess": "{{successfulInvoicesCount}} out of {{totalInvoicesCount}} invoices sent for approval",
