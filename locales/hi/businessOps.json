@@ -76,27 +76,6 @@
     "syncEnd":"Sync End",
     "sourceSyncStatus": "Source Sync Status",
     "confirmDelete": "Are you sure you want to delete the row ?",
-    "generateSignup": "Generate Signup Link",
-    "billToNameHeaderLabel": "नाम के लिए बिल",
-    "jobHistoryIdHeaderLabel": "कार्य इतिहास आईडी",
-    "clientIdHeaderLabel": "ग्राहक ID",
-    "clientNameHeaderLabel": "ग्राहक नाम",
-    "paymentMethodHeaderLabel": "भुगतान विधि",
-    "statusHeaderLabel": "स्थिति",
-    "totalInvoiceAmountHeaderLabel": "चालान राशि",
-    "totalPaymentAmountHeaderLabel": "कुल भुगतान राशि",
-    "paymentDateTimeHeaderLabel": "भुगतान तिथि",
-    "failureReasonHeaderLabel": "असफलता का कारण",
-    "txnTotalAmountHeaderLabel": "टीएक्सएन कुल राशि",
-    "invoiceIdHeaderLabel": "चालान आईडी",
-    "buyerIdHeaderLabel": "क्रेता आईडी",
-    "invoiceNumberHeaderLabel": "चालान नंबर",
-    "dueDateHeaderLabel": "नियत तारीख",
-    "txnDateHeaderLabel": "Txn दिनांक",
-    "txnBalanceHeaderLabel": "टीएक्सएन बैलेंस",
-    "currencyCodeHeaderLabel": "मुद्रा कोड",
-    "buyerNameHeaderLabel": "खरीदार का नाम",
-    "billToHeaderLabel": "बिल प्राप्तकर्ता",
-    "autopay": "ऑटोपे डैशबोर्ड"
+    "generateSignup": "Generate Signup Link"
 }
 
