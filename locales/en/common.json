@@ -836,5 +836,6 @@
   "multipleInvoiceDetected": "Multiple invoices detected for the same PO",
   "editTemplate": "Edit template",
   "poAccount": "PO Account",
-  "poItemCode": "PO Item code"
+  "poItemCode": "PO Item code",
+  "notesAndHistory":"Notes and History"
 }
