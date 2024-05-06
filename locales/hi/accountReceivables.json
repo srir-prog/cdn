@@ -506,6 +506,17 @@
     "edit": "संपादन करना",
     "paymentDetails": "भुगतान विवरण",
     "autopayPreferences": "स्वतःभुगतान प्राथमिकताएँ",
-    "autopayMethod": "ऑटोपे विधि",
-    "autopayTiming": "स्वतः भुगतान समय"
+    "headerLabelAutopayMethod": "ऑटोपे विधि",
+    "headerLabelAutopayTiming": "स्वतः भुगतान समय",
+    "entityType": "इकाई प्रकार",
+    "achAccEnding": "खाता समाप्त होने वाला {{accountNo}}",
+    "creditCardEnding": "कार्ड का अंत {{accountNo}}",
+    "headerLabelBilling": "बिलिंग",
+    "creditCard": "क्रेडिट कार्ड",
+    "invoiceDate": "चालान की तारीख",
+    "lastDay": "डिस्काउंट विंडो का आखिरी दिन",
+    "dueDate": "नियत तारीख",
+    "ach": "आक",
+    "autoPayPaymentTiming": "ऑटोपे भुगतान समय",
+    "autoPayPaymentMethod": "ऑटोपे भुगतान विधि"
 }

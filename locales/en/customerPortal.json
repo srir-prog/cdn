@@ -142,5 +142,8 @@
   "optOutEmailAddress":"Please enter your email address to opt out of Autopay",
   "noPaymentDetailsAutoPay": "You're on autopay with no payment details on file. Go to settings and include ACH or credit card information to resume autopay.",
   "agreeTo": "By clicking \"Save and Authorise\" you agree to our <clickLink></clickLink>",
-  "typeYourEmailAddress": "Type your email address"
+  "typeYourEmailAddress": "Type your email address",
+  "authorizeAutopay":"Authorize Autopay",
+  "authorizationConditions": "By Authorizing AutoPay, you grant us permission to automatically charge preferred payment account on your preferred payment date for any bills",
+  "agreeToConfirm": "By clicking \"Confirm,\" you agree to our <clickLink></clickLink>"
 }
