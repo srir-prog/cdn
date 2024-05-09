@@ -825,7 +825,9 @@
   "select": "Select",
   "supplierProfilePaymentsAcceptanceHeader": "Require explicit acceptance of supplier profile changes for the following payment methods",
   "hierarchyChangeInfo": "Please wait while your hierarchy preferences are being applied",
+  "hierarchyErrorInfo": "Hierarchy preferences are not applied fully. Please try again or reach out to Centime Customer Success.",
   "onlinePaymentsChangeInfo": "Please wait while your payment preferences are being applied to all invoices",
+  "onlinePaymentsErrorInfo": "Payment preferences are not applied fully. Please try again or reach out to Centime Customer Success.",
   "approverType": "Approver type",
   "errorAddingPOApprover": "Errors encountered in adding the user as PO invoice approver. Please try again.",
   "successfullyAddedPOApprover": "User successfully added as PO invoice approver."
