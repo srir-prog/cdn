@@ -58,5 +58,6 @@
   "nameOnCheckSupplier": "आदेश के लिए भुगतान करें",
   "acceptPaymentViaACH": "एचसीएच भुगतान स्वीकार करें",
   "acceptPaymentViaCheck": "चेक भुगतान स्वीकार करें",
-  "acceptPaymentViaCreditCard": "क्रेडिट कार्ड से भुगतान स्वीकार करें"
+  "acceptPaymentViaCreditCard": "क्रेडिट कार्ड से भुगतान स्वीकार करें",
+  "supplierPortal": "आपूर्तिकर्ता पोर्टल"
 }
