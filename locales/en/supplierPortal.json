@@ -61,5 +61,6 @@
   "checkImageACHDisplayToolTip": "A bank-issued document validating your business account",
   "preferredPaymentMethod": "Default payment method",
   "welcomeMessageForSupplierSettings": "Please update your payment profile by selecting the payment methods accepted by {{supplierName}}",
-  "nameOnCheckSupplier": "Pay to the order of"
+  "nameOnCheckSupplier": "Pay to the order of",
+  "supplierPortal": "Supplier Portal"
 }
