@@ -508,6 +508,17 @@
     "edit": "Edit",
     "paymentDetails": "Payment details",
     "autopayPreferences": "Autopay preferences",
-    "autopayMethod": "Autopay Method",
-    "autopayTiming": "Autopay Timing"
+    "headerLabelAutopayMethod": "Autopay Method",
+    "headerLabelAutopayTiming": "Autopay Timing",
+    "entityType":"Entity type",
+    "achAccEnding": "Account ending *{{accountNo}}",
+    "creditCardEnding": "Card ending *{{accountNo}}",
+    "headerLabelBilling": "Billing",
+    "creditCard": "Credit card",
+    "invoiceDate": "Invoice date",
+    "lastDay": "Last day of discount window",
+    "dueDate": "Due date",
+    "ach": "ACH",
+    "autoPayPaymentTiming": "Autopay payment timing",
+    "autoPayPaymentMethod": "Autopay payment method"
 }

@@ -826,5 +826,8 @@
     "alertMsgOnSupplierChange": "आपूर्तिकर्ता का नाम बदलने से डेटा रीसेट हो जाएगा",
     "alertMsgOnPOChange": "लिंक किए गए पीओ को बदलने से डेटा रीसेट हो जाएगा",
     "alertMsgOnInvoiceChange": "चालान प्रकार बदलने से डेटा रीसेट हो जाएगा",
-    "invoiceConfirmationAlert": "यह परिवर्तन लाइन मिलान और कोडिंग को प्रभावित करेगा"
+    "invoiceConfirmationAlert": "यह परिवर्तन लाइन मिलान और कोडिंग को प्रभावित करेगा",
+    "multipleInvoiceDetected": "एक ही पीओ के लिए एकाधिक चालान का पता चला",
+    "poAccount": "पीओ खाता",
+    "poItemCode": "पीओ आइटम कोड"
 }
