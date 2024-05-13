@@ -474,7 +474,7 @@
     "customerPortalPlaceholder": "<Customer Portal link>",
     "customerPortalEmailLink": "<ourLink>accessCustomerPortal</ourLink> to view your outstanding invoices and make online payments.",
     "defaultWorkflow":"Default workflow for new customers",
-    "customFieldsSyncBackToGL": "Initiate a sync to ensure custom field changes are updated in the General Ledger",
+    "customFieldsSyncBackToGL": "Initiate a sync to ensure AR field changes are updated in the General Ledger",
     "paymentDetailsRequired":"Payment details required",
     "autoPayEnrollment":"Autopay Enrollment",
     "autopayLinkPlaceholder":"<autopay link>",
