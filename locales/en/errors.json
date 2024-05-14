@@ -15,7 +15,7 @@
   "GLSyncInProgress":"Syncing data from your General Ledger. You’ll be notified once you can access the modules to control and manage cash flow. <ourLink></ourLink>",
   "learnMore": "Learn more",
   "UnableToLoadDashboard": "Error while loading the homepage, please refresh. Contact us if the issue persists.",
-  "NoEntitlements": "You have not been provided with any Centime permissions yet. Speak with your administrator or contact us for help.",
+  "NoEntitlements": "You currently do not have permissions to access to Centime modules.",
   "AccountLockedWithMultipleAttempts":"Your account has been locked due to too many failed login attempts. Please reset your password by going back to the log in page or contact us for help.",
   "NoDataToShow": "No available data to display",
   "FetchingData": "Fetching data to display",
