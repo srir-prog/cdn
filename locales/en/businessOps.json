@@ -109,7 +109,7 @@
     "clientNameHeaderLabel": "Client Name",
     "paymentMethodHeaderLabel": "Payment Method",
     "statusHeaderLabel": "Status",
-    "totalInvoiceAmountHeaderLabel": "Invoice Amt",
+    "totalInvoiceAmountHeaderLabel": "Payment Amt",
     "totalPaymentAmountHeaderLabel": "Total Payment Amt",
     "paymentDateTimeHeaderLabel": "Payment Date",
     "failureReasonHeaderLabel": "Failure Reason",
