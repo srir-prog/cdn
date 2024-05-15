@@ -2,7 +2,7 @@
   "supplierPortalInfoDisplayHeader": "Securely store and manage your payment details",
   "supplierPortalInfoDisplayInfo1": "Choose how you wish to get paid: ACH, Credit card or Check",
   "supplierPortalInfoDisplayInfo2": "Securely save your payment information but also update if any details change",
-  "supplierPortalInfoDisplayInfo3": "Coming soon: Track all your unpaid invoices",
+  "supplierPortalInfoDisplayInfo3": "Track all your unpaid invoices",
   "supplierPortalInfoDisplayInfo4": "Coming soon: Access remittance information for all your paid invoices",
   "supplierHubLoginPageHeader": "{{subdomain}}'s Supplier Portal",
   "inValidRoutingNumberWithoutBank": "Invalid routing number",
@@ -61,5 +61,6 @@
   "checkImageACHDisplayToolTip": "A bank-issued document validating your business account",
   "preferredPaymentMethod": "Default payment method",
   "welcomeMessageForSupplierSettings": "Please update your payment profile by selecting the payment methods accepted by {{supplierName}}",
-  "nameOnCheckSupplier": "Pay to the order of"
+  "nameOnCheckSupplier": "Pay to the order of",
+  "supplierPortal": "Supplier Portal"
 }
