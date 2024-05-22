@@ -503,6 +503,7 @@
     "emailTemplates": "ईमेल टेम्प्लेट",
     "upcomingPaymentNotification": "आगामी भुगतान अधिसूचना",
     "unCollectedPaymentReminder": "असंग्रहीत भुगतान अनुस्मारक",
+    "role": "भूमिका",
     "edit": "संपादन करना",
     "paymentDetails": "भुगतान विवरण",
     "autopayPreferences": "स्वतःभुगतान प्राथमिकताएँ",
