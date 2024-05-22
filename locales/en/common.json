@@ -862,5 +862,6 @@
   "successfullyUpdatedDocumentsMsg": "Document updated successfully",
   "errorUpdatedDocumentsMsg": "Document updated failed. Please try again later",
   "successfullyDeletedDocumentsMsg": "Document deleted successfully",
-  "errorDeletedDocumentsMsg": "Error while deleting document, Please try again later"
+  "errorDeletedDocumentsMsg": "Error while deleting document, Please try again later",
+  "viewTemplate": "View template"
 }

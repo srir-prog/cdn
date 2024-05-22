@@ -854,5 +854,6 @@
     "successfullyUpdatedDocumentsMsg": "दस्तावेज़ सफलतापूर्वक अद्यतन किया गया",
     "errorUpdatedDocumentsMsg": "दस्तावेज़ अद्यतन विफल रहा. कृपया बाद में पुन: प्रयास करें",
     "successfullyDeletedDocumentsMsg": "दस्तावेज़ सफलतापूर्वक हटा दिया गया",
-    "errorDeletedDocumentsMsg": "दस्तावेज़ हटाते समय त्रुटि, कृपया बाद में पुनः प्रयास करें"
+    "errorDeletedDocumentsMsg": "दस्तावेज़ हटाते समय त्रुटि, कृपया बाद में पुनः प्रयास करें",
+    "viewTemplate": "टेम्पलेट देखें"
 }

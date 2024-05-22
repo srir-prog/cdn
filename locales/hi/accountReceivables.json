@@ -518,5 +518,15 @@
     "dueDate": "नियत तारीख",
     "ach": "आक",
     "autoPayPaymentTiming": "ऑटोपे भुगतान समय",
-    "autoPayPaymentMethod": "ऑटोपे भुगतान विधि"
+    "autoPayPaymentMethod": "ऑटोपे भुगतान विधि",
+    "autopayTiming": "स्वतः भुगतान समय",
+    "enterValue": "मान दर्ज करें",
+    "multipleEmailsInputPlaceHolder": "ईमेल दर्ज करें (अल्पविराम से अलग)",
+    "selectOption": "विकल्प चुनें",
+    "selectRoles": "भूमिकाएँ चुनें",
+    "selectUsers": "उपयोगकर्ताओं का चयन करें",
+    "selectAction": "कार्रवाई चुनें",
+    "selectType": "प्रकार चुनें",
+    "conditionsLimitReachedWarningMess" : "आप {{limit}} से अधिक शर्तों का चयन नहीं कर सकते",
+    "actionsLimitReachedWarningMess" : "आप {{limit}} से अधिक क्रियाओं का चयन नहीं कर सकते"
 }
