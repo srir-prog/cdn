@@ -831,6 +831,7 @@
   "approverType": "Approver type",
   "errorAddingPOApprover": "Errors encountered in adding the user as PO invoice approver. Please try again.",
   "successfullyAddedPOApprover": "User successfully added as PO invoice approver.",
+  "settingsImpactAutopay": "This setting will disable online payments and cancel autopay (if applicable) for all customers"
   "workflowPolicy": "Workflow Policy - {{policyName}}",
   "automations": "Automations",
   "enterDescription": "Enter description",
