@@ -101,6 +101,7 @@
     "ConfirmPayment": "भुगतान की पुष्टि करें",
     "ConfirmApproval": "अनुमोदन की पुष्टि करें",
     "PaymentDateHasPassed": "भुगतान दिनांक बीत चुका है",
+    "paymentDatePassedAwaitingApproval": "भुगतान तिथि बीत चुकी है. भुगतान स्वीकृत होने पर भुगतान जारी कर दिया जाएगा।",
     "RejectPayments": "भुगतान अस्वीकार करें",
     "Reason": "कारण",
     "ChooseAReason": "कोई कारण चुनें",
