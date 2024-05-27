@@ -531,5 +531,6 @@
     "selectAction": "Select action",
     "selectType": "Select type",
     "conditionsLimitReachedWarningMess" : "You can not select more than {{limit}} conditions",
-    "actionsLimitReachedWarningMess" : "You can not select more than {{limit}} actions"
+    "actionsLimitReachedWarningMess" : "You can not select more than {{limit}} actions",
+    "template": "Template"
 }
