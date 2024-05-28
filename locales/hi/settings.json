@@ -778,7 +778,7 @@
     "poThresholdSettingsHeader": "पीओ थ्रेसहोल्ड सेटिंग्स",
     "successfullyUpdatedPoSettings": "पीओ थ्रेशोल्ड सेटिंग्स को सफलतापूर्वक अपडेट किया गया",
     "errorUpdatingPoThresholdSettings": "पीओ थ्रेशोल्ड सेटिंग्स को अपडेट करते समय त्रुटि। कृपया पुन: प्रयास करें।",
-    "poInvoiceApprovalRequired": "सभी PO चालानों पर अनुमोदन की आवश्यकता है",
+    "poInvoiceApprovalRequired": "मिलान किए गए पीओ चालान पर अनुमोदन की आवश्यकता है",
     "acceptQuantityMisMatch": "आइटम की मात्रा बेमेल होने पर स्वतः स्वीकार करें",
     "acceptRateMisMatch": "स्वतः स्वीकार आइटम दर बेमेल भीतर",
     "acceptAmountMisMatch": "स्वतः स्वीकार व्यय राशि बेमेल है",
