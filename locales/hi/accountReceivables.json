@@ -530,5 +530,6 @@
     "selectType": "प्रकार चुनें",
     "conditionsLimitReachedWarningMess" : "आप {{limit}} से अधिक शर्तों का चयन नहीं कर सकते",
     "actionsLimitReachedWarningMess" : "आप {{limit}} से अधिक क्रियाओं का चयन नहीं कर सकते",
-    "template": "टेम्पलेट"
+    "template": "टेम्पलेट",
+    "sendPaymentReminder": "भुगतान अनुस्मारक भेजें" 
 }

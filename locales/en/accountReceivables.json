@@ -532,5 +532,6 @@
     "selectType": "Select type",
     "conditionsLimitReachedWarningMess" : "You can not select more than {{limit}} conditions",
     "actionsLimitReachedWarningMess" : "You can not select more than {{limit}} actions",
-    "template": "Template"
+    "template": "Template",
+    "sendPaymentReminder": "Send payment reminder"
 }
