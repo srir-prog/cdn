@@ -459,5 +459,7 @@
     "applyCredits": "Apply credits",
     "noCreditsToApply": "No credits available to apply",
     "totalFooterInPopup": "Total payment amount: <b>{{amount}}</b>",
-    "reviewCredits": "Review credits"
+    "reviewCredits": "Review credits",
+    "unspecifiedPaymentMethod": "Payment details for the supplier are not specified. <ourLink>ClickHere</ourLink> to add them",
+    "specify": "Specify"
 }
