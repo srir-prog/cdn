@@ -458,5 +458,6 @@
     "applyCredits": "Apply credits",
     "noCreditsToApply": "No credits available to apply",
     "totalFooterInPopup": "Total payment amount: <b>{{amount}}</b>",
-    "reviewCredits": "Review credits"
+    "reviewCredits": "Review credits",
+    "processingPending": "Processing pending"
 }
