@@ -105,6 +105,7 @@
     "ConfirmPayment": "Confirm payment",
     "ConfirmApproval": "Confirm approval",
     "PaymentDateHasPassed": "Payment date has passed",
+    "paymentDatePassedAwaitingApproval": "Payment date has passed. The payment will be released upon payment approval.",
     "RejectPayments": "Reject payments",
     "Reason": "Reason",
     "ChooseAReason": "Choose a reason",
@@ -459,5 +460,7 @@
     "noCreditsToApply": "No credits available to apply",
     "totalFooterInPopup": "Total payment amount: <b>{{amount}}</b>",
     "reviewCredits": "Review credits",
+    "unspecifiedPaymentMethod": "Payment details for the supplier are not specified. <ourLink>ClickHere</ourLink> to add them",
+    "specify": "Specify",
     "processingPending": "Processing pending"
 }

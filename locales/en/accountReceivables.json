@@ -505,6 +505,7 @@
     "emailTemplates": "Email templates",
     "upcomingPaymentNotification": "Upcoming payment notification",
     "unCollectedPaymentReminder": "Uncollected payment reminder",
+    "role": "Role",
     "edit": "Edit",
     "paymentDetails": "Payment details",
     "autopayPreferences": "Autopay preferences",
@@ -520,5 +521,17 @@
     "dueDate": "Due date",
     "ach": "ACH",
     "autoPayPaymentTiming": "Autopay payment timing",
-    "autoPayPaymentMethod": "Autopay payment method"
+    "autoPayPaymentMethod": "Autopay payment method",
+    "autopayTiming": "Autopay Timing",
+    "enterValue": "Enter value",
+    "multipleEmailsInputPlaceHolder": "Enter emails (comma separated)",
+    "selectOption": "Select option",
+    "selectRoles": "Select roles",
+    "selectUsers": "Select users",
+    "selectAction": "Select action",
+    "selectType": "Select type",
+    "conditionsLimitReachedWarningMess" : "You can not select more than {{limit}} conditions",
+    "actionsLimitReachedWarningMess" : "You can not select more than {{limit}} actions",
+    "template": "Template",
+    "sendPaymentReminder": "Send payment reminder"
 }
