@@ -84,6 +84,8 @@
     "PaymentModalBottomMessage": "<ourLink></ourLink> for a breakdown of the fee structure",
     "markPaidUnsupportedToolTip": "Payments executed through Centime can not be marked paid",
     "NoPaymentTooltip": "Payment details are not added for the supplier",
+    "noPFAToolTip": "Pay from account is not specified",
+    "inActivePaymentMethodToolTip": "Activate {{paymentMethod}} in the payment and credit solutions page",
     "supplierAccountInvalid": "Supplier account invalid",
     "accountValidationInProgress": "Account validation in progress",
     "SentToApprovalSuccess": "{{successfulInvoicesCount}} out of {{totalInvoicesCount}} invoices sent for approval",
@@ -103,6 +105,7 @@
     "ConfirmPayment": "Confirm payment",
     "ConfirmApproval": "Confirm approval",
     "PaymentDateHasPassed": "Payment date has passed",
+    "paymentDatePassedAwaitingApproval": "Payment date has passed. The payment will be released upon payment approval.",
     "RejectPayments": "Reject payments",
     "Reason": "Reason",
     "ChooseAReason": "Choose a reason",
@@ -455,5 +458,8 @@
     "applied": "Applied",
     "applyCredits": "Apply credits",
     "noCreditsToApply": "No credits available to apply",
-    "totalFooterInPopup": "Total payment amount: <b>{{amount}}</b>"
+    "totalFooterInPopup": "Total payment amount: <b>{{amount}}</b>",
+    "reviewCredits": "Review credits",
+    "unspecifiedPaymentMethod": "Payment details for the supplier are not specified. <ourLink>ClickHere</ourLink> to add them",
+    "specify": "Specify"
 }
