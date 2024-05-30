@@ -67,7 +67,7 @@
     "totalCustomers": "Total customers",
     "totalInvoices": "Total invoices",
     "ReminderIsOn": "Reminder is on",
-    "HeaderLabelCustomer": "Customer",
+    "HeaderLabelCustomer": "Customer/Project",
     "HeaderLabelCustomers": "Customers",
     "HeaderLabelReminder": "Reminder",
     "HeaderLabelOutstanding": "Outstanding",
@@ -533,5 +533,7 @@
     "conditionsLimitReachedWarningMess" : "You can not select more than {{limit}} conditions",
     "actionsLimitReachedWarningMess" : "You can not select more than {{limit}} actions",
     "template": "Template",
-    "sendPaymentReminder": "Send payment reminder"
+    "sendPaymentReminder": "Send payment reminder",
+    "customerLabel": "Customer",
+    "projectLabel": "Project"
 }

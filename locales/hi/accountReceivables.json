@@ -67,7 +67,7 @@
     "totalCustomers": "कुल ग्राहक",
     "totalInvoices": "कुल चालान",
     "ReminderIsOn": "रिमाइंडर जारी है",
-    "HeaderLabelCustomer": "ग्राहक",
+    "HeaderLabelCustomer": "ग्राहक/परियोजना",
     "HeaderLabelCustomers": "ग्राहकों",
     "HeaderLabelReminder": "अनुस्मारक",
     "HeaderLabelOutstanding": "बकाया",
@@ -531,5 +531,7 @@
     "conditionsLimitReachedWarningMess" : "आप {{limit}} से अधिक शर्तों का चयन नहीं कर सकते",
     "actionsLimitReachedWarningMess" : "आप {{limit}} से अधिक क्रियाओं का चयन नहीं कर सकते",
     "template": "टेम्पलेट",
-    "sendPaymentReminder": "भुगतान अनुस्मारक भेजें" 
+    "sendPaymentReminder": "भुगतान अनुस्मारक भेजें",
+    "customerLabel": "ग्राहक",
+    "projectLabel": "परियोजना"
 }
