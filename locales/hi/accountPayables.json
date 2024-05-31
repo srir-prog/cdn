@@ -80,6 +80,8 @@
     "PaymentModalBottomMessage": "<ourLink></ourLink> शुल्क संरचना के टूटने के लिए",
     "markPaidUnsupportedToolTip": "सेंटाइम के माध्यम से निष्पादित भुगतानों को भुगतान के रूप में चिह्नित नहीं किया जा सकता है",
     "NoPaymentTooltip": "आपूर्तिकर्ता के लिए भुगतान विवरण नहीं जोड़े गए हैं",
+    "noPFAToolTip": "खाते से भुगतान निर्दिष्ट नहीं है",
+    "inActivePaymentMethodToolTip": "भुगतान और क्रेडिट समाधान पृष्ठ में {{paymentMethod}} सक्रिय करें",
     "supplierAccountInvalid": "आपूर्तिकर्ता खाता अमान्य",
     "accountValidationInProgress": "खाता सत्यापन प्रगति पर है",
     "SentToApprovalSuccess": "{{successfulInvoicesCount}} {{totalInvoicesCount}} अनुमोदन के लिए भेजे गए चालान",
@@ -99,6 +101,7 @@
     "ConfirmPayment": "भुगतान की पुष्टि करें",
     "ConfirmApproval": "अनुमोदन की पुष्टि करें",
     "PaymentDateHasPassed": "भुगतान दिनांक बीत चुका है",
+    "paymentDatePassedAwaitingApproval": "भुगतान तिथि बीत चुकी है. भुगतान स्वीकृत होने पर भुगतान जारी कर दिया जाएगा।",
     "RejectPayments": "भुगतान अस्वीकार करें",
     "Reason": "कारण",
     "ChooseAReason": "कोई कारण चुनें",
@@ -454,5 +457,8 @@
     "inSync":"प्रोफ़ाइल स्वीकृत है",
     "notInSync":"प्रोफ़ाइल अधिरोधित है",
     "invitedToUpdate": "अपडेट का निवेदन",
-    "reviewCardProfile": "समीक्षा कार्ड प्रोफ़ाइल"
+    "reviewCardProfile": "समीक्षा कार्ड प्रोफ़ाइल",
+    "reviewCredits": "समीक्षा क्रेडिट्स",
+    "unspecifiedPaymentMethod": "आपूर्तिकर्ता के लिए भुगतान विवरण निर्दिष्ट नहीं हैं। उन्हें जोड़ने के लिए <ourLink>यहां क्लिक करें</ourLink>",
+    "specify": "निर्दिष्ट करें"
 }
