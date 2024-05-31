@@ -179,6 +179,7 @@
   "historyActionCustomerTaxIdUpdated": "Customer tax id updated",
   "historyActionCustomerTaxIdTypeUpdated": "Customer tax id type updated",
   "HistoryActionSupplierProfileUpdated": "Supplier profile updated",
+  "HistoryActionEmployeeProfileUpdated": "Employee profile updated",
   "HistoryActionPrimaryContactDetailsUpdated": "Primary contact details updated",
   "HistoryActionSupplierApprovalNotificationFlag": "Payment approval notification setting updated",
   "HistoryActionSupplierSendRemittanceFlag": "Payment remittance notification setting updated",
