@@ -461,5 +461,6 @@
     "totalFooterInPopup": "Total payment amount: <b>{{amount}}</b>",
     "reviewCredits": "Review credits",
     "unspecifiedPaymentMethod": "Payment details for the supplier are not specified. <ourLink>ClickHere</ourLink> to add them",
-    "specify": "Specify"
+    "specify": "Specify",
+    "processingPending": "Processing pending"
 }
