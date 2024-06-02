@@ -127,6 +127,7 @@
     "HistoryActionPaymentMethodChanged": "Payment method changed",
     "HistoryActionFundingAccountChanged": "Funding account changed",
     "HistoryActionSupplierProfileUpdated": "Supplier profile updated",
+    "HistoryActionEmployeeProfileUpdated": "Employee profile updated",
     "HistoryActionPrimaryContactDetailsUpdated": "Primary contact details updated",
     "HistoryActionSupplierApprovalNotificationFlag": "Payment approval notification setting updated",
     "HistoryActionSupplierSendRemittanceFlag": "Payment remittance notification setting updated",
