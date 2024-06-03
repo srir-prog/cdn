@@ -535,5 +535,6 @@
     "template": "Template",
     "sendPaymentReminder": "Send payment reminder",
     "customerLabel": "Customer",
-    "projectLabel": "Project"
+    "projectLabel": "Project",
+    "missingCommunication": "Communication contacts missing"
 }

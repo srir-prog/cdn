@@ -533,5 +533,6 @@
     "template": "टेम्पलेट",
     "sendPaymentReminder": "भुगतान अनुस्मारक भेजें",
     "customerLabel": "ग्राहक",
-    "projectLabel": "परियोजना"
+    "projectLabel": "परियोजना",
+    "missingCommunication": "संचार संपर्क गायब हैं"
 }
