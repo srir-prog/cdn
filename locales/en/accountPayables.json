@@ -105,6 +105,7 @@
     "ConfirmPayment": "Confirm payment",
     "ConfirmApproval": "Confirm approval",
     "PaymentDateHasPassed": "Payment date has passed",
+    "paymentDatePassedAwaitingApproval": "Payment date has passed. The payment will be released upon payment approval.",
     "RejectPayments": "Reject payments",
     "Reason": "Reason",
     "ChooseAReason": "Choose a reason",
@@ -126,6 +127,7 @@
     "HistoryActionPaymentMethodChanged": "Payment method changed",
     "HistoryActionFundingAccountChanged": "Funding account changed",
     "HistoryActionSupplierProfileUpdated": "Supplier profile updated",
+    "HistoryActionEmployeeProfileUpdated": "Employee profile updated",
     "HistoryActionPrimaryContactDetailsUpdated": "Primary contact details updated",
     "HistoryActionSupplierApprovalNotificationFlag": "Payment approval notification setting updated",
     "HistoryActionSupplierSendRemittanceFlag": "Payment remittance notification setting updated",
@@ -460,5 +462,6 @@
     "totalFooterInPopup": "Total payment amount: <b>{{amount}}</b>",
     "reviewCredits": "Review credits",
     "unspecifiedPaymentMethod": "Payment details for the supplier are not specified. <ourLink>ClickHere</ourLink> to add them",
-    "specify": "Specify"
+    "specify": "Specify",
+    "processingPending": "Processing pending"
 }

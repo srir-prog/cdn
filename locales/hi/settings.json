@@ -778,7 +778,7 @@
     "poThresholdSettingsHeader": "पीओ थ्रेसहोल्ड सेटिंग्स",
     "successfullyUpdatedPoSettings": "पीओ थ्रेशोल्ड सेटिंग्स को सफलतापूर्वक अपडेट किया गया",
     "errorUpdatingPoThresholdSettings": "पीओ थ्रेशोल्ड सेटिंग्स को अपडेट करते समय त्रुटि। कृपया पुन: प्रयास करें।",
-    "poInvoiceApprovalRequired": "सभी PO चालानों पर अनुमोदन की आवश्यकता है",
+    "poInvoiceApprovalRequired": "मिलान किए गए पीओ चालान पर अनुमोदन की आवश्यकता है",
     "acceptQuantityMisMatch": "आइटम की मात्रा बेमेल होने पर स्वतः स्वीकार करें",
     "acceptRateMisMatch": "स्वतः स्वीकार आइटम दर बेमेल भीतर",
     "acceptAmountMisMatch": "स्वतः स्वीकार व्यय राशि बेमेल है",
@@ -791,5 +791,15 @@
     "approverType": "अनुमोदनकर्ता प्रकार",
     "errorAddingPOApprover": "उपयोगकर्ता को पीओ चालान अनुमोदक के रूप में जोड़ने में त्रुटियाँ आईं। कृपया पुन: प्रयास करें।",
     "successfullyAddedPOApprover": "उपयोगकर्ता को पीओ चालान अनुमोदक के रूप में सफलतापूर्वक जोड़ा गया।",
-    "settingsImpactAutopay": "यह सेटिंग ऑनलाइन भुगतान अक्षम कर देगी और सभी ग्राहकों के लिए ऑटोपे रद्द कर देगी (यदि लागू हो)"
+    "settingsImpactAutopay": "यह सेटिंग ऑनलाइन भुगतान अक्षम कर देगी और सभी ग्राहकों के लिए ऑटोपे रद्द कर देगी (यदि लागू हो)",
+    "workflowPolicy": "कार्यप्रवाह नीति - {{policyName}}",
+    "automations": "स्वचालन",
+    "enterDescription": "विवरण दर्ज करें",
+    "conditions": "स्थितियाँ",
+    "actions": "कार्रवाई",
+    "events": "आयोजन",
+    "duplicate": "डुप्लिकेट {{type}}",
+    "delete": "मिटायें",
+    "addAutomations": "स्वचालन जोड़ें",
+    "activeIn" : "इनमें सक्रिय हैं"
 }

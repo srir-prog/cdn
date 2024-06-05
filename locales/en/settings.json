@@ -818,7 +818,7 @@
   "poThresholdSettingsHeader": "PO threshold settings",
   "successfullyUpdatedPoSettings": "Successfully updated the PO threshold settings",
   "errorUpdatingPoThresholdSettings": "Error while updating the PO threshold settings. Please try again.",
-  "poInvoiceApprovalRequired": "Require approval on all PO Invoices",
+  "poInvoiceApprovalRequired": "Require approval on matched PO invoices",
   "acceptQuantityMisMatch": "Auto accept item quantity mismatches within",
   "acceptRateMisMatch": "Auto accept item rate mismatches within",
   "acceptAmountMisMatch": "Auto accept expense amount mismatches within",
@@ -831,5 +831,15 @@
   "approverType": "Approver type",
   "errorAddingPOApprover": "Errors encountered in adding the user as PO invoice approver. Please try again.",
   "successfullyAddedPOApprover": "User successfully added as PO invoice approver.",
-  "settingsImpactAutopay": "This setting will disable online payments and cancel autopay (if applicable) for all customers"
+  "settingsImpactAutopay": "This setting will disable online payments and cancel autopay (if applicable) for all customers",
+  "workflowPolicy": "Workflow Policy - {{policyName}}",
+  "automations": "Automations",
+  "enterDescription": "Enter description",
+  "conditions": "Conditions",
+  "actions": "Actions",
+  "events": "Events",
+  "duplicate": "Duplicate {{type}}",
+  "delete": "Delete",
+  "addAutomations": "Add automations",
+  "activeIn" : "Active in"
 }
