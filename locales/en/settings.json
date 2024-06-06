@@ -841,5 +841,6 @@
   "duplicate": "Duplicate {{type}}",
   "delete": "Delete",
   "addAutomations": "Add automations",
-  "activeIn" : "Active in"
+  "activeIn" : "Active in",
+  "deleteDocumentTypeConfirmationMsg": "Are you sure you want to delete `{{documentTypeName}}` document?"
 }
