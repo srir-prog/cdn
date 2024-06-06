@@ -109,6 +109,7 @@
   "Currency": "Currency",
   "EmailCommunication": "Email communication settings",
   "SupplierEmailCommunications": "Supplier email communications",
+  "EmployeeEmailCommunications": "Employee email communications",
   "NotifyPayments": "Notify when payment has been approved",
   "SendPaymentScheduledNotification": "Send notification when payment is scheduled",
   "NotifyRemittance": "Send remittance after payment has been initiated",
@@ -138,6 +139,7 @@
   "riskReputation": "Risk and Reputation",
   "supplierProfile": "Profile",
   "supplierPanelTitle": "Supplier profile - {{buyerName}}",
+  "employeePanelTitle": "Employee profile - {{employeeName}}",
   "myProfile": "My profile",
   "taxType": "Tax type",
   "taxNumber": "Tax number",
@@ -177,6 +179,7 @@
   "historyActionCustomerTaxIdUpdated": "Customer tax id updated",
   "historyActionCustomerTaxIdTypeUpdated": "Customer tax id type updated",
   "HistoryActionSupplierProfileUpdated": "Supplier profile updated",
+  "HistoryActionEmployeeProfileUpdated": "Employee profile updated",
   "HistoryActionPrimaryContactDetailsUpdated": "Primary contact details updated",
   "HistoryActionSupplierApprovalNotificationFlag": "Payment approval notification setting updated",
   "HistoryActionSupplierSendRemittanceFlag": "Payment remittance notification setting updated",
@@ -834,6 +837,7 @@
   "alertMsgOnInvoiceChange": "Changing the Invoice Type will reset the data",
   "invoiceConfirmationAlert": "This change will affect the line matching and coding",
   "multipleInvoiceDetected": "Multiple invoices detected for the same PO",
+  "editTemplate": "Edit template",
   "poAccount": "PO Account",
   "poItemCode": "PO Item code",
   "notesAndHistory":"Notes and History",
@@ -861,5 +865,6 @@
   "successfullyUpdatedDocumentsMsg": "Document updated successfully",
   "errorUpdatedDocumentsMsg": "Document updated failed. Please try again later",
   "successfullyDeletedDocumentsMsg": "Document deleted successfully",
-  "errorDeletedDocumentsMsg": "Error while deleting document, Please try again later"
+  "errorDeletedDocumentsMsg": "Error while deleting document, Please try again later",
+  "viewTemplate": "View template"
 }
