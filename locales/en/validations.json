@@ -110,5 +110,5 @@
   "noSpecialChars": "No Special Characters allowed",
   "inValidLegalNameForAmex": "Legal Name for American Express Card can include only these special characters []?!|$:.-_@*%~#^£¢¤¬(),& ",
   "ensureUniqueName": "Name must be unique",
-  "percentageLimitation": "The value should be between 0% and 100%"
+  "percentageLimitation": "The value should be between {{minValue}}% and {{maxValue}}%"
 }
