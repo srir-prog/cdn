@@ -431,6 +431,7 @@
   "historyMessageGlPostingFailedDueTo": "GL posting failed due to {{failureReason}}",
   "historyMessageDocumentHeader": "Document {{documentHeader}}",
   "invoiceSupplierPanelTitle": "Supplier profile - {{buyerName}}, Invoice {{invoiceNumber}}",
+  "expenseEmployeePanelTitle": "Employee - {{buyerName}}, Expense report {{invoiceNumber}}",
   "documentSupplierPanelTitle": "Supplier profile - {{buyerName}}, Document {{invoiceNumber}}",
   "historyMessageInvoiceHeader": "Invoice {{invoiceHeader}}",
   "historyActionDocumentDeleted": "Document deleted",
