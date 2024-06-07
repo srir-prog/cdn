@@ -534,5 +534,7 @@
     "sendPaymentReminder": "भुगतान अनुस्मारक भेजें",
     "customerLabel": "ग्राहक",
     "projectLabel": "परियोजना",
-    "missingCommunication": "संचार संपर्क गायब हैं"
+    "missingCommunication": "संचार संपर्क गायब हैं",
+    "actionBeforePaymentDate": "भुगतान तिथि से पहले की कार्रवाई",
+    "actionAfterPaymentDate": "भुगतान तिथि के बाद की कार्रवाई"
 }
