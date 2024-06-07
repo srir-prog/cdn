@@ -537,5 +537,6 @@
     "customerLabel": "Customer",
     "projectLabel": "Project",
     "missingCommunication": "Communication contacts missing",
+    "actionBeforePaymentDate": "Actions before payment date",
     "actionAfterPaymentDate": "Actions after payment date"
 }
