@@ -536,5 +536,7 @@
     "sendPaymentReminder": "Send payment reminder",
     "customerLabel": "Customer",
     "projectLabel": "Project",
-    "missingCommunication": "Communication contacts missing"
+    "missingCommunication": "Communication contacts missing",
+    "actionBeforePaymentDate": "Actions before payment date",
+    "actionAfterPaymentDate": "Actions after payment date"
 }
