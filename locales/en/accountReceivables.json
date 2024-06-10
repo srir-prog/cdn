@@ -526,6 +526,7 @@
     "enterValue": "Enter value",
     "multipleEmailsInputPlaceHolder": "Enter emails (comma separated)",
     "selectOption": "Select option",
+    "selectOptions": "Select options",
     "selectRoles": "Select roles",
     "selectUsers": "Select users",
     "selectAction": "Select action",
@@ -537,5 +538,18 @@
     "customerLabel": "Customer",
     "projectLabel": "Project",
     "missingCommunication": "Communication contacts missing",
-    "taskAssignee": "Task assignee"
+    "taskAssignee": "Task assignee",
+    "actionBeforePaymentDate": "Actions before payment date",
+    "actionAfterPaymentDate": "Actions after payment date",
+    "policyEventsTooltipInfo": "Select an event to start creating automation",
+    "policyConditionsTooltipInfo": "Select the qualifying conditions for the event. All chosen conditions will apply",
+    "policyActionsTooltipInfo": "Maximum of {{recipientsAllowed}} recipients can be accommodated per email",
+    "policyTableDataError": "Error while fetching policy table data",
+    "emailTemplateFetchingError":"Error while fetching email template",
+    "automationCreateSuccess" : "Automation created successfully",
+    "automationUpdateSuccess" : "Automation updated successfully",
+    "automationDeleteSuccess" : "Automation deleted successfully",
+    "automationCreateError": "Error while adding automation. Please try again later.",
+    "automationUpdateError": "Error while updating automation. Please try again later.",
+    "automationPanelDataError": "Error while fetching the APIs"
 }
