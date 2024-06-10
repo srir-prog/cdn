@@ -548,5 +548,8 @@
     "automationDeleteSuccess" : "स्वचालन सफलतापूर्वक हटा दिया गया",
     "automationCreateError": "स्वचालन जोड़ते समय त्रुटि हुई। कृपया बाद में पुनः प्रयास करें।",
     "automationUpdateError": "स्वचालन अपडेट करते समय त्रुटि हुई। कृपया बाद में पुनः प्रयास करें।",
-    "automationPanelDataError": "API प्राप्त करते समय त्रुटि हुई"
+    "automationPanelDataError": "API प्राप्त करते समय त्रुटि हुई",
+    "daysBeforePaymentDate": "भुगतान तिथि से कुछ दिन पहले",
+    "daysAfterPaymentDate": "भुगतान तिथि के बाद के दिन",
+    "paymentReminder": "भुगतान रिमाईन्डर"
 }
