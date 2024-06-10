@@ -538,6 +538,8 @@
     "customerLabel": "Customer",
     "projectLabel": "Project",
     "missingCommunication": "Communication contacts missing",
+    "actionBeforePaymentDate": "Actions before payment date",
+    "actionAfterPaymentDate": "Actions after payment date",
     "policyEventsTooltipInfo": "Select an event to start creating automation",
     "policyConditionsTooltipInfo": "Select the qualifying conditions for the event. All chosen conditions will apply",
     "policyActionsTooltipInfo": "Maximum of {{recipientsAllowed}} recipients can be accommodated per email",

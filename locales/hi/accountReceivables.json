@@ -536,6 +536,8 @@
     "customerLabel": "ग्राहक",
     "projectLabel": "परियोजना",
     "missingCommunication": "संचार संपर्क गायब हैं",
+    "actionBeforePaymentDate": "भुगतान तिथि से पहले की कार्रवाई",
+    "actionAfterPaymentDate": "भुगतान तिथि के बाद की कार्रवाई",
     "policyEventsTooltipInfo": "स्वचालन बनाना शुरू करने के लिए कोई ईवेंट चुनें",
     "policyConditionsTooltipInfo": "इवेंट के लिए योग्यता शर्तें चुनें। चुनी गई सभी शर्तें लागू होंगी",
     "policyActionsTooltipInfo": "प्रति ईमेल अधिकतम {{recipientsAllowed}} प्राप्तकर्ताओं को समायोजित किया जा सकता है",
