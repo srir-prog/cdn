@@ -550,5 +550,8 @@
     "automationDeleteSuccess" : "Automation deleted successfully",
     "automationCreateError": "Error while adding automation. Please try again later.",
     "automationUpdateError": "Error while updating automation. Please try again later.",
-    "automationPanelDataError": "Error while fetching the APIs"
+    "automationPanelDataError": "Error while fetching the APIs",
+    "daysBeforePaymentDate": "days before payment date",
+    "daysAfterPaymentDate": "days after payment date",
+    "paymentReminder": "Payment reminder"
 }
