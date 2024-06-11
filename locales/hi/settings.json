@@ -801,5 +801,6 @@
     "duplicate": "डुप्लिकेट {{type}}",
     "delete": "मिटायें",
     "addAutomations": "स्वचालन जोड़ें",
-    "activeIn" : "इनमें सक्रिय हैं"
+    "activeIn" : "इनमें सक्रिय हैं",
+    "canNotDeleteCustomField" : "इसे यहां से हटाने के लिए स्वचालन से हटाएँ।"
 }
