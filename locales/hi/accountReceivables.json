@@ -551,5 +551,8 @@
     "automationPanelDataError": "API प्राप्त करते समय त्रुटि हुई",
     "daysBeforePaymentDate": "भुगतान तिथि से कुछ दिन पहले",
     "daysAfterPaymentDate": "भुगतान तिथि के बाद के दिन",
-    "paymentReminder": "भुगतान रिमाईन्डर"
+    "paymentReminder": "भुगतान रिमाईन्डर",
+    "paymentDatePlaceHolder": "<भुगतान तिथि>",
+    "failureReasonPlaceHolder": "<असफलता का कारण>",
+    "failureReason": "असफलता का कारण"
 }
