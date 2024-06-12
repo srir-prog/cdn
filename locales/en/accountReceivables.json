@@ -554,5 +554,8 @@
     "automationPanelDataError": "Error while fetching the APIs",
     "daysBeforePaymentDate": "days before payment date",
     "daysAfterPaymentDate": "days after payment date",
-    "paymentReminder": "Payment reminder"
+    "paymentReminder": "Payment reminder",
+    "paymentDatePlaceHolder": "<payment date>",
+    "failureReasonPlaceHolder": "<failure reason>",
+    "failureReason": "Failure reason"
 }
