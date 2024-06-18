@@ -536,6 +536,7 @@
     "customerLabel": "ग्राहक",
     "projectLabel": "परियोजना",
     "missingCommunication": "संचार संपर्क गायब हैं",
+    "taskAssignee": "कार्य सौंपने वाला",
     "actionBeforePaymentDate": "भुगतान तिथि से पहले की कार्रवाई",
     "actionAfterPaymentDate": "भुगतान तिथि के बाद की कार्रवाई",
     "policyEventsTooltipInfo": "स्वचालन बनाना शुरू करने के लिए कोई ईवेंट चुनें",

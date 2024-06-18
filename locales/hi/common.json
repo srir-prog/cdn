@@ -860,5 +860,6 @@
     "errorUpdatedDocumentsMsg": "दस्तावेज़ अद्यतन विफल रहा. कृपया बाद में पुन: प्रयास करें",
     "successfullyDeletedDocumentsMsg": "दस्तावेज़ सफलतापूर्वक हटा दिया गया",
     "errorDeletedDocumentsMsg": "दस्तावेज़ हटाते समय त्रुटि, कृपया बाद में पुनः प्रयास करें",
-    "viewTemplate": "टेम्पलेट देखें"
+    "viewTemplate": "टेम्पलेट देखें",
+    "projectTitle": "प्रोजेक्ट प्रोफ़ाइल - {{buyerName}}"
 }

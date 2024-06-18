@@ -538,6 +538,7 @@
     "customerLabel": "Customer",
     "projectLabel": "Project",
     "missingCommunication": "Communication contacts missing",
+    "taskAssignee": "Task assignee",
     "actionBeforePaymentDate": "Actions before payment date",
     "actionAfterPaymentDate": "Actions after payment date",
     "policyEventsTooltipInfo": "Select an event to start creating automation",
