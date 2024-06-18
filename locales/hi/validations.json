@@ -106,5 +106,6 @@
   "noSpecialChars": "कोई खास अक्षर की अनुमति नहीं है",
   "inValidLegalNameForAmex": "अमेरिकन एक्सप्रेस कार्ड के लिए कानूनी नाम में केवल ये विशेष वर्ण शामिल हो सकते हैं []?!|$:.-_@*%~#^£¢¤¬(),& ",
   "ensureUniqueName": "नाम अद्वितीय होना चाहिए",
-  "percentageLimitation": "मूल्य {{minValue}}% और {{maxValue}}% के बीच होना चाहिए"
+  "percentageLimitation": "मूल्य {{minValue}}% और {{maxValue}}% के बीच होना चाहिए",
+  "notValidCountryCode": "अमेरिकन एक्सप्रेस वर्तमान में केवल +1 देश कोड का समर्थन करता है"
 }
