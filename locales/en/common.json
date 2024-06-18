@@ -866,5 +866,19 @@
   "errorUpdatedDocumentsMsg": "Document updated failed. Please try again later",
   "successfullyDeletedDocumentsMsg": "Document deleted successfully",
   "errorDeletedDocumentsMsg": "Error while deleting document, Please try again later",
-  "viewTemplate": "View template"
+  "viewTemplate": "View template",
+  "additionalDocumentsTabTitle": "Additional documents ({{documentCount}})",
+  "invoiceDate": "Invoice date",
+  "paymentTerms": "Payment terms",
+  "paymentStatus": "Payment status",
+  "paymentDate": "Payment date",
+  "lastNotes": "Last notes",
+  "nextAction": "Next action",
+  "noDocumentToShow": "No document to show",
+  "solution": "Solution",
+  "all": "All",
+  "addDocumentType": "Add document type",
+  "documentName": "Document name",
+  "documentType": "Document type",
+  "selectVisibility": "Select visibility"
 }

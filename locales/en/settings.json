@@ -842,5 +842,11 @@
   "delete": "Delete",
   "addAutomations": "Add automations",
   "activeIn" : "Active in",
-  "deleteDocumentTypeConfirmationMsg": "Are you sure you want to delete `{{documentTypeName}}` document?"
+  "deleteDocumentTypeConfirmationMsg": "Are you sure you want to delete `{{documentTypeName}}` document?",
+  "documents": "Documents",
+  "documentType": "Document type",
+  "addDocumentType": "Add document type",
+  "solution": "Solution",
+  "all": "All",
+  "documentTypeTitle": "Document types"
 }
