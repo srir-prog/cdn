@@ -863,5 +863,11 @@
     "viewTemplate": "टेम्पलेट देखें",
      "projectTitle": "प्रोजेक्ट प्रोफ़ाइल - {{buyerName}}",
     "approvedCodingMissingHeader": "स्वीकृत: कोडिंग गायब है",
-    "codingMissing": "कोडिंग गायब है"
+    "codingMissing": "कोडिंग गायब है",
+    "approvedWithCodingMissingStatus": "स्वीकृत कोडिंग गायब है",
+    "mandatoryCodingFieldMissingDescription": "अनिवार्य कोडिंग फ़ील्ड अनुपलब्ध हैं",
+    "needsApproversCodingMissingHeader": "अनुमोदकों की आवश्यकता है: कोडिंग गायब है",
+    "awaitingApprovalCodingMissingHeader": "अनुमोदन की प्रतीक्षा में: कोडिंग गायब है",
+    "readyForApprovalCodingMissingHeader": "अनुमोदन के लिए तैयार: कोडिंग गायब है",
+    "readyToPostDuplicateHeader": "पोस्ट करने के लिए तैयार: संभावित डुप्लिकेट मिला"
 }

@@ -870,5 +870,11 @@
   "viewTemplate": "View template",
   "projectTitle": "Project profile - {{buyerName}}",
   "approvedCodingMissingHeader": "Approved: Coding missing",
-  "codingMissing": "Coding missing"
+  "codingMissing": "Coding missing",
+  "approvedWithCodingMissingStatus": "Approved coding missing",
+  "mandatoryCodingFieldMissingDescription": "Mandatory coding fields are missing",
+  "needsApproversCodingMissingHeader": "Needs approvers: Coding missing",
+  "awaitingApprovalCodingMissingHeader": "Awaiting approval: Coding missing",
+  "readyForApprovalCodingMissingHeader": "Ready for approval: Coding missing",
+  "readyToPostDuplicateHeader": "Ready to post: Potential duplicate found"
 }
