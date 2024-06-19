@@ -472,5 +472,7 @@
   "merchantNotInApprovedCategory": "आपूर्तिकर्ता एमेक्स कार्ड संसाधित करने के लिए अयोग्य है",
   "merchantNotInApprovedList": "आपूर्तिकर्ता एमेक्स कार्ड संसाधित करने के लिए अयोग्य है",
   "cardFundingAccountDeclined": "कार्ड सक्रिय नहीं है",
-  "merchantDoesNotAcceptAmex": "आपूर्तिकर्ता एमेक्स कार्ड स्वीकार नहीं करता है"
+  "merchantDoesNotAcceptAmex": "आपूर्तिकर्ता एमेक्स कार्ड स्वीकार नहीं करता है",
+  "expenseReport": "व्यय रिपोर्ट",
+  "employee": "कर्मचारी"
 }
