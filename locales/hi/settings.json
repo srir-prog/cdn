@@ -801,5 +801,11 @@
     "duplicate": "डुप्लिकेट {{type}}",
     "delete": "मिटायें",
     "addAutomations": "स्वचालन जोड़ें",
-    "activeIn" : "इनमें सक्रिय हैं"
+    "activeIn" : "इनमें सक्रिय हैं",
+    "documents": "दस्तावेज़",
+    "documentType": "दस्तावेज़ का प्रकार",
+    "addDocumentType": "दस्तावेज़ प्रकार जोड़ें",
+    "solution": "समाधान",
+    "all": "सब",
+    "documentTypeTitle": "दस्तावेज़ प्रकार"
 }

@@ -859,5 +859,19 @@
     "errorUpdatedDocumentsMsg": "दस्तावेज़ अद्यतन विफल रहा. कृपया बाद में पुन: प्रयास करें",
     "successfullyDeletedDocumentsMsg": "दस्तावेज़ सफलतापूर्वक हटा दिया गया",
     "errorDeletedDocumentsMsg": "दस्तावेज़ हटाते समय त्रुटि, कृपया बाद में पुनः प्रयास करें",
-    "viewTemplate": "टेम्पलेट देखें"
+    "viewTemplate": "टेम्पलेट देखें",
+    "additionalDocumentsTabTitle": "अतिरिक्त दस्तावेज़ ({{documentCount}})",
+    "invoiceDate": "चालान की तारीख",
+    "paymentTerms": "अदायगी की शर्तें",
+    "paymentStatus": "भुगतान की स्थिति",
+    "paymentDate": "भुगतान तिथि",
+    "lastNotes": "अंतिम नोट्स",
+    "nextAction": "अगला कदम",
+    "noDocumentToShow": "दिखाने के लिए कोई दस्तावेज़ नहीं",
+    "solution": "समाधान",
+    "all": "सब",
+    "addDocumentType": "दस्तावेज़ प्रकार जोड़ें",
+    "documentName": "दस्तावेज़ का नाम",
+    "documentType": "दस्तावेज़ का प्रकार",
+    "selectVisibility": "दृश्यता का चयन करें"
 }
