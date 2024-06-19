@@ -861,6 +861,7 @@
     "successfullyDeletedDocumentsMsg": "दस्तावेज़ सफलतापूर्वक हटा दिया गया",
     "errorDeletedDocumentsMsg": "दस्तावेज़ हटाते समय त्रुटि, कृपया बाद में पुनः प्रयास करें",
     "viewTemplate": "टेम्पलेट देखें",
+     "projectTitle": "प्रोजेक्ट प्रोफ़ाइल - {{buyerName}}",
     "approvedCodingMissingHeader": "स्वीकृत: कोडिंग गायब है",
     "codingMissing": "कोडिंग गायब है"
 }

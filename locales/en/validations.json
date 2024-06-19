@@ -108,7 +108,8 @@
   "validateDirectoryPath": "Please enter correct path or you may missing trailing slash at the end",
   "defaultLevelLimitError": "Value less than base limit",
   "noSpecialChars": "No Special Characters allowed",
-  "inValidLegalNameForAmex": "Legal Name for American Express Card can include only these special characters []?!|$:.-_@*%~#^£¢¤¬(),& ",
+  "inValidLegalNameForAmex": "Cardholder Name can include only these special characters []?!|$:.-_@*%~#^£¢¤¬(),& ",
   "ensureUniqueName": "Name must be unique",
-  "percentageLimitation": "The value should be between {{minValue}}% and {{maxValue}}%"
+  "percentageLimitation": "The value should be between {{minValue}}% and {{maxValue}}%",
+  "notValidCountryCode": "American Express currently supports only +1 country codes"
 }

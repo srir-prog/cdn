@@ -841,12 +841,12 @@
   "editTemplate": "Edit template",
   "poAccount": "PO Account",
   "poItemCode": "PO Item code",
-  "notesAndHistory":"Notes and History",
+  "notesAndHistory": "Notes and History",
   "name": "Name",
   "visibility": "Visibility",
   "uploadedBy": "Uploaded by",
   "uploadedOn": "Uploaded on",
-  "contract":  "Contract",
+  "contract": "Contract",
   "deliveryReceipt": "Delivery receipt",
   "disputeDocument": "Dispute document",
   "paymentPlanAgreement": "Payment Plan Agreement",
@@ -868,6 +868,7 @@
   "successfullyDeletedDocumentsMsg": "Document deleted successfully",
   "errorDeletedDocumentsMsg": "Error while deleting document, Please try again later",
   "viewTemplate": "View template",
+  "projectTitle": "Project profile - {{buyerName}}",
   "approvedCodingMissingHeader": "Approved: Coding missing",
   "codingMissing": "Coding missing"
 }
