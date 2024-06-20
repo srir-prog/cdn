@@ -863,5 +863,6 @@
     "viewTemplate": "टेम्पलेट देखें",
     "projectTitle": "प्रोजेक्ट प्रोफ़ाइल - {{buyerName}}",
     "expenseReport": "व्यय रिपोर्ट",
-    "employee": "कर्मचारी"
+    "employee": "कर्मचारी",
+    "employeeId": "कर्मचारी आयडी"
 }

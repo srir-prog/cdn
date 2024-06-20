@@ -870,5 +870,6 @@
   "viewTemplate": "View template",
   "projectTitle": "Project profile - {{buyerName}}",
   "expenseReport": "Expense Report",
-  "employee": "employee"
+  "employee": "employee",
+  "employeeId": "Employee Id"
 }
