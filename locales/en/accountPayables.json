@@ -474,5 +474,7 @@
   "merchantNotInApprovedCategory": "Supplier ineligible to process Amex cards",
   "merchantNotInApprovedList": "Supplier ineligible to process Amex cards",
   "cardFundingAccountDeclined": "Card not activated",
-  "merchantDoesNotAcceptAmex": "Supplier does not accept Amex cards"
+  "merchantDoesNotAcceptAmex": "Supplier does not accept Amex cards",
+  "expenseReport": "Expense Report",
+  "employee": "employee"
 }

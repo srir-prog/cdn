@@ -869,6 +869,8 @@
   "errorDeletedDocumentsMsg": "Error while deleting document, Please try again later",
   "viewTemplate": "View template",
   "projectTitle": "Project profile - {{buyerName}}",
+  "expenseReport": "Expense Report",
+  "employee": "employee",
   "approvedCodingMissingHeader": "Approved: Coding missing",
   "codingMissing": "Coding missing",
   "approvedWithCodingMissingStatus": "Approved coding missing",
