@@ -864,6 +864,7 @@
     "projectTitle": "प्रोजेक्ट प्रोफ़ाइल - {{buyerName}}",
     "expenseReport": "व्यय रिपोर्ट",
     "employee": "कर्मचारी",
+    "employeeId": "कर्मचारी आयडी",
     "approvedCodingMissingHeader": "स्वीकृत: कोडिंग गायब है",
     "codingMissing": "कोडिंग गायब है",
     "approvedWithCodingMissingStatus": "स्वीकृत कोडिंग गायब है",

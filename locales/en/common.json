@@ -871,6 +871,7 @@
   "projectTitle": "Project profile - {{buyerName}}",
   "expenseReport": "Expense Report",
   "employee": "employee",
+  "employeeId": "Employee Id",
   "approvedCodingMissingHeader": "Approved: Coding missing",
   "codingMissing": "Coding missing",
   "approvedWithCodingMissingStatus": "Approved coding missing",
