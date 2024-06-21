@@ -873,5 +873,8 @@
     "addDocumentType": "दस्तावेज़ प्रकार जोड़ें",
     "documentName": "दस्तावेज़ का नाम",
     "documentType": "दस्तावेज़ का प्रकार",
-    "selectVisibility": "दृश्यता का चयन करें"
+    "selectVisibility": "दृश्यता का चयन करें",
+    "lastPaymentDate": "अंतिम भुगतान तिथि",
+    "internalTooltipMsg": "केवल सेंटाइम उपयोगकर्ताओं के लिए दृश्यमान",
+    "sharedTooltipMsg": "ग्राहकों/आपूर्तिकर्ताओं को उनके पोर्टल के माध्यम से दृश्यमान"
 }

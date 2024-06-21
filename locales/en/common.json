@@ -880,5 +880,8 @@
   "addDocumentType": "Add document type",
   "documentName": "Document name",
   "documentType": "Document type",
-  "selectVisibility": "Select visibility"
+  "selectVisibility": "Select visibility",
+  "lastPaymentDate": "Last payment date",
+  "internalTooltipMsg": "Visible to Centime users only",
+  "sharedTooltipMsg": "Visible to customers/suppliers via their portals"
 }
