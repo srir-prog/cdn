@@ -107,5 +107,8 @@
   "maxLength": "Maximum character limit {{charLimit}}",
   "validateDirectoryPath": "Please enter correct path or you may missing trailing slash at the end",
   "defaultLevelLimitError": "Value less than base limit",
-  "noSpecialChars": "No Special Characters allowed"
+  "noSpecialChars": "No Special Characters allowed",
+  "inValidLegalNameForAmex": "Legal Name for American Express Card can include only these special characters []?!|$:.-_@*%~#^£¢¤¬(),& ",
+  "ensureUniqueName": "Name must be unique",
+  "percentageLimitation": "The value should be between {{minValue}}% and {{maxValue}}%"
 }
