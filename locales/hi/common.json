@@ -864,5 +864,12 @@
     "projectTitle": "प्रोजेक्ट प्रोफ़ाइल - {{buyerName}}",
     "expenseReport": "व्यय रिपोर्ट",
     "employee": "कर्मचारी",
-    "employeeId": "कर्मचारी आयडी"
+    "employeeId": "कर्मचारी आयडी",
+    "approvedCodingMissingHeader": "स्वीकृत: कोडिंग गायब है",
+    "codingMissing": "कोडिंग गायब है",
+    "mandatoryCodingFieldMissingDescription": "कोडिंग फ़ील्ड गायब हैं",
+    "needsApproversCodingMissingHeader": "अनुमोदकों की आवश्यकता है: कोडिंग गायब है",
+    "awaitingApprovalCodingMissingHeader": "अनुमोदन की प्रतीक्षा में: कोडिंग गायब है",
+    "readyForApprovalCodingMissingHeader": "अनुमोदन के लिए तैयार: कोडिंग गायब है",
+    "readyToPostDuplicateHeader": "पोस्ट करने के लिए तैयार: संभावित डुप्लिकेट मिला"
 }
