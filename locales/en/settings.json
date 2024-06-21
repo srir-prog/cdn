@@ -842,5 +842,12 @@
   "delete": "Delete",
   "addAutomations": "Add automations",
   "activeIn" : "Active in",
-  "canNotDeleteCustomField" : "Remove it from the automation to delete here."
+  "canNotDeleteCustomField" : "Remove it from the automation to delete here.",
+  "deleteDocumentTypeConfirmationMsg": "Are you sure you want to delete `{{documentTypeName}}` document?",
+  "documents": "Documents",
+  "documentType": "Document type",
+  "addDocumentType": "Add document type",
+  "solution": "Solution",
+  "all": "All",
+  "documentTypeTitle": "Document types"
 }

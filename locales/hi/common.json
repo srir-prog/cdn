@@ -871,5 +871,22 @@
     "needsApproversCodingMissingHeader": "अनुमोदकों की आवश्यकता है: कोडिंग गायब है",
     "awaitingApprovalCodingMissingHeader": "अनुमोदन की प्रतीक्षा में: कोडिंग गायब है",
     "readyForApprovalCodingMissingHeader": "अनुमोदन के लिए तैयार: कोडिंग गायब है",
-    "readyToPostDuplicateHeader": "पोस्ट करने के लिए तैयार: संभावित डुप्लिकेट मिला"
+    "readyToPostDuplicateHeader": "पोस्ट करने के लिए तैयार: संभावित डुप्लिकेट मिला",
+    "additionalDocumentsTabTitle": "अतिरिक्त दस्तावेज़ ({{documentCount}})",
+    "invoiceDate": "चालान की तारीख",
+    "paymentTerms": "अदायगी की शर्तें",
+    "paymentStatus": "भुगतान की स्थिति",
+    "paymentDate": "भुगतान तिथि",
+    "lastNotes": "अंतिम नोट्स",
+    "nextAction": "अगला कदम",
+    "noDocumentToShow": "दिखाने के लिए कोई दस्तावेज़ नहीं",
+    "solution": "समाधान",
+    "all": "सब",
+    "addDocumentType": "दस्तावेज़ प्रकार जोड़ें",
+    "documentName": "दस्तावेज़ का नाम",
+    "documentType": "दस्तावेज़ का प्रकार",
+    "selectVisibility": "दृश्यता का चयन करें",
+    "lastPaymentDate": "अंतिम भुगतान तिथि",
+    "internalTooltipMsg": "केवल सेंटाइम उपयोगकर्ताओं के लिए दृश्यमान",
+    "sharedTooltipMsg": "ग्राहकों/आपूर्तिकर्ताओं को उनके पोर्टल के माध्यम से दृश्यमान"
 }

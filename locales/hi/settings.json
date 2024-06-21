@@ -802,5 +802,11 @@
     "delete": "मिटायें",
     "addAutomations": "स्वचालन जोड़ें",
     "activeIn" : "इनमें सक्रिय हैं",
-    "canNotDeleteCustomField" : "इसे यहां से हटाने के लिए स्वचालन से हटाएँ।"
+    "canNotDeleteCustomField" : "इसे यहां से हटाने के लिए स्वचालन से हटाएँ।",
+    "documents": "दस्तावेज़",
+    "documentType": "दस्तावेज़ का प्रकार",
+    "addDocumentType": "दस्तावेज़ प्रकार जोड़ें",
+    "solution": "समाधान",
+    "all": "सब",
+    "documentTypeTitle": "दस्तावेज़ प्रकार"
 }

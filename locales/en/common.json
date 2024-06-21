@@ -878,5 +878,22 @@
   "needsApproversCodingMissingHeader": "Needs approvers: Coding missing",
   "awaitingApprovalCodingMissingHeader": "Awaiting approval: Coding missing",
   "readyForApprovalCodingMissingHeader": "Ready for approval: Coding missing",
-  "readyToPostDuplicateHeader": "Ready to post: Potential duplicate found"
+  "readyToPostDuplicateHeader": "Ready to post: Potential duplicate found",
+  "additionalDocumentsTabTitle": "Additional documents ({{documentCount}})",
+  "invoiceDate": "Invoice date",
+  "paymentTerms": "Payment terms",
+  "paymentStatus": "Payment status",
+  "paymentDate": "Payment date",
+  "lastNotes": "Last notes",
+  "nextAction": "Next action",
+  "noDocumentToShow": "No document to show",
+  "solution": "Solution",
+  "all": "All",
+  "addDocumentType": "Add document type",
+  "documentName": "Document name",
+  "documentType": "Document type",
+  "selectVisibility": "Select visibility",
+  "lastPaymentDate": "Last payment date",
+  "internalTooltipMsg": "Visible to Centime users only",
+  "sharedTooltipMsg": "Visible to customers/suppliers via their portals"
 }
