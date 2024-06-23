@@ -555,5 +555,15 @@
     "paymentReminder": "भुगतान रिमाईन्डर",
     "paymentDatePlaceHolder": "<भुगतान तिथि>",
     "failureReasonPlaceHolder": "<असफलता का कारण>",
-    "failureReason": "असफलता का कारण"
+    "failureReason": "असफलता का कारण",
+    "customerCampaignConditionDescription": "ग्राहक स्तर: शर्तों के लिए {{frequency}} {{period}}{{day}}: {{conditionKey}} {{conditionOperator}} {{conditionValue}}",
+    "customerCampaignDescription": "ग्राहक स्तर: {{frequency}} {{period}}{{day}}",
+    "automatedReminderCampaignEmailTemplates": "स्वचालित अनुस्मारक अभियान ईमेल टेम्पलेट",
+    "invoiceInternalTemplate": "आंतरिक ईमेल चालान करें",
+    "customerWorkflowTemplate": "ग्राहक अनुस्मारक ईमेल",
+    "customerInternalTemplate": "ग्राहक का आंतरिक ईमेल",
+    "addCondition": "शर्त जोड़ें",
+    "formFieldCampaignType": "भुगतान अनुस्मारक अभियान",
+    "escalationAutomation": "वृद्धि स्वचालन",
+    "senderProfileForCustomerEmails": "ग्राहक ईमेल के लिए प्रेषक प्रोफ़ाइल"
 }
