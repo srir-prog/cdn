@@ -557,5 +557,15 @@
     "paymentReminder": "Payment reminder",
     "paymentDatePlaceHolder": "<payment date>",
     "failureReasonPlaceHolder": "<failure reason>",
-    "failureReason": "Failure reason"
+    "failureReason": "Failure reason",
+    "customerCampaignConditionDescription": "Customer level: {{frequency}} {{period}}{{day}} for conditions: {{conditionKey}} {{conditionOperator}} {{conditionValue}}",
+    "customerCampaignDescription": "Customer level: {{frequency}} {{period}}{{day}}",
+    "automatedReminderCampaignEmailTemplates": "Automated reminder campaign email templates",
+    "invoiceInternalTemplate": "Invoice internal email",
+    "customerWorkflowTemplate": "Customer reminder email",
+    "customerInternalTemplate": "Customer internal email",
+    "addCondition": "Add condition",
+    "formFieldCampaignType": "Payment reminder campaign",
+    "escalationAutomation": "Escalation automation",
+    "senderProfileForCustomerEmails": "Sender profile for customer emails"
 }
