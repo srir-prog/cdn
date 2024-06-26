@@ -80,6 +80,8 @@
   "minAmountGreaterThanDefaultLimit": "Value must be greater than first approval limit",
   "minAmountLessThanThirdLevelLimit": "Value must be less than third approval limit",
   "minAmountGreaterThanSecondLevelLimit": "Value must be greater than second approval limit",
+  "minAmountGreaterThanLowerTierLevelLimit": "Value must be greater than lower tier level limit",
+  "minAmountLessThanUpperTierLevelLimit": "Value must be less than upper tier level limit",
   "required": "Required",
   "amountMinAndMaxGenericErrorMessage": "Amount must be between {{minAmount}} and {{maxAmount}}, both inclusive.",
   "periodMinAndMaxGenericErrorMessage": "Period must be between {{minPeriod}} and {{maxPeriod}}, both inclusive.",
