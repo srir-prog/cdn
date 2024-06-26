@@ -565,7 +565,5 @@
     "addCondition": "शर्त जोड़ें",
     "formFieldCampaignType": "भुगतान अनुस्मारक अभियान",
     "escalationAutomation": "वृद्धि स्वचालन",
-    "senderProfileForCustomerEmails": "ग्राहक ईमेल के लिए प्रेषक प्रोफ़ाइल",
-    "HistoryActionCreditCardPreferencesUpdated":"क्रेडिट कार्ड प्राथमिकताएं अपडेट की गईं",
-    "HistoryActionACHPreferencesUpdated": "ACH प्राथमिकताएं अपडेट की गईं"
+    "senderProfileForCustomerEmails": "ग्राहक ईमेल के लिए प्रेषक प्रोफ़ाइल"
 }

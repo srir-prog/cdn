@@ -567,7 +567,5 @@
     "addCondition": "Add condition",
     "formFieldCampaignType": "Payment reminder campaign",
     "escalationAutomation": "Escalation automation",
-    "senderProfileForCustomerEmails": "Sender profile for customer emails",
-    "HistoryActionCreditCardPreferencesUpdated":"Credit card preferences updated",
-    "HistoryActionACHPreferencesUpdated": "ACH preferences updated"
+    "senderProfileForCustomerEmails": "Sender profile for customer emails"
 }
