@@ -76,6 +76,8 @@
   "minAmountGreaterThanDefaultLimit": "मान पहली स्वीकृति सीमा से अधिक होना चाहिए",
   "minAmountLessThanThirdLevelLimit": "मान तीसरी स्वीकृति सीमा से कम होना चाहिए",
   "minAmountGreaterThanSecondLevelLimit": "मान दूसरी स्वीकृति सीमा से अधिक होना चाहिए",
+  "minAmountGreaterThanLowerTierLevelLimit": "मान निचले स्तर की सीमा से अधिक होना चाहिए",
+  "minAmountLessThanUpperTierLevelLimit": "मान ऊपरी स्तर की सीमा से कम होना चाहिए",
   "required": "आवश्यक",
   "amountMinAndMaxGenericErrorMessage": "राशि {{minAmount}} और {{maxAmount}} दोनों के बीच होनी चाहिए।",
   "periodMinAndMaxGenericErrorMessage": "अवधि {{minPeriod}} और {{maxPeriod}} के बीच होनी चाहिए, दोनों समावेशी।",
