@@ -557,5 +557,7 @@
     "paymentReminder": "Payment reminder",
     "paymentDatePlaceHolder": "<payment date>",
     "failureReasonPlaceHolder": "<failure reason>",
-    "failureReason": "Failure reason"
+    "failureReason": "Failure reason",
+    "HistoryActionCreditCardPreferencesUpdated": "Credit card preferences updated",
+    "HistoryActionACHPreferencesUpdated": "ACH preferences updated"
 }
