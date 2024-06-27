@@ -929,5 +929,6 @@
   "conditionalTrigger": "Conditional trigger",
   "condition": "Condition",
   "value": "Value",
-  "duplicate": "Duplicate"
+  "duplicate": "Duplicate",
+  "historyMsgACHPaymentSettingUpdateForAccount": "Account number set to <maskedInput></maskedInput>"
 }
