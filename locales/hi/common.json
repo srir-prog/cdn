@@ -444,6 +444,13 @@
     "firstApproval": "पहली स्वीकृति",
     "secondApproval": "दूसरा अनुमोदन",
     "thirdApproval": "तीसरी स्वीकृति",
+    "fourthApproval": "चौथी मंजूरी",
+    "fifthApproval": "पांचवी मंजूरी",
+    "sixthApproval": "छठी मंजूरी",
+    "seventhApproval": "सातवीं मंजूरी",
+    "eighthApproval": "आठवीं मंजूरी",
+    "ninthApproval": "नौवीं मंजूरी",
+    "tenthApproval": "दसवीं मंजूरी",
     "listOfApprovers": "अनुमोदकों की सूची",
     "fillDocumentDetailsText": "अनुमोदन के लिए आगे बढ़ने से पहले आवश्यक दस्तावेज़ विवरण भरें और सहेजें",
     "approvalPolicyFound": "स्वीकृति नीति मिली",
@@ -497,6 +504,7 @@
     "invoiceOnholdLabel": "होल्ड पर: <ourTypo></ourTypo>",
     "historyActionDocumentRecalled": "दस्तावेज़ वापस बुलाया गया",
     "historyActionApproversUpdated": "अनुमोदक अपडेट किया गया",
+    "historyMessageApproverSetTo": "{{approverLevel}} अनुमोदक को सेट किया गया {{approverList}}",
     "historyMessageFirstApproverSetTo": "पहले अनुमोदक को {{approverList}} पर सेट किया गया",
     "historyMessageSecondApproverSetTo": "दूसरा अनुमोदक {{approverList}} पर सेट",
     "historyMessageThirdApproverSetTo": "तीसरा अनुमोदक {{approverList}} पर सेट",
@@ -922,5 +930,6 @@
     "conditionalTrigger": "सशर्त ट्रिगर",
     "condition": "स्थिति",
     "value": "कीमत",
-    "duplicate": "प्रतिलिपि"
+    "duplicate": "प्रतिलिपि",
+    "historyMsgACHPaymentSettingUpdateForAccount": "खाता संख्या <maskedInput></maskedInput> पर सेट कर दी गई है"
 }

@@ -445,6 +445,13 @@
   "firstApproval": "First approval",
   "secondApproval": "Second approval",
   "thirdApproval": "Third approval",
+  "fourthApproval": "Fourth approval",
+  "fifthApproval": "Fifth approval",
+  "sixthApproval": "Sixth approval",
+  "seventhApproval": "Seventh approval",
+  "eighthApproval": "Eighth approval",
+  "ninthApproval": "Ninth approval",
+  "tenthApproval": "Tenth approval",
   "listOfApprovers": "List of approvers",
   "fillDocumentDetailsText": "Fill and save the required document details before proceeding to approvals",
   "approvalPolicyFound": "Approval policy found",
@@ -500,6 +507,7 @@
   "successfullyRecalledInvoices": "Documents recalled",
   "historyActionDocumentRecalled": "Document recalled",
   "historyActionApproversUpdated": "Approvers updated",
+  "historyMessageApproverSetTo": "{{approverLevel}} approver set to {{approverList}}",
   "historyMessageFirstApproverSetTo": "First approver set to {{approverList}}",
   "historyMessageSecondApproverSetTo": "Second approver set to {{approverList}}",
   "historyMessageThirdApproverSetTo": "Third approver set to {{approverList}}",
@@ -929,5 +937,6 @@
   "conditionalTrigger": "Conditional trigger",
   "condition": "Condition",
   "value": "Value",
-  "duplicate": "Duplicate"
+  "duplicate": "Duplicate",
+  "historyMsgACHPaymentSettingUpdateForAccount": "Account number set to <maskedInput></maskedInput>"
 }
