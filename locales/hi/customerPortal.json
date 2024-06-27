@@ -142,5 +142,9 @@
   "typeYourEmailAddress": "अपना ईमेल पता टाइप करें",
   "authorizeAutopay": "ऑटोपे को अधिकृत करें",
   "authorizationConditions": "ऑटोपे को अधिकृत करके, आप हमें किसी भी बिल के लिए आपकी पसंदीदा भुगतान तिथि पर पसंदीदा भुगतान खाते से स्वचालित रूप से शुल्क लेने की अनुमति देते हैं",
-  "agreeToConfirm": "\"पुष्टि करें\" पर क्लिक करके, आप हमारी बात से सहमत होते हैं <clickLink></clickLink>"
+  "agreeToConfirm": "\"पुष्टि करें\" पर क्लिक करके, आप हमारी बात से सहमत होते हैं <clickLink></clickLink>",
+  "confirmationText": "क्या आप अपनी डिफ़ॉल्ट भुगतान विधि बदलना चाहते हैं?",
+  "summaryText": "आपने अभी-अभी सहेजा है {{selectedPaymentMethod}} लेकिन आपकी डिफ़ॉल्ट भुगतान विधि है {{{defaultPaymentMethod}}",
+  "yes": "हाँ",
+  "no": "नहीं"
 }
