@@ -555,5 +555,7 @@
     "paymentReminder": "भुगतान रिमाईन्डर",
     "paymentDatePlaceHolder": "<भुगतान तिथि>",
     "failureReasonPlaceHolder": "<असफलता का कारण>",
-    "failureReason": "असफलता का कारण"
+    "failureReason": "असफलता का कारण",
+    "HistoryActionCreditCardPreferencesUpdated": "क्रेडिट कार्ड प्राथमिकताएं अपडेट की गईं",
+    "HistoryActionACHPreferencesUpdated": "ACH प्राथमिकताएं अपडेट की गईं"
 }
