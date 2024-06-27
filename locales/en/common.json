@@ -507,6 +507,7 @@
   "successfullyRecalledInvoices": "Documents recalled",
   "historyActionDocumentRecalled": "Document recalled",
   "historyActionApproversUpdated": "Approvers updated",
+  "historyMessageApproverSetTo": "{{approverLevel}} approver set to {{approverList}}",
   "historyMessageFirstApproverSetTo": "First approver set to {{approverList}}",
   "historyMessageSecondApproverSetTo": "Second approver set to {{approverList}}",
   "historyMessageThirdApproverSetTo": "Third approver set to {{approverList}}",
