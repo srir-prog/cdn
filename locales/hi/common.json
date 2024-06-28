@@ -931,5 +931,6 @@
     "condition": "स्थिति",
     "value": "कीमत",
     "duplicate": "प्रतिलिपि",
-    "historyMsgACHPaymentSettingUpdateForAccount": "खाता संख्या <maskedInput></maskedInput> पर सेट कर दी गई है"
+    "historyMsgACHPaymentSettingUpdateForAccount": "खाता संख्या <maskedInput></maskedInput> पर सेट कर दी गई है",
+    "poNoApprovalWorkflowDescription": "मिलान किए गए पीओ चालान पर अनुमोदन की आवश्यकता नहीं है"
 }
