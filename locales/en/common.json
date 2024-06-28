@@ -942,5 +942,6 @@
   "uploadDocument": "Upload document",
   "accountPayableAccountReceivable": "Account payable/Account receivable",
   "companyLevel": "Company level",
-  "exceededFileCountLimit": "Number of files reached limit of {{maxFiles}}"
+  "exceededFileCountLimit": "Number of files reached limit of {{maxFiles}}",
+  "poNoApprovalWorkflowDescription": "Approval not required on matched PO invoices"
 }
