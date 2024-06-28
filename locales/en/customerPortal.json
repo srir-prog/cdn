@@ -147,7 +147,7 @@
   "authorizationConditions": "By Authorizing AutoPay, you grant us permission to automatically charge preferred payment account on your preferred payment date for any bills",
   "agreeToConfirm": "By clicking \"Confirm,\" you agree to our <clickLink></clickLink>",
   "confirmationText": "Do you want to change your default payment method",
-  "summaryText": "You have just saved a {{selectedPaymentMethod}} but your default payment method is {{defaultPaymentMethod}}",
+  "summaryText": "Current default is {{defaultPaymentMethod}}.Would you like to change it to {{selectedPaymentMethod}}?",
   "yes": "Yes",
   "no": "No"
 }
