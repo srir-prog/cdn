@@ -895,5 +895,9 @@
   "selectVisibility": "Select visibility",
   "lastPaymentDate": "Last payment date",
   "internalTooltipMsg": "Visible to Centime users only",
-  "sharedTooltipMsg": "Visible to customers/suppliers via their portals"
+  "sharedTooltipMsg": "Visible to customers/suppliers via their portals",
+  "uploadDocument": "Upload document",
+  "accountPayableAccountReceivable": "Account payable/Account receivable",
+  "companyLevel": "Company level",
+  "exceededFileCountLimit": "Number of files reached limit of {{maxFiles}}"
 }
