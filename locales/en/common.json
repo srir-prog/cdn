@@ -938,5 +938,9 @@
   "condition": "Condition",
   "value": "Value",
   "duplicate": "Duplicate",
-  "historyMsgACHPaymentSettingUpdateForAccount": "Account number set to <maskedInput></maskedInput>"
+  "historyMsgACHPaymentSettingUpdateForAccount": "Account number set to <maskedInput></maskedInput>",
+  "uploadDocument": "Upload document",
+  "accountPayableAccountReceivable": "Account payable/Account receivable",
+  "companyLevel": "Company level",
+  "exceededFileCountLimit": "Number of files reached limit of {{maxFiles}}"
 }

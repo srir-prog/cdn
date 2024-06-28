@@ -856,5 +856,7 @@
   "addDocumentType": "Add document type",
   "solution": "Solution",
   "all": "All",
-  "documentTypeTitle": "Document types"
+  "documentTypeTitle": "Document types",
+  "accountPayableAccountReceivable": "Account payable/Account receivable",
+  "companyLevel": "Company level"
 }
