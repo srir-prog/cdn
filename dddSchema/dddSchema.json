@@ -9968,6 +9968,64 @@
                 },
                 "paramObjMap": {
                     "achPaymentMode": "paymentSettings.achPaymentMode",
+                    "reqBodyMapKey": {
+                        "type":"hardCoded",
+                        "value":"paymentSettings"
+                    },
+                    "clientId":"clientId"
+                },
+                "bodyObjMap": {}
+            }
+        }
+    },
+    "poSettings":{
+        "componentType": "detailsList",
+        "title": "",
+        "ignoreKeys":["glType","clientId","clientName","sourceName"],
+        "listInfo":[
+            {
+                "label": "PO enabled",
+                "valueMap": "documentSettings.poEnabled",
+                "editType": "select",
+                "editable":true,
+                "formatType": "boolean",
+                "enum":[
+                    {
+                        "label": "Yes",
+                        "value": true
+                    },
+                    {
+                        "label": "No",
+                        "value": false
+                    }
+                ]
+            }
+        ],
+        "additionalProperties": {
+            "editableForm": true,
+            "submitButtonProps": {
+                "renderType": "Button",
+                "renderProps": {
+                    "label": "Save Edited Details"
+                }
+            },
+            "onSaveAction": {
+                "type": "updateCall",
+                "url": "fs/business-ops-service",
+                "method": "GET",
+                "pathList": [
+                    "1.0",
+                    "aggregate"
+                ],
+                "paramObj": {
+                    "templateId": "ClientSettingsUpdate"
+                },
+                "paramObjMap": {
+                    "poEnabled": "documentSettings.poEnabled",
+                    "reqBodyMapKey": {
+                        "type":"hardCoded",
+                        "value":"documentSettings"
+                    },
                     "clientId":"clientId"
                 },
                 "bodyObjMap": {}
